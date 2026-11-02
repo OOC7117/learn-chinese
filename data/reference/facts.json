@@ -178,7 +178,8 @@
           }
         ]
       },
-      "ai_generated": false
+      "ai_generated": false,
+      "valid_until": "2026-12-31"
     },
     {
       "id": "facts.visa-free-end-date-watch",
@@ -519,7 +520,8 @@
           "method": "second check with web search (checker), then a skeptic who tried to refute it"
         }
       },
-      "ai_generated": false
+      "ai_generated": false,
+      "valid_until": "2026-12-31"
     },
     {
       "id": "facts.visa-free-rules",
@@ -732,7 +734,8 @@
           "method": "second check with web search (checker), then a skeptic who tried to refute it"
         }
       },
-      "ai_generated": false
+      "ai_generated": false,
+      "valid_until": "2026-12-31"
     },
     {
       "id": "facts.240-hour-transit",
@@ -1125,7 +1128,7 @@
       "id": "facts.accommodation-registration-rule",
       "topic": "accommodation",
       "question": "Must a foreign visitor register their accommodation, e.g. when staying in a private home with a partner's family instead of a hotel?",
-      "answer": "Yes. Under Article 39 of China's Exit and Entry Administration Law, hotels register their foreign guests, so a hotel guest has nothing extra to do. When a foreigner stays anywhere other than a hotel, such as the home of a partner's family, the foreigner or the host must register the stay with the local public security organ within 24 hours of arrival. Registration is done at the local police station, or at a police office or foreigner service station where one exists. Foreigners who entered visa-free must also register. Failing to register can lead to a warning and a fine of up to CNY 2,000 (Article 76).",
+      "answer": "Yes. Under Article 39 of China's Exit and Entry Administration Law, hotels register their foreign guests, so a hotel guest has nothing extra to do. When a foreigner stays anywhere other than a hotel, such as the home of a partner's family, the foreigner or the host must register the stay with the local public security organ within 24 hours of moving in (入住后二十四小时内, Article 39); the 24 hours start when you arrive at that home, also if you spent the first nights in a hotel. Registration is done at the local police station, or at a police office or foreigner service station where one exists. Foreigners who entered visa-free must also register. Failing to register can lead to a warning and a fine of up to CNY 2,000 (Article 76).",
       "checked_on": "2026-11-02",
       "recheck_url": "https://english.www.gov.cn/archive/laws_regulations/2014/09/22/content_281474988553532.htm",
       "sources": [
@@ -4382,7 +4385,7 @@
       "id": "facts.dutch-travel-advice",
       "topic": "dutch",
       "question": "What is the Dutch government's current travel advice for China (colour code, key warnings)?",
-      "answer": "As of 1 Nov 2026, the Dutch government's travel advice for China has colour code yellow: you can travel, but there are particular safety risks. The current version was last changed on 28 Aug 2026 and was still valid on 1 Nov 2026. Check nederlandwereldwijd.nl/reisadvies/china again just before you leave. Main warnings: You may not use, possess or sell drugs in China, including soft drugs. Penalties are much heavier than in the Netherlands, up to a heavy prison sentence or even the death penalty. Police test blood, urine or hair, and a positive test counts even if you took the drug before you arrived in China. As a foreigner you can be arrested for unclear or political reasons, for example on suspicion of spying or of endangering national security, and the Dutch embassy can then give little or no help. Posting or sharing messages that criticise China or its government can be punishable, even messages from before your trip, and officials can check your phone or laptop on arrival and during your trip. Do not photograph or film demonstrations, government buildings, military sites, the army or the police. Avoid demonstrations and large gatherings: if you are present at a demonstration you can be arrested for endangering national security. Watch out for pickpockets and theft, especially in crowded places. Also be wary of friendly English-speaking 'guides' or strangers who invite you to a tea shop, massage parlour or bar: you are likely to get a very high bill and may be forced, under threat of violence, to pay it. Hurricanes (typhoons) and tropical storms hit the coastal provinces mainly from May to November. In the south, heavy rain falls mainly from February to October and can cause floods, landslides and mudflows. Earthquakes are a risk mainly in the west of the country. The advice also reports a sudden flood on 26 Aug 2026 in Tibet near the Nepal border and warns of new flood waves there, often with little or no warning. To visit Tibet you need an entry permit, applied for through your tour operator, and the authorities sometimes refuse it. The government can temporarily block phone and internet traffic, and Google, Facebook, Instagram, WhatsApp, YouTube, X and many Dutch and international news media are always blocked. You must register within 24 hours of arrival. A hotel does this for you, but if you stay with family you must register yourself at a local police station or Public Security Bureau, or online on the website of the city where you stay. There are no particular risks for LGBTIQ+ travellers, but same-sex marriages and partnerships are not legally recognised in China.",
+      "answer": "As of 1 Nov 2026, the Dutch government's travel advice for China has colour code yellow: you can travel, but there are particular safety risks. The current version was last changed on 28 Aug 2026 and was still valid on 1 Nov 2026. Check nederlandwereldwijd.nl/reisadvies/china again just before you leave. Main warnings: You may not use, possess or sell drugs in China, including soft drugs. Penalties are much heavier than in the Netherlands, up to a heavy prison sentence or even the death penalty. Police test blood, urine or hair, and a positive test counts even if you took the drug before you arrived in China. As a foreigner you can be arrested for unclear or political reasons, for example on suspicion of spying or of endangering national security, and the Dutch embassy can then give little or no help. Posting or sharing messages that criticise China or its government can be punishable, even messages from before your trip, and officials can check your phone or laptop on arrival and during your trip. Do not photograph or film demonstrations, government buildings, military sites, the army or the police. Avoid demonstrations and large gatherings: if you are present at a demonstration you can be arrested for endangering national security. Watch out for pickpockets and theft, especially in crowded places. Also be wary of friendly English-speaking 'guides' or strangers who invite you to a tea shop, massage parlour or bar: you are likely to get a very high bill and may be forced, under threat of violence, to pay it. Hurricanes (typhoons) and tropical storms hit the coastal provinces mainly from May to November. In the south, heavy rain falls mainly from February to October and can cause floods, landslides and mudflows. Earthquakes are a risk mainly in the west of the country. The advice also reports a sudden flood on 26 Aug 2026 in Tibet near the Nepal border and warns of new flood waves there, often with little or no warning. To visit Tibet you need an entry permit, applied for through your tour operator, and the authorities sometimes refuse it. The government can temporarily block phone and internet traffic, and Google, Facebook, Instagram, WhatsApp, YouTube, X and many Dutch and international news media are always blocked. You must register within 24 hours of arrival (Chinese law counts the 24 hours from moving in to the place where you stay; see the registration card). A hotel does this for you, but if you stay with family you must register yourself at a local police station or Public Security Bureau, or online on the website of the city where you stay. There are no particular risks for LGBTIQ+ travellers, but same-sex marriages and partnerships are not legally recognised in China.",
       "checked_on": "2026-11-02",
       "recheck_url": "https://www.nederlandwereldwijd.nl/reisadvies/china",
       "sources": [

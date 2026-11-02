@@ -92,7 +92,7 @@ Stable, ASCII, dot-separated, matching `^[a-z0-9][a-z0-9._-]{0,159}$` (the same 
     "gender": "m|f", "address_form": true, "reference_form": false, "sources": [] }], "rules": [] },
   "grammar": { "items": [{ "id", "title", "rule", "details", "examples": [{ "hanzi", "pinyin", "spoken", "english", "correct": true, "source": { "url", "title" } }], "common_mistake", "sources": [] }] },
   "pitfalls": { "items": [ "same shape as grammar" ] },
-  "facts": { "checked_on": "2026-11-02", "facts": [{ "id", "topic", "question", "answer", "checked_on", "recheck_url", "sources": [] }],
+  "facts": { "checked_on": "2026-11-02", "facts": [{ "id", "topic", "question", "answer", "checked_on", "recheck_url", "sources": [], "valid_until": "2026-12-31 (optional)", "confidence": "medium|low (optional)" }],
              "open": [{ "id", "topic", "question", "official_url": "…|null" }] }
 }
 ```
@@ -100,6 +100,10 @@ Stable, ASCII, dot-separated, matching `^[a-z0-9][a-z0-9._-]{0,159}$` (the same 
 `w` lists the HSK words a phrase or kinship term contains, matched by characters **and** reading, longest
 first (`hskWordsIn` in scripts/build-app-data.mjs): 银行 yínháng links to 银行, never to 行 xíng. The app
 shows them as links on the phrase and uses them to find example phrases for a word (cloze cards, word page).
+
+Phrases, tips, kinship terms and facts carry `confidence` only when the research rated them below "high"
+(the app shows a "less certain" chip for low and a note for medium). A fact with `valid_until` (a policy with
+an end date, such as visa-free entry) is marked "out of date" in the app after that day.
 
 `facts.open` are the travel questions whose answer could not be double-checked: only the question (the
 fact's `open_label` in data/reference/facts.json, else its research question) and its official page reach

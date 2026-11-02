@@ -3,7 +3,7 @@
 
 import { h, replace, icon, zh, py } from '../dom.js';
 import { activeDeckList, withDeck } from '../lib/settings.js';
-import { audioButtons, markButtons, sourceList, richText } from './parts.js';
+import { audioButtons, markButtons, sourceList, richText, lessCertainChip, confidenceNote } from './parts.js';
 
 const SPEAKER = { me: 'You say', them: 'You hear', either: 'Either' };
 
@@ -12,6 +12,7 @@ export function phraseCard(p, ctx, { open = false } = {}) {
     h('div.phrase-head',
       h('span.chip', SPEAKER[p.speaker] ?? 'Phrase'),
       p.register && p.register !== 'neutral' ? h('span.chip', p.register) : null,
+      lessCertainChip(p),
       h('span.grow'),
       markButtons(p, ctx)),
     zh(p.hanzi, 'phrase-hanzi'),
@@ -25,7 +26,8 @@ export function phraseCard(p, ctx, { open = false } = {}) {
       p.usage ? h('p', richText(p.usage)) : null,
       p.regional_note ? h('p.note', h('strong', 'Regional: '), richText(p.regional_note)) : null,
       p.slots?.length ? h('p.note', h('strong', 'Swap in: '), p.slots.map((s, i) => [i ? '; ' : '', zh(s.text), ` (${s.meaning})`, s.examples?.length ? [': ', s.examples.map((e, k) => [k ? ', ' : '', zh(e)])] : null])) : null,
-      sourceList(p.sources)));
+      sourceList(p.sources),
+      confidenceNote(p)));
 }
 
 export async function render(root, ctx) {
@@ -55,10 +57,10 @@ export async function render(root, ctx) {
     h('h2', `Phrases (${scene.items.length})`),
     h('div.phrase-list', scene.items.map((p) => phraseCard(p, ctx))),
     scene.rules?.length ? [h('h2', 'Etiquette and tips'), h('ul.rules', scene.rules.map((r) => h('li.rule', { id: `tip-${r.id}` },
-      h('p', h('strong', richText(r.rule))),
+      h('p', h('strong', richText(r.rule)), lessCertainChip(r) ? [' ', lessCertainChip(r)] : null),
       r.why ? h('p.note', richText(r.why)) : null,
       r.regional_note ? h('p.note', h('strong', 'Regional: '), richText(r.regional_note)) : null,
-      h('details', h('summary', 'Sources'), sourceList(r.sources)))))] : null);
+      h('details', h('summary', 'Sources'), sourceList(r.sources), confidenceNote(r)))))] : null);
   // A link to one phrase (?p=<id>) or tip (?tip=<id>) of this scene: show it and open its details.
   const target = ctx.query?.p ? document.getElementById(`p-${ctx.query.p}`) : ctx.query?.tip ? document.getElementById(`tip-${ctx.query.tip}`) : null;
   if (target) {

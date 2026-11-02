@@ -4,7 +4,7 @@
 
 import { h, replace, icon, zh, py } from '../dom.js';
 import { activeDeckList, withDeck } from '../lib/settings.js';
-import { audioButtons, markButtons, sourceList, richText } from './parts.js';
+import { audioButtons, markButtons, sourceList, richText, confidenceNote } from './parts.js';
 
 const TABS = [
   ['family.kinship-paternal', "Father's side"],
@@ -68,7 +68,7 @@ export async function render(root, ctx) {
       t.usage ? h('p', richText(t.usage)) : null,
       t.regional_note ? h('p.note', h('strong', 'Regional: '), richText(t.regional_note)) : null,
       t.relation_path?.length ? h('p.small.muted', 'Path: ', t.relation_path.join(' → ')) : null,
-      h('details', h('summary', 'Sources'), sourceList(t.sources)));
+      h('details', h('summary', 'Sources'), sourceList(t.sources), confidenceNote(t)));
   }
 
   const on = activeDeckList(state.settings).includes('kinship');
@@ -77,7 +77,7 @@ export async function render(root, ctx) {
     h('p.muted', 'Chinese names relatives by side (father\'s or mother\'s), by age (older or younger than your parent or you) and by generation. With your partner\'s family you use the terms your partner uses.'),
     h('label.btn', h('input.switch', { type: 'checkbox', checked: on, onchange: (e) => state.updateSettings(withDeck(state.settings, 'kinship', e.target.checked)) }), 'Study these terms daily'),
     body, detail,
-    kin.rules?.length ? [h('h2', 'Rules of thumb'), h('ul.rules', kin.rules.map((r) => h('li.rule', h('p', h('strong', richText(r.rule))), r.why ? h('p.note', richText(r.why)) : null, r.regional_note ? h('p.note', h('strong', 'Regional: '), richText(r.regional_note)) : null, h('details', h('summary', 'Sources'), sourceList(r.sources)))))] : null);
+    kin.rules?.length ? [h('h2', 'Rules of thumb'), h('ul.rules', kin.rules.map((r) => h('li.rule', h('p', h('strong', richText(r.rule))), r.why ? h('p.note', richText(r.why)) : null, r.regional_note ? h('p.note', h('strong', 'Regional: '), richText(r.regional_note)) : null, h('details', h('summary', 'Sources'), sourceList(r.sources), confidenceNote(r)))))] : null);
   draw();
   return null;
 }

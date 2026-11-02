@@ -14,6 +14,9 @@ const officialUrl = (f) => {
   return f.recheck_url && src?.authority === 'official' ? f.recheck_url : null;
 };
 
+/** { confidence } when the research rated an item below "high" (the app says so), else nothing. */
+const lessCertain = (x) => (x.confidence === 'medium' || x.confidence === 'low' ? { confidence: x.confidence } : {});
+
 const slimSources = (sources = []) => sources.slice(0, 4).map((s) => ({ url: s.url, title: s.title, publisher: s.publisher ?? null, accessed: s.accessed ?? null }));
 
 /**
@@ -44,10 +47,10 @@ export function buildContent(root, { includeUnverified = false } = {}) {
         return {
           id: p.id, hanzi: p.hanzi, pinyin: p.pinyin, literal: p.literal, english: p.english, usage: p.usage,
           register: p.register, speaker: p.speaker, regional_note: p.regional_note, slots: p.slots,
-          sources: slimSources(p.sources), audio: p.audio ?? null,
+          sources: slimSources(p.sources), audio: p.audio ?? null, ...lessCertain(p),
         };
       });
-      const rules = (scene.rules ?? []).filter(ok).map((r) => ({ id: r.id, rule: r.rule, why: r.why, regional_note: r.regional_note, sources: slimSources(r.sources) }));
+      const rules = (scene.rules ?? []).filter(ok).map((r) => ({ id: r.id, rule: r.rule, why: r.why, regional_note: r.regional_note, sources: slimSources(r.sources), ...lessCertain(r) }));
       const dialogues = (dialoguesByScene.get(scene.id) ?? [])
         .filter((d) => d.lines.every((l) => phraseIds.has(l.phrase)))
         .map((d) => ({ id: d.id, title: d.title, ai_generated: true, reviewed: d.reviewed === true, lines: d.lines.map((l) => ({ speaker: l.speaker, phrase: l.phrase })) }));
@@ -66,9 +69,9 @@ export function buildContent(root, { includeUnverified = false } = {}) {
       id: t.id, hanzi: t.hanzi, pinyin: t.pinyin, english: t.english, literal: t.literal, usage: t.usage, regional_note: t.regional_note,
       relation_path: t.relation_path ?? [], side: t.side ?? null, generation: t.generation ?? null, gender: t.gender ?? null,
       address_form: t.address_form ?? null, reference_form: t.reference_form ?? null, group: t.group ?? null, group_title: t.group_title ?? null,
-      sources: slimSources(t.sources), audio: t.audio ?? null,
+      sources: slimSources(t.sources), audio: t.audio ?? null, ...lessCertain(t),
     })),
-    rules: kin.rules.filter(ok).map((r) => ({ id: r.id, rule: r.rule, why: r.why, regional_note: r.regional_note, sources: slimSources(r.sources) })),
+    rules: kin.rules.filter(ok).map((r) => ({ id: r.id, rule: r.rule, why: r.why, regional_note: r.regional_note, sources: slimSources(r.sources), ...lessCertain(r) })),
   } : null;
   if (kinship) counts.terms = kinship.terms.length;
   const reference = (name) => {
@@ -86,7 +89,7 @@ export function buildContent(root, { includeUnverified = false } = {}) {
   const facts = factsDoc ? {
     title: factsDoc.title,
     checked_on: factsDoc.checked_on,
-    facts: factsDoc.facts.filter(ok).map((f) => ({ id: f.id, topic: f.topic, question: f.question, answer: f.answer, checked_on: f.checked_on, recheck_url: f.recheck_url, sources: slimSources(f.sources) })),
+    facts: factsDoc.facts.filter(ok).map((f) => ({ id: f.id, topic: f.topic, question: f.question, answer: f.answer, checked_on: f.checked_on, recheck_url: f.recheck_url, sources: slimSources(f.sources), ...lessCertain(f), ...(f.valid_until ? { valid_until: f.valid_until } : {}) })),
     // Questions whose answer could not be double-checked: only the question and the official page to look
     // it up on reach the app, never the unverified answer.
     open: factsDoc.facts.filter((f) => !ok(f) && f.status !== 'refuted').map((f) => ({ id: f.id, topic: f.topic, question: f.open_label ?? f.question, official_url: officialUrl(f) })),

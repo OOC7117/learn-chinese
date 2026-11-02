@@ -172,6 +172,7 @@ export function validate({ root = ROOT, dict = loadCedict() } = {}) {
       claim(f.id, rel);
       requireSources(f.id, f);
       if (!f.checked_on) fail('missing-date', f.id, 'facts that change need checked_on');
+      if (f.valid_until !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(f.valid_until)) fail('missing-date', f.id, 'valid_until must be a date (YYYY-MM-DD)');
       note('fact', f, f.question ?? f.answer);
     }
     // Dialogues only arrange phrases of their own scene; a phrase's speaker ("me", "them", "either") limits
@@ -197,6 +198,24 @@ export function validate({ root = ROOT, dict = loadCedict() } = {}) {
   if (existsSync(contentPath) && readJson(contentPath).dev_unverified) fail('unverified-content-in-app', 'app/data/content.json', 'built with BUILD_INCLUDE_UNVERIFIED=1: rebuild without it');
   // Open travel questions reach the app without their (unconfirmed) answer.
   if (existsSync(contentPath)) for (const f of readJson(contentPath).facts?.open ?? []) if ('answer' in f) fail('unverified-content-in-app', f.id, 'an open question must not carry its unconfirmed answer');
+
+  // A text the app shows must not quote a phrase that is hidden (unverified or refuted): the Chinese of a
+  // hidden phrase would reach the learner through a tip or usage note.
+  const strip = (t) => String(t ?? '').replace(/[\s！!。，,？?、…“”"'：:；;（）()]/g, '');
+  const hiddenPhrases = [];
+  const shownTexts = [];
+  for (const rel of contentFiles.filter((r) => r.startsWith('situations'))) {
+    for (const scene of readJson(join(data, rel)).scenes ?? []) {
+      for (const p of scene.phrases ?? []) {
+        if (p.status !== 'verified') { if ([...strip(p.hanzi)].length >= 2) hiddenPhrases.push(p); } else shownTexts.push([p.id, [p.usage, p.literal, p.regional_note, p.english]]);
+      }
+      for (const r of scene.rules ?? []) if (r.status === 'verified') shownTexts.push([r.id, [r.rule, r.why, r.regional_note]]);
+    }
+  }
+  for (const [id, texts] of shownTexts) {
+    const text = strip(texts.filter(Boolean).join(' '));
+    for (const p of hiddenPhrases) if (text.includes(strip(p.hanzi))) fail('quotes-hidden-phrase', id, `quotes ${p.hanzi} (${p.id}, ${p.status})`);
+  }
 
   // One entry per item: an item can be unverified for several reasons (status and dictionary check).
   const merged = new Map();

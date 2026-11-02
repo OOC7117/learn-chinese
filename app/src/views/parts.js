@@ -114,3 +114,15 @@ export function plainText(text) {
   if (!text) return text;
   return String(text).replace(REF, (id) => refOf(id)?.label ?? id);
 }
+
+/** A chip for items the research rated low confidence (few or weak sources). */
+export function lessCertainChip(item) {
+  return item?.confidence === 'low' ? h('span.chip.warn', { title: 'Few or weak sources: check before relying on it' }, 'less certain') : null;
+}
+
+/** A line under the sources: how sure the research was (shown for medium and low). */
+export function confidenceNote(item) {
+  if (item?.confidence === 'low') return h('p.small.muted', 'Confidence: low. Few or weak sources; check it before relying on it.');
+  if (item?.confidence === 'medium') return h('p.small.muted', 'Confidence: medium. Some sources were only read in summary, or one strong source supports it.');
+  return null;
+}

@@ -108,3 +108,10 @@ test('missing audio file', () => {
   assert.deepEqual(codes(result), ['audio-file-missing']);
   assert.deepEqual(result.errors.map((e) => [e.id, e.detail]), [['w.597d.hao3', 's/hao3.mp3']]);
 });
+
+test('a shown text may not quote a hidden (unverified or refuted) phrase', () => {
+  const result = validateCase('quotes-hidden-phrase');
+  assert.deepEqual(codes(result), ['quotes-hidden-phrase']);
+  // The usage note made for this case, and the scene's tip, which also names 不客气 as the reply to thanks.
+  assert.deepEqual(errorIds(result, 'quotes-hidden-phrase').sort(), ['travel.greetings.rule-core-set', 'travel.greetings.xiexie']);
+});

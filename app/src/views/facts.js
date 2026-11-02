@@ -1,7 +1,10 @@
 // Travel facts that change (visa, payment, trains, internet, emergencies), each with the date it was
 // checked and the official page to re-check before travelling.
 import { h, replace, icon } from '../dom.js';
-import { sourceList } from './parts.js';
+import { sourceList, lessCertainChip, confidenceNote } from './parts.js';
+
+/** A fact with an end date (e.g. a visa policy) that has passed. */
+const expired = (f) => Boolean(f.valid_until) && new Date().toISOString().slice(0, 10) > f.valid_until;
 
 const TOPIC_LABEL = { visa: 'Entry and visa', accommodation: 'Staying with family or in hotels', payments: 'Paying', cash: 'Paying', foreign: 'Paying', trains: 'Trains', internet: 'Internet and apps', vpn: 'Internet and apps', apps: 'Internet and apps', emergency: 'Emergencies', dutch: 'Dutch embassy and travel advice', health: 'Entry and visa', online: 'Entry and visa', carry: 'Entry and visa', entry: 'Entry and visa' };
 
@@ -21,10 +24,12 @@ export async function render(root, ctx) {
     facts.length ? [...groups].map(([label, list]) => [
       h('h2', label),
       h('div.fact-list', list.map((f) => h('details.fact.panel',
-        h('summary', h('strong', f.question)),
+        h('summary', h('strong', f.question), lessCertainChip(f) ? [' ', lessCertainChip(f)] : null, expired(f) ? [' ', h('span.chip.warn', 'out of date')] : null),
+        expired(f) ? h('p.callout.warn', `This was valid until ${f.valid_until}. Check the official page for what applies now.`) : null,
         h('p', f.answer),
         h('p.small.muted', `Checked ${f.checked_on}`, f.recheck_url ? [' · ', h('a', { href: f.recheck_url, rel: 'noopener noreferrer', target: '_blank' }, 'Re-check here')] : null),
-        sourceList(f.sources)))),
+        sourceList(f.sources),
+        confidenceNote(f)))),
     ]) : h('p.muted', 'No checked facts yet.'),
     openQuestions(doc?.open ?? []),
     h('p', h('a', { href: '#/speak' }, icon('back'), ' Speaking scenes')));

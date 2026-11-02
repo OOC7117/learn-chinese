@@ -23631,7 +23631,7 @@
      "pinyin_as_source": null,
      "literal": "along-the-way wish business-good-fortune",
      "english": "With best wishes for your business",
-     "usage": "Formal business-letter or email closing, listed with 此致敬礼 and 祝好 in a Chinese-email guide for learners. 商祺 = 'may your business prosper' (CC-CEDICT, a formal letter-ending phrase). The variant 顺颂商祺 uses 顺颂, also a letter-closing formula (previous item).",
+     "usage": "Formal business-letter or email closing, listed with 此致敬礼 and 祝好 in a Chinese-email guide for learners. 商祺 = 'may your business prosper' (CC-CEDICT, a formal letter-ending phrase).",
      "register": "formal",
      "speaker": "me",
      "regional_note": null,
@@ -24505,8 +24505,8 @@
     },
     {
      "id": "work.writing.rule.honorific-pairs",
-     "rule": "Refer to the other company or side with 贵 (贵公司, 贵司, 贵方) and to your own with 我 (我司, 我方, 我公司).",
-     "why": "CC-CEDICT marks 贵司 as courteous and 我司 as used in business correspondence and contracts; official BCT/HSK business texts use 贵公司, 贵方 and 我公司.",
+     "rule": "Refer to the other company or side with 贵 (贵公司, 贵司, 贵方) and to your own with 我 (我方, 我公司).",
+     "why": "CC-CEDICT marks 贵司 as courteous; official BCT/HSK business texts use 贵公司, 贵方 and 我公司.",
      "regional_note": null,
      "sources": [
       {

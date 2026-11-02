@@ -22380,8 +22380,8 @@
     },
     {
      "id": "family.spring-festival.rule.wishes-by-person",
-     "rule": "Choose the wish for the person: elders (grandparents, the partner's parents) — use 您 and wish health and long life (身体健康, 健康长寿, 万事如意); school-age children and students — 学业进步 (or 学习进步, 快快长大 for small children); working adults and colleagues — 工作顺利, 步步高升, 恭喜发财; anyone — 新年快乐, 过年好, 万事如意, 心想事成 (friends, students). Several wishes are often chained: 身体健康、工作顺利、阖家幸福.",
-     "why": "Wishes are matched to the person's stage of life (LTL/search summary: students → 学业进步, anyone → 万事如意; CCTV: elderly people → 健康长寿).",
+     "rule": "Choose the wish for the person: elders (grandparents, the partner's parents) — use 您 and wish health and long life (身体健康, 健康长寿, 万事如意); school-age children and students — a wish for their studies, and for small children a wish to grow up well (ask your partner for the wording the family uses); working adults and colleagues — 工作顺利, 步步高升, 恭喜发财; anyone — 新年快乐, 过年好, 万事如意, 心想事成 (friends, students). Several wishes are often chained: 身体健康、工作顺利、阖家幸福.",
+     "why": "Wishes are matched to the person's stage of life (LTL/search summary: anyone → 万事如意; CCTV: elderly people → 健康长寿).",
      "regional_note": "您 is used far more in northern (especially Beijing) speech; in many southern families 你 is normal even with elders in everyday talk. In a wish to an elder 您 is always polite and never wrong (forum discussions; anecdotal).",
      "sources": [
       {
@@ -24676,7 +24676,7 @@
      "pinyin_as_source": null,
      "literal": "拼 compete + 手气 luck + 红包 red packet",
      "english": "lucky-draw group red packet (random amounts)",
-     "usage": "WeChat's group red packet with random shares (拼手气红包), as opposed to the ordinary red packet (普通红包) with equal shares: the sender sets the total and the number of shares and WeChat splits it at random (WeChat red-packet articles via search; The Paper: the split is decided by WeChat's server). Whoever gets the biggest share is marked 手气最佳.",
+     "usage": "WeChat's group red packet with random shares (拼手气红包), as opposed to the ordinary red packet (普通红包) with equal shares: the sender sets the total and the number of shares and WeChat splits it at random (WeChat red-packet articles via search; The Paper: the split is decided by WeChat's server).",
      "register": "casual",
      "speaker": "either",
      "regional_note": null,
@@ -26265,7 +26265,7 @@
     },
     {
      "id": "family.red-envelopes.rule.wechat",
-     "rule": "WeChat red packets are now a standard part of New Year greetings in family and work groups. A luck-based group packet (拼手气红包) splits the sum at random (decided by WeChat's server; 手气最佳 is pure luck), an ordinary one (普通红包) splits it equally; a red packet — and each share of a group packet — is capped at 200 yuan. If the only card in your WeChat Pay is a foreign one, you cannot send or receive red packets or transfers: they need a mainland Chinese bank card (Shanghai government payment guide; 2026 guides incl. LTL), though merchant QR payments work. Ask your partner to send one for you, or give a paper envelope.",
+     "rule": "WeChat red packets are now a standard part of New Year greetings in family and work groups. A luck-based group packet (拼手气红包) splits the sum at random (decided by WeChat's server, so it is pure luck), an ordinary one (普通红包) splits it equally; a red packet — and each share of a group packet — is capped at 200 yuan. If the only card in your WeChat Pay is a foreign one, you cannot send or receive red packets or transfers: they need a mainland Chinese bank card (Shanghai government payment guide; 2026 guides incl. LTL), though merchant QR payments work. Ask your partner to send one for you, or give a paper envelope.",
      "why": "Digital red packets are a common way to send New Year greetings to friends, coworkers and relatives far away (LTL; CCTV: 手机里的电子红包).",
      "regional_note": null,
      "sources": [
