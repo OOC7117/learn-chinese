@@ -162,9 +162,9 @@ The app is a static site plus small Vercel functions; there is no build command.
 1. On vercel.com: **Add New → Project**, import `OOC7117/learn-chinese`, set **Root Directory** to `app`,
    Framework Preset **Other**, leave Build Command and Output Directory empty. Deploy.
 2. Every push to the repository now deploys: production for the production branch, a preview for other
-   branches. The repository's only (and default) branch is `claude/chinese-learning-repo-vaelpt`, so Vercel
-   takes it as the production branch; to use `main` instead, create `main` from it on GitHub, make it the
-   default branch and set it under Settings → Git in Vercel.
+   branches. The production branch is `main` (GitHub: Settings → General → Default branch; Vercel:
+   Settings → Git → Production Branch). Work happens on other branches and reaches production by a pull
+   request into `main`.
 3. Optional, for sign-in and sync: add **Upstash Redis** from the Marketplace (Storage tab) and set
    `ACCOUNTS_URL` and `ACCOUNTS_SERVICE_KEY` to the values of the existing accounts service; details and
    the accounts project's `ACCOUNTS_APP_URLS` entry in [docs/SYNC.md](docs/SYNC.md). Without them the app
