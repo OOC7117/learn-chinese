@@ -191,6 +191,8 @@ export async function getItem(id) {
 }
 
 export const cachedItem = (id) => wordsById.get(id) ?? contentById.get(id) ?? null;
+/** Words with these characters among the word files loaded so far (no download). */
+export const cachedWordsWithHanzi = (hanzi) => [...wordsById.values()].filter((w) => w.hanzi === hanzi);
 
 /** Phrases that contain a word, for cloze cards and the word page. With the word's id, only phrases
  * the build linked to that word (same characters AND reading: 银行 is not an example of 行 xíng). */
