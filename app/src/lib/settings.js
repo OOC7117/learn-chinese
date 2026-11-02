@@ -8,19 +8,21 @@ export const SETTINGS_DEFAULTS = Object.freeze({
   dailyGoal: 50, // answers per day
   retention: 0.9, // FSRS desired retention: 0.85 lighter, 0.90 balanced, 0.95 intensive (docs/RESEARCH.md 4.3)
   pauseNewWhenOverdue: true, // no new words while reviews from earlier days wait
-  // Card types, in the order they are introduced for each word (docs/RESEARCH.md: listen, speak, then characters).
-  // Characters is off by default: with Listen + Speak, 10 new words a day settle at about 125-260 answers a
-  // day; adding Characters raises that to about 190-400 (FSRS simulation, docs/RESEARCH.md 4.6).
-  typeListen: true,
+  // Card types, in the order they are introduced for each word: characters (Chinese -> English), then English
+  // -> Chinese, then (optional) listening, then the word in a phrase. Listen is off by default: the learner
+  // asked to recognise words from the characters and to recall them from the English rather than by ear
+  // (this replaces the earlier sound-first default of docs/RESEARCH.md 4.4-4.5).
+  typeListen: false,
   typeSpeak: true,
-  typeRead: false,
+  typeRead: true,
   typeCloze: true,
+  cardsVersion: 2, // 2 = the defaults above; older saved settings are moved to them once (cleanSettings)
   // What "Study" draws from: deck ids (exam2025-1 ... , std2021-*, hsk20-*, scene ids, kinship).
   activeDecks: 'exam2025-1,exam2025-2,exam2025-3',
   levelSystem: 'exam2025', // which level system the app shows first: exam2025 | std2021 | hsk20
   autoplay: true, // play audio when a card is revealed (and on listen cards when shown)
   slowRate: 0.7,
-  showPinyinOnRead: false, // characters card: show pinyin on the front
+  showPinyinOnRead: false, // cards that show Chinese characters: show pinyin on the front too
   toneCheck: true, // listen cards: ask for the tones before revealing
   ttsVoice: '', // voiceURI of the chosen zh-CN voice ('' = best available)
   dayStartHour: 4,
@@ -49,6 +51,12 @@ export function cleanSettings(raw, { deckIds = null } = {}) {
   for (const key of BOOLEANS) if (typeof src[key] === 'boolean') out[key] = src[key];
   if (SYSTEMS.includes(src.levelSystem)) out.levelSystem = src.levelSystem;
   if (typeof src.ttsVoice === 'string' && src.ttsVoice.length <= 200) out.ttsVoice = src.ttsVoice;
+  // Settings saved before cardsVersion 2 had Listen on and Characters off by default: switch them once to the
+  // new defaults (Characters + English -> Chinese). Later changes by the learner are kept.
+  if (Object.keys(src).length > 0 && !(Number(src.cardsVersion) >= SETTINGS_DEFAULTS.cardsVersion)) {
+    out.typeListen = false;
+    out.typeRead = true;
+  }
   if (typeof src.activeDecks === 'string') {
     const list = src.activeDecks.split(',').map((s) => s.trim()).filter((s) => DECK_ID.test(s) && (!deckIds || deckIds.has(s)));
     out.activeDecks = [...new Set(list)].join(',');
@@ -67,9 +75,8 @@ export function withDeck(settings, deckId, on) {
 /** Card types enabled, in introduction order, for an item kind. */
 export function cardTypesFor(kind, settings) {
   const enabled = (t) => settings[`type${t[0].toUpperCase()}${t.slice(1)}`] !== false;
-  if (kind === 'word') return ['listen', 'speak', 'read', 'cloze'].filter(enabled);
-  if (kind === 'phrase') return ['listen', 'speak'].filter(enabled);
-  if (kind === 'term') return ['speak', 'listen'].filter(enabled);
+  if (kind === 'word') return ['read', 'speak', 'listen', 'cloze'].filter(enabled);
+  if (kind === 'phrase' || kind === 'term') return ['read', 'speak', 'listen'].filter(enabled);
   return [];
 }
 

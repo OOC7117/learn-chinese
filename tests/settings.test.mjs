@@ -63,17 +63,31 @@ test('activeDeckList and withDeck', () => {
   assert.equal(s.activeDecks, 'exam2025-1,exam2025-2', 'the input is not mutated');
 });
 
-test('cardTypesFor: introduction order listen, speak, read, cloze; switched-off types are left out', () => {
-  assert.deepEqual(cardTypesFor('word', ALL_TYPES), ['listen', 'speak', 'read', 'cloze']);
-  assert.deepEqual(cardTypesFor('word', { ...ALL_TYPES, typeSpeak: false }), ['listen', 'read', 'cloze']);
-  assert.deepEqual(cardTypesFor('word', { ...ALL_TYPES, typeListen: false, typeCloze: false }), ['speak', 'read']);
-  assert.deepEqual(cardTypesFor('word', { ...ALL_TYPES, typeRead: false }), ['listen', 'speak', 'cloze']);
-  assert.deepEqual(cardTypesFor('phrase', ALL_TYPES), ['listen', 'speak']);
-  assert.deepEqual(cardTypesFor('phrase', { ...ALL_TYPES, typeListen: false }), ['speak']);
-  assert.deepEqual(cardTypesFor('term', ALL_TYPES), ['speak', 'listen']);
+test('cardTypesFor: introduction order read, speak, listen, cloze; switched-off types are left out', () => {
+  assert.deepEqual(cardTypesFor('word', ALL_TYPES), ['read', 'speak', 'listen', 'cloze']);
+  assert.deepEqual(cardTypesFor('word', { ...ALL_TYPES, typeSpeak: false }), ['read', 'listen', 'cloze']);
+  assert.deepEqual(cardTypesFor('word', { ...ALL_TYPES, typeListen: false, typeCloze: false }), ['read', 'speak']);
+  assert.deepEqual(cardTypesFor('word', { ...ALL_TYPES, typeRead: false }), ['speak', 'listen', 'cloze']);
+  assert.deepEqual(cardTypesFor('phrase', ALL_TYPES), ['read', 'speak', 'listen']);
+  assert.deepEqual(cardTypesFor('phrase', { ...ALL_TYPES, typeListen: false }), ['read', 'speak']);
+  assert.deepEqual(cardTypesFor('term', ALL_TYPES), ['read', 'speak', 'listen']);
   assert.deepEqual(cardTypesFor('rule', ALL_TYPES), []);
-  assert.deepEqual(cardTypesFor('word', D), ['listen', 'speak', 'read', 'cloze'].filter((t) => D[`type${t[0].toUpperCase()}${t.slice(1)}`]), 'the defaults');
-  assert.deepEqual(cardTypesFor('word', {}), ['listen', 'speak', 'read', 'cloze'], 'missing switches count as on');
+  assert.deepEqual(cardTypesFor('word', D), ['read', 'speak', 'cloze'], 'the defaults: Chinese -> English, English -> Chinese, in a phrase');
+  assert.deepEqual(cardTypesFor('word', {}), ['read', 'speak', 'listen', 'cloze'], 'missing switches count as on');
+});
+
+test('cleanSettings: settings saved before cardsVersion 2 move once to the new card defaults', () => {
+  const old = { ...D, typeListen: true, typeRead: false, showPinyinOnRead: true, newPerDay: 7 };
+  delete old.cardsVersion;
+  const moved = cleanSettings(old);
+  assert.equal(moved.typeListen, false);
+  assert.equal(moved.typeRead, true);
+  assert.equal(moved.cardsVersion, D.cardsVersion);
+  assert.equal(moved.showPinyinOnRead, true, 'other choices are kept');
+  assert.equal(moved.newPerDay, 7);
+  const chosen = cleanSettings({ ...moved, typeListen: true, typeRead: false });
+  assert.equal(chosen.typeListen, true, 'after the move, the learner can switch Listen back on');
+  assert.equal(chosen.typeRead, false);
 });
 
 test('sameSettings', () => {

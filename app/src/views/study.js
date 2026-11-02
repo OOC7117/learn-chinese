@@ -1,7 +1,7 @@
 // Study: today's spaced-repetition queue (FSRS). One card at a time:
-//   listen  audio -> meaning (with an optional tone check before revealing)
-//   speak   English -> say it aloud -> reveal and hear the model, grade yourself
-//   read    characters -> pinyin + meaning (pinyin hidden unless the setting shows it)
+//   read    Chinese -> English: characters (pinyin too when the setting is on) -> meaning
+//   speak   English -> Chinese: recall the word (say it aloud if you like) -> reveal and hear the model
+//   listen  audio -> meaning (with an optional tone check before revealing; off by default)
 //   cloze   a verified phrase with the word blanked -> the word
 // Keyboard: Space/Enter reveal; 1-4 grade (Again, Hard, Good, Easy); R replay; S star; X skip.
 
@@ -12,7 +12,7 @@ import { syllablesOf, stripTones } from '../lib/pinyin.js';
 import { audioButtons, markButtons, pinyinBlock, meaningList, sourceLabel, richText } from './parts.js';
 import { recordingSupport, createRecorder, playBuffer, playBlob, releaseAudio, describeError } from '../recorder.js';
 
-const TYPE_LABEL = { listen: 'Listen', speak: 'Speak', read: 'Characters', cloze: 'In a phrase' };
+const TYPE_LABEL = { read: 'Chinese → English', speak: 'English → Chinese', listen: 'Listen', cloze: 'In a phrase' };
 const GRADE_KEYS = { 1: 'again', 2: 'hard', 3: 'good', 4: 'easy' };
 
 export async function render(root, ctx) {
@@ -86,13 +86,18 @@ export async function render(root, ctx) {
       return h('div.prompt',
         h('p.meaning', en),
         item.kind === 'phrase' && item.register && item.register !== 'neutral' ? h('span.chip', item.register) : null,
-        h('p.muted', 'Say it in Chinese, out loud. Then check.'),
+        h('p.muted', 'What is it in Chinese? Say it out loud, then check.'),
         recordControls());
     }
     if (t === 'read') {
+      const showPinyin = state.settings.showPinyinOnRead;
       return h('div.prompt',
-        zh(item.hanzi, 'big-hanzi'),
-        state.settings.showPinyinOnRead ? py(item.pinyin, 'pinyin big-pinyin') : h('p.muted', 'Say the pinyin and the meaning.'));
+        zh(item.hanzi, item.kind === 'word' ? 'big-hanzi' : 'mid-hanzi'),
+        showPinyin ? py(item.pinyin, 'pinyin big-pinyin') : null,
+        h('p.muted', showPinyin ? 'What does it mean?' : 'What does it mean, and how is it read?'),
+        h('button.btn.small.pinyin-toggle', { type: 'button', aria: { pressed: String(showPinyin) },
+          onclick: () => { state.updateSettings({ showPinyinOnRead: !showPinyin }); draw(); } },
+        showPinyin ? 'Hide pinyin' : 'Show pinyin'));
     }
     if (t === 'cloze') return clozePrompt();
     return h('div.prompt', zh(item.hanzi, 'big-hanzi'));
@@ -208,7 +213,7 @@ export async function render(root, ctx) {
           next();
         }
       } })),
-      prompt(),
+      revealed && current.type === 'read' ? null : prompt(), // the answer repeats the characters and pinyin
       revealed ? answerBlock() : null);
     const actions = revealed
       ? gradeButtons()
