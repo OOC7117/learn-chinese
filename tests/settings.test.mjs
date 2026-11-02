@@ -31,7 +31,7 @@ test('cleanSettings: numbers within range are kept (rounded), others fall back t
 });
 
 test('cleanSettings: booleans, level system and voice are type-checked', () => {
-  const s = cleanSettings({ autoplay: !D.autoplay, typeListen: String(!D.typeListen), toneCheck: 0, showPinyinOnRead: !D.showPinyinOnRead, levelSystem: 'hsk20', ttsVoice: 'voice-1' });
+  const s = cleanSettings({ cardsVersion: D.cardsVersion, autoplay: !D.autoplay, typeListen: String(!D.typeListen), toneCheck: 0, showPinyinOnRead: !D.showPinyinOnRead, levelSystem: 'hsk20', ttsVoice: 'voice-1' });
   assert.equal(s.autoplay, !D.autoplay);
   assert.equal(s.typeListen, D.typeListen, 'a string is not a boolean');
   assert.equal(s.toneCheck, D.toneCheck, 'neither is a number');
@@ -77,17 +77,28 @@ test('cardTypesFor: introduction order read, speak, listen, cloze; switched-off 
 });
 
 test('cleanSettings: settings saved before cardsVersion 2 move once to the new card defaults', () => {
-  const old = { ...D, typeListen: true, typeRead: false, showPinyinOnRead: true, newPerDay: 7 };
+  const old = { ...D, typeListen: true, typeRead: false, newPerDay: 7 };
   delete old.cardsVersion;
   const moved = cleanSettings(old);
   assert.equal(moved.typeListen, false);
   assert.equal(moved.typeRead, true);
   assert.equal(moved.cardsVersion, D.cardsVersion);
-  assert.equal(moved.showPinyinOnRead, true, 'other choices are kept');
-  assert.equal(moved.newPerDay, 7);
+  assert.equal(moved.newPerDay, 7, 'other choices are kept');
   const chosen = cleanSettings({ ...moved, typeListen: true, typeRead: false });
   assert.equal(chosen.typeListen, true, 'after the move, the learner can switch Listen back on');
   assert.equal(chosen.typeRead, false);
+});
+
+test('cleanSettings: pinyin on the front is on by default; settings saved before cardsVersion 3 switch it on once', () => {
+  assert.equal(D.showPinyinOnRead, true);
+  assert.equal(cleanSettings({}).showPinyinOnRead, true);
+  const v2 = { ...D, cardsVersion: 2, showPinyinOnRead: false, typeListen: true, typeRead: false };
+  const moved = cleanSettings(v2);
+  assert.equal(moved.showPinyinOnRead, true);
+  assert.equal(moved.typeListen, true, 'the version 2 card choices are kept');
+  assert.equal(moved.typeRead, false);
+  assert.equal(moved.cardsVersion, D.cardsVersion);
+  assert.equal(cleanSettings({ ...moved, showPinyinOnRead: false }).showPinyinOnRead, false, 'after the move, the learner can switch it off');
 });
 
 test('sameSettings', () => {

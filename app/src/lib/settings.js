@@ -16,13 +16,15 @@ export const SETTINGS_DEFAULTS = Object.freeze({
   typeSpeak: true,
   typeRead: true,
   typeCloze: true,
-  cardsVersion: 2, // 2 = the defaults above; older saved settings are moved to them once (cleanSettings)
+  // Version of the defaults: 2 = the card types above, 3 = pinyin shown on the front. Older saved settings are
+  // moved to them once (cleanSettings).
+  cardsVersion: 3,
   // What "Study" draws from: deck ids (exam2025-1 ... , std2021-*, hsk20-*, scene ids, kinship).
   activeDecks: 'exam2025-1,exam2025-2,exam2025-3',
   levelSystem: 'exam2025', // which level system the app shows first: exam2025 | std2021 | hsk20
   autoplay: true, // play audio when a card is revealed (and on listen cards when shown)
   slowRate: 0.7,
-  showPinyinOnRead: false, // cards that show Chinese characters: show pinyin on the front too
+  showPinyinOnRead: true, // Chinese -> English cards: show pinyin under the characters on the front (Settings -> Pinyin)
   toneCheck: true, // listen cards: ask for the tones before revealing
   ttsVoice: '', // voiceURI of the chosen zh-CN voice ('' = best available)
   dayStartHour: 4,
@@ -51,12 +53,15 @@ export function cleanSettings(raw, { deckIds = null } = {}) {
   for (const key of BOOLEANS) if (typeof src[key] === 'boolean') out[key] = src[key];
   if (SYSTEMS.includes(src.levelSystem)) out.levelSystem = src.levelSystem;
   if (typeof src.ttsVoice === 'string' && src.ttsVoice.length <= 200) out.ttsVoice = src.ttsVoice;
-  // Settings saved before cardsVersion 2 had Listen on and Characters off by default: switch them once to the
-  // new defaults (Characters + English -> Chinese). Later changes by the learner are kept.
-  if (Object.keys(src).length > 0 && !(Number(src.cardsVersion) >= SETTINGS_DEFAULTS.cardsVersion)) {
+  // Saved settings from before a change of defaults are moved to the new defaults once; later changes by the
+  // learner are kept. Before version 2, Listen was on and Characters off; before version 3, pinyin was hidden
+  // on the front of Chinese -> English cards.
+  const saved = Object.keys(src).length > 0 ? Number(src.cardsVersion) || 1 : SETTINGS_DEFAULTS.cardsVersion;
+  if (saved < 2) {
     out.typeListen = false;
     out.typeRead = true;
   }
+  if (saved < 3) out.showPinyinOnRead = true;
   if (typeof src.activeDecks === 'string') {
     const list = src.activeDecks.split(',').map((s) => s.trim()).filter((s) => DECK_ID.test(s) && (!deckIds || deckIds.has(s)));
     out.activeDecks = [...new Set(list)].join(',');
