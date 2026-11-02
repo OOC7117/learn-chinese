@@ -2,7 +2,7 @@
 // examples (correct and, for pitfalls, the typical mistake), audio and sources.
 
 import { h, replace, icon, zh, py } from '../dom.js';
-import { sourceList, sourceLabel, richText } from './parts.js';
+import { sourceList, sourceLabel, richText, plainText } from './parts.js';
 
 export async function renderReference(root, ctx, { key, title, intro, base }) {
   const content = await ctx.data.loadContent();
@@ -12,7 +12,7 @@ export async function renderReference(root, ctx, { key, title, intro, base }) {
   if (!id) {
     replace(root, h('h1', title), h('p.muted', intro),
       items.length ? h('ul.list', items.map((it) => h('li', h('a.list-link', { href: `#/${base}/${it.id}` },
-        h('span.grow', h('span.title', it.title), h('span.sub', it.rule)), icon('next'))))) : h('p.muted', 'No checked items yet.'));
+        h('span.grow', h('span.title', it.title), h('span.sub', plainText(it.rule))), icon('next'))))) : h('p.muted', 'No checked items yet.'));
     return null;
   }
   const it = items.find((x) => x.id === id);

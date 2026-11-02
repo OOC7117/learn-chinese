@@ -107,3 +107,10 @@ export function richText(text) {
   if (last < text.length) out.push(text.slice(last));
   return out;
 }
+
+/** The same text with id references replaced by their readable label, without links (for previews that
+ * are themselves inside a link). */
+export function plainText(text) {
+  if (!text) return text;
+  return String(text).replace(REF, (id) => refOf(id)?.label ?? id);
+}
