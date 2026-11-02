@@ -5,6 +5,804 @@
   "method": "Each dialogue was arranged by an AI agent from verified phrases of one scene (no Chinese text was written by the AI), then checked line by line by a second, independent AI agent. Set reviewed: true on a dialogue after a human has checked that it flows naturally.",
   "dialogues": [
     {
+      "id": "dlg.family.dinner.1",
+      "scene": "family.dinner",
+      "title": "Starting dinner and declining seconds",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "family.dinner.wanfan-zuohao-le"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.dinner.nin-xian-qing"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.dinner.couhe-chi-dian"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.dinner.ayi-zuo-de-cai"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.dinner.zai-chi-ji-ge-jiaozi"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.dinner.bu-le-zhende-bao-le"
+        }
+      ],
+      "review_note": "No change. 1. The cook calls everyone to the table. 2. As you sit down, you let the elder go first with 'after you'. 3. The host plays down her cooking and invites you to start eating. 4. The usage note says to answer this modesty by praising the food, here said to Auntie with polite 'you'. 5. Pleased by the praise, the host urges you to eat more. 6. 'No thanks, I'm really full' is the keyed reply to exactly this urging."
+    },
+    {
+      "id": "dlg.family.dinner.2",
+      "scene": "family.dinner",
+      "title": "Thanks and goodbye after dinner",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "family.dinner.mafan-nimen-le"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.dinner.shenme-mafan-bu-mafan"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.dinner.xiexie-reqing-zhaodai"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.dinner.nin-manzou"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.dinner.bie-song-le"
+        }
+      ],
+      "review_note": "No change. 1. After a meal they cooked for you, you thank both hosts and apologise for the trouble. 2. The usage notes give this 'trouble? nonsense' line as the expected answer. 3. As you get up to leave, you thank them for their hospitality, as guests do at the end of a visit. 4. The host sees you off with 'take care on your way home'. 5. 'Please don't see me out' is the guest's fixed reply to that farewell."
+    },
+    {
+      "id": "dlg.family.first-meeting.1",
+      "scene": "family.first-meeting",
+      "title": "Arriving at the parents' door",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "family.first-meeting.kuai-qing-jin"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.first-meeting.shushu-ayi-hao"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.first-meeting.lushang-xinku-le"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.first-meeting.haihao-haihao"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.first-meeting.qing-zuo"
+        }
+      ],
+      "review_note": "No change. 1. The parents open the door with the hosts' usual 'come in, come in'. 2. You greet both parents at once by title, which is the usual greeting at the door. 3. Hosts say this to a guest who has just arrived from a trip. 4. 'It was fine, really' is the guest's set reply to 'you must be tired from the journey'. 5. With the arrival formalities done, the host invites you to sit down."
+    },
+    {
+      "id": "dlg.family.first-meeting.2",
+      "scene": "family.first-meeting",
+      "title": "Thanking the hosts and saying goodbye",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "family.first-meeting.thanks-hospitality"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.first-meeting.bie-keqi"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.first-meeting.gei-nin-tian-mafan-le"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.first-meeting.bie-jianwai"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.first-meeting.darao-le"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.first-meeting.man-zou"
+        }
+      ],
+      "review_note": "No change. 1. At the end of the visit you thank both parents (plural 'you') for their hospitality. 2. A host waves the thanks away, as hosts do when a guest is very polite. 3. You add the guest's apology-cum-thanks to that parent (e.g. the mother who cooked), using polite 'you' for one parent as the usage note prescribes; the plain plural for both is also what the note gives, so this is no register clash. 4. 'Don't treat us like strangers' is the host's answer to a guest who stays this formal, and it often goes with 'don't mention it'. 5. 'Sorry to have bothered you' is how a guest takes leave after imposing on the hosts. 6. 'Take care' is the host's line to a departing guest."
+    },
+    {
+      "id": "dlg.family.gifts.1",
+      "scene": "family.gifts",
+      "title": "Arriving with a gift",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.shushu-ayi-hao"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.kuai-qing-jin"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.xiao-liwu-song-gei-nin"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.lai-jiu-lai-hai-dai-shenme"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.yidianr-xinyi"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.ni-tai-keqi-le"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.nin-jiu-shouxia-ba"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.xiexie-ni-de-liwu"
+        }
+      ],
+      "review_note": "No change. 1. You greet each parent by title when you arrive, before you hand over gifts. 2. The hosts invite you in at the door. 3. Arriving as a couple, you present the little gift 'we' prepared, using polite 'you'. 4. The hosts make the ritual protest that just coming is enough, which is not a real refusal. 5. The usage notes give 'just a small token' as the reply to this protest. 6. 'You're too kind' is the next round of polite protest, as in the modelled exchange. 7. 'Please, do take it' is the warm push to make after a protest. 8. The family accepts the gift with thanks, which ends the ritual."
+    },
+    {
+      "id": "dlg.family.gifts.2",
+      "scene": "family.gifts",
+      "title": "Offering a Dutch specialty",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.suibian-zuo"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.helan-techan"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.ni-tai-keqi-le"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.yidianr-xiaoyisi"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.lai-jiu-lai-hai-dai-shenme"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.gifts.qing-shouxia"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.gifts.xiexie-ni-de-liwu"
+        }
+      ],
+      "review_note": "No change. 1. Once you are in, the host tells you to make yourself at home and sit anywhere. 2. Once seated, you bring out the Dutch specialty and invite them to taste it. 3. The host protests politely that you are too kind. 4. You play the gift down as 'just a little something from me' while holding it out. 5. Hosts may protest two or three times, so a second ritual protest follows. 6. You gently insist once more that they accept the little gift, the reply the usage note gives to this protest. 7. The host finally accepts with thanks."
+    },
+    {
+      "id": "dlg.family.small-talk.1",
+      "scene": "family.small-talk",
+      "title": "Work, money and wedding questions",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "family.small-talk.gongzuo-mang-ma"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.small-talk.haihao"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.small-talk.yi-ge-yue-zhuan-duoshao"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.small-talk.hai-keyi"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.small-talk.shenme-shihou-jiehun"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.small-talk.yihou-zaishuo-ba"
+        }
+      ],
+      "review_note": "Lines unchanged; in note 5 'always' became 'commonly' to match the usage note. 1. An elder opens with the standard small-talk question about work. 2. 'Not bad' is a typical modest answer about how things are going. 3. Relatives often move on to income at family gatherings. 4. A vague 'it's OK' is the usual way out of the salary question. 5. The elders switch to the question couples commonly get from relatives: when is the wedding? 6. 'Let's talk about that later', said lightly, gently puts the question off."
+    },
+    {
+      "id": "dlg.family.small-talk.2",
+      "scene": "family.small-talk",
+      "title": "Compliments on your Chinese",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "family.small-talk.yilushang-xinku-le"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.small-talk.mei-shenme"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.small-talk.zhongwen-shuo-de-bucuo"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.small-talk.nin-guojiang-le"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.small-talk.hai-cha-de-yuan-ne"
+        }
+      ],
+      "review_note": "Lines unchanged; corrected note 5: the official modesty list gives these two replies as alternatives, not as a pair, but the usage notes do show a deflection followed by a modest remark, so saying both in one turn is natural. 1. The family greets you after your journey. 2. 'It was nothing' is the official reply to 'you must be tired'. 3. Hearing you answer in Chinese, the elder praises your Chinese. 4. 'You flatter me', with polite 'you', is a modest reply that suits an elder. 5. In the same turn you add a modest remark, like the 'you flatter me, I'm still learning' and 'not at all, still a long way to go' pairs in the usage notes, so lines 4 and 5 form one answer."
+    },
+    {
+      "id": "dlg.family.spring-festival.1",
+      "scene": "family.spring-festival",
+      "title": "New Year call on an aunt",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "family.spring-festival.women-gei-nin-bainian-lai-la"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.spring-festival.guonian-hao"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.spring-festival.zhu-nin-xinnian-shenti-jiankang"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.spring-festival.reply-ye-zhu-ni"
+        }
+      ],
+      "review_note": "No change. 1. On the doorstep, you and your partner say you have come to wish her a Happy New Year. 2. The usage note says to expect 'Happy New Year!' in return. 3. You add the standard health wish for an elder, with polite 'you'. 4. She thanks you and wishes you a happy New Year too, using plain 'you' to a younger guest, as in the official sample this pair comes from."
+    },
+    {
+      "id": "dlg.family.spring-festival.2",
+      "scene": "family.spring-festival",
+      "title": "Zodiac small talk at New Year",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "family.spring-festival.xinnian-kuaile"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.spring-festival.yang-nian-daji"
+        },
+        {
+          "speaker": "them",
+          "phrase": "family.spring-festival.ni-shu-shenme"
+        },
+        {
+          "speaker": "me",
+          "phrase": "family.spring-festival.wo-shu-ma"
+        }
+      ],
+      "review_note": "No change. 1. A relative wishes you a Happy New Year. 2. You reply with a wish for the Year of the Goat, which begins at the next Spring Festival (6 Feb 2027). 3. Mentioning the year's animal leads the relative to ask about yours, a question relatives often ask. 4. You answer with your own zodiac animal."
+    },
+    {
+      "id": "dlg.travel.diet.1",
+      "scene": "travel.diet",
+      "title": "Telling the waiter what you can't eat",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "travel.diet.you-shenme-jikou"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.diet.wo-bu-chi-zhurou"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.diet.qingzhen-fandian"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.diet.dui-huasheng-guomin"
+        }
+      ],
+      "review_note": "No change. 1) The waiter asks whether there is anything you don't eat. 2) You answer that you don't eat pork. 3) The waiter reassures you: a halal restaurant serves no pork. 4) You add your other restriction, a peanut allergy."
+    },
+    {
+      "id": "dlg.travel.directions.1",
+      "scene": "travel.directions",
+      "title": "The way to the Bank of China",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.directions.qingwen-qu-zenme-zou"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.directions.lukou-wang-you-guai"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.directions.zoulu-qu-yao-duo-chang-shijian"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.directions.bu-yuan-jiu-zai-qianmian"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.directions.xiexie-nin-de-bangzhu"
+        }
+      ],
+      "review_note": "No change. 1) You ask a passer-by the way with the basic route question. 2) This is the attested answer to exactly this question. 3) You check whether it is close enough to walk. 4) The passer-by says it is near: five more minutes on foot. 5) You thank them politely for their help."
+    },
+    {
+      "id": "dlg.travel.directions.2",
+      "scene": "travel.directions",
+      "title": "Is there a metro station nearby?",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.directions.fujin-you-ditiezhan-ma"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.directions.yizhi-zou"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.directions.zoulu-qu-yao-duo-chang-shijian"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.directions.wang-qian-zou-yibai-mi"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.directions.xiexie-nin-de-bangzhu"
+        }
+      ],
+      "review_note": "No change. 1) You ask a passer-by whether there is a metro station nearby. 2) They answer with the route, which implies yes: straight on, no turns. 3) You ask how long it takes on foot. 4) They answer with the distance: only 100 metres straight ahead. 5) You thank them politely for their help."
+    },
+    {
+      "id": "dlg.travel.greetings.1",
+      "scene": "travel.greetings",
+      "title": "Thanking staff and leaving a shop",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.greetings.xiexie"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.greetings.bu-keqi"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.greetings.zaijian"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.greetings.nin-manzou"
+        }
+      ],
+      "review_note": "No change. 1) You thank the assistant as they hand you your purchase. 2) 'You're welcome' is the standard reply to thanks. 3) You say goodbye on your way out. 4) Staff see a leaving customer off with goodbye, take care and come again; their respectful 'you' is the normal staff-to-customer form."
+    },
+    {
+      "id": "dlg.travel.greetings.2",
+      "scene": "travel.greetings",
+      "title": "Parting from your guide until tomorrow",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.greetings.xiexie-nin"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.greetings.bu-keqi"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.greetings.mingtian-jian"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.greetings.zaijian"
+        }
+      ],
+      "review_note": "No change. 1) At the end of the day you thank your guide or driver with the respectful 'you'. 2) 'You're welcome' is the usual reply to thanks. 3) You will meet again tomorrow, so you say see you tomorrow. 4) A plain goodbye is the attested reply to see you tomorrow."
+    },
+    {
+      "id": "dlg.travel.hotel.1",
+      "scene": "travel.hotel",
+      "title": "Key card, suitcase and finding your room",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "travel.hotel.here-is-your-key-card"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.hotel.where-do-i-collect-my-suitcase"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.hotel.well-bring-it-to-your-room"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.hotel.where-is-room-204"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.hotel.this-way-please"
+        }
+      ],
+      "review_note": "No change. 1) Reception hands over your key card at the end of check-in. 2) As in the source, you then ask where to collect your suitcase. 3) This is the attested answer: staff will bring it up to your room. 4) Hearing about your room, you ask where it is. 5) Staff show the way, as in the attested answer to this question."
+    },
+    {
+      "id": "dlg.travel.hotel.2",
+      "scene": "travel.hotel",
+      "title": "Checking out and leaving your luggage",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.hotel.id-like-to-check-out"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.hotel.one-moment-let-me-check"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.hotel.can-i-leave-my-luggage"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.hotel.let-me-take-your-luggage"
+        }
+      ],
+      "review_note": "No change. 1) You tell reception you are checking out. 2) Reception asks you to wait while they check the room. 3) Meanwhile you ask if you can leave your luggage until your train. 4) The staff member agrees by offering to take your bags."
+    },
+    {
+      "id": "dlg.travel.paying.1",
+      "scene": "travel.paying",
+      "title": "Bargaining at a market stall",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.paying.tai-gui-le"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.paying.zai-gei-nin-pianyi"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.paying.wo-yao-zhege"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.paying.weixin-haishi-zhifubao"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.paying.wo-sao-ni"
+        }
+      ],
+      "review_note": "No change. 1) After hearing the price you open the bargaining. 2) This is the seller's attested counter-offer: another 50 yuan off. 3) You accept and take the item. 4) The seller asks which payment app you will use. 5) As in the source dialogue, you answer that you will scan the stall's QR code."
+    },
+    {
+      "id": "dlg.travel.paying.2",
+      "scene": "travel.paying",
+      "title": "A cash-only shop",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.paying.zher-keyi-yong-xinyongka-ma"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.paying.zhineng-yong-xianjin"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.paying.mei-lingqian"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.paying.gei-nin-qishi"
+        }
+      ],
+      "review_note": "No change. 1) You ask whether you can pay by credit card. 2) This is the attested answer: the shop only takes cash. 3) You can pay cash, but only with a big note. 4) The cashier takes your 100 and gives you 70 change."
+    },
+    {
+      "id": "dlg.travel.restaurant.1",
+      "scene": "travel.restaurant",
+      "title": "Ordering mapo tofu, mildly spicy",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.restaurant.fuwuyuan"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.restaurant.nin-yao-shenme-cai"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.restaurant.yao-mapodoufu-mifan"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.restaurant.weila-zhongla-haishi-zhongla"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.restaurant.weila"
+        }
+      ],
+      "review_note": "No change. 1) You call the waiter. 2) This is the attested reply: sure, which dish would you like? 3) You order a dish, with rice counted in bowls. 4) Mapo tofu is a Sichuan dish, so the waiter asks how spicy you want it. 5) You pick mild as a polite request and explain that you can't eat very spicy food."
+    },
+    {
+      "id": "dlg.travel.restaurant.2",
+      "scene": "travel.restaurant",
+      "title": "A table for two and a QR-code menu",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "travel.restaurant.huanying-jiwei"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.restaurant.liang-ge-ren"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.restaurant.saoma-diancan"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.restaurant.english-menu"
+        }
+      ],
+      "review_note": "No change. 1) The host welcomes you and asks how many you are. 2) You give the number of people. 3) Once you are seated, staff tell you to scan the table's QR code to order. 4) The QR menu is in Chinese, so you ask for an English menu."
+    },
+    {
+      "id": "dlg.travel.station.1",
+      "scene": "travel.station",
+      "title": "Buying a train ticket at the counter",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.station.tickets-to-beijing-left"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.station.sold-out"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.station.morning-of-the-15th"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.station.first-or-second-class"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.station.second-class-please"
+        }
+      ],
+      "review_note": "No change. 1) At the counter you ask for tickets to Beijing on the 14th. 2) This is the clerk's attested answer: the 14th is sold out. 3) As in the source, you ask about the morning of the 15th instead. 4) The clerk implies there are seats and asks which class (the source's 'how many?' line is unverified, so it is rightly left out). 5) You choose second class, the cheaper standard option."
+    },
+    {
+      "id": "dlg.travel.taxi.1",
+      "scene": "travel.taxi",
+      "title": "Taxi to the train station",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.taxi.shifu-wo-qu-huochezhan"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.taxi.how-long-half-hour"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.taxi.no-traffic-twenty-minutes"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.taxi.stop-here-is-fine"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.taxi.no-stopping-here"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.taxi.turn-right-at-the-junction"
+        }
+      ],
+      "review_note": "Changed: line 6 (an 'either' phrase) is now said by the driver instead of by you. A foreign traveller telling a taxi driver where the train station is would sound odd, but a driver who may not stop naturally adds that the station is just round the next corner. 1) Getting in, you address the driver and give your destination. 2) In the same turn, as in the source, you ask how long it will take. 3) This is the driver's attested answer: no traffic, about twenty minutes. 4) On arrival near the station you ask to be dropped here. 5) The driver explains that stopping is not allowed there. 6) In the same turn the driver adds that the station is just after the right turn at the next junction."
+    },
+    {
+      "id": "dlg.travel.taxi.2",
+      "scene": "travel.taxi",
+      "title": "Your ride-hailing driver is at the wrong spot",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "travel.taxi.are-you-out-im-downstairs"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.taxi.im-at-the-west-gate"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.taxi.sorry-on-my-way"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.taxi.open-the-boot"
+        }
+      ],
+      "review_note": "No change. 1) Your ride-hailing driver phones on arrival and asks if you are out yet. 2) You tell the driver exactly where you are standing. 3) The driver apologises and says they will be there right away. 4) When the car pulls up you ask for the boot to be opened for your luggage."
+    },
+    {
+      "id": "dlg.travel.understanding.1",
+      "scene": "travel.understanding",
+      "title": "You spoke too fast",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "travel.understanding.ni-tingdong-le-ma"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.understanding.shuo-de-tai-kuai"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.understanding.qing-bang-wo-xie-yixia"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.understanding.you-bu-mingbai-de-wen-wo"
+        }
+      ],
+      "review_note": "Changed: lines 3 and 4 swapped. 'No problem, if anything's unclear just ask me' did not answer 'you spoke too fast' (a native would slow down or repeat); it is the reply to a request, as in the HSK 3 sample where it answers 'can I look at your notes?', so it now follows your request to write it down. 1) After explaining something, the speaker checks whether you understood. 2) The usage notes give this polite apology as the answer when it was too fast. 3) In the same turn you ask them to write it down. 4) 'No problem' accepts the request, and they add that you can ask about anything unclear."
+    },
+    {
+      "id": "dlg.travel.understanding.2",
+      "scene": "travel.understanding",
+      "title": "How do you read this character?",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "travel.understanding.zhi-hui-shuo-yidianr"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.understanding.you-bu-mingbai-de-wen-wo"
+        },
+        {
+          "speaker": "me",
+          "phrase": "travel.understanding.zhege-zi-zenme-du"
+        },
+        {
+          "speaker": "them",
+          "phrase": "travel.understanding.nin-shaodeng"
+        }
+      ],
+      "review_note": "No change. 1) You warn a host or receptionist that your Chinese is limited. 2) They reassure you and invite you to ask about anything unclear. 3) You take up the offer and point at a character on a sign or menu. 4) Natives do not know every character (the usage notes give 'sorry, I don't know' as a possible answer), so the receptionist looks it up."
+    },
+    {
       "id": "dlg.work.contacts.1",
       "scene": "work.contacts",
       "title": "Business card, WeChat and a price list",

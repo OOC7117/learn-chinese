@@ -11,7 +11,213 @@ AI did:
    the research agents from the cited sources and re-checked by a second agent (see each item's
    `verification`). They are explanations, not quotations.
 
-## Dialogues (10)
+## Dialogues (36)
+
+### Starting dinner and declining seconds (`dlg.family.dinner.1`, scene `family.dinner`, reviewed: no)
+
+- **Them:** 晚饭做好了，准备吃饭了。 Wǎnfàn zuòhǎo le, zhǔnbèi chīfàn le. — Dinner's ready, time to eat.
+- **You:** 您先请。 Nín xiān qǐng. — After you.
+- **Them:** 没有什么好菜，凑合着吃点吧。 Méiyǒu shénme hǎo cài, còuhezhe chī diǎn ba. — It's nothing special, but please help yourself.
+- **You:** 阿姨，您做的菜真好吃！ Āyí, nín zuò de cài zhēn hǎochī! — Auntie, your cooking is delicious!
+- **Them:** 别客气，再吃几个饺子吧。 Bié kèqi, zài chī jǐ ge jiǎozi ba. — Don't be shy, have a few more dumplings.
+- **You:** 不了，我真的饱了。 Bù le, wǒ zhēnde bǎo le. — No thanks, I'm really full.
+
+### Thanks and goodbye after dinner (`dlg.family.dinner.2`, scene `family.dinner`, reviewed: no)
+
+- **You:** 谢谢！麻烦你们了。 Xièxie! Máfan nǐmen le. — Thank you! Sorry to have put you to so much trouble.
+- **Them:** 什么麻烦不麻烦，我们之间不用这么客气。 Shénme máfan bù máfan, wǒmen zhījiān bùyòng zhème kèqi. — Trouble? Nonsense, there's no need to be so formal between us.
+- **You:** 谢谢你们的热情招待。 Xièxie nǐmen de rèqíng zhāodài. — Thank you for your warm hospitality.
+- **Them:** 您慢走。 Nín mànzǒu. — Take care (on your way home).
+- **You:** 别送了。 Bié sòng le. — Please don't see me out.
+
+### Arriving at the parents' door (`dlg.family.first-meeting.1`, scene `family.first-meeting`, reviewed: no)
+
+- **Them:** 快请进。 Kuài qǐng jìn. — Come in, come in!
+- **You:** 叔叔阿姨好！ Shūshu āyí hǎo! — Hello, Uncle and Auntie! (greeting your partner's parents when you arrive)
+- **Them:** 路上辛苦了。 Lùshang xīnkǔ le. — You must be tired from the journey.
+- **You:** 还好还好。 Háihǎo háihǎo. — It was fine, really. (reply to 'you must be tired from the trip')
+- **Them:** 请坐。 Qǐng zuò. — Please sit down. / Have a seat.
+
+### Thanking the hosts and saying goodbye (`dlg.family.first-meeting.2`, scene `family.first-meeting`, reviewed: no)
+
+- **You:** 谢谢你们的热情招待。 Xièxie nǐmen de rèqíng zhāodài. — Thank you for your warm hospitality.
+- **Them:** 别客气。 Bié kèqi. — Don't stand on ceremony. / No need to be so polite. / Don't mention it.
+- **You:** 给您添麻烦了。 Gěi nín tiān máfan le. — Sorry to put you to so much trouble. / Thank you for going to all this trouble.
+- **Them:** 别见外。 Bié jiànwài. — Make yourself at home. / Don't treat us like strangers. (what hosts say)
+- **You:** 打扰了。 Dǎrǎo le. — Sorry to bother you. / Sorry for the trouble.
+- **Them:** 慢走。 Màn zǒu. — Take care! (lit. walk slowly) — said to a guest who is leaving
+
+### Arriving with a gift (`dlg.family.gifts.1`, scene `family.gifts`, reviewed: no)
+
+- **You:** 叔叔好！阿姨好！ Shūshu hǎo! Āyí hǎo! — Hello, Uncle! Hello, Auntie! (greeting your partner's father and mother)
+- **Them:** 快请进！ Kuài qǐng jìn! — Come in, come in!
+- **You:** 我们准备了一个小礼物送给您。 Wǒmen zhǔnbèile yī ge xiǎo lǐwù sònggěi nín. — We've prepared a little gift for you.
+- **Them:** 来就来嘛，还带什么东西！ Lái jiù lái ma, hái dài shénme dōngxi! — You shouldn't have brought anything — just coming is enough!
+- **You:** 一点儿心意。 Yīdiǎnr xīnyì. — Just a small token (of my regard).
+- **Them:** 你太客气了！ Nǐ tài kèqi le! — You're too kind! / You really shouldn't have!
+- **You:** 您就收下吧！ Nín jiù shōuxià ba! — Please, do take it!
+- **Them:** 谢谢你的礼物，我很喜欢。 Xièxie nǐ de lǐwù, wǒ hěn xǐhuan. — Thank you for the present, I like it very much.
+
+### Offering a Dutch specialty (`dlg.family.gifts.2`, scene `family.gifts`, reviewed: no)
+
+- **Them:** 不用客气，随便坐吧。 Bùyòng kèqi, suíbiàn zuò ba. — Make yourself at home, sit wherever you like.
+- **You:** 这是我从荷兰带来的特产，您尝尝吧。 Zhè shì wǒ cóng Hélán dàilái de tèchǎn, nín chángchang ba. — This is a specialty I brought from the Netherlands, please try it.
+- **Them:** 你太客气了！ Nǐ tài kèqi le! — You're too kind! / You really shouldn't have!
+- **You:** 这是我的一点儿小意思。 Zhè shì wǒ de yīdiǎnr xiǎoyìsi. — This is just a little something from me.
+- **Them:** 来就来嘛，还带什么东西！ Lái jiù lái ma, hái dài shénme dōngxi! — You shouldn't have brought anything — just coming is enough!
+- **You:** 请收下这份小礼物吧。 Qǐng shōuxià zhè fèn xiǎo lǐwù ba. — Please accept this little gift.
+- **Them:** 谢谢你的礼物，我很喜欢。 Xièxie nǐ de lǐwù, wǒ hěn xǐhuan. — Thank you for the present, I like it very much.
+
+### Work, money and wedding questions (`dlg.family.small-talk.1`, scene `family.small-talk`, reviewed: no)
+
+- **Them:** 工作忙吗？ Gōngzuò máng ma? — Is work busy?
+- **You:** 还好。 Háihǎo. — Not bad. / Fine.
+- **Them:** 你一个月赚多少？ Nǐ yī ge yuè zhuàn duōshao? — How much do you earn a month?
+- **You:** 还可以。 Hái kěyǐ. — It's OK. / Not bad.
+- **Them:** 你们什么时候结婚？ Nǐmen shénme shíhou jiéhūn? — When are you two getting married?
+- **You:** 以后再说吧。 Yǐhòu zàishuō ba. — Let's talk about that later.
+
+### Compliments on your Chinese (`dlg.family.small-talk.2`, scene `family.small-talk`, reviewed: no)
+
+- **Them:** 一路上辛苦了。 Yīlùshàng xīnkǔ le. — You must be tired after the journey.
+- **You:** 没什么。 Méi shénme. — It was nothing. / No trouble at all.
+- **Them:** 你的中文说得不错。 Nǐ de Zhōngwén shuō de bùcuò. — Your Chinese is pretty good.
+- **You:** 您过奖了。 Nín guòjiǎng le. — You flatter me. / That's too kind.
+- **You:** 还差得远呢。 Hái chà de yuǎn ne. — I've still got a long way to go.
+
+### New Year call on an aunt (`dlg.family.spring-festival.1`, scene `family.spring-festival`, reviewed: no)
+
+- **You:** 大妈，我们给您拜年来啦！ Dàmā, wǒmen gěi nín bàinián lái la! — Auntie, we've come to wish you a Happy New Year!
+- **Them:** 过年好！ Guònián hǎo! — Happy New Year! (Spring Festival greeting)
+- **You:** 祝您在新的一年身体健康！ Zhù nín zài xīn de yī nián shēntǐ jiànkāng! — Wishing you good health in the new year!
+- **Them:** 谢谢你！也祝你新春快乐！ Xièxie nǐ! Yě zhù nǐ xīnchūn kuàilè! — Thank you! Happy New Year to you too!
+
+### Zodiac small talk at New Year (`dlg.family.spring-festival.2`, scene `family.spring-festival`, reviewed: no)
+
+- **Them:** 新年快乐！ Xīnnián kuàilè! — Happy New Year!
+- **You:** 羊年大吉！ Yángnián dàjí! — Good fortune in the Year of the Goat!
+- **Them:** 你属什么？ Nǐ shǔ shénme? — What's your zodiac animal? (= which year were you born in?)
+- **You:** 我属马。 Wǒ shǔ mǎ. — I was born in the Year of the Horse.
+
+### Telling the waiter what you can't eat (`dlg.travel.diet.1`, scene `travel.diet`, reviewed: no)
+
+- **Them:** 有什么忌口吗？ Yǒu shénme jìkǒu ma? — Is there anything you don't eat? / Any dietary restrictions?
+- **You:** 我不吃猪肉。 Wǒ bù chī zhūròu. — I don't eat pork.
+- **Them:** 这是清真饭店。 Zhè shì qīngzhēn fàndiàn. — This is a halal (Muslim) restaurant.
+- **You:** 我对花生过敏。 Wǒ duì huāshēng guòmǐn. — I'm allergic to peanuts.
+
+### The way to the Bank of China (`dlg.travel.directions.1`, scene `travel.directions`, reviewed: no)
+
+- **You:** 请问，去中国银行怎么走？ Qǐngwèn, qù Zhōngguó Yínháng zěnme zǒu? — Excuse me, how do I get to the Bank of China?
+- **Them:** 前面路口往右拐就是。 Qiánmiàn lùkǒu wǎng yòu guǎi jiù shì. — Turn right at the intersection ahead and you're there.
+- **You:** 走路去要多长时间？ Zǒulù qù yào duō cháng shíjiān? — How long does it take on foot?
+- **Them:** 不远，就在前面，再走五分钟就到了。 Bù yuǎn, jiù zài qiánmiàn, zài zǒu wǔ fēnzhōng jiù dào le. — It's not far — just ahead; five more minutes' walk and you're there.
+- **You:** 谢谢您的帮助。 Xièxie nín de bāngzhù. — Thank you for your help.
+
+### Is there a metro station nearby? (`dlg.travel.directions.2`, scene `travel.directions`, reviewed: no)
+
+- **You:** 请问，附近有地铁站吗？ Qǐngwèn, fùjìn yǒu dìtiězhàn ma? — Excuse me, is there a metro station nearby?
+- **Them:** 一直走，不拐弯。 Yīzhí zǒu, bù guǎiwān. — Go straight on; don't turn.
+- **You:** 走路去要多长时间？ Zǒulù qù yào duō cháng shíjiān? — How long does it take on foot?
+- **Them:** 你往前走一百米就到了。 Nǐ wǎng qián zǒu yībǎi mǐ jiù dào le. — Go straight ahead 100 metres and you're there.
+- **You:** 谢谢您的帮助。 Xièxie nín de bāngzhù. — Thank you for your help.
+
+### Thanking staff and leaving a shop (`dlg.travel.greetings.1`, scene `travel.greetings`, reviewed: no)
+
+- **You:** 谢谢！ Xièxie! — Thank you! / Thanks!
+- **Them:** 不客气。 Bù kèqi. — You're welcome.
+- **You:** 再见！ Zàijiàn! — Goodbye!
+- **Them:** 再见，您慢走，欢迎下次再来！ Zàijiàn, nín mànzǒu, huānyíng xiàcì zài lái! — Goodbye, take care, please come again!
+
+### Parting from your guide until tomorrow (`dlg.travel.greetings.2`, scene `travel.greetings`, reviewed: no)
+
+- **You:** 谢谢您！ Xièxie nín! — Thank you! (polite)
+- **Them:** 不客气。 Bù kèqi. — You're welcome.
+- **You:** 明天见！ Míngtiān jiàn! — See you tomorrow!
+- **Them:** 再见！ Zàijiàn! — Goodbye!
+
+### Key card, suitcase and finding your room (`dlg.travel.hotel.1`, scene `travel.hotel`, reviewed: no)
+
+- **Them:** 先生，这是您的房卡，请拿好。 Xiānsheng, zhè shì nín de fángkǎ, qǐng náhǎo. — Sir, here is your key card — please keep it safe.
+- **You:** 我的行李箱在哪儿取呢？ Wǒ de xínglixiāng zài nǎr qǔ ne? — Where do I collect my suitcase?
+- **Them:** 我们一会儿会直接送到您的房间。 Wǒmen yīhuìr huì zhíjiē sòngdào nín de fángjiān. — We'll bring it straight up to your room shortly.
+- **You:** 请问，二零四房间在哪儿？ Qǐngwèn, èr líng sì fángjiān zài nǎr? — Excuse me, where is room 204?
+- **Them:** 请这边走，前面左边第二个就是。 Qǐng zhèbiān zǒu, qiánmiàn zuǒbian dì-èr gè jiù shì. — This way, please — it's the second one on the left up ahead.
+
+### Checking out and leaving your luggage (`dlg.travel.hotel.2`, scene `travel.hotel`, reviewed: no)
+
+- **You:** 我要退房。 Wǒ yào tuìfáng. — I'd like to check out.
+- **Them:** 您稍等，我查一下。 Nín shāoděng, wǒ chá yīxià. — One moment please, let me check.
+- **You:** 我可以把行李寄存在这里吗？ Wǒ kěyǐ bǎ xíngli jìcún zài zhèlǐ ma? — Can I leave my luggage here?
+- **Them:** 我帮您拿行李吧。 Wǒ bāng nín ná xíngli ba. — Let me take your luggage for you.
+
+### Bargaining at a market stall (`dlg.travel.paying.1`, scene `travel.paying`, reviewed: no)
+
+- **You:** 太贵了。 Tài guì le. — That's too expensive.
+- **Them:** 那我再给您便宜五十块，怎么样？ Nà wǒ zài gěi nín piányi wǔshí kuài, zěnmeyàng? — Then I'll take another 50 yuan off for you. How's that?
+- **You:** 我要这个。 Wǒ yào zhège. — I'll take this one.
+- **Them:** 微信还是支付宝？ Wēixìn háishi Zhīfùbǎo? — WeChat or Alipay?
+- **You:** 我扫你。 Wǒ sǎo nǐ. — I'll scan your code.
+
+### A cash-only shop (`dlg.travel.paying.2`, scene `travel.paying`, reviewed: no)
+
+- **You:** 你好，这儿可以用信用卡吗？ Nǐ hǎo, zhèr kěyǐ yòng xìnyòngkǎ ma? — Hi, do you take credit cards here?
+- **Them:** 对不起，我们这里只能用现金付款。 Duìbuqǐ, wǒmen zhèlǐ zhǐ néng yòng xiànjīn fùkuǎn. — Sorry, we only take cash here.
+- **You:** 不好意思，我没零钱。 Bù hǎoyìsi, wǒ méi língqián. — Sorry, I don't have small change.
+- **Them:** 一共是三十块，您这是一百块，给您七十，您拿好。 Yīgòng shì sānshí kuài, nín zhè shì yībǎi kuài, gěi nín qīshí, nín ná hǎo. — That's 30 yuan altogether. You've given me 100, so here's 70 change. There you go.
+
+### Ordering mapo tofu, mildly spicy (`dlg.travel.restaurant.1`, scene `travel.restaurant`, reviewed: no)
+
+- **You:** 服务员！ Fúwùyuán! — Excuse me! (calling the waiter or waitress)
+- **Them:** 好的，您要什么菜？ Hǎo de, nín yào shénme cài? — Sure, which dish would you like?
+- **You:** 我要麻婆豆腐，还有两碗米饭。 Wǒ yào mápó dòufu, hái yǒu liǎng wǎn mǐfàn. — I'd like mapo tofu and two bowls of rice.
+- **Them:** 要微辣、中辣还是重辣？ Yào wēilà, zhōnglà háishi zhònglà? — Mild, medium or hot?
+- **You:** 可以做微辣吗？我不是很能吃辣。 Kěyǐ zuò wēilà ma? Wǒ bù shì hěn néng chī là. — Can you make it mildly spicy? I can't eat very spicy food.
+
+### A table for two and a QR-code menu (`dlg.travel.restaurant.2`, scene `travel.restaurant`, reviewed: no)
+
+- **Them:** 您好！欢迎光临。请问您几位？ Nín hǎo! Huānyíng guānglín. Qǐngwèn nín jǐ wèi? — Hello, welcome! How many of you?
+- **You:** 我们两个人。 Wǒmen liǎng gè rén. — There are two of us. / A table for two.
+- **Them:** 扫码点餐。 Sǎomǎ diǎncān. — Scan the QR code to order.
+- **You:** 你们有英文菜单吗？ Nǐmen yǒu Yīngwén càidān ma? — Do you have an English menu?
+
+### Buying a train ticket at the counter (`dlg.travel.station.1`, scene `travel.station`, reviewed: no)
+
+- **You:** 请问，十四号到北京的车票还有吗？ Qǐngwèn, shísì hào dào Běijīng de chēpiào hái yǒu ma? — Excuse me, are there still tickets to Beijing for the 14th?
+- **Them:** 对不起，十四号的已经卖完了。 Duìbuqǐ, shísì hào de yǐjīng màiwán le. — Sorry, the ones for the 14th are sold out.
+- **You:** 那十五号早上的还有吗？ Nà shíwǔ hào zǎoshang de hái yǒu ma? — Then are there any for the morning of the 15th?
+- **Them:** 您想要一等座还是二等座？ Nín xiǎng yào yīděngzuò háishi èrděngzuò? — Would you like first class or second class?
+- **You:** 我想要二等座。 Wǒ xiǎng yào èrděngzuò. — I'd like second class.
+
+### Taxi to the train station (`dlg.travel.taxi.1`, scene `travel.taxi`, reviewed: no)
+
+- **You:** 师傅，我去火车站。 Shīfu, wǒ qù huǒchēzhàn. — (To the driver) To the train station, please.
+- **You:** 大概要多长时间，半小时能到吗？ Dàgài yào duō cháng shíjiān, bàn xiǎoshí néng dào ma? — About how long will it take? Can we make it in half an hour?
+- **Them:** 现在不堵车，估计二十分钟就能到。 Xiànzài bù dǔchē, gūjì èrshí fēnzhōng jiù néng dào. — There's no traffic now; we should be there in about twenty minutes.
+- **You:** 师傅，停在这里就好了。 Shīfu, tíng zài zhèlǐ jiù hǎo le. — You can stop here, thanks — here is fine.
+- **Them:** 对不起，这里不让停车。 Duìbuqǐ, zhèlǐ bù ràng tíngchē. — Sorry, you can't stop (park) here.
+- **Them:** 前面路口往右拐就是。 Qiánmiàn lùkǒu wǎng yòu guǎi jiù shì. — Turn right at the junction ahead and you're there.
+
+### Your ride-hailing driver is at the wrong spot (`dlg.travel.taxi.2`, scene `travel.taxi`, reviewed: no)
+
+- **Them:** 你出来了吗？我到楼下了。 Nǐ chūláile ma? Wǒ dào lóuxià le. — Are you out yet? I'm downstairs (I've arrived).
+- **You:** 我现在就在学校西门。 Wǒ xiànzài jiù zài xuéxiào xīmén. — I'm right at the school's west gate now.
+- **Them:** 对不起，别着急，我马上就到。 Duìbuqǐ, bié zháojí, wǒ mǎshàng jiù dào. — Sorry, don't worry, I'll be there right away.
+- **You:** 师傅，开一下后备箱。 Shīfu, kāi yīxià hòubèixiāng. — Could you open the boot (trunk), please?
+
+### You spoke too fast (`dlg.travel.understanding.1`, scene `travel.understanding`, reviewed: no)
+
+- **Them:** 你听懂了吗？ Nǐ tīngdǒng le ma? — Did you understand?
+- **You:** 对不起，我没听懂，您说得太快了。 Duìbuqǐ, wǒ méi tīngdǒng, nín shuō de tài kuài le. — Sorry, I didn't understand — you spoke too fast.
+- **You:** 请帮我写一下，好吗？ Qǐng bāng wǒ xiě yīxià, hǎo ma? — Could you write it down for me, please?
+- **Them:** 没问题，有不明白的问我就行。 Méi wèntí, yǒu bù míngbai de wèn wǒ jiù xíng. — No problem — if anything's unclear, just ask me.
+
+### How do you read this character? (`dlg.travel.understanding.2`, scene `travel.understanding`, reviewed: no)
+
+- **You:** 我只会说一点儿中文。 Wǒ zhǐ huì shuō yīdiǎnr Zhōngwén. — I only speak a little Chinese.
+- **Them:** 没问题，有不明白的问我就行。 Méi wèntí, yǒu bù míngbai de wèn wǒ jiù xíng. — No problem — if anything's unclear, just ask me.
+- **You:** 请问这个字怎么读？ Qǐngwèn zhège zì zěnme dú? — Excuse me, how do you pronounce this character?
+- **Them:** 您稍等，我查一下。 Nín shāoděng, wǒ chá yīxià. — One moment please, I'll check.
 
 ### Business card, WeChat and a price list (`dlg.work.contacts.1`, scene `work.contacts`, reviewed: no)
 
