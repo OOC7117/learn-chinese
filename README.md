@@ -146,7 +146,8 @@ GOOGLE_TTS_API_KEY=your-key node scripts/generate-tts.mjs
 ```
 
 The dry run counts the clips and billed characters for all words without a recording plus every phrase,
-kinship term and grammar example (DRYRUN_SUMMARY). Billing must be enabled on the Google Cloud project; the
+kinship term and grammar example: on 2026-11-02 that was 5,894 clips and 26,887 billed characters with the
+WaveNet voice, about US$0.11 at list price and US$0 inside the monthly free tier of 4 million characters. Billing must be enabled on the Google Cloud project; the
 key is only read from the environment. Behind a proxy add `NODE_USE_ENV_PROXY=1`. The clips go to
 `app/audio/g/` and their index to `data/audio/tts-index.json`; `npm run build` then uses a clip wherever no
 recording exists and its pinyin still matches (the app labels it "Generated voice (synthetic)"). Listen to
