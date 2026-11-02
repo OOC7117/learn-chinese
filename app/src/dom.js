@@ -31,10 +31,33 @@ export function h(tag, attrs, ...children) {
   return el;
 }
 
+// A run of Chinese inside other text: Han characters with the CJK punctuation between and around them.
+const ZH_RUN = /[\u300A\u300C\u300E\uFF08\u201C]?\p{Script=Han}(?:[\p{Script=Han}\u3000-\u303F\uFF00-\uFFEF]*\p{Script=Han})?[\u3001\u3002\u300B\u300D\u300F\uFF09\uFF0C\uFF01\uFF1A\uFF1B\uFF1F\u201D]*/gu;
+const HAN = /\p{Script=Han}/u;
+const PLAIN_TEXT_ONLY = new Set(['OPTION', 'TEXTAREA', 'TITLE', 'SCRIPT', 'STYLE']);
+
+/** Text for `el`: Chinese inside English text (meanings, usage notes, source titles) gets lang="zh-Hans",
+ * so phones choose Simplified Chinese glyphs and screen readers a Chinese voice for it. */
+function textNode(el, text) {
+  if (!HAN.test(text) || PLAIN_TEXT_ONLY.has(el.tagName) || /^zh(?!-Latn)/i.test(el.lang)) return text;
+  const frag = document.createDocumentFragment();
+  let last = 0;
+  for (const m of text.matchAll(ZH_RUN)) {
+    if (m.index > last) frag.append(text.slice(last, m.index));
+    const span = document.createElement('span');
+    span.lang = 'zh-Hans';
+    span.textContent = m[0];
+    frag.append(span);
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) frag.append(text.slice(last));
+  return frag;
+}
+
 export function append(el, kids) {
   for (const kid of kids.flat(Infinity)) {
     if (kid === null || kid === undefined || kid === false) continue;
-    el.append(kid instanceof Node ? kid : String(kid));
+    el.append(kid instanceof Node ? kid : textNode(el, String(kid)));
   }
   return el;
 }

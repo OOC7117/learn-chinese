@@ -349,7 +349,12 @@ function runDrill(root, ctx, spec) {
     pending = null;
     if (disposed) return;
     if (!list.length) {
-      replace(body, errorPanel('There are no recordings for this drill yet.', null, null));
+      // Offline, the words of a drill may not be saved on this device yet (errorPanel then says so).
+      const offline = navigator.onLine === false;
+      replace(body, errorPanel(offline ? 'This drill could not be loaded.' : 'There are no recordings for this drill yet.', null, offline ? () => {
+        drawIntro();
+        prepare();
+      } : null));
       return;
     }
     items = list;
