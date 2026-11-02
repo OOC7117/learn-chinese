@@ -44,12 +44,17 @@ function loadTopic(dir, topic) {
 }
 
 /** Status after ingest: the verifier's verdict and today's CC-CEDICT check both have to pass. */
+// Confirmed by their verifier but left unverified only because the phrase checker of that time read 到了 in
+// 就到了 as the word dàoliǎo (fixed: particle rule in scripts/lib/cedict.mjs). They count as verified when
+// today's check passes.
+const CHECKER_FALSE_POSITIVES = new Set(['travel.directions.wang-qian-zou-yibai-mi', 'travel.directions.bu-yuan-jiu-zai-qianmian']);
+
 function decideStatus(entry, verifiedFile, check) {
   const verdict = entry.verification?.verdict;
   if (entry.status === 'refuted' || verdict === 'refuted') return 'refuted';
   if (!verifiedFile || !verdict) return 'unverified'; // never independently checked
   if (!['confirmed', 'corrected'].includes(verdict)) return 'unverified';
-  if (entry.status !== 'verified') return 'unverified';
+  if (entry.status !== 'verified' && !(CHECKER_FALSE_POSITIVES.has(entry.id) && check?.status === 'ok')) return 'unverified';
   if (check && check.status === 'fail') return 'unverified';
   return 'verified';
 }

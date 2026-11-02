@@ -150,6 +150,19 @@ export function checkText(dict, hanzi, pinyin) {
   return report;
 }
 
+// Grammatical particles: in 就到了 (jiù dào le) the 了 is a word of its own, although CC-CEDICT also has 到了
+// dàoliǎo 'finally'. A dictionary word ending in a particle is skipped when the text reads that particle
+// in the neutral tone and the dictionary word never does (the particle reading explains the split). A
+// wrong reading still fails: 为了 is wèile in CC-CEDICT, so "wéi le" is checked as 为了 and fails.
+const PARTICLES = new Set([...'了的着过吗呢吧啊呀啦嘛得地么']);
+function particleSplit(dict, word, part) {
+  const chars = [...word];
+  const last = chars.length - 1;
+  if (last < 1 || !PARTICLES.has(chars[last]) || part[last]?.tone !== 5) return false;
+  const rs = readings(dict, word).filter((r) => r.length === chars.length);
+  return rs.length > 0 && rs.every((r) => r[last].tone !== 5);
+}
+
 const VERDICT_COST = Object.freeze({ ok: 0, sandhi: 1, neutral: 1, 'chars-only': 2, mismatch: 10, 'not-in-dictionary': 10 });
 const WORD_COST = 100; // larger than any fit difference: fewer words always win
 
@@ -173,6 +186,7 @@ export function bestSegmentation(dict, chars, given, after = null) {
       const word = chars.slice(i, i + len).join('');
       if (len > 1 && !dict.bySimplified.has(word)) continue;
       const part = given.slice(i, i + len);
+      if (len > 1 && particleSplit(dict, word, part)) continue;
       const next = i + len < n ? given[i + len] : after;
       const res = compareWord(dict, word, part, next);
       const cost = best[i].cost + (VERDICT_COST[res.verdict] ?? 10) + WORD_COST;

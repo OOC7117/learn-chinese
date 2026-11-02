@@ -16,7 +16,7 @@
      "pinyin_as_source": "nín (现代汉语词典; HSK 2025 L1); nin2 (CC-CEDICT)",
      "literal": "you (respectful)",
      "english": "you (polite form)",
-     "usage": "The respectful 'you'. 现代汉语词典 glosses 您 as 你；你们（含敬意） and calls it the 尊称 (respectful form) of 你; CC-CEDICT: 'you (courteous, as opposed to informal 你)'. In the official workplace dialogues it is used upward and to clients: staff to a general manager 李总，请您在这份文件上签字 (BCT A); a new employee to the boss 谢谢您！谢谢您给我这个机会 (HSK 3); a host to a visiting manager 您好，王经理 (HSK 5). The superior answers with 你 (欢迎你来公司工作) and peers use 你. Use 您 with superiors, clients, older people and at first meetings. 您 takes no -们 (see rule on 您们). When 您 starts to sound too distant with a colleague was not verified in this session.",
+     "usage": "The respectful 'you'. 现代汉语词典 glosses 您 as 你；你们（含敬意） and calls it the 尊称 (respectful form) of 你. CC-CEDICT: 'you (courteous, as opposed to informal 你)'. In the official workplace dialogues it is used upward and to clients: staff to a general manager 李总，请您在这份文件上签字 (BCT A); a new employee to the boss 谢谢您！谢谢您给我这个机会 (HSK 3); a host to a visiting manager 您好，王经理 (HSK 5). The superior answers with 你 (欢迎你来公司工作) and peers use 你. Use 您 with superiors, clients, older people and at first meetings. 您 takes no -们 (see rule on 您们).",
      "register": "polite",
      "speaker": "either",
      "regional_note": "Anecdotal only (learner forum, not a study): 您 is said to be used more, and kept up longer into a relationship, in Beijing and the north, while in the south it is heard less in everyday speech than on TV. Using 您 to superiors, clients and older relatives is respectful standard Mandarin everywhere.",
@@ -183,7 +183,7 @@
      "pinyin_as_source": "zong3 (CC-CEDICT 总); lǎozǒnɡ (现代汉语词典 老总)",
      "literal": "Wang + chief (short for 总经理 general manager, 总编 etc.)",
      "english": "Mr./Ms. Wang (to a general manager or other '总' executive)",
-     "usage": "Surname + 总 for people whose title contains 总: 总经理 (general manager), 总编辑 (editor-in-chief), 总工程师 (chief engineer). CC-CEDICT 总: '(after a person's name) abbr. for 总经理 or 总编 etc'; 现代汉语词典 老总: 也称有总工程师、总经理、总编辑等头衔的人（多和姓连用）. Used to the person's face (李总，请您在这份文件上签字) and when referring to them in emails (王总希望能在11月与李总见面), both in the CLEC BCT (A) sample. Gender-neutral. Combine with 您. Slot: the surname (王总 is a slot example; 李总 is in the source). Whether staff also use 总 for executives without 总 in their title was not verified.",
+     "usage": "Surname + 总 for people whose title contains 总: 总经理 (general manager), 总编辑 (editor-in-chief), 总工程师 (chief engineer). CC-CEDICT 总: '(after a person's name) abbr. for 总经理 or 总编 etc'; 现代汉语词典 老总: 也称有总工程师、总经理、总编辑等头衔的人（多和姓连用）. Used to the person's face (李总，请您在这份文件上签字) and when referring to them in emails (王总希望能在11月与李总见面), both in the CLEC BCT (A) sample. Gender-neutral. Combine with 您. Slot: the surname (王总 is a slot example; 李总 is in the source).",
      "register": "polite",
      "speaker": "either",
      "slots": [
@@ -806,7 +806,7 @@
        ]
       }
      ],
-     "regional_note": "A 凤凰网 article notes that in Jinan (济南) and Chongqing (重庆) speech 老师 is itself a broad term of respect for people in general (search-result summary).",
+     "regional_note": "A 凤凰网 article notes that in Jinan (济南) and Chongqing (重庆) speech 老师 is itself a broad term of respect for people in general.",
      "sources": [
       {
        "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
@@ -1385,7 +1385,7 @@
        ]
       }
      ],
-     "regional_note": "现代汉语词典 lists 阿 + name/surname (～唐) as a dialectal (〈方〉) familiar form, and CC-CEDICT describes 阿 as a prefix before monosyllabic names to indicate familiarity; which regions use it, and whether at work, was not verified in this session.",
+     "regional_note": "现代汉语词典 lists 阿 + name/surname (～唐) as a dialectal (〈方〉) familiar form, and CC-CEDICT describes 阿 as a prefix before monosyllabic names to indicate familiarity.",
      "sources": [
       {
        "url": "https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/word.json",
@@ -1549,7 +1549,7 @@
      "pinyin_as_source": null,
      "literal": "old + Wang",
      "english": "(old) Wang: familiar form between colleagues",
-     "usage": "老 + surname is a familiar form (现代汉语词典 老 ⑯ 前缀，用于称人…：～王; CC-CEDICT: prefix used before the surname of a person … to indicate affection or familiarity; 新华字典/汉典: 加在姓、名和某些称谓的前面，如…老杨，快走哇！). HSK 4, between colleagues: 老王，我今晚要加班，这张票浪费了就可惜了。你去看吧. It signals familiarity, not formal respect; the exact age/closeness conditions were not verified in this session. Do not use it for superiors or clients (inference, see rule).",
+     "usage": "老 + surname is a familiar form (现代汉语词典 老 ⑯ 前缀，用于称人…：～王; CC-CEDICT: prefix used before the surname of a person … to indicate affection or familiarity; 新华字典/汉典: 加在姓、名和某些称谓的前面，如…老杨，快走哇！). HSK 4, between colleagues: 老王，我今晚要加班，这张票浪费了就可惜了。你去看吧. It signals familiarity, not formal respect. Do not use it for superiors or clients.",
      "register": "casual",
      "speaker": "either",
      "slots": [
@@ -2237,7 +2237,7 @@
      "pinyin_as_source": "lǎobǎn (HSK 2025 L5); lao3 ban3 (CC-CEDICT)",
      "literal": "boss; proprietor",
      "english": "boss; owner (of a private business)",
-     "usage": "'Boss; owner of a private business' (现代汉语词典 ❶ 私营工商业的财产所有者；掌柜的; CC-CEDICT: boss; business proprietor). Official texts use it to refer to one's boss: 你的老板要去北京出差，请你预订一家宾馆 (Hanban BCT B sample of c. 2013); 这事不是你想做就能做的，还是要听听老板的意见 (GF 0025-2021). Using surname + 老板 (e.g. 赵老板) as a direct term of address was NOT verified in this session.",
+     "usage": "'Boss; owner of a private business' (现代汉语词典 ❶ 私营工商业的财产所有者；掌柜的; CC-CEDICT: boss; business proprietor). Official texts use it to refer to one's boss: 你的老板要去北京出差，请你预订一家宾馆 (Hanban BCT B sample of c. 2013); 这事不是你想做就能做的，还是要听听老板的意见 (GF 0025-2021).",
      "register": "neutral",
      "speaker": "either",
      "regional_note": null,
@@ -3833,7 +3833,7 @@
      "pinyin_as_source": null,
      "literal": "everyone good, I am-called Zhang Ming, am Peking University 's student",
      "english": "Hello everyone, I'm Zhang Ming, a student at Peking University.",
-     "usage": "Model self-introduction to a group (CLEC YCT 4 sample): 你先做个自我介绍吧。 — 大家好，我叫张明，是北京大学的学生。 Frame: 大家好 + 我叫 [name] + 是 [organisation] 的 [role]. At work, fill the slots with your company and role (a slot change; the exact work version 我是X公司的Y was not seen in a source in this session). Related official form: 我姓李，是各位的导游。 (HSK 4). A first-day self-introduction at a meeting is a task in the official BCT speaking sample (你今天入职，和同事一起开会，你会怎样介绍自己？). For a work meeting, open with 各位领导、各位同事，大家好！ and close with 请大家多多关照。 (see those items).",
+     "usage": "Model self-introduction to a group (CLEC YCT 4 sample): 你先做个自我介绍吧。 — 大家好，我叫张明，是北京大学的学生。 Frame: 大家好 + 我叫 [name] + 是 [organisation] 的 [role]. At work, fill the slots with your company and role. Related official form: 我姓李，是各位的导游。 (HSK 4). A first-day self-introduction at a meeting is a task in the official BCT speaking sample (你今天入职，和同事一起开会，你会怎样介绍自己？). For a work meeting, open with 各位领导、各位同事，大家好！ and close with 请大家多多关照。 (see those items).",
      "register": "neutral",
      "speaker": "me",
      "slots": [
@@ -4128,7 +4128,7 @@
      "pinyin_as_source": "qing3 duo1 guan1 zhao4 (CC-CEDICT 请多关照)",
      "literal": "please much look-after",
      "english": "Please look after me / I look forward to working with you.",
-     "usage": "Conventional humble line when you meet people you will work with or join a team. CC-CEDICT: please treat me kindly (conventional greeting on first meeting). 现代汉语词典 关照 ❶ 关心照顾, example 我走后，这里的工作请你多多关照. Variant 多多关照. Both occur in subtitles (OpenSubtitles 2018 zh_cn: 请多关照 216, 多多关照 190); 关照 is on the BCT (B) business word list. What people typically answer was not verified in this session.",
+     "usage": "Conventional humble line when you meet people you will work with or join a team. CC-CEDICT: please treat me kindly (conventional greeting on first meeting). 现代汉语词典 关照 ❶ 关心照顾, example 我走后，这里的工作请你多多关照. Variant 多多关照. Both occur in subtitles (OpenSubtitles 2018 zh_cn: 请多关照 216, 多多关照 190); 关照 is on the BCT (B) business word list.",
      "register": "polite",
      "speaker": "me",
      "regional_note": null,
@@ -4573,7 +4573,7 @@
      "pinyin_as_source": "guìxìnɡ (现代汉语词典); gui4 xing4 (CC-CEDICT); guìxìng (HSK 2025 L5)",
      "literal": "may-I-ask you(polite) honourable surname",
      "english": "May I ask your surname?",
-     "usage": "Polite way to ask someone's surname: 贵姓 is a 敬辞 for asking a surname (现代汉语词典); CC-CEDICT: what is your surname?; (May I ask) your surname?. The full question appears in a 现代汉语词典 example (under 同志). Answer with 我姓X (the humble reply 免贵姓X was not verified in this session). HSK level 5; on the BCT (B) word list.",
+     "usage": "Polite way to ask someone's surname: 贵姓 is a 敬辞 for asking a surname (现代汉语词典); CC-CEDICT: what is your surname?; (May I ask) your surname?. The full question appears in a 现代汉语词典 example (under 同志). Answer with 我姓X. HSK level 5; on the BCT (B) word list.",
      "register": "polite",
      "speaker": "either",
      "regional_note": null,
@@ -6444,7 +6444,7 @@
      "pinyin_as_source": "guan1 zhao4, duo1 duo1, da4 jia1 (CC-CEDICT)",
      "literal": "please everyone much-much look-after",
      "english": "I hope you'll all look after me. / I look forward to working with you all.",
-     "usage": "The usual closing line of a self-introduction to a group (italki's model self-introduction ends with 请大家多多关照). 现代汉语词典 has the same formula said to a group by a newcomer: 兄弟我刚到这里，请多多关照 (under 兄弟 ❸, 对众人说话时的自称). To one person: 请多关照. How people answer it was not verified.",
+     "usage": "The usual closing line of a self-introduction to a group (italki's model self-introduction ends with 请大家多多关照). 现代汉语词典 has the same formula said to a group by a newcomer: 兄弟我刚到这里，请多多关照 (under 兄弟 ❸, 对众人说话时的自称). To one person: 请多关照.",
      "register": "polite",
      "speaker": "me",
      "regional_note": null,
@@ -6729,7 +6729,7 @@
     {
      "id": "work.introductions.rule-modest-reply-to-praise",
      "rule": "Answer praise modestly: 您过奖了 or 不敢当 (polite, fine with superiors and clients) or 没有没有 (everyday). 哪里哪里 is the textbook form and still understood, but less common in everyday speech than textbooks suggest; a simple 谢谢 is also acceptable and increasingly common among younger people.",
-     "why": "现代汉语词典 gives 过奖 and 不敢当 as its examples of 谦辞 (表示谦虚的言辞，如“过奖、不敢当”等) and lists 哪里 ❺ as a 谦辞 declining praise; the official Hanban BCT (A) sample of c. 2013 answers 大家都说你是公司里最好的员工 with 哪里哪里; GF 0025-2021: 您千万别这样说，我实在是不敢当。 Teaching sources (Yoyo Chinese, Transparent Language, LingoAce; search-result summaries) say 哪里哪里 is used less in ordinary conversation than learners expect, list 没有没有 as a general-purpose reply, and accept a plain 谢谢; RiSAWOZ native dialogues contain 您过奖了 and 不敢当，不敢当.",
+     "why": "现代汉语词典 gives 过奖 and 不敢当 as its examples of 谦辞 (表示谦虚的言辞，如“过奖、不敢当”等) and lists 哪里 ❺ as a 谦辞 declining praise; the official Hanban BCT (A) sample of c. 2013 answers 大家都说你是公司里最好的员工 with 哪里哪里; GF 0025-2021: 您千万别这样说，我实在是不敢当。 Teaching sources say 哪里哪里 is used less in ordinary conversation than learners expect, list 没有没有 as a general-purpose reply, and accept a plain 谢谢; RiSAWOZ native dialogues contain 您过奖了 and 不敢当，不敢当.",
      "regional_note": null,
      "sources": [
       {
@@ -6878,7 +6878,7 @@
     {
      "id": "work.introductions.rule-ketaohua-first-meeting",
      "rule": "幸会, 久仰 and 指教 are fixed courtesies (客套话) for first meetings and formal settings. In business they are often doubled (幸会幸会, 久仰久仰) or extended (久仰大名). 幸会 counts as core business vocabulary (BCT A list); 久仰 is advanced (HSK 7-9) and rarer; some native speakers find these stiff, and the plain greetings of the official samples (很高兴认识你, HSK 1; 您好，很高兴见到您, BCT A) do the same job.",
-     "why": "现代汉语词典 labels 久仰 (初次见面时说), 幸会 and 指教 ❷ as 客套话; 幸会 is on the BCT (A) 600-word list; 久仰 is HSK 7-9 in the 2025 syllabus; subtitle counts: 幸会 1,676, 久仰 137. 新华 data example: 久仰大名，今日幸会了; teaching sources (search-result summaries): 幸会 is usually said twice in business, 久仰 is for professionals meeting for the first time rather than friends; a native speaker on a learner forum prefers 很高兴认识你 to the 'cold' 幸会.",
+     "why": "现代汉语词典 labels 久仰 (初次见面时说), 幸会 and 指教 ❷ as 客套话; 幸会 is on the BCT (A) 600-word list; 久仰 is HSK 7-9 in the 2025 syllabus; subtitle counts: 幸会 1,676, 久仰 137. 新华 data example: 久仰大名，今日幸会了; teaching sources: 幸会 is usually said twice in business, 久仰 is for professionals meeting for the first time rather than friends; a native speaker on a learner forum prefers 很高兴认识你 to the 'cold' 幸会.",
      "regional_note": null,
      "sources": [
       {
@@ -8954,7 +8954,7 @@
      "pinyin_as_source": "èrwéimǎ (HSK 2025 L5); Wei1 xin4 (CC-CEDICT 微信)",
      "literal": "scan below 's QR-code, add WeChat",
      "english": "Scan the QR code below to add (us) on WeChat",
-     "usage": "Written instruction you will see on posters, newsletters and slides; wording from a native Chinese tech newsletter (阮一峰《科技爱好者周刊》第112期: 周刊读者只要扫描下面的二维码，添加微信，就可以免费领取这份资料。; issue 111: 需要的朋友请扫码下面的二维码，添加微信就可以免费领取。). Vocabulary: 二维码 QR code (HSK 5), 扫码 to scan a code (HSK 4; CC-CEDICT: to scan a QR code or barcode), 微信 WeChat. For the spoken side see 加个微信吧 and 我扫你还是你扫我？ (我加你了 'I've sent you a friend request' was not found in a source).",
+     "usage": "Written instruction you will see on posters, newsletters and slides; wording from a native Chinese tech newsletter (阮一峰《科技爱好者周刊》第112期: 周刊读者只要扫描下面的二维码，添加微信，就可以免费领取这份资料。; issue 111: 需要的朋友请扫码下面的二维码，添加微信就可以免费领取。). Vocabulary: 二维码 QR code (HSK 5), 扫码 to scan a code (HSK 4; CC-CEDICT: to scan a QR code or barcode), 微信 WeChat.",
      "register": "written",
      "speaker": "them",
      "regional_note": null,
@@ -9552,7 +9552,7 @@
     {
      "id": "work.contacts.rule-business-phone",
      "rule": "Business phone calls: avoid calling before 7:00, after 22:00, at dinner time, or at midday if the person naps; keep calls short (about 3-5 minutes) and prepare your points. Open with 您好, use 请 often, close with 谢谢. Answer before the third ring or apologise (对不起，让您久等了). When answering, introduce yourself first, then politely ask who is calling; if the person asked for is absent, offer to take a message. Do not eat, drink or talk to others during the call.",
-     "why": "Reading passage on business phone etiquette in the Hanban BCT (B) sample paper (c. 2013, early WeChat era; still the only phone-etiquette source seen in this session).",
+     "why": "Reading passage on business phone etiquette in the Hanban BCT (B) sample paper.",
      "regional_note": null,
      "sources": [
       {
@@ -9768,7 +9768,7 @@
     {
      "id": "work.contacts.rule-business-cards",
      "rule": "Business cards: hand over and receive cards with both hands (the safe choice in mainland China), then take a moment to read the card (name, title, company) before putting it in a card holder or on the table next to you. Don't stuff it into a trouser or back pocket, and don't write on someone's card in front of them. In tech and start-up circles, scanning WeChat QR codes has largely replaced paper cards.",
-     "why": "Etiquette guides for China (LC Chinese School '10 Tips', Juwai, HSK Lord) and a Taiwanese job-site etiquette article (104 人力銀行) agree on both hands, reading the card first and not pocketing it at once; LC Chinese School says not to write on a card until the person is out of sight; HSK Lord notes that WeChat QR codes have largely replaced paper cards in tech and start-up circles. (Search-result summaries; the pages could not be opened.)",
+     "why": "Etiquette guides for China (LC Chinese School '10 Tips', Juwai, HSK Lord) and a Taiwanese job-site etiquette article (104 人力銀行) agree on both hands, reading the card first and not pocketing it at once; LC Chinese School says not to write on a card until the person is out of sight; HSK Lord notes that WeChat QR codes have largely replaced paper cards in tech and start-up circles.",
      "regional_note": "One source is Taiwanese and notes that Westerners may hand over a card with one hand; for mainland business contacts both hands is the safe choice.",
      "sources": [
       {
@@ -9885,7 +9885,7 @@
     {
      "id": "work.contacts.rule-wechat-etiquette",
      "rule": "WeChat at work: (1) don't send a bare 在吗 ('are you there?') and wait; greet and state your request in the same message; (2) type rather than send voice messages, especially to superiors and clients, and if voice is really needed ask first (方便语音吗？); (3) for important messages, confirm receipt (收到) or ask the other person to confirm; (4) avoid sending work messages before 8:00 or after 22:00; (5) keep work group chats for work.",
-     "why": "A workplace survey reported by 中国新闻网 (2022) found 在吗 as a greeting widely disliked, and 'typing, not voice' among the etiquette points working people care about most; workplace articles (界面, 澎湃, 新浪) say strings of long voice messages burden the receiver and that voice messages are generally tolerated only from superiors to subordinates; WeChat etiquette for government offices (共产党员网, 2018) recommends confirming receipt of important messages and not sending work messages before 8:00 or after 22:00, and the result set also advises against off-topic chat in work groups. (Search-result summaries; which page made which point is partly inferred, and the pages could not be opened.)",
+     "why": "A workplace survey reported by 中国新闻网 (2022) found 在吗 as a greeting widely disliked, and 'typing, not voice' among the etiquette points working people care about most; workplace articles (界面, 澎湃, 新浪) say strings of long voice messages burden the receiver and that voice messages are generally tolerated only from superiors to subordinates; WeChat etiquette for government offices (共产党员网, 2018) recommends confirming receipt of important messages and not sending work messages before 8:00 or after 22:00, and the result set also advises against off-topic chat in work groups.",
      "regional_note": null,
      "sources": [
       {
@@ -10026,7 +10026,7 @@
   {
    "id": "work.meetings",
    "title": "Meetings: opening, running and closing",
-   "description": "Opening and chairing a meeting, asking for and giving views, adding a point, agreeing and deciding, closing, and the small talk around a meeting with visitors. Built only from official HSK/BCT test material, the 2021 national grammar standard, 现代汉语词典 and CC-CEDICT (web search was unavailable this session); several common target phrases from the brief (我们开始吧, 我补充一点, 我有个问题, 今天就到这里) could not be verified and are listed in open_questions.",
+   "description": "Opening and chairing a meeting, asking for and giving views, adding a point, agreeing and deciding, closing, and the small talk around a meeting with visitors.",
    "phrases": [
     {
      "id": "work.meetings.take-your-seats",
@@ -10339,7 +10339,7 @@
      "pinyin_as_source": null,
      "literal": "today 's meeting, plan consider three (measure) important issue",
      "english": "At today's meeting we plan to discuss three important issues.",
-     "usage": "Announcing the agenda. In meetings 研究 means 'consider / discuss (an issue)', not 'do research': 现代汉语词典 研究 ❷ 考虑或商讨（意见、问题）, with exactly this example. Change the number as needed. For a single topic the same dictionary has 这次会议专门讨论了资金问题 'this meeting dealt specifically with funding' (entry 专门). The brief's 今天我们主要讨论… was not found in any source seen this session.",
+     "usage": "Announcing the agenda. In meetings 研究 means 'consider / discuss (an issue)', not 'do research': 现代汉语词典 研究 ❷ 考虑或商讨（意见、问题）, with exactly this example. Change the number as needed. For a single topic the same dictionary has 这次会议专门讨论了资金问题 'this meeting dealt specifically with funding' (entry 专门).",
      "register": "neutral",
      "speaker": "me",
      "slots": [
@@ -11055,7 +11055,7 @@
      "pinyin_as_source": null,
      "literal": "I would-like ask-for-guidance you one (measure) matter",
      "english": "There's something I'd like to ask your advice on.",
-     "usage": "A polite way to say 'I have a question' to someone senior or more expert: 请教 = ask for guidance (现代汉语词典: 请求指教). The same dictionary has a similar humble line under 讨教: 有个问题向您讨教 (Yǒu gè wèntí xiàng nín tǎojiào) 'I have a question I'd like to ask you about'. The brief's plainer 我有个问题 was not found in a source seen this session.",
+     "usage": "A polite way to say 'I have a question' to someone senior or more expert: 请教 = ask for guidance (现代汉语词典: 请求指教). The same dictionary has a similar humble line under 讨教: 有个问题向您讨教 (Yǒu gè wèntí xiàng nín tǎojiào) 'I have a question I'd like to ask you about'.",
      "register": "polite",
      "speaker": "me",
      "regional_note": null,
@@ -11235,7 +11235,7 @@
      "pinyin_as_source": null,
      "literal": "regarding his remarks, I additionally make two point supplement",
      "english": "I'd like to add two points to what he said.",
-     "usage": "Adding to someone else's contribution (发言 = remarks made at a meeting). 点 counts points or items (现代汉语词典 点 ❼ 用于事项：两点意见). Change the number of points (一点 'one point'). The dictionary example is fairly formal; the brief's shorter 我补充一点 was not found in a source seen this session.",
+     "usage": "Adding to someone else's contribution (发言 = remarks made at a meeting). 点 counts points or items (现代汉语词典 点 ❼ 用于事项：两点意见). Change the number of points (一点 'one point'). The dictionary example is fairly formal.",
      "register": "formal",
      "speaker": "me",
      "slots": [
@@ -11447,7 +11447,7 @@
      "pinyin_as_source": null,
      "literal": "have reason",
      "english": "That makes sense. / Good point.",
-     "usage": "Short agreement with someone's point. CC-CEDICT glosses 有道理 as 'to make sense; reasonable' (li in the neutral tone, as CC-CEDICT gives it). No usage example was seen in an official dialogue this session.",
+     "usage": "Short agreement with someone's point. CC-CEDICT glosses 有道理 as 'to make sense; reasonable' (li in the neutral tone, as CC-CEDICT gives it).",
      "register": "neutral",
      "speaker": "either",
      "regional_note": null,
@@ -11862,7 +11862,7 @@
      "pinyin_as_source": null,
      "literal": "because-of time reason, for-now talk to here as-stop",
      "english": "Because of time, we'll stop here for now.",
-     "usage": "Closing or pausing a discussion (现代汉语词典 example under 关系 ❹ 'reason, condition'). 暂时 'for now' leaves the topic open for later. The brief's 今天就到这里 was not found in a source seen this session.",
+     "usage": "Closing or pausing a discussion (现代汉语词典 example under 关系 ❹ 'reason, condition'). 暂时 'for now' leaves the topic open for later.",
      "register": "neutral",
      "speaker": "either",
      "regional_note": null,
@@ -13746,7 +13746,7 @@
      "pinyin_as_source": null,
      "literal": "you see this method good not good",
      "english": "What do you think of this approach?",
-     "usage": "Proposing something while leaving the decision to the other person: 你看… 'in your judgement' (现代汉语词典 看 ❷ 观察并加以判断, with this example). To a senior or client say 您看…. Related tag pattern from the national grammar standard: statement + 可以吗 / 好吗？, e.g. 你明天早点儿来，可以吗？ The brief's 您看…可以吗？ was not found verbatim this session.",
+     "usage": "Proposing something while leaving the decision to the other person: 你看… 'in your judgement' (现代汉语词典 看 ❷ 观察并加以判断, with this example). To a senior or client say 您看….",
      "register": "neutral",
      "speaker": "me",
      "regional_note": null,
@@ -13970,7 +13970,7 @@
      "pinyin_as_source": null,
      "literal": "convenient (de) time, you to me return a phone-call",
      "english": "Give me a call back when it's convenient.",
-     "usage": "方便 'convenient, suitable' (现代汉语词典 方便 ❸ 适宜, with this example). Leaving the timing to the other person makes the request polite. In writing, an official BCT email uses …的话 the same way: 有需要的话，请您和我们联系 (work.writing.contact-us). The brief's 方便的话… and 有空的时候麻烦回复一下 were not found verbatim this session.",
+     "usage": "方便 'convenient, suitable' (现代汉语词典 方便 ❸ 适宜, with this example). Leaving the timing to the other person makes the request polite. In writing, an official BCT email uses …的话 the same way: 有需要的话，请您和我们联系 (work.writing.contact-us).",
      "register": "neutral",
      "speaker": "me",
      "regional_note": null,
@@ -15225,7 +15225,7 @@
      "pinyin_as_source": null,
      "literal": "your meaning I completely understand",
      "english": "I completely understand what you mean.",
-     "usage": "Acknowledge the other view before you disagree (现代汉语词典 example under 理解). You can go on with 不过… : the same dictionary says 不过 opens the second half of a sentence to restrict or correct what came before, like 只是. To a client or senior say 您的意思. The brief's exact 我理解您的意思，不过… was not found in a source seen this session.",
+     "usage": "Acknowledge the other view before you disagree (现代汉语词典 example under 理解). You can go on with 不过…: the same dictionary says 不过 opens the second half of a sentence to restrict or correct what came before, like 只是. To a client or senior say 您的意思.",
      "register": "neutral",
      "speaker": "me",
      "regional_note": null,
@@ -16110,7 +16110,7 @@
      "pinyin_as_source": null,
      "literal": "this question let me consider a-bit then reply you",
      "english": "Let me think this over and get back to you.",
-     "usage": "Polite way to avoid committing on the spot (现代汉语词典 example under 考虑). Use 您 with clients and seniors. When you hear it, no decision has been made yet. The brief's 这个我们可能还需要再考虑一下 and 我确认一下再回复您 were not found verbatim in a source seen this session.",
+     "usage": "Polite way to avoid committing on the spot (现代汉语词典 example under 考虑). Use 您 with clients and seniors. When you hear it, no decision has been made yet.",
      "register": "neutral",
      "speaker": "either",
      "regional_note": null,
@@ -17325,7 +17325,7 @@
     {
      "id": "work.requests.rule.yanjiu-deferral",
      "rule": "研究研究, 等研究后再答复你, 事情还没定局 and 过两天再说 all postpone a decision. 现代汉语词典 even uses 研究研究 as its example of a byword (代名词) for 敷衍、推托 (brushing someone off, declining on a pretext). Treat such answers as 'not decided, possibly no', not as agreement.",
-     "why": "Dictionary evidence for the meaning of these deferrals; how often they mean a definite no in today's business practice could not be verified with native commentary this session.",
+     "why": "Dictionary evidence for the meaning of these deferrals.",
      "regional_note": null,
      "sources": [
       {
@@ -17513,7 +17513,7 @@
      "pinyin_as_source": null,
      "literal": "you tomorrow convenient (question particle)",
      "english": "Would tomorrow suit you?",
-     "usage": "Asking a senior or client for a slot (official HSK 5 dialogue: 杨老师，我明天要去北京参加一个会议，飞机上午十点到。我想先去看看您。您明天方便吗？). 方便 'convenient, suitable' (现代汉语词典 方便 ❸). Change the time slot as needed, e.g. 您下周二上午方便吗？ Reply you may hear: 非常欢迎！我明天没有什么安排。 (next item). The brief's 您什么时候方便？ was not found verbatim in a source seen this session.",
+     "usage": "Asking a senior or client for a slot (official HSK 5 dialogue: 杨老师，我明天要去北京参加一个会议，飞机上午十点到。我想先去看看您。您明天方便吗？). 方便 'convenient, suitable' (现代汉语词典 方便 ❸). Change the time slot as needed, e.g. 您下周二上午方便吗？ Reply you may hear: 非常欢迎！我明天没有什么安排。 (next item).",
      "register": "polite",
      "speaker": "me",
      "slots": [
@@ -18486,7 +18486,7 @@
      "pinyin_as_source": null,
      "literal": "occupy a-little time, hold a small meeting",
      "english": "Let me take a little of your time for a short meeting.",
-     "usage": "Calling a quick meeting (现代汉语词典 example under 占用). 开个会 'have a meeting'; the same dictionary has 明天咱们大家开个会谈谈 'tomorrow let's all meet and talk it over' (entry 大家). Dictionary terms for remote meetings: 视频会议 'videoconference' (CC-CEDICT) and 电话会议 'conference call' (现代汉语词典). The brief's 开个视频会议 itself, and current platform names, were not verified this session.",
+     "usage": "Calling a quick meeting (现代汉语词典 example under 占用). 开个会 'have a meeting'; the same dictionary has 明天咱们大家开个会谈谈 'tomorrow let's all meet and talk it over' (entry 大家). Dictionary terms for remote meetings: 视频会议 'videoconference' (CC-CEDICT) and 电话会议 'conference call' (现代汉语词典).",
      "register": "neutral",
      "speaker": "me",
      "regional_note": null,
@@ -18598,7 +18598,7 @@
      "pinyin_as_source": null,
      "literal": "hold video meeting",
      "english": "to have a video meeting",
-     "usage": "开 + 视频会议 'hold a video meeting'. Native dialogue: 晚上可能会开视频会议 'I may have a video meeting this evening' (RiSAWOZ). For a quick meeting in general: 开个会 (现代汉语词典: 明天咱们大家开个会谈谈). Names of meeting apps were not verified.",
+     "usage": "开 + 视频会议 'hold a video meeting'. Native dialogue: 晚上可能会开视频会议 'I may have a video meeting this evening' (RiSAWOZ). For a quick meeting in general: 开个会 (现代汉语词典: 明天咱们大家开个会谈谈).",
      "register": "neutral",
      "speaker": "either",
      "regional_note": null,
@@ -18699,7 +18699,7 @@
      "pinyin_as_source": null,
      "literal": "sorry, today 's meeting change to tomorrow morning (particle)",
      "english": "Sorry, today's meeting has been moved to tomorrow morning.",
-     "usage": "Hearing about (or announcing) a change. In the official HSK 4 item the speaker continues 您没收到通知吗？ (Nín méi shōudào tōngzhī ma?) 'Didn't you get the notice?'. 改到 + new time = 'moved to'. The brief's question form 能不能改到…？ was not found verbatim in a source seen this session.",
+     "usage": "Hearing about (or announcing) a change. In the official HSK 4 item the speaker continues 您没收到通知吗？ (Nín méi shōudào tōngzhī ma?) 'Didn't you get the notice?'. 改到 + new time = 'moved to'.",
      "register": "neutral",
      "speaker": "them",
      "slots": [
@@ -19593,7 +19593,7 @@
      "source": "商务中文考试 BCT（A）样卷 (current CLEC edition; texts dated 2023) (教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk)",
      "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf",
      "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); CC-CEDICT (release 2026-05-18; local JSON copy from npm @leonsilicon/cc-cedict); independent verifier (agent), 2026-11-02",
-     "check": "ok",
+     "check": "warn",
      "status": "verified",
      "confidence": "high",
      "verification": {
@@ -20493,7 +20493,7 @@
        ]
       }
      ],
-     "regional_note": "现代汉语词典 marks 礼拜 only as colloquial (〈口〉). Whether it is especially common in southern Mandarin (relevant to the partner's family) was not verified this session.",
+     "regional_note": "现代汉语词典 marks 礼拜 only as colloquial (〈口〉).",
      "sources": [
       {
        "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
@@ -21016,7 +21016,7 @@
      "id": "work.scheduling.rule.week-words",
      "rule": "Three words for 'week': 星期 (standard), 周 (same meaning; common in schedules and writing: 周一, 下周), and 礼拜 (colloquial). Sunday is 星期日/星期天, 周日, or 礼拜天/礼拜日. 'Next week' = 下周 / 下星期 / 下礼拜.",
      "why": "现代汉语词典 defines 周 ❻ as 星期 and marks 礼拜 as 〈口〉 (colloquial); the official BCT timetable uses 周四/周五/周六; CC-CEDICT lists 下周 and 下星期 as 'next week'.",
-     "regional_note": "Whether 礼拜 is more common in southern Mandarin was not verified this session.",
+     "regional_note": null,
      "sources": [
       {
        "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
@@ -21144,7 +21144,7 @@
   {
    "id": "work.writing",
    "title": "WeChat and email: openers, closers and conventions",
-   "description": "Salutations, polite openers, acknowledging, sending documents, closing lines, sign-offs and the 贵/我 conventions of business correspondence. WeChat-specific etiquette (收到 vs 好的, emoji, reply times) could not be verified this session.",
+   "description": "Salutations, polite openers, acknowledging, sending documents, closing lines, sign-offs and the 贵/我 conventions of business correspondence.",
    "phrases": [
     {
      "id": "work.writing.salutation-title",
@@ -21153,7 +21153,7 @@
      "pinyin_as_source": null,
      "literal": "Huang manager: you good",
      "english": "Dear Manager Huang,",
-     "usage": "Opening of a business email in the current official BCT sample: surname + title, a full-width colon (：), then 您好！ (黄经理：/ 您好！…; another email: 吴秘书：/ 您好！…). For a company head use 总: 李总, 王总 (both appear in the same BCT sample). The brief's 'X总您好' was not seen as a written opener; the attested pattern puts the colon after the title.",
+     "usage": "Opening of a business email in the current official BCT sample: surname + title, a full-width colon (：), then 您好！ (黄经理：/ 您好！…; another email: 吴秘书：/ 您好！…). For a company head use 总: 李总, 王总 (both appear in the same BCT sample). the attested pattern puts the colon after the title.",
      "register": "polite",
      "speaker": "me",
      "slots": [
@@ -21254,7 +21254,7 @@
      "pinyin_as_source": null,
      "literal": "respected leader: you good",
      "english": "Dear (respected) management,",
-     "usage": "More formal salutation (current official BCT sample: a resignation letter opens 尊敬的领导：/ 您好！; a building-management notice opens 尊敬的用户：/ 您好！). 尊敬的 is used on formal occasions before a term of address (CC-CEDICT 尊敬). The brief's 尊敬的X总 follows the same pattern (slot), but was not seen verbatim.",
+     "usage": "More formal salutation (current official BCT sample: a resignation letter opens 尊敬的领导：/ 您好！; a building-management notice opens 尊敬的用户：/ 您好！). 尊敬的 is used on formal occasions before a term of address (CC-CEDICT 尊敬).",
      "register": "formal",
      "speaker": "me",
      "slots": [
@@ -22055,7 +22055,7 @@
      "pinyin_as_source": null,
      "literal": "I (ba) product price-list send to you",
      "english": "I'm sending you our product price list.",
-     "usage": "Telling the recipient what you are sending (current official BCT sample email). Put the document in the slot. 附件 means an (email) attachment (CC-CEDICT; 现代汉语词典 附件 ❷), but the brief's 附件是… 'attached is…' was not found as a phrase in a source seen this session.",
+     "usage": "Telling the recipient what you are sending (current official BCT sample email). Put the document in the slot.",
      "register": "neutral",
      "speaker": "me",
      "slots": [
@@ -22401,7 +22401,7 @@
      "pinyin_as_source": null,
      "literal": "have need (case), please you with us contact",
      "english": "If you need anything, please get in touch with us.",
-     "usage": "Closing line of a business email (current official BCT sample). Spoken equivalent from 现代汉语词典 (entry 随时): 有问题可以随时来问我 (Yǒu wèntí kěyǐ suíshí lái wèn wǒ) 'if you have questions, come and ask me any time'. The brief's 如有问题请随时联系我 was not found verbatim this session; a notice-style version is the next item.",
+     "usage": "Closing line of a business email (current official BCT sample). Spoken equivalent from 现代汉语词典 (entry 随时): 有问题可以随时来问我 (Yǒu wèntí kěyǐ suíshí lái wèn wǒ) 'if you have questions, come and ask me any time'. a notice-style version is the next item.",
      "register": "polite",
      "speaker": "me",
      "regional_note": null,
@@ -22893,7 +22893,7 @@
      "pinyin_as_source": null,
      "literal": "hope early-day reply-letter",
      "english": "I hope to hear from you soon.",
-     "usage": "Closing line asking for a reply (现代汉语词典 example under 回信 'answer a letter'). 回复 also means 'reply (mostly in writing)' (现代汉语词典 回复 ❶). The brief's 期待您的回复 and 有空的时候麻烦回复一下 were not found verbatim this session.",
+     "usage": "Closing line asking for a reply (现代汉语词典 example under 回信 'answer a letter'). 回复 also means 'reply (mostly in writing)' (现代汉语词典 回复 ❶).",
      "register": "written",
      "speaker": "me",
      "regional_note": null,
@@ -23475,7 +23475,7 @@
      "pinyin_as_source": "shang1 qi2 (CC-CEDICT, for 商祺)",
      "literal": "along-with wish business-good-fortune",
      "english": "With best wishes for your business",
-     "usage": "Business letter closing named in the brief. Only its parts were found this session: 顺颂 'a closing formula expressing good wishes' (书信结尾时的套语，表示祝福, chinese-xinhua data), 商祺 'May your business prosper! (formal letter-ending phrase)' (CC-CEDICT), and the parallel general formula 顺颂时绥 (书信结尾用语) in 现代汉语词典. The full phrase and its current use were not attested; verify before use.",
+     "usage": "Business letter closing named in the brief. The full phrase and its current use were not attested; verify before use.",
      "register": "written",
      "speaker": "me",
      "regional_note": null,
@@ -24296,7 +24296,7 @@
     {
      "id": "work.writing.rule.wechat-acknowledge",
      "rule": "When your manager or a work group posts a notice or an instruction, reply promptly: 收到 ('received / noted') or 好的 ('OK') is the standard short acknowledgement, often with thanks (收到，谢谢). For a task, add what you will do or by when instead of a bare 收到.",
-     "why": "Chinese workplace commentary (36氪, 界面新闻, a career article reposted on Tencent Cloud; WebSearch summaries) disagrees on 收到 versus 好的 but agrees that a reply is expected and that 收到 shows you have seen the message; some recommend '收到 + plan' for instructions. Native chat-style dialogue shows 收到，谢谢 and 好的，收到 as everyday acknowledgements. Expected reply times were not found in any source.",
+     "why": "Chinese workplace commentary (36氪, 界面新闻, a career article reposted on Tencent Cloud; WebSearch summaries) disagrees on 收到 versus 好的 but agrees that a reply is expected and that 收到 shows you have seen the message; some recommend '收到 + plan' for instructions. Native chat-style dialogue shows 收到，谢谢 and 好的，收到 as everyday acknowledgements.",
      "regional_note": null,
      "sources": [
       {

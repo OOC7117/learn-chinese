@@ -538,6 +538,154 @@
     "friend",
     "CL:個|个[ge4],位[wei4]"
    ]
+  },
+  {
+   "traditional": "了",
+   "simplified": "了",
+   "pinyin": "le5",
+   "definitions": [
+    "(completed action marker)",
+    "(modal particle indicating change of state, situation now)"
+   ]
+  },
+  {
+   "traditional": "了",
+   "simplified": "了",
+   "pinyin": "liao3",
+   "definitions": [
+    "to finish",
+    "(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")"
+   ]
+  },
+  {
+   "traditional": "到",
+   "simplified": "到",
+   "pinyin": "dao4",
+   "definitions": [
+    "to reach; to arrive",
+    "to leave for; to go to"
+   ]
+  },
+  {
+   "traditional": "到了",
+   "simplified": "到了",
+   "pinyin": "dao4 liao3",
+   "definitions": [
+    "at last",
+    "finally"
+   ]
+  },
+  {
+   "traditional": "就",
+   "simplified": "就",
+   "pinyin": "jiu4",
+   "definitions": [
+    "(after a suppositional clause) in that case; then",
+    "(after a clause of action) as soon as; immediately after"
+   ]
+  },
+  {
+   "traditional": "為",
+   "simplified": "为",
+   "pinyin": "wei2",
+   "definitions": [
+    "as (in the capacity of)",
+    "to take sth as"
+   ]
+  },
+  {
+   "traditional": "為",
+   "simplified": "为",
+   "pinyin": "wei4",
+   "definitions": [
+    "because of",
+    "for"
+   ]
+  },
+  {
+   "traditional": "為了",
+   "simplified": "为了",
+   "pinyin": "wei4 le5",
+   "definitions": [
+    "for; for the purpose of; in order to"
+   ]
+  },
+  {
+   "traditional": "爲",
+   "simplified": "为",
+   "pinyin": "wei2",
+   "definitions": [
+    "variant of 為|为[wei2]"
+   ]
+  },
+  {
+   "traditional": "爲",
+   "simplified": "为",
+   "pinyin": "wei4",
+   "definitions": [
+    "variant of 為|为[wei4]"
+   ]
+  },
+  {
+   "traditional": "瞭",
+   "simplified": "了",
+   "pinyin": "liao3",
+   "definitions": [
+    "(of eyes) bright",
+    "clear-sighted"
+   ]
+  },
+  {
+   "traditional": "瞭",
+   "simplified": "了",
+   "pinyin": "liao4",
+   "definitions": [
+    "unofficial variant of 瞭[liao4]"
+   ]
+  },
+  {
+   "traditional": "行",
+   "simplified": "行",
+   "pinyin": "hang2",
+   "definitions": [
+    "(bound form) row; line",
+    "(bound form) line of business; trade; profession"
+   ]
+  },
+  {
+   "traditional": "行",
+   "simplified": "行",
+   "pinyin": "heng2",
+   "definitions": [
+    "used in 道行[dao4 heng2]"
+   ]
+  },
+  {
+   "traditional": "行",
+   "simplified": "行",
+   "pinyin": "xing2",
+   "definitions": [
+    "(bound form) to walk; to go; to travel",
+    "(literary) trip; journey; visit"
+   ]
+  },
+  {
+   "traditional": "銀",
+   "simplified": "银",
+   "pinyin": "yin2",
+   "definitions": [
+    "silver",
+    "silver-colored"
+   ]
+  },
+  {
+   "traditional": "銀行",
+   "simplified": "银行",
+   "pinyin": "yin2 hang2",
+   "definitions": [
+    "bank",
+    "CL:家[jia1],個|个[ge4]"
+   ]
   }
  ]
 }

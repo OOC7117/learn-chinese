@@ -99,3 +99,13 @@ test('checkText: alignment failure when syllables and characters do not line up'
   assert.deepEqual(checkText(dict, '你', 'nǐ hǎo').problems, ['alignment: 1 characters but 2 syllables']);
   assert.equal(checkText(dict, '一点儿', 'yīdiǎn').status, 'fail', 'the erhua r must be written');
 });
+
+test('checkText: a neutral-tone particle is its own word when the dictionary word reads it otherwise (到了 dàoliǎo vs 到 + 了)', () => {
+  // CC-CEDICT has 到了 dào liǎo 'finally'; in 就到了 the 了 is the particle le.
+  assert.equal(checkText(dict, '就到了。', 'Jiù dào le.').status, 'ok');
+  // The particle rule never excuses a wrong reading: CC-CEDICT reads 为了 wèi le, so "wéi le" is checked as 为了.
+  assert.equal(checkText(dict, '为了', 'wéi le').status, 'fail');
+  assert.equal(checkText(dict, '为了', 'wèi le').status, 'ok');
+  // Nor does it apply to other words: 银行 stays one word.
+  assert.equal(checkText(dict, '银行', 'yínxíng').status, 'fail');
+});
