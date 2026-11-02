@@ -6,7 +6,7 @@ Grouped by site; "accessed" is the date the source was read. Licence is given wh
 (datasets and content shipped in the app); for pages that were only read to verify a fact, no licence
 applies to this project. The pinned datasets and their SHA-256 checksums are in `data/sources.lock.json`.
 
-Total: 904 sources on 197 sites.
+Total: 1437 sources on 341 sites.
 
 ## Datasets and software shipped or used to build the app
 
@@ -34,13 +34,31 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [共产党员网 article of 2018-09-06 on WeChat etiquette for government offices (headline not shown in the results)](https://www.12371.cn/2018/09/06/ARTI1536188694435804.shtml) | 共产党员网 (12371.cn) | official-media |  | 2026-11-02 | research: work-intro-contacts |
+| [共产党员网 article of 2018-09-06 on WeChat etiquette for government offices (headline not shown in the results)](https://www.12371.cn/2018/09/06/ARTI1536188694435804.shtml) | 共产党员网 (12371.cn) | official-media |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+
+### 163.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Repost of the Chinese Embassy in the Netherlands notice on fingerprint exemption](https://www.163.com/dy/article/KH6C8HMU0514DCDB.html) | NetEase (163.com) account | press |  | 2026-11-02 | data/reference/facts.json |
+
+### 21jingji.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [千余家银行网点、50种币种兑换，深圳“支付组合拳”迎APEC - 21经济网](https://www.21jingji.com/article/20261023/herald/44dd07ca29bd9665c882fd3bfccd6869.html) | 21st Century Business Herald (21经济网) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### 2cantonfair.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [支付宝TourCardの使用法（2026年更新：廃止された方法）](https://www.2cantonfair.com/blog/ja/post/using-alipay-tourcard-guide/) | 2cantonfair.com (Japanese-language travel blog) | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### 36kr.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Workplace article on replying to managers in work chats](https://www.36kr.com/p/1724684238849) | 36氪 36kr.com | press |  | 2026-11-02 | research: work-meetings-writing |
+| [Workplace article on replying to managers in work chats](https://www.36kr.com/p/1724684238849) | 36氪 36kr.com | press |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
 ### abc.net.au (1)
 
@@ -55,12 +73,24 @@ Total: 904 sources on 197 sites.
 | [Chinese Test Dates in 2026](https://admin.chinesetest.cn/gonewcontent.do?id=50278989) | Chinese Testing International (CTI) | official |  | 2026-11-02 | research: hsk-standard-exam |
 | [HSK3.0第二轮全球试行考试通知](https://admin.chinesetest.cn/gonewcontent.do?id=51236758) | Chinese Testing International (CTI) | official |  | 2026-11-02 | research: hsk-standard-exam |
 
+### altery.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to pay with Alipay in China (Altery travel guide; page title not shown in results)](https://altery.com/personal/use-cases/travel/china/how-to-pay-with-alipay/) | Altery (fintech company guide) | blog |  | 2026-11-02 | data/reference/facts.json |
+
 ### antgroup.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Ant Group Introduces 10 Asian E-Wallets to Chinese Mainland in Major Expansion of Alipay+ Cross-Border Mobile Payment Ecosystem](https://www.antgroup.com/en/news-media/press-releases/1695114686000) | Ant Group | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [What is Alipay, and how does it work?](https://www.antgroup.com/en/news-media/press-releases/1742974487000) | Ant Group | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### anwb.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Reisdocumenten en rijbewijs China](https://www.anwb.nl/vakantie/china/reisvoorbereiding/reisdocumenten) | ANWB | secondary |  | 2026-11-02 | data/reference/facts.json |
 
 ### api.github.com (4)
 
@@ -77,11 +107,23 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Live probe of the Tatoeba API from this sandbox](https://api.tatoeba.org/v1/sentences/1) | Tatoeba | primary |  | 2026-11-02 | research: cedict-sentences |
 
+### api.thatsmandarin.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [3 Phrases to Respond to Compliments in Chinese](https://api.thatsmandarin.com/chinese-language/3-phrases-to-respond-to-compliments-in-chinese) | That's Mandarin | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
 ### api.toneperfect.app (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Speechace vs SpeechSuper vs Azure Pricing (2026): Cost per Request](https://api.toneperfect.app/blog/pronunciation-assessment-api-pricing-compared/) | toneperfect.app blog (third party, a competitor) | blog |  | 2026-11-02 | research: speech-tech |
+
+### autohome.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [乘车礼仪 座次 (汽车之家 Q&A); also sina.cn, HK01 (global.hk01.com) and Taiwanese motoring sites (nownews, 8891) in the same result set](https://www.autohome.com.cn/ask/2896453.html) | Autohome; Sina; HK01; others (press and Q&A pages) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 
 ### azure.cn (1)
 
@@ -95,10 +137,13 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Pricing - Azure Speech in Foundry Tools](https://azure.microsoft.com/en-us/pricing/details/speech/) | Microsoft Azure | vendor-docs |  | 2026-11-02 | research: speech-tech |
 
-### baike.baidu.com (1)
+### baike.baidu.com (4)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [端午节安康（节日祝福语）_百度百科](https://baike.baidu.com/item/%E7%AB%AF%E5%8D%88%E8%8A%82%E5%AE%89%E5%BA%B7/57262366) | 百度百科 Baidu Baike | secondary |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [端午节快乐_百度百科](https://baike.baidu.com/item/%E7%AB%AF%E5%8D%88%E8%8A%82%E5%BF%AB%E4%B9%90/5794100) | 百度百科 Baidu Baike | secondary |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [讨吉利_百度百科](https://baike.baidu.com/item/%E8%AE%A8%E5%90%89%E5%88%A9) | 百度百科 Baidu Baike | secondary |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [HSK3.0考试大纲_百度百科](https://baike.baidu.com/item/HSK3.0%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2/66992443) | Baidu Baike | secondary |  | 2026-11-02 | research: hsk-standard-exam |
 
 ### benjamins.com (2)
@@ -107,6 +152,18 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [The role of talker variability in the perceptual learning of Mandarin tones by American English listeners](https://benjamins.com/catalog/jslp.19010.sil) | John Benjamins, Journal of Second Language Pronunciation 6(2), 209-235 | academic |  | 2026-11-02 | research: learning-method |
 | [Maximizing the effect of visual feedback for pronunciation instruction: A comparative analysis of three approaches](https://benjamins.com/catalog/jslp.20005.ols) | John Benjamins, Journal of Second Language Pronunciation | academic |  | 2026-11-02 | research: learning-method |
+
+### bio.visaforchina.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [The Hague Other Centers (notices list)](https://bio.visaforchina.cn/HAG3_EN/tongzhigonggao) | Chinese Visa Application Service Center, The Hague | operator |  | 2026-11-02 | data/reference/facts.json |
+
+### bjnews.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [新京报: 多地倡议使用公筷公勺](https://www.bjnews.com.cn/detail/159176659215913.html) | 新京报 (Beijing News) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 
 ### blisstravel.life (1)
 
@@ -124,7 +181,21 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [職場禮儀 article (104 人力銀行 blog, Taiwan)](https://blog.104.com.tw/workplace-etiquette-and-polite/) | 104 人力銀行 (Taiwan) | blog |  | 2026-11-02 | research: work-intro-contacts |
+| [職場禮儀 article (104 人力銀行 blog, Taiwan)](https://blog.104.com.tw/workplace-etiquette-and-polite/) | 104 人力銀行 (Taiwan) | blog |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+
+### blog.hutong-school.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to eat out in Chinese](https://blog.hutong-school.com/how-to-eat-out-in-chinese) | Hutong School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Survive as a Vegetarian in China](https://blog.hutong-school.com/how-to-survive-as-a-vegetarian-in-china/index.html) | Hutong School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### blog.skritter.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Taxi Terms in Chinese (Skritter blog, 2019-11); also ChinesePod lessons “Stopping the Taxi” and “Drive Faster”, and a 新东方 article (bj.xdf.cn](https://blog.skritter.com/2019/11/taxi-terms-in-chinese/) | Skritter; ChinesePod; 新东方 (teaching sites) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [“DON'T OPEN IT NOW!” \| Chinese Gift-Giving Etiquette](https://blog.skritter.com/2025/12/dont-open-it-now-chinese-gift-giving-etiquette-🎁/) | Skritter blog | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 
 ### blog.wechat.com (1)
 
@@ -132,18 +203,44 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Easy Pay with Weixin Pay! Link Your International Bank Card Today](https://blog.wechat.com/2024/12/19/easy-pay-with-weixin-pay-link-your-international-bank-card-today/) | WeChat Blog (Tencent) | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### blog.yesim.tech (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Does eSIM Work in China in 2026?](https://blog.yesim.tech/?p=41202) | Yesim (eSIM seller), company blog | blog |  | 2026-11-02 | data/reference/facts.json |
+
 ### blogs.transparent.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Chinese Language Blog post on answering compliments](https://blogs.transparent.com/chinese/?p=15087) | Transparent Language, Chinese Language Blog | teaching |  | 2026-11-02 | research: work-intro-contacts |
-| [Greetings and salutations](https://blogs.transparent.com/chinese/greetings-and-salutations/) | Transparent Language, Chinese Language Blog | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Chinese Language Blog post on answering compliments](https://blogs.transparent.com/chinese/?p=15087) | Transparent Language, Chinese Language Blog | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Greetings and salutations](https://blogs.transparent.com/chinese/greetings-and-salutations/) | Transparent Language, Chinese Language Blog | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### bugs.webkit.org (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [WebKit Bug 237322 (Web Audio and the silent switch)](https://bugs.webkit.org/show_bug.cgi?id=237322) | WebKit Bugzilla | primary |  | 2026-11-02 | research: hosting-pwa |
+
+### businesswire.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Ant International's Alipay+ Adds New Bank Partners Amid Cross-border Mobile Payment Boom in Asia Pacific](https://www.businesswire.com/news/home/20260723150944/en/Ant-Internationals-Alipay-Adds-New-Bank-Partners-Amid-Cross-border-Mobile-Payment-Boom-in-Asia-Pacific) | Ant International (Business Wire release) | operator |  | 2026-11-02 | data/reference/facts.json |
+
+### c.m.163.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [NetEase (网易) article on hosts' polite formulas when visiting](https://c.m.163.com/news/a/L1AO2AO50542Q5CG.html) | 网易 (NetEase News) | news-portal |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [打网约车打久了，你总会遇到那么几个“不一样”的网约车司机 (网易 163.com)](https://c.m.163.com/news/a/L3DAJ8TO0547K1F9.html) | NetEase 163.com (press/opinion) | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+
+### cac.gov.cn (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [工业和信息化部关于清理规范互联网网络接入服务市场的通知 (工信部信管函〔2017〕32号), as republished by the Cyberspace Administration of China (page title not shown in search resu](https://www.cac.gov.cn/2017-01/23/c_1120366809.htm) | Cyberspace Administration of China (cac.gov.cn), republishing MIIT | official |  | 2026-11-02 | data/reference/facts.json |
+| [MIIT official Q&A on the 2017 notice on cleaning up the internet access service market (page title not shown in search results)](https://www.cac.gov.cn/2017-01/26/c_1120381529.htm) | Cyberspace Administration of China (cac.gov.cn), republishing MIIT | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### cal.msu.edu (1)
 
@@ -165,11 +262,17 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Context effects on second-language learning of tonal contrasts](https://cbchang.com/wp-content/uploads/ChangBowles2015_JASA.pdf) | J. Acoust. Soc. Am. 138(6), 3703-3716 (author PDF) | academic |  | 2026-11-02 | research: learning-method |
 
+### cbgc.scol.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Report on the State Council Provisions on Exit and Entry Administration (title not shown in the search result)](https://cbgc.scol.com.cn/news/7812441) | Cover News (封面新闻, scol.com.cn) | press |  | 2026-11-02 | data/reference/facts.json |
+
 ### cet6.koolearn.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [CET-6 business-meeting expressions with Chinese translations](https://cet6.koolearn.com/20220208/851377.html) | 新东方在线 koolearn.com | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [CET-6 business-meeting expressions with Chinese translations](https://cet6.koolearn.com/20220208/851377.html) | 新东方在线 koolearn.com | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
 ### challenges.hackingchinese.com (1)
 
@@ -177,17 +280,25 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [BLCU balanced corpus frequency lists (Hacking Chinese resources)](https://challenges.hackingchinese.com/resources/stories/451-blcu-balanced-corpus-frequency-lists) | Hacking Chinese | native-teacher |  | 2026-11-02 | research: chars-freq-pinyin |
 
+### chicago.china-consulate.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Frequently Asked Questions on Visa-free Entry into China (Updated February, 2026)](https://chicago.china-consulate.gov.cn/eng/lsfw/tz/202605/t20260506_11904912.htm) | Consulate General of the People's Republic of China in Chicago | official |  | 2026-11-02 | data/reference/facts.json |
+
 ### china-admissions.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Chinese Words and Expressions about WeChat 微信 (Wēixìn)](https://www.china-admissions.com/blog/chinese-words-and-expressions-about-wechat-微信-weixin/) | China Admissions | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Chinese Words and Expressions about WeChat 微信 (Wēixìn)](https://www.china-admissions.com/blog/chinese-words-and-expressions-about-wechat-微信-weixin/) | China Admissions | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
-### china-briefing.com (1)
+### china-briefing.com (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [China Travel Update - Customs Scraps Health Declaration Requirement for All Travelers from November 1](https://www.china-briefing.com/news/china-travel-update-customs-scraps-health-declaration-requirement-for-all-travelers-from-november-1/) | China Briefing (Dezan Shira & Associates) | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [China's E-Fapiao System: A Primer for Foreign Investors](https://www.china-briefing.com/news/chinas-e-fapiao-system-at-a-glance/) | China Briefing (Dezan Shira & Associates) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Das Chinesische „Fapiao“ Rechnungssystem](https://www.china-briefing.com/news/das-chinesische-fapiao-rechnungssystem/) | China Briefing (Dezan Shira & Associates) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### china-railway.com.cn (1)
 
@@ -195,11 +306,42 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [持外国护照旅客可在12306网站（含App）实现在线身份核验](http://www.china-railway.com.cn/xwzx/ywsl/202311/t20231130_131696.html) | China State Railway Group Co., Ltd. | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### chinaguidelines.com (1)
+### chinadaily.com.cn (5)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [The art of giving to Chinese](http://www.chinadaily.com.cn/china/2015-02/24/content_19641423.htm) | China Daily | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [餐厅服务员叫法太混乱 改个名叫“餐姐”如何](http://www.chinadaily.com.cn/dfpd/sc/2011-07/26/content_12983164.htm) | China Daily (Sichuan regional channel) | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [China rolls out online registration for foreigners in non-hotel stays](https://www.chinadaily.com.cn/a/202603/20/WS69bcf125a310d6866eb3ef2d.html) | China Daily | press |  | 2026-11-02 | data/reference/facts.json |
+| [Shanghai restaurants encourage tipping via QR codes](https://www.chinadaily.com.cn/china/2016-08/08/content_26391578.htm) | China Daily | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Beware green hat gifts or Yule be very sorry](https://www.chinadaily.com.cn/life/2008-12/29/content_7349364.htm) | China Daily | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### chinaeasymode.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Visa-Free After 31 December 2026: Will It Be Extended to 2027?](https://www.chinaeasymode.com/visa/visa-free-2027/) | China Easy Mode (travel guide) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### chinafortravelers.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [12306 English guide ('Heads-up before you start')](https://chinafortravelers.com/guides/12306-english/) | China for Travelers | blog |  | 2026-11-02 | data/reference/facts.json |
+| [12306 vs Trip.com](https://chinafortravelers.com/guides/12306-vs-trip-com/) | China for Travelers | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### chinaguidelines.com (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [China Tour Card 2026: Full Guide for Foreigners](https://chinaguidelines.com/en/posts/tour-card) | chinaguidelines.com (blog) | blog |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [WeChat Pay in China 2026: Setup Guide for Foreigners](https://chinaguidelines.com/en/posts/wechat-pay) | chinaguidelines.com (travel blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+| [2026 外国人支付宝注册和使用指南：护照认证、绑定境外银行卡、手续费、支付限额与中国日常扫码付款流程](https://chinaguidelines.com/zh/posts/alipay) | chinaguidelines.com (travel blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### chinamedservices.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Health Declaration Form 2026: Traveler Guide](https://chinamedservices.com/china-health-declaration-form-2026/) | China Med Services (travel/medical guide) | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### chinaneighbor.com (1)
 
@@ -207,53 +349,87 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Alipay TourPass: Discontinued - What to Use Instead (2026)](https://chinaneighbor.com/guide/essentials/alipay-tourpass-discontinued/) | chinaneighbor.com (blog) | blog |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### chinanews.com (1)
+### chinanews.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [chinanews.com report on the Shanghai textbook change 外婆 → 姥姥 (2018-06-23; headline not seen)](https://www.chinanews.com/sh/2018/06-23/8544637.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | research: family-address-kinship |
+| [China News Service report (title not shown in search results)](https://www.chinanews.com/cj/2024/10-21/10305208.shtml) | China News Service (chinanews.com) | press |  | 2026-11-02 | data/reference/facts.json |
+| [chinanews.com report on the Shanghai textbook change 外婆 → 姥姥 (2018-06-23; headline not seen)](https://www.chinanews.com/sh/2018/06-23/8544637.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
 
-### chinanews.com.cn (4)
+### chinanews.com.cn (10)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Milk-tea shops refusing “去冰” (China News Service, 2022-03-04)](https://www.chinanews.com.cn/cj/2022/03-04/9691788.shtml) | China News Service (中国新闻网) | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [China News Service finance report, 2 Mar 2024 (title not shown in search results)](https://www.chinanews.com.cn/cj/2024/03-02/10172975.shtml) | China News Service (chinanews.com.cn) | press |  | 2026-11-02 | data/reference/facts.json |
 | [《国际中文教育中文水平等级标准》7月1日起实施](https://www.chinanews.com.cn/cul/2021/05-21/9482134.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | research: hsk-standard-exam |
-| [中国新闻网 report of 2022-10-20 on a workplace survey about online social etiquette (headline not shown in the results)](https://www.chinanews.com.cn/cul/2022/10-20/9876863.shtml) | 中国新闻网 | news |  | 2026-11-02 | research: work-intro-contacts |
+| [中新网 culture-channel article contrasting 来就来呗 with 来都来了 (2022-01-29; title not shown in the search result)](https://www.chinanews.com.cn/cul/2022/01-29/9664528.shtml) | 中国新闻网 (China News Service) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [中国新闻网 report of 2022-10-20 on a workplace survey about online social etiquette (headline not shown in the results)](https://www.chinanews.com.cn/cul/2022/10-20/9876863.shtml) | 中国新闻网 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 | [中文水平考试HSK3.0来了！全球试行启动 19日起报名](https://www.chinanews.com.cn/edu/2025/12-19/10536380.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | research: hsk-standard-exam |
-| [九成职场菜鸟都遇“开口难” 职场称呼也需磨合](https://www.chinanews.com.cn/m/sh/2017/08-04/8295738.shtml) | 中国新闻网, reporting a 中国青年报社会调查中心 survey of 1,972 working people | news |  | 2026-11-02 | research: work-intro-contacts |
+| [清明节不能说快乐，只能祝“安康”？答案令人意外……](https://www.chinanews.com.cn/life/2025/04-04/10394679.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [专家解析元宵汤圆区别：元宵靠“滚” 汤圆靠“包”](https://www.chinanews.com.cn/m/cul/2015/03-06/7107713.shtml) | 中国新闻网 China News Service | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [九成职场菜鸟都遇“开口难” 职场称呼也需磨合](https://www.chinanews.com.cn/m/sh/2017/08-04/8295738.shtml) | 中国新闻网, reporting a 中国青年报社会调查中心 survey of 1,972 working people | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [中新网 article on 催婚 at Spring Festival (2023-01-25); also chinanews.com/life/2024/01-30/10155387.shtml](https://www.chinanews.com.cn/sh/2023/01-25/9941474.shtml) | 中国新闻网 (China News Service) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 
-### chinese-forums.com (8)
+### chinatravel.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| ["Best regards" in Mandarin? (forum thread)](https://chinese-forums.com/forums/topic/38310-best-regards-in-mandarin/) | Chinese-Forums.com | secondary |  | 2026-11-02 | research: work-meetings-writing |
-| [Chinese-forums.com thread 'Being less formal', page 2 (2012)](https://chinese-forums.com/forums/topic/38639-being-less-formal/page/2) | Chinese-forums.com (learner forum) | blog |  | 2026-11-02 | research: family-address-kinship; research: work-intro-contacts |
-| [Rule for sequences of 3rd tone syllables (forum thread)](https://chinese-forums.com/forums/topic/49073-rule-for-sequences-of-3rd-tone-syllables) | Chinese Forums | forum |  | 2026-11-02 | research: pitfalls |
-| [How do you express that it was nice to meet someone (forum thread)](https://chinese-forums.com/forums/topic/57879-how-do-you-express-that-it-was-nice-to-meet-someone) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | research: work-intro-contacts |
-| [Meaning of 此致? (forum thread)](https://www.chinese-forums.com/forums/topic/15977-meaning-of-%E6%AD%A4%E8%87%B4/) | Chinese-Forums.com | secondary |  | 2026-11-02 | research: work-meetings-writing |
-| [您 (Chinese-forums.com thread; see also topic 38639 “being less formal”)](https://www.chinese-forums.com/forums/topic/3575-%E6%82%A8/) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | research: travel-basics |
+| [China Entry and Exit Requirements and Procedures 2026](https://www.chinatravel.com/guide/china-entry-and-exit) | ChinaTravel.com (travel agency guide) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### chinavisacheck.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China visa-free 2027: will the 30-day policy be extended?](https://chinavisacheck.com/china-visa/visa-free-2027) | chinavisacheck.com (travel guide) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### chinese-forums.com (9)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| ["Best regards" in Mandarin? (forum thread)](https://chinese-forums.com/forums/topic/38310-best-regards-in-mandarin/) | Chinese-Forums.com | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [Chinese-forums.com thread 'Being less formal', page 2 (2012)](https://chinese-forums.com/forums/topic/38639-being-less-formal/page/2) | Chinese-forums.com (learner forum) | blog |  | 2026-11-02 | data/situations/family.json; data/situations/work.json; research: family-address-kinship; research: work-intro-contacts |
+| [Rule for sequences of 3rd tone syllables (forum thread)](https://chinese-forums.com/forums/topic/49073-rule-for-sequences-of-3rd-tone-syllables) | Chinese Forums | forum |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [How do you express that it was nice to meet someone (forum thread)](https://chinese-forums.com/forums/topic/57879-how-do-you-express-that-it-was-nice-to-meet-someone) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Meaning of 此致? (forum thread)](https://www.chinese-forums.com/forums/topic/15977-meaning-of-%E6%AD%A4%E8%87%B4/) | Chinese-Forums.com | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [您 (Chinese-forums.com thread; see also topic 38639 “being less formal”)](https://www.chinese-forums.com/forums/topic/3575-%E6%82%A8/) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [您 (discussion thread)](https://www.chinese-forums.com/forums/topic/3575-%E6%82%A8/page/2/) | Chinese-forums.com | forum |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [Official 2012 NEW HSK vocabulary lists (thread, incl. page 2)](https://www.chinese-forums.com/forums/topic/39206-official-2012-new-hsk-vocabulary-lists/) | Chinese-Forums | secondary |  | 2026-11-02 | research: hsk-datasets |
-| [小姐 always bad in China? (Chinese-forums.com thread); also the thread “The dark meaning of 5 Chinese terms” (https://www.chinese-forums.com/f](https://www.chinese-forums.com/forums/topic/60480-%E5%B0%8F%E5%A7%90-always-bad-in-china/) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | research: travel-basics |
+| [小姐 always bad in China? (Chinese-forums.com thread); also the thread “The dark meaning of 5 Chinese terms” (https://www.chinese-forums.com/f](https://www.chinese-forums.com/forums/topic/60480-%E5%B0%8F%E5%A7%90-always-bad-in-china/) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
 
 ### chineseclass101.com (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Survival Phrases #9 — Please Say It Once Again (ChineseClass101)](https://chineseclass101.com/lesson/survival-phrases-9-please-say-it-once-again) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | research: travel-basics |
-| [Absolute Beginner #15 — Essentials: No Thanks (ChineseClass101)](https://www.chineseclass101.com/lesson/absolute-beginner-15-essentials-no-thanks) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | research: travel-basics |
-| [Bootcamp #3 — Useful Phrases in the Classroom (ChineseClass101)](https://www.chineseclass101.com/lesson/bootcamp-3-useful-phrases-in-the-classroom) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | research: travel-basics |
+| [Survival Phrases #9 — Please Say It Once Again (ChineseClass101)](https://chineseclass101.com/lesson/survival-phrases-9-please-say-it-once-again) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [Absolute Beginner #15 — Essentials: No Thanks (ChineseClass101)](https://www.chineseclass101.com/lesson/absolute-beginner-15-essentials-no-thanks) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [Bootcamp #3 — Useful Phrases in the Classroom (ChineseClass101)](https://www.chineseclass101.com/lesson/bootcamp-3-useful-phrases-in-the-classroom) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
 
-### chinesepod.com (1)
+### chinesepod.com (15)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [ChinesePod lesson 'Dinner with the Girlfriend's Parents'](https://chinesepod.com/lesson/dinner-with-the-girlfriends-parents) | ChinesePod (Mandarin teaching site) | practitioner |  | 2026-11-02 | research: family-address-kinship |
+| [Chinese New Year Red Envelopes: How to Give and Receive “hóngbāo” Like a Local](http://chinesepod.com/blog/chinese-new-year-red-envelopes-give-receive-hongbao-like-local) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [ChinesePod dictionary: 红包](https://chinesepod.com/dictionary/english-chinese/红包) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [ChinesePod lesson 'Dinner with the Girlfriend's Parents'](https://chinesepod.com/lesson/dinner-with-the-girlfriends-parents) | ChinesePod (Mandarin teaching site) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship |
+| [Giving Red Envelopes · Chinese Lesson](https://chinesepod.com/lessons/giving-red-envelopes) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Going to the Pharmacy (lesson)](https://chinesepod.com/lessons/going-to-the-pharmacy) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Hungry Traveler: Halal (lesson)](https://chinesepod.com/lessons/hungry-traveler-halal) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Ordering Food for the Group (lesson)](https://chinesepod.com/lessons/ordering-food-for-the-group) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [微辣 - mildly spicy - wēi là (dictionary entry with sample dialogue)](https://www.chinesepod.com/dictionary/%E5%BE%AE%E8%BE%A3) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [恭喜发财 - May you have a prosperous New Year! (New Year's greeting) - gōng xǐ fā cái](https://www.chinesepod.com/dictionary/%E6%81%AD%E5%96%9C%E5%8F%91%E8%B4%A2) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [感冒药 - medicine for colds - gǎn mào yào (dictionary entry)](https://www.chinesepod.com/dictionary/%E6%84%9F%E5%86%92%E8%8D%AF) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [診/诊 - to examine or treat medically - zhěn (dictionary entry with sample notes)](https://www.chinesepod.com/dictionary/%E8%A8%BA) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Being Seated in a Restaurant (lesson)](https://www.chinesepod.com/lesson/being-seated-in-a-restaurant) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Doctor's Orders (lesson)](https://www.chinesepod.com/lesson/doctors-orders) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Open the Trunk (ChinesePod lesson)](https://www.chinesepod.com/lesson/open-the-trunk) | ChinesePod | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [To pack or to go? 如饥似渴──打包还是带走？ (lesson)](https://www.chinesepod.com/lesson/to-pack-or-to-go-%E5%A6%82%E9%A5%A5%E4%BC%BC%E6%B8%B4%E2%94%80%E2%94%80%E6%89%93%E5%8C%85%E8%BF%98%E6%98%AF%E5%B8%A6%E8%B5%B0%EF%BC%9F) | ChinesePod | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### chinesereadingpractice.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Dialogue: 图书馆里的新朋友 (A new friend at the library)](https://chinesereadingpractice.com/2026/02/05/dialogue-%E5%9B%BE%E4%B9%A6%E9%A6%86%E9%87%8C%E7%9A%84%E6%96%B0%E6%9C%8B%E5%8F%8B-a-new-friend-at-the-library/) | Chinese Reading Practice | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Dialogue: 图书馆里的新朋友 (A new friend at the library)](https://chinesereadingpractice.com/2026/02/05/dialogue-%E5%9B%BE%E4%B9%A6%E9%A6%86%E9%87%8C%E7%9A%84%E6%96%B0%E6%9C%8B%E5%8F%8B-a-new-friend-at-the-library/) | Chinese Reading Practice | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### chinesetest.cn (6)
 
@@ -291,18 +467,37 @@ Total: 904 sources on 197 sites.
 | [Text-to-Speech: Lifelike AI voices and speech synthesis \| Google Cloud (product page)](https://cloud.google.com/text-to-speech) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
 | [Review pricing for Text-to-Speech \| Google Cloud](https://cloud.google.com/text-to-speech/pricing) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
 
-### cloud.tencent.com (1)
+### cloud.tencent.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [领导发微信，为何不建议你回复“收到”？ (reposted career-advice article)](https://cloud.tencent.com/developer/news/1086951) | 腾讯云开发者社区 (repost) | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [Tencent Cloud developer information pages on QR-code payment (扫码支付)](https://cloud.tencent.com/developer/information/12.12%E6%89%AB%E7%A0%81%E6%94%AF%E4%BB%98%E8%B4%AD%E4%B9%B0-article) | Tencent Cloud (cloud.tencent.com) developer information | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [领导发微信，为何不建议你回复“收到”？ (reposted career-advice article)](https://cloud.tencent.com/developer/news/1086951) | 腾讯云开发者社区 (repost) | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+
+### cn-healthcare.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Article on promoting 公筷公勺 at home](https://www.cn-healthcare.com/articlewm/20210106/content-1178163.html) | 健康界 cn-healthcare.com | news-portal |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### cn.chinadiplomacy.org.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [中方决定延长对法国等国免签政策并对瑞典免签](https://cn.chinadiplomacy.org.cn/2025-11/03/content_118157281.shtml) | chinadiplomacy.org.cn (习近平外交思想和新时代中国外交) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### cn.unionpay.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [中国银联优化境外来深支付服务 护航2026年深圳APEC峰会](https://cn.unionpay.com/upowhtml/cn/templates/newInfo-nosub/7885004da382485e8bde5a0ba000fdd3/20260831110213.html) | China UnionPay | operator |  | 2026-11-02 | data/reference/facts.json |
 
 ### cna.com.tw (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [中國央行:個人單位拒收現金 民眾可舉報](https://www.cna.com.tw/news/acn/201807130270.aspx) | Central News Agency (Taiwan) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [兩岸表情符號寓意不同 在中國丟微笑是罵人](https://www.cna.com.tw/news/acn/201906080084.aspx) | 中央通訊社 CNA (Taiwan) | press |  | 2026-11-02 | research: work-meetings-writing |
+| [兩岸表情符號寓意不同 在中國丟微笑是罵人](https://www.cna.com.tw/news/acn/201906080084.aspx) | 中央通訊社 CNA (Taiwan) | press |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
 ### code.claude.com (1)
 
@@ -310,10 +505,17 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Configure cloud environments (Claude Code docs)](https://code.claude.com/docs/en/cloud-environments.md) | Anthropic | official |  | 2026-11-02 | research: hosting-pwa |
 
-### community.vercel.com (7)
+### community.kpn.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Onterechte hoge roamingkosten in China](https://community.kpn.com/mobiel-15/onterechte-hoge-roamingkosten-in-china-628980) | KPN Community (KPN's customer forum) | operator |  | 2026-11-02 | data/reference/facts.json |
+
+### community.vercel.com (8)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Adding Custom domain to vercel make website inaccessible without vpn](https://community.vercel.com/t/adding-custom-domain-to-vercel-make-website-inaccessible-without-vpn/5237) | Vercel Community forum | practitioner |  | 2026-11-02 | data/reference/facts.json |
 | [Being rate limited on Hobby for deployment limits](https://community.vercel.com/t/being-rate-limited-on-hobby-for-deployment-limits-but-im-well-under-100/49793) | Vercel Community | practitioner |  | 2026-11-02 | research: hosting-pwa |
 | [Daily build limit not resetting](https://community.vercel.com/t/daily-build-limit-not-resetting-when-does-it-actually-reset/25659) | Vercel Community | practitioner |  | 2026-11-02 | research: hosting-pwa |
 | [Hobby - Deployment Storage stuck at 17 GB after deleting deployments](https://community.vercel.com/t/hobby-deployment-storage-stuck-at-17-gb-after-deleting-2-3-of-the-projects-deployments/49569) | Vercel Community | practitioner |  | 2026-11-02 | research: hosting-pwa |
@@ -322,11 +524,42 @@ Total: 904 sources on 197 sites.
 | [Vercel Weekly (2026-06-22)](https://community.vercel.com/t/vercel-weekly-2026-06-22/44187) | Vercel Community | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [What to do when your team is paused or blocked](https://community.vercel.com/t/what-to-do-when-your-team-is-paused-or-blocked/45069) | Vercel Community | practitioner |  | 2026-11-02 | research: hosting-pwa |
 
+### consular-protection.ec.europa.eu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Netherlands (NL) Representation in China (CHN) - Consulate Chongqing](https://consular-protection.ec.europa.eu/netherlands-nl-representation-china-chn-consulate-chongqing_en) | European Commission (EU Consular Protection) | secondary |  | 2026-11-02 | data/reference/facts.json |
+
+### country.cnr.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [春节年俗：一个地方一种年夜饭](http://country.cnr.cn/gundong/20160208/t20160208_521358674.shtml) | 中国乡村之声 (China National Radio) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### cs.help.wechat.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to Send a Red Packet (Using Red Packet and Transfer Features)](https://cs.help.wechat.com/hc/en-us/articles/11494854491407-Using-Red-Packet-and-Transfer-Features) | WeChat Help Center (Tencent) | vendor-docs |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### culturalatlas.sbs.com.au (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Culture — Etiquette](https://culturalatlas.sbs.com.au/chinese-culture/chinese-culture-etiquette) | Cultural Atlas (SBS Australia) | reference |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
 ### culturalkeys.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Essential Business Chinese – Meeting & Greeting](https://www.culturalkeys.cn/2018/03/14/essential-business-chinese-meeting-greeting/) | Cultural Keys | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Essential Business Chinese – Meeting & Greeting](https://www.culturalkeys.cn/2018/03/14/essential-business-chinese-meeting-greeting/) | Cultural Keys | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+
+### culture.gmw.cn (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [【网络中国节·春节】年俗日记⑮：正月初五 “破五” “送穷”](https://culture.gmw.cn/2022-02/05/content_35489107.htm) | 光明网 Guangming Online | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [“端午安康”还是“端午快乐”？别纠结，都对！](https://culture.gmw.cn/2026-06/18/content_38835765.htm) | 光明网 Guangming Online | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 
 ### d.lib.msu.edu (1)
 
@@ -338,7 +571,7 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Fonetische transcriptie van het Chinees](https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php) | Yang (Dutch-language journal), jaargang 18, via DBNL | secondary |  | 2026-11-02 | research: pitfalls |
+| [Fonetische transcriptie van het Chinees](https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php) | Yang (Dutch-language journal), jaargang 18, via DBNL | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 
 ### developer.apple.com (14)
 
@@ -376,17 +609,25 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [数英网 article on calling co-workers '老师' (headline not shown)](https://www.digitaling.com/articles/1556988.html) | 数英 DIGITALING | news |  | 2026-11-02 | research: work-intro-contacts |
+| [数英网 article on calling co-workers '老师' (headline not shown)](https://www.digitaling.com/articles/1556988.html) | 数英 DIGITALING | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
-### digmandarin.com (5)
+### digmandarin.com (7)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Secrets of Saying Sorry: “对不起”’s Correct Use](https://www.digmandarin.com/?p=6106) | Digmandarin | secondary |  | 2026-11-02 | research: pitfalls |
-| [12 Essential Phrases to Speak Professional Business Chinese in a Social Setting](https://www.digmandarin.com/12-essential-phrases-speak-professional-business-chinese-social-setting.html) | Digmandarin | teaching |  | 2026-11-02 | research: work-intro-contacts |
-| [How to Address People in Chinese (Digmandarin); also italki “Chinese titles” (https://www.italki.com/en/blog/chinese-titles)](https://www.digmandarin.com/how-to-address-people-in-chinese.html) | Digmandarin | teaching site |  | 2026-11-02 | research: travel-basics |
-| [How to Address People Properly You Meet in China (Digmandarin)](https://www.digmandarin.com/how-to-address-people-properly-you-meet-in-china.html) | Digmandarin | teaching site |  | 2026-11-02 | research: travel-basics |
-| [The Third Tone Change Rules in Spoken Chinese](https://www.digmandarin.com/the-3rd-tone-change-rules-in-spoken-chinese.html) | Digmandarin | secondary |  | 2026-11-02 | research: pitfalls |
+| [Secrets of Saying Sorry: “对不起”’s Correct Use](https://www.digmandarin.com/?p=6106) | Digmandarin | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [12 Essential Phrases to Speak Professional Business Chinese in a Social Setting](https://www.digmandarin.com/12-essential-phrases-speak-professional-business-chinese-social-setting.html) | Digmandarin | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Erhua (Digmandarin); also LingoAce “What is erhua”, ichineselearning “Mandarin Words with Erhua” and Chinese-forums threads 19132 and 55729](https://www.digmandarin.com/erhua.html) | Digmandarin; LingoAce; Chinese-forums.com | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [How to Address People in Chinese (Digmandarin); also italki “Chinese titles” (https://www.italki.com/en/blog/chinese-titles)](https://www.digmandarin.com/how-to-address-people-in-chinese.html) | Digmandarin | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [How to Address People Properly You Meet in China (Digmandarin)](https://www.digmandarin.com/how-to-address-people-properly-you-meet-in-china.html) | Digmandarin | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [Politely responding to compliments in Chinese](https://www.digmandarin.com/politely-responding-to-compliments-in-chinese.html) | DigMandarin | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [The Third Tone Change Rules in Spoken Chinese](https://www.digmandarin.com/the-3rd-tone-change-rules-in-spoken-chinese.html) | Digmandarin | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+
+### discoverrealchina.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Train E-Tickets for Foreigners: Passport Boarding 2026](https://discoverrealchina.com/china-train-etickets-foreigners-guide/) | Discover Real China | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### docs.cloud.google.com (9)
 
@@ -415,18 +656,32 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Commons:Shtooka (mirror of the Wikimedia Commons project page)](https://download.osmand.net/wiki/Commons:Shtooka) | Wikimedia Commons (mirrored by osmand.net) | secondary |  | 2026-11-02 | research: audio |
 
-### duchinese.net (1)
+### duchinese.net (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Du Chinese blog — regional accents of Mandarin](https://duchinese.net/blog/?p=2870) | Du Chinese | native-teacher |  | 2026-11-02 | research: grammar |
+| [Du Chinese blog — regional accents of Mandarin](https://duchinese.net/blog/?p=2870) | Du Chinese | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [How to Order Food In Chinese / related learner guides on calling a waiter](https://duchinese.net/blog/2020/06/26/14-ordering-food-in-chinese/) | Du Chinese, Yoyo Chinese, Mandarin Blueprint | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Order Bubble Tea in Chinese - Du Chinese Blog](https://duchinese.net/blog/2022/08/09/bubble-tea/) | Du Chinese | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### dxsbb.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [敬酒礼仪 / 酒桌规矩 article](https://www.dxsbb.com/news/713.html) | 大学生必备网 dxsbb.com | community |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### e-commerce.news (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [PayPal lets US travellers pay QR merchants in China](https://e-commerce.news/story/paypal-lets-us-travellers-pay-qr-merchants-in-china) | e-commerce.news | press |  | 2026-11-02 | data/reference/facts.json |
 
 ### echineselearning.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Handle Conflict in Chinese Business Conversations: Key Terms](https://www.echineselearning.com/blog/handle-conflict-in-chinese-business-conversations-key-terms) | eChineseLearning | secondary |  | 2026-11-02 | research: work-meetings-writing |
-| [How to ‘Argue’ in Chinese: Practical Debate and Rebuttal Skills](https://www.echineselearning.com/blog/how-to-argue-in-chinese-practical-debate-and-rebuttal-skills) | eChineseLearning | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [Handle Conflict in Chinese Business Conversations: Key Terms](https://www.echineselearning.com/blog/handle-conflict-in-chinese-business-conversations-key-terms) | eChineseLearning | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [How to ‘Argue’ in Chinese: Practical Debate and Rebuttal Skills](https://www.echineselearning.com/blog/how-to-argue-in-chinese-practical-debate-and-rebuttal-skills) | eChineseLearning | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
 ### edu.cctv.com (1)
 
@@ -434,18 +689,51 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [中文水平考试HSK3.0来了！全球试行启动 19日起报名](https://edu.cctv.com/2025/12/19/ARTIV4R5P66203aDjA16v9rn251219.shtml) | 央视网 (CCTV.com) | press |  | 2026-11-02 | research: hsk-standard-exam |
 
-### elon.io (1)
+### ee.china-embassy.gov.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [吗 vs Question-Word Questions (Don't Double)](https://elon.io/grammar/chinese-mandarin/particles/ma-vs-question-words) | Elon.io grammar guide | secondary |  | 2026-11-02 | research: pitfalls |
+| [关于延长对法、德等12国免签政策的通知](https://ee.china-embassy.gov.cn/lsfwx/zytz_0/202405/t20240510_11302131.htm) | Embassy of the People's Republic of China in Estonia | official |  | 2026-11-02 | data/reference/facts.json |
 
-### en.nia.gov.cn (9)
+### ehangzhou.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Overseas e-wallets eye 'China Travel' boom as cross-border payment drives tourism](https://www.ehangzhou.gov.cn/2026-02/12/c_296792.htm) | eHangzhou (Hangzhou Municipal Government English portal; news report) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### elon.io (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [客气话 — Modesty Phrases & Responses](https://elon.io/grammar/chinese-mandarin/expressions/keqihua-responses) | elon.io | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [吗 vs Question-Word Questions (Don't Double)](https://elon.io/grammar/chinese-mandarin/particles/ma-vs-question-words) | Elon.io grammar guide | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [客气 & 别客气 — Ritual Politeness](https://elon.io/grammar/chinese-mandarin/pragmatics/keqi-politeness) | elon.io (Mandarin grammar/pragmatics pages) | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### embassies.net (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Consulate General of Netherlands in Chongqing](https://embassies.net/netherlands-in-china/chongqing) | embassies.net (third-party directory) | secondary |  | 2026-11-02 | data/reference/facts.json |
+
+### en.gdfao.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Policy Interpretation of the Online Accommodation Registration Service for Foreigners Residing or Staying in Domiciles Other Than Hotels](http://en.gdfao.gov.cn/2026-03-23/c_1170949.htm) | Foreign Affairs Office of the People's Government of Guangdong Province | official |  | 2026-11-02 | data/reference/facts.json |
+
+### en.jiemian.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese train ticket website 12306 now supports English](https://en.jiemian.com/article/5331735.html) | Jiemian | press |  | 2026-11-02 | data/reference/facts.json |
+
+### en.nia.gov.cn (10)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Announcement on China's 240-hour Visa-Free Transit ...](https://en.nia.gov.cn/n147413/c182992/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [240-hour visa-free transit policy](https://en.nia.gov.cn/n147413/c187308/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [News (online accommodation registration rolled out nationwide)](https://en.nia.gov.cn/n147413/c237295/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json |
 | [Visa-Free Transit Policies 2026-08-20](https://en.nia.gov.cn/n147418/n147463/c183412/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Policy Interpretation (online arrival card)](https://en.nia.gov.cn/n147418/n147463/c191530/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [How to Submit Your Arrival Card to China Online 2025-12-22](https://en.nia.gov.cn/n147418/n147463/c195170/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
@@ -454,48 +742,96 @@ Total: 904 sources on 197 sites.
 | [Online Accommodation Registration](https://en.nia.gov.cn/n147418/n147468/c237295/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Entry-Exit and Stay (Residence) of Foreigners](https://en.nia.gov.cn/n147423/n147478/n147715/c158241/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### en.people.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Culture Insider: Taboos in gift-giving](https://en.people.cn/n/2015/0202/c90782-8844413.html) | People's Daily Online | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
 ### en.wikipedia.org (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Erhua (Wikipedia)](https://en.wikipedia.org/wiki/Erhua) | Wikipedia | encyclopedia |  | 2026-11-02 | research: travel-basics |
+| [Erhua (Wikipedia)](https://en.wikipedia.org/wiki/Erhua) | Wikipedia | encyclopedia |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
 | [Hanyu Shuiping Kaoshi](https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi) | Wikipedia | secondary |  | 2026-11-02 | research: hsk-standard-exam |
 
-### english.beijing.gov.cn (8)
+### enghunan.gov.cn (4)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to Purchase a Train Ticket (earlier version)](https://enghunan.gov.cn/hneng/Services/Live/Transportation/RailwayStations/202505/t20250529_33680117.html) | People's Government of Hunan Province (enghunan.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+| [How to Purchase a Train Ticket](https://www.enghunan.gov.cn/hneng/Services/Live/Transportation/RailwayStations/202606/t20260608_33680117.html) | People's Government of Hunan Province (enghunan.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+| [How to Book Online Ride-hailing Services](https://www.enghunan.gov.cn/hneng/Services/Live/Transportation/UrbanTransport/202606/t20260608_33692321.html) | People's Government of Hunan Province (enghunan.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+| [Q&A (Hunan Government Website International)](https://www.enghunan.gov.cn/hneng/Services/QuickLinks/QA/202606/t20260608_33679913.html) | People's Government of Hunan Province (enghunan.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### english.beijing.gov.cn (14)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [No More Health Declaration Form Required for Exit or Entry from November 1](https://english.beijing.gov.cn/latest/news/202311/t20231101_3292824.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Expats' ID Info Can Be Verified Online for Traveling by Trains](https://english.beijing.gov.cn/latest/news/202311/t20231130_3328877.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [China to Extend Unilateral Visa-Free Policy for Over 40 Countries, with Sweden Newly Added](https://english.beijing.gov.cn/latest/news/202511/t20251104_4252647.html) | Beijing Municipal People's Government (English portal) | official |  | 2026-11-02 | data/reference/facts.json |
+| [Staying Somewhere Other Than a Hotel in China? You Can Now Register Online Nationwide](https://english.beijing.gov.cn/latest/news/202609/t20260923_4877803.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+| [Get Connected & Essential Apps](https://english.beijing.gov.cn/latest/specials/essentialtipsfornewarrivals/getconnected/202408/t20240830_3785643.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
 | [Convenience of Payment Services for Foreigners in Beijing Significantly Improved](https://english.beijing.gov.cn/livinginbeijing/easyliving/202405/t20240508_3665214.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Overseas Bank Cards Accepted by Weixin Pay and Alipay](https://english.beijing.gov.cn/livinginbeijing/finance/mobilepaymentlist/202307/t20230722_3205013.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Save This! Essential Tips for Buying Train Tickets in China](https://english.beijing.gov.cn/livinginbeijing/transportation/railway/202512/t20251226_4364929.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Transportation - Beijing (Guide to Working and Living in China as Business Expatriates 2024)](https://english.beijing.gov.cn/specials/aguidetoworkingandlivinginchinaasbusinessexpatriates2024/dailylifeservices/202404/t20240424_3635102.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Alipay Further Optimizes Payment Services for Foreign Nationals in China](https://english.beijing.gov.cn/specials/paymentservices/news/202404/t20240429_3645653.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
 | [WeChat Pay Exempts 3% Transaction Fees for International Card Purchases Under CNY 200](https://english.beijing.gov.cn/specials/paymentservices/news/202505/t20250528_4100629.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [A Guide to Booking a Train Ticket Online for Foreigners](https://english.beijing.gov.cn/specials/serviceguideforforeignersinbeijing/202306/t20230630_3152096.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
 | [WeChat Pay Waives 3 Percent Transaction Fees for International Card Payments Under 200 Yuan](https://english.beijing.gov.cn/travellinginbeijing/essentials/inboundtourismfacilitationmeasures/202603/t20260326_4566766.html) | Beijing Municipal People's Government (english.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Taxis & Ride-Hailing (Beijing government English portal, 2020); also “How to use DiDi Chuxing” (english.shanghai.gov.cn, 2024-02-06) and DiD](https://english.beijing.gov.cn/travellinginbeijing/transportation/202006/t20200623_1931439.html) | Beijing Municipal People's Government; Shanghai Municipal People's Government; travel guides | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 
-### english.shanghai.gov.cn (7)
+### english.cq.gov.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Chongqing English government portal, transport guide (title not shown in search results)](https://english.cq.gov.cn/services/stayinchongqing/Transport/202606/t20260608_15737784.html) | Chongqing Municipal People's Government (english.cq.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### english.koolearn.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [English-learning restaurant dialogue with Chinese text (Koolearn / New Oriental)](https://english.koolearn.com/20250626/894347.html) | Koolearn (新东方在线) / New Oriental (新东方) English-learning articles | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### english.shanghai.gov.cn (14)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to seamlessly pay like a local in China](https://english.shanghai.gov.cn/en-BankingServices/20231215/fe3a293d065f40e0a7f740aa88edb050.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [Customs scraps requirement for health status declarations](https://english.shanghai.gov.cn/en-CustomsImmigration/20231221/f5ba4d6e14504f778abd20c8481e0130.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [China launches online arrival card for intl travelers](https://english.shanghai.gov.cn/en-CustomsImmigration/20251112/c90227e252884a949f2091c37a0818ac.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Pay with overseas bank cards](https://english.shanghai.gov.cn/en-Individuals-BankingandPayments-Payments/20260921/c2c94d06a0454c8fa05386b80d0ae865.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [China's new policies put foreign exchanges on firm footing](https://english.shanghai.gov.cn/en-Latest-TalentsinShanghai/20231210/055a9e3b6f9e4e5fa60364045fcdd2ce.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Hotels told not to turn away foreign guests (Shanghai government, 2024-05-29); also “All hotels in China welcome foreign nationals” (intl.ou](https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240529/6ff842313deb45e1b14cf5fd2a01d065.html) | Shanghai Municipal People's Government; Jiangsu provincial news portal; Chinese business press | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [Chinese phrases for vegetarians or those who suffer from food allergies](https://english.shanghai.gov.cn/en-LearnChinese/20240408/233e22b629f64bf1bfe06d155a3109c7.html) | Shanghai Municipal People's Government, English portal (Learn Chinese column) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to buy train tickets in China](https://english.shanghai.gov.cn/en-LearnChinese/20240509/692d92bee2b2432d980d974722f2b2c5.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
+| [Hotel vocab for your next trip (Shanghai government “Learn Chinese”, 2024-08-23) and other hotel-phrase pages in the same result set (That's](https://english.shanghai.gov.cn/en-LearnChinese/20240823/5220ec39c0824cc1b0acc154e4f64a56.html) | Shanghai Municipal People's Government; That's Mandarin; others | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [Guide to table etiquette in China](https://english.shanghai.gov.cn/en-LearnChinese/20240910/e8fe407acb494a41a5836f606eedf44b.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 | [How to use mobile payments in Shanghai](https://english.shanghai.gov.cn/en-PaymentsInShanghai/20260920/f22b7e0f606c407e9da9d26b089eac48.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [How to buy train tickets](https://english.shanghai.gov.cn/en-Transportation/20240110/f69efb3643094385a0efeb62f594200f.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [China extends visa-free policy for Russia to Dec 31, 2027](https://english.shanghai.gov.cn/en-VisaLatest/20260520/0b86f04686c84c4a8bdca4f77dbee1eb.html) | Shanghai Municipal People's Government (english.shanghai.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Visa-free travel to China: Things you need to know](https://english.shanghai.gov.cn/en-visas/20241202/6e6d3ff5502446b391bb83581a124f0a.html) | Shanghai Municipal People's Government (English portal) | official |  | 2026-11-02 | data/reference/facts.json |
 
-### english.www.gov.cn (6)
+### english.www.gov.cn (8)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Guide to Working and Living in China (WLC) 2025](https://english.www.gov.cn/2025special/bizexpatsinchina2025) | The State Council of the People's Republic of China (english.www.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
 | [Exit and Entry Administration Law of the People's Republic of China](https://english.www.gov.cn/archive/laws_regulations/2014/09/22/content_281474988553532.htm) | State Council of the PRC (english.www.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [China to raise single mobile transaction limit to 5,000 USD for overseas travelers](https://english.www.gov.cn/news/202403/01/content_WS65e1dacdc6d0868f4e8e487b.html) | State Council of the PRC (english.www.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [China further streamlines mobile payments for foreigners](https://english.www.gov.cn/news/202403/02/content_WS65e26742c6d0868f4e8e4881.html) | The State Council of the PRC (english.www.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
 | [Payment service guide for overseas visitors to China](https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html) | State Council of the PRC (english.www.gov.cn, Xinhua report) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [China to extend visa-free access to countries including France](https://english.www.gov.cn/news/202511/03/content_WS690867f4c6d00ca5f9a0745f.html) | State Council of the PRC (english.www.gov.cn, Xinhua report) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [China adds Kyrgyzstan, Vietnam to 240-hour visa-free transit program](https://english.www.gov.cn/news/202608/20/content_WS6a866e4fc6d00ca5f9a0cb76.html) | State Council of the PRC (english.www.gov.cn, Xinhua report) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [RESPONSES](https://english.www.gov.cn/services/202508/26/content_WS5e04749bc6d0554996894a1a.html) | State Council of the PRC (english.www.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### envoyglobal.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China launches nationwide online foreign accommodation registration](https://www.envoyglobal.com/news-alert/china-launches-nationwide-online-foreign-accommodation-registration/) | Envoy Global (immigration services company) | secondary |  | 2026-11-02 | data/reference/facts.json |
 
 ### eric.ed.gov (1)
 
@@ -503,17 +839,35 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Learning a Tonal Language by Attending to the Tone: An in Vivo Experiment](https://eric.ed.gov/?id=EJ945913) | ERIC record of Language Learning 61(4), 1119-1141 (doi:10.1111/j.1467-9922.2011.00673.x) | academic |  | 2026-11-02 | research: learning-method |
 
+### es.china-embassy.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [关于延长单方面免签政策的通知 - 驻西班牙大使馆](https://es.china-embassy.gov.cn/lqsw/lingshi1/202511/t20251105_11747145.htm) | Embassy of the People's Republic of China in Spain | official |  | 2026-11-02 | data/reference/facts.json |
+
+### esim.holafly.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Roaming Vodafone China (Holafly, German)](https://esim.holafly.com/de/internet/roaming-vodafone-china/) | Holafly (eSIM seller) | blog |  | 2026-11-02 | data/reference/facts.json |
+
 ### ettoday.net (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [兩家人不熟！婚後卻要「改口喊爸媽」 她轟爛傳統：為何一直延續](https://www.ettoday.net/news/20260517/3165993.htm) | ETtoday 新聞雲 (Taiwan) | press |  | 2026-11-02 | research: family-address-kinship |
+| [兩家人不熟！婚後卻要「改口喊爸媽」 她轟爛傳統：為何一直延續](https://www.ettoday.net/news/20260517/3165993.htm) | ETtoday 新聞雲 (Taiwan) | press |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
 
 ### examples.vercel.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Environment variables](https://examples.vercel.com/docs/environment-variables) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
+
+### eyeshenzhen.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [EyeShenzhen article, 22 Jul 2024 (title not shown in results)](https://www.eyeshenzhen.com/content/2024-07/22/content_31098651.htm) | EyeShenzhen (Shenzhen municipal English-language portal) | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### files.pythonhosted.org (3)
 
@@ -523,6 +877,24 @@ Total: 904 sources on 197 sites.
 | [supermemo2 3.0.1 wheel (PyPI; Python SM-2 implementation): sm_two.py and tests read, not executed](https://files.pythonhosted.org/packages/48/d3/91644269b83c2dd5fc71d2de11629c1253379af8cd1d1a690b21a3e29dcb/supermemo2-3.0.1-py3-none-any.whl) | alankan886 (PyPI package maintainer) | practitioner | MIT | 2026-11-02 | research: srs-scheduler |
 | [PyPI xfyunsdkspeech 0.0.4 (iFlytek open platform speech SDK): ise_client.py](https://files.pythonhosted.org/packages/f7/4e/e512b16dfe41a9d0c4162ee984ac4c13cd5d5c5363779407d92e82011407/xfyunsdkspeech-0.0.4-py3-none-any.whl) | iFlytek (author zyding6@iflytek.com) | vendor-docs | Apache-2.0 | 2026-11-02 | research: speech-tech |
 
+### finance.people.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [过新年换新钱 银行从“保供应”到“精准服务”](http://finance.people.com.cn/n1/2026/0213/c1004-40665447.html) | 人民网 (People's Daily Online) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### finance.yahoo.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tencent rolls out inbound payments upgrades, adds PayPal QR support](https://finance.yahoo.com/markets/currencies/articles/tencent-rolls-inbound-payments-upgrades-100459255.html) | Yahoo Finance | press |  | 2026-11-02 | data/reference/facts.json |
+
+### fintechfutures.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Alipay launches prepaid card for international visitors](https://www.fintechfutures.com/cross-border-payments/alipay-launches-prepaid-card-for-international-visitors) | FinTech Futures | press |  | 2026-11-02 | data/reference/facts.json |
+
 ### fltrp.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -530,17 +902,21 @@ Total: 904 sources on 197 sites.
 | [《新HSK教程》全球首发，构建国际中文学习新生态](https://www.fltrp.com/c/2025-11-15/540051.shtml) | Foreign Language Teaching and Research Press (FLTRP) | press |  | 2026-11-02 | research: hsk-standard-exam |
 | [HSK 3.0 Released and the New HSK Coursebook Officially Launched Worldwide](https://www.fltrp.com/c/2025-11-20/540070.shtml) | Foreign Language Teaching and Research Press (FLTRP) | press |  | 2026-11-02 | research: hsk-standard-exam |
 
-### fluentu.com (1)
+### fluentu.com (4)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [How to Write an Email in Chinese: The Business-ready Guide](https://www.fluentu.com/blog/chinese/how-to-write-an-email-in-chinese/) | FluentU | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [The Ultimate Chinese Food Vocabulary List](https://www.fluentu.com/blog/chinese/chinese-food-vocabulary/) | FluentU | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [60+ Chinese Restaurant Phrases That Are Essential for Eating Out in China](https://www.fluentu.com/blog/chinese/chinese-restaurant-phrases/) | FluentU | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Learner-site results for “有英文菜单吗” (FluentU 'How to Order Food in Chinese'; Hack Chinese ordering guide; mezzoguild; hsklord)](https://www.fluentu.com/blog/chinese/how-to-order-food-in-mandarin/) | FluentU / Hack Chinese / mezzoguild / hsklord | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Write an Email in Chinese: The Business-ready Guide](https://www.fluentu.com/blog/chinese/how-to-write-an-email-in-chinese/) | FluentU | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
-### fmprc.gov.cn (1)
+### fmprc.gov.cn (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Remarks by Chinese Ambassador to the Netherlands Shen Bo at the 2026 'Happy Chinese New Year' Celebrations Events Across the Netherlands](https://www.fmprc.gov.cn/mfa_eng/xw/zwbd/202602/t20260225_11863089.html) | Ministry of Foreign Affairs of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Consular notice page (title not shown in the search result)](https://www.fmprc.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html) | Ministry of Foreign Affairs of the PRC (consular service notices) | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### forrt.org (1)
 
@@ -552,8 +928,8 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Troubles with some words (forum thread, 周 vs 星期)](https://forum.chinesepod.com/t/troubles-with-some-words/7191) | ChinesePod forum | secondary |  | 2026-11-02 | research: work-meetings-writing |
-| [Could you cover some common WeChat terminology/phrases (forum thread)](https://forum.chinesepod.com/t/wechat-communication/6242) | ChinesePod forum | forum |  | 2026-11-02 | research: work-intro-contacts |
+| [Troubles with some words (forum thread, 周 vs 星期)](https://forum.chinesepod.com/t/troubles-with-some-words/7191) | ChinesePod forum | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [Could you cover some common WeChat terminology/phrases (forum thread)](https://forum.chinesepod.com/t/wechat-communication/6242) | ChinesePod forum | forum |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### frontiersin.org (1)
 
@@ -561,7 +937,13 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Frontiers in Communication article 10.3389/fcomm.2021.689423 (Pelzl and colleagues)](https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2021.689423/pdf) | Frontiers Media, Frontiers in Communication | academic |  | 2026-11-02 | research: learning-method |
 
-### github.com (302)
+### gat.fj.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Exit-entry service Q&A page (title not shown in the search result)](https://gat.fj.gov.cn/ztzl/cryjfwwj/crjyw_28279/202512/t20251201_7040655.htm) | Fujian Provincial Public Security Department | official |  | 2026-11-02 | data/reference/facts.json |
+
+### github.com (373)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
@@ -570,15 +952,16 @@ Total: 904 sources on 197 sites.
 | [Amazon Polly Developer Guide (archived), doc_source/voicelist.md](https://github.com/awsdocs/amazon-polly-developer-guide) | Amazon Web Services (awsdocs, archived 2023-06-15) | vendor-docs | CC BY-SA 4.0 (docs) | 2026-11-02 | research: audio |
 | [Azure-Samples/cognitive-services-speech-sdk: scenarios/javascript/node/language-learning (pronunciationAssessmentContinue.js, pronunciationA](https://github.com/Azure-Samples/cognitive-services-speech-sdk.git) | Microsoft (official samples), commit dccacc7 2026-10-30 | vendor-docs | MIT | 2026-11-02 | research: speech-tech |
 | [becky82/mteh – notes on the 2021 ("HSK 3.0") and 2025 ("HSK 3.1") lists](https://github.com/becky82/mteh (commit 6be297f, 2026-10-24; sources/HSK3.1/readme.md and sources/HSK3.0/readme.md)) | becky82 (GitHub) | secondary |  | 2026-11-02 | research: hsk-standard-exam |
-| [YACLC v1.0 learner corpus (valid set): learner sentences with native-annotator corrections](https://github.com/blcuicall/YACLC/blob/bf17c54e8f55d36b019bef782eccbb1cdd027e81/valid.jsonl) | BLCU, Tsinghua, BNU and others (blcuicall/YACLC) | academic |  | 2026-11-02 | research: grammar; research: work-intro-contacts; research: work-meetings-writing |
+| [YACLC: Yet Another Chinese Learner Corpus, valid.jsonl (learner sentences, each corrected by several native annotators)](https://github.com/blcuicall/YACLC/blob/bf17c54e8f55d36b019bef782eccbb1cdd027e81/valid.jsonl) | BLCU ICALL group (blcuicall/YACLC on GitHub) | corpus |  | 2026-11-02 | data/situations/work.json; data/reference/grammar.json; research: grammar; research: work-intro-contacts; +1 more |
 | [YACLC v1.0 (Yet Another Chinese Learner Corpus), validation set: learner sentences with annotators' grammatical corrections](https://github.com/blcuicall/YACLC/blob/main/valid.jsonl) | Beijing Language and Culture University, Tsinghua University et al. (arXiv:2112.15043) | academic |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [chanind/hanzi-writer-data repository (verifier's blobless clone): stroke_data_parser.py and history](https://github.com/chanind/hanzi-writer-data.git) | David Chanin | primary | Arphic Public License (as stated) | 2026-11-02 | research: chars-freq-pinyin |
 | [clem109/hsk-vocabulary (hsk-vocab-json/hsk-level-1..6.json)](https://github.com/clem109/hsk-vocabulary) | Clement Venard (GitHub user clem109) | primary | MIT (repo LICENSE); translations are CC-CEDICT text | 2026-11-02 | research: hsk-datasets |
 | [clem109/hsk-vocabulary – HSK 2.0 word lists (JSON)](https://github.com/clem109/hsk-vocabulary (commit f3dc9d1, 2019-10-29)) | Clement Venard (GitHub) | secondary | MIT | 2026-11-02 | research: hsk-standard-exam |
 | [HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)](https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json) |  |  |  | 2026-11-02 | data/hsk/resolutions.json |
-| [《现代汉语词典》全文TXT (community transcription on GitHub CNMan/XDHYCD7th; per its README the definitions outside the 'a' section are still the 5th-e](https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: CNMan and contributors) | dictionary |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/hsk/resolutions.json; research: family-address-kinship; +4 more |
-| [《现代汉语词典》（第7版）凡例 (front matter), 3.9 注音 (变调)](https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt) | 中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th | dictionary |  | 2026-11-02 | research: pitfalls |
-| [《现代汉语词典》entry 【叔叔】 (community full-text transcription; README says most definitions are still the 5th-edition text being updated to the 7th ](https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt#L48084) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: GitHub CNMan/XDHYCD7th) | dictionary |  | 2026-11-02 | data/situations/family.json; research: pitfalls |
+| [《现代汉语词典》（第7版）全文TXT, entry 【叔叔】](https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (The Commercial Press); community transcription github.com/CNMan/XDHYCD7th (5th-edition text being updated to the 7th edition; senses after the letter a not yet fully revised) | dictionary |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +11 more |
+| [《现代汉语词典》（第7版）凡例 (front matter), 3.9 注音 (变调)](https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt) | 中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [《现代汉语词典》entry 【叔叔】 (community full-text transcription; README says most definitions are still the 5th-edition text being updated to the 7th ](https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt#L48084) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: GitHub CNMan/XDHYCD7th) | dictionary |  | 2026-11-02 | data/situations/family.json; data/reference/pitfalls.json; research: family-visit-dinner; research: pitfalls |
+| [Astronomy Engine 2.1.19 (npm astronomy-engine): new moons and solar longitudes, computed by the verifier](https://github.com/cosinekitty/astronomy) | Don Cross (cosinekitty/astronomy); computation script by the verifier (verify-ff/scripts/lunar_check.cjs; library installed with scripts disabled) | derived | MIT | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [Attribution-ShareAlike 4.0 International - legal code (Creative Commons' own source repo cc-legal-tools-data, commit a0dac18; canonical URL ](https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-sa/4.0/legalcode.en.html) | Creative Commons | official |  | 2026-11-02 | research: cedict-sentences |
 | [CC BY 2.0 FR - English deed (cc-legal-tools-data, commit a0dac18)](https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by/2.0/fr/deed.en.html) | Creative Commons | official |  | 2026-11-02 | research: cedict-sentences |
 | [Paternité 2.0 France (CC BY 2.0 FR) - legal code in French (cc-legal-tools-data, commit a0dac18)](https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by/2.0/fr/legalcode.fr.html) | Creative Commons | official |  | 2026-11-02 | research: cedict-sentences |
@@ -609,118 +992,163 @@ Total: 904 sources on 197 sites.
 | [中文水平考试 HSK考试大纲 / Syllabus for the Chinese Proficiency Test (cover: 2025-11 发布, 2026-07 实施)](https://github.com/docrealm/docs-hsk (files "HSK 3/HSK 3-2025/新版HSK考试大纲.pdf" sha256 ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941 and "新版HSK考试大纲（无水印版）.pdf" sha256 273c44238f97a68f1d317717faa8e015e5d8c57b7cd6b7d20a89e6444f2380d0; commit bdff233)) | 中外语言交流合作中心 (CLEC); third-party mirror on GitHub | primary | No terms stated in the document; the mirror has no licence | 2026-11-02 | research: hsk-standard-exam |
 | [中文水平考试 HSK（一级）…（六级）样卷 and HSK（七—九级）样卷 (2026 issue)](https://github.com/docrealm/docs-hsk (folder "HSK 3/HSK3-样卷": HSK（一级）…（六级）样卷.pdf and HSK（七—九级）样卷.pdf, PDFs created 2026-07-15/20)) | 中外语言交流合作中心 编制; third-party mirror | primary |  | 2026-11-02 | research: hsk-standard-exam |
 | [docrealm/docs-hsk README](https://github.com/docrealm/docs-hsk (README.md, commit bdff2336 2026-10-18)) | docrealm (GitHub) | secondary |  | 2026-11-02 | research: hsk-standard-exam |
-| [商务汉语考试 BCT（A）样卷 BCTA0001 (incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
-| [商务汉语考试 BCT（B）样卷 BCTB0001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTB0001.pdf) | 孔子学院总部/国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts; research: work-meetings-writing |
+| [《高等学校外国留学生汉语教学大纲（长期进修）》附件，附表4 功能项目表，1. 打招呼; 2. 问候（printed p. 195）](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%201/%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E/2002-%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E-%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%A4%96%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E6%B1%89%E8%AF%AD%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2%EF%BC%88%E9%95%BF%E6%9C%9F%E8%BF%9B%E4%BF%AE%EF%BC%89-%E9%99%84%E4%BB%B6.pdf#page=197) | 国家对外汉语教学领导小组办公室（国家汉办）; scanned PDF in GitHub repo docrealm/docs-hsk (commit bdff233) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [商务汉语考试 BCT（A）样卷 BCTA0001, reading items 31-35 and key — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text lay](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-visit-dinner; +4 more |
+| [BCT (Business Chinese Test) B sample paper BCTB0001, listening answer options](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTB0001.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 sample papers (2009-2010); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18), text extracted and read locally | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-food-pay; research: work-intro-contacts; +1 more |
 | [商务中文考试 BCT（口语）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCT%E5%8F%A3%E8%AF%AD.pdf) | 教育部中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
-| [商务汉语考试 BCT（A）样卷 (CLEC edition, incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
-| [商务中文考试 BCT（B）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 教育部中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts; research: work-meetings-writing |
+| [商务汉语考试 BCT（A）样卷 (CLEC edition, incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: travel-food-pay; +3 more |
+| [商务汉语考试 BCT（B）样卷 (CLEC edition), listening question 41 and answer key — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdf](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 中外语言交流合作中心 (CLEC) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-visit-dinner; +3 more |
 | [HSK口语（高级）样卷 (HSKK advanced speaking sample)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%8F%A3%E8%AF%AD%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSKK9.pdf) | 教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 | [HSK（一级）考试大纲 (incl. the official exam-administration script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%A4%A7%E7%BA%B2/H1_DG.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official | No open licence | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: hsk-datasets; research: travel-basics; +1 more |
-| [HSK（二级）考试大纲 (incl. the official exam-administration script) — text of the PDF read from a git clone of github.com/docrealm/docs-hsk (commit ](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%A4%A7%E7%BA%B2/H2_DG.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | research: travel-basics |
-| [HSK（一级）样卷 H10901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
-| [HSK（二级）样卷 H20901 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: grammar; research: travel-basics |
-| [HSK（三级）样卷 H31001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
-| [HSK（四级）样卷 H41001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
-| [HSK（五级）样卷 H51001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +3 more |
-| [HSK（六级）样卷 H61001 (with listening script)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H61001.pdf) | 国家汉办 (Hanban); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | research: work-meetings-writing |
-| [HSK（一级）样卷 H10902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H10902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship; research: grammar; research: travel-basics |
-| [HSK（二级）样卷 H20902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: grammar; +1 more |
-| [HSK（三级）样卷 H31002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/kinship.json; research: family-address-kinship; +3 more |
-| [HSK（四级）样卷 H41002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +4 more |
-| [HSK（五级）样卷 H51002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [HSK（二级）考试大纲 (incl. the official exam-administration script) — text of the PDF read from a git clone of github.com/docrealm/docs-hsk (commit ](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%A4%A7%E7%BA%B2/H2_DG.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [HSK（一级）样卷 H10901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +4 more |
+| [HSK（二级）样卷 H20901, listening item 14 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted local](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/grammar.json; research: family-festivals; +5 more |
+| [HSK（三级）样卷 H31001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +7 more |
+| [HSK（四级）样卷 H41001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +6 more |
+| [HSK（五级）样卷 H51001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +7 more |
+| [HSK（六级）样卷 H61001, reading item 81 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H61001.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-food-pay; research: travel-transport; +1 more |
+| [HSK（一级）样卷 H10902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H10902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/grammar.json; research: family-address-kinship; +2 more |
+| [HSK（二级）样卷 H20902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/grammar.json; research: family-address-kinship; +4 more |
+| [HSK（三级）样卷 H31002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +8 more |
+| [HSK（四级）样卷 H41002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +6 more |
+| [HSK（五级）样卷 H51002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +6 more |
 | [HSK（六级）样卷 H61002 (with listening script)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H61002.pdf) | 国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
-| [HSK（一级）样卷 H11003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: grammar; research: travel-basics; +1 more |
-| [HSK（二级）样卷 H21003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: grammar; research: travel-basics; research: work-intro-contacts; +1 more |
-| [HSK（三级）样卷 H31003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +4 more |
-| [HSK（四级）样卷 H41003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
-| [HSK（五级）样卷 H51003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
-| [HSK（六级）样卷 H61003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H61003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship; research: work-intro-contacts |
-| [HSK（二级）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK2.pdf) | 中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: grammar; research: work-intro-contacts |
-| [HSK（四级）样卷 (with answer key)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK4.pdf) | 中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: travel-basics; research: work-intro-contacts; research: work-meetings-writing |
-| [HSK 口试（初级/中级/高级）样卷录音材料](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | research: work-intro-contacts; research: work-meetings-writing |
-| [新汉语水平考试 HSK（二级）考试大纲及样卷 (sample items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK2.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: grammar; research: travel-basics |
-| [HSK（三级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
-| [新汉语水平考试 HSK（四级）考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
-| [HSK（五级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
-| [YCT（三级）样卷 Y30901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y30901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: travel-basics |
-| [YCT（四级）样卷 Y40901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y40901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: travel-basics |
+| [HSK（一级）样卷 H11003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; research: grammar; +3 more |
+| [HSK（二级）样卷 H21003, reading item 50 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted locally](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +6 more |
+| [HSK（三级）样卷 H31003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +9 more |
+| [HSK（四级）样卷 H41003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: travel-transport; +2 more |
+| [HSK（五级）样卷 H51003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +6 more |
+| [HSK（六级）样卷 H61003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H61003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +4 more |
+| [HSK (Level 2) sample paper (with pinyin)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK2.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18), text extracted and read locally | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; research: grammar; +2 more |
+| [HSK (Level 3) sample paper, reading part 1](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK3.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18), text extracted and read locally | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [HSK（四级）样卷 (CLEC edition) — text of the PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK4.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: travel-food-pay; +3 more |
+| [HSK (Level 5) sample paper](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK5.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18), text extracted and read locally | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [HSK 口试 (HSKK) syllabus with sample — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-transport; research: work-intro-contacts; +1 more |
+| [新汉语水平考试 HSK（二级）考试大纲及样卷 (sample items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK2.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/reference/grammar.json; research: grammar; research: travel-basics; +2 more |
+| [HSK（三级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +6 more |
+| [HSK（四级）考试大纲及样卷, writing reference answers — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-festivals; +6 more |
+| [HSK（五级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +6 more |
+| [HSK（六级）考试大纲及样卷, reading 81-84 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK6.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [MCT (Medical Chinese Test) sample paper](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/MCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/MCT.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18), text extracted and read locally | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [YCT（二级）样卷 Y20901, reading item 15 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted locally](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y20901.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [YCT（三级）样卷 Y30901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y30901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: family-visit-dinner; +2 more |
+| [YCT（四级）样卷 Y40901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y40901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: family-festivals; +2 more |
 | [YCT（三级）样卷 Y31002 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y31002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
-| [YCT（四级）样卷 Y41002 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y41002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: work-intro-contacts |
-| [YCT（四级）样卷 Y41003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/Y41003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +2 more |
-| [YCT（三级）样卷 Y31004 (Youth Chinese Test sample paper incl. listening script) — text of the PDF read from a git clone of github.com/docrealm/doc](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y31004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | research: travel-basics |
-| [YCT（四级）样卷 Y41004 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y41004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [YCT（四级）样卷 Y41002, item 60 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted locally](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y41002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-festivals; +4 more |
+| [YCT（四级）样卷 Y41003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/Y41003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +5 more |
+| [YCT（三级）样卷 Y31004, reading item 56 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted locally](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y31004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-basics |
+| [YCT（四级）样卷 Y41004 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y41004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: travel-food-pay; research: travel-transport |
 | [YCT（二级）样卷 Y21005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y21005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
-| [YCT（三级）样卷 Y31005 (Youth Chinese Test sample paper, items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y31005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
-| [YCT（四级）样卷 Y41005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y41005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
-| [YCT（四级）样卷 (CLEC edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts |
-| [YCT口试 考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: work-intro-contacts |
-| [YCT（四级）考试大纲及样卷 (incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts |
+| [YCT（三级）样卷 Y31005, listening item 31 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted local](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y31005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-basics |
+| [YCT（四级）样卷 Y41005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y41005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: travel-food-pay |
+| [YCT（四级）样卷 (CLEC edition), writing item 73 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (CLEC) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-festivals; +3 more |
+| [YCT口试 考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts |
+| [YCT（四级）考试大纲及样卷, reading part 2 option D — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text layer extracted l](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-visit-dinner; +4 more |
 | [新汉语水平考试 HSK（一级）大纲 (scan, 41 pages), mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2/2009-%E6%96%B0%E6%B1%89%E8%AF%AD%E6%B0%B4%E5%B9%B3%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%20HSK%28%E4%B8%80%E7%BA%A7%29.pdf) | 国家汉办/孔子学院总部 (ed.); 商务印书馆 | official | No open licence | 2026-11-02 | research: hsk-datasets |
-| [汉语国际教育用音节汉字词汇等级划分 (2017 edition, front matter)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2%E7%AD%89/2017-%E6%B1%89%E8%AF%AD%E5%9B%BD%E9%99%85%E6%95%99%E8%82%B2%E7%94%A8%E9%9F%B3%E8%8A%82%E6%B1%89%E5%AD%97%E8%AF%8D%E6%B1%87%E7%AD%89%E7%BA%A7%E5%88%92%E5%88%86.pdf) | 国家汉办 / 教育部语言文字信息管理司 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | research: work-intro-contacts |
+| [汉语国际教育用音节汉字词汇等级划分 (2017 edition, front matter)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2%E7%AD%89/2017-%E6%B1%89%E8%AF%AD%E5%9B%BD%E9%99%85%E6%95%99%E8%82%B2%E7%94%A8%E9%9F%B3%E8%8A%82%E6%B1%89%E5%AD%97%E8%AF%8D%E6%B1%87%E7%AD%89%E7%BA%A7%E5%88%92%E5%88%86.pdf) | 国家汉办 / 教育部语言文字信息管理司 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 | [国际中文教育中文水平等级标准（国家标准·应用解读本）第一分册：等级描述、音节、汉字 (scan with OCR text layer, 157 pages), mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%80%E5%88%86%E5%86%8C%20%20%E7%AD%89%E7%BA%A7%E6%8F%8F%E8%BF%B0%E3%80%81%E9%9F%B3%E8%8A%82%E3%80%81%E6%B1%89%E5%AD%97%EF%BC%89.pdf) | 教育部中外语言交流合作中心 (ed.); 北京语言大学出版社 | official | No open licence | 2026-11-02 | research: hsk-datasets |
-| [国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (GF 0025-2021 applied edition; example sentences per grammar point) — PDF obtained via git clone of github](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编 (刘英林、马箭飞、赵国成 主编); 北京语言大学出版社 | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; research: grammar; +3 more |
-| [国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇 (GF 0025-2021 applied edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff23](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编; 北京语言大学出版社 | official | No open licence (© 2021 北京语言大学出版社) | 2026-11-02 | data/situations/travel.json; data/hsk/resolutions.json; research: hsk-datasets; research: travel-basics |
-| [中文水平考试 HSK考试大纲 (2025), official PDF (sha256 ec74ce04…) mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | 中外语言交流合作中心 (CLEC) | official | official publication, no licence stated | 2026-11-02 | pipeline input (pinned); data/hsk/resolutions.json; research: hsk-datasets; research: work-intro-contacts |
-| [HSK 考试大纲 / Syllabus for the Chinese Proficiency Test (2025-11 发布, 2026-07 实施; official page https://www.chinesetest.cn/syllabus) — HSK 词汇大纲](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +6 more |
-| [新版HSK（1-6级）考试结构与样题示例 (released 2025-12, in force 2026-07) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 汉考国际 (Chinese Testing International) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: grammar; research: travel-basics; +2 more |
+| [《国际中文教育中文水平等级标准》GF 0025—2021 第三分册 语法, point 76 【二28】为 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233), text lay](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部、国家语言文字工作委员会 | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +7 more |
+| [国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇 (GF 0025-2021 applied edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff23](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编; 北京语言大学出版社 | official | No open licence (© 2021 北京语言大学出版社) | 2026-11-02 | data/situations/travel.json; data/hsk/resolutions.json; research: hsk-datasets; research: travel-basics; +1 more |
+| [中文水平考试 HSK考试大纲 (2025), official PDF (sha256 ec74ce04…) mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | 中外语言交流合作中心 (CLEC) | official | official publication, no licence stated | 2026-11-02 | pipeline input (pinned); data/situations/work.json; data/hsk/resolutions.json; research: hsk-datasets; +1 more |
+| [HSK 考试大纲 / Syllabus for the Chinese Proficiency Test (2025-11 发布, 2026-07 实施; official page https://www.chinesetest.cn/syllabus) — HSK 词汇大纲](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +10 more |
+| [新版HSK（1-6级）考试结构与样题示例 (released 2025-12, in force 2026-07) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 汉考国际 (Chinese Testing International) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; research: grammar; +5 more |
 | [新版HSK（3—6级）口语样卷 (new HSK speaking sample papers)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%883-6%E7%BA%A7%EF%BC%89%E5%8F%A3%E8%AF%AD%E6%A0%B7%E5%8D%B7.pdf) | 教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 | [中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (co](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
-| [中文水平考试 HSK（三级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%89%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
-| [中文水平考试 HSK（二级）样卷 (new format, 60 items) — 阅读 第一部分](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (CLEC) | official |  | 2026-11-02 | research: grammar |
-| [新版 HSK（五级）样卷 (HSK 3.0 sample paper)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%94%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [中文水平考试 HSK（三级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%89%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: travel-transport; +2 more |
+| [HSK（二级）样卷 (new HSK, HSK 3.0), reading items 41-45, printed with pinyin — PDF read from a git clone of github.com/docrealm/docs-hsk (commit b](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/reference/grammar.json; research: grammar; research: travel-transport |
+| [新版 HSK（五级）样卷 (HSK 3.0 sample paper)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%94%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship; research: family-festivals |
+| [HSK（六级）样卷 (new HSK, HSK 3.0), reading item 74 — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%85%AD%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 | [中文水平考试 HSK（四级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
 | [中文水平考试 HSK（一级）样卷答案 (answer key to the HSK 3.0 level-1 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdf](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
-| [中文水平考试 HSK（四级）样卷答案 (answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [HSK（二级）样卷答案 (new HSK, HSK 3.0) — answer key — PDF read from a git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [中文水平考试 HSK（四级）样卷答案 (answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: travel-food-pay |
 | [T/ISCLT 002-2023 职业中文能力等级标准 (Chinese Proficiency Standards for Vocational Education)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/more/TISCLT%20002-2023%20%E8%81%8C%E4%B8%9A%E4%B8%AD%E6%96%87%E8%83%BD%E5%8A%9B%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86.pdf) | 世界汉语教学学会 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
-| [《高等学校外国留学生汉语教学大纲（长期进修）》附件，附表4 功能项目表，1. 打招呼（printed p. 195）](https://github.com/docrealm/docs-hsk/blob/main/HSK%201/%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E/2002-%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E-%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%A4%96%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E6%B1%89%E8%AF%AD%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2%EF%BC%88%E9%95%BF%E6%9C%9F%E8%BF%9B%E4%BF%AE%EF%BC%89-%E9%99%84%E4%BB%B6.pdf#page=197) | 国家对外汉语教学领导小组办公室（国家汉办）; scanned copy in GitHub repo docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/family.json |
-| [BCT (A) sample paper BCTA0001, reading items 31-35](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [BCT (A) business Chinese test sample paper with answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [BCT (B) sample paper, listening question 41 and answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 中外语言交流合作中心 (official sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [Official HSK sample test H10901 (HSK 1), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | research: pitfalls |
-| [HSK 2 sample paper H20901, listening item 12](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: pitfalls |
-| [HSK 3 sample paper H31001, listening part 2 example](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK 4 sample paper H41001, listening item 32](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: pitfalls |
-| [HSK 5 sample paper H51001, listening item 29](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK 2 sample paper H20902, reading item 53](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK 3 sample paper H31002, listening item 6](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK 4 sample paper H41002, listening item 31](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK (Level 5) sample paper H51002, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK 1 sample paper H11003, listening question](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
-| [Official HSK sample test H21003 (HSK 2), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | research: pitfalls |
-| [HSK 3 sample paper H31003, listening item 7](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: pitfalls |
-| [HSK (Level 4) sample paper H41003, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK 5 sample paper H51003, listening item 22](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK (Level 5) sample paper, listening answer options](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK5.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK oral test (HSKK) syllabus with sample paper](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: pitfalls |
-| [HSK 3 syllabus and sample paper (国家汉办), listening item 34](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [Official HSK sample test HSK4 (HSK 4), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | research: pitfalls |
-| [HSK 5 syllabus and sample paper (国家汉办), listening item 23](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK (Level 6) syllabus with sample paper, reading items 81-84](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK6.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT 2 sample paper Y20901, reading item 15](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
-| [YCT 3 sample paper Y30901, listening item 10](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y30901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
-| [YCT 4 sample paper Y40901, reading part 2 option C](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y40901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [YCT 4 sample paper Y41002, item 60](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y41002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [YCT (Level 4) sample paper Y41003, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/Y41003.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT 3 sample paper Y31005, item 52](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y31005.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
-| [YCT 4 sample paper (中外语言交流合作中心), writing item 73](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (official sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [YCT speaking test syllabus and sample (国家汉办), repeat-after-me item 6](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
-| [YCT 4 syllabus and sample paper (国家汉办), reading item 51](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [《国际中文教育中文水平等级标准》GF 0025—2021，第三分册 语法 (example sentences)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部、国家语言文字工作委员会 (official standard; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json; research: pitfalls |
-| [新版HSK考试大纲 (new HSK test syllabus, 2025): topic descriptions and word lists](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) / Chinese Testing International | official |  | 2026-11-02 | data/situations/travel.json |
+| [《高等学校外国留学生汉语教学大纲（长期进修）》附件，附表4 功能项目表，1. 打招呼（printed p. 195）](https://github.com/docrealm/docs-hsk/blob/main/HSK%201/%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E/2002-%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E-%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%A4%96%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E6%B1%89%E8%AF%AD%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2%EF%BC%88%E9%95%BF%E6%9C%9F%E8%BF%9B%E4%BF%AE%EF%BC%89-%E9%99%84%E4%BB%B6.pdf#page=197) | 国家对外汉语教学领导小组办公室（国家汉办）; scanned copy in GitHub repo docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [BCT (A) sample paper BCTA0001, reading items 31-35](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [BCT (A) business Chinese test sample paper with answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [BCT (B) sample paper, listening question 41 and answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 中外语言交流合作中心 (official sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [Official HSK sample test H10901 (HSK 1), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [HSK 2 sample paper H20901, listening item 12](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json; research: family-visit-dinner; +2 more |
+| [HSK 3 sample paper H31001, listening part 2 example](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK 4 sample paper H41001, listening item 32](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json; research: family-visit-dinner; +2 more |
+| [HSK 5 sample paper H51001, listening item 29](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK 2 sample paper H20902, reading item 53](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK 3 sample paper H31002, listening item 6](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK 4 sample paper H41002, listening item 31](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK (Level 5) sample paper H51002, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [HSK 1 sample paper H11003, listening question](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Official HSK sample test H21003 (HSK 2), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [HSK 3 sample paper H31003, listening item 7](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json; research: family-visit-dinner; +2 more |
+| [HSK (Level 4) sample paper H41003, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [HSK 5 sample paper H51003, listening item 22](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK (Level 5) sample paper, listening answer options](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK5.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [HSK oral test (HSKK) syllabus with sample paper](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; data/reference/pitfalls.json; research: pitfalls; research: travel-transport |
+| [HSK 3 syllabus and sample paper (国家汉办), listening item 34](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [Official HSK sample test HSK4 (HSK 4), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [HSK 5 syllabus and sample paper (国家汉办), listening item 23](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [HSK (Level 6) syllabus with sample paper, reading items 81-84](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK6.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [YCT 2 sample paper Y20901, reading item 15](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [YCT 3 sample paper Y30901, listening item 10](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y30901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [YCT 4 sample paper Y40901, reading part 2 option C](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y40901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [YCT 4 sample paper Y41002, item 60](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y41002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [YCT (Level 4) sample paper Y41003, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/Y41003.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [YCT 3 sample paper Y31005, item 52](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y31005.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [YCT 4 sample paper (中外语言交流合作中心), writing item 73](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (official sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [YCT speaking test syllabus and sample (国家汉办), repeat-after-me item 6](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [YCT 4 syllabus and sample paper (国家汉办), reading item 51](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-visit-dinner; research: travel-transport |
+| [《国际中文教育中文水平等级标准》GF 0025—2021，第三分册 语法 (example sentences)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部、国家语言文字工作委员会 (official standard; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json; research: family-visit-dinner; +2 more |
+| [新版HSK考试大纲 (new HSK test syllabus, 2025): topic descriptions and word lists](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) / Chinese Testing International | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 | [HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation); PDF copy in github.com/docrealm/docs-hsk, read as text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [新版HSK（1-6级）考试结构与样题示例 (structure and sample items of the new HSK, levels 1-6)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 中外语言交流合作中心 / 汉考国际; PDF copy in github.com/docrealm/docs-hsk, read as text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
-| [New HSK (HSK 3.0) Level 2 sample paper (样卷), reading items 31-35; answers from HSK（二级）样卷答案.pdf](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [New HSK (HSK 3.0) Level 4 sample paper (样卷), listening answer options](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [New HSK (HSK 3.0) Level 2 sample paper answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
+| [New HSK (HSK 3.0) Level 2 sample paper (样卷), reading items 31-35; answers from HSK（二级）样卷答案.pdf](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [New HSK (HSK 3.0) Level 4 sample paper (样卷), listening answer options](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [New HSK (HSK 3.0) Level 2 sample paper answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 | [docrealm/docs-hsk README](https://github.com/docrealm/docs-hsk/blob/main/README.md (commit bdff233, 2026-10-18)) | docrealm (GitHub) | secondary |  | 2026-11-02 | research: hsk-standard-exam |
 | [complete-hsk-vocabulary (commit 7ac65bf, 2026-03-23): wordlists/exclusive/{old,new}/*.json and complete.json](https://github.com/drkameleon/complete-hsk-vocabulary) | Yanis Zafiropulos (drkameleon), GitHub | secondary | MIT | 2026-11-02 | research: audio; research: hsk-datasets; research: hsk-standard-exam |
 | [drkameleon/complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary (HEAD 7ac65bf1)) | Yanis Zafirópulos (GitHub) | secondary | MIT (LICENSE: © 2026 Yanis Zafirópulos) | 2026-11-02 | research: hsk-standard-exam |
 | [drkameleon/complete-hsk-vocabulary (git clone; README.md, LICENSE, complete.json)](https://github.com/drkameleon/complete-hsk-vocabulary.git) | Yanis Zafirópulos (Dr.Kameleon) | primary | MIT (as stated by the repository) | 2026-11-02 | research: chars-freq-pinyin |
 | [新闻联播文字稿 archive (1,495 daily transcripts, news/20220924.md to news/20261101.md)](https://github.com/DuckBurnIncense/xin-wen-lian-bo) | DuckBurnIncense (GitHub); transcripts scraped from tv.cctv.com | secondary | MIT (archive code; transcript content belongs to CCTV) | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [《新闻联播》 2023-01-01 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230101.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-01-15 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230115.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-01-16 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230116.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-01-19 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230119.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-01-22 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230122.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-01-26 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230126.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-04-20 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230420.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-06-21 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230621.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2023-09-30 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20230930.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-01-10 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240110.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-02-02 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240202.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-02-09 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240209.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-02-10 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240210.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-02-11 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240211.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-02-23 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240223.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-02-24 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240224.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-08-05 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240805.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2024-09-17 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20240917.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-01-21 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250121.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-01-22 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250122.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-01-24 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250124.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-01-29 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250129.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-05-31 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250531.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-06-01 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250601.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2025-09-27 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20250927.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-02-10 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260210.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-02-11 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260211.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-02-15 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260215.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-02-16 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260216.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-02-17 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260217.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-02-19 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260219.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-03-03 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260303.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-03-17 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260317.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-04-23 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260423.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-06-19 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260619.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [《新闻联播》 2026-09-09 (transcript)](https://github.com/DuckBurnIncense/xin-wen-lian-bo/blob/31df1d3c9cd2c5fbb766939513968cc8bcf11511/news/20260909.md) | CCTV 中央广播电视总台 《新闻联播》; transcript mirrored by DuckBurnIncense/xin-wen-lian-bo | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [elkmovie/hsk30 - HSK 3.0 Vocabulary Lists (wordlist.txt, charlist.txt)](https://github.com/elkmovie/hsk30) | Pleco Inc. (GitHub user elkmovie) | primary | MIT (Copyright (c) 2021 Pleco Inc.) | 2026-11-02 | research: hsk-datasets |
 | [elkmovie/hsk30 – word and character lists OCR'ed from the official MOE PDF](https://github.com/elkmovie/hsk30 (commit 7f3d4fd, 2023-11-08)) | elkmovie / Pleco Inc. (GitHub) | secondary | MIT | 2026-11-02 | research: hsk-standard-exam |
 | [Expertium's blog: Understanding retention in FSRS (Retention.md, last edited 2024-12-28)](https://github.com/Expertium/Expertium.github.io.git) | Expertium (FSRS contributor) | practitioner |  | 2026-11-02 | research: srs-scheduler |
 | [fxsjy/jieba issue #24](https://github.com/fxsjy/jieba/issues/24) | fxsjy/jieba (GitHub issues) | primary |  | 2026-11-02 | research: chars-freq-pinyin |
+| [GFWList (gfwlist.txt; header 'Last Modified: Sat, 31 Oct 2026 05:12:41 +0000')](https://github.com/gfwlist/gfwlist/blob/efbdc355fb2aa9f6265fc9d2dd8d232a5444145c/gfwlist.txt) | GFWList project (community-maintained list of domains reported as blocked in mainland China; GitHub) | practitioner |  | 2026-11-02 | data/reference/facts.json |
 | [GFWList (gfwlist.txt; header 'Last Modified: Sat, 31 Oct 2026 05:12:41 +0000')](https://github.com/gfwlist/gfwlist/blob/master/gfwlist.txt) | GFWList project (community-maintained list of domains reported as blocked in mainland China; GitHub) | practitioner | LGPL-2.1 | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [gigacool/hanyu-shuiping-kaoshi (hsk.csv, hsk.json, LICENSE)](https://github.com/gigacool/hanyu-shuiping-kaoshi) | Cedric Hartland (GitHub user gigacool) | primary | Conflicting: LICENSE file = MIT, but hsk.csv header says "Distributed under Creative Commons BY-NC licence" | 2026-11-02 | research: hsk-datasets |
 | [glxxyz/hskhsk.com data/lists (HSK Official 2012 L1-L6.txt, HSK Official With Definitions 2012 L1-L6.txt)](https://github.com/glxxyz/hskhsk.com) | Alan Davies (GitHub user glxxyz) | primary | MIT (Copyright (c) 2020 Alan Davies) | 2026-11-02 | research: hsk-datasets |
@@ -736,7 +1164,7 @@ Total: 904 sources on 197 sites.
 | [harukicoder/hsk30 – commit message, README and data tables](https://github.com/harukicoder/hsk30 (commit 36c0d11, 2026-10-05, "Correct the HSK 3.0 exam date: it launches on 13 December 2026"; README "Versions"; corpus/syllabus2025/PROVENANCE.md; src/hsk30/data/hsk20_words.tsv and hsk2012_words.tsv)) | Alvaro Serrano (harukicoder) (GitHub) | secondary | MIT (code); the 2025 TSVs are described as a factual extraction | 2026-11-02 | research: hsk-standard-exam |
 | [harukicoder/hsk30 syllabus2025_words.tsv: independent extraction of the 2025 syllabus, used to cross-check the PDF parse (0 level difference](https://github.com/harukicoder/hsk30/tree/36c0d11347b5d4caea52917d1262404824ad58d5/corpus/syllabus2025) | Alvaro Serrano | secondary | MIT | 2026-11-02 | pipeline input (pinned) |
 | [Helsinki-NLP/Tatoeba-Challenge (README.md 'License', LICENSE, data/devtest/eng-zho/test-v2023-04-12.txt)](https://github.com/Helsinki-NLP/Tatoeba-Challenge/tree/5509af44a74016748c26f41ab164b64f48445f3f) | University of Helsinki, Language Technology (Helsinki-NLP) | academic | README: test/dev 'CC-BY 2.0 FR', training data CC BY-NC-SA 4.0; LICENSE file: CC BY-NC-SA 4.0 | 2026-11-02 | research: cedict-sentences |
-| [MuCGEC learner-error corpus (dev set): learner sentences with corrections](https://github.com/HillZhang1999/MuCGEC/blob/39221934ee4ccf07801879136a75dd7e11319977/data/MuCGEC/MuCGEC_dev.txt) | Zhang Yue et al., Soochow University / Alibaba (HillZhang1999/MuCGEC) | academic |  | 2026-11-02 | research: grammar |
+| [MuCGEC learner-error corpus (dev set): learner sentences with corrections](https://github.com/HillZhang1999/MuCGEC/blob/39221934ee4ccf07801879136a75dd7e11319977/data/MuCGEC/MuCGEC_dev.txt) | Zhang Yue et al., Soochow University / Alibaba (HillZhang1999/MuCGEC) | academic |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
 | [MuCGEC dev set: sentences by learners of Chinese (from NLPCC18/Lang-8 and CGED/HSK essays) with reference corrections](https://github.com/HillZhang1999/MuCGEC/blob/main/data/MuCGEC/MuCGEC_dev.txt) | Zhang et al., NAACL 2022 (Soochow University / Alibaba DAMO Academy) | academic |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [hugolpz/audio-cmn repository, master f759a0f1 (2026-10-26); blobless clone + sparse checkout of 64k/, 24k-abr/, 18k-abr/, lists/](https://github.com/hugolpz/audio-cmn) | Hugo Lopez (hugolpz), GitHub | primary | CC BY-SA (audio) | 2026-11-02 | research: audio |
 | [audio-cmn commit 0a3e44a6 'Repair six clips with clicks or stray noises' (Tim Uy, 2026-10-13; merged 59dbafbd 2026-10-15)](https://github.com/hugolpz/audio-cmn/commit/0a3e44a670644600dd2ba91de1d1f993a00ffcdd) | hugolpz/audio-cmn, GitHub | primary |  | 2026-11-02 | research: audio |
@@ -747,19 +1175,37 @@ Total: 904 sources on 197 sites.
 | [ivankra/hsk30 – cleaned HSK 3.0 (2021 standard) vocabulary, characters and grammar](https://github.com/ivankra/hsk30 (commit 4ff9e39, 2023-11-08)) | Ivan Krasilnikov (GitHub) | secondary | MIT (LICENSE: © 2023 Ivan Krasilnikov, © 2021 Shawky, © 2021 Pleco Inc.) | 2026-11-02 | research: hsk-standard-exam |
 | [GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)](https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv) |  |  |  | 2026-11-02 | data/hsk/resolutions.json |
 | [ivankra/hsk30: GF 0025-2021 word list with pinyin and POS](https://github.com/ivankra/hsk30/tree/4ff9e3915ce87baaecd7ebe263085573a4ea3192) | Ivan Krasilnikov | primary | MIT (data derived from an official publication) | 2026-11-02 | pipeline input (pinned) |
+| [calendar.js lunar-calendar and solar-term data tables (lunarInfo / sTermInfo, 1900–2100)](https://github.com/jjonline/calendar.js/blob/9bab99243c0876e7be004802dcd47961f5890f1a/src/constant/Lunar.js) | jjonline/calendar.js (GitHub); tables decoded with our own script, the library code was not run | practitioner | MIT | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [M3: read-aloud grading - GitHub pull request #3](https://github.com/johnhodgson140-ai/mandarin-learning/pull/3) | johnhodgson140-ai (third-party hobby project) | practitioner |  | 2026-11-02 | research: speech-tech |
 | [krmanik/HSK-3.0 (formerly HSK-3.0-words-list): New HSK (2021), New HSK (2025), Scripts and data](https://github.com/krmanik/HSK-3.0) | Mani (GitHub user krmanik) | primary | License.md: "HSK 3.0 word lists - Mani - CC BY-SA 4.0"; CC-CEDICT parts CC BY-SA 4.0 | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
 | [krmanik/HSK-3.0 – word, hanzi, handwriting and grammar lists for New HSK (2021) and New HSK (2025)](https://github.com/krmanik/HSK-3.0 (commit d30e970, 2026-10-24)) | krmanik (Mani) (GitHub) | secondary | License.md: "HSK 3.0 word lists – Mani – CC BY-SA 4.0"; also lists CC-CEDICT (CC BY-SA 4.0), a Pleco list (MIT) and SUBTLEX-CH (CC BY-SA 4.0); no root LICENSE file | 2026-11-02 | research: hsk-standard-exam |
 | [Copy of SUBTLEX-CH word file 'Scripts and data/SUBTLEX_CH_131210_CE.utf8' in krmanik/HSK-3.0-words-list](https://github.com/krmanik/HSK-3.0-words-list.git) | Cai & Brysbaert (copy redistributed by krmanik) | primary | CC BY-SA 4.0 claimed for its HSK 3.0 word lists (License.md) | 2026-11-02 | research: chars-freq-pinyin |
 | [BCT（A）/（B）词汇 lists (BCTA_cihui.txt 600 words, BCTB_cihui.txt 4000 words)](https://github.com/krmanik/HSK-3.0/tree/d30e97016a7f52af6437805170759031d93bbe6a/BCT) | krmanik/HSK-3.0 on GitHub (original publisher not stated in the repo) | secondary |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [中华人民共和国中国人民银行法 (Law on the People's Bank of China, amended 2003-12-27), Article 16](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/%E7%BB%8F%E6%B5%8E%E6%B3%95/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E6%B3%95%282003-12-27%29.md) | Text as enacted by the NPC / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [中华人民共和国消防法 (Fire Protection Law, amended 2021-04-29), Arts. 5 and 44](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/%E8%A1%8C%E6%94%BF%E6%B3%95/%E6%B6%88%E9%98%B2%E6%B3%95%282021-04-29%29.md) | Text as enacted by the NPC / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [中华人民共和国人民币管理条例 (Regulations on the Administration of RMB, State Council, as revised 2018-03-19), Article 3](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84/%E4%BA%BA%E6%B0%91%E5%B8%81%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B%282018-03-19%29.md) | Text as enacted by the State Council / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [全国年节及纪念日放假办法 (2024 revision)](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84/%E5%85%A8%E5%9B%BD%E5%B9%B4%E8%8A%82%E5%8F%8A%E7%BA%AA%E5%BF%B5%E6%97%A5%E6%94%BE%E5%81%87%E5%8A%9E%E6%B3%95%282024-11-10%29.md) | 中华人民共和国国务院 (State Council of the PRC); text mirrored by LawRefBook/Laws | official |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [中华人民共和国发票管理办法 (Invoice Management Measures, State Council, third revision 2023-07-20), Articles 18 and 19](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84/%E5%8F%91%E7%A5%A8%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%282023-07-20%29.md) | Text as enacted by the State Council / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [烟花爆竹安全管理条例 (2016 revision)](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84/%E7%83%9F%E8%8A%B1%E7%88%86%E7%AB%B9%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B%282016-02-06%29.md) | 中华人民共和国国务院 (State Council of the PRC); text mirrored by LawRefBook/Laws | official |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [上海市禁毒条例 (Shanghai drug-control regulations), Art. 43](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E4%B8%8A%E6%B5%B7%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E4%B8%8A%E6%B5%B7/%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%A6%81%E6%AF%92%E6%9D%A1%E4%BE%8B.md) | Text as enacted by the NPC / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [四川省公共消防设施条例 (Sichuan public fire-facility regulations, 2021), Art. 20](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E5%9B%9B%E5%B7%9D%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E5%9B%9B%E5%B7%9D/%E5%9B%9B%E5%B7%9D%E7%9C%81%E5%85%AC%E5%85%B1%E6%B6%88%E9%98%B2%E8%AE%BE%E6%96%BD%E6%9D%A1%E4%BE%8B%282021-09-29%29.md) | Text as enacted by the NPC / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [广州市社会急救医疗管理条例 (Guangzhou regulations on emergency medical care, revised 2022), Articles 7 and 20](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E5%B9%BF%E4%B8%9C/%E5%B9%BF%E5%B7%9E%E5%B8%82%E7%A4%BE%E4%BC%9A%E6%80%A5%E6%95%91%E5%8C%BB%E7%96%97%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B%282023-02-01%29.md) | Text as enacted by the State Council / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [河北省消费者权益保护条例 (Hebei consumer-protection regulations, 2017-07-28), Article 35](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E6%B2%B3%E5%8C%97%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E6%B2%B3%E5%8C%97/%E6%B2%B3%E5%8C%97%E7%9C%81%E6%B6%88%E8%B4%B9%E8%80%85%E6%9D%83%E7%9B%8A%E4%BF%9D%E6%8A%A4%E6%9D%A1%E4%BE%8B%282017-07-28%29.md) | Text as enacted by the State Council / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [郑州市旅游业管理条例 (Zhengzhou tourism regulations, latest amendment 2021-10-29, version dated 2022-01-01), Article 25](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E6%B2%B3%E5%8D%97%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E6%B2%B3%E5%8D%97/%E9%83%91%E5%B7%9E%E5%B8%82%E6%97%85%E6%B8%B8%E4%B8%9A%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B%282022-01-01%29.md) | Text as enacted by the State Council / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [杭州市院前医疗急救管理条例 (Hangzhou regulations on pre-hospital emergency care, 2014), Art. 30](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E6%B5%99%E6%B1%9F%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E6%B5%99%E6%B1%9F/%E6%9D%AD%E5%B7%9E%E5%B8%82%E9%99%A2%E5%89%8D%E5%8C%BB%E7%96%97%E6%80%A5%E6%95%91%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B%282014-10-27%29.md) | Text as enacted by the NPC / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [海南省预防中小学生溺水若干规定 (Hainan provisions on preventing drowning of school pupils, 2026)](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/%E6%B5%B7%E5%8D%97%E5%9C%B0%E6%96%B9%E6%B3%95%E8%A7%84/%E5%9C%B0%E6%96%B9%E6%80%A7%E6%B3%95%E8%A7%84/%E6%B5%B7%E5%8D%97/%E6%B5%B7%E5%8D%97%E7%9C%81%E9%A2%84%E9%98%B2%E4%B8%AD%E5%B0%8F%E5%AD%A6%E7%94%9F%E6%BA%BA%E6%B0%B4%E8%8B%A5%E5%B9%B2%E8%A7%84%E5%AE%9A%282026-01-23%29.md) | Text as enacted by the NPC / a local people's congress; read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19), downloaded earlier this session | official |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 | [Chinese local regulations naming the emergency numbers (Tianjin 2021 and 2024, Jinan 2020, Guangzhou 2023, Zhejiang 2010)](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/天津地方法规/地方性法规/天津/天津市院前医疗急救服务条例(2021-07-30).md) | Local people's congresses; texts read from the LawRefBook/Laws GitHub mirror | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [中华人民共和国中国人民银行法 (Law on the People's Bank of China, 1995, amended 2003), Article 16](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/经济法/中国人民银行法(2003-12-27).md) | NPC; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [中华人民共和国出境入境管理法 (Exit and Entry Administration Law, adopted 30 Jun 2012, in force 1 Jul 2013), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法/出境入境管理法(2012-06-30).md) | NPC Standing Committee; text read from the LawRefBook/Laws GitHub mirror of the National Laws and Regulations Database (flk.npc.gov.cn) | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [中华人民共和国出境入境管理法 (Exit and Entry Administration Law, adopted 30 Jun 2012, in force 1 Jul 2013), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法/出境入境管理法(2012-06-30).md) | NPC Standing Committee; text read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151, 2026-10-19) | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [中华人民共和国国境卫生检疫法 (Frontier Health and Quarantine Law, revised 28 Jun 2024, in force 1 Jan 2025), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法/国境卫生检疫法(2024-06-28).md) | NPC Standing Committee; text read from the LawRefBook/Laws GitHub mirror of the national law database (commit 5057151) | secondary |  | 2026-11-02 | data/reference/facts.json |
 | [国务院关于出境入境管理的规定 (State Council Provisions on Exit and Entry Administration, dated 2026-07-22, in force 2026-09-15), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法规/国务院关于出境入境管理的规定(2026-07-22).md) | State Council of the PRC; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn (mirror updated 2026-10-19) | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [中华人民共和国计算机信息网络国际联网管理暂行规定 (State Council Order No. 195 of 1 Feb 1996, as amended 20 May 1997), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法规/计算机信息网络国际联网管理暂行规定(1997-05-20).md) | State Council of the PRC; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [Tatoeba sentence 374679: 阿姨，您别客气，喝杯开水就行。 (https://tatoeba.org/en/sentences/show/374679)](https://github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english/blob/7df8b93466f009310de22273973b34de7a20bf62/data/Sentence%20pairs%20in%20Mandarin%20Chinese-English%20-%202026-05-20.tsv) | Tatoeba (crowd-sourced sentence corpus), read from the 2026-05-20 Mandarin–English pair export in github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english | primary | CC BY 2.0 FR | 2026-11-02 | research: family-address-kinship; research: travel-basics; research: work-intro-contacts |
-| [Android emergency number database (packages/services/Telephony ecc/input/eccdata.txt), LineageOS mirror of AOSP, branch lineage-24.0](https://github.com/LineageOS/android_packages_services_Telephony/blob/lineage-24.0/ecc/input/eccdata.txt) | Android Open Source Project (Google); LineageOS mirror | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [中华人民共和国计算机信息网络国际联网管理暂行规定实施办法 (implementing measures, 13 Feb 1998), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法规/计算机信息网络国际联网管理暂行规定实施办法(1998-02-13).md) | Issuing body not shown in the mirror file; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn | secondary |  | 2026-11-02 | data/reference/facts.json |
+| [Tatoeba sentence 374679: 阿姨，您别客气，喝杯开水就行。 (https://tatoeba.org/en/sentences/show/374679)](https://github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english/blob/7df8b93466f009310de22273973b34de7a20bf62/data/Sentence%20pairs%20in%20Mandarin%20Chinese-English%20-%202026-05-20.tsv) | Tatoeba (crowd-sourced sentence corpus), read from the 2026-05-20 Mandarin–English pair export in github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english | primary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +4 more |
+| [Android emergency number database (ecc/input/eccdata.txt), LineageOS mirror of AOSP, branch lineage-24.0](https://github.com/LineageOS/android_packages_services_Telephony/blob/lineage-24.0/ecc/input/eccdata.txt) | Android Open Source Project (Google); LineageOS mirror; local copy downloaded earlier this session | secondary |  | 2026-11-02 | data/situations/travel.json; data/reference/facts.json; research: travel-facts; research: travel-food-pay |
 | [lingua-libre/RecordWizard (Lingua Libre recording extension; HEAD 3c5a70ac, 2026-10-15)](https://github.com/lingua-libre/RecordWizard) | Lingua Libre (GitHub) | primary |  | 2026-11-02 | research: audio |
+| [mapull/chinese-dictionary 成语 (idiom.json), entry 万事如意](https://github.com/mapull/chinese-dictionary/blob/e804ada333b68afddfdccbe8dcc938a72da157a7/idiom/idiom.json) | mapull/chinese-dictionary (GitHub) | dictionary |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [mapull/chinese-dictionary 词语 (word.json), entry 恭喜发财](https://github.com/mapull/chinese-dictionary/blob/e804ada333b68afddfdccbe8dcc938a72da157a7/word/word.json) | mapull/chinese-dictionary (GitHub) | dictionary |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [matt-tingen/cedict-json source (src/index.ts, src/main.ts, .github/workflows/publish.yml)](https://github.com/matt-tingen/cedict-json/tree/b9d9f9da3bc5e307e43de91b2189c047b2cbce8b) | Matt Tingen | practitioner | CC-BY-SA-4.0 | 2026-11-02 | research: cedict-sentences |
 | [BCD: api.AudioSession / Navigator.audioSession](https://github.com/mdn/browser-compat-data/blob/0efedff8c8b6f131ad029443056bc74e00b1aca2/api/AudioSession.json) | MDN browser-compat-data 8.1.7 | primary | CC0-1.0 | 2026-11-02 | research: hosting-pwa |
 | [BCD: api.BackgroundFetchManager](https://github.com/mdn/browser-compat-data/blob/0efedff8c8b6f131ad029443056bc74e00b1aca2/api/BackgroundFetchManager.json) | MDN browser-compat-data 8.1.7 | primary | CC0-1.0 | 2026-11-02 | research: hosting-pwa |
@@ -790,20 +1236,26 @@ Total: 904 sources on 197 sites.
 | [mozillazg/phrase-pinyin-data (zdic_cibs.txt and zdic_cybs.txt = pinyin from 汉典 zdic.net; pinyin.txt)](https://github.com/mozillazg/phrase-pinyin-data) | mozillazg (GitHub) | dictionary | MIT (repo LICENSE) | 2026-11-02 | research: hsk-datasets |
 | [phrase-pinyin-data pinyin.txt (merged pinyin data)](https://github.com/mozillazg/phrase-pinyin-data/blob/4afa3226ce53c9138b939e83c3bb294dbe0da511/pinyin.txt) | mozillazg/phrase-pinyin-data (GitHub) | dictionary | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
 | [phrase-pinyin-data zdic_cibs.txt (pinyin data from 汉典 zdic.net)](https://github.com/mozillazg/phrase-pinyin-data/blob/4afa3226ce53c9138b939e83c3bb294dbe0da511/zdic_cibs.txt) | mozillazg/phrase-pinyin-data (GitHub) | dictionary | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
-| [phrase-pinyin-data: zdic_cibs.txt (汉典 zdic.net word list with pinyin)](https://github.com/mozillazg/phrase-pinyin-data/blob/master/zdic_cibs.txt) | mozillazg/phrase-pinyin-data on GitHub | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [phrase-pinyin-data: zdic_cibs.txt (汉典 zdic.net word list with pinyin)](https://github.com/mozillazg/phrase-pinyin-data/blob/master/zdic_cibs.txt) | mozillazg/phrase-pinyin-data on GitHub | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 | [pypinyin documentation, section 'strict 参数的影响' (quotes the spelling rules of 《汉语拼音方案》, 1958)](https://github.com/mozillazg/python-pinyin/blob/master/docs/usage.rst) | mozillazg/python-pinyin (open-source library) | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [pypinyin ToneSandhiMixin docstrings (quoting Wikipedia, 'Standard Chinese phonology', section Tone sandhi)](https://github.com/mozillazg/python-pinyin/blob/master/pypinyin/contrib/tone_sandhi.py) | mozillazg/python-pinyin (open-source library) | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), readme](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/readme.md) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
 | [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), Guangdong locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/guangdong.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), 北方 locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/north.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator)](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/main.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), 北方 locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/north.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship; research: family-festivals |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator)](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/main.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship; research: family-festivals |
 | [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), prefix.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/prefix.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
 | [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), sort.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/sort.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
 | [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), selector.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/selector.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
 | [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), utils.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/utils.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js 1.2.9, src/locale/north.js — the 北方 (northern) locale](https://github.com/mumuy/relationship/blob/master/src/locale/north.js) | mumuy (HaoLe Zheng), GitHub mumuy/relationship | secondary | MIT | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [relationship.js 1.2.9 (Chinese kinship-term library), src/module/data/main.js — default term lists](https://github.com/mumuy/relationship/blob/master/src/module/data/main.js) | mumuy (HaoLe Zheng), GitHub mumuy/relationship | secondary | MIT | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [holiday-cn 2026.json (official PRC public-holiday arrangement as data)](https://github.com/NateScarlet/holiday-cn/blob/2fa4d1e5fb471bc89bdabeb630c141fee6201575/2026.json) | NateScarlet/holiday-cn (data scraped from the State Council notice on gov.cn) | secondary | MIT | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [holiday-cn 2027.json (official PRC public-holiday arrangement as data)](https://github.com/NateScarlet/holiday-cn/blob/2fa4d1e5fb471bc89bdabeb630c141fee6201575/2027.json) | NateScarlet/holiday-cn (data scraped from the State Council notice on gov.cn) | secondary | MIT | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [Leveling up our partnership with Vercel (Neon blog source)](https://github.com/neondatabase/website/blob/8bfdafd187bddf2eb4c721ecf368fa6d05895878/content/blog/posts/leveling-up-our-partnership-with-vercel.md) | Neon | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Neon plans (docs source, updatedOn 2026-10-23)](https://github.com/neondatabase/website/blob/8bfdafd187bddf2eb4c721ecf368fa6d05895878/content/docs/introduction/plans.md) | Neon | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Scale to Zero (docs source)](https://github.com/neondatabase/website/blob/8bfdafd187bddf2eb4c721ecf368fa6d05895878/content/docs/introduction/scale-to-zero.md) | Neon | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
+| [Reisadvies China (open-data XML), 'In geval van nood' section](https://github.com/NWW-team/Reisadvies-Reviewer/blob/253b9b3ae4d6a021e1ba5d00a8ce34a23c3ec049/data/corpus/CHN.xml) | Ministerie van Buitenlandse Zaken (NederlandWereldwijd open data), copied daily by github-actions[bot] into NWW-team/Reisadvies-Reviewer | official |  | 2026-11-02 | data/reference/facts.json |
+| [data/posten/CHN.xml: copy of the NederlandWereldwijd open data 'nl-representation' list for China](https://github.com/NWW-team/Reisadvies-Reviewer/blob/253b9b3ae4d6a021e1ba5d00a8ce34a23c3ec049/data/posten/CHN.xml) | Ministerie van Buitenlandse Zaken (NederlandWereldwijd open data), copied daily by github-actions[bot] into the public GitHub repo NWW-team/Reisadvies-Reviewer | official |  | 2026-11-02 | data/reference/facts.json |
 | [Project GitHub repository and this session's repository attachment](https://github.com/OOC7117/learn-chinese) | GitHub / Claude Code session context | primary |  | 2026-11-02 | research: hosting-pwa |
 | [awesome-fsrs wiki: ABC of FSRS (ABC-of-FSRS.md, last edited 2026-03-18)](https://github.com/open-spaced-repetition/awesome-fsrs.wiki.git) | Open Spaced Repetition | vendor-docs |  | 2026-11-02 | research: srs-scheduler |
 | [fsrs-rs main branch at 3be7d2a (2026-10-28): README.md, Cargo.toml, src/model.rs, src/inference_v7.rs](https://github.com/open-spaced-repetition/fsrs-rs.git) | Open Spaced Repetition | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
@@ -816,7 +1268,8 @@ Total: 904 sources on 197 sites.
 | [parsimonhi/animCJK repository (shallow partial clone) and sample SVGs via raw.githubusercontent.com](https://github.com/parsimonhi/animCJK.git) | FM&SH (parsimonhi) | primary |  | 2026-11-02 | research: chars-freq-pinyin |
 | [plaktos/hsk_csv (hsk1-6.csv, README.md)](https://github.com/plaktos/hsk_csv) | plaktos (GitHub) | primary | none (no LICENSE file in the repository) | 2026-11-02 | research: hsk-datasets |
 | [Praat manual: 'how to choose a pitch analysis method' and 'pitch analysis by raw autocorrelation'](https://github.com/praat/praat.git) | Paul Boersma / Praat, repo commit 56ed24e 2026-11-01 | academic | GPL-3.0-or-later (Praat) | 2026-11-02 | research: speech-tech |
-| [chinese-xinhua 词语数据 (ci.json), entry 叔叔](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/ci.json) | pwxcoo/chinese-xinhua (community-compiled 新华字典/词典 data on GitHub) | dictionary | MIT | 2026-11-02 | data/situations/family.json; data/situations/work.json; data/reference/kinship.json; research: family-address-kinship; +3 more |
+| [chinese-xinhua 词语数据 (ci.json), entry 叔叔](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/ci.json) | pwxcoo/chinese-xinhua (community-compiled 新华字典/词典 data on GitHub) | dictionary | MIT | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +5 more |
+| [chinese-xinhua 成语 (idiom.json), entry 大吉大利](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/idiom.json) | pwxcoo/chinese-xinhua (GitHub; data from 新华字典/成语词典 sources) | dictionary | MIT | 2026-11-02 | data/situations/family.json; research: family-festivals |
 | [chinese-xinhua data/word.json (新华字典 character entries incl. detailed definitions)](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/word.json) | pwxcoo/chinese-xinhua (scraped dictionary data) | dictionary |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 | [新华字典 character entries (chinese-xinhua dataset, data/word.json)](https://github.com/pwxcoo/chinese-xinhua/blob/master/data/word.json) | pwxcoo/chinese-xinhua (data compiled from 新华字典) | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [qundao/backup-cc-cedict (README.md, .github/workflows/sync.yml, git log)](https://github.com/qundao/backup-cc-cedict/tree/b61b6b042228dc24710541f81947a9f93d713be8) | qundao (GitHub) | practitioner | README states CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
@@ -847,11 +1300,11 @@ Total: 904 sources on 197 sites.
 | [Downloads helper (and ansible/host_vars/default) - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/View/Helper/DownloadsHelper.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
 | [Downloads page template - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/templates/Pages/downloads.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
 | [Tencent Cloud International SDKs: tencentcloud-sdk-nodejs-intl-en and tencentcloud-sdk-python-intl-en (service directory listings)](https://github.com/TencentCloud/tencentcloud-sdk-nodejs-intl-en.git) | Tencent Cloud (official SDKs), HEAD de06872 (2026-11-02) and c1d895e (2026-10-30) | vendor-docs | Apache-2.0 | 2026-11-02 | research: speech-tech |
-| [RiSAWOZ: large-scale multi-domain Chinese Wizard-of-Oz dialogue dataset (EMNLP 2020), source-data/all_(11200)_new.json](https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip) | Quan et al., EMNLP 2020 (GitHub terryqj0107/RiSAWOZ); human-to-human dialogues written by native speakers | academic | CC BY-NC 4.0 | 2026-11-02 | data/situations/travel.json; research: pitfalls; research: travel-basics; research: work-intro-contacts; +1 more |
-| [CrossWOZ: a large-scale Chinese cross-domain task-oriented dialogue dataset (TACL, arXiv 2002.11893), data/crosswoz/train.json](https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip) | thu-coai (GitHub thu-coai/CrossWOZ); Beijing hotel/taxi/metro dialogues written by native speakers | academic | Apache-2.0 (CrossWOZ); CC BY-NC 4.0 (RiSAWOZ) | 2026-11-02 | data/situations/travel.json; research: grammar; research: pitfalls; research: travel-basics; +2 more |
+| [RiSAWOZ source data (151,982 utterances, many dialogues set in Suzhou) and CrossWOZ train set (84,692 utterances, Beijing; https://github.co](https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip) | Soochow University; Tsinghua University CoAI group | corpus | CC BY-NC 4.0 (RiSAWOZ); Apache-2.0 (CrossWOZ) | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/pitfalls.json; +7 more |
+| [CrossWOZ train set, dialogue 12028, turn 25 (system) — native-speaker Wizard-of-Oz dialogues set in Beijing](https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip) | Tsinghua University CoAI group (Zhu et al., TACL 2020) | corpus | Apache-2.0 | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +9 more |
 | [tonghuikang/HSK-3.0-words-list (fork of the krmanik word-list repo)](https://github.com/tonghuikang/HSK-3.0-words-list) | Hui Kang Tong (GitHub) | primary | License.md copied from krmanik (CC BY-SA 4.0 for lists) | 2026-11-02 | research: hsk-datasets |
 | [hsk-vocabulary - GitHub Topics](https://github.com/topics/hsk-vocabulary) | GitHub | secondary |  | 2026-11-02 | research: hsk-datasets |
-| [dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)](https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv) | Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19) | secondary | MIT | 2026-11-02 | research: pitfalls |
+| [dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)](https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv) | Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19) | secondary | MIT | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [UD_Chinese-Beginner LICENSE.txt and README.md (Universal Dependencies; HEAD be33e24 of 2026-05-06)](https://github.com/UniversalDependencies/UD_Chinese-Beginner/tree/be33e2440b9b9a93cc90dcf371cbc63a59e6bd06) | Universal Dependencies; annotators at Paris Nanterre University (Modyco) | academic | CC BY-NC-SA 3.0 | 2026-11-02 | research: cedict-sentences |
 | [UD_Chinese-GSDSimp LICENSE.txt and README.md (HEAD 4231dfd of 2026-05-06)](https://github.com/UniversalDependencies/UD_Chinese-GSDSimp/tree/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59) | Universal Dependencies | academic | CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
 | [UD_Chinese-HK LICENSE.txt and README.md (HEAD 05c37a7)](https://github.com/UniversalDependencies/UD_Chinese-HK/tree/05c37a78e3818e5d311e8b77b13adeccdda1e2cf) | Universal Dependencies (City University of Hong Kong annotators) | academic | CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
@@ -868,23 +1321,63 @@ Total: 904 sources on 197 sites.
 | [WebKit ResourceLoadStatisticsStore.cpp (tracking prevention / website data removal)](https://github.com/WebKit/WebKit/blob/ee10f6908b65c932143827e6e5dc5992733bfb2c/Source/WebKit/NetworkProcess/Classifier/ResourceLoadStatisticsStore.cpp) | WebKit project (Apple) | primary |  | 2026-11-02 | research: hosting-pwa |
 | [HTML Living Standard source: 'activation triggering input event'](https://github.com/whatwg/html/blob/404b3eb14a7a936dddefb2d78e224dbeb01d2358/source) | WHATWG | official |  | 2026-11-02 | research: hosting-pwa |
 
+### globaltimes.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Turn your no-no into a ho! ho! ho!](https://www.globaltimes.cn/content/960194.shtml) | Global Times | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
 ### globalvoices.org (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Are you scanning me or am I scanning you? The power dynamics of China's WeChat](https://globalvoices.org/2016/01/25/are-you-scanning-me-or-am-i-scanning-you-the-power-dynamics-of-chinas-wechat/) | Global Voices | news |  | 2026-11-02 | research: work-intro-contacts |
+| [Are you scanning me or am I scanning you? The power dynamics of China's WeChat](https://globalvoices.org/2016/01/25/are-you-scanning-me-or-am-i-scanning-you-the-power-dynamics-of-chinas-wechat/) | Global Voices | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
-### gov.cn (1)
+### goeastmandarin.com (10)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [120 Words & Phrases about Money in Chinese for Conversations](https://goeastmandarin.com/120-words-phrases-about-money-in-chinese-for-conversations/) | GoEast Mandarin (Shanghai language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Basic Vocabulary for Shopping in Mandarin Chinese](https://goeastmandarin.com/basic-vocabulary-for-shopping-in-mandarin-chinese/) | GoEast Mandarin (Shanghai language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [China's Dark Cuisine](https://goeastmandarin.com/chinas-dark-cuisine/) | GoEast Mandarin (Shanghai language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Chinese Lantern Festival: Traditions and Riddles - GoEast Mandarin](https://goeastmandarin.com/chinese-lantern-festival/) | GoEast Mandarin | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [About the Chinese phrase “Have you eaten? 你吃了吗?”](https://goeastmandarin.com/chinese-phrase-have-you-eaten/) | GoEast Mandarin | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Classic Topics Essential for Foreigners' Survival in China](https://goeastmandarin.com/classic-topics-essential-for-foreigners-survival-in-china/) | GoEast Mandarin (Shanghai language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Essential Vocabulary and Tips for Taking a Taxi in Mandarin Chinese (GoEast Mandarin) and other taxi guides in the same result set (DuChines](https://goeastmandarin.com/essential-vocabulary-and-tips-for-taking-a-taxi-in-mandarin-chinese/) | GoEast Mandarin and others (teaching sites) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [Learner-site results for restaurant phrases (GoEast bill guide; Hutong School 'How to eat out in Chinese'; ChinesePod 'Do you have a menu?';](https://goeastmandarin.com/ordering-and-checking-the-bill-in-chinese-a-step-by-step-guide/) | GoEast Mandarin / Hutong School / ChinesePod / Mandarin Corner | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Quick Guide - Audio](https://goeastmandarin.com/quick-guide-audio/) | GoEast Mandarin (Shanghai language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Learner-site results on emergency phrases (GoEast 'Useful Chinese daily phrases' and 'Classic Topics Essential for Foreigners' Survival in C](https://goeastmandarin.com/useful-chinese-daily-phrases/) | GoEast Mandarin / Mandarin Blueprint | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### gov.cn (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [铁路部门推出外国护照在线身份核验服务](https://www.gov.cn/yaowen/liebiao/202311/content_6917541.htm) | 中国政府网 www.gov.cn (Xinhua report) | official |  | 2026-11-02 | data/reference/facts.json |
 | [中国人民银行 国家发展改革委 金融监管总局公告〔2025〕第29号](https://www.gov.cn/zhengce/zhengceku/202512/content_7055739.htm) | State Council of the PRC (gov.cn policy library) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### government.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [The BZ 24/7 Contact Centre for consular assistance and advice](https://government.nl/topics/embassies-consulates-and-other-representations/the-bz-24-7-contact-centre-for-consular-assistance-and-advice) | Government of the Netherlands (government.nl) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### govt.chinadaily.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tipping (travel practical info)](https://govt.chinadaily.com.cn/s/201905/15/WS5cdbc147498e079e68020f1e/tipping.html) | China Daily government-services site (govt.chinadaily.com.cn) | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### guoqing.china.com.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [外国人也能网上买火车票了 12306英文版上线](http://guoqing.china.com.cn/2020-11/28/content_76957176.htm) | China.com.cn | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### hackchinese.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Ordering Food In Chinese: A Step-by-step Guide & Useful Vocab](https://www.hackchinese.com/blog/ordering-food-in-chinese-a-step-by-step-guide-useful-vocab) | Hack Chinese | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### hackingchinese.com (1)
 
@@ -896,13 +1389,25 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Making Appointments with Clients in Chinese](https://www.hanbridgemandarin.com/article/business-chinese-learning-tips/making-appointments-with-clients-in-chinese/) | Hanbridge Mandarin | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [Making Appointments with Clients in Chinese](https://www.hanbridgemandarin.com/article/business-chinese-learning-tips/making-appointments-with-clients-in-chinese/) | Hanbridge Mandarin | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+
+### hankunlaw.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Han Kun Law Offices commentary on 《国务院关于出境入境管理的规定》 (title not shown in the search result)](https://hankunlaw.com/portal/article/index/cid/8/id/17072.html) | Han Kun Law Offices (汉坤律师事务所) | practitioner |  | 2026-11-02 | data/reference/facts.json |
 
 ### hanyuguide.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [劳驾 (HanyuGuide dictionary entry); also FluentU “Excuse Me in Chinese: 9 Phrases” (https://www.fluentu.com/blog/chinese/excuse-me-in-chinese/](https://hanyuguide.com/zh/dictionary/%E5%8A%B3%E9%A9%BE?lang=zh) | HanyuGuide; FluentU; That's Mandarin | teaching site |  | 2026-11-02 | research: travel-basics |
+| [劳驾 (HanyuGuide dictionary entry); also FluentU “Excuse Me in Chinese: 9 Phrases” (https://www.fluentu.com/blog/chinese/excuse-me-in-chinese/](https://hanyuguide.com/zh/dictionary/%E5%8A%B3%E9%A9%BE?lang=zh) | HanyuGuide; FluentU; That's Mandarin | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+
+### help.nextdns.io (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [my.nextdns.io page is blocked in China](https://help.nextdns.io/t/g9hfr21/my-nextdns-io-page-is-blocked-in-china) | NextDNS help forum | practitioner |  | 2026-11-02 | data/reference/facts.json |
 
 ### help.wechat.com (1)
 
@@ -923,11 +1428,35 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [HSK 3.0 将于2026年12月正式实施，全球中文学习热潮持续升温](https://www.hilingo.cn/news/95.html) | Hilingo 中文网校 | blog |  | 2026-11-02 | research: hsk-standard-exam |
 
+### hk.ocmfa.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Notice on Extension of Visa-free Policy](https://hk.ocmfa.gov.cn/eng/fwxx/wgrqz/202511/t20251110_11749818.htm) | Office of the Commissioner of the Ministry of Foreign Affairs of the PRC in the Hong Kong SAR | official |  | 2026-11-02 | data/reference/facts.json |
+
+### hk.trip.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Is There a Trip.com Booking Fee? Flights & Hotels Cost Breakdown](https://hk.trip.com/guide/en/Trip.com+booking+fee.html) | Trip.com | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
+
 ### hmongstudies.library.wisc.edu (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Perception of Mandarin Tones: The Effect of L1 Background and Training](https://hmongstudies.library.wisc.edu/catalog/HmongStudies3538) | Modern Language Journal article, catalog record (Hmong Studies, University of Wisconsin-Madison Libraries) | academic |  | 2026-11-02 | research: learning-method |
+
+### howincn.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [持外国护照乘坐中国高铁：12306 指南](https://howincn.com/zh/essentials/trains) | HowInCN | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### hr.china-embassy.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Extends Visa-Free Entry Policy for 45 Countries Until December 31, 2026](https://hr.china-embassy.gov.cn/eng/qzfw/Visa/202511/t20251104_11746850.htm) | Embassy of the People's Republic of China in the Republic of Croatia | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### hsk.cn-bj.ufileos.com (1)
 
@@ -947,11 +1476,15 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [HSK test dates for the rest of 2026 and their registration deadlines — HSK Exam Guide](https://hskexam.org/guides/hsk-test-dates-2026/) | HSK Exam Guide (hskexam.org) | blog |  | 2026-11-02 | research: hsk-standard-exam |
 
-### hsklord.com (1)
+### hsklord.com (5)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Meeting New People (topic page)](https://hsklord.com/topics/meeting-new-people) | HSK Lord | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Chinese Money & Shopping Vocabulary: 70+ Words for Buying & Paying (with HSK Lord dictionary pages 扫码, 二维码)](https://hsklord.com/blog/chinese-money-shopping-vocabulary) | HSK Lord (Chinese-learning site) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Chinese + Wine & Dining (and topic page 'At a Party')](https://hsklord.com/chinese-plus/wine-dining) | HSK Lord (learner site) | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Meeting New People (topic page)](https://hsklord.com/topics/meeting-new-people) | HSK Lord | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [How to Say “Can I have the bill please?” in Chinese: 买单 (mǎi dān)](https://hsklord.com/translate/bill-please) | HSK Lord (Chinese-learning site) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Say “Do you have change?” in Chinese](https://hsklord.com/translate/do-you-have-change) | HSK Lord (Chinese-learning site) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### hskstory.com (1)
 
@@ -969,19 +1502,28 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [huichenglawyer.com 普法库 page on 改口费 (one of several returned; headline not seen)](https://www.huichenglawyer.com/pufaku/83209.html) | 汇诚律师 huichenglawyer.com (law-firm legal-information site) | secondary |  | 2026-11-02 | research: family-address-kinship |
+| [huichenglawyer.com 普法库 page on 改口费 (one of several returned; headline not seen)](https://www.huichenglawyer.com/pufaku/83209.html) | 汇诚律师 huichenglawyer.com (law-firm legal-information site) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship |
 
-### hutong-school.com (1)
+### hutong-school.com (4)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Social Media in Chinese Pt.1](https://www.hutong-school.com/essential-phrases-chinese-social-media) | Hutong School | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Social Media in Chinese Pt.1](https://www.hutong-school.com/essential-phrases-chinese-social-media) | Hutong School | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Which restaurants to visit in Shanghai](https://www.hutong-school.com/food-in-shanghai) | Hutong School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Learn Chinese to Go Shopping in Beijing!](https://www.hutong-school.com/learn-chinese-go-shopping-beijing/) | Hutong School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Top 10 China Winter Survival Phrases](https://www.hutong-school.com/top-10-china-winter-survival-phrases) | Hutong School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### huxiu.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Reports on 扫码点餐 (Beijing News visit; Shanghai Consumer Council view), via Huxiu and related results](https://www.huxiu.com/article/483453.html) | Huxiu (虎嗅), citing The Beijing News (新京报) and the Shanghai Consumer Council (上海市消保委) | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### hznews.hangzhou.com.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [杭州网 workplace-etiquette article (2010-03-10)](https://hznews.hangzhou.com.cn/shehui/content/2010-03/10/content_3177776_2.htm) | 杭州网 | news |  | 2026-11-02 | research: work-intro-contacts |
+| [杭州网 workplace-etiquette article (2010-03-10)](https://hznews.hangzhou.com.cn/shehui/content/2010-03/10/content_3177776_2.htm) | 杭州网 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### iana.org (1)
 
@@ -989,11 +1531,17 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [IANA Time Zone Database 2026e as installed on the verification machine (/usr/share/zoneinfo, read with Python zoneinfo)](https://www.iana.org/time-zones) | IANA | primary |  | 2026-11-02 | research: srs-scheduler |
 
+### ibsintelligence.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tencent boosts digital payment services for tourists to China](https://ibsintelligence.com/ibsi-news/tencent-boosts-digital-payment-services-for-tourists-to-china) | IBS Intelligence | press |  | 2026-11-02 | data/reference/facts.json |
+
 ### iciba.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [iciba (金山词霸) entry 'make yourself at home'](https://www.iciba.com/make+yourself+at+home) | 金山词霸 iciba (bilingual dictionary) | dictionary |  | 2026-11-02 | research: family-address-kinship |
+| [iciba (金山词霸) entry 'make yourself at home'](https://www.iciba.com/make+yourself+at+home) | 金山词霸 iciba (bilingual dictionary) | dictionary |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship |
 
 ### idocs.alipay.com (2)
 
@@ -1032,25 +1580,45 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [China's 240-hour visa-free transit program covers more ports in Guangdong](https://info.newsgd.com/node_4d035959b6/5610ab6c6e.shtml) | Newsgd.com (Guangdong press) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### inside.com.tw (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [中國工信部:未經批准不得自行建立或租用 VPN 展開跨境經營活動](https://www.inside.com.tw/article/8309-china-government-limited-vpn-for-businesses) | INSIDE (Taiwanese tech news site) | press |  | 2026-11-02 | data/reference/facts.json |
+
 ### italki.com (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [The dark meaning of 5 Chinese terms (italki article by a language teacher)](https://www.italki.com/article/92/the-dark-meaning-of-5-chinese-terms) | italki | teaching site |  | 2026-11-02 | research: travel-basics |
-| [How to introduce yourself in Chinese](https://www.italki.com/en/blog/how-to-introduce-yourself-in-chinese) | italki | teaching |  | 2026-11-02 | research: work-intro-contacts |
-| [Popular Chinese phrases (italki blog)](https://www.italki.com/en/blog/popular-chinese-phrases) | italki | teaching site |  | 2026-11-02 | research: travel-basics |
+| [The dark meaning of 5 Chinese terms (italki article by a language teacher)](https://www.italki.com/article/92/the-dark-meaning-of-5-chinese-terms) | italki | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [How to introduce yourself in Chinese](https://www.italki.com/en/blog/how-to-introduce-yourself-in-chinese) | italki | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Popular Chinese phrases (italki blog)](https://www.italki.com/en/blog/popular-chinese-phrases) | italki | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
 
-### jiemian.com (1)
+### ithome.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Interview piece on work-group replies (OK / 1 / 收到 / 好的)](https://www.jiemian.com/article/10515163.html) | 界面新闻 jiemian.com | press |  | 2026-11-02 | research: work-meetings-writing |
+| [铁路部门推出外国护照在线身份核验服务，持“永居证”旅客可自助检票](https://www.ithome.com/0/735/643.htm) | IT之家 (IThome) | press |  | 2026-11-02 | data/reference/facts.json |
+| [IT之家 5 月 27 日消息,微信支付今日官宣,腾讯 TenPay Global × PayPal World 正式牵手。](https://www.ithome.com/0/956/148.htm) | IT之家 (ithome.com) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### jetpacglobal.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Does eSIM Work in China?](https://www.jetpacglobal.com/blog/does-esim-work-in-china/) | Jetpac (eSIM seller), company blog | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### jiemian.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Interview piece on work-group replies (OK / 1 / 收到 / 好的)](https://www.jiemian.com/article/10515163.html) | 界面新闻 jiemian.com | press |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [Jiemian article 9779351 on Weixin Pay international-card fees (title not shown in results)](https://www.jiemian.com/article/9779351.html) | 界面新闻 Jiemian | press |  | 2026-11-02 | data/reference/facts.json |
 
 ### jour.hhu.edu.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Article on the changing meaning of the address term 小姐 (河海大学学报（哲学社会科学版）, 2005)](https://jour.hhu.edu.cn/hhdxxbsk/article/pdf/sk20050118) | 河海大学学报（哲学社会科学版） | academic |  | 2026-11-02 | research: work-intro-contacts |
+| [Article on the changing meaning of the address term 小姐 (河海大学学报（哲学社会科学版）, 2005)](https://jour.hhu.edu.cn/hhdxxbsk/article/pdf/sk20050118) | 河海大学学报（哲学社会科学版） | academic |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### journals.plos.org (1)
 
@@ -1062,7 +1630,7 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Unit 2: Direct Apology Strategies in Chinese](https://www.k-state.edu/chinesepragmatics/apologies/2directapologystrategies.html) | Kansas State University, Chinese Pragmatics (teaching site) | secondary |  | 2026-11-02 | research: pitfalls |
+| [Unit 2: Direct Apology Strategies in Chinese](https://www.k-state.edu/chinesepragmatics/apologies/2directapologystrategies.html) | Kansas State University, Chinese Pragmatics (teaching site) | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 
 ### keyt.com (1)
 
@@ -1082,24 +1650,38 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [HSK 3.0 official launch confirmed: December 13, 2026](https://khanjischool.com/blog/chinese/hsk-3-0-launch-date-2026) | Khanji School | blog |  | 2026-11-02 | research: hsk-standard-exam |
 
+### kpn.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Internetten, bellen en sms'en buiten de EU, overal ter wereld](https://www.kpn.com/mobiel-abonnement/bundels/buitenland/wereld) | KPN | operator |  | 2026-11-02 | data/reference/facts.json |
+
 ### kyfw.12306.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [注册时 - 中国铁路12306网站](https://kyfw.12306.cn/otn/gonggao/register.html?no=6) | China Railway 12306 | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### languagelog.ldc.upenn.edu (2)
+### language.chinadaily.com.cn (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Central government control over words for grandmother](https://languagelog.ldc.upenn.edu/nll/?p=39065) | Language Log (group blog of linguists, University of Pennsylvania) | blog |  | 2026-11-02 | research: family-address-kinship |
-| [Chinese terms of address for single ladies](https://languagelog.ldc.upenn.edu/nll/?p=4116) | Language Log (University of Pennsylvania) | academic-blog |  | 2026-11-02 | research: work-intro-contacts |
+| [过年回答“霸道亲戚”必杀题 单身狗没娃党如何接招](https://language.chinadaily.com.cn/2016-02/03/content_23373952.htm) | China Daily (language.chinadaily.com.cn) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [译词课堂: guide to Chinese table etiquette](https://language.chinadaily.com.cn/a/202405/24/WS66505c0da31082fc043c8fed.html) | China Daily (language.chinadaily.com.cn) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### languagelog.ldc.upenn.edu (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Greetings of the times](https://languagelog.ldc.upenn.edu/nll/?p=35579) | Language Log (University of Pennsylvania; Victor Mair) | academic-blog |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Central government control over words for grandmother](https://languagelog.ldc.upenn.edu/nll/?p=39065) | Language Log (group blog of linguists, University of Pennsylvania) | blog |  | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [Chinese terms of address for single ladies](https://languagelog.ldc.upenn.edu/nll/?p=4116) | Language Log (University of Pennsylvania) | academic-blog |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### lcchineseschool.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Read this before you travel to China: Business Cards – 10 Tips](https://lcchineseschool.com/?p=1556) | LC Chinese School | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Read this before you travel to China: Business Cards – 10 Tips](https://lcchineseschool.com/?p=1556) | LC Chinese School | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### learn.microsoft.com (8)
 
@@ -1124,7 +1706,7 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [How to respond to a compliment in Chinese](https://www.lingoace.com/blog/how-to-respond-a-compliment-in-chinese) | LingoAce | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [How to respond to a compliment in Chinese](https://www.lingoace.com/blog/how-to-respond-a-compliment-in-chinese) | LingoAce | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### linguistics.umd.edu (1)
 
@@ -1136,7 +1718,7 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Why Business Cards Matter in China](https://list.juwai.com/chinese-buyer-tips/2016/06/tip-06-master-chinese-business-card-etiquette) | Juwai | blog |  | 2026-11-02 | research: work-intro-contacts |
+| [Why Business Cards Matter in China](https://list.juwai.com/chinese-buyer-tips/2016/06/tip-06-master-chinese-business-card-etiquette) | Juwai | blog |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### lltjournal.org (1)
 
@@ -1144,92 +1726,156 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Generalization of Computer-Assisted Prosody Training: Quantitative and Qualitative Findings](https://www.lltjournal.org/item/312/) | Language Learning & Technology 8(1), 34-52 | academic |  | 2026-11-02 | research: learning-method |
 
-### ltl-school.com (2)
+### losangeles.china-consulate.gov.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Learn How to Greet Someone in Chinese — Top 10 Chinese Greetings (LTL Language School); also Hack Chinese “Chinese Greetings: Your Vocabular](https://ltl-school.com/chinese-greetings/) | LTL Language School; Hack Chinese; New Concept Mandarin; Everyday Chinese course (everydaychinese.teachable.com) | teaching site |  | 2026-11-02 | research: travel-basics |
-| [How to Say No in Chinese: Essential Phrases Guide](https://ltl-school.com/no-in-chinese/) | LTL Mandarin School | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [FAQs on Visa-free Entry into China](https://losangeles.china-consulate.gov.cn/eng/gdxw/202511/t20251111_11750508.htm) | Consulate General of the People's Republic of China in Los Angeles | official |  | 2026-11-02 | data/reference/facts.json |
+
+### ltl-school.com (21)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [The True Meaning of 我吃素 \|\| Onions Aren't Vegetarian?!](https://ltl-school.com/%E6%88%91%E5%90%83%E7%B4%A0-meaning/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Alcohol in Chinese \|\| How to Order Your Favourite Drinks](https://ltl-school.com/alcohol-in-chinese/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Alipay for Foreigners 2026 \|\| Link a Foreign Card & TourCard Guide](https://ltl-school.com/alipay-for-foreigners/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Bubble Tea vs Boba // How & Where To Order](https://ltl-school.com/bubble-tea-vs-boba/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Chinese Gift Giving Etiquette — What To Do & What To Avoid](https://ltl-school.com/chinese-gift-giving/) | LTL Mandarin School | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Learn How to Greet Someone in Chinese — Top 10 Chinese Greetings (LTL Language School); also Hack Chinese “Chinese Greetings: Your Vocabular](https://ltl-school.com/chinese-greetings/) | LTL Language School; Hack Chinese; New Concept Mandarin; Everyday Chinese course (everydaychinese.teachable.com) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [How to Read a Chinese Menu: Golden Tips, Tricks and Cheat Sheets](https://ltl-school.com/chinese-menus/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Chinese National Holidays 2026 & 2027](https://ltl-school.com/chinese-national-holidays/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Chinese New Year 2026 \|\| Traditions, Superstitions & Food Guide](https://ltl-school.com/chinese-new-year/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Learner-site results on halal food and dietary restrictions (LTL 'Ultimate Dining in China'; Mandarin Blueprint '120 Basic Chinese Words & P](https://ltl-school.com/dining-in-china/) | LTL Mandarin School / Mandarin Blueprint | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Haidilao Hot Pot // The Complete Guide To Hotpot in China](https://ltl-school.com/haidilao-hot-pot/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Happy New Year in Chinese: 新年快乐 and Better Ways to Say It](https://ltl-school.com/happy-new-year-chinese/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Health in Chinese](https://ltl-school.com/health-in-chinese/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Mid-Autumn Festival in China // What It Is & How to Celebrate](https://ltl-school.com/mid-autumn-festival/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [How to Say No in Chinese: Essential Phrases Guide](https://ltl-school.com/no-in-chinese/) | LTL Mandarin School | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [Peanut Allergy in China (Can I Survive?) \|\| Top 5 Danger Zones](https://ltl-school.com/peanut-allergy-china/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Red Envelope (Hóng Bāo 红包) 🧧 FAQ’s Answered (+ Facts & Figures)](https://ltl-school.com/red-envelope/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Living in China as a Vegetarian or Vegan \|\| Top Dishes & Phrases](https://ltl-school.com/vegetarian-vegan-china/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [WeChat Pay for Foreigners \|\| The Complete Guide for 2026](https://ltl-school.com/wechat-pay-for-foreigners/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-festivals; research: travel-food-pay |
+| [Wedding Traditions in China: Customs & Modern Trends](https://ltl-school.com/wedding-customs-in-china/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Year of the Goat // Personality, Years & 2027 Predictions](https://ltl-school.com/year-of-the-goat/) | LTL Mandarin School | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 
 ### m.163.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [网易号 article with model self-introductions for new employees (职场新人的自我介绍)](https://m.163.com/dy/article/HNMKI1MB05560YL3.html) | 网易 163.com (self-media account) | blog |  | 2026-11-02 | research: work-intro-contacts |
+| [网易号 article with model self-introductions for new employees (职场新人的自我介绍)](https://m.163.com/dy/article/HNMKI1MB05560YL3.html) | 网易 163.com (self-media account) | blog |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
-### m.bjnews.com.cn (1)
-
-| Source | Publisher | Authority | Licence | Accessed | Used for |
-| --- | --- | --- | --- | --- | --- |
-| [新京报 commentary on '老师' as an all-purpose form of address (headline not shown)](https://m.bjnews.com.cn/detail/156811163315726.html) | 新京报 | news |  | 2026-11-02 | research: work-intro-contacts |
-
-### m.gmw.cn (1)
+### m.bjnews.com.cn (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Article on how to reply when a leader writes 辛苦了 in a work group chat](https://m.gmw.cn/2024-07/27/content_1303803290.htm) | 光明网 (Guangming Online) | press |  | 2026-11-02 | research: work-meetings-writing |
+| [新京报 commentary on '老师' as an all-purpose form of address (headline not shown)](https://m.bjnews.com.cn/detail/156811163315726.html) | 新京报 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [央行：外籍来华人员使用移动支付年累计交易限额将提高到5万美元](https://m.bjnews.com.cn/detail/1709280395129761.html) | Beijing News (新京报) | press |  | 2026-11-02 | data/reference/facts.json |
+| [外交部：中方决定延长对法国等12国公民免签政策至明年底](https://m.bjnews.com.cn/detail/1715068230129074.html) | The Beijing News (新京报) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### m.gelonghui.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Gelonghui live news item 2470108 on Weixin Pay international-card fee waivers (title not shown in results)](https://m.gelonghui.com/live/2470108) | 格隆汇 Gelonghui | press |  | 2026-11-02 | data/reference/facts.json |
+
+### m.gmw.cn (4)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Article on how to reply when a leader writes 辛苦了 in a work group chat](https://m.gmw.cn/2024-07/27/content_1303803290.htm) | 光明网 (Guangming Online) | press |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [清明节不能问好是谣言](https://m.gmw.cn/2025-04/03/content_1304007150.htm) | 光明网 Guangming Online (reporting the Shanghai rumour-refuting platform) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [官方辟谣清明节不能问好](https://m.gmw.cn/2025-04/03/content_1304007244.htm) | 光明网 (gmw.cn) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Advice on cold drinks in summer (Guangming Online, 2026-08-07)](https://m.gmw.cn/2026-08/07/content_1304544818.htm) | Guangming Online (光明网), Xinhua article | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
 ### m.huxiu.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Article on the WeChat 微笑 emoji across generations](https://m.huxiu.com/article/3627208.html) | 虎嗅 huxiu.com | press |  | 2026-11-02 | research: work-meetings-writing |
+| [Article on the WeChat 微笑 emoji across generations](https://m.huxiu.com/article/3627208.html) | 虎嗅 huxiu.com | press |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
 ### m.jiemian.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [界面新闻 article on workplace WeChat etiquette (headline not shown)](https://m.jiemian.com/article/8748392.html) | 界面新闻 | news |  | 2026-11-02 | research: work-intro-contacts |
+| [界面新闻 article on workplace WeChat etiquette (headline not shown)](https://m.jiemian.com/article/8748392.html) | 界面新闻 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
-### m.maigoo.com (1)
-
-| Source | Publisher | Authority | Licence | Accessed | Used for |
-| --- | --- | --- | --- | --- | --- |
-| [书信的格式是什么 书信的写作技巧与注意事项](https://m.maigoo.com/goomai/217336.html) | maigoo.com (买购网) | secondary |  | 2026-11-02 | research: work-meetings-writing |
-
-### m.thepaper.cn (2)
+### m.maigoo.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [澎湃新闻 (湃客) article on WeChat etiquette (headline not shown)](https://m.thepaper.cn/baijiahao_10113758) | 澎湃新闻 | news |  | 2026-11-02 | research: work-intro-contacts |
-| [Report on a Shanghai labour dispute over a 微笑 emoji](https://m.thepaper.cn/newsDetail_forward_24067404) | 澎湃新闻 The Paper | press |  | 2026-11-02 | research: work-meetings-writing |
+| [书信的格式是什么 书信的写作技巧与注意事项](https://m.maigoo.com/goomai/217336.html) | maigoo.com (买购网) | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [maigoo.com top-10 list: gifts for a first visit to the partner's family](https://m.maigoo.com/top/420725.html) | 买购网 maigoo.com | community |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### m.thepaper.cn (10)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [澎湃新闻 (湃客) article on WeChat etiquette (headline not shown)](https://m.thepaper.cn/baijiahao_10113758) | 澎湃新闻 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Report on the State Council Provisions on Exit and Entry Administration (title not shown in the search result)](https://m.thepaper.cn/detail/33692036) | The Paper (澎湃新闻) | press |  | 2026-11-02 | data/reference/facts.json |
+| [Survey of 扫码点餐 in 100 restaurants (The Paper, 2021)](https://m.thepaper.cn/newsDetail_forward_11677366) | The Paper (澎湃新闻) | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [端午只能安康？民俗学家田兆元：错！不符合历史也不符合现实](https://m.thepaper.cn/newsDetail_forward_13136857) | 澎湃新闻 The Paper | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Report on a Shanghai labour dispute over a 微笑 emoji](https://m.thepaper.cn/newsDetail_forward_24067404) | 澎湃新闻 The Paper | press |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [澎湃新闻 article on table manners (长幼原则)](https://m.thepaper.cn/newsDetail_forward_25151316) | 澎湃新闻 (The Paper) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [全国吃辣鄙视链曝光，排在第一名的竟然是……](https://m.thepaper.cn/newsDetail_forward_2550399) | The Paper (澎湃新闻), same text on zhuanlan.zhihu.com/p/47086562 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [拜年不知道要说啥？春节祝福语大全来了！](https://m.thepaper.cn/newsDetail_forward_26329501) | 澎湃新闻 (The Paper) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [抢微信红包有没有“最佳手气”攻略？红包上限为什么是200元？微信回应](https://m.thepaper.cn/newsDetail_forward_32613189) | 澎湃新闻 The Paper | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [大年初一，这些的习俗和禁忌你知道吗？](https://m.thepaper.cn/newsDetail_forward_5632756) | 澎湃新闻 The Paper | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 
 ### m.voc.com.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [华声在线 article (Sept 2026) in the same result set on workplace forms of address (headline not shown)](https://m.voc.com.cn/xhn/news/202609/33717670.html) | 华声在线 (voc.com.cn) | news |  | 2026-11-02 | research: work-intro-contacts |
+| [华声在线 article (Sept 2026) in the same result set on workplace forms of address (headline not shown)](https://m.voc.com.cn/xhn/news/202609/33717670.html) | 华声在线 (voc.com.cn) | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### maigoo.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [maigoo.com 'goomai' article on how to address a partner's parents when meeting them (headline not seen)](https://www.maigoo.com/goomai/4zAMODA4.html) | 买购网 maigoo.com (consumer-information site) | secondary |  | 2026-11-02 | research: family-address-kinship |
+| [maigoo.com 'goomai' article on how to address a partner's parents when meeting them (headline not seen)](https://www.maigoo.com/goomai/4zAMODA4.html) | 买购网 maigoo.com (consumer-information site) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship |
+
+### mandalay.china-consulate.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Notice on Further Extension and Expansion of the Policy Exempting Fingerprint Collection for Chinese Visa Applicants](https://mandalay.china-consulate.gov.cn/eng/zytz/202512/t20251222_11777751.htm) | Consulate General of the People's Republic of China in Mandalay | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### mandarinblueprint.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Disagree in Chinese (polite Chinese and expressing disagreement)](https://www.mandarinblueprint.com/blog/polite-chinese-and-expressing-disagreement-without-offense/) | Mandarin Blueprint | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [Disagree in Chinese (polite Chinese and expressing disagreement)](https://www.mandarinblueprint.com/blog/polite-chinese-and-expressing-disagreement-without-offense/) | Mandarin Blueprint | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
 
 ### marieclaire.com.tw (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Marie Claire Taiwan, relationship/secret-talk article 83492 (headline not seen)](https://www.marieclaire.com.tw/relationship/secret-talk/83492) | Marie Claire 美麗佳人 (Taiwan edition) | press |  | 2026-11-02 | research: family-address-kinship |
+| [Marie Claire Taiwan, relationship/secret-talk article 83492 (headline not seen)](https://www.marieclaire.com.tw/relationship/secret-talk/83492) | Marie Claire 美麗佳人 (Taiwan edition) | press |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
 
 ### mdbg.net (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [CC-CEDICT (release 2026-05-18, 124,933 entries; obtained via npm @leonsilicon/cc-cedict 0.0.0)](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | MDBG | dictionary | CC BY-SA 4.0 | 2026-11-02 | pipeline input (pinned); data/situations/family.json; data/situations/travel.json; data/situations/work.json; +10 more |
+| [CC-CEDICT (release 2026-05-18, 124,933 entries; obtained via npm @leonsilicon/cc-cedict 0.0.0)](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | MDBG | dictionary | CC BY-SA 4.0 | 2026-11-02 | pipeline input (pinned); data/situations/family.json; data/situations/travel.json; data/situations/work.json; +14 more |
 
-### migaku.com (2)
+### medium.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Chinese Directions: Find Your Way With 东南西北, Position and Location Words (Migaku blog); also GoEast Mandarin “Directions in Chinese” (https:](https://migaku.com/blog/chinese/chinese-directions) | Migaku; GoEast Mandarin | teaching site |  | 2026-11-02 | research: travel-basics |
-| [Mastering Good Morning in Chinese (Migaku blog); also Preply “Good morning in Chinese” (https://preply.com/en/blog/good-morning-in-chinese/)](https://migaku.com/blog/chinese/chinese-language-good-morning) | Migaku; Preply | teaching site |  | 2026-11-02 | research: travel-basics |
+| [China Visa-Free After 31 December 2026: Will It Be Extended to 2027?](https://medium.com/@chinaeasymode/china-visa-free-after-31-december-2026-will-it-be-extended-to-2027-debae7b63f00) | China Easy Mode (Medium blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### mfa.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [中国延长对法国等12国免签政策的通知](https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202405/t20240508_11300950.html) | Ministry of Foreign Affairs of the PRC (consular notices) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### migaku.com (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Directions: Find Your Way With 东南西北, Position and Location Words (Migaku blog); also GoEast Mandarin “Directions in Chinese” (https:](https://migaku.com/blog/chinese/chinese-directions) | Migaku; GoEast Mandarin | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [Mastering Good Morning in Chinese (Migaku blog); also Preply “Good morning in Chinese” (https://preply.com/en/blog/good-morning-in-chinese/)](https://migaku.com/blog/chinese/chinese-language-good-morning) | Migaku; Preply | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [China Gaotie Travel Guide for Expats (2026)](https://migaku.com/blog/language-fun/riding-chinas-gaotie-an-expat-guide-to-high-speed-rail-travel) | Migaku | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### moe.gov.cn (2)
 
@@ -1244,29 +1890,79 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [China cash payment new regulations](https://mothership.sg/2025/12/china-cash-payment-new-regulations/) | Mothership (Singapore) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### mp.cnfol.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [便利境外人士境内移动支付，上海银行推出“Tourcard”_中金在线财经号](http://mp.cnfol.com/27131/article/1684315775-140932980.html) | CNFOL (中金在线) financial self-media channel | press |  | 2026-11-02 | data/reference/facts.json |
+
+### nbbs.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Landinformatie China & Hongkong](https://www.nbbs.nl/landinformatie/china-hongkong/) | NBBS (travel agency) | blog |  | 2026-11-02 | data/reference/facts.json |
+
 ### ncbi.nlm.nih.gov (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [SUBTLEX-CH: Chinese Word and Character Frequencies Based on Film Subtitles (Cai & Brysbaert, PLoS ONE 5(6): e10729)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2880003/) | PLoS ONE / PubMed Central | academic | CC BY (article); data terms not established | 2026-11-02 | research: chars-freq-pinyin |
 
-### nederlandwereldwijd.nl (1)
+### nederlandwereldwijd.nl (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Hulp bij nood](https://www.nederlandwereldwijd.nl/hulp-bij-nood) | Ministerie van Buitenlandse Zaken (NederlandWereldwijd) | official |  | 2026-11-02 | data/reference/facts.json |
 | [Reisadvies China](https://www.nederlandwereldwijd.nl/reisadvies/china) | Ministerie van Buitenlandse Zaken (Nederland Wereldwijd) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Over reisadviezen en kleurcodes](https://www.nederlandwereldwijd.nl/reisadvies/kleurcodes-betekenis) | Ministerie van Buitenlandse Zaken (NederlandWereldwijd) | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### neerlandistiek.nl (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Literature review on voicing in Dutch stops (voicing.pdf)](https://neerlandistiek.nl/wp-content/uploads/2025/05/voicing.pdf) | Neerlandistiek.nl | academic |  | 2026-11-02 | research: pitfalls |
+| [Literature review on voicing in Dutch stops (voicing.pdf)](https://neerlandistiek.nl/wp-content/uploads/2025/05/voicing.pdf) | Neerlandistiek.nl | academic |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+
+### netherlandsandyou.nl (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Contact consulate-general in Guangzhou - China-en](https://www.netherlandsandyou.nl/web/china-en/about-us/consulate-general-guangzhou-/contact-guangzhou) | Ministry of Foreign Affairs of the Netherlands (Netherlands and You); also https://www.netherlandsworldwide.nl/contact/embassies-consulates-general/china/consulate-general-guangzhou | official |  | 2026-11-02 | data/reference/facts.json |
+| [Consular affairs department - China-en (with https://www.netherlandsworldwide.nl/passport-id-card/abroad/apply-china in the same results)](https://www.netherlandsandyou.nl/web/china-en/about-us/dutch-diplomatic-network-to-china/consular-affairs-department) | Ministry of Foreign Affairs of the Netherlands (Netherlands and You / NetherlandsWorldwide) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### netherlandsworldwide.nl (4)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Consulate-general of the Netherlands in Shanghai, China](https://www.netherlandsworldwide.nl/contact/embassies-consulates-general/china/consulate-general-shanghai) | Ministry of Foreign Affairs of the Netherlands (NetherlandsWorldwide); also https://www.netherlandsandyou.nl/web/china-en/about-us/consulate-generals/contact-shanghai | official |  | 2026-11-02 | data/reference/facts.json |
+| [Consulate-general of the Netherlands in Hong Kong and Macao, Hong Kong](https://www.netherlandsworldwide.nl/contact/embassies-consulates-general/hong-kong/consulate-general-hong-kong-and-macao) | Ministry of Foreign Affairs of the Netherlands (NetherlandsWorldwide) | official |  | 2026-11-02 | data/reference/facts.json |
+| [Embassy of the Netherlands in Beijing, China](https://www.netherlandsworldwide.nl/contact/embassies-consulates-general/hong-kong/embassy-beijing) | Ministry of Foreign Affairs of the Netherlands (NetherlandsWorldwide) | official |  | 2026-11-02 | data/reference/facts.json |
+| [About us - China (NetherlandsWorldwide)](https://www.netherlandsworldwide.nl/countries/china/about-us) | Ministry of Foreign Affairs of the Netherlands (NetherlandsWorldwide) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### newlandchase.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China: nationwide rollout of online accommodation registration for foreigners (search result showed the image title 'China cityscape')](https://newlandchase.com/china-nationwide-rollout-of-online-accommodation-registration-for-foreigners/) | Newland Chase (immigration consultancy) | secondary |  | 2026-11-02 | data/reference/facts.json |
+
+### news.10jqka.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [深圳以支付便利化升级迎接APEC会议](http://news.10jqka.com.cn/20261030/c681278650.shtml) | 10jqka (同花顺财经) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### news.cn (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [古韵年俗：年初二 回娘家](http://www.news.cn/local/20240211/fb5a75a69fca43e7bef4c8853518fe42/c.html) | 新华网 (Xinhua) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [李强签署国务院令 公布《国务院关于出境入境管理的规定》](https://www.news.cn/20260731/64967b5190314a548e70e6f2ac3c079a/c.html) | Xinhua (新华网) | press |  | 2026-11-02 | data/reference/facts.json |
+| [国务院办公厅关于2026年部分节假日安排的通知 (Xinhua copy)](https://www.news.cn/politics/20251104/88bcffd88ae249e58c699b8772548e3d/c.html) | 新华网 (Xinhua); notice of the General Office of the State Council | official |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 
 ### news.ifeng.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [凤凰网 article on '老师' as a form of address (headline not shown)](https://news.ifeng.com/c/8ZD9r9qpV8F) | 凤凰网 | news |  | 2026-11-02 | research: work-intro-contacts |
+| [凤凰网 article on '老师' as a form of address (headline not shown)](https://news.ifeng.com/c/8ZD9r9qpV8F) | 凤凰网 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
 ### news.qq.com (1)
 
@@ -1274,11 +1970,29 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [中文高等水平HSK7-9级全球首考将于2022年11月26日举行](https://news.qq.com/rain/a/20221107A060ME00) | 腾讯新闻 (Tencent News) | press |  | 2026-11-02 | research: hsk-standard-exam |
 
+### news.ycwb.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [铁路部门优化外籍旅客出行服务 持“永居证”旅客可在线上注册、购票 (金羊网, 2023-11-29); also the Beijing 文旅局 repost (wb.beijing.gov.cn/home/index/wsjx/202311/t20231129_3320443.](https://news.ycwb.com/2023-11/29/content_52353578.htm) | 金羊网 (Yangcheng Evening News); Beijing Municipal Bureau of Culture and Tourism | press |  | 2026-11-02 | data/situations/travel.json; data/reference/facts.json; research: travel-transport |
+
+### newsgd.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Guide to Identity Verification for Buying Train Tickets in China](https://www.newsgd.com/node_abd1ea32eb/b6ff19a9a1.shtml) | Newsgd.com (Guangdong English-language news portal) | press |  | 2026-11-02 | data/reference/facts.json |
+
 ### newsroom.paypal-corp.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [PayPal World Enables US Travelers to Pay Like a Local at Weixin Pay Merchants Across China](https://newsroom.paypal-corp.com/2026-08-11-PayPal-World-Enables-US-Travelers-to-Pay-Like-a-Local-at-Weixin-Pay-Merchants-Across-China) | PayPal | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### ningbo.chinadaily.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Daily report, 29 May 2026 (title not shown in results)](https://ningbo.chinadaily.com.cn/2026-05/29/c_1186974.htm) | China Daily | press |  | 2026-11-02 | data/reference/facts.json |
 
 ### nl.china-embassy.gov.cn (8)
 
@@ -1297,13 +2011,43 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [CC-CEDICT entry 小意思 (release 2026-05-18, npm package @leonsilicon/cc-cedict)](https://www.npmjs.com/package/@leonsilicon/cc-cedict) | MDBG (CC-CEDICT) | dictionary | CC BY-SA 4.0 | 2026-11-02 | data/situations/family.json |
+| [CC-CEDICT entry 小意思 (release 2026-05-18, npm package @leonsilicon/cc-cedict)](https://www.npmjs.com/package/@leonsilicon/cc-cedict) | MDBG (CC-CEDICT) | dictionary | CC BY-SA 4.0 | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### oir.pku.edu.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Laws & Regulations (English text of the Exit and Entry Administration Law)](https://www.oir.pku.edu.cn/ifc/info/1026/1280.htm) | Peking University, Office of International Relations | secondary |  | 2026-11-02 | data/reference/facts.json |
 
 ### old.chinesetest.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [HSK（七—九级）全球首考通知](https://old.chinesetest.cn/gonewcontent.do?id=46783143) | Chinese Testing International (CTI) | official |  | 2026-11-02 | research: hsk-standard-exam |
+
+### openbooks.lib.msu.edu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Lesson 12 Dialogue 1: 在饭馆点餐 (open textbook for Chinese 102)](https://openbooks.lib.msu.edu/chs102/chapter/lesson-12-dialogue-1-%E5%9C%A8%E9%A5%AD%E9%A6%86%E5%90%83%E9%A5%AD/) | Michigan State University Libraries open textbook | academic |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### opendata.nederlandwereldwijd.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Reisadvies China (open data feed)](https://opendata.nederlandwereldwijd.nl/v2/sources/nederlandwereldwijd/infotypes/countries/china/traveladvice) | Ministerie van Buitenlandse Zaken (NederlandWereldwijd open data) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### pages.ctrip.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [预订须知](https://pages.ctrip.com/ztrip/document/ydxzctrip.html) | Ctrip (携程) | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
+
+### paper.people.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [中国城市报 (People's Daily group): a family's switch to 公筷公勺 and separate servings](https://paper.people.com.cn/zgcsb/html/2020-03/30/content_1979000.htm) | 人民日报社 中国城市报 | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 
 ### pbc.gov.cn (2)
 
@@ -1341,6 +2085,14 @@ Total: 904 sources on 197 sites.
 | [Get started with Claude](https://platform.claude.com/docs/en/get-started.md) | Anthropic | official |  | 2026-11-02 | research: hosting-pwa |
 | [Models overview](https://platform.claude.com/docs/en/models/overview.md) | Anthropic | official |  | 2026-11-02 | research: hosting-pwa |
 
+### pleco.com (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Pleco for iPhone / iPad](https://www.pleco.com/pleco2ip.html) | Pleco Software | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
+| [Products](https://www.pleco.com/products/) | Pleco Software | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
+| [Pleco for Android](https://www.pleco.com/products/pleco-for-android/) | Pleco Software | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
+
 ### plecoforums.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -1354,11 +2106,17 @@ Total: 904 sources on 197 sites.
 | [Individual aptitude in Mandarin lexical tone perception predicts effectiveness of high-variability training](https://pmc.ncbi.nlm.nih.gov/articles/PMC4243698/) | Frontiers in Psychology 5:1318 (doi:10.3389/fpsyg.2014.01318), via PubMed Central | academic |  | 2026-11-02 | research: learning-method |
 | [The effects of high versus low talker variability and individual aptitude on phonetic training of Mandarin lexical tones](https://pmc.ncbi.nlm.nih.gov/articles/PMC6690337/) | PubMed Central copy of PeerJ 7:e7191 | academic |  | 2026-11-02 | research: learning-method |
 
+### polyglottistlanguageacademy.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Surviving Chinese Airports and Train Stations Using Mandarin (Polyglottist Language Academy, 2025-07-22); also a 163.com travel glossary (m.](https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/7/22/surviving-chinese-airports-and-train-stations-using-mandarin) | Polyglottist Language Academy; NetEase 163.com; Wanderinchina | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+
 ### polyu.edu.hk (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Lesson 2 Introduction, Text One (PolyU Putonghua course dialogues)](https://www.polyu.edu.hk/bepth/dialogues/lesson-2-introduction/text-one/) | The Hong Kong Polytechnic University | university course |  | 2026-11-02 | research: travel-basics |
+| [Lesson 2 Introduction, Text One (PolyU Putonghua course dialogues)](https://www.polyu.edu.hk/bepth/dialogues/lesson-2-introduction/text-one/) | The Hong Kong Polytechnic University | university course |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
 
 ### pricing.us-east-1.amazonaws.com (1)
 
@@ -1371,6 +2129,12 @@ Total: 904 sources on 197 sites.
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Go module proxy copy of github.com/rhcarvalho/cedict (@latest = v0.0.0-20261101153544-55a0cf1226b0)](https://proxy.golang.org/github.com/rhcarvalho/cedict/@v/v0.0.0-20261101153544-55a0cf1226b0.zip) | Go module proxy (proxy.golang.org) | primary | CC BY-SA 4.0 (data) | 2026-11-02 | research: cedict-sentences |
+
+### public.zhengzhou.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [郑州市人民政府关于加强2026年春节期间烟花爆竹禁放限放工作的通告](https://public.zhengzhou.gov.cn/D0102X/9884010.jhtml) | 郑州市人民政府 (Zhengzhou municipal government) | official |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 
 ### pubs.aip.org (3)
 
@@ -1505,6 +2269,12 @@ Total: 904 sources on 197 sites.
 | [WHATWG Fetch Standard (source fetch.bs)](https://raw.githubusercontent.com/whatwg/fetch/main/fetch.bs) | WHATWG | official | CC-BY-4.0 | 2026-11-02 | research: speech-tech |
 | [Wozacosta/mandarin-atlas LICENSE.md (HEAD f43f849 of 2026-09-01)](https://raw.githubusercontent.com/Wozacosta/mandarin-atlas/f43f8499cb72e5add2a22925a5f011065979eadf/LICENSE.md) | Wozacosta (GitHub) | practitioner | MIT (code); CC BY-NC-SA 3.0 (AllSet-derived records) | 2026-11-02 | research: cedict-sentences |
 
+### realchinatrip.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Alipay for Foreigners: How to Pay in China (2026 Updated) \| RealChinaTrip](https://realchinatrip.com/blogs/tips/alipay-for-foreigners-how-to-pay-in-china-2026-updated-realchinatrip) | RealChinaTrip (travel blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+
 ### registry.npmjs.org (50)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -1560,6 +2330,12 @@ Total: 904 sources on 197 sites.
 | [vercel CLI package metadata (npm registry)](https://registry.npmjs.org/vercel) | Vercel (npm) | primary | Apache-2.0 | 2026-11-02 | research: hosting-pwa |
 | [vercel CLI 65.9.0 (package code, dist/)](https://registry.npmjs.org/vercel/-/vercel-65.9.0.tgz) | Vercel (npm) | primary | Apache-2.0 | 2026-11-02 | research: hosting-pwa |
 
+### render.alipay.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Prepaid Card - service of Bank of Shanghai (service agreement)](https://render.alipay.com/p/c/k0mtcsgi/1572520436172.html) | Alipay (render.alipay.com) | operator |  | 2026-11-02 | data/reference/facts.json |
+
 ### researchgate.net (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -1579,18 +2355,30 @@ Total: 904 sources on 197 sites.
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Chinese Grammar Wiki — Advanced yes-no questions with 'ma'](https://resources.allsetlearning.com/chinese/grammar/Advanced_yes-no_questions_with_%22ma%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Affirmative-negative question](https://resources.allsetlearning.com/chinese/grammar/Affirmative-negative_question) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Basic comparisons with 'bi'; Basic comparisons with 'meiyou'](https://resources.allsetlearning.com/chinese/grammar/Basic_comparisons_with_%22bi%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Comparing 'bu' and 'mei'](https://resources.allsetlearning.com/chinese/grammar/Comparing_%22bu%22_and_%22mei%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Expressing close possession without 'de'](https://resources.allsetlearning.com/chinese/grammar/Expressing_close_possession_without_%22de%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Negative commands with 'buyao'; Expressing 'would like to' with 'xiang'; Expressing 'don't need to' with 'buyong'](https://resources.allsetlearning.com/chinese/grammar/Negative_commands_with_%22buyao%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Simple 'noun + adjective' sentences](https://resources.allsetlearning.com/chinese/grammar/Simple_%22noun_%2B_adjective%22_sentences) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Structure of dates](https://resources.allsetlearning.com/chinese/grammar/Structure_of_dates) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Structure of times (basic / advanced)](https://resources.allsetlearning.com/chinese/grammar/Structure_of_times_(advanced)) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Grammar Wiki — Yes-no questions with 'ma'](https://resources.allsetlearning.com/chinese/grammar/Yes-no_questions_with_%22ma%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [Chinese Pronunciation Wiki — Accent](https://resources.allsetlearning.com/chinese/pronunciation/Accent) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
-| [The "ü" vowel](https://resources.allsetlearning.com/chinese/pronunciation/ASP00011) | AllSet Learning, Chinese Pronunciation Wiki | secondary |  | 2026-11-02 | research: pitfalls |
+| [Chinese Grammar Wiki — Advanced yes-no questions with 'ma'](https://resources.allsetlearning.com/chinese/grammar/Advanced_yes-no_questions_with_%22ma%22) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Affirmative-negative question](https://resources.allsetlearning.com/chinese/grammar/Affirmative-negative_question) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Basic comparisons with 'bi'; Basic comparisons with 'meiyou'](https://resources.allsetlearning.com/chinese/grammar/Basic_comparisons_with_%22bi%22) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Comparing 'bu' and 'mei'](https://resources.allsetlearning.com/chinese/grammar/Comparing_%22bu%22_and_%22mei%22) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Expressing close possession without 'de'](https://resources.allsetlearning.com/chinese/grammar/Expressing_close_possession_without_%22de%22) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Negative commands with 'buyao'; Expressing 'would like to' with 'xiang'; Expressing 'don't need to' with 'buyong'](https://resources.allsetlearning.com/chinese/grammar/Negative_commands_with_%22buyao%22) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Simple 'noun + adjective' sentences](https://resources.allsetlearning.com/chinese/grammar/Simple_%22noun_%2B_adjective%22_sentences) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Structure of dates](https://resources.allsetlearning.com/chinese/grammar/Structure_of_dates) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Structure of times (basic / advanced)](https://resources.allsetlearning.com/chinese/grammar/Structure_of_times_(advanced)) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Grammar Wiki — Yes-no questions with 'ma'](https://resources.allsetlearning.com/chinese/grammar/Yes-no_questions_with_%22ma%22) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [Chinese Pronunciation Wiki — Accent](https://resources.allsetlearning.com/chinese/pronunciation/Accent) | AllSet Learning | native-teacher |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [The "ü" vowel](https://resources.allsetlearning.com/chinese/pronunciation/ASP00011) | AllSet Learning, Chinese Pronunciation Wiki | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+
+### ringgitplus.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Ant Group's Alipay+ Enables More Asian E-Wallets For Cross-Border Mobile Payments In Mainland China](https://ringgitplus.com/en/blog/e-wallet/ant-groups-alipay-enables-more-asian-e-wallets-for-cross-border-mobile-payments-in-mainland-china.html) | RinggitPlus | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### roamiapp.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China eSIM International Routing Guide for Travel](https://www.roamiapp.com/blog/china-esim-vpn-firewall-guide/) | Roami (eSIM seller), blog | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### s.nia.gov.cn (1)
 
@@ -1610,6 +2398,19 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [教育部就《国际中文教育中文水平等级标准》答问](http://www.scio.gov.cn/xwfb/bwxwfb/gbwfbh/jyb/202207/t20220716_233650.html) | 国务院新闻办公室 (State Council Information Office), relaying the Ministry of Education | official |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
 
+### scmp.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China's Alipay and WeChat Pay ease way for foreign travellers to make payments in world's largest cashless ... (title from URL slug; full ti](https://scmp.com/tech/big-tech/article/3254710/chinas-alipay-and-wechat-pay-ease-way-foreign-travellers-make-payments-worlds-largest-cashless) | South China Morning Post | press |  | 2026-11-02 | data/reference/facts.json |
+| [Alibaba's Amap offers ride-hailing function catering to foreign visitors in China](https://www.scmp.com/tech/tech-trends/article/3311612/alibabas-amap-offers-ride-hailing-function-catering-foreign-visitors-china) | South China Morning Post | press |  | 2026-11-02 | data/reference/facts.json |
+
+### sd.people.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [正月初二 回娘家！聊聊山东各地过年趣习俗，讲究大不同](http://sd.people.com.cn/n2/2024/0211/c166192-40745014.html) | 人民网 People’s Daily Online (山东频道) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
 ### sg.news.yahoo.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -1622,24 +2423,68 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Announcement on the pilot implementation of online accommodation registration for foreigners residing or staying in domiciles other than hot](http://shandong.chinadaily.com.cn/2026-03/23/c_1170373.htm) | China Daily (Shandong) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### shanghai.fandom.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Gifts (Shanghai wiki)](https://shanghai.fandom.com/wiki/Gifts?oldid=4847) | Shanghai wiki (fandom.com) | community |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### shanghai.gov.cn (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [关于延长单方面免签政策的通知 (Notice on extending the unilateral visa-free policy)](https://www.shanghai.gov.cn/nw17239/20251104/41b30e4acedc43a2a9afc3e5471cad29.html) | Shanghai Municipal People's Government (repost of the Foreign Ministry consular notice) | official |  | 2026-11-02 | data/reference/facts.json |
+| [外交部：中方决定将对俄罗斯免签政策延长至2027年12月31日](https://www.shanghai.gov.cn/nw17239/20260521/6d44f0bdafc74d8db454ca47c52344dc.html) | Shanghai Municipal People's Government | official |  | 2026-11-02 | data/reference/facts.json |
+
+### shopback.sg (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Railway 12306 vs Trip.com vs Klook](https://www.shopback.sg/blog/travel/china-railway-12306-vs-tripcom-vs-klook) | ShopBack Singapore | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### simology.io (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China eSIM Travel Guide: Great Firewall & VPN Tips 2026](https://simology.io/blog/china-esim-travel-guide-great-firewall-vpn-connectivity-2026) | Simology (eSIM seller), blog | blog |  | 2026-11-02 | data/reference/facts.json |
+
 ### sina.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [新浪 article on WeChat etiquette (headline not shown)](https://sina.cn/news/detail/5274210512931760.html) | 新浪 | news |  | 2026-11-02 | research: work-intro-contacts |
+| [新浪 article on WeChat etiquette (headline not shown)](https://sina.cn/news/detail/5274210512931760.html) | 新浪 | news |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 
-### sohu.com (1)
+### sinowander.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Chinese letter format (书信格式) explainer](https://www.sohu.com/a/245605761_663183) | sohu.com (搜狐号) | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [China Entry Requirements for Foreigners (2026); Visa, Customs, and Arrival Guide](https://www.sinowander.com/blog/07-china-entry-requirements-2026/) | SinoWander (travel blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### sn.people.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [用这些拜年小知识，给您“拜个晚年”](http://sn.people.com.cn/n2/2021/0219/c378302-34581906.html) | 人民网 People’s Daily Online (陕西频道) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### sohu.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese letter format (书信格式) explainer](https://www.sohu.com/a/245605761_663183) | sohu.com (搜狐号) | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [Sohu article on the 12306 English version (title not shown in search results)](https://www.sohu.com/a/442397864_135032) | Sohu | press |  | 2026-11-02 | data/reference/facts.json |
 
 ### speakingofchina.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [“Mom” And “Dad” Is What I Call My Chinese In-Laws — and Here’s Why It’s Easier Than I Thought](https://www.speakingofchina.com/china-articles/mom-dad-chinese-inlaws/) | Speaking of China (blog by Jocelyn Eikenburg) | blog |  | 2026-11-02 | research: family-address-kinship |
-| [Guest Post: Learn Mandarin Chinese — what to call Chinese family (for Western women married to Chinese men)](https://www.speakingofchina.com/mandarin-love/learn-mandarin-chinese-what-to-call-chinese-family-for-western-women-married-to-chinese-men/) | Speaking of China (blog by Jocelyn Eikenburg), guest post | blog |  | 2026-11-02 | research: family-address-kinship |
+| [“Mom” And “Dad” Is What I Call My Chinese In-Laws — and Here’s Why It’s Easier Than I Thought](https://www.speakingofchina.com/china-articles/mom-dad-chinese-inlaws/) | Speaking of China (blog by Jocelyn Eikenburg) | blog |  | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [Guest Post: Learn Mandarin Chinese — what to call Chinese family (for Western women married to Chinese men)](https://www.speakingofchina.com/mandarin-love/learn-mandarin-chinese-what-to-call-chinese-family-for-western-women-married-to-chinese-men/) | Speaking of China (blog by Jocelyn Eikenburg), guest post | blog |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
+
+### sspai.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [少数派 sspai.com post (comments on drinking etiquette)](https://sspai.com/post/106300) | 少数派 (sspai.com) | community |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 
 ### static.crates.io (1)
 
@@ -1647,59 +2492,211 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [fsrs 6.6.2 crate as published on crates.io (src/inference.rs, src/simulation.rs)](https://static.crates.io/crates/fsrs/fsrs-6.6.2.crate) | Open Spaced Repetition | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
 
+### stdaily.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [李强签署国务院令 公布《国务院关于出境入境管理的规定》](https://www.stdaily.com/web/2026-07/31/content_557141.html) | Science and Technology Daily (科技日报) | press |  | 2026-11-02 | data/reference/facts.json |
+
 ### studenttheses.universiteitleiden.nl (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Student thesis on voice onset time of Dutch speakers of English](https://studenttheses.universiteitleiden.nl/access/item%3A3630911/view) | Leiden University (student theses) | academic |  | 2026-11-02 | research: pitfalls |
+| [Student thesis on voice onset time of Dutch speakers of English](https://studenttheses.universiteitleiden.nl/access/item%3A3630911/view) | Leiden University (student theses) | academic |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 
-### studycli.org (4)
+### studycli.org (7)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Chinese table manners](https://studycli.org/chinese-culture/chinese-table-manners/) | Chinese Language Institute (studycli.org) | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
 | [新版HSK 1 词汇：包含300 个单词的完整词汇表及例句](https://studycli.org/chinese-tools/hsk-1-vocabulary/) | StudyCLI | blog |  | 2026-11-02 | research: hsk-standard-exam |
 | [HSK Vocabulary Lists: HSK 1-9 Word Lists (HSK 3.0)](https://studycli.org/chinese-tools/hsk-vocabulary/) | StudyCLI | secondary |  | 2026-11-02 | research: hsk-datasets |
 | [New HSK 3.0: December 13, 2026 Launch, Changes, and Which Exam to Take](https://studycli.org/hsk/the-new-hsk/) | StudyCLI | secondary |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
-| [Thank you in Chinese (CLI — Chinese Language Institute, Guilin)](https://studycli.org/learn-chinese/thank-you-in-chinese/) | Chinese Language Institute (CLI) | teaching site |  | 2026-11-02 | research: travel-basics |
+| [Thank you in Chinese (CLI — Chinese Language Institute, Guilin)](https://studycli.org/learn-chinese/thank-you-in-chinese/) | Chinese Language Institute (CLI) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [Gift giving etiquette (graded reader)](https://studycli.org/zh-CN/graded-readers/gift-giving-etiquette/) | Chinese Language Institute (studycli.org) | teaching-site |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Vegetarian in China](https://studycli.org/zh-CN/learn-chinese/vegetarian-in-china/) | CLI (Chinese Language Institute, Guilin), learner blog | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
-### tatoeba.org (34)
+### subsites.chinadaily.com.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Tatoeba sentence #1216123](https://tatoeba.org/en/sentences/show/1216123) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #12338915](https://tatoeba.org/en/sentences/show/12338915) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #1289054](https://tatoeba.org/en/sentences/show/1289054) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #13189784](https://tatoeba.org/en/sentences/show/13189784) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #13274623](https://tatoeba.org/en/sentences/show/13274623) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #1490839](https://tatoeba.org/en/sentences/show/1490839) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #1567766](https://tatoeba.org/en/sentences/show/1567766) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #1728948](https://tatoeba.org/en/sentences/show/1728948) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #337981](https://tatoeba.org/en/sentences/show/337981) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #345779](https://tatoeba.org/en/sentences/show/345779) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #348105](https://tatoeba.org/en/sentences/show/348105) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #350890](https://tatoeba.org/en/sentences/show/350890) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #3537644](https://tatoeba.org/en/sentences/show/3537644) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #3537960](https://tatoeba.org/en/sentences/show/3537960) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #374679](https://tatoeba.org/en/sentences/show/374679) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #380278](https://tatoeba.org/en/sentences/show/380278) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #389473](https://tatoeba.org/en/sentences/show/389473) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #420108](https://tatoeba.org/en/sentences/show/420108) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #420110](https://tatoeba.org/en/sentences/show/420110) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #4262609](https://tatoeba.org/en/sentences/show/4262609) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #470019](https://tatoeba.org/en/sentences/show/470019) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #4754672](https://tatoeba.org/en/sentences/show/4754672) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #5343868](https://tatoeba.org/en/sentences/show/5343868) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #5548516](https://tatoeba.org/en/sentences/show/5548516) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #5611611](https://tatoeba.org/en/sentences/show/5611611) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #6581629](https://tatoeba.org/en/sentences/show/6581629) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #668788](https://tatoeba.org/en/sentences/show/668788) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #686776](https://tatoeba.org/en/sentences/show/686776) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #700499](https://tatoeba.org/en/sentences/show/700499) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #819277](https://tatoeba.org/en/sentences/show/819277) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #819298](https://tatoeba.org/en/sentences/show/819298) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #819300](https://tatoeba.org/en/sentences/show/819300) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #842650](https://tatoeba.org/en/sentences/show/842650) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
-| [Tatoeba sentence #926112](https://tatoeba.org/en/sentences/show/926112) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json |
+| [Weixin Pay, PayPal tie up on payments](http://subsites.chinadaily.com.cn/ezhejiang/jiaxing/2026-05/29/c_1187033.htm) | China Daily | press |  | 2026-11-02 | data/reference/facts.json |
+
+### tatoeba.org (165)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tatoeba sentence #1176034 (Mandarin) with English #1176036](https://tatoeba.org/en/sentences/show/1176034) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #11837290 (Mandarin) with English #11837292](https://tatoeba.org/en/sentences/show/11837290) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #12015655 (Mandarin) with English #7392363](https://tatoeba.org/en/sentences/show/12015655) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1216123](https://tatoeba.org/en/sentences/show/1216123) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #12338915](https://tatoeba.org/en/sentences/show/12338915) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #12574943](https://tatoeba.org/en/sentences/show/12574943) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #12624131 (Mandarin) with English #12624132](https://tatoeba.org/en/sentences/show/12624131) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1289054](https://tatoeba.org/en/sentences/show/1289054) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #13138956 (Mandarin) with English #13087567](https://tatoeba.org/en/sentences/show/13138956) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1314030 (Mandarin) with English #314184](https://tatoeba.org/en/sentences/show/1314030) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #13189784](https://tatoeba.org/en/sentences/show/13189784) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #13274623](https://tatoeba.org/en/sentences/show/13274623) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #1335244 (Mandarin) with English #367945](https://tatoeba.org/en/sentences/show/1335244) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #13545618 (Mandarin) with English #2540893](https://tatoeba.org/en/sentences/show/13545618) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #13549637 (Mandarin) with English #1962028](https://tatoeba.org/en/sentences/show/13549637) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #13751775 (Mandarin) with English #693610](https://tatoeba.org/en/sentences/show/13751775) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #13807649 (Mandarin) with English #13850503](https://tatoeba.org/en/sentences/show/13807649) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1411630 (Mandarin) with English #1718](https://tatoeba.org/en/sentences/show/1411630) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1468433 (Mandarin) with English #31283](https://tatoeba.org/en/sentences/show/1468433) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1471129 (Mandarin) with English #1476752](https://tatoeba.org/en/sentences/show/1471129) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1490839](https://tatoeba.org/en/sentences/show/1490839) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #1567766](https://tatoeba.org/en/sentences/show/1567766) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #1586924](https://tatoeba.org/en/sentences/show/1586924) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #1589737 (Mandarin) with English #1589739](https://tatoeba.org/en/sentences/show/1589737) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1728948](https://tatoeba.org/en/sentences/show/1728948) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #1878299](https://tatoeba.org/en/sentences/show/1878299) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #1878421](https://tatoeba.org/en/sentences/show/1878421) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #1895539 (Mandarin) with English #256550](https://tatoeba.org/en/sentences/show/1895539) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #1960847 (Mandarin) with English #506842](https://tatoeba.org/en/sentences/show/1960847) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #2153303 (Mandarin) with English #25352](https://tatoeba.org/en/sentences/show/2153303) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #2200419 (Mandarin) with English #8294706](https://tatoeba.org/en/sentences/show/2200419) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #2200447 (Mandarin) with English #2206707](https://tatoeba.org/en/sentences/show/2200447) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #2363175](https://tatoeba.org/en/sentences/show/2363175) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #2780859 (Mandarin) with English #2780847](https://tatoeba.org/en/sentences/show/2780859) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #332568 (Mandarin) with English #1712](https://tatoeba.org/en/sentences/show/332568) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #332782 (Mandarin) with English #31446](https://tatoeba.org/en/sentences/show/332782) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #332834 (Mandarin) with English #540287](https://tatoeba.org/en/sentences/show/332834) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #332880 (Mandarin) with English #34151](https://tatoeba.org/en/sentences/show/332880) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #332908 (Mandarin) with English #23837](https://tatoeba.org/en/sentences/show/332908) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #333843 (Mandarin) with English #19587](https://tatoeba.org/en/sentences/show/333843) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #334530 (Mandarin) with English #257848](https://tatoeba.org/en/sentences/show/334530) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #334618 (Mandarin) with English #249944](https://tatoeba.org/en/sentences/show/334618) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #335381](https://tatoeba.org/en/sentences/show/335381) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #335409 (Mandarin) with English #19590](https://tatoeba.org/en/sentences/show/335409) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #335904 (Mandarin) with English #37619](https://tatoeba.org/en/sentences/show/335904) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #3377994](https://tatoeba.org/en/sentences/show/3377994) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #337981](https://tatoeba.org/en/sentences/show/337981) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #338786 (Mandarin) with English #1710](https://tatoeba.org/en/sentences/show/338786) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #338828](https://tatoeba.org/en/sentences/show/338828) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #345779](https://tatoeba.org/en/sentences/show/345779) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #346492](https://tatoeba.org/en/sentences/show/346492) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #3478397 (Mandarin) with English #435098](https://tatoeba.org/en/sentences/show/3478397) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #348019](https://tatoeba.org/en/sentences/show/348019) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #348102 (Mandarin) with English #138919](https://tatoeba.org/en/sentences/show/348102) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #348105](https://tatoeba.org/en/sentences/show/348105) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #348465 (Mandarin) with English #62646](https://tatoeba.org/en/sentences/show/348465) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #350890](https://tatoeba.org/en/sentences/show/350890) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #3537644](https://tatoeba.org/en/sentences/show/3537644) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #3537960](https://tatoeba.org/en/sentences/show/3537960) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #373237](https://tatoeba.org/en/sentences/show/373237) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #374679](https://tatoeba.org/en/sentences/show/374679) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #380278](https://tatoeba.org/en/sentences/show/380278) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #380859 (Mandarin) with English #264069](https://tatoeba.org/en/sentences/show/380859) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #382318](https://tatoeba.org/en/sentences/show/382318) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #389473](https://tatoeba.org/en/sentences/show/389473) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #389812 (Mandarin) with English #135968](https://tatoeba.org/en/sentences/show/389812) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #3935190 (Mandarin) with English #3935193](https://tatoeba.org/en/sentences/show/3935190) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #393879 (Mandarin) with English #393877](https://tatoeba.org/en/sentences/show/393879) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #395058 (Mandarin) with English #2659685](https://tatoeba.org/en/sentences/show/395058) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #396056 (Mandarin) with English #64954](https://tatoeba.org/en/sentences/show/396056) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #399058 (Mandarin) with English #398976](https://tatoeba.org/en/sentences/show/399058) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #406260](https://tatoeba.org/en/sentences/show/406260) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #411624 (Mandarin) with English #253854](https://tatoeba.org/en/sentences/show/411624) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #419673 (Mandarin) with English #400191](https://tatoeba.org/en/sentences/show/419673) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420108](https://tatoeba.org/en/sentences/show/420108) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #420110](https://tatoeba.org/en/sentences/show/420110) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #420274 (Mandarin) with English #474732](https://tatoeba.org/en/sentences/show/420274) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420276 (Mandarin) with English #7798506](https://tatoeba.org/en/sentences/show/420276) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420492 (Mandarin) with English #10250984](https://tatoeba.org/en/sentences/show/420492) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420698 (Mandarin) with English #432824](https://tatoeba.org/en/sentences/show/420698) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420732 (Mandarin) with English #1159720](https://tatoeba.org/en/sentences/show/420732) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420736 (Mandarin) with English #7812242](https://tatoeba.org/en/sentences/show/420736) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420874 (Mandarin) with English #7844515](https://tatoeba.org/en/sentences/show/420874) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #420954 (Mandarin) with English #522223](https://tatoeba.org/en/sentences/show/420954) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #421818](https://tatoeba.org/en/sentences/show/421818) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #421980 (Mandarin) with English #244210](https://tatoeba.org/en/sentences/show/421980) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #422951 (Mandarin) with English #422947](https://tatoeba.org/en/sentences/show/422951) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #425947 (Mandarin) with English #57281](https://tatoeba.org/en/sentences/show/425947) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #4262609](https://tatoeba.org/en/sentences/show/4262609) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #426442 (Mandarin) with English #426440](https://tatoeba.org/en/sentences/show/426442) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #4265144 (Mandarin) with English #62219](https://tatoeba.org/en/sentences/show/4265144) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #427989 (Mandarin) with English #427988](https://tatoeba.org/en/sentences/show/427989) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #430995](https://tatoeba.org/en/sentences/show/430995) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #433940 (Mandarin) with English #25352](https://tatoeba.org/en/sentences/show/433940) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #459378 (Mandarin) with English #435084](https://tatoeba.org/en/sentences/show/459378) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #459922 (Mandarin) with English #367935](https://tatoeba.org/en/sentences/show/459922) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #4638683 (Mandarin) with English #4638695](https://tatoeba.org/en/sentences/show/4638683) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #469471 (Mandarin) with English #464550](https://tatoeba.org/en/sentences/show/469471) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #470019](https://tatoeba.org/en/sentences/show/470019) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #4754672](https://tatoeba.org/en/sentences/show/4754672) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #478772 (Mandarin) with English #36130](https://tatoeba.org/en/sentences/show/478772) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #481169 (Mandarin) with English #481057](https://tatoeba.org/en/sentences/show/481169) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #487274](https://tatoeba.org/en/sentences/show/487274) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #4915629 (Mandarin) with English #3663488](https://tatoeba.org/en/sentences/show/4915629) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #4962381 (Mandarin) with English #5194713](https://tatoeba.org/en/sentences/show/4962381) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #501560](https://tatoeba.org/en/sentences/show/501560) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #502856 (Mandarin) with English #1889](https://tatoeba.org/en/sentences/show/502856) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #510809 (Mandarin) with English #367935](https://tatoeba.org/en/sentences/show/510809) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #5343868](https://tatoeba.org/en/sentences/show/5343868) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #5548516](https://tatoeba.org/en/sentences/show/5548516) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #5611611](https://tatoeba.org/en/sentences/show/5611611) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #5696835](https://tatoeba.org/en/sentences/show/5696835) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #5780302 (Mandarin) with English #3550079](https://tatoeba.org/en/sentences/show/5780302) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #5854684](https://tatoeba.org/en/sentences/show/5854684) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #6148995 (Mandarin) with English #2956635](https://tatoeba.org/en/sentences/show/6148995) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #6158455 (Mandarin) with English #6276512](https://tatoeba.org/en/sentences/show/6158455) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #6158457 (Mandarin) with English #6276489](https://tatoeba.org/en/sentences/show/6158457) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #6158470 (Mandarin) with English #6276479](https://tatoeba.org/en/sentences/show/6158470) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #617688 (Mandarin) with English #61147](https://tatoeba.org/en/sentences/show/617688) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #6307285](https://tatoeba.org/en/sentences/show/6307285) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #6559096 (Mandarin) with English #926952](https://tatoeba.org/en/sentences/show/6559096) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #6581629](https://tatoeba.org/en/sentences/show/6581629) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #663305 (Mandarin) with English #456377](https://tatoeba.org/en/sentences/show/663305) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #668788](https://tatoeba.org/en/sentences/show/668788) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #686642 (Mandarin) with English #40462](https://tatoeba.org/en/sentences/show/686642) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #686776](https://tatoeba.org/en/sentences/show/686776) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #690078 (Mandarin) with English #2846006](https://tatoeba.org/en/sentences/show/690078) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #6903855 (Mandarin) with English #5834713](https://tatoeba.org/en/sentences/show/6903855) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #693736 (Mandarin) with English #693738](https://tatoeba.org/en/sentences/show/693736) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #693750](https://tatoeba.org/en/sentences/show/693750) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #700499](https://tatoeba.org/en/sentences/show/700499) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #713003 (Mandarin) with English #713005](https://tatoeba.org/en/sentences/show/713003) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #730413 (Mandarin) with English #730310](https://tatoeba.org/en/sentences/show/730413) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #737101 (Mandarin) with English #13876840](https://tatoeba.org/en/sentences/show/737101) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #756987](https://tatoeba.org/en/sentences/show/756987) | Tatoeba (crowd-sourced sentence corpus; read from the npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [Tatoeba sentence #765559 (Mandarin) with English #2238](https://tatoeba.org/en/sentences/show/765559) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #778513 (Mandarin) with English #29518](https://tatoeba.org/en/sentences/show/778513) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #7798822 (Mandarin) with English #7843013](https://tatoeba.org/en/sentences/show/7798822) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #782915 (Mandarin) with English #41784](https://tatoeba.org/en/sentences/show/782915) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #793266 (Mandarin) with English #38407](https://tatoeba.org/en/sentences/show/793266) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #819277](https://tatoeba.org/en/sentences/show/819277) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #819284 (Mandarin) with English #21098](https://tatoeba.org/en/sentences/show/819284) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #819298](https://tatoeba.org/en/sentences/show/819298) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #819300](https://tatoeba.org/en/sentences/show/819300) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #825126 (Mandarin) with English #27254](https://tatoeba.org/en/sentences/show/825126) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #826144 (Mandarin) with English #499998](https://tatoeba.org/en/sentences/show/826144) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #832928](https://tatoeba.org/en/sentences/show/832928) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #833161 (Mandarin) with English #263831](https://tatoeba.org/en/sentences/show/833161) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #834753 (Mandarin) with English #34727](https://tatoeba.org/en/sentences/show/834753) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #842650](https://tatoeba.org/en/sentences/show/842650) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #844455 (Mandarin) with English #324225](https://tatoeba.org/en/sentences/show/844455) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #845459 (Mandarin) with English #21838](https://tatoeba.org/en/sentences/show/845459) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #846298 (Mandarin) with English #267633](https://tatoeba.org/en/sentences/show/846298) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #8500073](https://tatoeba.org/en/sentences/show/8500073) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #851498](https://tatoeba.org/en/sentences/show/851498) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #859451 (Mandarin) with English #28045](https://tatoeba.org/en/sentences/show/859451) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #859469 (Mandarin) with English #28045](https://tatoeba.org/en/sentences/show/859469) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #8640260](https://tatoeba.org/en/sentences/show/8640260) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #8674290 (Mandarin) with English #8674257](https://tatoeba.org/en/sentences/show/8674290) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #8739642 (Mandarin) with English #7515506](https://tatoeba.org/en/sentences/show/8739642) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #8742132](https://tatoeba.org/en/sentences/show/8742132) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #9052579 (Mandarin) with English #1073080](https://tatoeba.org/en/sentences/show/9052579) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #926112](https://tatoeba.org/en/sentences/show/926112) | Tatoeba (crowd-sourced; read via npm package tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Tatoeba sentence #940810 (Mandarin) with English #319756](https://tatoeba.org/en/sentences/show/940810) | Tatoeba (crowd-sourced; contributors are not all native speakers); read from the cmn-eng pairs export of 2026-05-20 in GitHub repo leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english (commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Tatoeba sentence #9956925](https://tatoeba.org/en/sentences/show/9956925) | Tatoeba (crowd-sourced; read from the 2026-05-20 Mandarin–English export mirrored at github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english, commit 7df8b93) | secondary | CC BY 2.0 FR | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### taxifarefinder.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to Take a Taxi in China (TaxiFareFinder, 2023-01-28); also GoEast Mandarin taxi tips, ChinaVigators “Understanding Chinese Address Forma](https://www.taxifarefinder.com/newsroom/2023/01/28/how-to-take-a-taxi-in-china/) | TaxiFareFinder and other travel guides | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 
 ### technode.com (1)
 
@@ -1714,23 +2711,58 @@ Total: 904 sources on 197 sites.
 | [Tencent Further Enhances Digital Payment Services for Visitors to China, with Process Streamlined and More Overseas Wallets Linked](https://www.tencent.com/en-us/articles/2201831.html) | Tencent | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026](https://www.tencent.com/tencent-announces-three-initiatives-to-make-inbound-payments-for-international-visitors-easier-than-ever-during-apec-2026/) | Tencent | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### thechairmansbao.com (1)
+### thatsmandarin.com (4)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [How to Say the Days of the Week in Chinese](https://www.thechairmansbao.com/blog/how-to-say-the-days-of-the-week-in-chinese/) | The Chairman's Bao | blog |  | 2026-11-02 | research: grammar |
+| [Learner-site results on tipping (That's Mandarin '5 Chinese Manners & Etiquette Tips for Travelers'; The Chairman's Bao 'Top Tips for Guest ](https://www.thatsmandarin.com/blog/5-chinese-manners-etiquette-tips-for-travelers/) | That's Mandarin / The Chairman's Bao | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Visit a Doctor in China](https://www.thatsmandarin.com/blog/how-to-visit-a-doctor-in-china/) | That's Mandarin (language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [5 Questions For Dining at a Chinese Restaurant](https://www.thatsmandarin.com/chinese-language/5-questions-for-dining-at-a-chinese-restaurant/) | That's Mandarin (language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Key Nutrition & Diet Words You Need to Know](https://www.thatsmandarin.com/chinese-language/diet-nutrition-words/) | That's Mandarin (language school) | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
 
-### thepaper.cn (1)
+### thebeijinger.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Five Things You Should Never Give as a Gift in China](https://www.thebeijinger.com/blog/2020/10/19/five-things-you-should-never-give-gift-china) | The Beijinger | magazine |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### thechairmansbao.com (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Being a Vegetarian in China](https://www.thechairmansbao.com/blog/being-a-vegetarian-in-china/) | The Chairman's Bao | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Say the Days of the Week in Chinese](https://www.thechairmansbao.com/blog/how-to-say-the-days-of-the-week-in-chinese/) | The Chairman's Bao | blog |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
+| [National Day in China](https://www.thechairmansbao.com/blog/national-day-china/) | The Chairman’s Bao | native-teacher |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### thenanjinger.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Railway Ticket APP Launches English Language Version BUT](https://thenanjinger.com/news/foreigners-in-the-news/china-railway-ticket-app-launches-english-language-version-but/) | The Nanjinger (Nanjing English-language magazine) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### thepaper.cn (6)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [上海压岁钱怎么发？发多少？给哪些人？过年必备参考→](https://www.thepaper.cn/newsDetail_forward_11335009) | 澎湃新闻 (The Paper), 政务号 | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [清明节快乐？！可以这样说吗……](https://www.thepaper.cn/newsDetail_forward_22586397) | 澎湃新闻 The Paper | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [涨知识！凭哪些证件可以刷证进站](https://www.thepaper.cn/newsDetail_forward_23875120) | The Paper (澎湃号·政务 government account) | press |  | 2026-11-02 | data/reference/facts.json |
+| [祝福讲心不讲金！广东过年红包绝不内卷，50元就算“巨款”](https://www.thepaper.cn/newsDetail_forward_26353182) | 澎湃新闻 The Paper | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [央行：将外籍来华人员使用移动支付单笔交易限额提高到5000美元_金改实验室_澎湃新闻-The Paper](https://www.thepaper.cn/newsDetail_forward_26519514) | The Paper (澎湃新闻) | press |  | 2026-11-02 | data/reference/facts.json |
 | [中文水平考试HSK3.0来了！全球试行启动，今起报名](https://www.thepaper.cn/newsDetail_forward_32209481) | 澎湃新闻 (The Paper) | press |  | 2026-11-02 | research: hsk-standard-exam |
 
-### theworldofchinese.com (1)
+### thepaypers.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Talking to Strangers (The World of Chinese, Language / Traditional culture)](https://www.theworldofchinese.com/2018/02/talking-to-strangers/) | The World of Chinese | magazine |  | 2026-11-02 | research: travel-basics |
+| [PayPal World lets US travellers pay at China's Weixin Pay merchants](https://thepaypers.com/payments/news/paypal-world-lets-us-travellers-pay-at-chinas-weixin-pay-merchants) | The Paypers | press |  | 2026-11-02 | data/reference/facts.json |
+
+### theworldofchinese.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Hello from the Chinese side](https://theworldofchinese.com/2019/11/hello-from-the-chinese-side) | The World of Chinese | magazine |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Talking to Strangers (The World of Chinese, Language / Traditional culture)](https://www.theworldofchinese.com/2018/02/talking-to-strangers/) | The World of Chinese | magazine |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
 
 ### tone.lib.msu.edu (1)
 
@@ -1738,11 +2770,19 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Using and Citing Data - Tone Perfect](https://tone.lib.msu.edu/cite) | Michigan State University Libraries | official |  | 2026-11-02 | research: audio |
 
-### toutiao.com (1)
+### toutiao.com (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Toutiao 资讯 article on 改口 and 改口费 (top result for two queries; headline not seen)](https://www.toutiao.com/zixun/7550172993985742889/) | 今日头条 (Toutiao, news aggregator) | secondary |  | 2026-11-02 | research: family-address-kinship |
+| [2026境外卡绑微信支付宝全攻略：银联卡优先、失败排查、限额合规 - 今日头条](https://www.toutiao.com/article/7672592707620979234/) | Toutiao (user-posted guide; the same title also appears on ingstart.com) | blog |  | 2026-11-02 | data/reference/facts.json |
+| [今日头条 article: gifts for a first visit to the partner's parents](https://www.toutiao.com/zixun/7502997887262001152/) | 今日头条 (Toutiao) | community |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+| [Toutiao 资讯 article on 改口 and 改口费 (top result for two queries; headline not seen)](https://www.toutiao.com/zixun/7550172993985742889/) | 今日头条 (Toutiao, news aggregator) | secondary |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship |
+
+### travel.people.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [小羊替你去拜年！2015年新春祝福微信你来选【2】](http://travel.people.com.cn/n/2015/0218/c41570-26581556-2.html) | 人民网 (People's Daily Online) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
 
 ### travelchinaguide.com (2)
 
@@ -1751,17 +2791,32 @@ Total: 904 sources on 197 sites.
 | [Beijing Fengtai Railway Station: Trains, Timetable](https://www.travelchinaguide.com/china-trains/beijing-fengtai-railway-station.htm) | TravelChinaGuide (travel agency) | practitioner |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [How to Travel by Train in China: 7 Steps for a Smooth Rail Journey](https://www.travelchinaguide.com/china-trains/how-to-take.htm) | TravelChinaGuide (travel agency) | practitioner |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### travelofchina.com (1)
+### travelerlocal.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [China Health Declaration Form: Abolished Since 1 Nov 2023](https://www.travelerlocal.com/entry/china-health-declaration-on-arrival) | TravelerLocal (travel guide) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### travelofchina.com (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [12306 vs Trip.com: Compare Full Features to Select the Best Train App](https://www.travelofchina.com/12306-vs-trip-com/) | Travel of China | blog |  | 2026-11-02 | data/reference/facts.json |
 | [Alipay Tour Card: The Foreign Traveler's Key to Cashless China](https://www.travelofchina.com/alipay-tour-card/) | Travel Of China (blog) | blog |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [5 Ways to Avoid International Card Fees on Alipay (Bypass the 3% Surcharge)](https://www.travelofchina.com/how-to-avoid-international-card-fees-on-alipay/) | Travel Of China (travel blog) | blog |  | 2026-11-02 | data/reference/facts.json |
 
-### trip.com (1)
+### trip.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [China Train Boarding Passport: Gates, Timing and Name Checks](https://www.trip.com/guide/train/china-train-boarding-passport.html) | Trip.com | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
 | [[3% Off] China Train Booking - High-Speed Rail Tickets for Foreigners](https://www.trip.com/guide/train/china-train-booking.html) | Trip.com | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### tropicalhainan.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Why your passport doesn't work: a foreigner's guide to China's ID-only systems](https://www.tropicalhainan.com/why-your-passport-doesnt-work-a-foreigners-guide-to-chinas-id-only-systems) | Tropical Hainan | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### tryhskprep.com (1)
 
@@ -1769,11 +2824,19 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [HSK 3.0 Exam Dates: 13 December 2026 Launch and Registration](https://tryhskprep.com/blog/hsk-3-0-exam-dates) | tryhskprep.com | blog |  | 2026-11-02 | research: hsk-standard-exam |
 
-### trykaiwa.com (1)
+### trykaiwa.com (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [Chinese phrases foreigners get wrong (2026) (Kaiwa blog)](https://trykaiwa.com/blog/chinese-phrases-foreigners-get-wrong-2026) | Kaiwa (language-learning blog) | teaching site |  | 2026-11-02 | research: travel-basics |
+| [Learner-site results on spice levels (Kaiwa “Chinese ordering food”; HSK Lord “What spice level?”, “Not spicy”; LC Chinese School)](https://trykaiwa.com/blog/chinese-ordering-food-local) | Kaiwa / HSK Lord / LC Chinese School (Chinese-learning sites) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Chinese phrases foreigners get wrong (2026) (Kaiwa blog)](https://trykaiwa.com/blog/chinese-phrases-foreigners-get-wrong-2026) | Kaiwa (language-learning blog) | teaching site |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [Chinese Convenience Store: Real Dialogue Scripts](https://trykaiwa.com/blog/zh-convenience-store-realistic) | Kaiwa (Chinese-learning site) | practitioner |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### ttgasia.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Ant Group boosts Alipay+ in mainland China with addition of seven e-wallets](https://www.ttgasia.com/?p=92805) | TTG Asia | press |  | 2026-11-02 | data/reference/facts.json |
 
 ### tuttocina.it (1)
 
@@ -1781,27 +2844,56 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [NuovoHSK lineamenti (PDF copy of the standard's outline)](https://www.tuttocina.it/HSK/NuovoHSK-lineamenti.pdf) | tuttocina.it | secondary |  | 2026-11-02 | research: hsk-datasets |
 
-### tv.cctv.com (17)
+### tv.cctv.com (28)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [国内联播快讯: 新版外国人永久居留身份证“五星卡”正式签发启用 (新闻联播 2023-12-01)](https://tv.cctv.com/2023/12/01/VIDEojM8QHikHc3eWWxHKmgg231201.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20231201.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [国内联播快讯: 多举措优化支付服务 提升支付便利性 (新闻联播 2024-03-01)](https://tv.cctv.com/2024/03/01/VIDE1cmwEL5g78GAacuPZQWw240301.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240301.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [各地各部门多措并举优化支付服务 (新闻联播 2024-04-14)](https://tv.cctv.com/2024/04/14/VIDEzXqmzWeLz6WNkkKf90Ga240414.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240414.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [交通部门健全春运应急预案确保旅客安全出行 (新闻联播 2024-01-31)](https://tv.cctv.com/2024/01/31/VIDET34gT55aZ5iL8DWyxQbO240131.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240131.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [今年春运全社会人员流动量已超过20亿人次 (新闻联播 2024-02-05)](https://tv.cctv.com/2024/02/05/VIDEHwNhH7LfXachV4by4L9Z240205.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240205.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [中东部大范围雨雪 各地积极应对 (新闻联播 2024-02-20)](https://tv.cctv.com/2024/02/20/VIDEbp2ckGxQnvdJ0DuK3Fu1240220.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240220.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [【新春走基层】做旅客春运路上的“贴心人” (新闻联播 2024-02-22)](https://tv.cctv.com/2024/02/22/VIDEWJiNPCu7DUhjonIkrApl240222.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240222.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [国内联播快讯: 多举措优化支付服务 提升支付便利性 (新闻联播 2024-03-01)](https://tv.cctv.com/2024/03/01/VIDE1cmwEL5g78GAacuPZQWw240301.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240301.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; data/reference/facts.json; research: travel-facts; research: travel-transport |
+| [交通部门多措并举保障旅客有序返程 (新闻联播 2024-04-06)](https://tv.cctv.com/2024/04/06/VIDE7cXf5KXi3o53GCgvYCtZ240406.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240406.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [各地各部门多措并举优化支付服务 (新闻联播 2024-04-14)](https://tv.cctv.com/2024/04/14/VIDEzXqmzWeLz6WNkkKf90Ga240414.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240414.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; data/reference/facts.json; research: travel-facts; research: travel-transport |
 | [多举措落地 假期外国游客支付更便捷 (新闻联播 2024-05-03)](https://tv.cctv.com/2024/05/03/VIDE97eiBhe80qFGhRcJ8RmW240503.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240503.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [长江中下游强降雨持续 各地全力防汛救灾 (新闻联播 2024-06-25)](https://tv.cctv.com/2024/06/25/VIDETazeP4VQgLBDeiDvNzug240625.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240625.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [国内联播快讯: 新版铁路旅客运输规程今天发布 (新闻联播 2024-09-01)](https://tv.cctv.com/2024/09/01/VIDE9gSIEH2PhiNxwV39ytVG240901.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20240901.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 | [国内联播快讯: 我国铁路客运今天起使用电子发票 (新闻联播 2024-11-01)](https://tv.cctv.com/2024/11/01/VIDEw5dNGyOTLyf8YMM1V0TM241101.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20241101.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [习近平接受外国新任驻华大使递交国书 (新闻联播 2024-12-12)](https://tv.cctv.com/2024/12/12/VIDEmtxFVOxZ84TqSowsEtPD241212.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20241212.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [今天起54国人员过境免签延长为240小时 (新闻联播 2024-12-17)](https://tv.cctv.com/2024/12/17/VIDE0Zny6cmTQyGd7NXTwLLJ241217.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20241217.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [春运客流保持高位 优化服务便利出行 (新闻联播 2025-01-18)](https://tv.cctv.com/2025/01/18/VIDECD5wlYie9aa1uHpo0Zb2250118.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20250118.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [【新春走基层】护航春运 换乘无忧 (新闻联播 2025-01-31)](https://tv.cctv.com/2025/01/31/VIDEgPizvIBaDqcuvHR5u8eR250131.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20250131.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
+| [交通部门多举措应对返程客流 (新闻联播 2025-05-04)](https://tv.cctv.com/2025/05/04/VIDEZf7sTCCT4zxaJGrX49mH250504.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20250504.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 | [国内联播快讯: 中国240小时过境免签政策适用国家扩展至55国 (新闻联播 2025-06-12)](https://tv.cctv.com/2025/06/12/VIDE6JqtgVKmW4Nrb8FV1MX0250612.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20250612.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [四川：加快构建文旅产业全域发展新格局 (新闻联播 2025-06-15)](https://tv.cctv.com/2025/06/15/VIDEqpKiBRFV7siydCR6scGE250615.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20250615.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [铁路国庆中秋假期运输今日启动 (新闻联播 2025-09-29)](https://tv.cctv.com/2025/09/29/VIDETr79MzE3lnZ7VoKUYFyT250929.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20250929.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [国家移民管理局推出10项出入境创新举措 (新闻联播 2025-11-03)](https://tv.cctv.com/2025/11/03/VIDEaAbwq7laI4lPaFNqHWM6251103.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20251103.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [全社会跨区域人员流动量持续攀升 暖心服务保障出行 (新闻联播 2026-04-05)](https://tv.cctv.com/2026/04/05/VIDE8U2QxxQJmcRAAOXgwjDh260405.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20260405.md at commit 31df1d3 | press |  | 2026-11-02 | data/situations/travel.json; research: travel-transport |
 | [一季度全国共1.85亿人次出入境 (新闻联播 2026-04-10)](https://tv.cctv.com/2026/04/10/VIDEQOsYezbfQhRrduKsDrlf260410.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20260410.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [“五一”入境游升温 外国游客感受多彩中国 (新闻联播 2026-05-05)](https://tv.cctv.com/2026/05/05/VIDEj1j1s1kRrrwXY7yLom9K260505.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20260505.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [【伟大征程】以高质量发展引领中国经济航船破浪前行 (新闻联播 2026-06-27)](https://tv.cctv.com/2026/06/27/VIDEtu9yY2U3lnx7PqiKKu5m260627.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20260627.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [国内联播快讯: 中国240小时过境免签“朋友圈”扩展至57国 (新闻联播 2026-08-20)](https://tv.cctv.com/2026/08/20/VIDEMCIfDHEX2z3FySQhEPqP260820.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20260820.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [泥石流灾害造成西藏日喀则市吉隆县吉隆口岸重大人员伤亡、失联 各方加紧抢险救援 (新闻联播 2026-08-26)](https://tv.cctv.com/2026/08/26/VIDEfoAMZkllu7pAwU9Qv7fA260826.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20260826.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [习近平对西藏那曲市巴青县7.0级地震作出重要指示 (新闻联播 2026-10-23)](https://tv.cctv.com/2026/10/23/VIDE87s7euw5Bxw80ibcK4e3261023.shtml) | CCTV 新闻联播 (China Media Group); transcript read from the GitHub archive DuckBurnIncense/xin-wen-lian-bo, news/20261023.md at commit 31df1d3 | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### tw.trip.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [【台灣支付寶2026】註冊、綁定台灣信用卡教學！實名認證、手續費、付款方式一次懂](https://tw.trip.com/blog/alipay-taiwan/) | Trip.com Taiwan (travel company blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### udn.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [udn.com analysis of awkward New Year questions](https://udn.com/news/story/123907/9331297) | 聯合新聞網 udn.com (Taiwan) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### uk.trip.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China train tickets (Trip.com UK blog)](https://uk.trip.com/blog/china-train-tickets/) | Trip.com | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
 
 ### unicode.org (1)
 
@@ -1816,7 +2908,27 @@ Total: 904 sources on 197 sites.
 | [Pricing & Limits - Upstash Documentation](https://upstash.com/docs/redis/overall/pricing) | Upstash | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Redis Pricing](https://upstash.com/pricing/redis) | Upstash | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 
-### vercel.com (40)
+### us.china-embassy.gov.cn (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Visa page, Chinese-language Q&A (title not shown in the search result)](https://us.china-embassy.gov.cn/chn/lsfw/zj/qz/202412/t20241224_11516389.htm) | Embassy of the People's Republic of China in the United States of America | official |  | 2026-11-02 | data/reference/facts.json |
+| [Exit and Entry Administration Law of the People's Republic of China](https://us.china-embassy.gov.cn/eng/lsfw/zj/notice/201307/t20130702_4899883.htm) | Embassy of the People's Republic of China in the United States of America | official |  | 2026-11-02 | data/reference/facts.json |
+| [China Launches Online Arrival Card for International Travelers](https://us.china-embassy.gov.cn/eng/lsfw/zj/notice/202512/t20251203_11765346.htm) | Embassy of the People's Republic of China in the United States | official |  | 2026-11-02 | data/reference/facts.json |
+
+### utusan.com.my (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026](https://www.utusan.com.my/pr-newswire-en/2026/05/tencent-announces-three-initiatives-to-make-inbound-payments-for-international-visitors-easier-than-ever-during-apec-2026/) | Tencent (PR Newswire release, republished by Utusan Malaysia) | operator |  | 2026-11-02 | data/reference/facts.json |
+
+### v2ex.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [V2EX thread: what to bring when visiting the girlfriend's parents for the first time](https://www.v2ex.com/t/768918) | V2EX (community forum) | forum |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### vercel.com (41)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
@@ -1856,16 +2968,60 @@ Total: 904 sources on 197 sites.
 | [Vercel Storage overview](https://vercel.com/docs/storage) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Vercel Blob](https://vercel.com/docs/vercel-blob) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Vercel Blob Pricing](https://vercel.com/docs/vercel-blob/usage-and-pricing) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
+| [Accessing Vercel-hosted sites from mainland China](https://vercel.com/kb/guide/accessing-vercel-hosted-sites-from-mainland-china) | Vercel (also at docs.vercel.com/guides/accessing-vercel-hosted-sites-from-mainland-china) | vendor-docs |  | 2026-11-02 | data/reference/facts.json |
 | [Build step did not complete within the maximum of 45 minutes](https://vercel.com/kb/guide/troubleshooting-build-error-build-step-did-not-complete-within-45-minutes) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Terms of Service](https://vercel.com/legal/terms) | Vercel | official |  | 2026-11-02 | research: hosting-pwa |
 | [Upstash for Redis (Vercel Marketplace)](https://vercel.com/marketplace/upstash/upstash-kv) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Vercel Pricing: Hobby, Pro, and Enterprise plans](https://vercel.com/pricing) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
+
+### visaforchina.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [关于延长单方面免签政策的通知｜中国签证申请服务中心](https://visaforchina.cn/LIS4_ZH/tongzhigonggao/552375416455827498.html) | Chinese Visa Application Service Center (Lisbon) | operator |  | 2026-11-02 | data/reference/facts.json |
+
+### visapreflight.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China visa-free entry after 31 December 2026: what changes for 2027 trips](https://visapreflight.com/guides/china-visa-free-after-2026/) | VisaPreflight (travel guide) | blog |  | 2026-11-02 | data/reference/facts.json |
 
 ### visasnews.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [China: Foreign travelers can now register their accommodation online](https://visasnews.com/en/china-foreign-travelers-can-now-register-their-accommodation-online/) | VisasNews | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### vodafone.nl (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Alles in 1 Wereld (XL/XXL) - BloX](https://www.vodafone.nl/abonnement/blox/voordeel-buiten-europa) | Vodafone Nederland (business offer) | operator |  | 2026-11-02 | data/reference/facts.json |
+| [Bellen, internetten en sms'en in het buitenland](https://www.vodafone.nl/abonnement/buitenland) | Vodafone Nederland (VodafoneZiggo) | operator |  | 2026-11-02 | data/reference/facts.json |
+
+### vsdaily.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tencent enhances payment experience for visitors to mainland China, expands Weixin Pay services for cross-border tourism](https://vsdaily.com/tencent-enhances-payment-experience-for-visitors-to-mainland-china-expands-weixin-pay-services-for-cross-border-tourism/) | VSDaily | press |  | 2026-11-02 | data/reference/facts.json |
+
+### wanderinchina.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chengdu Railway Stations Guide 2026: E-Tickets & Passport Checks](https://www.wanderinchina.com/destinations/chengdu/transport/train-stations/) | Wander in China | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### wap.stockstar.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Stockstar report on train ticket-check closing time (title not shown in search results)](https://wap.stockstar.com/detail/IG2026102100036367) | Stockstar (证券之星) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### wb.beijing.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Visa-free entry FAQ page, English (title not shown in the search result)](https://wb.beijing.gov.cn/en/express/202605/t20260522_4661952.html) | Beijing Municipal Foreign Affairs Office (wb.beijing.gov.cn) | official |  | 2026-11-02 | data/reference/facts.json |
 
 ### web.dev (2)
 
@@ -1892,6 +3048,36 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Shtooka Project - free audio collections of words](https://wiki.creativecommons.org/wiki/Shtooka_Project_-_free_audio_collections_of_words) | Creative Commons wiki | secondary |  | 2026-11-02 | research: audio |
 
+### willemstad.china-consulate.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Notice on Extending Visa Waiver Policy to the Netherlands](https://willemstad.china-consulate.gov.cn/eng/lqfw_1/zgqz/202511/t20251104_11747005.htm) | Consulate General of the People's Republic of China in Willemstad (Curaçao) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### wise.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Alipay fee for international credit card and transactions](https://www.wise.com/en-cn/blog/alipay-fee-international-cards) | Wise (company blog) | blog |  | 2026-11-02 | data/reference/facts.json |
+
+### worldjournal.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [世界日报 (World Journal) report on serving chopsticks](https://www.worldjournal.com/wj/story/125050/9826883) | World Journal (overseas Chinese newspaper) | news |  | 2026-11-02 | data/situations/family.json; research: family-visit-dinner |
+
+### woshipm.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [woshipm.com (人人都是产品经理) article on WeChat red packets (c. 2015; headline not shown in the results)](https://www.woshipm.com/it/135785.html) | 人人都是产品经理 woshipm.com | secondary |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### wsb.sh.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [外交部：中方决定将对俄罗斯免签政策延长至2027年12月31日_领事提醒](https://wsb.sh.gov.cn/ztzl/lstx/20260520/3b8a99af105045d5ba4eb6f5413bb575.html) | Shanghai Municipal Foreign Affairs Office | official |  | 2026-11-02 | data/reference/facts.json |
+
 ### x.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -1905,10 +3091,77 @@ Total: 904 sources on 197 sites.
 | --- | --- | --- | --- | --- | --- |
 | [HSK3.0发布，《新HSK教程》全球首发](https://www.xindb.com/static/content/TGGJ/2025-11-18/1440380853687181312.html) | xindb.com (news) | press |  | 2026-11-02 | research: hsk-standard-exam |
 
-### yoyochinese.com (2)
+### xinhuanet.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [How to deflect a compliment in Chinese](https://www.yoyochinese.com/blog/learn-mandarin-chinese-how-to-deflect-a-compliment-in-chinese) | Yoyo Chinese | teaching |  | 2026-11-02 | research: work-intro-contacts |
-| [How to Write a Formal Email in Chinese](https://yoyochinese.com/blog/learn-how-to-write-a-formal-email-in-chinese) | Yoyo Chinese | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [2015大拜年 - 新华网](http://www.xinhuanet.com/tech/zt/qydbn/index.htm) | 新华网 (Xinhua News Agency) | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### xinwen.bjd.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [涨知识！凭哪些证件可以刷证进站坐高铁](https://xinwen.bjd.com.cn/content/s64b3ba94e4b0285efd6c9499.html) | Beijing Daily (bjd.com.cn) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### xj.news.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [工商银行阿克苏分行启动“迎新岁兑新钞”专项活动全力保障春节现金服务供给](https://xj.news.cn/20260214/52eb0acb887744498d4c69e675c53d36/c.html) | 新华网 (Xinhua), Xinjiang channel | press |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### yicai.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [简化身份验证、提高支付限额！外国人支付更便利，支付宝、微信将有大变化](https://www.yicai.com/news/102011426.html) | Yicai (第一财经) | press |  | 2026-11-02 | data/reference/facts.json |
+
+### yidaiyilu.gov.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [外籍来华人员移动支付单笔交易限额将提高到5000美元 - 中国一带一路网](https://www.yidaiyilu.gov.cn/p/0KJUTD1H.html) | Belt and Road Portal (中国一带一路网, yidaiyilu.gov.cn; government-run news portal) | official |  | 2026-11-02 | data/reference/facts.json |
+
+### yoyochinese.com (4)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to deflect a compliment in Chinese](https://www.yoyochinese.com/blog/learn-mandarin-chinese-how-to-deflect-a-compliment-in-chinese) | Yoyo Chinese | teaching |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [Learner-site results on shopping and bargaining (Yoyo Chinese '8 Things to Know About Chinese Shopping Culture'; That's Mandarin '5 Must-Kno](https://yoyochinese.com/blog/8-Tips-Youll-Need-Shop-Successfully-China) | Yoyo Chinese / That's Mandarin / Mandarin Blueprint / Hutong School | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [Essential Chinese for Visiting the Doctor](https://yoyochinese.com/blog/essential-mandarin-chinese-vocabulary-phrases-visit-doctor-hospital-sick) | Yoyo Chinese | native-teacher |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [How to Write a Formal Email in Chinese](https://yoyochinese.com/blog/learn-how-to-write-a-formal-email-in-chinese) | Yoyo Chinese | secondary |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+
+### zhangjiajietravelchina.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [China Train Guide 2026: How to Travel by Rail as a Foreign Tourist](https://www.zhangjiajietravelchina.com/travel-guide/china-train-guide-2026-how-to-travel-by-rail-as-a-foreign-tourist) | LynxTravel (Zhangjiajie tour operator) | practitioner |  | 2026-11-02 | data/reference/facts.json |
+
+### zhihu.com (6)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [在餐馆怎么叫服务员才合适得体？ (and related Zhihu questions 25050797, 277739271, 36627092)](https://www.zhihu.com/question/19618915/answer/19450454) | Zhihu (知乎) native-speaker Q&A | blog |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [当亲戚赠与我们红包时，我们为什么要在表面上过分推辞？我们该不该这么做？ - 知乎](https://www.zhihu.com/question/28074934) | 知乎 Zhihu (community Q&A) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [湖南，江西，四川，贵州，重庆，云南人民到底哪个更能吃辣？ (and question 12441847098)](https://www.zhihu.com/question/300516959/answer/648463132) | Zhihu (知乎) native-speaker Q&A | blog |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [做菜一定要放味精吗？](https://www.zhihu.com/question/315289315) | Zhihu (知乎) native-speaker Q&A | blog |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [经常听医生说吃清淡点，到底怎么吃才算清淡？](https://www.zhihu.com/question/49743291) | Zhihu (知乎) native-speaker Q&A | blog |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+| [男朋友第一次来女方家，要给女方家所有的亲人包红包吗? - 知乎](https://www.zhihu.com/question/577959282) | 知乎 Zhihu (community Q&A) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+
+### zhuanlan.zhihu.com (7)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [4月5日清明节安康问候动态表情图片 2022清明节最新问候语图片带字温馨 - 知乎](https://zhuanlan.zhihu.com/p/493207238) | 知乎 Zhihu (community article) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [简短高级的结婚祝福语大全，强烈建议收藏！ - 知乎](https://zhuanlan.zhihu.com/p/508820183) | 知乎 Zhihu (community articles) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [给孩子的生日祝福语(50句) - 知乎](https://zhuanlan.zhihu.com/p/567497573) | 知乎 Zhihu (community articles) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [清明节应该怎么祝福？可以“快乐”吗？ - 知乎](https://zhuanlan.zhihu.com/p/61533361) | 知乎 Zhihu (community articles) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [过寿不能随便过，“庆九不庆十”，73、84也不过，寿礼禁忌讲究多 - 知乎](https://zhuanlan.zhihu.com/p/631264580) | 知乎 Zhihu (community articles) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [葬礼送悼念花圈也得随礼吗？丧事礼金给多少？封包写法有何讲究？ - 知乎](https://zhuanlan.zhihu.com/p/63389296) | 知乎 Zhihu (community articles) | practitioner |  | 2026-11-02 | data/situations/family.json; research: family-festivals |
+| [一文说清从0-1宴请小白如何点菜](https://zhuanlan.zhihu.com/p/678339256) | Zhihu (知乎) column | blog |  | 2026-11-02 | data/situations/travel.json; research: travel-food-pay |
+
+### zoek.officielebekendmakingen.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Kamerstuk 36560-V, nr. 1](https://zoek.officielebekendmakingen.nl/kst-36560-V-1.html) | Ministerie van Buitenlandse Zaken / Tweede Kamer (officielebekendmakingen.nl) | official |  | 2026-11-02 | data/reference/facts.json |
 

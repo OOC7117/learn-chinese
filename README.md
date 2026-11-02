@@ -118,14 +118,16 @@ with `checked_on` and a `recheck_url` (the official page). Before a trip:
 2. Edit `answer`, `checked_on` and `sources` (with the new access date) in `data/reference/facts.json`.
 3. `npm run build && npm run validate`, commit.
 
-Facts whose answer could not be confirmed by a second check have `"status": "unverified"`: the app lists
-only their question and official page under *Not double-checked yet*, never the answer. The official
-government, embassy and railway sites could not be reached from the environment the research ran in, so
-these are the first to check by hand (docs/UNVERIFIED.md lists them with the reason). After checking one,
-set its `status` to `"verified"` and record the source.
+All 31 facts were confirmed or corrected by two independent checks on 2026-11-02. Many official Chinese
+and Dutch government pages could not be opened from the research environment and were read through
+search-result summaries (each source says so), so open the `recheck_url` before relying on a fact. A fact
+that fails a later check gets `"status": "unverified"`: the app then lists only its question and official
+page under *Not double-checked yet*, never the answer.
 
 As checked on 2026-11-02: the unilateral visa-free policy for Dutch passports (30 days) runs until
-31 Dec 2026, so check whether it was extended.
+24:00 Beijing time on 31 Dec 2026 and no extension had been announced; check the Chinese embassy's
+notices before booking a trip in 2027. *.vercel.app addresses may be blocked or slow in mainland China:
+install the app (or open it once) before you travel, after that it works offline.
 
 ## Audio
 
