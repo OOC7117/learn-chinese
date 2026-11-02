@@ -415,6 +415,23 @@ test('buildMinimalRound: distinct pairs, valid targets, tones from tonesOf', () 
   assert.deepEqual([...targets].sort(), [0, 1]);
 });
 
+test('buildMinimalRound leaves out pairs whose contrast a word\'s other pronunciation could blur', () => {
+  // Synthetic ids and notes (not real words): t.ma1ba4 / t.ma2ba4 differ in the first syllable, and the
+  // other reading of t.ma1ba4 changes only the second; t.ma3ba5 / t.ma3ba4 differ in the second syllable,
+  // exactly where the other reading of t.ma3ba5 has another tone.
+  const pairs = [['t.ma1ba4', 't.ma2ba4'], ['t.ma3ba5', 't.ma3ba4'], ['t.ba1ma1', 't.ba4ma1']];
+  const meanings = { 't.ma1ba4': ['test', 'also pr. [ma1 ba5]'], 't.ma3ba5': ['test', 'also pr. [ma3 ba1]'] };
+  const asked = [];
+  const inDoubt = (id, positions) => {
+    asked.push([id, positions]);
+    return tonesInDoubt(tonesFromId(id), meanings[id], positions);
+  };
+  const round = buildMinimalRound({ minimal: pairs, tonesOf: tonesFromId, inDoubt, rng: mulberry32(2) });
+  const firsts = round.map((r) => r.ids[0]).sort();
+  assert.deepEqual(firsts, ['t.ba1ma1', 't.ma1ba4']);
+  assert.deepEqual(asked.find(([id]) => id === 't.ma1ba4'), ['t.ma1ba4', [0]], 'asked about the differing positions only');
+});
+
 test('buildMinimalRound favours pairs that contrast confused tones', () => {
   const stats = withAnswers([['m', 2, 1, 15], ['m', 1, 2, 15], ['s', 3, 3, 40], ['s', 4, 4, 40], ['s', 5, 5, 40]]);
   let first = 0;
