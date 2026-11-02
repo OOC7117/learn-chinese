@@ -17,7 +17,7 @@ every source with licence and access date: [docs/SOURCES.md](docs/SOURCES.md); d
 | Dictionary check | every HSK word's pinyin compared with CC-CEDICT; 199 differences resolved one by one in [data/hsk/resolutions.json](data/hsk/resolutions.json) (incl. three typos in the official 2025 list) |
 | Audio | 7,359 native-speaker recordings (audio-cmn), used only where the file name fixes the reading; otherwise the device's Chinese voice, labelled as synthetic ([pre-generated neural audio](#audio) is one command away) |
 | Speaking | scenes for travel, family and work with sourced phrases (each linked to the HSK words in it), usage notes, etiquette tips and practice dialogues; kinship chart; record yourself and compare with the model on speak cards; tone trainer with pinyin chart, drills and an experimental pitch contour |
-| Learning | FSRS-6 spaced repetition (ts-fsrs), card types listen → speak → characters → phrase, star (hard) and skip (known), progress per level, streak, daily goal, time to the next level |
+| Learning | FSRS-6 spaced repetition (ts-fsrs) with retention Lighter 0.85 / Balanced 0.90 / Intensive 0.95, card types listen → speak → characters → phrase, new words paused while reviews are overdue, star (hard) and skip (known), progress per level, streak, daily goal, study time, time to the next level |
 
 ## Layout
 
@@ -35,7 +35,9 @@ app/                     the web app = the Vercel project (Root Directory "app")
   tests/                 node:test suites for the app (sync, API, pitch, tone drills, service worker)
 data/                    canonical JSON (edit and review here): hsk/, situations/, reference/, generated/, sources/
 docs/                    RESEARCH.md, SOURCES.md, UNVERIFIED.md (generated), DATA.md, SYNC.md
-scripts/                 fetch-sources, import-hsk, ingest-research, build-app-data, validate, generate-tts, simulate-plan
+scripts/                 fetch-sources, import-hsk, ingest-research, build-app-data, build-sw, validate, generate-tts,
+                         simulate-plan, vendor-ts-fsrs
+.github/workflows/       check.yml: tests, validator and precache check on every push
 tests/                   node:test suites for the pipeline and the pure logic
 raw/                     upstream downloads (gitignored; pinned in data/sources.lock.json)
 ```
@@ -63,7 +65,8 @@ npm test
 npm run validate
 ```
 
-`npm test` runs the pipeline and logic suites (`tests/`) and the app suites (`app/tests/`). The validator
+`npm test` runs the pipeline and logic suites (`tests/`) and the app suites (`app/tests/`); GitHub Actions
+runs the tests, the validator and `node scripts/build-sw.mjs --check` on every push. The validator
 fails on invalid pinyin syllables, tone-mark errors, duplicate ids, words with no audio, phrases with
 characters outside the simplified character set, entries missing provenance, unresolved disagreements
 with CC-CEDICT, and phrases that fail the word-by-word dictionary check; it rewrites
@@ -89,7 +92,14 @@ npm run build
 2. `scripts/import-hsk.mjs` parses the syllabus PDF and merges the three lists into `data/hsk/`, checks
    every word against CC-CEDICT, applies the recorded decisions and lists new disagreements as `pending`
    (the validator then fails until each has a decision with a source).
-3. `scripts/build-app-data.mjs` writes `app/data/` and copies the recordings into `app/audio/`.
+3. `scripts/build-app-data.mjs` writes `app/data/`, copies the recordings into `app/audio/` and refreshes
+   the committed CC-CEDICT subset (`data/sources/cedict-subset.json`, enough to validate offline and in CI).
+4. `scripts/build-sw.mjs` (also part of `npm run build`) updates the service worker's list of app files.
+   Run `npm run build` after any change in `app/` or `data/`, before committing; CI fails otherwise.
+
+The FSRS scheduler is vendored: `node scripts/vendor-ts-fsrs.mjs --check` confirms that
+`app/src/vendor/ts-fsrs.mjs` is the published ts-fsrs 5.4.2 file (npm integrity checked); without
+`--check` it re-creates it.
 
 Phrases, kinship terms, grammar, pitfalls and travel facts live in `data/situations/` and
 `data/reference/`; edit them there (they were imported once from the research with

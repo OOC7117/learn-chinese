@@ -31,7 +31,7 @@ export function render(root, ctx) {
   const retentionSetting = () => {
     const current = state.settings.retention;
     const options = RETENTION.some(([v]) => v === current) ? RETENTION : [...RETENTION, [current, `Custom (${current.toFixed(2)})`]];
-    return h('li.setting', h('label', { for: 'set-retention' }, 'Desired retention',
+    return h('li.setting.stack', h('label', { for: 'set-retention' }, 'Desired retention',
       h('span.hint', 'Your chance of remembering a word when it comes back. Lighter: about a quarter fewer reviews, about 3% fewer words remembered. Intensive: about half again as many reviews, for example before an exam.')),
     h('select', { id: 'set-retention', onchange: (e) => state.updateSettings({ retention: Number(e.target.value) }) },
       options.map(([v, label]) => h('option', { value: String(v), selected: v === current }, label))));
@@ -60,7 +60,7 @@ export function render(root, ctx) {
       h('ul.list',
         toggle('autoplay', 'Play audio automatically', 'On listen cards and when an answer is revealed'),
         number('slowRate', 'Slow speed', '0.5 – 1.0 of normal speed', { min: 0.5, max: 1, step: 0.05 }),
-        h('li.setting', h('label', { for: 'set-voice' }, 'Device voice', h('span.hint', 'Used where no recording exists. Only Mandarin (zh-CN first) voices are listed.')),
+        h('li.setting.stack', h('label', { for: 'set-voice' }, 'Device voice', h('span.hint', 'Used where no recording exists. Only Mandarin (zh-CN first) voices are listed.')),
           h('select', { id: 'set-voice', onchange: (e) => state.updateSettings({ ttsVoice: e.target.value }) },
             h('option', { value: '' }, 'Best available'),
             voices.map((v) => h('option', { value: v.voiceURI, selected: v.voiceURI === state.settings.ttsVoice }, `${v.name} (${v.lang})`)))),

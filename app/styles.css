@@ -262,7 +262,11 @@ a.seg:hover { color: var(--text); }
 .setting label { font-weight: 500; }
 .setting .hint { display: block; color: var(--muted); font-size: 0.82rem; font-weight: 400; }
 .setting input[type="number"] { width: 5.5rem; min-height: 40px; text-align: right; padding: 0.3rem 0.5rem; border: 1px solid var(--border); border-radius: 0.6rem; background: var(--surface); }
-.setting select { min-height: 40px; max-width: 12rem; border: 1px solid var(--border); border-radius: 0.6rem; background: var(--surface); padding: 0 0.5rem; }
+.setting select { min-height: 44px; max-width: 12rem; border: 1px solid var(--border); border-radius: 0.6rem; background: var(--surface); padding: 0 0.5rem; }
+.setting input[type="number"] { min-height: 44px; }
+/* A setting with a long explanation and a choice list: the list goes under the text. */
+.setting.stack { flex-direction: column; align-items: stretch; gap: 0.5rem; }
+.setting.stack select { max-width: none; width: 100%; }
 input[type="checkbox"].switch { width: 2.9rem; height: 1.7rem; appearance: none; -webkit-appearance: none; border-radius: 999px; background: var(--border); position: relative; flex: none; cursor: pointer; }
 input[type="checkbox"].switch::after { content: ""; position: absolute; top: 0.2rem; left: 0.2rem; width: 1.3rem; height: 1.3rem; border-radius: 50%; background: var(--surface); transition: transform 0.15s; box-shadow: 0 1px 2px rgb(0 0 0 / 0.3); }
 input[type="checkbox"].switch:checked { background: var(--accent-fill); }

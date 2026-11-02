@@ -10,9 +10,9 @@
   "scripts": {
     "fetch": "node scripts/fetch-sources.mjs",
     "import": "node scripts/import-hsk.mjs",
-    "build": "node scripts/build-app-data.mjs",
+    "build": "node scripts/build-app-data.mjs && node scripts/build-sw.mjs",
     "validate": "node scripts/validate.mjs",
-    "check": "npm run validate && npm test",
+    "check": "npm run validate && npm test && node scripts/build-sw.mjs --check",
     "test": "node --test tests app/tests",
     "dev": "node app/scripts/dev-server.mjs"
   }
