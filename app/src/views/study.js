@@ -1,8 +1,10 @@
-// Study: today's spaced-repetition queue (FSRS). One card at a time:
-//   read    Chinese -> English: characters (with pinyin unless Settings -> Pinyin hides it) -> meaning
-//   speak   English -> Chinese: recall the word (say it aloud if you like) -> turn over and hear the model
-//   listen  audio -> meaning (with an optional tone check before revealing; off by default)
-//   cloze   a verified phrase with the word blanked -> the word
+// Study: today's spaced-repetition queue (FSRS). One card at a time, one language per side:
+//   read    Chinese -> English: characters (with pinyin unless Settings -> Pinyin hides it) -> the English
+//   speak   English -> Chinese: the English -> characters and pinyin; say it aloud, then hear the model
+//   listen  audio -> the English (with an optional tone check before turning over; off by default)
+//   cloze   a verified phrase with the word blanked -> the word and the whole phrase, in Chinese
+// The English side shows the dictionary glosses without the Chinese cross-references inside them
+// (lib/english.js); the characters, pinyin, usage notes and literal glosses are on the word's Details page.
 // Like a paper flashcard: tap the card (or press Space/Enter) to turn it over, and again to turn it back. The
 // grade buttons appear once the back has been seen and stay while the card is turned back and forth.
 // Keyboard: Space/Enter flip; 1-4 grade (Again, Hard, Good, Easy); R replay; S star; X skip.
@@ -11,7 +13,8 @@ import { h, replace, icon, zh, py, announce } from '../dom.js';
 import { studyQueue } from '../study-items.js';
 import { intervalLabel } from '../lib/srs.js';
 import { syllablesOf, stripTones } from '../lib/pinyin.js';
-import { audioButtons, markButtons, pinyinBlock, meaningList, sourceLabel, richText } from './parts.js';
+import { englishGlosses, englishOnly } from '../lib/english.js';
+import { audioButtons, markButtons, pinyinBlock, meaningList, sourceLabel } from './parts.js';
 import { recordingSupport, createRecorder, playBuffer, playBlob, releaseAudio, describeError } from '../recorder.js';
 
 const TYPE_LABEL = { read: 'Chinese → English', speak: 'English → Chinese', listen: 'Listen', cloze: 'In a phrase' };
@@ -91,7 +94,7 @@ export async function render(root, ctx) {
     }
     if (t === 'speak') {
       // Only the English: usage notes often contain the Chinese answer, so they are shown after revealing.
-      const en = item.kind === 'word' ? item.meanings.slice(0, 2).join('; ') : item.english;
+      const en = englishText(2);
       return h('div.prompt',
         h('p.meaning', en),
         item.kind === 'phrase' && item.register && item.register !== 'neutral' ? h('span.chip', item.register) : null,
@@ -186,16 +189,31 @@ export async function render(root, ctx) {
         }, tone === 5 ? '·' : String(tone))))));
   }
 
+  // The English of the current item: glosses for a word (English-only, lib/english.js), the translation of a
+  // phrase or kinship term.
+  function englishGlossesOf(max) {
+    return englishGlosses(item.meanings, { max, lookup: ctx.data.cachedWordsWithHanzi, self: item.hanzi });
+  }
+  function englishText(max) {
+    return item.kind === 'word' ? englishGlossesOf(max).list.join('; ') : englishOnly(item.english) ?? item.english;
+  }
+
+  // The back of the card, in the other language from the front: English for Chinese -> English and listen
+  // cards, Chinese for English -> Chinese and phrase cards. Audio and the Details link are on every back.
+  const chineseBack = () => current.type === 'speak' || current.type === 'cloze';
   function answerBlock() {
-    const parts = [zh(item.hanzi, item.kind === 'word' ? 'big-hanzi' : 'mid-hanzi'), pinyinBlock(item, { big: true })];
-    if (item.kind === 'word') parts.push(meaningList(item.meanings, { max: 4 }));
-    else {
-      parts.push(h('p.meaning', item.english));
-      if (item.literal) parts.push(h('p.note', `Literally: ${item.literal}`));
-      if (item.usage) parts.push(h('details.card-usage', h('summary', 'When to use it'), h('p.note', richText(item.usage))));
+    const parts = [];
+    if (chineseBack()) {
+      parts.push(zh(item.hanzi, item.kind === 'word' ? 'big-hanzi' : 'mid-hanzi'), pinyinBlock(item, { big: true }));
+      if (current.type === 'cloze' && clozeExample) parts.push(zh(clozeExample.hanzi, 'mid-hanzi cloze-full'));
+    } else if (item.kind === 'word') {
+      const { list, crossRef } = englishGlossesOf(4);
+      parts.push(meaningList(list, { max: 4 }));
+      if (crossRef) parts.push(h('p.note', 'The dictionary only refers to another word here; see Details.'));
+    } else {
+      parts.push(h('p.meaning.big-meaning', englishText()));
     }
     parts.push(audioButtons(item, ctx));
-    if (current.type === 'cloze' && clozeExample) parts.push(h('p', zh(clozeExample.hanzi), ' ', h('span.muted', clozeExample.english)));
     parts.push(h('a.small', { href: item.kind === 'word' ? `#/word/${item.id}` : item.kind === 'phrase' ? `#/scene/${item.scene}` : '#/kinship' }, 'Details'));
     return h('div.answer.card-back', parts);
   }
@@ -256,7 +274,7 @@ export async function render(root, ctx) {
     card.focus({ preventScroll: true }); // keep the focus on the card, so Space turns it again
     if (first) {
       if (state.settings.autoplay && current.type !== 'listen') audio.play(item);
-      announce(`${item.hanzi}, ${stripTones(item.pinyin)}`);
+      announce(chineseBack() ? `${item.hanzi}, ${stripTones(item.pinyin)}` : englishText(2));
     } else announce(flipped ? 'Back of the card' : 'Front of the card');
   }
 

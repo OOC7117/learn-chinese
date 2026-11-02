@@ -222,6 +222,8 @@ a.seg:hover { color: var(--text); }
 .flashcard .prompt { margin-top: 1.5rem; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; width: 100%; }
 .flashcard { cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .flashcard .answer.card-back { margin-top: 1.5rem; flex: 1; justify-content: center; border-top: 0; padding-top: 0; }
+.flashcard .big-meaning { font-size: 1.3rem; }
+.flashcard .cloze-full { font-size: clamp(1.2rem, 6vw, 1.6rem); }
 .flashcard .flip-hint { margin: 0.25rem 0 0; font-size: 0.75rem; color: var(--muted); }
 .flashcard.turning { animation: card-turn 0.18s ease-out; }
 @keyframes card-turn { from { transform: perspective(60rem) rotateY(-80deg); opacity: 0.4; } to { transform: none; opacity: 1; } }
