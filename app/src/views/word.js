@@ -12,8 +12,8 @@ export async function render(root, ctx) {
     replace(root, h('h1', 'Word not found'), h('a.btn', { href: '#/search' }, 'Search'));
     return null;
   }
-  const examples = await data.examplesFor(item.hanzi);
-  const cards = Object.entries(state.srs).filter(([id]) => id.startsWith(`${item.id}.`)).map(([id, e]) => ({ type: id.slice(item.id.length + 1), card: decodeCard(e.s) }));
+  const examples = await data.examplesFor(item.hanzi, { id: item.id });
+  const cards = Object.entries(state.srs).filter(([id]) => id.startsWith(`${item.id}.`)).map(([id, e]) => ({ type: id.slice(item.id.length + 1), card: decodeCard(e.s) })).filter((c) => c.card && c.card.reps > 0);
 
   replace(root,
     h('button.btn.small', { type: 'button', onclick: () => history.back() }, icon('back'), 'Back'),

@@ -141,14 +141,115 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "你好 [ni3 hao3] nǐ hǎo; 展览馆 [zhan3 lan3 guan3] — citation tones only."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt",
+     "title": "《现代汉语词典》（第7版）凡例 (front matter), 3.9 注音 (变调)",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'3.9本词典一般不注变调。在普通话语音中两字相连的变调情形如下：（a）上声在阴平、阳平、去声、轻声前变半上。（b）上声在上声前一般变阳平。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【变调】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'改变声调，特指字和字连起来说，有时发生声调和单说时不同的连读变调现象。例如普通话语音中两个上声字相连时，第一个字变成阳平。'"
+    },
+    {
+     "url": "https://www.digmandarin.com/the-3rd-tone-change-rules-in-spoken-chinese.html",
+     "title": "The Third Tone Change Rules in Spoken Chinese",
+     "publisher": "Digmandarin",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "WebSearch result summary (page not opened; direct fetching is blocked): when several third-tone syllables run together only the last keeps the low dipping tone and the others are said as 2nd tone; the page's example is 我很好 → wó hén hǎo; the change happens only in speech and written pinyin keeps the original tones."
+    },
+    {
+     "url": "https://chinese-forums.com/forums/topic/49073-rule-for-sequences-of-3rd-tone-syllables",
+     "title": "Rule for sequences of 3rd tone syllables (forum thread)",
+     "publisher": "Chinese Forums",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "forum",
+     "licence": null,
+     "evidence": "WebSearch result summary: posters argue that in longer chains the change grows with speaking speed and that it does not apply across a pause (我很好，你呢) — matching the item's caveat that grouping, stress and tempo matter."
     }
    ],
    "source": "pypinyin ToneSandhiMixin docstrings (quoting Wikipedia, 'Standard Chinese phonology', section Tone sandhi) (mozillazg/python-pinyin (open-source library))",
    "source_url": "https://github.com/mozillazg/python-pinyin/blob/master/pypinyin/contrib/tone_sandhi.py",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 examples OK (citation tones in 'pinyin'; realised tones in 'spoken'). Independent confirmation: the 现代汉语词典 (7th ed.) 凡例 3.9 says the dictionary does not mark sandhi and gives the rules '上声在阴平、阳平、去声、轻声前变半上' and '上声在上声前一般变阳平'; its entry 变调 gives the 3+3 → 2+3 rule. Digmandarin (WebSearch) gives 我很好 → wó hén hǎo in speech with pinyin unchanged, matching EX2; a Chinese Forums thread adds that long chains depend on tempo and pauses, which the item already says. Resolves the researcher's open question on 我很好: keep wó hén hǎo. Consistency note for the spoken layer: pitfalls.hui-neng-keyi EX3 uses the 1+2 grouping for 我可以 (wǒ kéyǐ); both realisations occur.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt",
+      "title": "《现代汉语词典》（第7版）凡例 (front matter), 3.9 注音 (变调)",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'3.9本词典一般不注变调。在普通话语音中两字相连的变调情形如下：（a）上声在阴平、阳平、去声、轻声前变半上。（b）上声在上声前一般变阳平。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【变调】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'改变声调，特指字和字连起来说，有时发生声调和单说时不同的连读变调现象。例如普通话语音中两个上声字相连时，第一个字变成阳平。'"
+     },
+     {
+      "url": "https://www.digmandarin.com/the-3rd-tone-change-rules-in-spoken-chinese.html",
+      "title": "The Third Tone Change Rules in Spoken Chinese",
+      "publisher": "Digmandarin",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "WebSearch result summary (page not opened; direct fetching is blocked): when several third-tone syllables run together only the last keeps the low dipping tone and the others are said as 2nd tone; the page's example is 我很好 → wó hén hǎo; the change happens only in speech and written pinyin keeps the original tones."
+     },
+     {
+      "url": "https://chinese-forums.com/forums/topic/49073-rule-for-sequences-of-3rd-tone-syllables",
+      "title": "Rule for sequences of 3rd tone syllables (forum thread)",
+      "publisher": "Chinese Forums",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "forum",
+      "licence": null,
+      "evidence": "WebSearch result summary: posters argue that in longer chains the change grows with speaking speed and that it does not apply across a pause (我很好，你呢) — matching the item's caveat that grouping, stress and tempo matter."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -301,14 +402,71 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "不 [bu4]; 对不起 [dui4 bu5 qi3]; 好不好 [hao3 bu5 hao3]; 听不懂 [ting1 bu5 dong3]; 不客气 [bu4 ke4 qi5]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【不】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈注意〉（1）在去声字前面，\"不\"字读阳平声，如\"不会、不是\"。（2）动词\"有\"的否定式是\"没有\"，不是\"不有\"。'; sense ❺ '用在动补结构中间，表示不可能达到某种结果：拿～动｜做～好｜装～下｜看～出'; ❽ '不用；不要（限用于某些客套话）：～谢｜～送｜～客气'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【对不起】 / 【客气】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【对不起】duì•buqǐ〈动〉对人有愧，常用为表示抱歉的套语' and '【客气】kè•qi' — neutral bu and qi."
     }
    ],
    "source": "pypinyin ToneSandhiMixin docstrings (quoting Wikipedia, 'Standard Chinese phonology', section Tone sandhi) (mozillazg/python-pinyin (open-source library))",
    "source_url": "https://github.com/mozillazg/python-pinyin/blob/master/pypinyin/contrib/tone_sandhi.py",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation from the 现代汉语词典 (7th ed.): entry 不 〈注意〉(1) '在去声字前面，\"不\"字读阳平声，如\"不会、不是\"' (bú before a 4th tone); sense ❺ '用在动补结构中间，表示不可能达到某种结果：拿不动｜做不好｜看不出' (potential complements); 对不起 is entered as duì•buqǐ (toneless bu); 客气 is kè•qi, so 不客气 = bù kèqi in citation form and bú kèqi in speech, as the item says. The official HSK sample scripts use 不客气 and 对不起 as everyday formulas (H10901).",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【不】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈注意〉（1）在去声字前面，\"不\"字读阳平声，如\"不会、不是\"。（2）动词\"有\"的否定式是\"没有\"，不是\"不有\"。'; sense ❺ '用在动补结构中间，表示不可能达到某种结果：拿～动｜做～好｜装～下｜看～出'; ❽ '不用；不要（限用于某些客套话）：～谢｜～送｜～客气'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【对不起】 / 【客气】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【对不起】duì•buqǐ〈动〉对人有愧，常用为表示抱歉的套语' and '【客气】kè•qi' — neutral bu and qi."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -461,14 +619,49 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "一 [yi1]: '…also pr. [yao1] for greater clarity when spelling out numbers digit by digit'; 一个 [yi1 ge5]; 第一 [di4 yi1]; 统一 [tong3 yi1]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【一】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'注意\"一\"字单用或在一词一句末尾念阴平，如\"十一、一一得一\"，在去声字前念阳平，如\"一半、一共\"，在阴平、阳平、上声字前念去声，如\"一天、一年、一点\"。本词典为简便起见，条目中的\"一\"字，都注阴平。'; sense ❻a '用在重叠的动词（多为单音）中间：歇～歇｜笑～笑'."
     }
    ],
    "source": "pypinyin ToneSandhiMixin docstrings (quoting Wikipedia, 'Standard Chinese phonology', section Tone sandhi) (mozillazg/python-pinyin (open-source library))",
    "source_url": "https://github.com/mozillazg/python-pinyin/blob/master/pypinyin/contrib/tone_sandhi.py",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation: the 现代汉语词典 (7th ed.) entry 一 ends with the note '\"一\"字单用或在一词一句末尾念阴平，如\"十一、一一得一\"，在去声字前念阳平，如\"一半、一共\"，在阴平、阳平、上声字前念去声，如\"一天、一年、一点\"。本词典为简便起见，条目中的\"一\"字，都注阴平。' — the core rules (yī alone and at the end of a word, yí before a 4th tone, yì before 1st/2nd/3rd) plus the citation convention (yī in dictionaries). The ordinal and date cases (第一, 一月, 一号) are not in that note; they rest on the researcher's sources (pypinyin quoting Wikipedia, PaddleSpeech, Wiktionary IPA), which agree with each other. It also settles the researcher's open question on 十一: the dictionary gives 十一 as an example of an unchanged yī, so the Wiktionary/WikiPron marking of 十一 as 55→51 is not followed; 十一 (shíyī) can be used as an example. The toneless 一 in 看一看 rests on pypinyin (quoting Wikipedia) and PaddleSpeech only; the dictionary lists the A一A pattern (歇一歇, 笑一笑) without a tone note.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【一】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'注意\"一\"字单用或在一词一句末尾念阴平，如\"十一、一一得一\"，在去声字前念阳平，如\"一半、一共\"，在阴平、阳平、上声字前念去声，如\"一天、一年、一点\"。本词典为简便起见，条目中的\"一\"字，都注阴平。'; sense ❻a '用在重叠的动词（多为单音）中间：歇～歇｜笑～笑'."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -610,14 +803,115 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "Syllable inventory computed from all CC-CEDICT readings: ü-syllables nu:, nu:e, lu:, lu:e only; j/q/x/y + u: ju juan jue jun qu quan que qun xu xuan xue xun yu yuan yue yun (never written with ü). Entries: 女 [nu:3], 努 [nu3], 绿 [lu:4], 路 [lu4]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【女】【努】【绿】【路】【去】【鱼】【军】【学】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "Headword spellings: 女 nǚ, 努 nǔ, 绿 lǜ (also lù only in 绿林/绿营), 路 lù, 去 qù, 鱼 yú, 军 jūn, 学 xué. A scan of all headwords finds 0 with jü/qü/xü/yü and 163 with nü/lü."
+    },
+    {
+     "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+     "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+     "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+     "published": "2024-11-19",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "secondary",
+     "licence": "MIT",
+     "evidence": "nü ny; lü ly; nu nu; lu lu; ju tɕy; qu tɕʰy; xu ɕy; yu y; yue ɥœ; yun yn; jun tɕyn."
+    },
+    {
+     "url": "https://resources.allsetlearning.com/chinese/pronunciation/ASP00011",
+     "title": "The \"ü\" vowel",
+     "publisher": "AllSet Learning, Chinese Pronunciation Wiki",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "WebSearch result summary (page not opened): 'To make pinyin's \"ü\" sound, make the pinyin \"yi\" sound (or the English \"ee\" sound), and then slowly round your lips.'"
+    },
+    {
+     "url": "https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php",
+     "title": "Fonetische transcriptie van het Chinees",
+     "publisher": "Yang (Dutch-language journal), jaargang 18, via DBNL",
+     "published": "1982",
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "Two WebSearch result summaries of this Dutch-language guide for Dutch readers (page not opened): pinyin ü is roughly the 'uu' of Dutch 'muur'; u after j, q, x, y sounds like the 'u' of 'ruw'; i after j, q, x like the 'ie' of 'lied'; h is compared with the Dutch ch of 'schat'; aspirated c with the 'ts' of 'tsaar'. The article uses Hanyu pinyin (official in the PRC since 1 January 1979) and is an approximation guide without IPA."
     }
    ],
    "source": "pypinyin documentation, section 'strict 参数的影响' (quotes the spelling rules of 《汉语拼音方案》, 1958) (mozillazg/python-pinyin (open-source library))",
    "source_url": "https://github.com/mozillazg/python-pinyin/blob/master/docs/usage.rst",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation: (1) the 现代汉语词典 headwords spell 女 nǚ, 努 nǔ, 绿 lǜ, 路 lù, 去 qù, 鱼 yú, 军 jūn, 学 xué; no headword has ü written after j/q/x/y, while 163 have nü/lü. (2) dragonmapper's pinyin–IPA table: nü ny, lü ly vs nu nu, lu lu; ju tɕy, qu tɕʰy, xu ɕy, yu y, yun yn. (3) AllSet Learning (WebSearch): make 'ee' and round the lips. (4) The Dutch comparison the brief asked for: Yang (1982, on DBNL; WebSearch summary) tells Dutch readers that pinyin ü is roughly the uu of 'muur' and that u after j, q, x, y sounds like the u of 'ruw'. Side note: the dictionary also has a rare literary reading 绿 lù (绿林), irrelevant to 'green'.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【女】【努】【绿】【路】【去】【鱼】【军】【学】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "Headword spellings: 女 nǚ, 努 nǔ, 绿 lǜ (also lù only in 绿林/绿营), 路 lù, 去 qù, 鱼 yú, 军 jūn, 学 xué. A scan of all headwords finds 0 with jü/qü/xü/yü and 163 with nü/lü."
+     },
+     {
+      "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+      "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+      "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+      "published": "2024-11-19",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "secondary",
+      "licence": "MIT",
+      "evidence": "nü ny; lü ly; nu nu; lu lu; ju tɕy; qu tɕʰy; xu ɕy; yu y; yue ɥœ; yun yn; jun tɕyn."
+     },
+     {
+      "url": "https://resources.allsetlearning.com/chinese/pronunciation/ASP00011",
+      "title": "The \"ü\" vowel",
+      "publisher": "AllSet Learning, Chinese Pronunciation Wiki",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "WebSearch result summary (page not opened): 'To make pinyin's \"ü\" sound, make the pinyin \"yi\" sound (or the English \"ee\" sound), and then slowly round your lips.'"
+     },
+     {
+      "url": "https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php",
+      "title": "Fonetische transcriptie van het Chinees",
+      "publisher": "Yang (Dutch-language journal), jaargang 18, via DBNL",
+      "published": "1982",
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "Two WebSearch result summaries of this Dutch-language guide for Dutch readers (page not opened): pinyin ü is roughly the 'uu' of Dutch 'muur'; u after j, q, x, y sounds like the 'u' of 'ruw'; i after j, q, x like the 'ie' of 'lied'; h is compared with the Dutch ch of 'schat'; aspirated c with the 'ts' of 'tsaar'. The article uses Hanyu pinyin (official in the PRC since 1 January 1979) and is an approximation guide without IPA."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -759,14 +1053,93 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "Syllable inventory computed from all CC-CEDICT readings: z/c/s/zh/ch/sh/r + i only as zi ci si zhi chi shi ri; every j/q/x syllable is ji…/ju… (= jü…), qi…/qu…, xi…/xu…."
+    },
+    {
+     "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+     "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+     "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+     "published": "2024-11-19",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "secondary",
+     "licence": "MIT",
+     "evidence": "shi ʂɨ; zhi ʈʂɨ; chi ʈʂʰɨ; ri ʐɨ; si sɯ; zi tsɯ; ci tsʰɯ; xi ɕi; qu tɕʰy; zhong ʈʂʊŋ."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt",
+     "title": "《现代汉语词典》（第7版）凡例 (front matter), 3.8 注音 (儿化表 附注③)",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'zi，ci，si，zhi，chi，shi，ri中的i是舌尖元音，儿化后变ər'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【送气】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'普通话语音中的b，d，ɡ，j，z，zh是不送气音，p，t，k，q，c，ch是送气音。'"
     }
    ],
    "source": "pypinyin documentation, section 'strict 参数的影响' (quotes the spelling rules of 《汉语拼音方案》, 1958) (mozillazg/python-pinyin (open-source library))",
    "source_url": "https://github.com/mozillazg/python-pinyin/blob/master/docs/usage.rst",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation: dragonmapper IPA zhi ʈʂɨ, chi ʈʂʰɨ, shi ʂɨ, ri ʐɨ, zhong ʈʂʊŋ vs zi tsɯ, ci tsʰɯ, si sɯ vs ji/qi/xi with a real i (xi ɕi) — it writes the apical vowels as ɨ/ɯ where Wiktionary uses ʐ̩/z̩, a notation difference only. The 现代汉语词典 凡例 3.8 note ③ states 'zi，ci，si，zhi，chi，shi，ri中的i是舌尖元音' (the special i), and its entry 送气 gives the aspiration pairs. Not added (see open questions): southern speakers' merging of zh/ch/sh with z/c/s, for which only weak sources were found.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+      "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+      "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+      "published": "2024-11-19",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "secondary",
+      "licence": "MIT",
+      "evidence": "shi ʂɨ; zhi ʈʂɨ; chi ʈʂʰɨ; ri ʐɨ; si sɯ; zi tsɯ; ci tsʰɯ; xi ɕi; qu tɕʰy; zhong ʈʂʊŋ."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt",
+      "title": "《现代汉语词典》（第7版）凡例 (front matter), 3.8 注音 (儿化表 附注③)",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'zi，ci，si，zhi，chi，shi，ri中的i是舌尖元音，儿化后变ər'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【送气】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'普通话语音中的b，d，ɡ，j，z，zh是不送气音，p，t，k，q，c，ch是送气音。'"
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -875,14 +1248,71 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "喝 x ɤ; 哥 k ɤ; 熱 ʐ ɤ; 餓 ˀɤ; 謝 ɕ i̯ ɛ; 月 ɥ ɛ; 很 x ə n; 天 tʰ i̯ ɛ n; 件 t͡ɕ i̯ ɛ n; 牛 n i̯ o ʊ̯; 對 t u̯ e ɪ̯; 水 ʂ u̯ e ɪ̯; 論 l u̯ ə n; 軍 t͡ɕ y n; 雲 y n; 東 t ʊ ŋ; 中 ʈ͡ʂ ʊ ŋ."
+    },
+    {
+     "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+     "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+     "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+     "published": "2024-11-19",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "secondary",
+     "licence": "MIT",
+     "evidence": "he xɤ; ge kɤ; xie ɕjɛ; hen xən; tian tʰjɛn; jian tɕjɛn; niu njoʊ; liu ljoʊ; dui tweɪ; gui kweɪ; shui ʂweɪ; lun lwən; dun twən; jun tɕyn; yun yn; dong tʊŋ; zhong ʈʂʊŋ."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt",
+     "title": "《现代汉语词典》（第7版）凡例 (front matter), 3.8 注音 (儿化韵母表)",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "The erhua table pairs rhymes with their base finals written in full, e.g. 'uei uen' (味, 纹) and 'iou' (球)."
     }
    ],
    "source": "pypinyin documentation, section 'strict 参数的影响' (quotes the spelling rules of 《汉语拼音方案》, 1958) (mozillazg/python-pinyin (open-source library))",
    "source_url": "https://github.com/mozillazg/python-pinyin/blob/master/docs/usage.rst",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation of every vowel claim by dragonmapper's pinyin–IPA table: he xɤ, ge kɤ (e = [ɤ]); xie ɕjɛ (e = [ɛ] after i; for üe it writes yue ɥœ where Wiktionary has ɥɛ — a rounded variant, still not [ɤ]); hen xən; tian tʰjɛn, jian tɕjɛn ('yen'); niu njoʊ, liu ljoʊ (iu = iou); dui tweɪ, gui kweɪ, shui ʂweɪ (ui = uei); lun lwən, dun twən (un = uen) but jun tɕyn, yun yn (ün); dong tʊŋ, zhong ʈʂʊŋ. The 现代汉语词典 erhua table (凡例 3.8) also lists iou, uei, uen as the underlying finals.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+      "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+      "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+      "published": "2024-11-19",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "secondary",
+      "licence": "MIT",
+      "evidence": "he xɤ; ge kɤ; xie ɕjɛ; hen xən; tian tʰjɛn; jian tɕjɛn; niu njoʊ; liu ljoʊ; dui tweɪ; gui kweɪ; shui ʂweɪ; lun lwən; dun twən; jun tɕyn; yun yn; dong tʊŋ; zhong ʈʂʊŋ."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt",
+      "title": "《现代汉语词典》（第7版）凡例 (front matter), 3.8 注音 (儿化韵母表)",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "The erhua table pairs rhymes with their base finals written in full, e.g. 'uei uen' (味, 纹) and 'iou' (球)."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -1024,14 +1454,115 @@
      "authority": "secondary",
      "licence": null,
      "evidence": "Lists the 21 initials of 《汉语拼音方案》: 'b p m f d t n l g k h j q x zh ch sh r z c s (y, w 不是声母)'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【送气】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'语音学上把发辅音时有比较显著的气流出来叫送气，没有显著的气流出来叫不送气。普通话语音中的b，d，ɡ，j，z，zh是不送气音，p，t，k，q，c，ch是送气音。'"
+    },
+    {
+     "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+     "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+     "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+     "published": "2024-11-19",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "secondary",
+     "licence": "MIT",
+     "evidence": "ba pa; pa pʰa; da ta; ta tʰa; ge kɤ; zi tsɯ; ci tsʰɯ; zhi ʈʂɨ; chi ʈʂʰɨ."
+    },
+    {
+     "url": "https://neerlandistiek.nl/wp-content/uploads/2025/05/voicing.pdf",
+     "title": "Literature review on voicing in Dutch stops (voicing.pdf)",
+     "publisher": "Neerlandistiek.nl",
+     "published": "2025-05",
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "WebSearch result summary: Dutch is described as a 'voicing language' whose stop contrast rests on vocal-fold vibration rather than aspiration as in English or German; Dutch voiceless stops are produced with little to no aspiration (Dutch [t] in 'tip' vs aspirated English [tʰ]); Dutch /b, d/ are often prevoiced."
+    },
+    {
+     "url": "https://studenttheses.universiteitleiden.nl/access/item%3A3630911/view",
+     "title": "Student thesis on voice onset time of Dutch speakers of English",
+     "publisher": "Leiden University (student theses)",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "WebSearch result summary: native English VOT for voiceless stops roughly 50–100 ms vs roughly 0–20 ms for Dutch voiceless stops; Dutch speakers added only about 10 ms of aspiration when speaking English."
     }
    ],
    "source": "WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary) (CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary)",
    "source_url": "https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/cmn_hani_standard_broad.tsv",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, eng_latn_us_narrow.tsv (IPA transcriptions scraped from Wiktionary)",
-   "status": "unverified",
-   "confidence": "medium",
-   "verification": null,
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, eng_latn_us_narrow.tsv (IPA transcriptions scraped from Wiktionary); independent verifier (agent), 2026-11-02",
+   "status": "verified",
+   "confidence": "high",
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation: 现代汉语词典 entry 送气 lists b d g j z zh as unaspirated and p t k q c ch as aspirated; dragonmapper gives ba pa / pa pʰa, da ta / ta tʰa. Dutch side, which the researcher had only inferred from Wiktionary: a literature review on Neerlandistiek.nl describes Dutch as a voicing language whose voiceless stops have little or no aspiration (Dutch [t] vs English [tʰ] in 'tip'), and a Leiden thesis measures Dutch voiceless-stop VOT at about 0–20 ms vs 50–100 ms in English (both via WebSearch summaries). This supports 'a Dutch p/t/k is a good model for pinyin b/d/g'. Confidence raised from medium to high.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【送气】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'语音学上把发辅音时有比较显著的气流出来叫送气，没有显著的气流出来叫不送气。普通话语音中的b，d，ɡ，j，z，zh是不送气音，p，t，k，q，c，ch是送气音。'"
+     },
+     {
+      "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+      "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+      "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+      "published": "2024-11-19",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "secondary",
+      "licence": "MIT",
+      "evidence": "ba pa; pa pʰa; da ta; ta tʰa; ge kɤ; zi tsɯ; ci tsʰɯ; zhi ʈʂɨ; chi ʈʂʰɨ."
+     },
+     {
+      "url": "https://neerlandistiek.nl/wp-content/uploads/2025/05/voicing.pdf",
+      "title": "Literature review on voicing in Dutch stops (voicing.pdf)",
+      "publisher": "Neerlandistiek.nl",
+      "published": "2025-05",
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "WebSearch result summary: Dutch is described as a 'voicing language' whose stop contrast rests on vocal-fold vibration rather than aspiration as in English or German; Dutch voiceless stops are produced with little to no aspiration (Dutch [t] in 'tip' vs aspirated English [tʰ]); Dutch /b, d/ are often prevoiced."
+     },
+     {
+      "url": "https://studenttheses.universiteitleiden.nl/access/item%3A3630911/view",
+      "title": "Student thesis on voice onset time of Dutch speakers of English",
+      "publisher": "Leiden University (student theses)",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "WebSearch result summary: native English VOT for voiceless stops roughly 50–100 ms vs roughly 0–20 ms for Dutch voiceless stops; Dutch speakers added only about 10 ms of aspiration when speaking English."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -1140,14 +1671,71 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "boek b u k; doen d u n; vuur v y r; nu n y; ja j aː; goed ɣ u t; lachen l ɑ x ə; acht ɑ x t; huis ɦ œ y̯ s; hoed ɦ u t; wat ʋ ɑ t; zee z eː; uit œ y̯ t; ziek z i k; tien t i n; oud ɑ u̯ t; jou j ɑ u̯."
+    },
+    {
+     "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+     "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+     "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+     "published": "2024-11-19",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "secondary",
+     "licence": "MIT",
+     "evidence": "bu pu; lu lu; nü ny; hao xɑʊ; wo wɔ; zi tsɯ; dui tweɪ; xie ɕjɛ; you joʊ; ge kɤ."
+    },
+    {
+     "url": "https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php",
+     "title": "Fonetische transcriptie van het Chinees",
+     "publisher": "Yang (Dutch-language journal), jaargang 18, via DBNL",
+     "published": "1982",
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "Two WebSearch result summaries of this Dutch-language guide for Dutch readers (page not opened): pinyin ü is roughly the 'uu' of Dutch 'muur'; u after j, q, x, y sounds like the 'u' of 'ruw'; i after j, q, x like the 'ie' of 'lied'; h is compared with the Dutch ch of 'schat'; aspirated c with the 'ts' of 'tsaar'. The article uses Hanyu pinyin (official in the PRC since 1 January 1979) and is an approximation guide without IPA."
     }
    ],
    "source": "WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary) (CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary)",
    "source_url": "https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/cmn_hani_standard_broad.tsv",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, nld_latn_broad.tsv (IPA transcriptions scraped from Wiktionary)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); WikiPron pronunciation data, nld_latn_broad.tsv (IPA transcriptions scraped from Wiktionary); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "medium",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Mandarin values agree with dragonmapper (bu pu, lu lu, nü ny, hao xɑʊ, wo wɔ, zi tsɯ, dui tweɪ, xie ɕjɛ, you joʊ). Yang (1982, DBNL; WebSearch summaries), a pinyin guide for Dutch readers, compares pinyin h with the Dutch ch of 'schat', ü with the uu of 'muur', u after j/q/x/y with the u of 'ruw' and i after j/q/x with the ie of 'lied' — consistent with the item. The Dutch values of w [ʋ], ui [œy], ie [i], ou [ɑu] and g [ɣ] still rest on Wiktionary (WikiPron nld) only; they are standard descriptions of Dutch, but no Dutch phonetics reference was opened, so confidence stays medium.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv",
+      "title": "dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)",
+      "publisher": "Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19)",
+      "published": "2024-11-19",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "secondary",
+      "licence": "MIT",
+      "evidence": "bu pu; lu lu; nü ny; hao xɑʊ; wo wɔ; zi tsɯ; dui tweɪ; xie ɕjɛ; you joʊ; ge kɤ."
+     },
+     {
+      "url": "https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php",
+      "title": "Fonetische transcriptie van het Chinees",
+      "publisher": "Yang (Dutch-language journal), jaargang 18, via DBNL",
+      "published": "1982",
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "Two WebSearch result summaries of this Dutch-language guide for Dutch readers (page not opened): pinyin ü is roughly the 'uu' of Dutch 'muur'; u after j, q, x, y sounds like the 'u' of 'ruw'; i after j, q, x like the 'ie' of 'lied'; h is compared with the Dutch ch of 'schat'; aspirated c with the 'ts' of 'tsaar'. The article uses Hanyu pinyin (official in the PRC since 1 January 1979) and is an approximation guide without IPA."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -1289,14 +1877,93 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "東西 t ʊ ŋ ⁵⁵ ɕ i ² | t ʊ ŋ ⁵⁵ ɕ i ⁵⁵; 謝謝 ɕ i̯ ɛ ⁵¹ ɕ i̯ ɛ ¹; 包子 p ɑ ʊ̯ ⁵⁵ d͡z̥ z̩ ²; 朋友 pʰ ɤ ŋ ³⁵ j o ʊ̯ ³; 你們 n i ²¹⁴ m ə n ⁴; 嗎 m ä (no tone)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【轻声】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'说话的时候有些字音很轻很短，叫做\"轻声\"。如普通话中的\"了、着、的\"等虚词和做后缀的\"子、头\"等字都念轻声。有些双音词的第二字也念轻声'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【东西】 (two entries)",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【东西】dōnɡxī〈名〉方位词。❶东边和西边' and '【东西】dōnɡ•xi〈名〉❶泛指各种具体的或抽象的事物：他买～去了'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【谢谢】【朋友】【喜欢】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【谢谢】xiè•xie', '【朋友】pénɡ•you', '【喜欢】xǐ•huɑn' — toneless second syllables."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation from the 现代汉语词典 (7th ed.): entry 轻声 '如普通话中的\"了、着、的\"等虚词和做后缀的\"子、头\"等字都念轻声。有些双音词的第二字也念轻声'; two entries 东西 dōngxī '东边和西边' and 东西 dōng•xi '泛指各种具体的或抽象的事物'; 谢谢 xiè•xie, 朋友 péng•you, 喜欢 xǐ•huan, 客气 kè•qi, 这个 zhè•ge. The pitch description (low after a 4th tone, higher after a 3rd) agrees with WikiPron and with the dictionary's '上声在轻声前变半上'.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【轻声】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'说话的时候有些字音很轻很短，叫做\"轻声\"。如普通话中的\"了、着、的\"等虚词和做后缀的\"子、头\"等字都念轻声。有些双音词的第二字也念轻声'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【东西】 (two entries)",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【东西】dōnɡxī〈名〉方位词。❶东边和西边' and '【东西】dōnɡ•xi〈名〉❶泛指各种具体的或抽象的事物：他买～去了'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【谢谢】【朋友】【喜欢】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【谢谢】xiè•xie', '【朋友】pénɡ•you', '【喜欢】xǐ•huɑn' — toneless second syllables."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -1438,14 +2105,71 @@
      "authority": "academic",
      "licence": null,
      "evidence": "Learner sentence '…我的老师很不快乐我没学了新的东西。' corrected to '…因为我没学到新的东西。' / '…因为我没学新的东西。' (id 906)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【了】•le",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❶用在动词或形容词后面，表示动作或变化已经完成。a）用于实际已经发生的动作或变化… b）用于预期的或假设的动作：你先去，我下～班就去… ❷用在句子的末尾或句中停顿的地方，表示变化或出现新的情况。a）表示已经出现或将要出现某种情况：下雨～｜…天快黑～'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【没有】²",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈副〉❶表示\"已然\"的否定：他还～回来｜天还～黑呢。❷表示\"曾经\"的否定：老张上个星期～回来过｜银行昨天～开门。'"
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 is correctly marked correct=false. Independent confirmation from the 现代汉语词典 entry 了 •le: ❶ '用在动词或形容词后面，表示动作或变化已经完成… b）用于预期的或假设的动作：你先去，我下了班就去' (了 with a future event, so it is not a past tense); ❷ '用在句子的末尾或句中停顿的地方，表示变化或出现新的情况… 下雨了｜天快黑了'. Entry 没有 (副) '表示\"已然\"的否定：他还没有回来' shows negation of a completed event without 了. Learner sentences re-checked in YACLC (id 34324, all three annotators drop 了) and MuCGEC (id 906).",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【了】•le",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❶用在动词或形容词后面，表示动作或变化已经完成。a）用于实际已经发生的动作或变化… b）用于预期的或假设的动作：你先去，我下～班就去… ❷用在句子的末尾或句中停顿的地方，表示变化或出现新的情况。a）表示已经出现或将要出现某种情况：下雨～｜…天快黑～'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【没有】²",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈副〉❶表示\"已然\"的否定：他还～回来｜天还～黑呢。❷表示\"曾经\"的否定：老张上个星期～回来过｜银行昨天～开门。'"
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -1576,20 +2300,77 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'…吸烟虽然对健康不有利…' → '…吸烟虽然对健康不利…' (id 400)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【不】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈注意〉…（2）动词\"有\"的否定式是\"没有\"，不是\"不有\"。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【没有】¹ ²",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【没有】¹ méi•yǒu〈动〉❶表示\"领有、具有\"等的否定：～票… ❷表示存在的否定：屋里～人' and '【没有】²〈副〉❶表示\"已然\"的否定：他还～回来'."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation from the 现代汉语词典: entry 不 〈注意〉(2) '动词\"有\"的否定式是\"没有\"，不是\"不有\"'; entry 没有² (副) '表示\"已然\"的否定：他还没有回来…表示\"曾经\"的否定：银行昨天没有开门'. The spoken forms bú rè / bú qù follow the 不 sandhi note in the same entry.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【不】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈注意〉…（2）动词\"有\"的否定式是\"没有\"，不是\"不有\"。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【没有】¹ ²",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【没有】¹ méi•yǒu〈动〉❶表示\"领有、具有\"等的否定：～票… ❷表示存在的否定：屋里～人' and '【没有】²〈副〉❶表示\"已然\"的否定：他还～回来'."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.measure-words",
    "title": "Number + measure word + noun (一个人, 两本书)",
-   "rule": "A number, or 这/那/哪/几/每, cannot attach directly to a noun: a measure word (classifier) goes in between — 两本书 'two books', 一件衣服 'a piece of clothing', 那个书包 'that schoolbag', 三口人 'three people (in a family)'. 个 is the general measure word for people and for nouns without a special one, and is usually toneless after a number (一个 yí ge, 两个 liǎng ge). Common specific ones: 本 books; 张 flat things such as paper and tables; 杯 a cup/glass of; 位 people (polite); 只 many animals and one of a pair; 件 clothes and matters; 条 long thin things (rivers, roads, trousers) and dogs; 辆 vehicles. 个 can stand in for some specific measure words, so it is the safe default, but 本/杯/位/张 are expected with their nouns.",
+   "rule": "A number cannot attach directly to a noun: a measure word (classifier) goes in between — 两本书 'two books', 一件衣服 'a piece of clothing', 三口人 'three people (in a family)'; after 这, 那, 哪, 几 and 每 a measure word is normally used as well (那个书包 'that schoolbag', 这个房间 'this room'). 个 is the general measure word for people and for nouns without a special one, and is usually toneless after a number (一个 yí ge, 两个 liǎng ge). Common specific ones: 本 books; 张 flat things such as paper and tables; 杯 a cup/glass of; 位 people (polite); 只 many animals and one of a pair; 件 clothes and matters; 条 long thin things (rivers, roads, trousers) and dogs; 辆 vehicles. 个 can stand in for some specific measure words, so it is the safe default, but 本/杯/位/张 are expected with their nouns.",
    "details": "2021 Grading Standards: 【一 08】名量词：杯、本、个、家、间、口、块、页 — 两杯牛奶 三本书 四个学生 五家商店 六间房子 三口人 七块面包; 【二 10】名量词：层、封、件、条、位 — 两层楼 一封信 一件衣服 一条河 一位老师; 【一 23】数量短语 — 一个 两杯 三本 四包 五块; 【一 06】— 她喜欢那个书包。 2025 HSK grammar syllabus: HSK1 专用名量词 本、个、家、口、块、件、只、元 and 借用名量词 杯; HSK2 条、位、间、名; HSK3 把、双、张、种、层、封、页、辆…. CC-CEDICT: 个 '(classifier used before a noun that has no specific classifier)'; 本 'classifier for books, periodicals, files etc'; 张 'classifier for flat objects, sheet'; 杯 'classifier for certain containers of liquids: glass, cup'; 位 'classifier for people (honorific)'; 只 'classifier for birds and certain animals, one of a pair, some utensils…'; 件 'classifier for events, things, clothes etc'; 条 'classifier for long thin things (ribbon, river, road, trousers etc)'; 辆 'classifier for vehicles'; noun entries: 书 CL:本, 车 CL:辆, 纸 CL:张, 桌子 CL:张, 衣服 CL:件, 狗 CL:只/条, 裤子 CL:条, 老师 CL:个/位, 咖啡 CL:杯. 新华字典 个: '用于没有专用量词的事物…也可用于某些有专用量词的事物'. Toneless 个 after numerals: CC-CEDICT 一个 [yi1 ge5]; PaddleSpeech '个做量词' → neutral.",
    "examples": [
     {
@@ -1736,14 +2517,71 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'我学的是一对一，所以她只有一学生。' → '…一名学生' / '…一个学生' (id 18122)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【个】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈量〉a）用于没有专用量词的名词（有些名词除了用专用量词之外也能用\"个\"）：三～苹果｜一～理想｜两～星期｜五～学校。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【这个】【那个】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【这个】zhè•ɡe〈代〉指示代词。❶这一个' and '【那个】nà•ɡe〈代〉指示代词。❶那一个' — 个 toneless."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 correctly marked correct=false (YACLC id 18122: all three annotators insert 个 or 名). Independent confirmation: 现代汉语词典 entry 个 gè '〈量〉a）用于没有专用量词的名词（有些名词除了用专用量词之外也能用\"个\"）：三个苹果｜一个理想｜两个星期'. The toneless 个 is supported by the dictionary's 这个 zhè•ge and 那个 nà•ge (and CC-CEDICT 一个 yi1 ge5). Across items the 'pinyin' field keeps citation gè where 个 is not part of a dictionary word (pitfalls.er-liang: liǎng gè rén, spoken liǎng ge rén), which is consistent with this rule.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【个】¹",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈量〉a）用于没有专用量词的名词（有些名词除了用专用量词之外也能用\"个\"）：三～苹果｜一～理想｜两～星期｜五～学校。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【这个】【那个】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【这个】zhè•ɡe〈代〉指示代词。❶这一个' and '【那个】nà•ɡe〈代〉指示代词。❶那一个' — 个 toneless."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -1885,21 +2723,56 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'这个星期的时间过的很愉快…' → '…过得很愉快' (id 33011); '我希望以后跟他们的相处的更愉快' → '我希望以后跟他们相处得更愉快' (id 22324)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【的】【地】【得】 •de",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【地】•de〈助〉表示它前边的词或词组是状语：天渐渐～冷了'; '【的】¹ •de〈助〉❶用在定语的后面'; '【的】² •de同\"得（•de）\"'; '【得】•de〈助〉…❷用在动词和补语中间，表示可能：拿～动… ❸用在动词或形容词后面，连接表示结果或程度的补语：跑～喘不过气来｜写～非常好'."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK (pinyin-pro's dì/dé readings are wrong for the particles; CC-CEDICT and the HSK list give de). Independent confirmation from the 现代汉语词典: 的 •de '用在定语的后面'; 地 •de '表示它前边的词或词组是状语：天渐渐地冷了'; 得 •de '用在动词和补语中间，表示可能：拿得动' and '用在动词或形容词后面，连接表示结果或程度的补语：写得非常好'. Nuance, not changed in the item: the same dictionary also lists 的² •de '同\"得\"', i.e. 的 written for 得 is a recognised variant in older or informal writing, and one of three YACLC annotators left 过的很愉快 unchanged (id 33011). HSK and school norms write 得 after a verb, so treating *过的很愉快 as the learner error is right for this app.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【的】【地】【得】 •de",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【地】•de〈助〉表示它前边的词或词组是状语：天渐渐～冷了'; '【的】¹ •de〈助〉❶用在定语的后面'; '【的】² •de同\"得（•de）\"'; '【得】•de〈助〉…❷用在动词和补语中间，表示可能：拿～动… ❸用在动词或形容词后面，连接表示结果或程度的补语：跑～喘不过气来｜写～非常好'."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.er-liang",
    "title": "二 èr vs 两 liǎng",
-   "rule": "Both mean 'two'. Use 两 before a measure word (两个人, 两本书, 两杯) and for clock time (两点 2:00 — but 两点二十五 2:25 and 十二点 12:00); 两 is also usual before 千, 万, 亿 (两千, 两万). Use 二 when counting or naming the number (一、二、三), for the tens and units of a larger number (十二, 二十, 一千三百五十二, 二十位学生), in ordinals (第二, 二楼 'second floor', 二月 'February') and in decimals and fractions (零点二四, 五分之二). Before 百 both occur (二百, 两百). With traditional weights both work (两斤 or 二斤), but two of the unit 两 is always 二两. When a number is read out digit by digit (phone, room or bus numbers), 1 is often said yāo (幺) for clarity.",
-   "details": "新华字典, entry 两: '一般用在量词或\"半、千、万、亿\"等前面…在多位数中常是大数用\"两\"，小数用\"二\"（\"两\"和\"二\"也可通用）'; '⑴有的数目字只能用\"二\"不能用\"两\"，如一、二、三，二十等中的\"二\"；⑵小数和分数只能用\"二\"…如零点二四（0.24），五分之二等；⑶序数也只能用\"二\"…如二姐，第二名等'; '③在传统的度量衡单位前，\"两\"和\"二\"可通用 两斤（二斤）。但\"二两\"不能用成\"两两\"。④新的度量衡单位前，一般用\"两\" 两米、两吨'. 2021 Grading Standards: 【一 07】数词 — 十二 二十 二百 两百 / 两个人 两本书; 【一 44】钟点 — 两点 (2:00), 两点二十五（分）, 差两分八点; 【二 09】— 一千三百五十二, 两万一千四百六十五; 【二 72】序数 — 第一 第三 第七 二楼 三层; other examples: 我们班由两位老师和二十位学生组成。都十二点了。机票差不多要两千块钱。卡里只有二百块钱。 Wiktionary (WikiPron) has 二月 ˀɤɻ⁵¹⁻⁵³ ɥɛ⁵¹ and 第二. CC-CEDICT 幺 [yao1]: 'one (unambiguous spoken form when spelling out numbers, esp. on telephone or in military)'. Learner errors (MuCGEC): '我不喜欢流行歌曲是有二个原因。' → '…有两个原因。'; '我去过了北京二次' → '我去过北京两次'.",
+   "rule": "Both mean 'two'. Use 两 before a measure word (两个人, 两本书, 两杯) and for clock time (两点 2:00 — but 两点二十五 2:25 and 十二点 12:00); before 千, 万 and 亿 两 is usual (两千, 两万), though 二 also occurs. Use 二 when counting or reading out numbers (一、二、三; phone, room and bus numbers are read digit by digit with 二, never 两, and 1 is then often said yāo 幺 for clarity), for the tens and units of a larger number (十二, 二十, 一千三百五十二, 二十位学生), in ordinals (第二, 二楼 'second floor', 二月 'February') and in decimals and fractions (零点二四, 五分之二). For 200 both 二百 and 两百 are used; inside a longer number the 现代汉语词典 gives 二 for the hundreds (二百二十二). With traditional weights both work (两斤 or 二斤), but two of the unit 两 is always 二两. A few polite set phrases keep 二 before 位: 二位, 您二位 'you two (polite)'.",
+   "details": "新华字典, entry 两: '一般用在量词或\"半、千、万、亿\"等前面…在多位数中常是大数用\"两\"，小数用\"二\"（\"两\"和\"二\"也可通用）'; '⑴有的数目字只能用\"二\"不能用\"两\"，如一、二、三，二十等中的\"二\"；⑵小数和分数只能用\"二\"…如零点二四（0.24），五分之二等；⑶序数也只能用\"二\"…如二姐，第二名等'; '③在传统的度量衡单位前，\"两\"和\"二\"可通用 两斤（二斤）。但\"二两\"不能用成\"两两\"。④新的度量衡单位前，一般用\"两\" 两米、两吨'. 2021 Grading Standards: 【一 07】数词 — 十二 二十 二百 两百 / 两个人 两本书; 【一 44】钟点 — 两点 (2:00), 两点二十五（分）, 差两分八点; 【二 09】— 一千三百五十二, 两万一千四百六十五; 【二 72】序数 — 第一 第三 第七 二楼 三层; other examples: 我们班由两位老师和二十位学生组成。都十二点了。机票差不多要两千块钱。卡里只有二百块钱。 Wiktionary (WikiPron) has 二月 ˀɤɻ⁵¹⁻⁵³ ɥɛ⁵¹ and 第二. CC-CEDICT 幺 [yao1]: 'one (unambiguous spoken form when spelling out numbers, esp. on telephone or in military)'. Learner errors (MuCGEC): '我不喜欢流行歌曲是有二个原因。' → '…有两个原因。'; '我去过了北京二次' → '我去过北京两次'. Reviewer (2026-11-02): 现代汉语词典 (7th ed.), entry 两: '读数目字只用\"二\"不用\"两\"…小数和分数只用\"二\"…序数也只用\"二\"…在一般量词前，用\"两\"不用\"二\"。在传统的度量衡单位前，\"两\"和\"二\"一般都可用，用\"二\"为多（\"二两\"不能说\"两两\"）。新的度量衡单位前一般用\"两\"…在多位数中，百、十、个位用\"二\"不用\"两\"，如\"二百二十二\"。\"千、万、亿\"的前面，\"两\"和\"二\"一般都可用'; entry 您: '～二位想吃点儿什么？'. Official HSK 1 sample H10901: '你住在哪儿？' — '我和妈妈都住在一零二。' (a room number read digit by digit).",
    "examples": [
     {
      "hanzi": "两个人",
@@ -2034,14 +2907,126 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'…我不喜欢流行歌曲是有二个原因。' → '…有两个原因。' (id 725); '虽然以前我去过了北京二次…' → '虽然以前我去过北京两次…' (id 820)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【两】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'注意\"两\"和\"二\"用法不全同。读数目字只用\"二\"不用\"两\"…在一般量词前，用\"两\"不用\"二\"…在多位数中，百、十、个位用\"二\"不用\"两\"，如\"二百二十二\"。\"千、万、亿\"的前面，\"两\"和\"二\"一般都可用'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【您】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'你；你们（含敬意）：老师，～早！｜～二位想吃点儿什么？'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Listening script item 13: '男：你住在哪儿？ 女：我和妈妈都住在一零二。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【两】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'读数目字只用\"二\"不用\"两\"，如\"一、二、三、四\"。小数和分数只用\"二\"不用\"两\"…序数也只用\"二\"…在一般量词前，用\"两\"不用\"二\"。在传统的度量衡单位前，\"两\"和\"二\"一般都可用，用\"二\"为多（\"二两\"不能说\"两两\"）…在多位数中，百、十、个位用\"二\"不用\"两\"，如\"二百二十二\"。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【您】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'～二位想吃点儿什么？'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'你住在哪儿？' — '我和妈妈都住在一零二。'"
     }
    ],
    "source": "新华字典 character entries (chinese-xinhua dataset, data/word.json) (pwxcoo/chinese-xinhua (data compiled from 新华字典))",
    "source_url": "https://github.com/pwxcoo/chinese-xinhua/blob/master/data/word.json",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); 国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); 国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 correctly marked correct=false (MuCGEC id 725). The 现代汉语词典 entry 两 independently confirms every rule in the item. Changes: (1) phone, room and bus numbers now explicitly take 二 (the brief asked for this; dictionary: '读数目字只用\"二\"不用\"两\"'; HSK 1 sample: 住在一零二); (2) added the dictionary's 二 for hundreds inside a longer number (二百二十二) and that 二 also occurs before 千/万; (3) added the polite exception 二位 / 您二位, which pitfalls.ninmen EX2 uses and which otherwise contradicts 'use 两 before a measure word' (现代汉语词典 您: 您二位想吃点儿什么？; 新华字典 您). Old rule: Both mean 'two'. Use 两 before a measure word (两个人, 两本书, 两杯) and for clock time (两点 2:00 — but 两点二十五 2:25 and 十二点 12:00); 两 is also usual before 千, 万, 亿 (两千, 两万). Use 二 when counting or naming the number (一、二、三), for the tens and units of a larger number (十二, 二十, 一千三百五十二, 二十位学生), in ordinals (第二, 二楼 'second floor', 二月 'February') and in decimals and fractions (零点二四, 五分之二). Before 百 both occur (二百, 两百). With traditional weights both work (两斤 or 二斤), but two of the unit 两 is always 二两. When a number is read out digit by digit (phone, room or bus numbers), 1 is often said yāo (幺) for clarity.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【两】¹",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'读数目字只用\"二\"不用\"两\"，如\"一、二、三、四\"。小数和分数只用\"二\"不用\"两\"…序数也只用\"二\"…在一般量词前，用\"两\"不用\"二\"。在传统的度量衡单位前，\"两\"和\"二\"一般都可用，用\"二\"为多（\"二两\"不能说\"两两\"）…在多位数中，百、十、个位用\"二\"不用\"两\"，如\"二百二十二\"。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【您】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'～二位想吃点儿什么？'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+      "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'你住在哪儿？' — '我和妈妈都住在一零二。'"
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
@@ -2183,21 +3168,100 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'我希望早就修理，要不然我不会洗澡啊。' corrected to '我希望早点儿修理，要不然我不能洗澡啊。' (id 12452)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【会】²",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❸〈动〉助动词。表示懂得怎样做或有能力做（多半指需要学习的事情）：我不～滑冰… ❺〈动〉助动词。表示有可能实现：他不～不来'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【能】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'注意a）\"能\"表示具备某种能力或达到某种效率，\"会\"表示学得某种本领。初次学会某种动作用\"会\"，恢复某种能力用\"能\"，如：小弟弟会走路了｜他病好了，能下床了。具备某种技能可以用\"能\"，也可以用\"会\"，如：能写会算。达到某种效率，用\"能\"，不用\"会\"'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【可以】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈动〉助动词。❶表示可能或能够… ❷表示许可：你～走了。'"
     }
    ],
    "source": "CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup (MDBG / CC-CEDICT contributors)",
    "source_url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); 国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); 国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Independent confirmation from the 现代汉语词典: 会² ❸ '表示懂得怎样做或有能力做（多半指需要学习的事情）：我不会滑冰', ❺ '表示有可能实现：他不会不来'; 能 〈注意〉a) '\"能\"表示具备某种能力或达到某种效率，\"会\"表示学得某种本领。初次学会某种动作用\"会\"，恢复某种能力用\"能\"…他病好了，能下床了…达到某种效率，用\"能\"，不用\"会\"'; 可以 ❶ '表示可能或能够', ❷ '表示许可：你可以走了'. The overlap the item mentions is also in the dictionary (a skill can take 能 or 会: 能写会算). YACLC id 12452 re-checked: all three annotators change 不会洗澡 to 不能洗澡. EX3's spoken 'wǒ kéyǐ' follows the 1+2 grouping; 'wó kéyǐ' is also heard.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【会】²",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❸〈动〉助动词。表示懂得怎样做或有能力做（多半指需要学习的事情）：我不～滑冰… ❺〈动〉助动词。表示有可能实现：他不～不来'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【能】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'注意a）\"能\"表示具备某种能力或达到某种效率，\"会\"表示学得某种本领。初次学会某种动作用\"会\"，恢复某种能力用\"能\"，如：小弟弟会走路了｜他病好了，能下床了。具备某种技能可以用\"能\"，也可以用\"会\"，如：能写会算。达到某种效率，用\"能\"，不用\"会\"'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【可以】¹",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈动〉助动词。❶表示可能或能够… ❷表示许可：你～走了。'"
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.ninmen",
    "title": "您们 is not the polite plural: use 大家, 各位 or 你们",
-   "rule": "您 nín is the polite singular 'you'. The Xinhua Dictionary advises against adding 们: for more than one person say 您俩 or 您二位 (two), 您仨 or 您三位 (three), 您诸位 (more). In everyday speech a group is addressed as 你们, 大家 'everyone' or 各位 'everybody, ladies and gentlemen' (各位朋友，下午好!). 您们 is missing from CC-CEDICT and from the HSK pronoun lists (which contain 您 but not 您们), although the form exists (Wiktionary has an entry) and you may see it written.",
-   "details": "新华字典 您: '注意用于多数时不加词尾\"们\"，两个人称\"您俩\"或\"您二位\"，三个人称\"您仨\"或\"您三位\"，三个人以上称\"您诸位\"。' CC-CEDICT: no entry 您们; 您 'you (courteous, as opposed to informal 你)'; 各位 'everybody; all (guests, colleagues etc); all of you'; 大家 'everyone'. 2025 HSK grammar syllabus HSK1 人称代词: 我、你、您、他、她、我们、你们、他们、她们、它、它们、大家; 各位 is an HSK4 word (and an HSK3 指示代词 in the 2021 Standards: 各位朋友，下午好！). WikiPron lists a Wiktionary entry 您們 (nín + men). A learner wrote '…非常麻烦您们了,谢谢您.' (YACLC); one annotator corrected it to '麻烦你们了,谢谢你们！' while another left 您们 — usage is not uniform, but standard references avoid it.",
+   "rule": "您 nín is the polite 'you'. It is mostly said to one person. For several people the 新华字典 advises against adding 们 and gives 您俩 or 您二位 (two), 您仨 or 您三位 (three), 您诸位 (more); the 现代汉语词典 glosses 您 as '你；你们（含敬意）' with the example 您二位想吃点儿什么？. In everyday speech a group is addressed as 你们, 大家 'everyone' or 各位 'everybody, ladies and gentlemen' (各位朋友，下午好!). 您们 is not in CC-CEDICT, the 现代汉语词典 or the HSK pronoun lists; some native speakers do write it (rarely), so you may see it, but don't use it yourself.",
+   "details": "新华字典 您: '注意用于多数时不加词尾\"们\"，两个人称\"您俩\"或\"您二位\"，三个人称\"您仨\"或\"您三位\"，三个人以上称\"您诸位\"。' CC-CEDICT: no entry 您们; 您 'you (courteous, as opposed to informal 你)'; 各位 'everybody; all (guests, colleagues etc); all of you'; 大家 'everyone'. 2025 HSK grammar syllabus HSK1 人称代词: 我、你、您、他、她、我们、你们、他们、她们、它、它们、大家; 各位 is an HSK4 word (and an HSK3 指示代词 in the 2021 Standards: 各位朋友，下午好！). WikiPron lists a Wiktionary entry 您們 (nín + men). A learner wrote '…非常麻烦您们了,谢谢您.' (YACLC); one annotator corrected it to '麻烦你们了,谢谢你们！' while another left 您们 — usage is not uniform, but standard references avoid it. Reviewer (2026-11-02): 现代汉语词典 (7th ed.) 【您】nín '人称代词。你；你们（含敬意）：老师，您早！｜您二位想吃点儿什么？' (no entry 您们). In two corpora of native-speaker task dialogues (CrossWOZ, RiSAWOZ; about 236,000 utterances) 您们 occurs 12 times, always an agent addressing a group (我建议您们可以去狮子林), against 806 for 你们. Official HSK 4 sample H41001: a hotel guest tells the staff '谢谢！麻烦你们了。'.",
    "examples": [
     {
      "hanzi": "各位朋友，下午好！",
@@ -2343,21 +3407,177 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'…我非常麻烦您们了,谢谢您.' → '我在马来西亚的时候麻烦你们了,谢谢你们！' (id 34380)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【您】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【您】nín〈代〉人称代词。你；你们（含敬意）：老师，～早！｜～二位想吃点儿什么？' (no headword 您们)."
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "您们 in 1 agent turn ('那您们还可以去北京当代艺术馆玩玩。') vs 你们 in 486 turns."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "您们 in 11 agent turns, all addressing a group (e.g. '我建议您们可以去狮子林。') vs 你们 in 320 turns; both corpora together: 您们 12 vs 你们 806."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【您】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'你；你们（含敬意）：老师，～早！｜～二位想吃点儿什么？'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【诸位】【大家】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【诸位】zhūwèi〈代〉人称代词。对所指的若干人的尊称：～同志' and '【大家】² dàjiā〈代〉人称代词。指一定范围内所有的人：～安静点儿，现在开会了'."
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "您们 in 1 of 84,692 utterances (agent addressing a group); 你们 in 486."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "您们 in 11 of 151,982 utterances (all agents addressing a group); 你们 in 320."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+     "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Listening script: '男：谢谢！麻烦你们了。 女：不客气。'"
     }
    ],
    "source": "新华字典 character entries (chinese-xinhua dataset, data/word.json) (pwxcoo/chinese-xinhua (data compiled from 新华字典))",
    "source_url": "https://github.com/pwxcoo/chinese-xinhua/blob/master/data/word.json",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup",
-   "status": "unverified",
-   "confidence": "medium",
-   "verification": null,
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup; independent verifier (agent), 2026-11-02",
+   "status": "verified",
+   "confidence": "high",
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "fixed",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 stays correct=false as non-standard per both dictionaries. Correction: 'polite singular' was imprecise — the 现代汉语词典 glosses 您 as '你；你们（含敬意）' and uses 您二位, so 您 itself can address several people when followed by a number; the rule now says so. Confirmed: 新华字典 advises against 们; 您们 is absent from the 现代汉语词典 and CC-CEDICT. Native data show 您们 is rare but real (12 vs 806 for 你们 in CrossWOZ+RiSAWOZ), which supports 'you may see it written'. HSK sample H41001 has a guest saying 麻烦你们了 to hotel staff. Confidence raised from medium to high. Old rule: 您 nín is the polite singular 'you'. The Xinhua Dictionary advises against adding 们: for more than one person say 您俩 or 您二位 (two), 您仨 or 您三位 (three), 您诸位 (more). In everyday speech a group is addressed as 你们, 大家 'everyone' or 各位 'everybody, ladies and gentlemen' (各位朋友，下午好!). 您们 is missing from CC-CEDICT and from the HSK pronoun lists (which contain 您 but not 您们), although the form exists (Wiktionary has an entry) and you may see it written.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【您】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'你；你们（含敬意）：老师，～早！｜～二位想吃点儿什么？'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【诸位】【大家】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'【诸位】zhūwèi〈代〉人称代词。对所指的若干人的尊称：～同志' and '【大家】² dàjiā〈代〉人称代词。指一定范围内所有的人：～安静点儿，现在开会了'."
+     },
+     {
+      "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+      "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+      "publisher": "thu-coai (Tsinghua University)",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "您们 in 1 of 84,692 utterances (agent addressing a group); 你们 in 486."
+     },
+     {
+      "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+      "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+      "publisher": "terryqj0107/RiSAWOZ",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": "CC BY-NC 4.0",
+      "evidence": "您们 in 11 of 151,982 utterances (all agents addressing a group); 你们 in 320."
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+      "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "Listening script: '男：谢谢！麻烦你们了。 女：不客气。'"
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.bukeqi",
    "title": "Replying to 谢谢: 不客气, 不用谢, 没事 — 没关系 answers an apology",
-   "rule": "Answer thanks with 不客气 (bú kèqi, literally 'don't be polite'), 不用谢 ('no need to thank me') or 不用客气; casually also 没事(儿) ('it's nothing'). 没关系 means 'it doesn't matter' and is the reply to an apology (对不起 → 没关系), not to thanks; 没事 fits both. Note that 不客气 also has an ordinary meaning 'impolite, blunt' when it describes how someone behaves.",
-   "details": "CC-CEDICT: 不客气 'you're welcome; don't mention it; impolite; rude; blunt'; 不用谢 'You're welcome; Don't mention it'; 不用客气 'you're welcome; don't mention it; no need to stand on ceremony'; 没事 'it's not important; it's nothing; never mind; to have nothing to do; to be free; to be all right'; 没事儿 '…it's not important; it's nothing; never mind'; 没关系 'it doesn't matter'. 2025 HSK syllabus: 谢谢 xièxie, 不客气 bú kèqi, 没关系 méi guānxi, 没事 méishì and 对不起 duìbuqǐ are all HSK1 words, and the HSK1 task list asks learners to exchange simple courtesies '如你好、谢谢、对不起、再见等'. The 2021 Standards use 没事儿 in '他笑着说：\"没事儿。\"'. Whether 不客气 sounds stiffer than 不用谢 / 没事 in today's mainland speech was not verified (see open questions).",
+   "rule": "Answer thanks with 不客气 (bú kèqi, literally 'don't be polite'), 不用客气, 别客气 ('no need to stand on ceremony') or 不用谢 ('no need to thank me'); casually also 没事 ('it's nothing'; also said with erhua, 没事儿). In native-speaker dialogues 不客气 is by far the commonest reply, followed by 不用客气 and 别客气. 没关系 'it doesn't matter' is the standard reply to an apology (对不起 → 没关系); after thanks it turns up only occasionally, so keep it for apologies. 没事 fits both. Note that 不客气 also has an ordinary meaning 'impolite, blunt' when it describes how someone behaves.",
+   "details": "CC-CEDICT: 不客气 'you're welcome; don't mention it; impolite; rude; blunt'; 不用谢 'You're welcome; Don't mention it'; 不用客气 'you're welcome; don't mention it; no need to stand on ceremony'; 没事 'it's not important; it's nothing; never mind; to have nothing to do; to be free; to be all right'; 没事儿 '…it's not important; it's nothing; never mind'; 没关系 'it doesn't matter'. 2025 HSK syllabus: 谢谢 xièxie, 不客气 bú kèqi, 没关系 méi guānxi, 没事 méishì and 对不起 duìbuqǐ are all HSK1 words, and the HSK1 task list asks learners to exchange simple courtesies '如你好、谢谢、对不起、再见等'. The 2021 Standards use 没事儿 in '他笑着说：\"没事儿。\"'. Whether 不客气 sounds stiffer than 不用谢 / 没事 in today's mainland speech was not verified (see open questions). Reviewer (2026-11-02): official HSK sample scripts answer thanks with 不客气 (H10901 '谢谢你们！—不客气。再见。'; H21003 '谢谢你！—不客气！再见。'; H41001 '谢谢！麻烦你们了。—不客气。'). 现代汉语词典 不 ❽ '不用；不要（限用于某些客套话）：不谢｜不送｜不客气'. CrossWOZ (5,677 thanks turns) / RiSAWOZ (10,633): replies start with 不客气 55% / 41%, 不用客气 12% / 11%, 别客气 1% / 11%, 不用谢 4% / 4%, 没事 0.7% / 0.3%, 没关系 0.1% / 1.4% (together about 16,300 replies: 不客气 46%, 不用客气 11%, 别客气 8%, 不用谢 4%, 没关系 0.9%). CC-CEDICT: 别客气 'don't mention it; no formalities, please'. The same corpora write 没事 (without 儿) 287 times and 没事儿 17 times.",
    "examples": [
     {
      "hanzi": "不客气。",
@@ -2398,22 +3618,22 @@
      }
     },
     {
-     "hanzi": "没事儿。",
-     "pinyin": "Méishìr.",
+     "hanzi": "没事。",
+     "pinyin": "Méishì.",
      "spoken": null,
-     "pinyin_as_source": "mei2 shi4 r5",
-     "english": "It's nothing. / Never mind. (casual; also after an apology)",
+     "pinyin_as_source": "méishì",
+     "english": "It's nothing. / No problem. (casual; answers thanks or an apology; also said 没事儿)",
      "correct": true,
      "source": {
-      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-      "title": "CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup",
-      "publisher": "MDBG / CC-CEDICT contributors",
-      "published": "2026-05-18",
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+      "title": "HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07)",
+      "publisher": "中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2025-11",
       "accessed": "2026-11-02",
-      "via": "curl",
-      "authority": "dictionary",
+      "via": "git",
+      "authority": "official",
       "licence": null,
-      "evidence": "没事儿 [mei2 shi4 r5] 'to have spare time; free from work; it's not important; it's nothing; never mind'. 2021 Standards 【三 56】: '他笑着说：\"没事儿。\"'"
+      "evidence": "词汇大纲 HSK1: '121 1 没事 méishì 动'. Native use as a reply to thanks (CrossWOZ): 'OK，我知道了，谢谢啊！' → '没事，不用客气！'. CC-CEDICT 没事 [mei2 shi4] 'it's not important; it's nothing; never mind'."
      }
     },
     {
@@ -2436,7 +3656,7 @@
      }
     }
    ],
-   "common_mistake": "Answering 谢谢 with 没关系 ('it doesn't matter'), which answers an apology; and saying 不客气 with a full bù (it is bú kèqi).",
+   "common_mistake": "Mixing up the two textbook pairs (谢谢 → 不客气; 对不起 → 没关系): 没关系 after thanks is heard now and then, but it is not the usual reply. And saying 不客气 with a full bù (it is bú kèqi).",
    "sources": [
     {
      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
@@ -2470,21 +3690,188 @@
      "authority": "official",
      "licence": null,
      "evidence": "【三 56】连动句2: '他笑着说：\"没事儿。\"'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Listening script item 15: '男：谢谢你们！ 女：不客气。再见。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+     "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Listening script: '男：谢谢！麻烦你们了。 女：不客气。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【不】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❽不用；不要（限用于某些客套话）：～谢｜～送｜～客气。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "Replies to a user's thanks (thanks turns without 对不起/不好意思/抱歉/麻烦, n=5,677; next agent turn starts with): 不客气 3,137 (55%), 不用客气 690 (12%), 不用谢 245 (4%), 您客气 88, 别客气 60 (1%), 没事 38 (0.7%), 没关系 4 (0.1%). Example: 'OK，谢谢啊！' → '没事，不用客气！'."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "Replies to a user's thanks (same filter, n=10,633): 不客气 4,387 (41%), 别客气 1,189 (11%), 不用客气 1,163 (11%), 不用谢 415 (4%), 您客气 256, 没关系 148 (1.4%, e.g. '好的，谢谢你啊，再见。' → '没关系的，再见。'), 没事 35 (0.3%)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'男：谢谢你们！ 女：不客气。再见。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf",
+     "title": "Official HSK sample test H21003 (HSK 2), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'女：…谢谢你！ 男：不客气！再见。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+     "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'男：谢谢！麻烦你们了。 女：不客气。'"
     }
    ],
    "source": "CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup (MDBG / CC-CEDICT contributors)",
    "source_url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
-   "confidence": "medium",
-   "verification": null,
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
+   "confidence": "high",
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "fixed",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK after the change. Confirmed by sources independent of the researcher's: official HSK sample scripts use 谢谢 → 不客气 (H10901, H21003, H41001); 现代汉语词典 不 ❽ lists 不谢 / 不客气 as set courtesy phrases; native task dialogues (CrossWOZ, RiSAWOZ) show 不客气 as by far the commonest reply, so it does not sound stiff — this answers the researcher's open question. Corrections: (1) 别客气 added — about 8% of the replies, more frequent than 不用谢; (2) '没关系 … not to thanks' softened: it is the standard reply to an apology, but native speakers occasionally use it after thanks (148 of 10,633 replies in RiSAWOZ, 4 of 5,677 in CrossWOZ); (3) EX2 没事儿 replaced by 没事 (the 2025 HSK1 word; 没事 287 vs 没事儿 17 in the corpora; the plain form also suits a family from south/central China, though no source on regional erhua was found — see open questions). Old rule: Answer thanks with 不客气 (bú kèqi, literally 'don't be polite'), 不用谢 ('no need to thank me') or 不用客气; casually also 没事(儿) ('it's nothing'). 没关系 means 'it doesn't matter' and is the reply to an apology (对不起 → 没关系), not to thanks; 没事 fits both. Note that 不客气 also has an ordinary meaning 'impolite, blunt' when it describes how someone behaves. Old common_mistake: Answering 谢谢 with 没关系 ('it doesn't matter'), which answers an apology; and saying 不客气 with a full bù (it is bú kèqi). Old EX2: 没事儿。 | Méishìr. | as_source mei2 shi4 r5.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+      "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'男：谢谢你们！ 女：不客气。再见。'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf",
+      "title": "Official HSK sample test H21003 (HSK 2), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'女：…谢谢你！ 男：不客气！再见。'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+      "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'男：谢谢！麻烦你们了。 女：不客气。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【不】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❽不用；不要（限用于某些客套话）：～谢｜～送｜～客气。'"
+     },
+     {
+      "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+      "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+      "publisher": "thu-coai (Tsinghua University)",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "Replies to a user's thanks (thanks turns without 对不起/不好意思/抱歉/麻烦, n=5,677; next agent turn starts with): 不客气 3,137 (55%), 不用客气 690 (12%), 不用谢 245 (4%), 您客气 88, 别客气 60 (1%), 没事 38 (0.7%), 没关系 4 (0.1%). Example: 'OK，谢谢啊！' → '没事，不用客气！'."
+     },
+     {
+      "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+      "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+      "publisher": "terryqj0107/RiSAWOZ",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": "CC BY-NC 4.0",
+      "evidence": "Replies to a user's thanks (same filter, n=10,633): 不客气 4,387 (41%), 别客气 1,189 (11%), 不用客气 1,163 (11%), 不用谢 415 (4%), 您客气 256, 没关系 148 (1.4%, e.g. '好的，谢谢你啊，再见。' → '没关系的，再见。'), 没事 35 (0.3%)."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.duibuqi",
    "title": "对不起 vs 不好意思 vs 抱歉; 打扰一下 / 请问 for 'excuse me'",
-   "rule": "对不起 is a real apology ('I'm sorry; I let you down'), for an actual fault — e.g. after being told you broke a rule. 不好意思 is lighter ('sorry — I'm embarrassed to trouble you'): small lapses, inconveniencing someone, interrupting, asking a favour (不好意思，我没拿来). 抱歉 'sorry' is more formal, e.g. staff speaking to a customer (抱歉，先生，这里禁止吸烟). To get attention or interrupt, use 打扰一下 ('sorry to bother you') or 请问 ('may I ask…'). 劳驾 'excuse me' also exists but the 2025 HSK syllabus places it in the advanced 7–9 band.",
-   "details": "CC-CEDICT: 对不起 'I'm sorry; excuse me; I beg your pardon; to let (sb) down; to disappoint'; 不好意思 'to feel embarrassed; to find it embarrassing; to be sorry (for inconveniencing sb)'; 抱歉 'to be sorry; to feel apologetic; sorry!'; 打扰 'to disturb; to bother; to trouble'; 请问 'Excuse me, may I ask...?'; 劳驾 'excuse me'. 2025 HSK syllabus levels: 对不起 and 请问 HSK1; 不好意思 HSK2; 抱歉 and 打扰 HSK4; 劳驾 HSK7–9. Official sample listening dialogue: '女：抱歉，先生，这里禁止吸烟。男：对不起，我马上离开。这附近哪里能吸烟？' Official sample reading item: '（打扰）一下，同学，请不要在自习室里大声讨论。' 2021 Standards 【二 50】: '甲：你的词典呢？乙：不好意思，我没拿来。'",
+   "rule": "对不起 is the full apology ('I'm sorry'), for something you did wrong (对不起，我错了; after being told you broke a rule: 对不起，我马上离开). Staff also use it to soften bad news or a refusal (对不起，十四号的已经卖完了 'sorry, the 14th is sold out'). 不好意思 is lighter ('sorry, I feel bad about this'): small lapses, inconveniencing someone, interrupting, asking a favour (不好意思，我没拿来); it is also the usual everyday 'excuse me'. 抱歉 'sorry' sounds a little more formal and is very common in service language and announcements (抱歉，先生，这里禁止吸烟; 很抱歉地通知您). To get attention or start a question, use 请问 ('may I ask…'), 打扰一下 ('sorry to bother you') or 不好意思. 劳驾 'excuse me' also exists but is rare in everyday use, and the 2025 HSK syllabus places it in the advanced 7–9 band.",
+   "details": "CC-CEDICT: 对不起 'I'm sorry; excuse me; I beg your pardon; to let (sb) down; to disappoint'; 不好意思 'to feel embarrassed; to find it embarrassing; to be sorry (for inconveniencing sb)'; 抱歉 'to be sorry; to feel apologetic; sorry!'; 打扰 'to disturb; to bother; to trouble'; 请问 'Excuse me, may I ask...?'; 劳驾 'excuse me'. 2025 HSK syllabus levels: 对不起 and 请问 HSK1; 不好意思 HSK2; 抱歉 and 打扰 HSK4; 劳驾 HSK7–9. Official sample listening dialogue: '女：抱歉，先生，这里禁止吸烟。男：对不起，我马上离开。这附近哪里能吸烟？' Official sample reading item: '（打扰）一下，同学，请不要在自习室里大声讨论。' 2021 Standards 【二 50】: '甲：你的词典呢？乙：不好意思，我没拿来。' Reviewer (2026-11-02): official HSK sample scripts — H20901 '对不起，我错了。' and '对不起，十四号的已经卖完了'; H41001 '先生，对不起，我们这儿不能抽烟。'; HSK 4 sample '乘客您好，我们很抱歉地通知您，由于天气原因…'. 现代汉语词典: 对不起 '对人有愧，常用为表示抱歉的套语：～，让您久等了'; 抱歉 '心中不安，觉着对不住别人'; 劳驾 '客套话，用于请别人做事或让路'. CrossWOZ + RiSAWOZ: agents apologise with 抱歉 2,822×, 不好意思 1,106×, 对不起 310×; customers' turns contain 不好意思 106×, 抱歉 17×, 对不起 6× (mostly for their own slips: typos, wrong requests); 请问 3,540×, 打扰一下 6×, 劳驾 5×.",
    "examples": [
     {
      "hanzi": "不好意思，我没拿来。",
@@ -2563,7 +3950,7 @@
      }
     }
    ],
-   "common_mistake": "Using 对不起 as an all-purpose 'excuse me' — it sounds like a real apology; to stop someone or ask a question use 打扰一下, 请问 or 不好意思.",
+   "common_mistake": "Using 对不起 as an all-purpose 'excuse me' — it is the heavier apology; to stop someone or ask a question use 请问, 打扰一下 or 不好意思.",
    "sources": [
     {
      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
@@ -2608,21 +3995,276 @@
      "authority": "official",
      "licence": null,
      "evidence": "【二 50】'甲：你的词典呢？乙：不好意思，我没拿来。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf",
+     "title": "Official HSK sample test H20901 (HSK 2), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'对不起，我错了。' (item 2) and '女：对不起，十四号的已经卖完了…' (listening)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+     "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'女：先生，对不起，我们这儿不能抽烟。 男：请问，附近有可以抽烟的地方吗？'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf",
+     "title": "Official HSK sample test HSK4 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'乘客您好，我们很抱歉地通知您，由于天气原因，您乘坐的CA1864航…'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【对不起】【抱歉】【劳驾】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【对不起】duì•buqǐ〈动〉对人有愧，常用为表示抱歉的套语：～，让您久等了。'; '【抱歉】bàoqiàn〈形〉心中不安，觉着对不住别人'; '【劳驾】láojià〈动〉客套话，用于请别人做事或让路：～，请让让路。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "Agent turns: 抱歉 2,347, 不好意思 691, 对不起 302 (e.g. '对不起，酒店周边没有景点。'); user turns: 不好意思 60, 抱歉 13, 对不起 2; 请问 671, 打扰一下 1, 劳驾 3."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "Agent turns: 抱歉 475, 不好意思 415, 对不起 8; user turns: 不好意思 46, 抱歉 4, 对不起 4; 请问 1,908, 打扰一下 5, 劳驾 2."
+    },
+    {
+     "url": "https://www.digmandarin.com/?p=6106",
+     "title": "Secrets of Saying Sorry: “对不起”’s Correct Use",
+     "publisher": "Digmandarin",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "One WebSearch summary covering this page together with other teaching pages (K-State Chinese Pragmatics, ChineseClass101, PREP, Mandarin Mosaic; pages not opened): 对不起 is the strong apology for real fault or considerable trouble; 不好意思 covers minor awkwardness, is used before asking a question or interrupting and works like 'excuse me', and is better than 对不起 when asking for a favour or directions; 抱歉 is a little lighter than 对不起 and is also used when the speaker did not cause the problem (我们很抱歉地通知您)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf",
+     "title": "Official HSK sample test H20901 (HSK 2), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'对不起，我错了。'; '对不起，十四号的已经卖完了'."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+     "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'先生，对不起，我们这儿不能抽烟。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf",
+     "title": "Official HSK sample test HSK4 (HSK 4), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'乘客您好，我们很抱歉地通知您，由于天气原因…'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【对不起】【抱歉】【劳驾】【请问】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'对人有愧，常用为表示抱歉的套语：～，让您久等了'; '心中不安，觉着对不住别人'; '客套话，用于请别人做事或让路'; '【请问】敬辞，用于请求对方回答问题'."
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "Agent turns: 抱歉 2,347, 不好意思 691, 对不起 302; user turns: 不好意思 60, 抱歉 13, 对不起 2."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "Agent turns: 抱歉 475, 不好意思 415, 对不起 8; user turns: 不好意思 46, 抱歉 4, 对不起 4."
+    },
+    {
+     "url": "https://www.k-state.edu/chinesepragmatics/apologies/2directapologystrategies.html",
+     "title": "Unit 2: Direct Apology Strategies in Chinese",
+     "publisher": "Kansas State University, Chinese Pragmatics (teaching site)",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "Listed in the same WebSearch as the Digmandarin page; the combined summary (see that source) describes 对不起 as the serious apology, 不好意思 as the minor one / 'excuse me', and 抱歉 between them. Page not opened."
     }
    ],
    "source": "CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup (MDBG / CC-CEDICT contributors)",
    "source_url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "medium",
-   "verification": null,
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Corrections: (1) 对不起 was limited to 'an actual fault', but official HSK sample scripts and native dialogues also use it for polite bad news and refusals (对不起，十四号的已经卖完了; 先生，对不起，我们这儿不能抽烟; 对不起，酒店周边没有景点) — added; (2) 抱歉 was 'more formal, e.g. staff to customer': it is the agents' commonest apology in CrossWOZ/RiSAWOZ and appears in announcements (很抱歉地通知您), but also in personal speech (真抱歉), so it is now 'a little more formal, very common in service language and announcements'; (3) 不好意思 named as the everyday 'excuse me' and 请问 listed first (请问 3,540× vs 打扰一下 6× in the corpora); (4) 劳驾 noted as rare (5× in about 236,000 utterances). Teaching sites (WebSearch summaries: Digmandarin, K-State Chinese Pragmatics) agree on 对不起 = serious apology, 不好意思 = minor / 'excuse me', 抱歉 between them. Confidence stays medium: politeness nuances vary by region and age. Old rule: 对不起 is a real apology ('I'm sorry; I let you down'), for an actual fault — e.g. after being told you broke a rule. 不好意思 is lighter ('sorry — I'm embarrassed to trouble you'): small lapses, inconveniencing someone, interrupting, asking a favour (不好意思，我没拿来). 抱歉 'sorry' is more formal, e.g. staff speaking to a customer (抱歉，先生，这里禁止吸烟). To get attention or interrupt, use 打扰一下 ('sorry to bother you') or 请问 ('may I ask…'). 劳驾 'excuse me' also exists but the 2025 HSK syllabus places it in the advanced 7–9 band. Old common_mistake: Using 对不起 as an all-purpose 'excuse me' — it sounds like a real apology; to stop someone or ask a question use 打扰一下, 请问 or 不好意思.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf",
+      "title": "Official HSK sample test H20901 (HSK 2), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'对不起，我错了。'; '对不起，十四号的已经卖完了'."
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+      "title": "Official HSK sample test H41001 (HSK 4), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'先生，对不起，我们这儿不能抽烟。'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf",
+      "title": "Official HSK sample test HSK4 (HSK 4), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'乘客您好，我们很抱歉地通知您，由于天气原因…'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【对不起】【抱歉】【劳驾】【请问】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'对人有愧，常用为表示抱歉的套语：～，让您久等了'; '心中不安，觉着对不住别人'; '客套话，用于请别人做事或让路'; '【请问】敬辞，用于请求对方回答问题'."
+     },
+     {
+      "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+      "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+      "publisher": "thu-coai (Tsinghua University)",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "Agent turns: 抱歉 2,347, 不好意思 691, 对不起 302; user turns: 不好意思 60, 抱歉 13, 对不起 2."
+     },
+     {
+      "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+      "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+      "publisher": "terryqj0107/RiSAWOZ",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": "CC BY-NC 4.0",
+      "evidence": "Agent turns: 抱歉 475, 不好意思 415, 对不起 8; user turns: 不好意思 46, 抱歉 4, 对不起 4."
+     },
+     {
+      "url": "https://www.digmandarin.com/?p=6106",
+      "title": "Secrets of Saying Sorry: “对不起”’s Correct Use",
+      "publisher": "Digmandarin",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "One WebSearch summary covering this page together with other teaching pages (K-State Chinese Pragmatics, ChineseClass101, PREP, Mandarin Mosaic; pages not opened): 对不起 is the strong apology for real fault or considerable trouble; 不好意思 covers minor awkwardness, is used before asking a question or interrupting and works like 'excuse me', and is better than 对不起 when asking for a favour or directions; 抱歉 is a little lighter than 对不起 and is also used when the speaker did not cause the problem (我们很抱歉地通知您)."
+     },
+     {
+      "url": "https://www.k-state.edu/chinesepragmatics/apologies/2directapologystrategies.html",
+      "title": "Unit 2: Direct Apology Strategies in Chinese",
+      "publisher": "Kansas State University, Chinese Pragmatics (teaching site)",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "Listed in the same WebSearch as the Digmandarin page; the combined summary (see that source) describes 对不起 as the serious apology, 不好意思 as the minor one / 'excuse me', and 抱歉 between them. Page not opened."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.shi-adjective",
    "title": "No 是 before adjectives: 我很忙, not *我是忙",
-   "rule": "Chinese adjectives are predicates by themselves, so there is no 'to be' before them: 我很忙 'I'm busy', 房间很干净 'the room is clean', 今天不冷 'it isn't cold today'. 是 links a subject to a noun (他是我的老师). In a plain positive statement the adjective normally takes a degree adverb — usually 很, which here often does not mean 'very' — or 非常, 太…了, 最, or is negated with 不. 是 + adjective + 的 is a different pattern that classifies (花是白的 'the flowers are white ones').",
-   "details": "CC-CEDICT: 是 'to be (followed by substantives only)'; 很 'very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)'. 2021 Grading Standards: 【一 30】形容词谓语句 — 房间很干净。这个学生最认真。; 【一 25】今天不冷。这个菜很好吃。; 【一 05】她很高。; 【一 36】\"是\"字句 (1) 他是我的老师。(2) 表示说明或特征 — 花是白的。衣服是干净的。 Learner corpora: YACLC '她也是很苗条' → '她很苗条'; MuCGEC '这是很有意思。' → '这很有意思。'; YACLC '去关西大学半路上的马路上拥挤。' → '…马路上很拥挤。' (annotators added 很 to a bare adjective).",
+   "rule": "Chinese adjectives are predicates by themselves, so there is no 'to be' before them: 我很忙 'I'm busy', 房间很干净 'the room is clean', 今天不冷 'it isn't cold today'. 是 links a subject to a noun (他是我的老师). In a plain positive statement the adjective normally takes a degree adverb — usually 很, which here often does not mean 'very' — or 非常, 太…了, 最, or is negated with 不. 是 + adjective + 的 is a different pattern that classifies (花是白的 'the flowers are white ones'). A stressed 是 before 很 + adjective is not 'to be' either: it means 'indeed, it really is' and is used to agree or concede (你说得对，这位经理是很负责 'you're right, this manager really is responsible'). So 是 never translates a plain 'is / am / are' before an adjective (*我是忙).",
+   "details": "CC-CEDICT: 是 'to be (followed by substantives only)'; 很 'very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)'. 2021 Grading Standards: 【一 30】形容词谓语句 — 房间很干净。这个学生最认真。; 【一 25】今天不冷。这个菜很好吃。; 【一 05】她很高。; 【一 36】\"是\"字句 (1) 他是我的老师。(2) 表示说明或特征 — 花是白的。衣服是干净的。; level 3: 这星期我很忙，要上课，要准备考试，另外，还要参加一些学校活动。 Learner corpora: YACLC '她也是很苗条' → '她很苗条'; MuCGEC '这是很有意思。' → '这很有意思。'; YACLC '去关西大学半路上的马路上拥挤。' → '…马路上很拥挤。' (annotators added 很 to a bare adjective). Reviewer (2026-11-02): emphatic 是 — 2021 Standards 【三 77】用\"是\"强调: '你说得对，这位经理是很负责。我同意，那电影是很有意思。'; 现代汉语词典 是³ ⑪ '（必须重读）表示坚决肯定，含有\"的确、实在\"的意思：我打听清楚了，他那天是没去｜这本书是好，你可以看看。'",
    "examples": [
     {
      "hanzi": "房间很干净。",
@@ -2686,7 +4328,7 @@
      "pinyin": "Tā yě shì hěn miáotiao.",
      "spoken": null,
      "pinyin_as_source": null,
-     "english": "(adapted) *'She is also very slim' — wrong: no 是 before an adjective; annotators corrected it to 她很苗条.",
+     "english": "(adapted) *'She is also very slim' (plain description) — wrong: drop 是 (她也很苗条; the annotators wrote 她很苗条). 是很… would only fit an emphatic 'she really IS slim'.",
      "correct": false,
      "source": {
       "url": "https://github.com/blcuicall/YACLC/blob/main/valid.jsonl",
@@ -2757,21 +4399,100 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'…这是很有意思。…' → '…这很有意思。…' (id 26)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【三 77】用\"是\"强调: '你说得对，这位经理是很负责。' '我同意，那电影是很有意思。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【是】³",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❶联系两种事物，表明两者同一或后者说明前者的种类、属性… ❷与\"的\"字配合使用，有分类的作用：那瓶墨水～红的… ⑪（必须重读）表示坚决肯定，含有\"的确、实在\"的意思：…这本书～好，你可以看看。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【三 77】用\"是\"强调: '你说得对，这位经理是很负责。我同意，那电影是很有意思。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【是】³",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'⑪（必须重读）表示坚决肯定，含有\"的确、实在\"的意思：我打听清楚了，他那天～没去｜这本书～好，你可以看看。'; ❷ '与\"的\"字配合使用，有分类的作用：那瓶墨水～红的'."
     }
    ],
    "source": "CC-CEDICT (release 2026-05-18), entries looked up with tools/check.mjs --lookup (MDBG / CC-CEDICT contributors)",
    "source_url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); 国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲)",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); 国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲); independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Core rule confirmed by the 现代汉语词典 (是³ ❶ links two things / ❷ 是…的 classifies: 那瓶墨水是红的) and by YACLC id 28426 (all three annotators delete 是). Correction: the rule omitted the emphatic 是 that the item's own main source teaches — 2021 Standards 【三 77】 '你说得对，这位经理是很负责' — and that the dictionary lists (是 ⑪, stressed: 这本书是好). Added, and EX3's gloss now says the error is in plain description. Old rule: Chinese adjectives are predicates by themselves, so there is no 'to be' before them: 我很忙 'I'm busy', 房间很干净 'the room is clean', 今天不冷 'it isn't cold today'. 是 links a subject to a noun (他是我的老师). In a plain positive statement the adjective normally takes a degree adverb — usually 很, which here often does not mean 'very' — or 非常, 太…了, 最, or is negated with 不. 是 + adjective + 的 is a different pattern that classifies (花是白的 'the flowers are white ones'). Old EX3 English: (adapted) *'She is also very slim' — wrong: no 是 before an adjective; annotators corrected it to 她很苗条.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+      "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+      "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2021-04",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "【三 77】用\"是\"强调: '你说得对，这位经理是很负责。我同意，那电影是很有意思。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【是】³",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'⑪（必须重读）表示坚决肯定，含有\"的确、实在\"的意思：我打听清楚了，他那天～没去｜这本书～好，你可以看看。'; ❷ '与\"的\"字配合使用，有分类的作用：那瓶墨水～红的'."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.bi-hen",
    "title": "比 comparisons take no 很",
-   "rule": "In A 比 B + adjective the adjective stands on its own: 我朋友比我高 'my friend is taller than me'. To say 'even more' use 更 or 还 before the adjective (他的手机比我的更贵; 今天比昨天还凉快); to say by how much, put the amount after the adjective (姐姐比我大两岁; 房间外边比里边凉快一些). Do not add 很 (*花钱比赚钱很少).",
-   "details": "2021 Grading Standards: 【一 38】比较句1 (1) A比B＋形容词 — 我朋友比我高。这个手机比那个贵。(2) A没有B＋形容词 — 昨天没有今天热。; 【二 58】比较句2 (1) A比B＋形容词＋数量补语 — 姐姐比我大两岁。房间外边比里边凉快一些。(2) A比B＋更／还＋形容词 — 他的手机比我的更贵。今天比昨天还凉快。 None of the official 比 patterns contains 很. Learner corpus (YACLC): '最重要的是花钱比赚钱很少。' → '最重要的是花钱比赚钱少。'; '明天可能复习比今天的复习很好。' → '明天可能复习得比今天更好。'",
+   "rule": "In A 比 B + adjective the adjective stands on its own: 我朋友比我高 'my friend is taller than me'. To say 'even more' use 更 or 还 before the adjective (他的手机比我的更贵; 今天比昨天还凉快); to say by how much, put the amount after the adjective (姐姐比我大两岁; 房间外边比里边凉快一些); for 'much more', put 多了 or 得多 after it (他比我强多了). Do not add 很 (*花钱比赚钱很少).",
+   "details": "2021 Grading Standards: 【一 38】比较句1 (1) A比B＋形容词 — 我朋友比我高。这个手机比那个贵。(2) A没有B＋形容词 — 昨天没有今天热。; 【二 58】比较句2 (1) A比B＋形容词＋数量补语 — 姐姐比我大两岁。房间外边比里边凉快一些。(2) A比B＋更／还＋形容词 — 他的手机比我的更贵。今天比昨天还凉快。 None of the official 比 patterns contains 很. Learner corpus (YACLC): '最重要的是花钱比赚钱很少。' → '最重要的是花钱比赚钱少。'; '明天可能复习比今天的复习很好。' → '明天可能复习得比今天更好。' Reviewer (2026-11-02): 现代汉语词典 比 ❾ '用来比较性状和程度的差别：今天的风比昨天更大了｜许多同志都比我强' (no 很); 多¹ ❺ '表示相差的程度大：他比我强多了｜这样摆好看得多'; 2025 syllabus HSK2 比较句1 '（2）A比B+形容词+数量补语/程度补语'.",
    "examples": [
     {
      "hanzi": "我朋友比我高。",
@@ -2884,21 +4605,111 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'最重要的是花钱比赚钱很少。' → '最重要的是花钱比赚钱少。' (id 24903); '明天可能复习比今天的复习很好。' → '明天可能复习得比今天更好。' (id 15405)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【多】¹ / 【比】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【多】¹ ❺〈形〉表示相差的程度大：他比我强～了｜这样摆好看得～。'; '【比】¹ ❾〈介〉用来比较性状和程度的差别：今天的风～昨天更大了｜许多同志都～我强。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【比】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❾〈介〉用来比较性状和程度的差别：今天的风～昨天更大了｜许多同志都～我强。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【多】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❺〈形〉表示相差的程度大：他比我强～了｜这样摆好看得～。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+     "title": "HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07)",
+     "publisher": "中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2025-11",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "语法大纲 HSK2 比较句1: '（1）A比B+形容词 （2）A比B+形容词+数量补语/程度补语 （3）A有/没有B（+这么/那么）+形容词'."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "confirmed",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "ok",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 correctly marked correct=false (YACLC id 24903: all three annotators delete 很). Independent confirmation: 现代汉语词典 比 ❾ examples use 更 and a bare adjective, never 很 (今天的风比昨天更大了｜许多同志都比我强). Added, without changing any existing claim: 'for \"much more\" put 多了 or 得多 after it (他比我强多了)' — the dictionary's 多 ❺ and the 2025 syllabus 'A比B+形容词+数量补语/程度补语' — because that is what learners try to say with 很. Old rule: In A 比 B + adjective the adjective stands on its own: 我朋友比我高 'my friend is taller than me'. To say 'even more' use 更 or 还 before the adjective (他的手机比我的更贵; 今天比昨天还凉快); to say by how much, put the amount after the adjective (姐姐比我大两岁; 房间外边比里边凉快一些). Do not add 很 (*花钱比赚钱很少).",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【比】¹",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❾〈介〉用来比较性状和程度的差别：今天的风～昨天更大了｜许多同志都～我强。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【多】¹",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❺〈形〉表示相差的程度大：他比我强～了｜这样摆好看得～。'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+      "title": "HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07)",
+      "publisher": "中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2025-11",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "语法大纲 HSK2 比较句1: '（1）A比B+形容词 （2）A比B+形容词+数量补语/程度补语 （3）A有/没有B（+这么/那么）+形容词'."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.question-order",
-   "title": "Question words stay in place, and no 吗 with them",
-   "rule": "For a wh-question keep statement order and put the question word in the slot where the answer will go: 你买什么? — 我买一个面包; 你们去哪儿?; 谁是老师?; 你怎么去医院? There is no inversion and no 'do'. 吗 turns a statement into a yes/no question (他是老师吗?) and is not added to a question that already has 什么, 哪儿, 谁, 怎么, 几 and so on. (Question words can also be indefinite 'somewhere/something': 我好像在哪儿见过你 'I think I've seen you somewhere'.)",
-   "details": "2021 Grading Standards: 【一 04】疑问代词 — 你们去哪儿？你买什么？谁是老师？你怎么去医院？车站在哪里？; 【一 29】我买一个面包。; 【一 33】(1) 是非问句 他是老师吗？ (2) 特指问句 谁跟你一起去书店？你想买什么？; 【一 45】用\"吗\"提问 — 他是老师吗？这包子好吃吗？; 【一 46】我们在哪儿见面？你星期天做什么？; 【三 07】不定指用法 — 我好像在哪儿见过你。 CC-CEDICT 吗 [ma5]: '(question particle for \"yes-no\" questions)'; 什么 'what?; something; anything'. 哪儿 and 哪里 are both standard (both are in the HSK1 question-word list).",
+   "title": "Question words stay in place, and a what/where/who question takes no 吗",
+   "rule": "For a wh-question keep statement order and put the question word in the slot where the answer will go: 你买什么? — 我买一个面包; 你们去哪儿?; 谁是老师?; 你怎么去医院? There is no inversion and no 'do'. 吗 turns a statement into a yes/no question (他是老师吗?); a question that asks 'what / where / who / how' takes no 吗. 吗 and a question word do meet in two common patterns: when the question word means 'any-/some-' the sentence is a yes/no question (有什么推荐吗? 'Any recommendations?'; 还有什么需要帮助的吗? 'Anything else I can help with?'; compare 我好像在哪儿见过你 'I think I've seen you somewhere'), and when the question is tucked inside a yes/no question after a verb such as 知道 'know' or 告诉 'tell' (你知道这个酒店在哪里吗? 'Do you know where the hotel is?').",
+   "details": "2021 Grading Standards: 【一 04】疑问代词 — 你们去哪儿？你买什么？谁是老师？你怎么去医院？车站在哪里？; 【一 29】我买一个面包。; 【一 33】(1) 是非问句 他是老师吗？ (2) 特指问句 谁跟你一起去书店？你想买什么？; 【一 45】用\"吗\"提问 — 他是老师吗？这包子好吃吗？; 【一 46】我们在哪儿见面？你星期天做什么？; 【三 07】不定指用法 — 我好像在哪儿见过你。 CC-CEDICT 吗 [ma5]: '(question particle for \"yes-no\" questions)'; 什么 'what?; something; anything'. 哪儿 and 哪里 are both standard (both are in the HSK1 question-word list). Reviewer (2026-11-02): 2021 Standards 【三 07】(2) 不定指用法: '我好像在哪儿见过你。你们先吃点儿什么再去公园吧。要是你一个人搬不动，就请谁来帮一下儿吧。'; 现代汉语词典 哪里 ❸ '虚指某一处所：我好像在哪里见过他'. Native task dialogues (CrossWOZ, RiSAWOZ): 3,401 utterances match 什么…吗？ (有什么推荐吗？ 周边还有什么景点吗？ 还有什么需要帮助的吗？) and 126 match 哪儿/哪里…吗？, mostly 你知道这个酒店在哪里吗？.",
    "examples": [
     {
      "hanzi": "你们去哪儿？",
@@ -2962,7 +4773,7 @@
      "pinyin": "Nǐmen qù nǎr ma?",
      "spoken": null,
      "pinyin_as_source": null,
-     "english": "(adapted) *wrong: 吗 is only for yes/no questions; drop it (你们去哪儿？).",
+     "english": "(adapted) *as 'Where are you going?' — wrong: a where-question takes no 吗 (你们去哪儿？). With 吗 the 哪儿 could only mean 'somewhere', turning it into a yes/no question.",
      "correct": false,
      "source": {
       "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
@@ -2977,7 +4788,7 @@
      }
     }
    ],
-   "common_mistake": "Fronting the question word as in English or Dutch (*哪儿你们去? for 'Where are you going?' / 'Waar ga je heen?') and adding 吗 to a question that already has a question word (*你们去哪儿吗?).",
+   "common_mistake": "Fronting the question word as in English or Dutch (*哪儿你们去? for 'Where are you going?' / 'Waar ga je heen?') and adding 吗 to a what/where/who question (*你们去哪儿吗? for 'Where are you going?'). 吗 with a question word is fine only when the word means 'any-/some-' (有什么推荐吗?) or when the question is embedded after 知道 / 告诉 (你知道…在哪里吗?).",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
@@ -3011,21 +4822,188 @@
      "authority": "dictionary",
      "licence": null,
      "evidence": "吗 [ma5] '(question particle for \"yes-no\" questions)'; 什么 [shen2 me5] 'what?; something; anything'."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【三 07】疑问代词的非疑问用法 (2) 不定指用法: '我好像在哪儿见过你。' '你们先吃点儿什么再去公园吧。' '要是你一个人搬不动，就请谁来帮一下儿吧。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "User and agent turns such as '您好，我想找一个票价在20-50元之间的景点…有什么推荐吗？', '周边有什么餐馆吗？', '不客气，还有什么需要帮助的吗？', '行啊，你知道这个酒店在哪里吗？'."
+    },
+    {
+     "url": "https://elon.io/grammar/chinese-mandarin/particles/ma-vs-question-words",
+     "title": "吗 vs Question-Word Questions (Don't Double)",
+     "publisher": "Elon.io grammar guide",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "websearch",
+     "authority": "secondary",
+     "licence": null,
+     "evidence": "WebSearch result summary (page not opened): when 什么 means 'anything' the sentence really is a yes/no question and 吗 is correct — 你想吃什么吗? 'do you want anything to eat?' vs 你想吃什么? 'what do you want to eat?'; 你想说什么吗 is wrong as a wh-question because 什么…吗 turns it into 'do you want to say something?'."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【三 07】(2) 不定指用法: '我好像在哪儿见过你。你们先吃点儿什么再去公园吧。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【哪里】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❶问什么处所：你住在～？… ❸虚指某一处所：我好像在～见过他。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "'有什么推荐吗？', '周边还有什么景点吗？', '还有什么需要帮助的吗？', '你知道这个酒店在哪里吗？' (3,401 utterances with 什么…吗？ in CrossWOZ+RiSAWOZ)."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "Same patterns in RiSAWOZ, e.g. '那你知道它的导演是谁吗？', '能告诉我主演都有谁吗？'."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Listening script item 13: '男：你住在哪儿？' (question word in place, no 吗)."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "fixed",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK. Core rule confirmed (no fronting; wh-questions take no 吗): 2021 Standards 【一 04】/【一 33】 and the official HSK sample scripts (e.g. H10901 '你住在哪儿？'). Correction: 'is not added to a question that already has 什么, 哪儿, 谁…' was over-general. Native dialogues contain thousands of 吗 questions with an indefinite question word (有什么推荐吗？, 还有什么需要帮助的吗？) and embedded questions (你知道这个酒店在哪里吗？) — CrossWOZ/RiSAWOZ: 3,401 utterances with 什么…吗？, 126 with 哪儿/哪里…吗？. The Standards (【三 07】 不定指用法), the 现代汉语词典 (哪里 ❸ 虚指) and elon.io (WebSearch: 你想吃什么吗? = 'do you want anything to eat?') confirm the indefinite reading. Title, rule, EX3 gloss and common_mistake rewritten; EX3 stays correct=false as a translation of 'Where are you going?'. Old title: Question words stay in place, and no 吗 with them Old rule: For a wh-question keep statement order and put the question word in the slot where the answer will go: 你买什么? — 我买一个面包; 你们去哪儿?; 谁是老师?; 你怎么去医院? There is no inversion and no 'do'. 吗 turns a statement into a yes/no question (他是老师吗?) and is not added to a question that already has 什么, 哪儿, 谁, 怎么, 几 and so on. (Question words can also be indefinite 'somewhere/something': 我好像在哪儿见过你 'I think I've seen you somewhere'.) Old EX3 English: (adapted) *wrong: 吗 is only for yes/no questions; drop it (你们去哪儿？). Old common_mistake: Fronting the question word as in English or Dutch (*哪儿你们去? for 'Where are you going?' / 'Waar ga je heen?') and adding 吗 to a question that already has a question word (*你们去哪儿吗?).",
+    "checked_sources": [
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+      "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+      "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2021-04",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "【三 07】(2) 不定指用法: '我好像在哪儿见过你。你们先吃点儿什么再去公园吧。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【哪里】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❶问什么处所：你住在～？… ❸虚指某一处所：我好像在～见过他。'"
+     },
+     {
+      "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+      "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+      "publisher": "thu-coai (Tsinghua University)",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "'有什么推荐吗？', '周边还有什么景点吗？', '还有什么需要帮助的吗？', '你知道这个酒店在哪里吗？' (3,401 utterances with 什么…吗？ in CrossWOZ+RiSAWOZ)."
+     },
+     {
+      "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+      "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+      "publisher": "terryqj0107/RiSAWOZ",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": "CC BY-NC 4.0",
+      "evidence": "Same patterns in RiSAWOZ, e.g. '那你知道它的导演是谁吗？', '能告诉我主演都有谁吗？'."
+     },
+     {
+      "url": "https://elon.io/grammar/chinese-mandarin/particles/ma-vs-question-words",
+      "title": "吗 vs Question-Word Questions (Don't Double)",
+      "publisher": "Elon.io grammar guide",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "websearch",
+      "authority": "secondary",
+      "licence": null,
+      "evidence": "WebSearch result summary (page not opened): when 什么 means 'anything' the sentence really is a yes/no question and 吗 is correct — 你想吃什么吗? 'do you want anything to eat?' vs 你想吃什么? 'what do you want to eat?'; 你想说什么吗 is wrong as a wh-question because 什么…吗 turns it into 'do you want to say something?'."
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+      "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "Listening script item 13: '男：你住在哪儿？' (question word in place, no 吗)."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.word-order-time-place",
    "title": "Time and place go before the verb",
-   "rule": "Basic order is Subject – Time – Place – Verb – Object: 我每天在家学习 'I study at home every day' (and in the same way 我明天在家工作 'I'm working from home tomorrow'). Time words (今天, 明天, 每天, 十点, 下午) go before the verb, after the subject or at the very start (他十点睡觉; 明天下雨，我们在家休息). A place phrase with 在 also comes before the verb (哥哥在北京学中文; 她在网上买了两本书). English and Dutch put both after the verb ('I work at home tomorrow', 'Ik werk morgen thuis'). Exception: with verbs of putting and placing, 在 + place after the verb gives where the thing ends up (这些书不能放在外边).",
-   "details": "2021 Grading Standards: 【一 28】状语 — 表示时间、处所的词语作状语: 他十点睡觉。我们下午去吧。她在网上买了两本书。; 【一 15】我们从星期一到星期五工作。; 【一 16】在 — 哥哥在北京学中文。他在手机上看电影。; 【二 66】明天下雨，我们在家休息。; 【五 33】多项状语 — 他昨天在教室里认真地写完了作业。她为了通过考试昨天在家复习了一整天。 (time, place, manner, then the verb); 【三 47】example 这些书不能放在外边，应该拿进去。 2025 HSK grammar syllabus HSK1: 状语 '表示时间、处所的词语作状语'. Learner corpus (YACLC): '每天我学习在家，我做作业，写汉字，复习旧课词语。' corrected to '每天我在家学习，…' / '我每天在家学习，…'. 我明天在家工作 is a slot variant (明天, 工作) of the corrected sentence.",
+   "rule": "Basic order is Subject – Time – Place – Verb – Object: 我每天在家学习 'I study at home every day' (and in the same way 我明天在家工作 'I'm working from home tomorrow'). Time words (今天, 明天, 每天, 十点, 下午) go before the verb, after the subject or at the very start (他十点睡觉; 明天下雨，我们在家休息). A place phrase with 在 also comes before the verb (哥哥在北京学中文; 她在网上买了两本书). English and Dutch put both after the verb ('I work at home tomorrow', 'Ik werk morgen thuis'). Exception: after a few verbs of position or placement (住 'live', 坐 'sit', 放 'put') 在 + place follows the verb and says where someone is or where something ends up: 你住在哪儿？ 'Where do you live?', 老师把书放在桌子上了, 这些书不能放在外边.",
+   "details": "2021 Grading Standards: 【一 28】状语 — 表示时间、处所的词语作状语: 他十点睡觉。我们下午去吧。她在网上买了两本书。; 【一 15】我们从星期一到星期五工作。; 【一 16】在 — 哥哥在北京学中文。他在手机上看电影。; 【二 66】明天下雨，我们在家休息。; 【五 33】多项状语 — 他昨天在教室里认真地写完了作业。她为了通过考试昨天在家复习了一整天。 (time, place, manner, then the verb); 【三 47】example 这些书不能放在外边，应该拿进去。 2025 HSK grammar syllabus HSK1: 状语 '表示时间、处所的词语作状语'. Learner corpus (YACLC): '每天我学习在家，我做作业，写汉字，复习旧课词语。' corrected to '每天我在家学习，…' / '我每天在家学习，…'. 我明天在家工作 is a slot variant (明天, 工作) of the corrected sentence. Reviewer (2026-11-02): official HSK 1 sample H10901 '你住在哪儿？—我和妈妈都住在一零二。'; HSK 3 sample H31003 '他现在住在公司附近。'; 2021 Standards '他却坐在教室里面不动' and 【三 54】'主语＋把＋宾语＋动词＋在／到＋处所：老师把书放在桌子上了。'; 现代汉语词典 哪里 ❶ '你住在哪里？'.",
    "examples": [
     {
      "hanzi": "他十点睡觉。",
@@ -3138,21 +5116,155 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'每天我学习在家，…' → '每天我在家学习，…' / '我每天在家学习，…' (id 5426)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Listening script item 13: '男：你住在哪儿？ 女：我和妈妈都住在一零二。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf",
+     "title": "Official HSK sample test H31003 (HSK 3), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'★ 他现在住在公司附近。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【三 54】\"把\"字句1 (1) '主语＋把＋宾语＋动词＋在／到＋处所' — '老师把书放在桌子上了。'; elsewhere '他却坐在教室里面不动'."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+     "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'你住在哪儿？' — '我和妈妈都住在一零二。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf",
+     "title": "Official HSK sample test H31003 (HSK 3), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'他现在住在公司附近。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【哪里】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❶问什么处所：你住在～？'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【三 54】 '老师把书放在桌子上了。'; '同学们都出去活动了，他却坐在教室里面不动'."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 correctly marked correct=false (YACLC id 5426: all three annotators move 在家 before 学习). Core rule confirmed by sources independent of the researcher's: HSK sample scripts and 现代汉语词典 examples put time and place phrases before the verb. Correction: the exception was limited to verbs of putting and placing, but the commonest case for a learner is 住在 — official HSK 1 sample '你住在哪儿？—我和妈妈都住在一零二', HSK 3 '他现在住在公司附近', 现代汉语词典 '你住在哪里？' — so it now covers verbs of position or placement (住, 坐, 放). Old rule: Basic order is Subject – Time – Place – Verb – Object: 我每天在家学习 'I study at home every day' (and in the same way 我明天在家工作 'I'm working from home tomorrow'). Time words (今天, 明天, 每天, 十点, 下午) go before the verb, after the subject or at the very start (他十点睡觉; 明天下雨，我们在家休息). A place phrase with 在 also comes before the verb (哥哥在北京学中文; 她在网上买了两本书). English and Dutch put both after the verb ('I work at home tomorrow', 'Ik werk morgen thuis'). Exception: with verbs of putting and placing, 在 + place after the verb gives where the thing ends up (这些书不能放在外边).",
+    "checked_sources": [
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf",
+      "title": "Official HSK sample test H10901 (HSK 1), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'你住在哪儿？' — '我和妈妈都住在一零二。'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf",
+      "title": "Official HSK sample test H31003 (HSK 3), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'他现在住在公司附近。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【哪里】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❶问什么处所：你住在～？'"
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+      "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+      "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2021-04",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "【三 54】 '老师把书放在桌子上了。'; '同学们都出去活动了，他却坐在教室里面不动'."
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.he-clauses",
-   "title": "和 joins nouns, not sentences",
-   "rule": "和 (and 跟) means 'and' between nouns or noun phrases: 我和弟弟都学习中文, 爸爸跟妈妈都不在家. It is not used to join two clauses the way English 'and' is: 我喜欢看电视，弟弟喜欢打球 needs no connector (or use 也, 还, 而且, 然后 as the meaning requires). In lists, separate the items with the enumeration comma 、 and put 和 before the last item without a comma: 北京、台北、香港、澳门和成都.",
-   "details": "2021 Grading Standards: 【一 19】连接词或短语：跟2、还是、和2 — 爸爸跟妈妈都不在家。我和弟弟都学习中文。; 【一 39】并列复句 (1) 不用关联词语 — 我喜欢看电视，弟弟喜欢打球。(2) ……，也…… — 我喜欢唱歌，弟弟也喜欢唱歌。 The 2025 HSK grammar syllabus classifies 和2 under '连接词语或短语' and lists clause connectors separately ('连接分句或者句子：但、但是、那、虽然、还是2、因为2、所以'; HSK3 adds 不但、而且、如果、可是、然后). Learner corpora: MuCGEC '我觉得我们每个人都应该进自己的责任，和不浪费能源。' corrected to '…尽自己的责任，不浪费能源。'; YACLC '北京，台北，香港，澳门，和成都' corrected to '北京、台北、香港、澳门和成都'.",
+   "title": "和 joins nouns and short phrases, not sentences",
+   "rule": "和 (and 跟) means 'and' between words or short phrases, mostly nouns and pronouns: 我和弟弟都学习中文, 爸爸跟妈妈都不在家 (also nouns made from verbs: 人们的学习和工作 'people's study and work'). It is not used to join two clauses the way English 'and' is: 我喜欢看电视，弟弟喜欢打球 needs no connector (or use 也, 还, 而且, 然后 as the meaning requires). In lists, separate the items with the enumeration comma 、 and put 和 before the last item without a comma: 北京、台北、香港、澳门和成都.",
+   "details": "2021 Grading Standards: 【一 19】连接词或短语：跟2、还是、和2 — 爸爸跟妈妈都不在家。我和弟弟都学习中文。; 【一 39】并列复句 (1) 不用关联词语 — 我喜欢看电视，弟弟喜欢打球。(2) ……，也…… — 我喜欢唱歌，弟弟也喜欢唱歌。 The 2025 HSK grammar syllabus classifies 和2 under '连接词语或短语' and lists clause connectors separately ('连接分句或者句子：但、但是、那、虽然、还是2、因为2、所以'; HSK3 adds 不但、而且、如果、可是、然后). Learner corpora: MuCGEC '我觉得我们每个人都应该进自己的责任，和不浪费能源。' corrected to '…尽自己的责任，不浪费能源。'; YACLC '北京，台北，香港，澳门，和成都' corrected to '北京、台北、香港、澳门和成都'. Reviewer (2026-11-02): the 2025 syllabus lists 和2 under '连接词语或短语' (words or phrases, not only nouns); HSK oral sample: '…会影响人们的学习和工作。'; 现代汉语词典 和² ❸ '〈连〉表示联合；跟；与：工人和农民都是国家的主人'; 顿号 '表示句子内部并列词语之间的停顿'.",
    "examples": [
     {
      "hanzi": "我和弟弟都学习中文。",
@@ -3276,21 +5388,188 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'我们西弗吉尼亚人就能谈起北京，台北，香港，澳门，和成都。' → '…北京、台北、香港、澳门和成都。' (id 5759)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf",
+     "title": "Official HSK sample test HSKK (HSK oral test (HSKK)), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "Oral-test sample text: '…会影响人们的学习和工作。' (和 joining two nominalised verbs)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【和】² / 【顿号】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'【和】² ❸〈连〉表示联合；跟；与：工人～农民都是国家的主人' and '【顿号】标点符号（、），表示句子内部并列词语之间的停顿'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【和】²",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❷〈介〉引进相关或比较的对象：他～大家讲他过去的经历… ❸〈连〉表示联合；跟；与：工人～农民都是国家的主人。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【顿号】",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'标点符号（、），表示句子内部并列词语之间的停顿。主要用在并列的词或并列的较短的词组中间。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "和 as 'and' joins nouns; clause-initial 和 + pronoun + verb occurs only as the preposition 'with' (e.g. '好的，帮我找个景点吧，和我同学去转一转…')."
+    },
+    {
+     "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+     "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+     "publisher": "terryqj0107/RiSAWOZ",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": "CC BY-NC 4.0",
+     "evidence": "Same check (e.g. '…想让你帮我介绍个景点，和我对象去玩…' = 'with'). 15 such hits in both corpora, none a clause-joining 'and'."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+     "title": "HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07)",
+     "publisher": "中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2025-11",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "语法大纲 HSK1 连词: '连接词语或短语 和2' — separate from the clause connectors (但是, 所以…)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf",
+     "title": "Official HSK sample test HSKK (HSK oral test (HSKK)), listening script and items",
+     "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": null,
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "'…会影响人们的学习和工作。'"
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
-   "confidence": "medium",
-   "verification": null,
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
+   "confidence": "high",
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 correctly marked correct=false. Precision fix: 'between nouns or noun phrases' was narrower than the item's own source — the 2025 syllabus classes 和2 as joining '词语或短语' (words or phrases) — and official texts join nominalised verbs with it (HSK oral sample '影响人们的学习和工作'); in MuCGEC id 1029 one of the two references even keeps 和 between two verb phrases (尽自己的责任和不浪费能源) while the other drops it. The rule now says 'words or short phrases, mostly nouns and pronouns'; the main point (和 does not join clauses) is unchanged and confirmed. Independent confirmation: 现代汉语词典 和² ❸ '〈连〉表示联合；跟；与：工人和农民都是国家的主人' (joining nouns). In the native task dialogues (CrossWOZ, RiSAWOZ: 11,237 occurrences of 和) a search for 和 opening a clause after a comma before a pronoun and verb found 15 hits, all of them the preposition 和 'with' (和我同学去转一转, 和你的要求有点出入), none a clause-joining 'and' — consistent with the item. List punctuation: the 现代汉语词典 defines 顿号 (、) as the mark '表示句子内部并列词语之间的停顿', which supports the 、 advice; but in YACLC id 5759 only 3 of 8 annotators switched to 、 and 6 of 8 removed the comma before 和 (2 kept '，和'), so the serial-comma point is a majority correction, not a unanimous one — the item's wording ('corrected to 北京、台北、香港、澳门和成都') quotes the first annotator. Confidence raised from medium to high. Old title: 和 joins nouns, not sentences Old rule: 和 (and 跟) means 'and' between nouns or noun phrases: 我和弟弟都学习中文, 爸爸跟妈妈都不在家. It is not used to join two clauses the way English 'and' is: 我喜欢看电视，弟弟喜欢打球 needs no connector (or use 也, 还, 而且, 然后 as the meaning requires). In lists, separate the items with the enumeration comma 、 and put 和 before the last item without a comma: 北京、台北、香港、澳门和成都.",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【和】²",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❷〈介〉引进相关或比较的对象：他～大家讲他过去的经历… ❸〈连〉表示联合；跟；与：工人～农民都是国家的主人。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【顿号】",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'标点符号（、），表示句子内部并列词语之间的停顿。主要用在并列的词或并列的较短的词组中间。'"
+     },
+     {
+      "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+      "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+      "publisher": "thu-coai (Tsinghua University)",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "和 as 'and' joins nouns; clause-initial 和 + pronoun + verb occurs only as the preposition 'with' (e.g. '好的，帮我找个景点吧，和我同学去转一转…')."
+     },
+     {
+      "url": "https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip",
+      "title": "RiSAWOZ source data all_(11200)_new.json: 11,200 human-to-human Chinese task dialogues (Quan et al., EMNLP 2020)",
+      "publisher": "terryqj0107/RiSAWOZ",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": "CC BY-NC 4.0",
+      "evidence": "Same check (e.g. '…想让你帮我介绍个景点，和我对象去玩…' = 'with'). 15 such hits in both corpora, none a clause-joining 'and'."
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+      "title": "HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07)",
+      "publisher": "中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2025-11",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "语法大纲 HSK1 连词: '连接词语或短语 和2' — separate from the clause connectors (但是, 所以…)."
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf",
+      "title": "Official HSK sample test HSKK (HSK oral test (HSKK)), listening script and items",
+      "publisher": "国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": null,
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "'…会影响人们的学习和工作。'"
+     }
+    ]
+   },
    "ai_generated": false
   },
   {
    "id": "pitfalls.ye-dou-position",
    "title": "也 and 都 go after the subject, right before the verb",
-   "rule": "也 'also, too' and 都 'all, both' are adverbs: they come after the subject and before the verb (or before 是, 很, 不): 他是学生，我也是学生 'he's a student and so am I'; 同学们都很认真; 爸爸跟妈妈都不在家. They never open a sentence the way English 'Also, …' does (*也他比我强 → 他也比我强), and 都 sums up the people or things named before it.",
-   "details": "2021 Grading Standards: 【一 13】关联副词：还1、也 — 他是学生，我也是学生。; 【一 10】范围、协同副词：都1 — 同学们都很认真。; 【一 19】爸爸跟妈妈都不在家。我和弟弟都学习中文。; 【一 39】我喜欢唱歌，弟弟也喜欢唱歌。 2025 HSK grammar syllabus HSK1: 范围副词 都1; 关联副词 还1、也. Learner corpus (MuCGEC): '但是他比我高，也他比我强' corrected to '…他也比我强' / '…也比我强'; YACLC '联明天也我们都不知道…' corrected to '连明天我们都不知道…'.",
+   "rule": "也 'also, too' and 都 'all, both' are adverbs: they come after the subject and before the verb (or before 是, 很, 不): 他是学生，我也是学生 'he's a student and so am I'; 同学们都很认真; 爸爸跟妈妈都不在家. 也 never goes in front of the subject the way English 'Also, …' does (*也他比我强 → 他也比我强). 都 'all' sums up the people or things named before it; only in a question can it point ahead to the question word (它家都有什么推荐菜？ 'What dishes do they recommend?'). A 都 at the very start of a sentence is a different use, e.g. 'already': 都十二点了 'it's already twelve o'clock'.",
+   "details": "2021 Grading Standards: 【一 13】关联副词：还1、也 — 他是学生，我也是学生。; 【一 10】范围、协同副词：都1 — 同学们都很认真。; 【一 19】爸爸跟妈妈都不在家。我和弟弟都学习中文。; 【一 39】我喜欢唱歌，弟弟也喜欢唱歌。 2025 HSK grammar syllabus HSK1: 范围副词 都1; 关联副词 还1、也. Learner corpus (MuCGEC): '但是他比我高，也他比我强' corrected to '…他也比我强' / '…也比我强'; YACLC '联明天也我们都不知道…' corrected to '连明天我们都不知道…'. Reviewer (2026-11-02): 现代汉语词典 都 ❶ '表示总括，除疑问句外，所总括的成分放在\"都\"前'; ❹ '表示\"已经\"：饭都凉了'; 2021 Standards 【二 20】语气副词 都2: '都十二点了，我们该睡觉了。'. CrossWOZ: '它家都有什么推荐菜呀' (14×).",
    "examples": [
     {
      "hanzi": "他是学生，我也是学生。",
@@ -3369,7 +5648,7 @@
      }
     }
    ],
-   "common_mistake": "Putting 也 (or 都) first like English 'also' (*也他比我强 — attested in MuCGEC; *也我们都… — attested in YACLC).",
+   "common_mistake": "Putting 也 (or 都) in front of the subject like English 'Also, …' (*也他比我强 — attested in MuCGEC; *也我们都… — attested in YACLC).",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
@@ -3414,14 +5693,170 @@
      "authority": "academic",
      "licence": null,
      "evidence": "'因为不说明年，联明天也我们都不知道会发生什么事情。' → '因为不说明年，连明天我们都不知道会发生什么事情。' (id 17546)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【都】dōu",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❶表示总括，除疑问句外，所总括的成分放在\"都\"前：全家～搞文艺工作… ❹表示\"已经\"：饭～凉了，快吃吧。'"
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【二 20】语气副词：才1、都2、就2、正好 — '都十二点了，我们该睡觉了。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "'它家都有什么推荐菜呀' (14 times), '它家周边都有什么景点呀' (15 times) — 都 pointing ahead to a question word."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【都】dōu",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'❶表示总括，除疑问句外，所总括的成分放在\"都\"前… ❹表示\"已经\"：饭～凉了，快吃吧。'"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【也】²",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈副〉❶表示同样：水库可以灌溉、发电，～可以养鱼。❷单用或叠用，强调两事并列或对待：他会英语，～会法语'."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+     "title": "《现代汉语词典》（第7版）, entry 【也罢】¹",
+     "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+     "published": "2016-09",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "dictionary",
+     "licence": null,
+     "evidence": "'〈助〉表示容忍或只得如此，有\"算了\"或\"也就算了\"的意思：…～，你一定要走，我送你上车。' (a fixed particle, not the adverb 也)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+     "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+     "published": "2021-04",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "official",
+     "licence": null,
+     "evidence": "【二 20】都2: '都十二点了，我们该睡觉了。'"
+    },
+    {
+     "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+     "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+     "publisher": "thu-coai (Tsinghua University)",
+     "published": "2020",
+     "accessed": "2026-11-02",
+     "via": "git",
+     "authority": "academic",
+     "licence": null,
+     "evidence": "'它家都有什么推荐菜呀' (14×)."
     }
    ],
    "source": "国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (Chinese Proficiency Grading Standards for International Chinese Language Education, GF 0025-2021, application edition; Appendix A 语法等级大纲) (教育部中外语言交流合作中心 / 北京语言大学出版社 (ISBN 978-7-5619-5742-4); PDF copy in github.com/docrealm/docs-hsk, read as text)",
    "source_url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
-   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲",
-   "status": "unverified",
+   "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲; independent verifier (agent), 2026-11-02",
+   "status": "verified",
    "confidence": "high",
-   "verification": null,
+   "verification": {
+    "verdict": "corrected",
+    "checks": {
+     "characters": "ok",
+     "pinyin": "ok",
+     "meaning": "ok",
+     "naturalness": "ok",
+     "usage": "fixed",
+     "sources": "ok"
+    },
+    "notes": "Checker: 4/4 OK; EX3 correctly marked correct=false (MuCGEC id 551). Core rule confirmed by the 现代汉语词典: 都 ❶ '表示总括，除疑问句外，所总括的成分放在\"都\"前'; 也² examples put 也 before the verb (他会英语，也会法语). Correction: 'They never open a sentence' is false for 都 — the 2021 Standards themselves teach 都十二点了 (都2 'already', 【二 20】) — and 都 can point ahead to a question word in questions (dictionary: 除疑问句外; CrossWOZ 它家都有什么推荐菜呀). The rule now says 也 never goes in front of the subject (the fixed particles 也罢 / 也好 can still open a reply: 现代汉语词典 也罢 '～，你一定要走，我送你上车') and explains both 都 cases. Old rule: 也 'also, too' and 都 'all, both' are adverbs: they come after the subject and before the verb (or before 是, 很, 不): 他是学生，我也是学生 'he's a student and so am I'; 同学们都很认真; 爸爸跟妈妈都不在家. They never open a sentence the way English 'Also, …' does (*也他比我强 → 他也比我强), and 都 sums up the people or things named before it. Old common_mistake: Putting 也 (or 都) first like English 'also' (*也他比我强 — attested in MuCGEC; *也我们都… — attested in YACLC).",
+    "checked_sources": [
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【都】dōu",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'❶表示总括，除疑问句外，所总括的成分放在\"都\"前… ❹表示\"已经\"：饭～凉了，快吃吧。'"
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【也】²",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈副〉❶表示同样：水库可以灌溉、发电，～可以养鱼。❷单用或叠用，强调两事并列或对待：他会英语，～会法语'."
+     },
+     {
+      "url": "https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt",
+      "title": "《现代汉语词典》（第7版）, entry 【也罢】¹",
+      "publisher": "中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th",
+      "published": "2016-09",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "dictionary",
+      "licence": null,
+      "evidence": "'〈助〉表示容忍或只得如此，有\"算了\"或\"也就算了\"的意思：…～，你一定要走，我送你上车。' (a fixed particle, not the adverb 也)."
+     },
+     {
+      "url": "https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+      "title": "国际中文教育中文水平等级标准（GF 0025-2021, 应用解读本）第三分册：语法 — Appendix A 语法等级大纲",
+      "publisher": "教育部、国家语言文字工作委员会 / 中外语言交流合作中心; PDF in github.com/docrealm/docs-hsk, read as extracted text",
+      "published": "2021-04",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "official",
+      "licence": null,
+      "evidence": "【二 20】都2: '都十二点了，我们该睡觉了。'"
+     },
+     {
+      "url": "https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip",
+      "title": "CrossWOZ train set: 5,012 human-to-human Chinese task dialogues, 84,692 utterances (Zhu et al., TACL 2020)",
+      "publisher": "thu-coai (Tsinghua University)",
+      "published": "2020",
+      "accessed": "2026-11-02",
+      "via": "git",
+      "authority": "academic",
+      "licence": null,
+      "evidence": "'它家都有什么推荐菜呀' (14×)."
+     }
+    ]
+   },
    "ai_generated": false
   }
  ]

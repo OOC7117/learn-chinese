@@ -124,8 +124,11 @@ function updateBadge() {
 
 state.subscribe(() => updateBadge());
 window.addEventListener('hashchange', render);
+// Another tab changed the learner's data: reload it. Sync bookkeeping (synced, srs-revs), the account and the
+// tone statistics change often and are read where they are used, so they do not reload everything.
+const DATA_KEYS = new Set([KEYS.marks, KEYS.srs, KEYS.settings, KEYS.stats]);
 window.addEventListener('storage', (event) => {
-  if (Object.values(KEYS).includes(event.key)) state.reload();
+  if (DATA_KEYS.has(event.key)) state.reload();
 });
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') updateBadge();
@@ -147,8 +150,8 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
 
   const offerUpdate = (worker, text) => {
     document.getElementById('update-banner')?.remove();
-    const reload = h('button.btn.small.primary', { type: 'button' }, 'Reload');
-    const later = h('button.btn.small', { type: 'button' }, 'Later');
+    const reload = h('button.btn.primary', { type: 'button' }, 'Reload');
+    const later = h('button.btn', { type: 'button' }, 'Later');
     const banner = h('div.callout.row.spread#update-banner', { role: 'region', aria: { label: 'App update' } }, h('span', text), h('span.row', reload, later));
     banner.style.marginBottom = '0.75rem';
     reload.addEventListener('click', () => {
@@ -167,11 +170,15 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
     announce(`${text} The Reload button is at the top of the page.`);
   };
 
+  // Keep every word list of this version on the device, so all of the app works offline (src/offline.js:
+  // only files not saved yet are downloaded, through the worker, which saves them).
+  const warmUp = () => import('./offline.js').then((mod) => mod.warmUp()).catch(() => {});
+
   sw.addEventListener('controllerchange', () => {
     if (reloadAsked) reloadOnce();
     else if (controlled) offerUpdate(null, 'The app was updated in another window.');
     // First visit: the worker took control after the page loaded its data; save that data for offline use.
-    else import('./offline.js').then((mod) => mod.warmUp()).catch(() => {});
+    else warmUp();
     controlled = true;
   });
 
@@ -194,6 +201,8 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
       checked = Date.now();
       reg.update().catch(() => {});
     });
+    // Later visits: word lists of an app update, or ones a first visit did not finish (after the page's own requests).
+    if (sw.controller) setTimeout(warmUp, 3000);
   }).catch((error) => console.warn('[main] service worker not registered', error?.message));
 
   // After the page has loaded, so saving the app for offline use does not slow down the first visit.

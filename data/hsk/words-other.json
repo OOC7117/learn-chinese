@@ -78,7 +78,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "1",
-    "hsk20": 1
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -87,12 +87,7 @@
      "level": "1"
     }
    ],
-   "hsk20": [
-    {
-     "id": 64,
-     "level": 1
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "(negative prefix for verbs) have not; not"
@@ -287,7 +282,7 @@
    ],
    "hsk20": [
     {
-     "id": 5,
+     "id": "L1-5",
      "level": 1
     }
    ],
@@ -525,6 +520,58 @@
    "resolution": null
   },
   {
+   "id": "w.5206.fen4",
+   "hanzi": "分",
+   "pinyin": "fèn",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 3
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L3-70",
+     "level": 3
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "part",
+    "share",
+    "ingredient",
+    "component"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "fēn",
+     "fèn"
+    ],
+    "entries": [
+     "分|分[fen4]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.59,
+    "rank": 309
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/fen4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.6709-4eba.you3ren2",
    "hanzi": "有人",
    "pinyin": "yǒu rén",
@@ -679,6 +726,107 @@
    "resolution": null
   },
   {
+   "id": "w.4fbf.pian2",
+   "hanzi": "便",
+   "pinyin": "pián",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-45",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "used in 便宜[pian2 yi5]",
+    "used in 便便[pian2 pian2]",
+    "used in 便嬛[pian2 xuan1]"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "biàn",
+     "pián"
+    ],
+    "entries": [
+     "便|便[pian2]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.53,
+    "rank": 357
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/pian2.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.53d1.fa4",
+   "hanzi": "发",
+   "pinyin": "fà",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 3
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L3-64",
+     "level": 3
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "hair",
+    "Taiwan pr. [fa3]"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "fā",
+     "fà"
+    ],
+    "entries": [
+     "髮|发[fa4]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.52,
+    "rank": 363
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/fa4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.4e00-4e0b-513f.yi1xia4r5",
    "hanzi": "一下儿",
    "pinyin": "yīxiàr",
@@ -789,7 +937,7 @@
   {
    "id": "w.7b2c-4e00.di4yi1",
    "hanzi": "第一",
-   "pinyin": "dì yī",
+   "pinyin": "dìyī",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -802,11 +950,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 173,
+     "id": "L2-22",
      "level": 2
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "first",
     "most important; primary; foremost"
@@ -829,7 +977,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -1224,56 +1372,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.7535-5b50.dian4zi3",
-   "hanzi": "电子",
-   "pinyin": "diàn zǐ",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 3
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 357,
-     "level": 3
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "electronic",
-    "electron (particle physics)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "diàn zǐ"
-    ],
-    "entries": [
-     "電子|电子[dian4 zi3]"
-    ]
-   },
-   "freq": {
-    "zipf": 5.19,
-    "rank": 822
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.7535-5b50.dian4zi3.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-电子.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -1879,6 +1977,59 @@
    "resolution": null
   },
   {
+   "id": "w.6559.jiao4",
+   "hanzi": "教",
+   "pinyin": "jiào",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 3
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L3-118",
+     "level": 3
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "(bound form) to teach; to instruct",
+    "a religion",
+    "to cause (sb to do sth); to tell (sb to do sth)",
+    "surname Jiao"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "jiào",
+     "jiāo"
+    ],
+    "entries": [
+     "教|教[Jiao4]",
+     "教|教[jiao4]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.07,
+    "rank": 1102
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/jiao4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.82f1-8bed.ying1yu3",
    "hanzi": "英语",
    "pinyin": "Yīngyǔ",
@@ -2134,7 +2285,7 @@
   {
    "id": "w.4e0b-8f7d.xia4zai3",
    "hanzi": "下载",
-   "pinyin": "xià zǎi",
+   "pinyin": "xiàzǎi",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -2147,11 +2298,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2229,
+     "id": "L5-1017",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to download",
     "also pr. [xia4zai4]"
@@ -2174,7 +2325,57 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.5047.jia4",
+   "hanzi": "假",
+   "pinyin": "jià",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 4
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L4-201",
+     "level": 4
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "vacation"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "gēi",
+     "jiǎ",
+     "jià"
+    ],
+    "entries": [
+     "假|假[jia4]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.04,
+    "rank": 1185
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/jia4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -3002,28 +3203,78 @@
    "resolution": null
   },
   {
-   "id": "w.55ef.en5",
-   "hanzi": "嗯",
-   "pinyin": "en",
+   "id": "w.7247.pian1",
+   "hanzi": "片",
+   "pinyin": "piān",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 6
+    "hsk20": 5
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 3812,
-     "level": 6
+     "id": "L5-706",
+     "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
-    "interjection indicating approval, appreciation or agreement"
+    "disk",
+    "sheet"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "piān",
+     "piàn"
+    ],
+    "entries": [
+     "片|片[pian1]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.87,
+    "rank": 1726
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/pian1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.55ef.en1",
+   "hanzi": "嗯",
+   "pinyin": "ēn",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-678",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "(a groaning sound)"
    ],
    "classifiers": [],
    "cedict": {
@@ -3034,7 +3285,7 @@
      "en"
     ],
     "entries": [
-     "嗯|嗯[en5]"
+     "嗯|嗯[en1]"
     ]
    },
    "freq": {
@@ -3042,10 +3293,12 @@
     "rank": 1757
    },
    "audio": {
-    "kind": "tts",
-    "reason": "neutral-tone syllable (no verified recording)"
+    "kind": "syllable",
+    "file": "s/en1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -3407,11 +3660,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4065,
+     "id": "L6-1564",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "dialectal equivalent of 什麼|什么[shen2 me5]",
     "also pr. [sha4]"
@@ -3436,7 +3689,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -3688,6 +3941,56 @@
     "from": "24k-abr/hsk/cmn-没什么.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.62a2.qiang1",
+   "hanzi": "抢",
+   "pinyin": "qiāng",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-741",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "(literary) to knock against (esp. to knock one's head on the ground in grief or rage)",
+    "opposite in direction; contrary"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "qiāng",
+     "qiǎng"
+    ],
+    "entries": [
+     "搶|抢[qiang1]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.8,
+    "rank": 1985
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/qiang1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -4143,17 +4446,17 @@
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 4
+    "hsk20": 5
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 1086,
-     "level": 4
+     "id": "L5-1055",
+     "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "blood",
     "colloquial pr. [xie3]"
@@ -4182,7 +4485,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -6100,7 +6403,7 @@
    ],
    "hsk20": [
     {
-     "id": 456,
+     "id": "L3-158",
      "level": 3
     }
    ],
@@ -6584,24 +6887,24 @@
   {
    "id": "w.804a-5929.liao2tian1",
    "hanzi": "聊天",
-   "pinyin": "liáo tiān",
+   "pinyin": "liáotiān",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 4
+    "hsk20": 3
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 882,
-     "level": 4
+     "id": "L3-153",
+     "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to chat; to gossip"
    ],
@@ -6626,46 +6929,43 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-聊天.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
   {
-   "id": "w.9547-538b.zhen4ya1",
-   "hanzi": "镇压",
-   "pinyin": "zhèn yā",
+   "id": "w.4fe9.liang3",
+   "hanzi": "俩",
+   "pinyin": "liǎng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 6
+    "hsk20": 4
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 4817,
-     "level": 6
+     "id": "L4-285",
+     "level": 4
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
-    "suppression",
-    "repression",
-    "to suppress",
-    "to put down",
-    "to quell"
+    "used in 伎倆|伎俩[ji4 liang3]"
    ],
    "classifiers": [],
    "cedict": {
     "match": "ok",
     "readings": [
-     "zhèn yā"
+     "liǎ",
+     "liǎng"
     ],
     "entries": [
-     "鎮壓|镇压[zhen4 ya1]"
+     "倆|俩[liang3]"
     ]
    },
    "freq": {
@@ -6673,13 +6973,12 @@
     "rank": 2939
    },
    "audio": {
-    "kind": "word",
-    "file": "w/w.9547-538b.zhen4ya1.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-镇压.mp3"
+    "kind": "syllable",
+    "file": "s/liang3.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -6771,8 +7070,10 @@
     "rank": 2991
    },
    "audio": {
-    "kind": "tts",
-    "reason": "no syllable recording"
+    "kind": "syllable",
+    "file": "s/jv4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
    "verified_against": "CC-CEDICT 2026-05-18",
@@ -7951,7 +8252,7 @@
    ],
    "hsk20": [
     {
-     "id": 1970,
+     "id": "L5-752",
      "level": 5
     }
    ],
@@ -8228,55 +8529,6 @@
    "resolution": null
   },
   {
-   "id": "w.6076-5fc3.e4xin1",
-   "hanzi": "恶心",
-   "pinyin": "è xīn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3000,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "bad habit",
-    "vicious habit",
-    "vice"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "ě xīn",
-     "è xīn"
-    ],
-    "entries": [
-     "惡心|恶心[e4 xin1]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.51,
-    "rank": 3466
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "recording exists but CC-CEDICT lists more than one reading"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.6293-4f4f.zhua1zhu4",
    "hanzi": "抓住",
    "pinyin": "zhuāzhù",
@@ -8366,6 +8618,52 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.6a21-7279.mo2te4",
+   "hanzi": "模特",
+   "pinyin": "mótè",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-661",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "(fashion) model (loanword)"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "mó tè"
+    ],
+    "entries": [
+     "模特|模特[mo2 te4]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.51,
+    "rank": 3466
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -8678,11 +8976,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4832,
+     "id": "L6-2324",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "timely",
     "just (when needed)"
@@ -8706,7 +9004,7 @@
     "kind": "tts",
     "reason": "recording exists but CC-CEDICT lists more than one reading"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -8921,7 +9219,7 @@
    ],
    "hsk20": [
     {
-     "id": 1433,
+     "id": "L5-232",
      "level": 5
     }
    ],
@@ -9018,7 +9316,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "3",
-    "hsk20": null
+    "hsk20": 4
    },
    "exam2025": [],
    "std2021": [
@@ -9027,7 +9325,12 @@
      "level": "3"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": "L4-138",
+     "level": 4
+    }
+   ],
    "source": "hsk2021-ivankra",
    "meanings": [
     "expressway; highway; freeway"
@@ -9310,57 +9613,6 @@
    "resolution": null
   },
   {
-   "id": "w.8d77-4e49.qi3yi4",
-   "hanzi": "起义",
-   "pinyin": "qǐ yì",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3917,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "uprising",
-    "insurrection",
-    "revolt"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "qǐ yì"
-    ],
-    "entries": [
-     "起義|起义[qi3 yi4]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.45,
-    "rank": 3870
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.8d77-4e49.qi3yi4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-起义.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.4f18.you1",
    "hanzi": "优",
    "pinyin": "yōu",
@@ -9406,6 +9658,61 @@
     "source": "audio-cmn"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.5207.qie4",
+   "hanzi": "切",
+   "pinyin": "qiè",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-745",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "definitely; absolutely (not)",
+    "(scoffing or dismissive interjection) Yeah, right.; Tut!",
+    "to grind",
+    "(bound form) close to",
+    "(bound form) eager",
+    "to correspond to",
+    "(used to indicate that the fanqie 反切[fan3 qie4] system should be applied to the previous two characters)"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "qiē",
+     "qiè"
+    ],
+    "entries": [
+     "切|切[qie4]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.44,
+    "rank": 3942
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/qie4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -9655,9 +9962,63 @@
    "resolution": null
   },
   {
+   "id": "w.89d2.jue2",
+   "hanzi": "角",
+   "pinyin": "jué",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 3
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L3-119",
+     "level": 3
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "role (theater)",
+    "to compete",
+    "ancient three legged wine vessel",
+    "third note of pentatonic scale",
+    "surname Jue"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "jué",
+     "jiǎo"
+    ],
+    "entries": [
+     "角|角[Jue2]",
+     "角|角[jue2]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.44,
+    "rank": 3942
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/jue2.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.957f-6c5f.chang2jiang1",
    "hanzi": "长江",
-   "pinyin": "Cháng Jiāng",
+   "pinyin": "Chángjiāng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -9670,11 +10031,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 638,
+     "id": "L4-41",
      "level": 4
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "Yangtze River, or Chang Jiang"
    ],
@@ -9696,7 +10057,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -10036,6 +10397,55 @@
    "resolution": null
   },
   {
+   "id": "w.5582.wei2",
+   "hanzi": "喂",
+   "pinyin": "wéi",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-1886",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "hello (when answering the phone)"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "wéi",
+     "wèi"
+    ],
+    "entries": [
+     "喂|喂[wei2]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.42,
+    "rank": 4076
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/wei2.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.590f.xia4",
    "hanzi": "夏",
    "pinyin": "xià",
@@ -10051,11 +10461,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 536,
+     "id": "L3-237",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "the Xia or Hsia dynasty c. 2000 BC",
     "Xia of the Sixteen Kingdoms (407–432)",
@@ -10083,7 +10493,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -10135,57 +10545,6 @@
     "from": "24k-abr/hsk/cmn-大哥.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.5e38-52a1.chang2wu4",
-   "hanzi": "常务",
-   "pinyin": "cháng wù",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2738,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "routine",
-    "everyday business",
-    "daily operation (of a company)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "cháng wù"
-    ],
-    "entries": [
-     "常務|常务[chang2 wu4]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.42,
-    "rank": 4076
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.5e38-52a1.chang2wu4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-常务.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -11227,7 +11586,7 @@
   {
    "id": "w.6b96-6c11-5730.zhi2min2di4",
    "hanzi": "殖民地",
-   "pinyin": "zhí mín dì",
+   "pinyin": "zhímíndì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -11240,11 +11599,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4855,
+     "id": "L6-2357",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "colony"
    ],
@@ -11269,7 +11628,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-殖民地.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -11413,56 +11772,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.5509.ai1",
-   "hanzi": "唉",
-   "pinyin": "āi",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 5
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 1201,
-     "level": 5
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "interjection or grunt of agreement or recognition (e.g. yes, it's me!)",
-    "to sigh"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "āi",
-     "ài"
-    ],
-    "entries": [
-     "唉|唉[ai1]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.35,
-    "rank": 4635
-   },
-   "audio": {
-    "kind": "syllable",
-    "file": "s/ai1.mp3",
-    "speaker": "Chen Wang",
-    "source": "audio-cmn"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -11612,7 +11921,7 @@
   {
    "id": "w.72ec-88c1.du2cai2",
    "hanzi": "独裁",
-   "pinyin": "dú cái",
+   "pinyin": "dúcái",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -11625,11 +11934,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2971,
+     "id": "L6-460",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "dictatorship"
    ],
@@ -11654,7 +11963,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-独裁.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -11972,7 +12281,7 @@
    ],
    "hsk20": [
     {
-     "id": 2003,
+     "id": "L5-787",
      "level": 5
     }
    ],
@@ -12022,11 +12331,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 341,
+     "id": "L3-39",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "spring (season)",
     "gay",
@@ -12059,7 +12368,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -12112,24 +12421,24 @@
   {
    "id": "w.706b-8f66-7ad9.huo3che1zhan4",
    "hanzi": "火车站",
-   "pinyin": "huǒ chē zhàn",
+   "pinyin": "huǒchēzhàn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 1
+    "hsk20": 2
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 43,
-     "level": 1
+     "id": "L2-41",
+     "level": 2
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "train station"
    ],
@@ -12151,7 +12460,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -12273,7 +12582,7 @@
    ],
    "hsk20": [
     {
-     "id": 159,
+     "id": "L2-10",
      "level": 2
     }
    ],
@@ -12356,7 +12665,7 @@
   {
    "id": "w.4e61-9547.xiang1zhen4",
    "hanzi": "乡镇",
-   "pinyin": "xiāng zhèn",
+   "pinyin": "xiāngzhèn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -12369,11 +12678,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4470,
+     "id": "L6-1967",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "village",
     "township"
@@ -12396,7 +12705,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -12742,7 +13051,7 @@
   {
    "id": "w.57ce-5821.cheng2bao3",
    "hanzi": "城堡",
-   "pinyin": "chéng bǎo",
+   "pinyin": "chéngbǎo",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -12755,11 +13064,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2771,
+     "id": "L6-267",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "castle",
     "rook (chess piece)"
@@ -12782,7 +13091,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -13035,56 +13344,6 @@
    "resolution": null
   },
   {
-   "id": "w.53cd-52a8.fan3dong4",
-   "hanzi": "反动",
-   "pinyin": "fǎn dòng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3028,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "reaction",
-    "reactionary"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "fǎn dòng"
-    ],
-    "entries": [
-     "反動|反动[fan3 dong4]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.29,
-    "rank": 5150
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.53cd-52a8.fan3dong4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-反动.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.548b.za3",
    "hanzi": "咋",
    "pinyin": "zǎ",
@@ -13100,11 +13359,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4744,
+     "id": "L6-2242",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "dialectal equivalent of 怎麼|怎么[zen3 me5]",
     "Taiwan pr. [ze2]"
@@ -13131,7 +13390,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -13626,7 +13885,7 @@
    ],
    "hsk20": [
     {
-     "id": 666,
+     "id": "L4-72",
      "level": 4
     }
    ],
@@ -14182,11 +14441,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3250,
+     "id": "L6-736",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "oh alas",
     "hey!",
@@ -14213,7 +14472,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -14562,7 +14821,7 @@
    ],
    "hsk20": [
     {
-     "id": 637,
+     "id": "L4-40",
      "level": 4
     }
    ],
@@ -15373,6 +15632,52 @@
    "resolution": "keep-hsk"
   },
   {
+   "id": "w.9ec4-6cb3.huang2he2",
+   "hanzi": "黄河",
+   "pinyin": "huánghé",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 3
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L3-104",
+     "level": 3
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "Yellow River or Huang He"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "huáng hé"
+    ],
+    "entries": [
+     "黃河|黄河[Huang2 He2]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.21,
+    "rank": 5928
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.4f20-6765.chuan2lai2",
    "hanzi": "传来",
    "pinyin": "chuánlái",
@@ -15463,6 +15768,60 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.94fa.pu4",
+   "hanzi": "铺",
+   "pinyin": "pù",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-1391",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "store",
+    "plank bed",
+    "place to sleep",
+    "shop",
+    "(old) relay station"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "pù",
+     "pū"
+    ],
+    "entries": [
+     "舖|铺[pu4]",
+     "鋪|铺[pu4]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.2,
+    "rank": 6032
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/pu4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -16041,6 +16400,55 @@
    "resolution": null
   },
   {
+   "id": "w.6323.zheng1",
+   "hanzi": "挣",
+   "pinyin": "zhēng",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-1213",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "used in 掙扎|挣扎[zheng1 zha2]"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "zhēng",
+     "zhèng"
+    ],
+    "entries": [
+     "掙|挣[zheng1]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.18,
+    "rank": 6224
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/zheng1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.6bd4-5982-8bf4.bi3ru2shuo1",
    "hanzi": "比如说",
    "pinyin": "bǐrú shuō",
@@ -16180,6 +16588,52 @@
     "from": "24k-abr/hsk/cmn-胖子.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.81f4-529b.zhi4li4",
+   "hanzi": "致力",
+   "pinyin": "zhìlì",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-2374",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "to devote oneself to; to work toward (often followed by 於|于[yu2])"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "zhì lì"
+    ],
+    "entries": [
+     "致力|致力[zhi4 li4]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.18,
+    "rank": 6224
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -16418,56 +16872,6 @@
     "source": "audio-cmn"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.6cc4-9732.xie4lu4",
-   "hanzi": "泄露",
-   "pinyin": "xiè lù",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4495,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to leak (information); to divulge",
-    "also pr. [xie4lou4]"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "xiè lù"
-    ],
-    "entries": [
-     "泄露|泄露[xie4 lu4]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.17,
-    "rank": 6334
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.6cc4-9732.xie4lu4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-泄露.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -17136,56 +17540,6 @@
     "from": "24k-abr/hsk/cmn-除此之外.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.4e3a-9996.wei2shou3",
-   "hanzi": "为首",
-   "pinyin": "wéi shǒu",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4375,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "head",
-    "be headed by"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "wéi shǒu"
-    ],
-    "entries": [
-     "為首|为首[wei2 shou3]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.15,
-    "rank": 6545
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.4e3a-9996.wei2shou3.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-为首.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -19015,11 +19369,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4007,
+     "id": "L6-1503",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "(literary) dog",
     "Kangxi radical 94"
@@ -19044,7 +19398,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -19294,11 +19648,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 486,
+     "id": "L3-189",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "autumn",
     "fall",
@@ -19329,7 +19683,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -19395,7 +19749,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 5
+    "hsk20": 4
    },
    "exam2025": [],
    "std2021": [
@@ -19406,8 +19760,8 @@
    ],
    "hsk20": [
     {
-     "id": 1497,
-     "level": 5
+     "id": "L4-123",
+     "level": 4
     }
    ],
    "source": "hsk2021-ivankra",
@@ -19689,7 +20043,7 @@
   {
    "id": "w.4ee5-81f3.yi3zhi4",
    "hanzi": "以至",
-   "pinyin": "yǐ zhì",
+   "pinyin": "yǐzhì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -19702,11 +20056,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4646,
+     "id": "L6-2151",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "down to",
     "up to",
@@ -19734,7 +20088,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-以至.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -19837,57 +20191,6 @@
     "from": "24k-abr/hsk/cmn-出事.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.653e-624b.fang4shou3",
-   "hanzi": "放手",
-   "pinyin": "fàng shǒu",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3051,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to let go one's hold",
-    "to give up",
-    "to have a free hand"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "fàng shǒu"
-    ],
-    "entries": [
-     "放手|放手[fang4 shou3]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.06,
-    "rank": 7614
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.653e-624b.fang4shou3.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-放手.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -20147,7 +20450,7 @@
    ],
    "hsk20": [
     {
-     "id": 4609,
+     "id": "L6-2116",
      "level": 6
     }
    ],
@@ -20200,7 +20503,7 @@
    ],
    "hsk20": [
     {
-     "id": 4763,
+     "id": "L6-2257",
      "level": 6
     }
    ],
@@ -20351,7 +20654,7 @@
    ],
    "hsk20": [
     {
-     "id": 650,
+     "id": "L4-51",
      "level": 4
     }
    ],
@@ -20673,52 +20976,6 @@
    "resolution": null
   },
   {
-   "id": "w.5c0f-5077.xiao3tou1",
-   "hanzi": "小偷",
-   "pinyin": "xiǎo tōu",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 5
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2261,
-     "level": 5
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "thief"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "xiǎo tōu"
-    ],
-    "entries": [
-     "小偷|小偷[xiao3 tou1]"
-    ]
-   },
-   "freq": {
-    "zipf": 4.03,
-    "rank": 8014
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.6d0b.yang2",
    "hanzi": "洋",
    "pinyin": "yáng",
@@ -20772,7 +21029,7 @@
   {
    "id": "w.718a-732b.xiong2mao1",
    "hanzi": "熊猫",
-   "pinyin": "xióng māo",
+   "pinyin": "xióngmāo",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -20785,11 +21042,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 550,
+     "id": "L3-249",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "panda"
    ],
@@ -20816,7 +21073,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-熊猫.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -21650,11 +21907,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4649,
+     "id": "L6-2163",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "alternative name for 絳|绛[Jiang4], the capital of the Jin State during the Spring and Autumn Period (770–475 BC)",
     "wing",
@@ -21684,7 +21941,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -21910,7 +22167,7 @@
    ],
    "hsk20": [
     {
-     "id": 3168,
+     "id": "L6-655",
      "level": 6
     }
    ],
@@ -22091,7 +22348,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "5",
-    "hsk20": 5
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -22100,12 +22357,7 @@
      "level": "5"
     }
    ],
-   "hsk20": [
-    {
-     "id": 2420,
-     "level": 5
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to make money"
@@ -23687,7 +23939,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 4
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -23696,13 +23948,7 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [
-    {
-     "id": 1197,
-     "level": 4,
-     "pinyin": "zuò shēng yì"
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to do business"
@@ -24170,7 +24416,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 6
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -24179,12 +24425,7 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [
-    {
-     "id": 3285,
-     "level": 6
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "roar of laughter (onom.)",
@@ -24333,7 +24574,7 @@
    ],
    "hsk20": [
     {
-     "id": 177,
+     "id": "L2-27",
      "level": 2
     }
    ],
@@ -25795,6 +26036,60 @@
    "resolution": null
   },
   {
+   "id": "w.76db.sheng4",
+   "hanzi": "盛",
+   "pinyin": "shèng",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-269",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "flourishing",
+    "vigorous",
+    "magnificent",
+    "extensively",
+    "surname Sheng"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "shèng",
+     "chéng"
+    ],
+    "entries": [
+     "盛|盛[Sheng4]",
+     "盛|盛[sheng4]"
+    ]
+   },
+   "freq": {
+    "zipf": 3.9,
+    "rank": 9977
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/sheng4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.80e1-540c-513f.hu2tong4r5",
    "hanzi": "胡同儿",
    "pinyin": "hútòngr",
@@ -26040,7 +26335,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": null
+    "hsk20": 6
    },
    "exam2025": [],
    "std2021": [
@@ -26049,7 +26344,12 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": "L6-1553",
+     "level": 6
+    }
+   ],
    "source": "hsk2021-ivankra",
    "meanings": [
     "Confucian school, founded by Confucius 孔子[Kong3 zi3] (551-479 BC) and Mencius 孟子[Meng4 zi3] (c. 372-c. 289 BC)"
@@ -26278,7 +26578,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 4
+    "hsk20": 5
    },
    "exam2025": [],
    "std2021": [
@@ -26289,8 +26589,8 @@
    ],
    "hsk20": [
     {
-     "id": 886,
-     "level": 4
+     "id": "L5-615",
+     "level": 5
     }
    ],
    "source": "hsk2021-ivankra",
@@ -26428,7 +26728,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "6",
-    "hsk20": 6
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -26437,12 +26737,7 @@
      "level": "6"
     }
    ],
-   "hsk20": [
-    {
-     "id": 4615,
-     "level": 6
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "otherwise",
@@ -26471,56 +26766,6 @@
     "from": "24k-abr/hsk/cmn-要不然.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.9020-53cd.zao4fan3",
-   "hanzi": "造反",
-   "pinyin": "zào fǎn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4761,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to rebel",
-    "to revolt"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zào fǎn"
-    ],
-    "entries": [
-     "造反|造反[zao4 fan3]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.89,
-    "rank": 10128
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.9020-53cd.zao4fan3.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-造反.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -27430,7 +27675,7 @@
   {
    "id": "w.6346-7ed1.kun3bang3",
    "hanzi": "捆绑",
-   "pinyin": "kǔn bǎng",
+   "pinyin": "kǔnbǎng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -27443,11 +27688,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3619,
+     "id": "L6-1109",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to bind"
    ],
@@ -27469,7 +27714,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -27998,6 +28243,59 @@
    "resolution": null
   },
   {
+   "id": "w.6591.ban1",
+   "hanzi": "斑",
+   "pinyin": "bān",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-34",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "spot",
+    "colored patch",
+    "stripe",
+    "spotted",
+    "striped",
+    "variegated"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "bān"
+    ],
+    "entries": [
+     "斑|斑[ban1]"
+    ]
+   },
+   "freq": {
+    "zipf": 3.85,
+    "rank": 10800
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/ban1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.6b4c-8ff7.ge1mi2",
    "hanzi": "歌迷",
    "pinyin": "gēmí",
@@ -28157,11 +28455,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 358,
+     "id": "L3-56",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "winter",
     "(onom.) beating a drum",
@@ -28190,7 +28488,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -28298,7 +28596,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "3",
-    "hsk20": null
+    "hsk20": 3
    },
    "exam2025": [],
    "std2021": [
@@ -28307,7 +28605,12 @@
      "level": "3"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": "L3-54",
+     "level": 3
+    }
+   ],
    "source": "hsk2021-ivankra",
    "meanings": [
     "email"
@@ -28386,7 +28689,7 @@
   {
    "id": "w.8230-8247.jian4ting3",
    "hanzi": "舰艇",
-   "pinyin": "jiàn tǐng",
+   "pinyin": "jiàntǐng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -28399,11 +28702,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3439,
+     "id": "L6-917",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "warship",
     "naval vessel"
@@ -28426,7 +28729,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -28519,56 +28822,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.529b-56fe.li4tu2",
-   "hanzi": "力图",
-   "pinyin": "lì tú",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3659,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to try hard to",
-    "to strive to"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "lì tú"
-    ],
-    "entries": [
-     "力圖|力图[li4 tu2]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.83,
-    "rank": 11151
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.529b-56fe.li4tu2.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-力图.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -28820,57 +29073,6 @@
    "resolution": "keep-hsk"
   },
   {
-   "id": "w.4e16-754c-89c2.shi4jie4guan1",
-   "hanzi": "世界观",
-   "pinyin": "shì jiè guān",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4156,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "worldview",
-    "world outlook",
-    "Weltanschauung"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "shì jiè guān"
-    ],
-    "entries": [
-     "世界觀|世界观[shi4 jie4 guan1]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.82,
-    "rank": 11330
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.4e16-754c-89c2.shi4jie4guan1.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-世界观.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.597d-4e0d-5bb9-6613.hao3bu4rong2yi4",
    "hanzi": "好不容易",
    "pinyin": "hǎobùróngyì",
@@ -28963,100 +29165,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.6c22.qing1",
-   "hanzi": "氢",
-   "pinyin": "qīng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3968,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "hydrogen (chemistry)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "qīng"
-    ],
-    "entries": [
-     "氫|氢[qing1]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.82,
-    "rank": 11330
-   },
-   "audio": {
-    "kind": "syllable",
-    "file": "s/qing1.mp3",
-    "speaker": "Chen Wang",
-    "source": "audio-cmn"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.73ed-4e3b-4efb.ban1zhu3ren4",
-   "hanzi": "班主任",
-   "pinyin": "bān zhǔ rèn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 5
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 1210,
-     "level": 5
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "teacher in charge of a class"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "bān zhǔ rèn"
-    ],
-    "entries": [
-     "班主任|班主任[ban1 zhu3 ren4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.82,
-    "rank": 11330
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -29539,7 +29647,7 @@
   {
    "id": "w.5019-9009.hou4xuan3",
    "hanzi": "候选",
-   "pinyin": "hòu xuǎn",
+   "pinyin": "hòuxuǎn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -29552,11 +29660,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3297,
+     "id": "L6-780",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "candidate (attributive)"
    ],
@@ -29578,7 +29686,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -29603,7 +29711,7 @@
    ],
    "hsk20": [
     {
-     "id": 1428,
+     "id": "L5-225",
      "level": 5
     }
    ],
@@ -29775,7 +29883,7 @@
   {
    "id": "w.591a-5143-5316.duo1yuan2hua4",
    "hanzi": "多元化",
-   "pinyin": "duō yuán huà",
+   "pinyin": "duōyuánhuà",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -29788,11 +29896,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2996,
+     "id": "L6-482",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "diversification",
     "pluralism",
@@ -29816,7 +29924,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -29925,7 +30033,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "5",
-    "hsk20": null
+    "hsk20": 5
    },
    "exam2025": [],
    "std2021": [
@@ -29934,7 +30042,12 @@
      "level": "5"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": "L5-888",
+     "level": 5
+    }
+   ],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to fall down",
@@ -30076,7 +30189,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "3",
-    "hsk20": 5
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -30085,12 +30198,7 @@
      "level": "3"
     }
    ],
-   "hsk20": [
-    {
-     "id": 1813,
-     "level": 5
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "serialized drama",
@@ -30406,6 +30514,58 @@
    "resolution": null
   },
   {
+   "id": "w.8d9f.tang1",
+   "hanzi": "趟",
+   "pinyin": "tāng",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 4
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L4-426",
+     "level": 4
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "to wade",
+    "to trample",
+    "to turn the soil"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "tāng",
+     "tàng"
+    ],
+    "entries": [
+     "䠀|趟[tang1]",
+     "趟|趟[tang1]"
+    ]
+   },
+   "freq": {
+    "zipf": 3.79,
+    "rank": 11863
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/tang1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.9f20.shu3",
    "hanzi": "鼠",
    "pinyin": "shǔ",
@@ -30645,24 +30805,24 @@
   {
    "id": "w.9762-6761.mian4tiao2",
    "hanzi": "面条",
-   "pinyin": "miàn tiáo",
+   "pinyin": "miàntiáo",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 3
+    "hsk20": 2
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 463,
-     "level": 3
+     "id": "L2-72",
+     "level": 2
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "noodles"
    ],
@@ -30684,7 +30844,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -32131,56 +32291,6 @@
    "resolution": null
   },
   {
-   "id": "w.5e76-5b58.bing4cun2",
-   "hanzi": "并存",
-   "pinyin": "bìng cún",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2644,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to exist at the same time",
-    "to coexist"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "bìng cún"
-    ],
-    "entries": [
-     "並存|并存[bing4 cun2]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.74,
-    "rank": 12855
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.5e76-5b58.bing4cun2.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-并存.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.60e9-5904.cheng2chu3",
    "hanzi": "惩处",
    "pinyin": "chéngchǔ",
@@ -32224,56 +32334,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.628a-620f.ba3xi4",
-   "hanzi": "把戏",
-   "pinyin": "bǎ xì",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2526,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "acrobatics; jugglery",
-    "trick; ploy"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "bǎ xì"
-    ],
-    "entries": [
-     "把戲|把戏[ba3 xi4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.74,
-    "rank": 12855
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.628a-620f.ba3xi4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-把戏.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -32531,11 +32591,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 1423,
+     "id": "L5-223",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to fish with a hook and line; to angle"
    ],
@@ -32559,7 +32619,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -33799,55 +33859,6 @@
    "resolution": null
   },
   {
-   "id": "w.660e-4fe1-7247.ming2xin4pian4",
-   "hanzi": "明信片",
-   "pinyin": "míng xìn piàn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 5
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 1869,
-     "level": 5
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "postcard"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "míng xìn piàn"
-    ],
-    "entries": [
-     "明信片|明信片[ming2 xin4 pian4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.71,
-    "rank": 13545
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.660e-4fe1-7247.ming2xin4pian4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-明信片.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.8d70-5f00.zou3kai1",
    "hanzi": "走开",
    "pinyin": "zǒukāi",
@@ -34502,7 +34513,7 @@
   {
    "id": "w.7c89-8272.fen3se4",
    "hanzi": "粉色",
-   "pinyin": "fěn sè",
+   "pinyin": "fěnsè",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -34515,11 +34526,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3075,
+     "id": "L6-558",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "pink",
     "white",
@@ -34545,7 +34556,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -35087,11 +35098,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3842,
+     "id": "L6-1335",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "(bound form) side; edge; boundary"
    ],
@@ -35115,58 +35126,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.7ec8-5e74.zhong1nian2",
-   "hanzi": "终年",
-   "pinyin": "zhōng nián",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4886,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "entire year",
-    "throughout the year",
-    "age at death"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zhōng nián"
-    ],
-    "entries": [
-     "終年|终年[zhong1 nian2]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.69,
-    "rank": 14019
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.7ec8-5e74.zhong1nian2.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-终年.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -35417,58 +35377,6 @@
    "resolution": "keep-hsk"
   },
   {
-   "id": "w.54ce-54df.ai1yo1",
-   "hanzi": "哎哟",
-   "pinyin": "āi yō",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2501,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "hey",
-    "ow",
-    "ouch",
-    "interjection of pain or surprise"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "āi yō"
-    ],
-    "entries": [
-     "哎喲|哎哟[ai1 yo1]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.67,
-    "rank": 14441
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.54ce-54df.ai1yo1.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-哎哟.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.5927-9762-79ef.da4mian4ji1",
    "hanzi": "大面积",
    "pinyin": "dà miànjī",
@@ -35531,11 +35439,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2766,
+     "id": "L6-272",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "orange tree",
     "orange (color)"
@@ -35560,55 +35468,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.7422-78e8.zhuo2mo2",
-   "hanzi": "琢磨",
-   "pinyin": "zhuó mó",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4952,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to carve and polish (jade)",
-    "to polish and refine a literary work"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zhuó mó",
-     "zuó mo"
-    ],
-    "entries": [
-     "琢磨|琢磨[zhuo2 mo2]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.67,
-    "rank": 14441
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "recording exists but CC-CEDICT lists more than one reading"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -35765,7 +35625,7 @@
   {
    "id": "w.5783-573e-6876.la1ji1tong3",
    "hanzi": "垃圾桶",
-   "pinyin": "lā jī tǒng",
+   "pinyin": "lājītǒng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -35778,11 +35638,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 861,
+     "id": "L4-266",
      "level": 4
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "rubbish bin",
     "trash can",
@@ -35807,7 +35667,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -36346,7 +36206,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 5
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -36355,12 +36215,7 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [
-    {
-     "id": 1716,
-     "level": 5
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to give up smoking"
@@ -37254,7 +37109,7 @@
   {
    "id": "w.66f2-5b50.qu3zi5",
    "hanzi": "曲子",
-   "pinyin": "qǔ zi",
+   "pinyin": "qǔzi",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -37267,11 +37122,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3998,
+     "id": "L6-1494",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "poem for singing",
     "tune",
@@ -37300,7 +37155,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-曲子.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -37513,7 +37368,7 @@
    ],
    "hsk20": [
     {
-     "id": 3934,
+     "id": "L6-1429",
      "level": 6
     }
    ],
@@ -37902,11 +37757,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2604,
+     "id": "L6-101",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "arm"
    ],
@@ -37930,7 +37785,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -38127,7 +37982,7 @@
   {
    "id": "w.7167-76f8-673a.zhao4xiang4ji1",
    "hanzi": "照相机",
-   "pinyin": "zhào xiàng jī",
+   "pinyin": "zhàoxiàngjī",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -38140,11 +37995,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 583,
+     "id": "L3-282",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "camera"
    ],
@@ -38173,7 +38028,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-照相机.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -39038,55 +38893,6 @@
    "resolution": null
   },
   {
-   "id": "w.6444-53d6.she4qu3",
-   "hanzi": "摄取",
-   "pinyin": "shè qǔ",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4087,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to absorb (nutrients etc)",
-    "to assimilate",
-    "intake",
-    "to take a photograph of (a scene)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "shè qǔ"
-    ],
-    "entries": [
-     "攝取|摄取[she4 qu3]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.59,
-    "rank": 16422
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.6447-5934.yao2tou2",
    "hanzi": "摇头",
    "pinyin": "yáotóu",
@@ -39250,7 +39056,7 @@
    ],
    "hsk20": [
     {
-     "id": 3347,
+     "id": "L6-834",
      "level": 6
     }
    ],
@@ -39326,6 +39132,52 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.767e-5206-4e4b.bai3fen1zhi1",
+   "hanzi": "百分之",
+   "pinyin": "bǎifēnzhī",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 4
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L4-6",
+     "level": 4
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "percent"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "bǎi fēn zhī"
+    ],
+    "entries": [
+     "百分之|百分之[bai3 fen1 zhi1]"
+    ]
+   },
+   "freq": {
+    "zipf": 3.59,
+    "rank": 16422
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -39722,7 +39574,7 @@
    ],
    "hsk20": [
     {
-     "id": 1566,
+     "id": "L5-359",
      "level": 5
     }
    ],
@@ -40093,9 +39945,9 @@
    "resolution": null
   },
   {
-   "id": "w.58a8-6c34-513f.mo4shui3r5",
-   "hanzi": "墨水儿",
-   "pinyin": "mò shuǐr",
+   "id": "w.524a.xue1",
+   "hanzi": "削",
+   "pinyin": "xuē",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -40108,11 +39960,63 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3793,
+     "id": "L6-1981",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "to pare",
+    "to reduce",
+    "to remove",
+    "Taiwan pr. [xue4]"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "xiāo",
+     "xuē"
+    ],
+    "entries": [
+     "削|削[xue1]"
+    ]
+   },
+   "freq": {
+    "zipf": 3.56,
+    "rank": 17235
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/xue1.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.58a8-6c34-513f.mo4shui3r5",
+   "hanzi": "墨水儿",
+   "pinyin": "mòshuǐr",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-1283",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "erhua variant of 墨水[mo4 shui3]"
    ],
@@ -40137,7 +40041,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-墨水儿.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -40211,7 +40115,7 @@
    ],
    "hsk20": [
     {
-     "id": 3183,
+     "id": "L6-654",
      "level": 6
     }
    ],
@@ -40248,9 +40152,9 @@
    "resolution": null
   },
   {
-   "id": "w.65af-6587.si1wen2",
+   "id": "w.65af-6587.si1wen5",
    "hanzi": "斯文",
-   "pinyin": "sī wén",
+   "pinyin": "sīwen",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -40263,11 +40167,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4214,
+     "id": "L6-1714",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "refined",
     "educate",
@@ -40278,7 +40182,7 @@
    ],
    "classifiers": [],
    "cedict": {
-    "match": "ok",
+    "match": "neutral",
     "readings": [
      "sī wén"
     ],
@@ -40291,15 +40195,12 @@
     "rank": 17235
    },
    "audio": {
-    "kind": "word",
-    "file": "w/w.65af-6587.si1wen2.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-斯文.mp3"
+    "kind": "tts",
+    "reason": "recording reading does not match CC-CEDICT"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.76f8-6bd4-4e4b-4e0b.xiang1bi3zhi1xia4",
@@ -40350,7 +40251,7 @@
   {
    "id": "w.7f8a-8089.yang2rou4",
    "hanzi": "羊肉",
-   "pinyin": "yáng ròu",
+   "pinyin": "yángròu",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -40363,11 +40264,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 271,
+     "id": "L2-124",
      "level": 2
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "mutton",
     "goat meat"
@@ -40390,7 +40291,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -41030,11 +40931,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4771,
+     "id": "L6-2265",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to blink",
     "to wink"
@@ -41059,7 +40960,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -41348,7 +41249,7 @@
   {
    "id": "w.6cb9-70b8.you2zha2",
    "hanzi": "油炸",
-   "pinyin": "yóu zhá",
+   "pinyin": "yóuzhá",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -41361,11 +41262,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2357,
+     "id": "L5-1146",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to deep fry"
    ],
@@ -41387,14 +41288,14 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
   {
    "id": "w.6d82-62b9.tu2mo3",
    "hanzi": "涂抹",
-   "pinyin": "tú mǒ",
+   "pinyin": "túmǒ",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -41407,11 +41308,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4318,
+     "id": "L6-1824",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to paint",
     "to smear",
@@ -41438,7 +41339,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -42131,7 +42032,7 @@
    ],
    "hsk20": [
     {
-     "id": 1446,
+     "id": "L5-247",
      "level": 5
     }
    ],
@@ -42207,8 +42108,10 @@
     "rank": 18352
    },
    "audio": {
-    "kind": "tts",
-    "reason": "no syllable recording"
+    "kind": "syllable",
+    "file": "s/jv4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
    "verified_against": "CC-CEDICT 2026-05-18",
@@ -42714,7 +42617,7 @@
    ],
    "hsk20": [
     {
-     "id": 1011,
+     "id": "L4-412",
      "level": 4
     }
    ],
@@ -42939,9 +42842,9 @@
    "resolution": null
   },
   {
-   "id": "w.884c-674e-7bb1.xing2li5xiang1",
+   "id": "w.884c-674e-7bb1.xing2li3xiang1",
    "hanzi": "行李箱",
-   "pinyin": "xíng li xiāng",
+   "pinyin": "xínglǐxiāng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -42954,11 +42857,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 548,
+     "id": "L3-248",
      "level": 3
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "suitcase",
     "baggage compartment",
@@ -42968,7 +42871,7 @@
    ],
    "classifiers": [],
    "cedict": {
-    "match": "ok",
+    "match": "neutral",
     "readings": [
      "xíng li xiāng"
     ],
@@ -42984,9 +42887,9 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.9614.kuo4",
@@ -43181,7 +43084,7 @@
   {
    "id": "w.6c14-6982.qi4gai4",
    "hanzi": "气概",
-   "pinyin": "qì gài",
+   "pinyin": "qìgài",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -43194,11 +43097,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3926,
+     "id": "L6-1420",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "lofty quality",
     "mettle",
@@ -43225,7 +43128,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-气概.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -43373,7 +43276,7 @@
   {
    "id": "w.7247-65ad.pian4duan4",
    "hanzi": "片断",
-   "pinyin": "piàn duàn",
+   "pinyin": "piànduàn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -43386,11 +43289,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3867,
+     "id": "L6-1358",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "section",
     "fragment",
@@ -43414,7 +43317,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -43612,38 +43515,38 @@
    "resolution": null
   },
   {
-   "id": "w.532a-5f92.fei3tu2",
-   "hanzi": "匪徒",
-   "pinyin": "fěi tú",
+   "id": "w.540e-80cc.hou4bei4",
+   "hanzi": "后背",
+   "pinyin": "hòubèi",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 6
+    "hsk20": 5
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 3058,
-     "level": 6
+     "id": "L5-402",
+     "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
-    "gangster",
-    "bandit"
+    "the back (human anatomy)",
+    "the back part of sth"
    ],
    "classifiers": [],
    "cedict": {
     "match": "ok",
     "readings": [
-     "fěi tú"
+     "hòu bèi"
     ],
     "entries": [
-     "匪徒|匪徒[fei3 tu2]"
+     "後背|后背[hou4 bei4]"
     ]
    },
    "freq": {
@@ -43651,13 +43554,10 @@
     "rank": 20173
    },
    "audio": {
-    "kind": "word",
-    "file": "w/w.532a-5f92.fei3tu2.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-匪徒.mp3"
+    "kind": "tts",
+    "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -44129,7 +44029,7 @@
   {
    "id": "w.88c5-5378.zhuang1xie4",
    "hanzi": "装卸",
-   "pinyin": "zhuāng xiè",
+   "pinyin": "zhuāngxiè",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -44142,11 +44042,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4942,
+     "id": "L6-2443",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to load or unload",
     "to transfer",
@@ -44173,7 +44073,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-装卸.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -44607,7 +44507,7 @@
   {
    "id": "w.4e0d-62e9-624b-6bb5.bu4ze2shou3duan4",
    "hanzi": "不择手段",
-   "pinyin": "bù zé shǒu duàn",
+   "pinyin": "bùzéshǒuduàn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -44620,11 +44520,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2679,
+     "id": "L6-170",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "by fair means or foul",
     "by hook or by crook",
@@ -44648,7 +44548,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -45763,7 +45663,7 @@
    ],
    "hsk20": [
     {
-     "id": 182,
+     "id": "L2-32",
      "level": 2
     }
    ],
@@ -46511,7 +46411,7 @@
   {
    "id": "w.6c14-529f.qi4gong1",
    "hanzi": "气功",
-   "pinyin": "qì gōng",
+   "pinyin": "qìgōng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -46524,11 +46424,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3927,
+     "id": "L6-1421",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "qigong, a traditional Chinese system of cultivating vital energy 氣|气[qi4] through coordinated breathing, movement and meditation"
    ],
@@ -46553,14 +46453,54 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-气功.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
   {
+   "id": "w.8e22-8db3-7403.ti1zu2qiu2",
+   "hanzi": "踢足球",
+   "pinyin": "tīzúqiú",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 2
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L2-102",
+     "level": 2
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [],
+   "classifiers": [],
+   "cedict": {
+    "match": "chars-only",
+    "readings": [],
+    "entries": []
+   },
+   "freq": {
+    "zipf": 3.38,
+    "rank": 22673
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": "keep-hsk"
+  },
+  {
    "id": "w.5e03-544a.bu4gao4",
    "hanzi": "布告",
-   "pinyin": "bù gào",
+   "pinyin": "bùgào",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -46573,11 +46513,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2681,
+     "id": "L6-172",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "posting on a bulletin board",
     "notice",
@@ -46605,14 +46545,14 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-布告.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
   {
    "id": "w.95ed-585e.bi4se4",
    "hanzi": "闭塞",
-   "pinyin": "bì sè",
+   "pinyin": "bìsè",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -46625,11 +46565,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2608,
+     "id": "L6-98",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to stop up",
     "to close up",
@@ -46660,7 +46600,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-闭塞.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -46861,7 +46801,7 @@
   {
    "id": "w.5598-6c14.chuan3qi4",
    "hanzi": "喘气",
-   "pinyin": "chuǎn qì",
+   "pinyin": "chuǎnqì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -46874,11 +46814,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2828,
+     "id": "L6-316",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to breathe deeply; to pant; to gasp",
     "to take a breather; to catch one's breath"
@@ -46901,7 +46841,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -46972,7 +46912,7 @@
    ],
    "hsk20": [
     {
-     "id": 2125,
+     "id": "L5-912",
      "level": 5
     }
    ],
@@ -47025,7 +46965,7 @@
    ],
    "hsk20": [
     {
-     "id": 2865,
+     "id": "L6-355",
      "level": 6
     }
    ],
@@ -47204,7 +47144,7 @@
   {
    "id": "w.76d6-7ae0.gai4zhang1",
    "hanzi": "盖章",
-   "pinyin": "gài zhāng",
+   "pinyin": "gàizhāng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -47217,11 +47157,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3125,
+     "id": "L6-611",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to affix a seal",
     "to stamp (a document)",
@@ -47245,7 +47185,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -47536,7 +47476,7 @@
   {
    "id": "w.68cd-68d2.gun4bang4",
    "hanzi": "棍棒",
-   "pinyin": "gùn bàng",
+   "pinyin": "gùnbàng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -47549,11 +47489,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3238,
+     "id": "L6-724",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "club; staff; stick"
    ],
@@ -47575,7 +47515,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -47600,7 +47540,7 @@
    ],
    "hsk20": [
     {
-     "id": 474,
+     "id": "L3-175",
      "level": 3
     }
    ],
@@ -47689,7 +47629,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "4",
-    "hsk20": null
+    "hsk20": 3
    },
    "exam2025": [],
    "std2021": [
@@ -47698,7 +47638,12 @@
      "level": "4"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": "L3-208",
+     "level": 3
+    }
+   ],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to brush one's teeth"
@@ -47772,9 +47717,9 @@
    "resolution": null
   },
   {
-   "id": "w.6253-7bee-7403.da2lan2qiu2",
+   "id": "w.6253-7bee-7403.da3lan2qiu2",
    "hanzi": "打篮球",
-   "pinyin": "dá lán qiú",
+   "pinyin": "dǎ lánqiú",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -47787,11 +47732,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 166,
+     "id": "L2-16",
      "level": 2
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [],
    "classifiers": [],
    "cedict": {
@@ -47807,7 +47752,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": "keep-hsk"
   },
@@ -48064,7 +48009,7 @@
    ],
    "hsk20": [
     {
-     "id": 4724,
+     "id": "L6-2221",
      "level": 6
     }
    ],
@@ -48519,53 +48464,6 @@
    "resolution": null
   },
   {
-   "id": "w.901a-8d27.tong1huo4",
-   "hanzi": "通货",
-   "pinyin": "tōng huò",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4299,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "currency",
-    "(old) exchange of goods"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "tōng huò"
-    ],
-    "entries": [
-     "通貨|通货[tong1 huo4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.32,
-    "rank": 24827
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.4e00-5239-90a3.yi1cha4na4",
    "hanzi": "一刹那",
    "pinyin": "yīchànà",
@@ -48809,7 +48707,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "3",
-    "hsk20": 5
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -48818,12 +48716,7 @@
      "level": "3"
     }
    ],
-   "hsk20": [
-    {
-     "id": 1619,
-     "level": 5
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to row a boat",
@@ -49373,7 +49266,7 @@
   {
    "id": "w.751f-9508.sheng1xiu4",
    "hanzi": "生锈",
-   "pinyin": "shēng xiù",
+   "pinyin": "shēngxiù",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -49386,11 +49279,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4115,
+     "id": "L6-1615",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "(of metal) to rust; to become rusty",
     "(fig.) (of a skill etc) to get rusty; to deteriorate"
@@ -49413,7 +49306,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -49484,7 +49377,7 @@
    ],
    "hsk20": [
     {
-     "id": 1327,
+     "id": "L5-130",
      "level": 5
     }
    ],
@@ -49941,7 +49834,7 @@
   {
    "id": "w.56fd-5e86-8282.guo2qing4jie2",
    "hanzi": "国庆节",
-   "pinyin": "Guó qìng jié",
+   "pinyin": "Guóqìng Jié",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -49954,11 +49847,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 1585,
+     "id": "L5-376",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "PRC National Day (October 1st)"
    ],
@@ -49983,7 +49876,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-国庆节.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -50616,7 +50509,7 @@
   {
    "id": "w.6e05-771f.qing1zhen1",
    "hanzi": "清真",
-   "pinyin": "qīng zhēn",
+   "pinyin": "qīngzhēn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -50629,11 +50522,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3977,
+     "id": "L6-1477",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "Islamic",
     "Muslim",
@@ -50659,7 +50552,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -51301,7 +51194,7 @@
    ],
    "hsk20": [
     {
-     "id": 998,
+     "id": "L4-399",
      "level": 4
     }
    ],
@@ -51485,11 +51378,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4899,
+     "id": "L6-2396",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "boat"
    ],
@@ -51513,7 +51406,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -51662,123 +51555,26 @@
    "resolution": null
   },
   {
-   "id": "w.5b89-5c45-4e50-4e1a.an1ju1le4ye4",
-   "hanzi": "安居乐业",
-   "pinyin": "ān jū lè yè",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2507,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to live in peace and work happily (idiom)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "ān jū lè yè"
-    ],
-    "entries": [
-     "安居樂業|安居乐业[an1 ju1 le4 ye4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.2,
-    "rank": 29353
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.6ecb-957f.zi1zhang3",
-   "hanzi": "滋长",
-   "pinyin": "zī zhǎng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4963,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to grow (usually of abstract things)",
-    "to yield",
-    "to develop"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zī zhǎng"
-    ],
-    "entries": [
-     "滋長|滋长[zi1 zhang3]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.2,
-    "rank": 29353
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.6ecb-957f.zi1zhang3.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-滋长.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.80e1-987b.hu2xu1",
    "hanzi": "胡须",
-   "pinyin": "hú xū",
+   "pinyin": "húxū",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 5
+    "hsk20": 6
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 1615,
-     "level": 5
+     "id": "L6-786",
+     "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "beard"
    ],
@@ -51803,7 +51599,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -51858,7 +51654,7 @@
   {
    "id": "w.5408-7b97.he2suan4",
    "hanzi": "合算",
-   "pinyin": "hé suàn",
+   "pinyin": "hésuàn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -51871,11 +51667,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3279,
+     "id": "L6-757",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "worthwhile",
     "to be a good deal",
@@ -51904,7 +51700,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-合算.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -52248,7 +52044,7 @@
    ],
    "hsk20": [
     {
-     "id": 2977,
+     "id": "L6-465",
      "level": 6
     }
    ],
@@ -52340,11 +52136,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4493,
+     "id": "L6-2000",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "bits",
     "fragments",
@@ -52374,7 +52170,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -52445,7 +52241,7 @@
    ],
    "hsk20": [
     {
-     "id": 4863,
+     "id": "L6-2362",
      "level": 6
     }
    ],
@@ -52665,53 +52461,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.94dc-77ff.tong2kuang4",
-   "hanzi": "铜矿",
-   "pinyin": "tóng kuàng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4302,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "copper mine",
-    "copper ore"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "tóng kuàng"
-    ],
-    "entries": [
-     "銅礦|铜矿[tong2 kuang4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.17,
-    "rank": 30637
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -53064,11 +52813,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3282,
+     "id": "L6-765",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "callous; heartless",
     "to resolve (to do sth)",
@@ -53095,7 +52844,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-狠心.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -53290,55 +53039,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.62bd-7a7a.chou1kong4",
-   "hanzi": "抽空",
-   "pinyin": "chōu kòng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2803,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to find the time to do sth"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "chōu kòng"
-    ],
-    "entries": [
-     "抽空|抽空[chou1 kong4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.14,
-    "rank": 31905
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.62bd-7a7a.chou1kong4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-抽空.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -53626,7 +53326,7 @@
   {
    "id": "w.96cc-96c4.ci2xiong2",
    "hanzi": "雌雄",
-   "pinyin": "cí xióng",
+   "pinyin": "cíxióng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -53639,11 +53339,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2843,
+     "id": "L6-333",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "male and female"
    ],
@@ -53665,9 +53365,49 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
+  },
+  {
+   "id": "w.5f39-94a2-7434.tan2gang1qin2",
+   "hanzi": "弹钢琴",
+   "pinyin": "tán gāngqín",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 4
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L4-422",
+     "level": 4
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [],
+   "classifiers": [],
+   "cedict": {
+    "match": "chars-only",
+    "readings": [],
+    "entries": []
+   },
+   "freq": {
+    "zipf": 3.13,
+    "rank": 32340
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.72ec-5531.du2chang4",
@@ -53821,7 +53561,7 @@
   {
    "id": "w.65e0-7a77-65e0-5c3d.wu2qiong2wu2jin4",
    "hanzi": "无穷无尽",
-   "pinyin": "wú qióng wú jìn",
+   "pinyin": "wúqióngwújìn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -53834,11 +53574,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4408,
+     "id": "L6-1911",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "(idiom) endless; boundless; infinite"
    ],
@@ -53860,7 +53600,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -53874,7 +53614,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "5",
-    "hsk20": 5
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -53883,12 +53623,7 @@
      "level": "5"
     }
    ],
-   "hsk20": [
-    {
-     "id": 1323,
-     "level": 5
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "pond",
@@ -54031,11 +53766,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4439,
+     "id": "L6-1944",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "rose-tinted sky or clouds at sunrise or sunset"
    ],
@@ -54059,7 +53794,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -54206,53 +53941,6 @@
    "resolution": null
   },
   {
-   "id": "w.6591-7eb9.ban1wen2",
-   "hanzi": "斑纹",
-   "pinyin": "bān wén",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2538,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "stripe",
-    "streak"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "bān wén"
-    ],
-    "entries": [
-     "斑紋|斑纹[ban1 wen2]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.1,
-    "rank": 33764
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.6cbb-5b66.zhi4xue2",
    "hanzi": "治学",
    "pinyin": "zhìxué",
@@ -54350,7 +54038,7 @@
   {
    "id": "w.7ecf-7eac.jing1wei3",
    "hanzi": "经纬",
-   "pinyin": "jīng wěi",
+   "pinyin": "jīngwěi",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -54363,11 +54051,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3508,
+     "id": "L6-980",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "warp and woof",
     "longitude and latitude",
@@ -54391,7 +54079,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -54535,54 +54223,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.7167-5e94.zhao4ying4",
-   "hanzi": "照应",
-   "pinyin": "zhào yìng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4801,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to correlate with",
-    "to correspond to"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zhào yìng",
-     "zhào ying"
-    ],
-    "entries": [
-     "照應|照应[zhao4 ying4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.09,
-    "rank": 34212
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "recording exists but CC-CEDICT lists more than one reading"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -54747,11 +54387,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4079,
+     "id": "L6-1579",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "tip of branch"
    ],
@@ -54775,7 +54415,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -54879,52 +54519,6 @@
    "resolution": null
   },
   {
-   "id": "w.5408-8eab.he2shen1",
-   "hanzi": "合身",
-   "pinyin": "hé shēn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3278,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "well-fitting (of clothes)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "hé shēn"
-    ],
-    "entries": [
-     "合身|合身[he2 shen1]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.06,
-    "rank": 35619
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.75b2-60eb-4e0d-582a.pi2bei4bu4kan1",
    "hanzi": "疲惫不堪",
    "pinyin": "píbèi-bùkān",
@@ -55020,7 +54614,7 @@
   {
    "id": "w.4e0d-5c51-4e00-987e.bu4xie4yi1gu4",
    "hanzi": "不屑一顾",
-   "pinyin": "bù xiè yī gù",
+   "pinyin": "bùxièyīgù",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -55033,11 +54627,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2662,
+     "id": "L6-167",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to disdain as beneath contempt (idiom)"
    ],
@@ -55059,7 +54653,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -55116,7 +54710,7 @@
   {
    "id": "w.7a3b-8c37.dao4gu3",
    "hanzi": "稻谷",
-   "pinyin": "dào gǔ",
+   "pinyin": "dàogǔ",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -55129,11 +54723,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2909,
+     "id": "L6-398",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "unhusked rice",
     "paddy"
@@ -55156,7 +54750,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -55306,56 +54900,6 @@
    "resolution": null
   },
   {
-   "id": "w.795e-8272.shen2se4",
-   "hanzi": "神色",
-   "pinyin": "shén sè",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4098,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "expression",
-    "look"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "shén sè"
-    ],
-    "entries": [
-     "神色|神色[shen2 se4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.04,
-    "rank": 36557
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.795e-8272.shen2se4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-神色.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.8d85-8f66.chao1che1",
    "hanzi": "超车",
    "pinyin": "chāochē",
@@ -55450,9 +54994,9 @@
    "resolution": null
   },
   {
-   "id": "w.7ebd-6263-513f.niu3kou4er2",
+   "id": "w.7ebd-6263-513f.niu3kou4r5",
    "hanzi": "纽扣儿",
-   "pinyin": "niǔ kòu ér",
+   "pinyin": "niǔkòur",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -55465,11 +55009,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3822,
+     "id": "L6-1314",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [],
    "classifiers": [],
    "cedict": {
@@ -55485,7 +55029,7 @@
     "kind": "tts",
     "reason": "recording reading does not match CC-CEDICT"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": "keep-hsk"
   },
@@ -55834,11 +55378,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2596,
+     "id": "L6-89",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "contracted form of 不用[bu4 yong4]"
    ],
@@ -55863,54 +55407,7 @@
     "speaker": "Chen Wang",
     "source": "audio-cmn"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.8367-5c4f.ying2ping2",
-   "hanzi": "荧屏",
-   "pinyin": "yíng píng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4681,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "fluorescent screen",
-    "TV screen"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "yíng píng"
-    ],
-    "entries": [
-     "熒屏|荧屏[ying2 ping2]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.01,
-    "rank": 38061
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -56194,52 +55691,6 @@
    "resolution": null
   },
   {
-   "id": "w.54ac-7259-5207-9f7f.yao3ya2qie4chi3",
-   "hanzi": "咬牙切齿",
-   "pinyin": "yǎo yá qiè chǐ",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4614,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "(idiom) to gnash one's teeth; to fume with rage"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "yǎo yá qiè chǐ"
-    ],
-    "entries": [
-     "咬牙切齒|咬牙切齿[yao3 ya2 qie4 chi3]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.99,
-    "rank": 39058
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.76f8-5bf9-800c-8a00.xiang1dui4er2yan2",
    "hanzi": "相对而言",
    "pinyin": "xiāngduì-éryán",
@@ -56478,24 +55929,24 @@
   {
    "id": "w.793c-62dc-5929.li3bai4tian1",
    "hanzi": "礼拜天",
-   "pinyin": "lǐ bài tiān",
+   "pinyin": "lǐbàitiān",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 5
+    "hsk20": 4
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 1800,
-     "level": 5
+     "id": "L4-277",
+     "level": 4
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "Sunday"
    ],
@@ -56520,7 +55971,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-礼拜天.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -56618,53 +56069,6 @@
    "resolution": null
   },
   {
-   "id": "w.516c-5a46.gong1po2",
-   "hanzi": "公婆",
-   "pinyin": "gōng pó",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3173,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "husband's parents; parents-in-law",
-    "(dialect) a couple; husband and wife"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "gōng pó"
-    ],
-    "entries": [
-     "公婆|公婆[gong1 po2]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.96,
-    "rank": 40606
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.8fd9-5c31-662f-8bf4.zhe4jiu4shi4shuo1",
    "hanzi": "这就是说",
    "pinyin": "zhè jiùshì shuō",
@@ -56708,52 +56112,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.78a7-7389.bi4yu4",
-   "hanzi": "碧玉",
-   "pinyin": "bì yù",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2609,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "jasper"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "bì yù"
-    ],
-    "entries": [
-     "碧玉|碧玉[bi4 yu4]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.95,
-    "rank": 41135
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -56910,7 +56268,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 6
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -56919,12 +56277,7 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [
-    {
-     "id": 3538,
-     "level": 6
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "world-famous (idiom)"
@@ -57001,56 +56354,6 @@
    "resolution": null
   },
   {
-   "id": "w.553e-6cab.tuo4mo5",
-   "hanzi": "唾沫",
-   "pinyin": "tuò mo",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4336,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "spittle",
-    "saliva"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "tuò mo"
-    ],
-    "entries": [
-     "唾沫|唾沫[tuo4 mo5]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.94,
-    "rank": 41653
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.553e-6cab.tuo4mo5.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-唾沫.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.8305-53f0-9152.mao2tai2jiu3",
    "hanzi": "茅台酒",
    "pinyin": "Máotáijiǔ",
@@ -57105,7 +56408,7 @@
   {
    "id": "w.8d2c-4e49.bian3yi4",
    "hanzi": "贬义",
-   "pinyin": "biǎn yì",
+   "pinyin": "biǎnyì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -57118,11 +56421,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2618,
+     "id": "L6-109",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "derogatory sense",
     "negative connotation"
@@ -57148,7 +56451,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-贬义.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -57759,7 +57062,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "5",
-    "hsk20": 5
+    "hsk20": 4
    },
    "exam2025": [],
    "std2021": [
@@ -57770,8 +57073,8 @@
    ],
    "hsk20": [
     {
-     "id": 1762,
-     "level": 5
+     "id": "L4-250",
+     "level": 4
     }
    ],
    "source": "hsk2021-ivankra",
@@ -57854,7 +57157,7 @@
   {
    "id": "w.51f9-51f8.ao1tu1",
    "hanzi": "凹凸",
-   "pinyin": "āo tū",
+   "pinyin": "āotū",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -57867,11 +57170,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2516,
+     "id": "L6-14",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "concave or convex",
     "bumps and holes",
@@ -57896,7 +57199,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58184,7 +57487,7 @@
   {
    "id": "w.65e0-7406-53d6-95f9.wu2li3qu3nao4",
    "hanzi": "无理取闹",
-   "pinyin": "wú lǐ qǔ nào",
+   "pinyin": "wúlǐqǔnào",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -58197,11 +57500,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4406,
+     "id": "L6-1909",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "(idiom) to make trouble without reason; to be deliberately provocative"
    ],
@@ -58223,7 +57526,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58271,52 +57574,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.7816-74e6.zhuan1wa3",
-   "hanzi": "砖瓦",
-   "pinyin": "zhuān wǎ",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4935,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "tiles and bricks"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zhuān wǎ"
-    ],
-    "entries": [
-     "磚瓦|砖瓦[zhuan1 wa3]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.88,
-    "rank": 45034
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58370,7 +57627,7 @@
   {
    "id": "w.6854-5b50.ju2zi5",
    "hanzi": "桔子",
-   "pinyin": "jú zi",
+   "pinyin": "júzi",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -58383,11 +57640,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 1737,
+     "id": "L5-528",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "variant of 橘子[ju2 zi5]"
    ],
@@ -58409,7 +57666,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58457,6 +57714,52 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.540d-80dc-53e4-8ff9.ming2sheng4gu3ji4",
+   "hanzi": "名胜古迹",
+   "pinyin": "míngshènggǔjì",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 5
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L5-652",
+     "level": 5
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "historical sites and scenic spots"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "míng shèng gǔ jì"
+    ],
+    "entries": [
+     "名勝古跡|名胜古迹[ming2 sheng4 gu3 ji4]"
+    ]
+   },
+   "freq": {
+    "zipf": 2.85,
+    "rank": 46687
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58608,7 +57911,7 @@
   {
    "id": "w.5b81-80af.ning4ken3",
    "hanzi": "宁肯",
-   "pinyin": "nìng kěn",
+   "pinyin": "nìngkěn",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -58621,11 +57924,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3820,
+     "id": "L6-1311",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "would rather...",
     "it would be better...",
@@ -58652,7 +57955,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-宁肯.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58706,7 +58009,7 @@
   {
    "id": "w.77ed-4fc3.duan3cu4",
    "hanzi": "短促",
-   "pinyin": "duǎn cù",
+   "pinyin": "duǎncù",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -58719,11 +58022,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2979,
+     "id": "L6-467",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "short in time",
     "fleeting",
@@ -58752,7 +58055,7 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-短促.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -58823,7 +58126,7 @@
    ],
    "hsk20": [
     {
-     "id": 3196,
+     "id": "L6-679",
      "level": 6
     }
    ],
@@ -59499,100 +58802,6 @@
    "resolution": null
   },
   {
-   "id": "w.7ee7-5f80-5f00-6765.ji4wang3kai1lai2",
-   "hanzi": "继往开来",
-   "pinyin": "jì wǎng kāi lái",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3385,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to follow the past and herald the future (idiom); part of a historical transition",
-    "forming a bridge between earlier and later stages"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "jì wǎng kāi lái"
-    ],
-    "entries": [
-     "繼往開來|继往开来[ji4 wang3 kai1 lai2]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.79,
-    "rank": 50300
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.91cd-9633-8282.chong2yang2jie2",
-   "hanzi": "重阳节",
-   "pinyin": "Chóng yáng jié",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2802,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "Double Ninth or Yang Festival",
-    "9th day of 9th lunar month"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "chóng yáng jié"
-    ],
-    "entries": [
-     "重陽節|重阳节[Chong2 yang2 jie2]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.79,
-    "rank": 50300
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.53e3-8bd5.kou3shi4",
    "hanzi": "口试",
    "pinyin": "kǒushì",
@@ -59925,55 +59134,6 @@
    "resolution": null
   },
   {
-   "id": "w.816e.sai1",
-   "hanzi": "腮",
-   "pinyin": "sāi",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4056,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "cheek"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "sāi"
-    ],
-    "entries": [
-     "腮|腮[sai1]",
-     "顋|腮[sai1]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.77,
-    "rank": 51588
-   },
-   "audio": {
-    "kind": "syllable",
-    "file": "s/sai1.mp3",
-    "speaker": "Chen Wang",
-    "source": "audio-cmn"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.4e0b-671f.xia4qi1",
    "hanzi": "下期",
    "pinyin": "xià qī",
@@ -60022,7 +59182,7 @@
   {
    "id": "w.5174-81f4-52c3-52c3.xing4zhi4bo2bo2",
    "hanzi": "兴致勃勃",
-   "pinyin": "xìng zhì bó bó",
+   "pinyin": "xìngzhìbóbó",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60035,11 +59195,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4527,
+     "id": "L6-2028",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to become exhilarated (idiom); in high spirits",
     "full of zest"
@@ -60062,7 +59222,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -60270,7 +59430,7 @@
   {
    "id": "w.8d24-60e0.xian2hui4",
    "hanzi": "贤惠",
-   "pinyin": "xián huì",
+   "pinyin": "xiánhuì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60283,11 +59443,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4454,
+     "id": "L6-1952",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "variant of 賢慧|贤慧[xian2 hui4]"
    ],
@@ -60312,14 +59472,14 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-贤惠.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
   {
    "id": "w.7a7a-524d-7edd-540e.kong1qian2jue2hou4",
    "hanzi": "空前绝后",
-   "pinyin": "kōng qián jué hòu",
+   "pinyin": "kōngqiánjuéhòu",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60332,11 +59492,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3591,
+     "id": "L6-1076",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "unprecedented and never to be duplicated",
     "the first and the last",
@@ -60361,7 +59521,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -60463,7 +59623,7 @@
   {
    "id": "w.804b-54d1.long2ya3",
    "hanzi": "聋哑",
-   "pinyin": "lóng yǎ",
+   "pinyin": "lóngyǎ",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60476,11 +59636,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3698,
+     "id": "L6-1191",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "deaf and nonverbal"
    ],
@@ -60502,7 +59662,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -60652,7 +59812,7 @@
   {
    "id": "w.6b63-8d1f.zheng4fu4",
    "hanzi": "正负",
-   "pinyin": "zhèng fù",
+   "pinyin": "zhèngfù",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60665,11 +59825,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4833,
+     "id": "L6-2325",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "positive and negative"
    ],
@@ -60691,53 +59851,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.4e0a-8fdb-5fc3.shang4jin4xin1",
-   "hanzi": "上进心",
-   "pinyin": "shàng jìn xīn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4074,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "ambition; desire for self-improvement"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "shàng jìn xīn"
-    ],
-    "entries": [
-     "上進心|上进心[shang4 jin4 xin1]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.71,
-    "rank": 55455
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -60790,7 +59904,7 @@
   {
    "id": "w.4f36-4fd0.ling2li4",
    "hanzi": "伶俐",
-   "pinyin": "líng lì",
+   "pinyin": "línglì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60803,11 +59917,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 3683,
+     "id": "L6-1171",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "clever; witty; intelligent",
     "deft; adroit"
@@ -60833,14 +59947,14 @@
     "source": "audio-cmn",
     "from": "24k-abr/hsk/cmn-伶俐.mp3"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
   {
    "id": "w.4e4c-9ed1.wu1hei1",
    "hanzi": "乌黑",
-   "pinyin": "wū hēi",
+   "pinyin": "wūhēi",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -60853,11 +59967,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4393,
+     "id": "L6-1898",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "jet-black",
     "dark"
@@ -60880,7 +59994,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -61071,52 +60185,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.89e3-8bf4-5458.jie3shuo1yuan2",
-   "hanzi": "解说员",
-   "pinyin": "jiě shuō yuán",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 5
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 1713,
-     "level": 5
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "commentator"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "jiě shuō yuán"
-    ],
-    "entries": [
-     "解說員|解说员[jie3 shuo1 yuan2]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.67,
-    "rank": 58186
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -61360,55 +60428,6 @@
    "resolution": null
   },
   {
-   "id": "w.87ba-4e1d-9489.luo2si1ding1",
-   "hanzi": "螺丝钉",
-   "pinyin": "luó sī dīng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3710,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "screw"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "luó sī dīng"
-    ],
-    "entries": [
-     "螺絲釘|螺丝钉[luo2 si1 ding1]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.66,
-    "rank": 58918
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.87ba-4e1d-9489.luo2si1ding1.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-螺丝钉.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.8bf4-95f2-8bdd.shuo1xian2hua4",
    "hanzi": "说闲话",
    "pinyin": "shuō xiánhuà",
@@ -61456,56 +60475,9 @@
    "resolution": null
   },
   {
-   "id": "w.541e-54bd.tun1yan4",
-   "hanzi": "吞咽",
-   "pinyin": "tūn yàn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4328,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to swallow",
-    "to gulp"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "tūn yàn"
-    ],
-    "entries": [
-     "吞嚥|吞咽[tun1 yan4]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.64,
-    "rank": 60283
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.653e-6691-5047.fang4shu3jia4",
    "hanzi": "放暑假",
-   "pinyin": "fàng shǔ jià",
+   "pinyin": "fàng shǔjià",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -61518,11 +60490,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 715,
+     "id": "L4-116",
      "level": 4
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to be on summer vacation"
    ],
@@ -61544,7 +60516,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -61982,7 +60954,7 @@
   {
    "id": "w.60f9-7978.re3huo4",
    "hanzi": "惹祸",
-   "pinyin": "rě huò",
+   "pinyin": "rěhuò",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -61995,11 +60967,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4021,
+     "id": "L6-1518",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to stir up trouble",
     "to invite disaster"
@@ -62022,7 +60994,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -62074,57 +61046,6 @@
    "resolution": null
   },
   {
-   "id": "w.8e0c-8e87.chou2chu2",
-   "hanzi": "踌躇",
-   "pinyin": "chóu chú",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2805,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to hesitate",
-    "(literary) to pace back and forth",
-    "(literary) self-satisfied"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "chóu chú"
-    ],
-    "entries": [
-     "躊躇|踌躇[chou2 chu2]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.6,
-    "rank": 63117
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.8e0c-8e87.chou2chu2.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-踌躇.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.987e-4e0d-4e0a.gu4bu5shang4",
    "hanzi": "顾不上",
    "pinyin": "gùbushàng",
@@ -62171,54 +61092,6 @@
    "resolution": null
   },
   {
-   "id": "w.4fef-4ef0.fu3yang3",
-   "hanzi": "俯仰",
-   "pinyin": "fǔ yǎng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3111,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "lowering and raising of the head",
-    "(fig.) small move",
-    "pitch (position angle)"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "fǔ yǎng"
-    ],
-    "entries": [
-     "俯仰|俯仰[fu3 yang3]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.58,
-    "rank": 64666
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.6760-94c3.gang4ling2",
    "hanzi": "杠铃",
    "pinyin": "gànglíng",
@@ -62261,57 +61134,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.52e4-6073.qin2ken3",
-   "hanzi": "勤恳",
-   "pinyin": "qín kěn",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3967,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "diligent and attentive",
-    "assiduous",
-    "sincere"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "qín kěn"
-    ],
-    "entries": [
-     "勤懇|勤恳[qin2 ken3]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.57,
-    "rank": 65435
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.52e4-6073.qin2ken3.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-勤恳.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -62382,7 +61204,7 @@
    ],
    "hsk20": [
     {
-     "id": 1032,
+     "id": "L4-434",
      "level": 4
     }
    ],
@@ -62527,7 +61349,7 @@
    ],
    "hsk20": [
     {
-     "id": 3703,
+     "id": "L6-1196",
      "level": 6
     }
    ],
@@ -62567,7 +61389,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": null
+    "hsk20": 3
    },
    "exam2025": [],
    "std2021": [
@@ -62576,7 +61398,12 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": "L3-84",
+     "level": 3
+    }
+   ],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to be windy"
@@ -62891,7 +61718,7 @@
   {
    "id": "w.7edf-7b79-517c-987e.tong3chou2jian1gu4",
    "hanzi": "统筹兼顾",
-   "pinyin": "tǒng chóu jiān gù",
+   "pinyin": "tǒngchóujiāngù",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -62904,11 +61731,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4306,
+     "id": "L6-1809",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "an overall plan taking into account all factors"
    ],
@@ -62930,7 +61757,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -63177,54 +62004,6 @@
    "resolution": null
   },
   {
-   "id": "w.62db-6295-6807.zhao1tou2biao1",
-   "hanzi": "招投标",
-   "pinyin": "zhāo tóu biāo",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4794,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "bid inviting and bid offering",
-    "bidding",
-    "auction"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zhāo tóu biāo"
-    ],
-    "entries": [
-     "招投標|招投标[zhao1 tou2 biao1]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.44,
-    "rank": 75554
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.65a9-8349-9664-6839.zhan3cao3chu2gen1",
    "hanzi": "斩草除根",
    "pinyin": "zhǎncǎo-chúgēn",
@@ -63271,53 +62050,6 @@
     "from": "24k-abr/hsk/cmn-斩草除根.mp3"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.6ce2-6d9b-6c79-6d8c.bo1tao1xiong1yong3",
-   "hanzi": "波涛汹涌",
-   "pinyin": "bō tāo xiōng yǒng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2651,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "waves surging forth",
-    "roaring sea"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "bō tāo xiōng yǒng"
-    ],
-    "entries": [
-     "波濤洶湧|波涛汹涌[bo1 tao1 xiong1 yong3]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.44,
-    "rank": 75554
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -63534,7 +62266,7 @@
    ],
    "hsk20": [
     {
-     "id": 4463,
+     "id": "L6-1966",
      "level": 6
     }
    ],
@@ -63731,7 +62463,7 @@
    ],
    "hsk20": [
     {
-     "id": 2621,
+     "id": "L6-115",
      "level": 6
     }
    ],
@@ -63770,24 +62502,24 @@
   {
    "id": "w.767b-673a-724c.deng1ji1pai2",
    "hanzi": "登机牌",
-   "pinyin": "dēng jī pái",
+   "pinyin": "dēngjīpái",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
    "levels": {
     "exam2025": null,
     "std2021": null,
-    "hsk20": 5
+    "hsk20": 4
    },
    "exam2025": [],
    "std2021": [],
    "hsk20": [
     {
-     "id": 1404,
-     "level": 5
+     "id": "L4-86",
+     "level": 4
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "boarding pass"
    ],
@@ -63809,7 +62541,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -64244,7 +62976,7 @@
   {
    "id": "w.60ac-5d16-5ced-58c1.xuan2ya2qiao4bi4",
    "hanzi": "悬崖峭壁",
-   "pinyin": "xuán yá qiào bì",
+   "pinyin": "xuányáqiàobì",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -64257,11 +62989,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 4553,
+     "id": "L6-2060",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "(idiom) sheer cliffs and precipitous rock faces"
    ],
@@ -64283,7 +63015,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -64337,7 +63069,7 @@
   {
    "id": "w.4f7f-52b2-513f.shi3jin4r5",
    "hanzi": "使劲儿",
-   "pinyin": "shǐ jìnr",
+   "pinyin": "shǐjìnr",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -64350,11 +63082,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2072,
+     "id": "L5-858",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "erhua variant of 使勁|使劲[shi3 jin4]"
    ],
@@ -64376,7 +63108,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -65286,55 +64018,9 @@
    "resolution": null
   },
   {
-   "id": "w.505a-4e1c.zuo4dong1",
-   "hanzi": "做东",
-   "pinyin": "zuò dōng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4994,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "to act as host"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "zuò dōng"
-    ],
-    "entries": [
-     "做東|做东[zuo4 dong1]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.06,
-    "rank": 111613
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.62d4-82d7-52a9-957f.ba2miao2zhu4zhang3",
    "hanzi": "拔苗助长",
-   "pinyin": "bá miáo zhù zhǎng",
+   "pinyin": "bámiáozhùzhǎng",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -65347,11 +64033,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 2523,
+     "id": "L6-21",
      "level": 6
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [
     "to spoil things through excessive enthusiasm (idiom)"
    ],
@@ -65373,54 +64059,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.7cd6-846b-82a6.tang2hu2lu5",
-   "hanzi": "糖葫芦",
-   "pinyin": "táng hú lu",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4255,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "sugar-coated Chinese hawthorn or other fruit on a bamboo skewer",
-    "tanghulu"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "táng hú lu"
-    ],
-    "entries": [
-     "糖葫蘆|糖葫芦[tang2 hu2 lu5]"
-    ]
-   },
-   "freq": {
-    "zipf": 2.05,
-    "rank": 112732
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -65622,7 +64261,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 6
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -65631,12 +64270,7 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [
-    {
-     "id": 4403,
-     "level": 6
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "(idiom) no comment"
@@ -65910,7 +64544,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "7-9",
-    "hsk20": 6
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -65919,12 +64553,7 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [
-    {
-     "id": 2813,
-     "level": 6
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "to make a fool of oneself"
@@ -66283,6 +64912,52 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.70df-82b1-7206-7af9.yan1hua1bao4zhu2",
+   "hanzi": "烟花爆竹",
+   "pinyin": "yānhuābàozhú",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-2085",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "fireworks (i.e. pyrotechnic devices, not the display they produce)"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "yān huā bào zhú"
+    ],
+    "entries": [
+     "煙花爆竹|烟花爆竹[yan1 hua1 bao4 zhu2]"
+    ]
+   },
+   "freq": {
+    "zipf": 1.8,
+    "rank": 145910
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -66718,53 +65393,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.9526-7ee3-524d-7a0b.jin3xiu4qian2cheng2",
-   "hanzi": "锦绣前程",
-   "pinyin": "jǐn xiù qián chéng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 3486,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "bright future",
-    "bright prospects"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "jǐn xiù qián chéng"
-    ],
-    "entries": [
-     "錦繡前程|锦绣前程[jin3 xiu4 qian2 cheng2]"
-    ]
-   },
-   "freq": {
-    "zipf": 1.68,
-    "rank": 165419
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -67483,52 +66111,6 @@
    "resolution": null
   },
   {
-   "id": "w.644a-513f.tan1r5",
-   "hanzi": "摊儿",
-   "pinyin": "tānr",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4247,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "erhua variant of 攤|摊[tan1]"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "tān r"
-    ],
-    "entries": [
-     "攤兒|摊儿[tan1 r5]"
-    ]
-   },
-   "freq": {
-    "zipf": 1.21,
-    "rank": 275426
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "no recording"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
    "id": "w.4e00-53e5-8bdd.yi1ju4hua4",
    "hanzi": "一句话",
    "pinyin": "yī jù huà",
@@ -67951,7 +66533,7 @@
    "levels": {
     "exam2025": null,
     "std2021": "4",
-    "hsk20": 4
+    "hsk20": null
    },
    "exam2025": [],
    "std2021": [
@@ -67960,12 +66542,7 @@
      "level": "4"
     }
    ],
-   "hsk20": [
-    {
-     "id": 716,
-     "level": 4
-    }
-   ],
+   "hsk20": [],
    "source": "hsk2021-ivankra",
    "meanings": [
     "(indicating a fraction)"
@@ -68433,6 +67010,49 @@
    "resolution": "keep-hsk"
   },
   {
+   "id": "w.6dae-706b-9505.shuan4huo3guo1",
+   "hanzi": "涮火锅",
+   "pinyin": "shuànhuǒguō",
+   "pinyin_official": null,
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": null,
+    "std2021": null,
+    "hsk20": 6
+   },
+   "exam2025": [],
+   "std2021": [],
+   "hsk20": [
+    {
+     "id": "L6-1701",
+     "level": 6
+    }
+   ],
+   "source": "hsk20-glxxyz-2012",
+   "meanings": [
+    "see 涮鍋子|涮锅子[shuan4 guo1 zi5]"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "shuàn huǒ guō"
+    ],
+    "entries": [
+     "涮火鍋|涮火锅[shuan4 huo3 guo1]"
+    ]
+   },
+   "freq": null,
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
    "id": "w.771f-662f-7684.zhen1shi5de5",
    "hanzi": "真是的",
    "pinyin": "zhēnshide",
@@ -68524,7 +67144,7 @@
   {
    "id": "w.7cfb-9886-5e26.ji4ling3dai4",
    "hanzi": "系领带",
-   "pinyin": "jì lǐng dài",
+   "pinyin": "jìlǐngdài",
    "pinyin_official": null,
    "pinyin_alt": [],
    "pos": [],
@@ -68537,11 +67157,11 @@
    "std2021": [],
    "hsk20": [
     {
-     "id": 1654,
+     "id": "L5-453",
      "level": 5
     }
    ],
-   "source": "hsk20-clem109",
+   "source": "hsk20-glxxyz-2012",
    "meanings": [],
    "classifiers": [],
    "cedict": {
@@ -68554,7 +67174,7 @@
     "kind": "tts",
     "reason": "no recording"
    },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+   "source_url": "https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": "keep-hsk"
   },

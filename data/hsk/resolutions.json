@@ -543,8 +543,7 @@
     "zuò shēng yì"
    ],
    "lists": [
-    "std2021:7-9",
-    "hsk20:4"
+    "std2021:7-9"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "zuò shēngyi",
@@ -639,59 +638,6 @@
    "decided_by": "rule"
   },
   {
-   "id": "w.5174-9ad8-91c7-70c8.xing1gao1cai3lie4",
-   "hanzi": "兴高采烈",
-   "pinyin": "xīng gāo cǎi liè",
-   "category": "mismatch",
-   "cedict_readings": [
-    "xìng gāo cǎi liè"
-   ],
-   "lists": [
-    "hsk20:6"
-   ],
-   "decision": "use-cedict",
-   "pinyin_used": "xìnggāocǎiliè",
-   "note": "Only the community HSK 2.0 transcription (clem109) has xīng gāo cǎi liè; the official 2025 list (no. 9993), GF 0025-2021 (L7-4650) and CC-CEDICT all give xìnggāo-cǎiliè, with 兴 xìng 'excitement, interest'. The HSK 2.0 source is wrong, so xìnggāocǎiliè is used. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 兴高采烈 xìnggāocǎiliè, with 兴 xìng 'mood, interest'. Verified independently.",
-   "sources": [
-    {
-     "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-     "title": "HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "Level 6, id 4526: 兴高采烈 xīng gāo cǎi liè."
-    },
-    {
-     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
-     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "No. 9993, level 7-9: 兴高采烈 xìnggāo-cǎiliè."
-    },
-    {
-     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "Row L7-4650 兴高采烈: Pinyin xìnggāo-cǎiliè, WebPinyin xìnggāo-cǎiliè (level 7-9)."
-    },
-    {
-     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "兴高采烈 [xing4 gao1 cai3 lie4] happy and excited (idiom) / in high spirits; 兴 [xing4] feeling or desire to do sth / interest in sth / excitement."
-    },
-    {
-     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
-     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "【兴高采烈】xìnggāocǎiliè 兴致高，情绪热烈。【兴】xìng 兴致；兴趣：豪～｜助～｜败～。"
-    }
-   ],
-   "decided_by": "agent-research 2026-11-02"
-  },
-  {
    "id": "w.51fa-8840.chu1xie3",
    "hanzi": "出血",
    "pinyin": "chūxiě",
@@ -754,8 +700,7 @@
    ],
    "lists": [
     "exam2025:3",
-    "std2021:2",
-    "hsk20:4"
+    "std2021:2"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "gānggāng",
@@ -1187,7 +1132,7 @@
    "lists": [
     "exam2025:7-9",
     "std2021:7-9",
-    "hsk20:5"
+    "hsk20:6"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "zhǔfù",
@@ -1638,6 +1583,21 @@
    "decided_by": "rule"
   },
   {
+   "id": "w.5f39-94a2-7434.tan2gang1qin2",
+   "hanzi": "弹钢琴",
+   "pinyin": "tán gāngqín",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tán gāngqín",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
    "id": "w.5f88-96be-8bf4.hen3nan2shuo1",
    "hanzi": "很难说",
    "pinyin": "hěn nánshuō",
@@ -1767,7 +1727,8 @@
    ],
    "lists": [
     "exam2025:6",
-    "std2021:4"
+    "std2021:4",
+    "hsk20:6"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "ěxin",
@@ -1806,59 +1767,6 @@
    "decided_by": "rule"
   },
   {
-   "id": "w.6247-5b50.shan1zi5",
-   "hanzi": "扇子",
-   "pinyin": "shān zi",
-   "category": "mismatch",
-   "cedict_readings": [
-    "shàn zi"
-   ],
-   "lists": [
-    "hsk20:5"
-   ],
-   "decision": "use-cedict",
-   "pinyin_used": "shànzi",
-   "note": "Only the community HSK 2.0 transcription (clem109) has shān zi; the official 2025 list (no. 2955), GF 0025-2021 (L5-0646) and CC-CEDICT all give shànzi, shān being the verb 'to fan' (扇 shān, 2025 no. 2949). The HSK 2.0 source is wrong, so shànzi is used. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 扇子 shàn·zi and uses shān only for the verb (扇 shān: '～扇（shàn）子'), so the HSK 2.0 transcription shān zi is an error. Verified independently.",
-   "sources": [
-    {
-     "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-     "title": "HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "Level 5, id 2027: 扇子 shān zi (fan)."
-    },
-    {
-     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
-     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "No. 2955, level 5: 扇子 shànzi 名; no. 2949: 扇 shān 动; no. 4742: 扇 shàn 量."
-    },
-    {
-     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "Row L5-0646 扇子: Pinyin shànzi, WebPinyin shànzi (N, level 5)."
-    },
-    {
-     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "扇子 [shan4 zi5] fan; 扇 [shan1] to fan / to slap sb on the face; 扇 [shan4] fan / classifier for doors, windows etc."
-    },
-    {
-     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
-     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
-     "accessed": "2026-11-02",
-     "via": "local-copy",
-     "evidence": "【扇子】shàn·zi〈名〉摇动生风的用具：一把～｜扇（shān）～。【扇】shān ❶〈动〉摇动扇子或其他薄片，加速空气流动：～煤炉子｜～扇（shàn）子。"
-    }
-   ],
-   "decided_by": "agent-research 2026-11-02"
-  },
-  {
    "id": "w.624b-91cc.shou3li5",
    "hanzi": "手里",
    "pinyin": "shǒu li",
@@ -1895,16 +1803,16 @@
    "decided_by": "rule"
   },
   {
-   "id": "w.6253-7bee-7403.da2lan2qiu2",
+   "id": "w.6253-7bee-7403.da3lan2qiu2",
    "hanzi": "打篮球",
-   "pinyin": "dá lán qiú",
+   "pinyin": "dǎ lánqiú",
    "category": "chars-only",
    "cedict_readings": [],
    "lists": [
     "hsk20:2"
    ],
    "decision": "keep-hsk",
-   "pinyin_used": "dá lán qiú",
+   "pinyin_used": "dǎ lánqiú",
    "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
    "sources": [],
    "decided_by": "rule"
@@ -2041,6 +1949,23 @@
    "decision": "keep-hsk",
    "pinyin_used": "wényìjiè",
    "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.65af-6587.si1wen5",
+   "hanzi": "斯文",
+   "pinyin": "sīwen",
+   "category": "neutral",
+   "cedict_readings": [
+    "sī wén"
+   ],
+   "lists": [
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "sīwen",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
    "sources": [],
    "decided_by": "rule"
   },
@@ -2225,7 +2150,7 @@
    "lists": [
     "exam2025:7-9",
     "std2021:7-9",
-    "hsk20:5"
+    "hsk20:6"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "miánhuā",
@@ -2296,7 +2221,8 @@
    ],
    "lists": [
     "exam2025:7-9",
-    "std2021:7-9"
+    "std2021:7-9",
+    "hsk20:6"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "xièlòu",
@@ -2676,8 +2602,7 @@
    ],
    "lists": [
     "exam2025:3",
-    "std2021:4",
-    "hsk20:5"
+    "std2021:4"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "kànlái",
@@ -2893,7 +2818,7 @@
   {
    "id": "w.7cfb-9886-5e26.ji4ling3dai4",
    "hanzi": "系领带",
-   "pinyin": "jì lǐng dài",
+   "pinyin": "jìlǐngdài",
    "category": "chars-only",
    "cedict_readings": [],
    "lists": [
@@ -2941,16 +2866,16 @@
    "decided_by": "rule"
   },
   {
-   "id": "w.7ebd-6263-513f.niu3kou4er2",
+   "id": "w.7ebd-6263-513f.niu3kou4r5",
    "hanzi": "纽扣儿",
-   "pinyin": "niǔ kòu ér",
+   "pinyin": "niǔkòur",
    "category": "chars-only",
    "cedict_readings": [],
    "lists": [
     "hsk20:6"
    ],
    "decision": "keep-hsk",
-   "pinyin_used": "niǔ kòu ér",
+   "pinyin_used": "niǔkòur",
    "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
    "sources": [],
    "decided_by": "rule"
@@ -3001,7 +2926,8 @@
    ],
    "lists": [
     "exam2025:5",
-    "std2021:4"
+    "std2021:4",
+    "hsk20:5"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "lǎopo",
@@ -3181,8 +3107,7 @@
    "cedict_readings": [],
    "lists": [
     "exam2025:7-9",
-    "std2021:7-9",
-    "hsk20:6"
+    "std2021:7-9"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "zhìlìyú",
@@ -3297,6 +3222,23 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "hángjia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.884c-674e-7bb1.xing2li3xiang1",
+   "hanzi": "行李箱",
+   "pinyin": "xínglǐxiāng",
+   "category": "neutral",
+   "cedict_readings": [
+    "xíng li xiāng"
+   ],
+   "lists": [
+    "hsk20:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xínglǐxiāng",
    "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
    "sources": [],
    "decided_by": "rule"
@@ -3475,8 +3417,7 @@
    ],
    "lists": [
     "exam2025:4",
-    "std2021:3",
-    "hsk20:5"
+    "std2021:3"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "fèiyong",
@@ -3513,7 +3454,7 @@
    "lists": [
     "exam2025:2",
     "std2021:1",
-    "hsk20:4"
+    "hsk20:3"
    ],
    "decision": "keep-hsk",
    "pinyin_used": "qǐlái",
@@ -3567,6 +3508,21 @@
    "decision": "keep-hsk",
    "pinyin_used": "tàshang",
    "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8e22-8db3-7403.ti1zu2qiu2",
+   "hanzi": "踢足球",
+   "pinyin": "tīzúqiú",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "hsk20:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tīzúqiú",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
    "sources": [],
    "decided_by": "rule"
   },

@@ -50,6 +50,7 @@ function expandWord(c) {
   let audio = null;
   if (typeof c.a === 'string' && c.a.startsWith('s:')) audio = { file: `audio/s/${c.a.slice(2)}.mp3`, speaker: 'Chen Wang', source: 'audio-cmn' };
   else if (c.a === 'w') audio = { file: `audio/w/${c.i}.mp3`, speaker: 'Yue Tan', source: 'audio-cmn' };
+  else if (typeof c.a === 'string' && /^g:[0-9a-f]{16}$/.test(c.a)) audio = { file: `audio/g/${c.a.slice(2)}.mp3`, speaker: 'Generated voice', source: 'Google Cloud Text-to-Speech', synthetic: true };
   return {
     kind: 'word',
     id: c.i,
@@ -181,16 +182,30 @@ export async function getItem(id) {
 
 export const cachedItem = (id) => wordsById.get(id) ?? contentById.get(id) ?? null;
 
-/** Phrases and grammar examples that contain a word, for cloze cards and the word page. */
-export async function examplesFor(hanzi, { limit = 6 } = {}) {
+/** Phrases that contain a word, for cloze cards and the word page. With the word's id, only phrases
+ * the build linked to that word (same characters AND reading: 银行 is not an example of 行 xíng). */
+export async function examplesFor(hanzi, { id = null, limit = 6 } = {}) {
   const content = await loadContent().catch(() => null);
   const out = [];
   for (const s of content?.situations ?? []) {
     for (const scene of s.scenes) {
-      for (const p of scene.items) if (p.hanzi.includes(hanzi) && p.hanzi !== hanzi) out.push(p);
+      for (const p of scene.items) {
+        if (p.hanzi === hanzi) continue;
+        if (id && p.w ? p.w.includes(id) : p.hanzi.includes(hanzi)) out.push(p);
+      }
     }
   }
   return out.slice(0, limit);
+}
+
+/** Characters of an HSK word id (w.<hex code points>.<numbered pinyin>), without loading the word files. */
+export function hanziOfId(id) {
+  const hex = String(id).split('.')[1] ?? '';
+  try {
+    return hex.split('-').map((cp) => String.fromCodePoint(parseInt(cp, 16))).join('');
+  } catch {
+    return '';
+  }
 }
 
 /** Display level of a word in a system: "HSK 3", "Std 7-9", "2.0 5", or null. */

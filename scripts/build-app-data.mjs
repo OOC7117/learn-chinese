@@ -11,7 +11,7 @@ import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync,
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 
-import { spokenPinyin, syllablesOf, SYLLABLE_LIST, cedictToMarked } from '../app/src/lib/pinyin.js';
+import { spokenPinyin, syllablesOf, SYLLABLE_LIST, cedictToMarked, tokenize } from '../app/src/lib/pinyin.js';
 import { ROOT } from './lib/cedict.mjs';
 import { buildContent } from './lib/content.mjs';
 
@@ -55,8 +55,29 @@ export function displayMeaning(def) {
   const toMarked = (py) => cedictToMarked(py);
   return def
     .replace(/[^\s|[\]，,;()（）]+\|([^\s|[\]，,;()（）]+)\[([^\]]+)\]/g, (_, simp, py) => `${simp} [${toMarked(py)}]`)
-    .replace(/([\p{Script=Han}]+)\[([a-zA-Z:]+[1-5](?: [a-zA-Z:]+[1-5])*)\]/gu, (_, hz, py) => `${hz} [${toMarked(py)}]`);
+    .replace(/([\p{Script=Han}]+)\[([a-zA-Z:]+[1-5](?: [a-zA-Z:]+[1-5])*)\]/gu, (_, hz, py) => `${hz} [${toMarked(py)}]`)
+    // A reading on its own ("Taiwan pr. [jie2]", "also pr. [yi1mo2-yi1yang4]"); joined like a word.
+    .replace(/\[([a-zA-Z:]+[1-5](?:[ -]?[a-zA-Z:]+[1-5])*)\]/g, (_, py) => `[${py.split('-').map((part) => toMarked(part.match(/[a-zA-Z:]+[1-5]/g).join(' '))).join('-')}]`);
 }
+
+// ---------- Pre-generated neural audio (scripts/generate-tts.mjs; optional) ----------
+
+/** The generated clips (data/audio/tts-index.json) that still match the item: same reading, file present. */
+export function loadTtsIndex(root = ROOT) {
+  const path = join(root, 'data', 'audio', 'tts-index.json');
+  if (!existsSync(path)) return null;
+  const index = readJson(path);
+  return { voice: index.voice ?? null, items: index.items ?? {}, exists: (file) => existsSync(join(root, 'app', 'audio', file)) };
+}
+
+/** The generated clip for an item id with this pinyin, or null (stale entries, made for another reading, are ignored). */
+export function ttsClip(tts, id, pinyin) {
+  const entry = tts?.items?.[id];
+  if (!entry?.file || entry.pinyin !== pinyin || !/^g\/[0-9a-f]{16}\.mp3$/.test(entry.file) || !tts.exists(entry.file)) return null;
+  return entry;
+}
+
+let TTS = null; // set in main()
 
 function compactItem(item) {
   const spoken = spokenPinyin(item.hanzi, item.pinyin);
@@ -74,6 +95,10 @@ function compactItem(item) {
   if (item.freq) out.f = item.freq.rank;
   if (item.audio.kind === 'syllable') out.a = item.audio.file.replace(/^s\//, 's:').replace(/\.mp3$/, '');
   else if (item.audio.kind === 'word') out.a = 'w';
+  else {
+    const clip = ttsClip(TTS, item.id, item.pinyin);
+    if (clip) out.a = `g:${clip.file.slice(2, -4)}`; // pre-generated neural voice, labelled as synthetic
+  }
   if (item.cedict.match !== 'ok') out.r = item.resolution; // a recorded decision applies (shown on the detail page)
   return out;
 }
@@ -150,7 +175,82 @@ function toneData(items, syllables) {
   return { syllables, pairs: pairOut, minimal: minimal.slice(0, 300) };
 }
 
+const HAN = /\p{Script=Han}/u;
+
+/** Index of HSK words by characters, each with its syllables, for hskWordsIn(). */
+export function wordIndex(items) {
+  const byHanzi = new Map();
+  let maxLen = 1;
+  for (const it of items) {
+    const syl = tokenize(it.pinyin).filter((t) => t.type === 'syllable').map((t) => ({ base: t.base, tone: t.tone }));
+    if (syl.length !== [...it.hanzi].length) continue;
+    if (!byHanzi.has(it.hanzi)) byHanzi.set(it.hanzi, []);
+    byHanzi.get(it.hanzi).push({ id: it.id, syl });
+    maxLen = Math.max(maxLen, syl.length);
+  }
+  return { byHanzi, maxLen };
+}
+
+/**
+ * The HSK words inside a Chinese text, matched by characters AND reading, longest first, inside runs of
+ * Han characters (punctuation separates words): 银行 yínháng links to 银行, and its 行 never to xíng.
+ * A neutral tone on either side still matches. Returns item ids in order, without duplicates.
+ */
+export function hskWordsIn(hanzi, pinyin, index) {
+  const syl = tokenize(pinyin).filter((t) => t.type === 'syllable');
+  const runs = [];
+  let cur = [];
+  for (const ch of String(hanzi)) {
+    if (HAN.test(ch)) cur.push(ch);
+    else if (cur.length) {
+      runs.push(cur);
+      cur = [];
+    }
+  }
+  if (cur.length) runs.push(cur);
+  if (runs.reduce((n, r) => n + r.length, 0) !== syl.length) return [];
+  const out = [];
+  let k = 0;
+  for (const run of runs) {
+    let i = 0;
+    while (i < run.length) {
+      let len = Math.min(index.maxLen, run.length - i);
+      for (; len >= 1; len -= 1) {
+        const part = syl.slice(k + i, k + i + len);
+        const hit = (index.byHanzi.get(run.slice(i, i + len).join('')) ?? [])
+          .find((c) => c.syl.every((s, j) => s.base === part[j].base && (s.tone === part[j].tone || s.tone === 5 || part[j].tone === 5)));
+        if (hit) {
+          out.push(hit.id);
+          break;
+        }
+      }
+      i += Math.max(len, 1);
+    }
+    k += run.length;
+  }
+  return [...new Set(out)];
+}
+
+/** Adds w: [HSK word ids] to every phrase and kinship term of the app content, and the pre-generated
+ * audio clip where there is one (recordings of phrases do not exist; the device voice is the fallback). */
+function linkWords(content, items) {
+  const index = wordIndex(items);
+  let links = 0;
+  const link = (x) => {
+    const clip = x.audio ? null : ttsClip(TTS, x.id, x.pinyin);
+    if (clip) x.audio = { file: `audio/${clip.file}`, speaker: `Generated voice (${clip.voice})`, source: 'Google Cloud Text-to-Speech', synthetic: true };
+    const w = hskWordsIn(x.hanzi, x.pinyin, index);
+    if (!w.length) return;
+    x.w = w;
+    links += w.length;
+  };
+  for (const s of content.situations ?? []) for (const scene of s.scenes) scene.phrases.forEach(link);
+  (content.kinship?.terms ?? []).forEach(link);
+  return links;
+}
+
 function main() {
+  TTS = loadTtsIndex();
   const all = hskItems();
   const items = all.filter(usable);
   const excluded = all.length - items.length;
@@ -182,6 +282,7 @@ function main() {
     const includeUnverified = process.env.BUILD_INCLUDE_UNVERIFIED === '1';
     if (includeUnverified) console.warn('WARNING: BUILD_INCLUDE_UNVERIFIED=1: content.json includes unverified items (local UI work only; the validator fails on it).');
     const { content, counts } = buildContent(ROOT, { includeUnverified });
+    counts.wordLinks = linkWords(content, items);
     files.content = { file: 'data/content.json', hash: writeCompact(join(OUT, 'content.json'), content), ...counts };
   }
 

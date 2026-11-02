@@ -122,9 +122,10 @@ export function createAudio({ getSettings = () => ({}) } = {}) {
     playFile,
     speak,
     stop,
-    /** 'recording' | 'device' | 'none': what play(item) will use (for the label next to the button). */
+    /** 'recording' | 'generated' | 'device' | 'none': what play(item) will use (for the label next to the
+     * button). 'generated' = a pre-generated neural voice clip (synthetic, reading checked). */
     sourceOf(item) {
-      if (item?.audio?.file) return 'recording';
+      if (item?.audio?.file) return item.audio.synthetic ? 'generated' : 'recording';
       return synth && Utterance ? 'device' : 'none';
     },
     get hasDeviceVoice() {

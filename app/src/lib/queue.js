@@ -65,8 +65,10 @@ export function classify({ items, srs = {}, marks = {}, now = Date.now(), daySta
       if (cards.length) newItems.push({ ...cards[0], kind: 'new' });
       continue;
     }
-    // First review of the item's first card today = introduced today.
-    if (cards[0].card && cards[0].card.reps > 0 && cards[0].first !== null && cards[0].first >= dayStart) introducedToday.add(item.id);
+    // Introduced today = the item's first review (the earliest of its cards' first reviews) was today; a card
+    // type switched on again later (see below) does not make a started item new.
+    const firsts = started.map((c) => c.first).filter((f) => f !== null);
+    if (firsts.length && Math.min(...firsts) >= dayStart) introducedToday.add(item.id);
     for (const c of started) {
       const last = c.card.last_review ? c.card.last_review.getTime() : 0;
       if (last >= dayStart) studiedToday.add(item.id);
@@ -79,7 +81,7 @@ export function classify({ items, srs = {}, marks = {}, now = Date.now(), daySta
     // The next unstarted type unlocks once the started types were first studied before today (also when the
     // unstarted one comes first: a type switched on again in settings after the item was started).
     const nextIndex = cards.findIndex((c) => !c.card || c.card.reps === 0);
-    if (nextIndex >= 0 && started.every((c) => c.first !== null && c.first < dayStart)) siblings.push({ ...cards[nextIndex], kind: 'new' });
+    if (nextIndex >= 0 && started.every((c) => c.first !== null && c.first < dayStart)) siblings.push({ ...cards[nextIndex], kind: 'new', sibling: true });
   }
   learning.sort((a, b) => a.due - b.due);
   review.sort((a, b) => a.due - b.due);

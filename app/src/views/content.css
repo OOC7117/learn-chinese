@@ -47,3 +47,5 @@
 .fact-list { display: flex; flex-direction: column; gap: 0.5rem; }
 .fact.panel { padding: 0.4rem 0.9rem; }
 .fact summary strong { font-weight: 600; }
+.open-facts { padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.45rem; }
+.open-facts li { overflow-wrap: anywhere; }

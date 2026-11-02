@@ -1,5 +1,5 @@
 // Learn Chinese service worker: after the first visit the app opens and works without a network.
-// Precache version: 274bf2080a1a (stamped by scripts/build-sw.mjs, so every browser sees a changed worker)
+// Precache version: 5dc551d6cb7e (stamped by scripts/build-sw.mjs, so every browser sees a changed worker)
 //
 // A classic worker without libraries. Decisions (routes, cache keys, byte ranges) are in sw-logic.js and
 // tested in tests/sw.test.mjs; the list of app-shell files and their hash is generated into sw-precache.js
@@ -162,7 +162,7 @@ async function audio(event) {
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;
-  const route = L.routeOf({ url: request.url, method: request.method, mode: request.mode, range: request.headers.get('range') }, SCOPE);
+  const route = L.routeOf({ url: request.url, method: request.method, mode: request.mode, range: request.headers.get('range'), cache: request.cache }, SCOPE);
   if (!route) return; // the browser handles it as if there were no worker (api/ is network only)
   if (route === 'navigate') {
     const network = fetch(request);

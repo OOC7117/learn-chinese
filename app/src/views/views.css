@@ -24,3 +24,7 @@
 }
 .card-usage { max-width: 32rem; text-align: left; }
 .card-usage summary { color: var(--accent); cursor: pointer; min-height: 44px; display: flex; align-items: center; justify-content: center; }
+
+/* Record and compare on speak cards */
+.study .record-row { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; align-items: center; margin-top: 0.6rem; }
+.btn.is-recording { border-color: var(--bad); color: var(--bad); }

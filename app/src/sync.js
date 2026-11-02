@@ -17,8 +17,11 @@
 // anything else is sent, at most limits.srsPerRequest per request and within the body limit, and syncNow
 // loops until nothing is left. When a page starts, entries older than the last complete sync (minus
 // timing.ackMarginMs) count as acked (`loadLastSynced`, shared by all tabs), so a reload does not send
-// everything again. The buckets' revs this device has merged are kept with `loadRevs` / `saveRevs`
-// (learn-chinese:v1:srs-revs); a bucket whose rev went backwards (the server lost data) is sent again.
+// everything again. That only holds for states this device reviewed or received from the server: data
+// merged in from elsewhere (a backup file, `imported()`) can be older than the last sync, so it clears
+// the mark until the next complete sync has sent it. The buckets' revs this device has merged are kept
+// with `loadRevs` / `saveRevs` (learn-chinese:v1:srs-revs); a bucket whose rev went backwards (the server
+// lost data) is sent again.
 //
 // When it syncs:
 //   - `changed()`        1.5 s after the last change (debounced), e.g. a star, a setting or an answer
@@ -30,6 +33,8 @@
 //                        only the marks, days and card states changed since the last full sync, so the
 //                        body stays small
 //   - `online()`         the browser is back online: retry what failed
+//   - `imported()`       data from outside the sync (a backup file) was merged in: like changed(), and
+//                        nothing counts as sent after a reload until a complete sync has sent it
 // Failures keep everything local and retry with exponential backoff (at most every 60 s); 4xx answers
 // are not retried (the next change tries again), and 503 (storage or accounts not configured or down)
 // pauses automatic syncing for a few minutes so many open pages cannot hammer the server. A 401 means
@@ -40,7 +45,7 @@
 // Everything with side effects (fetch, timers, clock, online state, where the last sync time and the
 // revs are kept) is injectable, so tests can drive it with fakes.
 
-import { SRS_BUCKETS, bucketOf } from './lib/srs.js';
+import { CARD_ID, SRS_BUCKETS, bucketOf, isEntry } from './lib/srs.js';
 
 export const STATUS = Object.freeze({
   OFF: 'off', // signed out
@@ -168,6 +173,7 @@ export function createSync({
   let syncedStats = null; // the statistics of the last successful full sync
   let acked = new Map(); // card id -> the entry the server is known to have
   let seeded = false; // acked was seeded from the last complete sync (once per account)
+  let imports = 0; // imported() calls: a request built before one must not save the last-sync mark
 
   const lastSynced = () => Math.max(memoryLastSynced, Number(loadLastSynced()) || 0);
   const hasUnsynced = () => changeCount !== syncedCount;
@@ -239,11 +245,13 @@ export function createSync({
 
   /** Once per account (the first request): card states reviewed well before the last complete sync
    * (shared by all tabs of this device) are on the server already. Without a complete sync yet (first
-   * sign-in on this device) everything is sent. */
+   * sign-in on this device, or data imported since) everything is sent; so it is when the mark lies in
+   * the future (it was saved while the device's clock ran ahead: states reviewed since the clock was
+   * put right have earlier times). */
   function seedAcks(srs) {
     seeded = true;
     const mark = Number(loadLastSynced()) || 0;
-    if (mark <= 0) return;
+    if (mark <= 0 || mark > now()) return;
     const before = mark - cfg.ackMarginMs;
     for (const [id, entry] of Object.entries(srs)) {
       if (!acked.has(id) && isObject(entry) && Number.isSafeInteger(entry.t) && entry.t < before) acked.set(id, entry);
@@ -261,6 +269,7 @@ export function createSync({
     const count = changeCount;
     const used = token;
     const built = now();
+    const importsBefore = imports;
     const state = getState() ?? {};
     const srs = isObject(state.srs) ? state.srs : {};
     if (!seeded) seedAcks(srs);
@@ -285,6 +294,7 @@ export function createSync({
     let left = 0;
     for (const [id, entry] of Object.entries(srs)) {
       if (sameEntry(acked.get(id), entry)) continue;
+      if (!CARD_ID.test(id) || !isEntry(entry)) continue; // the server would refuse the whole request
       const piece = id.length + JSON.stringify(entry).length + 4;
       if (sent < lim.srsPerRequest && size + piece <= budget) {
         chunk[id] = entry;
@@ -313,21 +323,36 @@ export function createSync({
       const buckets = isObject(answer.buckets) ? answer.buckets : {};
       const received = {};
       const nextRevs = { ...readRevs() };
+      const whole = new Map(); // bucket -> its entries, for buckets received in full (not "ack only")
       let resend = false;
       for (const [bucket, value] of Object.entries(buckets)) {
         if (!BUCKET.test(bucket) || Number(bucket) >= SRS_BUCKETS || !isObject(value)) continue;
         if (!Number.isSafeInteger(value.rev) || value.rev < 0) continue;
+        const entries = isObject(value.entries) ? value.entries : {};
         if (value.rev < (revs[bucket] ?? 0)) {
           // The bucket went back (restored backup, account data deleted and started again): send every
           // card state of this bucket again.
           for (const id of [...acked.keys()]) if (bucketOf(id) === bucket) acked.delete(id);
           resend = true;
+        } else if (Object.keys(entries).length > 0) {
+          whole.set(bucket, entries); // ("ack only" answers are { rev, entries: {} })
         }
-        for (const [id, entry] of Object.entries(isObject(value.entries) ? value.entries : {})) {
+        for (const [id, entry] of Object.entries(entries)) {
           received[id] = entry;
           acked.set(id, entry);
         }
         nextRevs[bucket] = value.rev;
+      }
+      // A bucket received in full is everything the server has in it. A card state this device counted as
+      // sent that is not there (the server lost data; an account deleted and created again whose revs
+      // happen to match; a reload that counted it as sent too early) goes up again, at once.
+      if (whole.size > 0) {
+        for (const id of [...acked.keys()]) {
+          const entries = whole.get(bucketOf(id));
+          if (!entries || Object.hasOwn(entries, id)) continue;
+          acked.delete(id);
+          if (Object.hasOwn(srs, id)) resend = true;
+        }
       }
       let merged = true;
       try {
@@ -345,10 +370,13 @@ export function createSync({
       }
       const complete = left === 0 && answer.more !== true && !resend;
       if (complete) {
-        // Everything this device had when the request was built is on the server now.
+        // Everything this device had when the request was built is on the server now. (Not the mark,
+        // when data was imported after the request was built: that data has not been sent yet.)
         syncedCount = Math.max(syncedCount, count);
-        memoryLastSynced = built;
-        saveLastSynced(built);
+        if (importsBefore === imports) {
+          memoryLastSynced = built;
+          saveLastSynced(built);
+        }
       }
       // Another request right away? Only when it can make progress: card states left that fit (none fit
       // when the rest of the body is already at the limit), buckets left to receive, a bucket to resend.
@@ -386,6 +414,21 @@ export function createSync({
       scheduleRetry();
     }
     return { ok: false, status: res.status, error: code };
+  }
+
+  /** The page saved a local change. `quiet`: no request of its own (it rides along with the next one). */
+  function changed({ quiet = false } = {}) {
+    changeCount += 1;
+    if (!active() || quiet) return;
+    if (now() < pausedUntil) return; // stays "unavailable"; sent with the next sync after the pause
+    // Failing already: the pending retry (or the 'online' event) sends this too.
+    if (status === STATUS.OFFLINE && (retryTimer !== null || !isOnline())) return;
+    if (debounceTimer !== null) clearTimer(debounceTimer);
+    debounceTimer = setTimer(() => {
+      debounceTimer = null;
+      syncNow();
+    }, cfg.debounceMs);
+    if (!inFlight) setStatus(STATUS.PENDING);
   }
 
   /** Sync at once (bypasses the 503 pause). Resolves to the result of the last request it ran. */
@@ -428,6 +471,7 @@ export function createSync({
       const nextEmail = next?.email || null;
       const nextToken = nextEmail ? next.token || null : null;
       if (nextEmail === email && nextToken === token) return;
+      if (nextEmail !== email) memoryLastSynced = 0; // the last sync of the previous account is not this one's
       email = nextEmail;
       token = nextToken;
       generation += 1;
@@ -445,18 +489,20 @@ export function createSync({
     },
 
     /** The page saved a local change. */
-    changed({ quiet = false } = {}) {
-      changeCount += 1;
-      if (!active() || quiet) return;
-      if (now() < pausedUntil) return; // stays "unavailable"; sent with the next sync after the pause
-      // Failing already: the pending retry (or the 'online' event) sends this too.
-      if (status === STATUS.OFFLINE && (retryTimer !== null || !isOnline())) return;
-      if (debounceTimer !== null) clearTimer(debounceTimer);
-      debounceTimer = setTimer(() => {
-        debounceTimer = null;
-        syncNow();
-      }, cfg.debounceMs);
-      if (!inFlight) setStatus(STATUS.PENDING);
+    changed,
+
+    /**
+     * Data from outside the sync (a backup file) was merged into this device. It may hold card states
+     * reviewed long before the last complete sync, which a reloaded page would count as already sent
+     * (see seedAcks): forget the last-sync mark until a complete sync built after this has sent
+     * everything, then sync like any change. Also while signed out or after the session ended, so the
+     * next sign-in sends it.
+     */
+    imported() {
+      imports += 1;
+      memoryLastSynced = 0;
+      saveLastSynced(0);
+      changed();
     },
 
     syncNow,

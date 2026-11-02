@@ -8,6 +8,12 @@ import { join } from 'node:path';
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
 const ORDER = ['travel', 'family', 'work'];
 
+/** The fact's re-check page if it is an official source (a government or the operator itself), else null. */
+const officialUrl = (f) => {
+  const src = (f.sources ?? []).find((s) => s.url === f.recheck_url);
+  return f.recheck_url && src?.authority === 'official' ? f.recheck_url : null;
+};
+
 const slimSources = (sources = []) => sources.slice(0, 4).map((s) => ({ url: s.url, title: s.title, publisher: s.publisher ?? null, accessed: s.accessed ?? null }));
 
 /**
@@ -81,6 +87,9 @@ export function buildContent(root, { includeUnverified = false } = {}) {
     title: factsDoc.title,
     checked_on: factsDoc.checked_on,
     facts: factsDoc.facts.filter(ok).map((f) => ({ id: f.id, topic: f.topic, question: f.question, answer: f.answer, checked_on: f.checked_on, recheck_url: f.recheck_url, sources: slimSources(f.sources) })),
+    // Questions whose answer could not be double-checked: only the question and the official page to look
+    // it up on reach the app, never the unverified answer.
+    open: factsDoc.facts.filter((f) => !ok(f) && f.status !== 'refuted').map((f) => ({ id: f.id, topic: f.topic, question: f.open_label ?? f.question, official_url: officialUrl(f) })),
   } : null;
   if (facts) counts.facts = facts.facts.length;
   const content = { situations, kinship, grammar: reference('grammar'), pitfalls: reference('pitfalls'), facts };

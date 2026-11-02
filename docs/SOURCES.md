@@ -6,7 +6,7 @@ Grouped by site; "accessed" is the date the source was read. Licence is given wh
 (datasets and content shipped in the app); for pages that were only read to verify a fact, no licence
 applies to this project. The pinned datasets and their SHA-256 checksums are in `data/sources.lock.json`.
 
-Total: 620 sources on 115 sites.
+Total: 904 sources on 197 sites.
 
 ## Datasets and software shipped or used to build the app
 
@@ -15,7 +15,8 @@ Total: 620 sources on 115 sites.
 | [CC-CEDICT (release 2026-05-18, 124,933 entries; obtained via npm @leonsilicon/cc-cedict 0.0.0)](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | MDBG | CC BY-SA 4.0 | 2026-11-02 |
 | [中文水平考试 HSK考试大纲 (2025), official PDF (sha256 ec74ce04…) mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | 中外语言交流合作中心 (CLEC) | official publication, no licence stated | 2026-11-02 |
 | [ivankra/hsk30: GF 0025-2021 word list with pinyin and POS](https://github.com/ivankra/hsk30/tree/4ff9e3915ce87baaecd7ebe263085573a4ea3192) | Ivan Krasilnikov | MIT (data derived from an official publication) | 2026-11-02 |
-| [clem109/hsk-vocabulary: HSK 2.0 word lists, levels 1-6](https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264) | Clement Venard | MIT | 2026-11-02 |
+| [glxxyz/hskhsk.com: HSK 2.0 word lists, late-2012 revision ("HSK Official With Definitions 2012" L1-L6); word + level only](https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists) | Alan Davies | MIT | 2026-11-02 |
+| [harukicoder/hsk30 syllabus2025_words.tsv: independent extraction of the 2025 syllabus, used to cross-check the PDF parse (0 level differences in 10,896 words)](https://github.com/harukicoder/hsk30/tree/36c0d11347b5d4caea52917d1262404824ad58d5/corpus/syllabus2025) | Alvaro Serrano | MIT | 2026-11-02 |
 | [wordfreq 3.1.1, Chinese "large" list](https://pypi.org/project/wordfreq/3.1.1/) | Robyn Speer | code Apache-2.0, data CC BY-SA 4.0 | 2026-11-02 |
 | [audio-cmn: Mandarin syllable (Chen Wang) and HSK word (Yue Tan, Shtooka/SWAC) recordings](https://github.com/hugolpz/audio-cmn/tree/f759a0f18f27690742957619e1248ed91e9b3f2c) | Hugo Lopez et al. | CC BY-SA | 2026-11-02 |
 | [ts-fsrs 5.4.2 (FSRS-6), vendored as app/src/vendor/ts-fsrs.mjs](https://registry.npmjs.org/ts-fsrs/-/ts-fsrs-5.4.2.tgz) | Open Spaced Repetition | MIT | 2026-11-02 |
@@ -28,6 +29,18 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [12306 CHINA RAILWAY - FAQ](https://www.12306.cn/en/faq.html) | China Railway 12306 | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [铁路客户服务中心--铁路电子客票公告](https://www.12306.cn/mormhweb/zxdtzz/202006/t20200619_597210.html) | China Railway 12306 | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### 12371.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [共产党员网 article of 2018-09-06 on WeChat etiquette for government offices (headline not shown in the results)](https://www.12371.cn/2018/09/06/ARTI1536188694435804.shtml) | 共产党员网 (12371.cn) | official-media |  | 2026-11-02 | research: work-intro-contacts |
+
+### 36kr.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Workplace article on replying to managers in work chats](https://www.36kr.com/p/1724684238849) | 36氪 36kr.com | press |  | 2026-11-02 | research: work-meetings-writing |
 
 ### abc.net.au (1)
 
@@ -48,6 +61,21 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Ant Group Introduces 10 Asian E-Wallets to Chinese Mainland in Major Expansion of Alipay+ Cross-Border Mobile Payment Ecosystem](https://www.antgroup.com/en/news-media/press-releases/1695114686000) | Ant Group | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [What is Alipay, and how does it work?](https://www.antgroup.com/en/news-media/press-releases/1742974487000) | Ant Group | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### api.github.com (4)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [GitHub code search for the MDBG .zip export file name](https://api.github.com/search/code?q=%22cedict_1_0_ts_utf-8_mdbg.zip%22) | GitHub | practitioner |  | 2026-11-02 | research: cedict-sentences |
+| [GitHub code search: '"Chinese Grammar Wiki" "Creative Commons"'](https://api.github.com/search/code?q=%22Chinese+Grammar+Wiki%22+%22Creative+Commons%22) | GitHub | practitioner |  | 2026-11-02 | research: cedict-sentences |
+| [GitHub code search for 'cmn-eng.zip' and for '"CC-BY 2.0 (France) Attribution: tatoeba.org" filename:cmn.txt'](https://api.github.com/search/code?q=%22cmn-eng.zip%22) | GitHub | practitioner |  | 2026-11-02 | research: cedict-sentences |
+| [GitHub repository search: 'cedict' repositories pushed after 2026-06-01](https://api.github.com/search/repositories?q=cedict+pushed:%3E2026-06-01&sort=updated) | GitHub | practitioner |  | 2026-11-02 | research: cedict-sentences |
+
+### api.tatoeba.org (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Live probe of the Tatoeba API from this sandbox](https://api.tatoeba.org/v1/sentences/1) | Tatoeba | primary |  | 2026-11-02 | research: cedict-sentences |
 
 ### api.toneperfect.app (1)
 
@@ -92,17 +120,36 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Microsoft Azure Speech Service - 2026 Review: Pricing & Features](https://blocksentient.com/review/microsoft-azure-speech-service/) | blocksentient.com (third party) | blog |  | 2026-11-02 | research: speech-tech |
 
+### blog.104.com.tw (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [職場禮儀 article (104 人力銀行 blog, Taiwan)](https://blog.104.com.tw/workplace-etiquette-and-polite/) | 104 人力銀行 (Taiwan) | blog |  | 2026-11-02 | research: work-intro-contacts |
+
 ### blog.wechat.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Easy Pay with Weixin Pay! Link Your International Bank Card Today](https://blog.wechat.com/2024/12/19/easy-pay-with-weixin-pay-link-your-international-bank-card-today/) | WeChat Blog (Tencent) | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### blogs.transparent.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Language Blog post on answering compliments](https://blogs.transparent.com/chinese/?p=15087) | Transparent Language, Chinese Language Blog | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Greetings and salutations](https://blogs.transparent.com/chinese/greetings-and-salutations/) | Transparent Language, Chinese Language Blog | teaching |  | 2026-11-02 | research: work-intro-contacts |
+
 ### bugs.webkit.org (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [WebKit Bug 237322 (Web Audio and the silent switch)](https://bugs.webkit.org/show_bug.cgi?id=237322) | WebKit Bugzilla | primary |  | 2026-11-02 | research: hosting-pwa |
+
+### cal.msu.edu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Professor Creates Unique Teaching and Research Tool](https://cal.msu.edu/news/professor-creates-unique-teaching-and-research-tool/) | MSU College of Arts & Letters | press |  | 2026-11-02 | research: audio |
 
 ### cambridge.org (3)
 
@@ -118,11 +165,23 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Context effects on second-language learning of tonal contrasts](https://cbchang.com/wp-content/uploads/ChangBowles2015_JASA.pdf) | J. Acoust. Soc. Am. 138(6), 3703-3716 (author PDF) | academic |  | 2026-11-02 | research: learning-method |
 
+### cet6.koolearn.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [CET-6 business-meeting expressions with Chinese translations](https://cet6.koolearn.com/20220208/851377.html) | 新东方在线 koolearn.com | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
 ### challenges.hackingchinese.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [BLCU balanced corpus frequency lists (Hacking Chinese resources)](https://challenges.hackingchinese.com/resources/stories/451-blcu-balanced-corpus-frequency-lists) | Hacking Chinese | native-teacher |  | 2026-11-02 | research: chars-freq-pinyin |
+
+### china-admissions.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Words and Expressions about WeChat 微信 (Wēixìn)](https://www.china-admissions.com/blog/chinese-words-and-expressions-about-wechat-微信-weixin/) | China Admissions | teaching |  | 2026-11-02 | research: work-intro-contacts |
 
 ### china-briefing.com (1)
 
@@ -148,12 +207,53 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Alipay TourPass: Discontinued - What to Use Instead (2026)](https://chinaneighbor.com/guide/essentials/alipay-tourpass-discontinued/) | chinaneighbor.com (blog) | blog |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### chinanews.com.cn (2)
+### chinanews.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [chinanews.com report on the Shanghai textbook change 外婆 → 姥姥 (2018-06-23; headline not seen)](https://www.chinanews.com/sh/2018/06-23/8544637.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | research: family-address-kinship |
+
+### chinanews.com.cn (4)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [《国际中文教育中文水平等级标准》7月1日起实施](https://www.chinanews.com.cn/cul/2021/05-21/9482134.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | research: hsk-standard-exam |
+| [中国新闻网 report of 2022-10-20 on a workplace survey about online social etiquette (headline not shown in the results)](https://www.chinanews.com.cn/cul/2022/10-20/9876863.shtml) | 中国新闻网 | news |  | 2026-11-02 | research: work-intro-contacts |
 | [中文水平考试HSK3.0来了！全球试行启动 19日起报名](https://www.chinanews.com.cn/edu/2025/12-19/10536380.shtml) | 中国新闻网 (China News Service) | press |  | 2026-11-02 | research: hsk-standard-exam |
+| [九成职场菜鸟都遇“开口难” 职场称呼也需磨合](https://www.chinanews.com.cn/m/sh/2017/08-04/8295738.shtml) | 中国新闻网, reporting a 中国青年报社会调查中心 survey of 1,972 working people | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### chinese-forums.com (8)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| ["Best regards" in Mandarin? (forum thread)](https://chinese-forums.com/forums/topic/38310-best-regards-in-mandarin/) | Chinese-Forums.com | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [Chinese-forums.com thread 'Being less formal', page 2 (2012)](https://chinese-forums.com/forums/topic/38639-being-less-formal/page/2) | Chinese-forums.com (learner forum) | blog |  | 2026-11-02 | research: family-address-kinship; research: work-intro-contacts |
+| [Rule for sequences of 3rd tone syllables (forum thread)](https://chinese-forums.com/forums/topic/49073-rule-for-sequences-of-3rd-tone-syllables) | Chinese Forums | forum |  | 2026-11-02 | research: pitfalls |
+| [How do you express that it was nice to meet someone (forum thread)](https://chinese-forums.com/forums/topic/57879-how-do-you-express-that-it-was-nice-to-meet-someone) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | research: work-intro-contacts |
+| [Meaning of 此致? (forum thread)](https://www.chinese-forums.com/forums/topic/15977-meaning-of-%E6%AD%A4%E8%87%B4/) | Chinese-Forums.com | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [您 (Chinese-forums.com thread; see also topic 38639 “being less formal”)](https://www.chinese-forums.com/forums/topic/3575-%E6%82%A8/) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | research: travel-basics |
+| [Official 2012 NEW HSK vocabulary lists (thread, incl. page 2)](https://www.chinese-forums.com/forums/topic/39206-official-2012-new-hsk-vocabulary-lists/) | Chinese-Forums | secondary |  | 2026-11-02 | research: hsk-datasets |
+| [小姐 always bad in China? (Chinese-forums.com thread); also the thread “The dark meaning of 5 Chinese terms” (https://www.chinese-forums.com/f](https://www.chinese-forums.com/forums/topic/60480-%E5%B0%8F%E5%A7%90-always-bad-in-china/) | Chinese-forums.com (learner forum) | forum |  | 2026-11-02 | research: travel-basics |
+
+### chineseclass101.com (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Survival Phrases #9 — Please Say It Once Again (ChineseClass101)](https://chineseclass101.com/lesson/survival-phrases-9-please-say-it-once-again) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | research: travel-basics |
+| [Absolute Beginner #15 — Essentials: No Thanks (ChineseClass101)](https://www.chineseclass101.com/lesson/absolute-beginner-15-essentials-no-thanks) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | research: travel-basics |
+| [Bootcamp #3 — Useful Phrases in the Classroom (ChineseClass101)](https://www.chineseclass101.com/lesson/bootcamp-3-useful-phrases-in-the-classroom) | ChineseClass101 (Innovative Language Learning) | teaching site |  | 2026-11-02 | research: travel-basics |
+
+### chinesepod.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [ChinesePod lesson 'Dinner with the Girlfriend's Parents'](https://chinesepod.com/lesson/dinner-with-the-girlfriends-parents) | ChinesePod (Mandarin teaching site) | practitioner |  | 2026-11-02 | research: family-address-kinship |
+
+### chinesereadingpractice.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Dialogue: 图书馆里的新朋友 (A new friend at the library)](https://chinesereadingpractice.com/2026/02/05/dialogue-%E5%9B%BE%E4%B9%A6%E9%A6%86%E9%87%8C%E7%9A%84%E6%96%B0%E6%9C%8B%E5%8F%8B-a-new-friend-at-the-library/) | Chinese Reading Practice | teaching |  | 2026-11-02 | research: work-intro-contacts |
 
 ### chinesetest.cn (6)
 
@@ -164,7 +264,13 @@ Total: 620 sources on 115 sites.
 | [HSK 3.0 will be officially launched worldwide on December 13, 2026! (CTI notice)](https://www.chinesetest.cn/news/51336883) | Chinese Testing International (CTI) – Chinese Tests Service Website | official |  | 2026-11-02 | research: hsk-standard-exam |
 | [重要通知！HSK 3.0 考试全球试行启动](https://www.chinesetest.cn/notice) | Chinese Testing International (CTI) | official |  | 2026-11-02 | research: hsk-standard-exam |
 | [Chinese Tests Service Website – Test Dates](https://www.chinesetest.cn/test-dates) | Chinese Testing International (CTI) | official |  | 2026-11-02 | research: hsk-standard-exam |
-| [汉语水平考试考生手册（中文版） BULLETIN OF HSK TEST](https://www.chinesetest.cn/userfiles/file/HSKTest.pdf) | Chinese Testing International / Hanban | official |  | 2026-11-02 | research: hsk-standard-exam |
+| [汉语水平考试考生手册 (HSK test-taker handbook) - with H1_DG.pdf / H2_DG.pdf syllabus introductions on download.chinesetest.cn](https://www.chinesetest.cn/userfiles/file/HSKTest.pdf) | Chinese Testing International / 汉语考试服务网 (chinesetest.cn) | official |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
+
+### chinesetrack.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [New HSK 3.0 Vocabulary Lists by Level](https://www.chinesetrack.com/learn/new-hsk-3-vocabulary-list) | ChineseTrack | secondary |  | 2026-11-02 | research: hsk-datasets |
 
 ### chisa.edu.cn (2)
 
@@ -173,17 +279,30 @@ Total: 620 sources on 115 sites.
 | [被称为“外国人的四六级” HSK考试难点在哪？](http://www.chisa.edu.cn/general/202602/t20260202_2111443246.html) | 神州学人网 | press |  | 2026-11-02 | research: hsk-standard-exam |
 | [3.0版HSK将于12月13日正式开考！](http://www.chisa.edu.cn/general/202609/t20260909_2111519112.html) | 神州学人网 (China Scholars Abroad, MOE-affiliated) | press |  | 2026-11-02 | research: hsk-standard-exam |
 
-### cloud.google.com (1)
+### cloud.google.com (7)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Cloud Text-to-Speech expands its number of voices by nearly 70%, now covering 33 languages and variants](https://cloud.google.com/blog/products/ai-machine-learning/cloud-text-to-speech-expands-its-number-of-voices-now-covering-33-languages-and-variants) | Google Cloud Blog | vendor-docs |  | 2026-11-02 | research: audio |
 | [Speech-to-Text API Pricing \| Google Cloud](https://cloud.google.com/speech-to-text/pricing) | Google Cloud | vendor-docs |  | 2026-11-02 | research: speech-tech |
+| [Google Cloud Terms of Service (last modified October 12, 2026)](https://cloud.google.com/terms) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
+| [Google Cloud Service Specific Terms (last modified October 30, 2026)](https://cloud.google.com/terms/service-terms) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
+| [Google Cloud Services Summary (last modified October 30, 2026)](https://cloud.google.com/terms/services) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
+| [Text-to-Speech: Lifelike AI voices and speech synthesis \| Google Cloud (product page)](https://cloud.google.com/text-to-speech) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
+| [Review pricing for Text-to-Speech \| Google Cloud](https://cloud.google.com/text-to-speech/pricing) | Google Cloud | vendor-docs |  | 2026-11-02 | research: audio |
 
-### cna.com.tw (1)
+### cloud.tencent.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [领导发微信，为何不建议你回复“收到”？ (reposted career-advice article)](https://cloud.tencent.com/developer/news/1086951) | 腾讯云开发者社区 (repost) | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
+### cna.com.tw (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [中國央行:個人單位拒收現金 民眾可舉報](https://www.cna.com.tw/news/acn/201807130270.aspx) | Central News Agency (Taiwan) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [兩岸表情符號寓意不同 在中國丟微笑是罵人](https://www.cna.com.tw/news/acn/201906080084.aspx) | 中央通訊社 CNA (Taiwan) | press |  | 2026-11-02 | research: work-meetings-writing |
 
 ### code.claude.com (1)
 
@@ -202,6 +321,24 @@ Total: 620 sources on 115 sites.
 | [Hobby team still paused after one-time unblock was used](https://community.vercel.com/t/hobby-team-still-paused-after-one-time-unblock-was-used-and-usage-returned-within-limits/51328) | Vercel Community | practitioner |  | 2026-11-02 | research: hosting-pwa |
 | [Vercel Weekly (2026-06-22)](https://community.vercel.com/t/vercel-weekly-2026-06-22/44187) | Vercel Community | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [What to do when your team is paused or blocked](https://community.vercel.com/t/what-to-do-when-your-team-is-paused-or-blocked/45069) | Vercel Community | practitioner |  | 2026-11-02 | research: hosting-pwa |
+
+### culturalkeys.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Essential Business Chinese – Meeting & Greeting](https://www.culturalkeys.cn/2018/03/14/essential-business-chinese-meeting-greeting/) | Cultural Keys | teaching |  | 2026-11-02 | research: work-intro-contacts |
+
+### d.lib.msu.edu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Tone Perfect (MSU Libraries digital repository)](https://d.lib.msu.edu/tone) | Michigan State University Libraries | official |  | 2026-11-02 | research: audio |
+
+### dbnl.org (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Fonetische transcriptie van het Chinees](https://www.dbnl.org/tekst/_yan001198201_01/_yan001198201_01_0080.php) | Yang (Dutch-language journal), jaargang 18, via DBNL | secondary |  | 2026-11-02 | research: pitfalls |
 
 ### developer.apple.com (14)
 
@@ -229,6 +366,42 @@ Total: 620 sources on 115 sites.
 | [Revisiting Chrome's installability criteria](https://developer.chrome.com/blog/update-install-criteria) | Google (Chrome for Developers) | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Uniquely identifying PWAs with the web app manifest id property](https://developer.chrome.com/docs/capabilities/pwa-manifest-id) | Google (Chrome for Developers) | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 
+### dh-abstracts.library.virginia.edu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Digital Humanities Under Your Fingertips: Tone Perfect as a Pedagogical Tool ... (DH2018 abstract)](https://dh-abstracts.library.virginia.edu/works/6365) | Index of DH Conferences | academic |  | 2026-11-02 | research: audio |
+
+### digitaling.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [数英网 article on calling co-workers '老师' (headline not shown)](https://www.digitaling.com/articles/1556988.html) | 数英 DIGITALING | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### digmandarin.com (5)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Secrets of Saying Sorry: “对不起”’s Correct Use](https://www.digmandarin.com/?p=6106) | Digmandarin | secondary |  | 2026-11-02 | research: pitfalls |
+| [12 Essential Phrases to Speak Professional Business Chinese in a Social Setting](https://www.digmandarin.com/12-essential-phrases-speak-professional-business-chinese-social-setting.html) | Digmandarin | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [How to Address People in Chinese (Digmandarin); also italki “Chinese titles” (https://www.italki.com/en/blog/chinese-titles)](https://www.digmandarin.com/how-to-address-people-in-chinese.html) | Digmandarin | teaching site |  | 2026-11-02 | research: travel-basics |
+| [How to Address People Properly You Meet in China (Digmandarin)](https://www.digmandarin.com/how-to-address-people-properly-you-meet-in-china.html) | Digmandarin | teaching site |  | 2026-11-02 | research: travel-basics |
+| [The Third Tone Change Rules in Spoken Chinese](https://www.digmandarin.com/the-3rd-tone-change-rules-in-spoken-chinese.html) | Digmandarin | secondary |  | 2026-11-02 | research: pitfalls |
+
+### docs.cloud.google.com (9)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Changelog \| Python client libraries (google-cloud-texttospeech)](https://docs.cloud.google.com/python/docs/reference/texttospeech/latest/changelog) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Cloud Text-to-Speech basics](https://docs.cloud.google.com/text-to-speech/docs/basics) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Chirp 3: HD voices \| Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Gemini-TTS \| Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/docs/gemini-tts) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Supported voices and languages \| Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Supported phonemes and levels of stress \| Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/docs/phonemes) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [PhoneticEncoding \| Cloud Text-to-Speech REST reference](https://docs.cloud.google.com/text-to-speech/docs/reference/rest/Shared.Types/PhoneticEncoding) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Cloud TTS release notes](https://docs.cloud.google.com/text-to-speech/docs/release-notes) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+| [Quotas & limits \| Cloud Text-to-Speech](https://docs.cloud.google.com/text-to-speech/quotas) | Google Cloud Documentation | vendor-docs |  | 2026-11-02 | research: audio |
+
 ### download.chinesetest.cn (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -236,11 +409,36 @@ Total: 620 sources on 115 sites.
 | [中文水平考试 HSK（七—九级） 样题](http://download.chinesetest.cn/newhsk-site/model/HSK7-9.pdf) | 教育部中外语言交流合作中心 编制 (hosted by CTI) | official |  | 2026-11-02 | research: hsk-standard-exam |
 | [汉语水平考试（HSK）介绍 – HSK（一级）考试大纲](https://download.chinesetest.cn/newhsk-site/Syllabus/H1_DG.pdf) | Chinese Testing International / Hanban | official |  | 2026-11-02 | research: hsk-standard-exam |
 
+### download.osmand.net (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Commons:Shtooka (mirror of the Wikimedia Commons project page)](https://download.osmand.net/wiki/Commons:Shtooka) | Wikimedia Commons (mirrored by osmand.net) | secondary |  | 2026-11-02 | research: audio |
+
+### duchinese.net (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Du Chinese blog — regional accents of Mandarin](https://duchinese.net/blog/?p=2870) | Du Chinese | native-teacher |  | 2026-11-02 | research: grammar |
+
+### echineselearning.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Handle Conflict in Chinese Business Conversations: Key Terms](https://www.echineselearning.com/blog/handle-conflict-in-chinese-business-conversations-key-terms) | eChineseLearning | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [How to ‘Argue’ in Chinese: Practical Debate and Rebuttal Skills](https://www.echineselearning.com/blog/how-to-argue-in-chinese-practical-debate-and-rebuttal-skills) | eChineseLearning | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
 ### edu.cctv.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [中文水平考试HSK3.0来了！全球试行启动 19日起报名](https://edu.cctv.com/2025/12/19/ARTIV4R5P66203aDjA16v9rn251219.shtml) | 央视网 (CCTV.com) | press |  | 2026-11-02 | research: hsk-standard-exam |
+
+### elon.io (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [吗 vs Question-Word Questions (Don't Double)](https://elon.io/grammar/chinese-mandarin/particles/ma-vs-question-words) | Elon.io grammar guide | secondary |  | 2026-11-02 | research: pitfalls |
 
 ### en.nia.gov.cn (9)
 
@@ -256,10 +454,11 @@ Total: 620 sources on 115 sites.
 | [Online Accommodation Registration](https://en.nia.gov.cn/n147418/n147468/c237295/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Entry-Exit and Stay (Residence) of Foreigners](https://en.nia.gov.cn/n147423/n147478/n147715/c158241/content.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### en.wikipedia.org (1)
+### en.wikipedia.org (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Erhua (Wikipedia)](https://en.wikipedia.org/wiki/Erhua) | Wikipedia | encyclopedia |  | 2026-11-02 | research: travel-basics |
 | [Hanyu Shuiping Kaoshi](https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi) | Wikipedia | secondary |  | 2026-11-02 | research: hsk-standard-exam |
 
 ### english.beijing.gov.cn (8)
@@ -304,17 +503,24 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Learning a Tonal Language by Attending to the Tone: An in Vivo Experiment](https://eric.ed.gov/?id=EJ945913) | ERIC record of Language Learning 61(4), 1119-1141 (doi:10.1111/j.1467-9922.2011.00673.x) | academic |  | 2026-11-02 | research: learning-method |
 
+### ettoday.net (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [兩家人不熟！婚後卻要「改口喊爸媽」 她轟爛傳統：為何一直延續](https://www.ettoday.net/news/20260517/3165993.htm) | ETtoday 新聞雲 (Taiwan) | press |  | 2026-11-02 | research: family-address-kinship |
+
 ### examples.vercel.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Environment variables](https://examples.vercel.com/docs/environment-variables) | Vercel | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 
-### files.pythonhosted.org (2)
+### files.pythonhosted.org (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [wordfreq 3.1.1 wheel (METADATA/README, LICENSE.txt, wordfreq/__init__.py, wordfreq/chinese.py, wordfreq/data/*)](https://files.pythonhosted.org/packages/24/61/62835c475d69872d30689f284497853fe33fe1d6dd18f57346d13305861d/wordfreq-3.1.1-py3-none-any.whl) | Robyn Speer | primary | Apache-2.0 (code); CC BY-SA 4.0 (data) | 2026-11-02 | research: chars-freq-pinyin |
+| [supermemo2 3.0.1 wheel (PyPI; Python SM-2 implementation): sm_two.py and tests read, not executed](https://files.pythonhosted.org/packages/48/d3/91644269b83c2dd5fc71d2de11629c1253379af8cd1d1a690b21a3e29dcb/supermemo2-3.0.1-py3-none-any.whl) | alankan886 (PyPI package maintainer) | practitioner | MIT | 2026-11-02 | research: srs-scheduler |
 | [PyPI xfyunsdkspeech 0.0.4 (iFlytek open platform speech SDK): ise_client.py](https://files.pythonhosted.org/packages/f7/4e/e512b16dfe41a9d0c4162ee984ac4c13cd5d5c5363779407d92e82011407/xfyunsdkspeech-0.0.4-py3-none-any.whl) | iFlytek (author zyding6@iflytek.com) | vendor-docs | Apache-2.0 | 2026-11-02 | research: speech-tech |
 
 ### fltrp.com (2)
@@ -323,6 +529,12 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [《新HSK教程》全球首发，构建国际中文学习新生态](https://www.fltrp.com/c/2025-11-15/540051.shtml) | Foreign Language Teaching and Research Press (FLTRP) | press |  | 2026-11-02 | research: hsk-standard-exam |
 | [HSK 3.0 Released and the New HSK Coursebook Officially Launched Worldwide](https://www.fltrp.com/c/2025-11-20/540070.shtml) | Foreign Language Teaching and Research Press (FLTRP) | press |  | 2026-11-02 | research: hsk-standard-exam |
+
+### fluentu.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to Write an Email in Chinese: The Business-ready Guide](https://www.fluentu.com/blog/chinese/how-to-write-an-email-in-chinese/) | FluentU | secondary |  | 2026-11-02 | research: work-meetings-writing |
 
 ### fmprc.gov.cn (1)
 
@@ -336,33 +548,47 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Does high variability training improve the learning of non-native phoneme contrasts over low variability training? A replication](https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2022.104352/) | Journal of Memory and Language, article 104352 (Elsevier), FLoRA Replication Atlas record | academic |  | 2026-11-02 | research: learning-method |
 
+### forum.chinesepod.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Troubles with some words (forum thread, 周 vs 星期)](https://forum.chinesepod.com/t/troubles-with-some-words/7191) | ChinesePod forum | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [Could you cover some common WeChat terminology/phrases (forum thread)](https://forum.chinesepod.com/t/wechat-communication/6242) | ChinesePod forum | forum |  | 2026-11-02 | research: work-intro-contacts |
+
 ### frontiersin.org (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Frontiers in Communication article 10.3389/fcomm.2021.689423 (Pelzl and colleagues)](https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2021.689423/pdf) | Frontiers Media, Frontiers in Communication | academic |  | 2026-11-02 | research: learning-method |
 
-### github.com (231)
+### github.com (302)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [Anki repository Cargo.lock / Cargo.toml / .version at HEAD 136bd42 (2026-10-29)](https://github.com/ankitects/anki.git) | Ankitects Pty Ltd | primary |  | 2026-11-02 | research: srs-scheduler |
 | [fix(sound): Audio unlocks on iPhone Safari (pull request)](https://github.com/AriSweedler-at/hyperagent-web-apps/pull/128) | GitHub (practitioner) | practitioner |  | 2026-11-02 | research: hosting-pwa |
+| [Amazon Polly Developer Guide (archived), doc_source/voicelist.md](https://github.com/awsdocs/amazon-polly-developer-guide) | Amazon Web Services (awsdocs, archived 2023-06-15) | vendor-docs | CC BY-SA 4.0 (docs) | 2026-11-02 | research: audio |
 | [Azure-Samples/cognitive-services-speech-sdk: scenarios/javascript/node/language-learning (pronunciationAssessmentContinue.js, pronunciationA](https://github.com/Azure-Samples/cognitive-services-speech-sdk.git) | Microsoft (official samples), commit dccacc7 2026-10-30 | vendor-docs | MIT | 2026-11-02 | research: speech-tech |
 | [becky82/mteh – notes on the 2021 ("HSK 3.0") and 2025 ("HSK 3.1") lists](https://github.com/becky82/mteh (commit 6be297f, 2026-10-24; sources/HSK3.1/readme.md and sources/HSK3.0/readme.md)) | becky82 (GitHub) | secondary |  | 2026-11-02 | research: hsk-standard-exam |
-| [YACLC v1.0 (Yet Another Chinese Learner Corpus), validation set: learner sentences with annotators' grammatical corrections](https://github.com/blcuicall/YACLC/blob/main/valid.jsonl) | Beijing Language and Culture University, Tsinghua University et al. (arXiv:2112.15043) | academic |  | 2026-11-02 | data/reference/pitfalls.json |
+| [YACLC v1.0 learner corpus (valid set): learner sentences with native-annotator corrections](https://github.com/blcuicall/YACLC/blob/bf17c54e8f55d36b019bef782eccbb1cdd027e81/valid.jsonl) | BLCU, Tsinghua, BNU and others (blcuicall/YACLC) | academic |  | 2026-11-02 | research: grammar; research: work-intro-contacts; research: work-meetings-writing |
+| [YACLC v1.0 (Yet Another Chinese Learner Corpus), validation set: learner sentences with annotators' grammatical corrections](https://github.com/blcuicall/YACLC/blob/main/valid.jsonl) | Beijing Language and Culture University, Tsinghua University et al. (arXiv:2112.15043) | academic |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [chanind/hanzi-writer-data repository (verifier's blobless clone): stroke_data_parser.py and history](https://github.com/chanind/hanzi-writer-data.git) | David Chanin | primary | Arphic Public License (as stated) | 2026-11-02 | research: chars-freq-pinyin |
+| [clem109/hsk-vocabulary (hsk-vocab-json/hsk-level-1..6.json)](https://github.com/clem109/hsk-vocabulary) | Clement Venard (GitHub user clem109) | primary | MIT (repo LICENSE); translations are CC-CEDICT text | 2026-11-02 | research: hsk-datasets |
 | [clem109/hsk-vocabulary – HSK 2.0 word lists (JSON)](https://github.com/clem109/hsk-vocabulary (commit f3dc9d1, 2019-10-29)) | Clement Venard (GitHub) | secondary | MIT | 2026-11-02 | research: hsk-standard-exam |
-| [clem109/hsk-vocabulary: HSK 2.0 word lists, levels 1-6](https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264) | Clement Venard | secondary | MIT | 2026-11-02 | pipeline input (pinned) |
 | [HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)](https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json) |  |  |  | 2026-11-02 | data/hsk/resolutions.json |
-| [《现代汉语词典》全文TXT (community transcription on GitHub CNMan/XDHYCD7th; per its README the definitions outside the 'a' section are still the 5th-e](https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: CNMan and contributors) | dictionary |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/hsk/resolutions.json |
-| [《现代汉语词典》entry 【叔叔】 (community full-text transcription; README says most definitions are still the 5th-edition text being updated to the 7th ](https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt#L48084) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: GitHub CNMan/XDHYCD7th) | dictionary |  | 2026-11-02 | data/situations/family.json |
+| [《现代汉语词典》全文TXT (community transcription on GitHub CNMan/XDHYCD7th; per its README the definitions outside the 'a' section are still the 5th-e](https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: CNMan and contributors) | dictionary |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/hsk/resolutions.json; research: family-address-kinship; +4 more |
+| [《现代汉语词典》（第7版）凡例 (front matter), 3.9 注音 (变调)](https://github.com/CNMan/XDHYCD7th/blob/master/%E6%AD%A3%E6%96%87%E4%BB%A5%E5%A4%96%E9%83%A8%E5%88%86.txt) | 中国社会科学院语言研究所词典编辑室, 商务印书馆 (7th edition, 2016); full-text transcription in github.com/CNMan/XDHYCD7th | dictionary |  | 2026-11-02 | research: pitfalls |
+| [《现代汉语词典》entry 【叔叔】 (community full-text transcription; README says most definitions are still the 5th-edition text being updated to the 7th ](https://github.com/CNMan/XDHYCD7th/blob/master/XDHYCD7th.txt#L48084) | 中国社会科学院语言研究所词典编辑室 / 商务印书馆 (transcription: GitHub CNMan/XDHYCD7th) | dictionary |  | 2026-11-02 | data/situations/family.json; research: pitfalls |
+| [Attribution-ShareAlike 4.0 International - legal code (Creative Commons' own source repo cc-legal-tools-data, commit a0dac18; canonical URL ](https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-sa/4.0/legalcode.en.html) | Creative Commons | official |  | 2026-11-02 | research: cedict-sentences |
+| [CC BY 2.0 FR - English deed (cc-legal-tools-data, commit a0dac18)](https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by/2.0/fr/deed.en.html) | Creative Commons | official |  | 2026-11-02 | research: cedict-sentences |
+| [Paternité 2.0 France (CC BY 2.0 FR) - legal code in French (cc-legal-tools-data, commit a0dac18)](https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by/2.0/fr/legalcode.fr.html) | Creative Commons | official |  | 2026-11-02 | research: cedict-sentences |
 | [WikiPron scrape of English Wiktionary, Mandarin (Han script), broad IPA, CUNY-CL/wikipron @d282e84 (other dictionaries)](https://github.com/CUNY-CL/wikipron/blob/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/cmn_hani_standard_broad.tsv) |  |  |  | 2026-11-02 | data/hsk/resolutions.json |
-| [WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/cmn_hani_standard_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [WikiPron pronunciation data, deu_latn_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/deu_latn_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [WikiPron pronunciation data, eng_latn_us_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/eng_latn_us_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [WikiPron pronunciation data, eng_latn_us_narrow.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/eng_latn_us_narrow.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [WikiPron pronunciation data, nld_latn_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/nld_latn_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [WikiPron pronunciation data, nld_latn_narrow.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/nld_latn_narrow.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
+| [WikiPron pronunciation data, cmn_hani_standard_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/cmn_hani_standard_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [WikiPron pronunciation data, deu_latn_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/deu_latn_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [WikiPron pronunciation data, eng_latn_us_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/eng_latn_us_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [WikiPron pronunciation data, eng_latn_us_narrow.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/eng_latn_us_narrow.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [WikiPron pronunciation data, nld_latn_broad.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/nld_latn_broad.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [WikiPron pronunciation data, nld_latn_narrow.tsv (IPA transcriptions scraped from Wiktionary)](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/nld_latn_narrow.tsv) | CUNY Computational Linguistics, WikiPron project (Lee et al., LREC 2020); transcriptions from Wiktionary | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [Active Reading: read aloud and get reading-accuracy feedback (research and design) - GitHub issue #183](https://github.com/davadev/obsidian_chinese_comprehensible_input/issues/183) | davadev (third-party open-source project) | practitioner |  | 2026-11-02 | research: speech-tech |
 | [HSK考试大纲（一级）– 汉语水平考试（HSK）介绍 (2015)](https://github.com/docrealm/docs-hsk (file "HSK 2/考纲和样卷/HSK大纲/H1_DG.pdf", created 2015-09-11; the official copy is download.chinesetest.cn/newhsk-site/Syllabus/H1_DG.pdf)) | Chinese Testing International / Hanban; third-party mirror | primary |  | 2026-11-02 | research: hsk-standard-exam |
 | [国际中文教育中文水平等级标准（国家标准·应用解读本）第一分册：等级描述、音节、汉字](https://github.com/docrealm/docs-hsk (file "HSK 3/HSK 3-2021/2021-国际中文教育中文水平等级标准（第一分册  等级描述、音节、汉字）.pdf", commit bdff2336, sha256 1db83eeab2346b3d34555949f1494bc6c816ea7048ebb7e205a7de4248579a2d)) | 教育部中外语言交流合作中心 编；刘英林、马箭飞、赵国成 主编；北京语言大学出版社 (ISBN 978-7-5619-5743-1) | primary | © 2021 北京语言大学出版社 (copyrighted book; third-party scan mirrored on GitHub; do not redistribute) | 2026-11-02 | research: hsk-standard-exam |
@@ -383,80 +609,91 @@ Total: 620 sources on 115 sites.
 | [中文水平考试 HSK考试大纲 / Syllabus for the Chinese Proficiency Test (cover: 2025-11 发布, 2026-07 实施)](https://github.com/docrealm/docs-hsk (files "HSK 3/HSK 3-2025/新版HSK考试大纲.pdf" sha256 ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941 and "新版HSK考试大纲（无水印版）.pdf" sha256 273c44238f97a68f1d317717faa8e015e5d8c57b7cd6b7d20a89e6444f2380d0; commit bdff233)) | 中外语言交流合作中心 (CLEC); third-party mirror on GitHub | primary | No terms stated in the document; the mirror has no licence | 2026-11-02 | research: hsk-standard-exam |
 | [中文水平考试 HSK（一级）…（六级）样卷 and HSK（七—九级）样卷 (2026 issue)](https://github.com/docrealm/docs-hsk (folder "HSK 3/HSK3-样卷": HSK（一级）…（六级）样卷.pdf and HSK（七—九级）样卷.pdf, PDFs created 2026-07-15/20)) | 中外语言交流合作中心 编制; third-party mirror | primary |  | 2026-11-02 | research: hsk-standard-exam |
 | [docrealm/docs-hsk README](https://github.com/docrealm/docs-hsk (README.md, commit bdff2336 2026-10-18)) | docrealm (GitHub) | secondary |  | 2026-11-02 | research: hsk-standard-exam |
-| [商务汉语考试 BCT（A）样卷 BCTA0001 (incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [商务汉语考试 BCT（B）样卷 BCTB0001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTB0001.pdf) | 孔子学院总部/国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
-| [商务中文考试 BCT（口语）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCT%E5%8F%A3%E8%AF%AD.pdf) | 教育部中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
-| [商务汉语考试 BCT（A）样卷 (CLEC edition, incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [商务中文考试 BCT（B）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 教育部中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
-| [HSK口语（高级）样卷 (HSKK advanced speaking sample)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%8F%A3%E8%AF%AD%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSKK9.pdf) | 教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/work.json |
-| [HSK（一级）考试大纲 (incl. the official exam-administration script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%A4%A7%E7%BA%B2/H1_DG.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [HSK（一级）样卷 H10901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [HSK（二级）样卷 H20901 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK（三级）样卷 H31001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [HSK（四级）样卷 H41001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [HSK（五级）样卷 H51001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json |
-| [HSK（一级）样卷 H10902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H10902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json |
-| [HSK（二级）样卷 H20902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK（三级）样卷 H31002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/kinship.json |
-| [HSK（四级）样卷 H41002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json |
-| [HSK（五级）样卷 H51002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [HSK（六级）样卷 H61002 (with listening script)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H61002.pdf) | 国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
-| [HSK（一级）样卷 H11003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [HSK（二级）样卷 H21003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK（三级）样卷 H31003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [HSK（四级）样卷 H41003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [HSK（五级）样卷 H51003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [HSK（六级）样卷 H61003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H61003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json |
-| [HSK（二级）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK2.pdf) | 中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
-| [HSK（四级）样卷 (with answer key)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK4.pdf) | 中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
-| [新汉语水平考试 HSK（二级）考试大纲及样卷 (sample items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK2.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK（三级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [新汉语水平考试 HSK（四级）考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [HSK（五级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [YCT（三级）样卷 Y30901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y30901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [YCT（四级）样卷 Y40901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y40901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [YCT（三级）样卷 Y31002 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y31002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（四级）样卷 Y41002 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y41002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（四级）样卷 Y41003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/Y41003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json |
-| [YCT（四级）样卷 Y41004 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y41004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（二级）样卷 Y21005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y21005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（三级）样卷 Y31005 (Youth Chinese Test sample paper, items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y31005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（四级）样卷 Y41005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y41005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（四级）样卷 (CLEC edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [YCT口试 考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json |
-| [YCT（四级）考试大纲及样卷 (incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (GF 0025-2021 applied edition; example sentences per grammar point) — PDF obtained via git clone of github](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编 (刘英林、马箭飞、赵国成 主编); 北京语言大学出版社 | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/reference/grammar.json |
-| [国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇 (GF 0025-2021 applied edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff23](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编; 北京语言大学出版社 | official |  | 2026-11-02 | data/situations/travel.json; data/hsk/resolutions.json |
-| [中文水平考试 HSK考试大纲 (2025), official PDF (sha256 ec74ce04…) mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | 中外语言交流合作中心 (CLEC) | official | official publication, no licence stated | 2026-11-02 | pipeline input (pinned); data/hsk/resolutions.json |
-| [HSK 考试大纲 / Syllabus for the Chinese Proficiency Test (2025-11 发布, 2026-07 实施; official page https://www.chinesetest.cn/syllabus) — HSK 词汇大纲](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +1 more |
-| [新版HSK（1-6级）考试结构与样题示例 (released 2025-12, in force 2026-07) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 汉考国际 (Chinese Testing International) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [新版HSK（3—6级）口语样卷 (new HSK speaking sample papers)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%883-6%E7%BA%A7%EF%BC%89%E5%8F%A3%E8%AF%AD%E6%A0%B7%E5%8D%B7.pdf) | 教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/work.json |
-| [中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (co](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json |
-| [中文水平考试 HSK（三级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%89%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [新版 HSK（五级）样卷 (HSK 3.0 sample paper)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%94%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/reference/kinship.json |
-| [中文水平考试 HSK（四级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json |
-| [中文水平考试 HSK（一级）样卷答案 (answer key to the HSK 3.0 level-1 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdf](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json |
-| [中文水平考试 HSK（四级）样卷答案 (answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json |
-| [T/ISCLT 002-2023 职业中文能力等级标准 (Chinese Proficiency Standards for Vocational Education)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/more/TISCLT%20002-2023%20%E8%81%8C%E4%B8%9A%E4%B8%AD%E6%96%87%E8%83%BD%E5%8A%9B%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86.pdf) | 世界汉语教学学会 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json |
+| [商务汉语考试 BCT（A）样卷 BCTA0001 (incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
+| [商务汉语考试 BCT（B）样卷 BCTB0001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTB0001.pdf) | 孔子学院总部/国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts; research: work-meetings-writing |
+| [商务中文考试 BCT（口语）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCT%E5%8F%A3%E8%AF%AD.pdf) | 教育部中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [商务汉语考试 BCT（A）样卷 (CLEC edition, incl. answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
+| [商务中文考试 BCT（B）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 教育部中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts; research: work-meetings-writing |
+| [HSK口语（高级）样卷 (HSKK advanced speaking sample)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%8F%A3%E8%AF%AD%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSKK9.pdf) | 教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [HSK（一级）考试大纲 (incl. the official exam-administration script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%A4%A7%E7%BA%B2/H1_DG.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official | No open licence | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: hsk-datasets; research: travel-basics; +1 more |
+| [HSK（二级）考试大纲 (incl. the official exam-administration script) — text of the PDF read from a git clone of github.com/docrealm/docs-hsk (commit ](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E5%A4%A7%E7%BA%B2/H2_DG.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | research: travel-basics |
+| [HSK（一级）样卷 H10901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [HSK（二级）样卷 H20901 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: grammar; research: travel-basics |
+| [HSK（三级）样卷 H31001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [HSK（四级）样卷 H41001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [HSK（五级）样卷 H51001](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +3 more |
+| [HSK（六级）样卷 H61001 (with listening script)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H61001.pdf) | 国家汉办 (Hanban); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | research: work-meetings-writing |
+| [HSK（一级）样卷 H10902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H10902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; research: family-address-kinship; research: grammar; research: travel-basics |
+| [HSK（二级）样卷 H20902](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: grammar; +1 more |
+| [HSK（三级）样卷 H31002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/kinship.json; research: family-address-kinship; +3 more |
+| [HSK（四级）样卷 H41002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/kinship.json; +4 more |
+| [HSK（五级）样卷 H51002](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [HSK（六级）样卷 H61002 (with listening script)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H61002.pdf) | 国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [HSK（一级）样卷 H11003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: grammar; research: travel-basics; +1 more |
+| [HSK（二级）样卷 H21003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: grammar; research: travel-basics; research: work-intro-contacts; +1 more |
+| [HSK（三级）样卷 H31003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +4 more |
+| [HSK（四级）样卷 H41003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
+| [HSK（五级）样卷 H51003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [HSK（六级）样卷 H61003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H61003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship; research: work-intro-contacts |
+| [HSK（二级）样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK2.pdf) | 中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: grammar; research: work-intro-contacts |
+| [HSK（四级）样卷 (with answer key)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK4.pdf) | 中外语言交流合作中心 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: travel-basics; research: work-intro-contacts; research: work-meetings-writing |
+| [HSK 口试（初级/中级/高级）样卷录音材料](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | research: work-intro-contacts; research: work-meetings-writing |
+| [新汉语水平考试 HSK（二级）考试大纲及样卷 (sample items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK2.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: grammar; research: travel-basics |
+| [HSK（三级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [新汉语水平考试 HSK（四级）考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
+| [HSK（五级）考试大纲及样卷](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +3 more |
+| [YCT（三级）样卷 Y30901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y30901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: travel-basics |
+| [YCT（四级）样卷 Y40901](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y40901.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: family-address-kinship; research: travel-basics |
+| [YCT（三级）样卷 Y31002 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y31002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [YCT（四级）样卷 Y41002 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/Y41002.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: work-intro-contacts |
+| [YCT（四级）样卷 Y41003](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/Y41003.pdf) | 国家汉办 (Hanban) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; research: family-address-kinship; +2 more |
+| [YCT（三级）样卷 Y31004 (Youth Chinese Test sample paper incl. listening script) — text of the PDF read from a git clone of github.com/docrealm/doc](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y31004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | research: travel-basics |
+| [YCT（四级）样卷 Y41004 (Youth Chinese Test sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (comm](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v4/Y41004.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [YCT（二级）样卷 Y21005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y21005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [YCT（三级）样卷 Y31005 (Youth Chinese Test sample paper, items printed with pinyin) — PDF obtained via git clone of github.com/docrealm/docs-hsk (](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y31005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [YCT（四级）样卷 Y41005 (Youth Chinese Test sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v5/Y41005.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [YCT（四级）样卷 (CLEC edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts |
+| [YCT口试 考试大纲及样卷 — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics; research: work-intro-contacts |
+| [YCT（四级）考试大纲及样卷 (incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办 / 孔子学院总部 (Hanban) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts |
+| [新汉语水平考试 HSK（一级）大纲 (scan, 41 pages), mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2/2009-%E6%96%B0%E6%B1%89%E8%AF%AD%E6%B0%B4%E5%B9%B3%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%20HSK%28%E4%B8%80%E7%BA%A7%29.pdf) | 国家汉办/孔子学院总部 (ed.); 商务印书馆 | official | No open licence | 2026-11-02 | research: hsk-datasets |
+| [汉语国际教育用音节汉字词汇等级划分 (2017 edition, front matter)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2%E7%AD%89/2017-%E6%B1%89%E8%AF%AD%E5%9B%BD%E9%99%85%E6%95%99%E8%82%B2%E7%94%A8%E9%9F%B3%E8%8A%82%E6%B1%89%E5%AD%97%E8%AF%8D%E6%B1%87%E7%AD%89%E7%BA%A7%E5%88%92%E5%88%86.pdf) | 国家汉办 / 教育部语言文字信息管理司 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | research: work-intro-contacts |
+| [国际中文教育中文水平等级标准（国家标准·应用解读本）第一分册：等级描述、音节、汉字 (scan with OCR text layer, 157 pages), mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%80%E5%88%86%E5%86%8C%20%20%E7%AD%89%E7%BA%A7%E6%8F%8F%E8%BF%B0%E3%80%81%E9%9F%B3%E8%8A%82%E3%80%81%E6%B1%89%E5%AD%97%EF%BC%89.pdf) | 教育部中外语言交流合作中心 (ed.); 北京语言大学出版社 | official | No open licence | 2026-11-02 | research: hsk-datasets |
+| [国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 (GF 0025-2021 applied edition; example sentences per grammar point) — PDF obtained via git clone of github](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编 (刘英林、马箭飞、赵国成 主编); 北京语言大学出版社 | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; research: grammar; +3 more |
+| [国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇 (GF 0025-2021 applied edition) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff23](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf) | 教育部中外语言交流合作中心 编; 北京语言大学出版社 | official | No open licence (© 2021 北京语言大学出版社) | 2026-11-02 | data/situations/travel.json; data/hsk/resolutions.json; research: hsk-datasets; research: travel-basics |
+| [中文水平考试 HSK考试大纲 (2025), official PDF (sha256 ec74ce04…) mirrored in docrealm/docs-hsk](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | 中外语言交流合作中心 (CLEC) | official | official publication, no licence stated | 2026-11-02 | pipeline input (pinned); data/hsk/resolutions.json; research: hsk-datasets; research: work-intro-contacts |
+| [HSK 考试大纲 / Syllabus for the Chinese Proficiency Test (2025-11 发布, 2026-07 实施; official page https://www.chinesetest.cn/syllabus) — HSK 词汇大纲](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/situations/work.json; data/reference/grammar.json; +6 more |
+| [新版HSK（1-6级）考试结构与样题示例 (released 2025-12, in force 2026-07) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 汉考国际 (Chinese Testing International) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: grammar; research: travel-basics; +2 more |
+| [新版HSK（3—6级）口语样卷 (new HSK speaking sample papers)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%883-6%E7%BA%A7%EF%BC%89%E5%8F%A3%E8%AF%AD%E6%A0%B7%E5%8D%B7.pdf) | 教育部中外语言交流合作中心 (CLEC); copy in GitHub docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/work.json; research: work-meetings-writing |
+| [中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (co](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [中文水平考试 HSK（三级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%89%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
+| [中文水平考试 HSK（二级）样卷 (new format, 60 items) — 阅读 第一部分](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (CLEC) | official |  | 2026-11-02 | research: grammar |
+| [新版 HSK（五级）样卷 (HSK 3.0 sample paper)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%94%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation) | official |  | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [中文水平考试 HSK（四级）样卷 (HSK 3.0 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; data/situations/work.json; research: travel-basics; research: work-intro-contacts; +1 more |
+| [中文水平考试 HSK（一级）样卷答案 (answer key to the HSK 3.0 level-1 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdf](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [中文水平考试 HSK（四级）样卷答案 (answer key) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC) | official |  | 2026-11-02 | data/situations/travel.json; research: travel-basics |
+| [T/ISCLT 002-2023 职业中文能力等级标准 (Chinese Proficiency Standards for Vocational Education)](https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/more/TISCLT%20002-2023%20%E8%81%8C%E4%B8%9A%E4%B8%AD%E6%96%87%E8%83%BD%E5%8A%9B%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86.pdf) | 世界汉语教学学会 (copy in docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 | [《高等学校外国留学生汉语教学大纲（长期进修）》附件，附表4 功能项目表，1. 打招呼（printed p. 195）](https://github.com/docrealm/docs-hsk/blob/main/HSK%201/%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E/2002-%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E-%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%A4%96%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E6%B1%89%E8%AF%AD%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2%EF%BC%88%E9%95%BF%E6%9C%9F%E8%BF%9B%E4%BF%AE%EF%BC%89-%E9%99%84%E4%BB%B6.pdf#page=197) | 国家对外汉语教学领导小组办公室（国家汉办）; scanned copy in GitHub repo docrealm/docs-hsk | official |  | 2026-11-02 | data/situations/family.json |
 | [BCT (A) sample paper BCTA0001, reading items 31-35](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/BCTA0001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [BCT (A) business Chinese test sample paper with answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTA.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [BCT (B) sample paper, listening question 41 and answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/BCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/BCTB.pdf) | 中外语言交流合作中心 (official sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK 2 sample paper H20901, listening item 12](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
+| [Official HSK sample test H10901 (HSK 1), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H10901.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | research: pitfalls |
+| [HSK 2 sample paper H20901, listening item 12](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: pitfalls |
 | [HSK 3 sample paper H31001, listening part 2 example](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H31001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [HSK 4 sample paper H41001, listening item 32](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
+| [HSK 4 sample paper H41001, listening item 32](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: pitfalls |
 | [HSK 5 sample paper H51001, listening item 29](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H51001.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [HSK 2 sample paper H20902, reading item 53](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H20902.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [HSK 3 sample paper H31002, listening item 6](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H31002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [HSK 4 sample paper H41002, listening item 31](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H41002.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [HSK (Level 5) sample paper H51002, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v2/H51002.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [HSK 1 sample paper H11003, listening question](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H11003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
-| [HSK 3 sample paper H31003, listening item 7](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
+| [Official HSK sample test H21003 (HSK 2), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H21003.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | research: pitfalls |
+| [HSK 3 sample paper H31003, listening item 7](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H31003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; research: pitfalls |
 | [HSK (Level 4) sample paper H41003, listening script](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H41003.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [HSK 5 sample paper H51003, listening item 22](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v3/H51003.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [HSK (Level 5) sample paper, listening answer options](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/HSK5.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK oral test (HSKK) syllabus with sample paper](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
+| [HSK oral test (HSKK) syllabus with sample paper](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK%E5%8F%A3%E8%AF%95.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json; research: pitfalls |
 | [HSK 3 syllabus and sample paper (国家汉办), listening item 34](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK3.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
+| [Official HSK sample test HSK4 (HSK 4), listening script and items](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK4.pdf) | 国家汉办 / Hanban (old HSK 1-6 sample papers); PDF copy in github.com/docrealm/docs-hsk, read as extracted text | official |  | 2026-11-02 | research: pitfalls |
 | [HSK 5 syllabus and sample paper (国家汉办), listening item 23](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK5.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [HSK (Level 6) syllabus with sample paper, reading items 81-84](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/HSK6.pdf) | Hanban / Confucius Institute Headquarters (国家汉办), HSK 2.0 era; PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [YCT 2 sample paper Y20901, reading item 15](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/Y20901.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
@@ -468,47 +705,62 @@ Total: 620 sources on 115 sites.
 | [YCT 4 sample paper (中外语言交流合作中心), writing item 73](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E6%A0%B7%E5%8D%B7%EF%BC%88%E8%AF%AD%E8%A8%80%E5%90%88%E4%BD%9C%E4%B8%AD%E5%BF%83%EF%BC%89/YCT4.pdf) | 中外语言交流合作中心 (official sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
 | [YCT speaking test syllabus and sample (国家汉办), repeat-after-me item 6](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT%E5%8F%A3%E8%AF%95.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json |
 | [YCT 4 syllabus and sample paper (国家汉办), reading item 51](https://github.com/docrealm/docs-hsk/blob/main/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/YCT%E8%80%83%E7%BA%B2%E5%8F%8A%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/YCT4.pdf) | 国家汉办/孔子学院总部 (official HSK/YCT/BCT sample paper; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json |
-| [《国际中文教育中文水平等级标准》GF 0025—2021，第三分册 语法 (example sentences)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部、国家语言文字工作委员会 (official standard; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json |
+| [《国际中文教育中文水平等级标准》GF 0025—2021，第三分册 语法 (example sentences)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部、国家语言文字工作委员会 (official standard; copy in GitHub repo docrealm/docs-hsk) | official |  | 2026-11-02 | data/situations/family.json; data/situations/travel.json; data/reference/pitfalls.json; research: pitfalls |
 | [新版HSK考试大纲 (new HSK test syllabus, 2025): topic descriptions and word lists](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) / Chinese Testing International | official |  | 2026-11-02 | data/situations/travel.json |
-| [HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation); PDF copy in github.com/docrealm/docs-hsk, read as text | official |  | 2026-11-02 | data/reference/pitfalls.json |
-| [新版HSK（1-6级）考试结构与样题示例 (structure and sample items of the new HSK, levels 1-6)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 中外语言交流合作中心 / 汉考国际; PDF copy in github.com/docrealm/docs-hsk, read as text | official |  | 2026-11-02 | data/reference/pitfalls.json |
+| [HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): 词汇大纲 and 语法大纲](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf) | 中外语言交流合作中心 (Center for Language Education and Cooperation); PDF copy in github.com/docrealm/docs-hsk, read as text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [新版HSK（1-6级）考试结构与样题示例 (structure and sample items of the new HSK, levels 1-6)](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%EF%BC%881-6%E7%BA%A7%EF%BC%89%E8%80%83%E8%AF%95%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E9%A2%98%E7%A4%BA%E4%BE%8B.pdf) | 中外语言交流合作中心 / 汉考国际; PDF copy in github.com/docrealm/docs-hsk, read as text | official |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [New HSK (HSK 3.0) Level 2 sample paper (样卷), reading items 31-35; answers from HSK（二级）样卷答案.pdf](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [New HSK (HSK 3.0) Level 4 sample paper (样卷), listening answer options](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E5%9B%9B%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [New HSK (HSK 3.0) Level 2 sample paper answer key](https://github.com/docrealm/docs-hsk/blob/main/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88/HSK%EF%BC%88%E4%BA%8C%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7%E7%AD%94%E6%A1%88.pdf) | Center for Language Education and Cooperation (中外语言交流合作中心); PDF mirrored in GitHub repo docrealm/docs-hsk (commit bdff233, 2026-10-18) | official |  | 2026-11-02 | data/situations/travel.json |
 | [docrealm/docs-hsk README](https://github.com/docrealm/docs-hsk/blob/main/README.md (commit bdff233, 2026-10-18)) | docrealm (GitHub) | secondary |  | 2026-11-02 | research: hsk-standard-exam |
-| [drkameleon/complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary) | Yanis Zafirópulos (GitHub) | primary | MIT | 2026-11-02 | research: hsk-standard-exam |
+| [complete-hsk-vocabulary (commit 7ac65bf, 2026-03-23): wordlists/exclusive/{old,new}/*.json and complete.json](https://github.com/drkameleon/complete-hsk-vocabulary) | Yanis Zafiropulos (drkameleon), GitHub | secondary | MIT | 2026-11-02 | research: audio; research: hsk-datasets; research: hsk-standard-exam |
 | [drkameleon/complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary (HEAD 7ac65bf1)) | Yanis Zafirópulos (GitHub) | secondary | MIT (LICENSE: © 2026 Yanis Zafirópulos) | 2026-11-02 | research: hsk-standard-exam |
 | [drkameleon/complete-hsk-vocabulary (git clone; README.md, LICENSE, complete.json)](https://github.com/drkameleon/complete-hsk-vocabulary.git) | Yanis Zafirópulos (Dr.Kameleon) | primary | MIT (as stated by the repository) | 2026-11-02 | research: chars-freq-pinyin |
 | [新闻联播文字稿 archive (1,495 daily transcripts, news/20220924.md to news/20261101.md)](https://github.com/DuckBurnIncense/xin-wen-lian-bo) | DuckBurnIncense (GitHub); transcripts scraped from tv.cctv.com | secondary | MIT (archive code; transcript content belongs to CCTV) | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [elkmovie/hsk30 - HSK 3.0 Vocabulary Lists (wordlist.txt, charlist.txt)](https://github.com/elkmovie/hsk30) | Pleco Inc. (GitHub user elkmovie) | primary | MIT (Copyright (c) 2021 Pleco Inc.) | 2026-11-02 | research: hsk-datasets |
 | [elkmovie/hsk30 – word and character lists OCR'ed from the official MOE PDF](https://github.com/elkmovie/hsk30 (commit 7f3d4fd, 2023-11-08)) | elkmovie / Pleco Inc. (GitHub) | secondary | MIT | 2026-11-02 | research: hsk-standard-exam |
+| [Expertium's blog: Understanding retention in FSRS (Retention.md, last edited 2024-12-28)](https://github.com/Expertium/Expertium.github.io.git) | Expertium (FSRS contributor) | practitioner |  | 2026-11-02 | research: srs-scheduler |
 | [fxsjy/jieba issue #24](https://github.com/fxsjy/jieba/issues/24) | fxsjy/jieba (GitHub issues) | primary |  | 2026-11-02 | research: chars-freq-pinyin |
 | [GFWList (gfwlist.txt; header 'Last Modified: Sat, 31 Oct 2026 05:12:41 +0000')](https://github.com/gfwlist/gfwlist/blob/master/gfwlist.txt) | GFWList project (community-maintained list of domains reported as blocked in mainland China; GitHub) | practitioner | LGPL-2.1 | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [gigacool/hanyu-shuiping-kaoshi (hsk.csv, hsk.json, LICENSE)](https://github.com/gigacool/hanyu-shuiping-kaoshi) | Cedric Hartland (GitHub user gigacool) | primary | Conflicting: LICENSE file = MIT, but hsk.csv header says "Distributed under Creative Commons BY-NC licence" | 2026-11-02 | research: hsk-datasets |
+| [glxxyz/hskhsk.com data/lists (HSK Official 2012 L1-L6.txt, HSK Official With Definitions 2012 L1-L6.txt)](https://github.com/glxxyz/hskhsk.com) | Alan Davies (GitHub user glxxyz) | primary | MIT (Copyright (c) 2020 Alan Davies) | 2026-11-02 | research: hsk-datasets |
 | [hskhsk.com – "HSK Official 2012" word lists](https://github.com/glxxyz/hskhsk.com (commit 8a6f229, 2021-05-04; data/lists/HSK Official 2012 L1–L6.txt; website posts of 2013-04-05 and 2013-04-28)) | Alan Davies (GitHub) | secondary | MIT (© 2020 Alan Davies) | 2026-11-02 | research: hsk-standard-exam |
+| [glxxyz/hskhsk.com: HSK 2.0 word lists, late-2012 revision ("HSK Official With Definitions 2012" L1-L6); word + level only](https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists) | Alan Davies | secondary | MIT | 2026-11-02 | pipeline input (pinned) |
 | [google/libphonenumber (git repository)](https://github.com/google/libphonenumber) | Google | secondary | Apache-2.0 | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Uniquely identifying PWAs with the web app manifest id property (source, archived repository)](https://github.com/GoogleChrome/developer.chrome.com/blob/51dd7dd5d510ed85d86f5a91cb8fde50b62351c7/site/en/articles/pwa-manifest-id/index.md) | Google (Chrome for Developers) | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [What does it take to be installable? (web.dev source, archived repository)](https://github.com/GoogleChrome/web.dev/blob/a64d870f59c25431bbedf0ef06aa635072c43a2e/src/site/content/en/progressive-web-apps/install-criteria/index.md) | Google (web.dev) | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [workbox-range-requests: RangeRequestsPlugin.ts](https://github.com/GoogleChrome/workbox/blob/4ea3138a120fd2c87389b54130e25f47e0fd7089/packages/workbox-range-requests/src/RangeRequestsPlugin.ts) | Google (Workbox, MIT) | primary | MIT | 2026-11-02 | research: hosting-pwa |
 | [workbox-recipes: offlineFallback.ts](https://github.com/GoogleChrome/workbox/blob/4ea3138a120fd2c87389b54130e25f47e0fd7089/packages/workbox-recipes/src/offlineFallback.ts) | Google (Workbox, MIT) | primary | MIT | 2026-11-02 | research: hosting-pwa |
+| [GoogleCloudPlatform/generative-ai: get_started_with_chirp_3_hd_voices.ipynb and get_started_with_gemini_tts_voices.ipynb (commit 17c4a938, 2](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/audio/speech/getting-started) | Google Cloud (official samples repository) | vendor-docs | Apache-2.0 | 2026-11-02 | research: audio |
+| [harukicoder/hsk30 (README.md, corpus/syllabus2025/PROVENANCE.md, syllabus2025_words.tsv, src/hsk30/data/*.tsv, scripts/extract_syllabus_2025](https://github.com/harukicoder/hsk30) | Alvaro Serrano (GitHub user harukicoder) | primary | MIT for code and derived level tables; CC BY 4.0 for corpus/ graded readers | 2026-11-02 | research: hsk-datasets |
 | [harukicoder/hsk30 – commit message, README and data tables](https://github.com/harukicoder/hsk30 (commit 36c0d11, 2026-10-05, "Correct the HSK 3.0 exam date: it launches on 13 December 2026"; README "Versions"; corpus/syllabus2025/PROVENANCE.md; src/hsk30/data/hsk20_words.tsv and hsk2012_words.tsv)) | Alvaro Serrano (harukicoder) (GitHub) | secondary | MIT (code); the 2025 TSVs are described as a factual extraction | 2026-11-02 | research: hsk-standard-exam |
-| [MuCGEC dev set: sentences by learners of Chinese (from NLPCC18/Lang-8 and CGED/HSK essays) with reference corrections](https://github.com/HillZhang1999/MuCGEC/blob/main/data/MuCGEC/MuCGEC_dev.txt) | Zhang et al., NAACL 2022 (Soochow University / Alibaba DAMO Academy) | academic |  | 2026-11-02 | data/reference/pitfalls.json |
+| [harukicoder/hsk30 syllabus2025_words.tsv: independent extraction of the 2025 syllabus, used to cross-check the PDF parse (0 level difference](https://github.com/harukicoder/hsk30/tree/36c0d11347b5d4caea52917d1262404824ad58d5/corpus/syllabus2025) | Alvaro Serrano | secondary | MIT | 2026-11-02 | pipeline input (pinned) |
+| [Helsinki-NLP/Tatoeba-Challenge (README.md 'License', LICENSE, data/devtest/eng-zho/test-v2023-04-12.txt)](https://github.com/Helsinki-NLP/Tatoeba-Challenge/tree/5509af44a74016748c26f41ab164b64f48445f3f) | University of Helsinki, Language Technology (Helsinki-NLP) | academic | README: test/dev 'CC-BY 2.0 FR', training data CC BY-NC-SA 4.0; LICENSE file: CC BY-NC-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [MuCGEC learner-error corpus (dev set): learner sentences with corrections](https://github.com/HillZhang1999/MuCGEC/blob/39221934ee4ccf07801879136a75dd7e11319977/data/MuCGEC/MuCGEC_dev.txt) | Zhang Yue et al., Soochow University / Alibaba (HillZhang1999/MuCGEC) | academic |  | 2026-11-02 | research: grammar |
+| [MuCGEC dev set: sentences by learners of Chinese (from NLPCC18/Lang-8 and CGED/HSK essays) with reference corrections](https://github.com/HillZhang1999/MuCGEC/blob/main/data/MuCGEC/MuCGEC_dev.txt) | Zhang et al., NAACL 2022 (Soochow University / Alibaba DAMO Academy) | academic |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [hugolpz/audio-cmn repository, master f759a0f1 (2026-10-26); blobless clone + sparse checkout of 64k/, 24k-abr/, 18k-abr/, lists/](https://github.com/hugolpz/audio-cmn) | Hugo Lopez (hugolpz), GitHub | primary | CC BY-SA (audio) | 2026-11-02 | research: audio |
+| [audio-cmn commit 0a3e44a6 'Repair six clips with clicks or stray noises' (Tim Uy, 2026-10-13; merged 59dbafbd 2026-10-15)](https://github.com/hugolpz/audio-cmn/commit/0a3e44a670644600dd2ba91de1d1f993a00ffcdd) | hugolpz/audio-cmn, GitHub | primary |  | 2026-11-02 | research: audio |
 | [audio-cmn: Mandarin syllable (Chen Wang) and HSK word (Yue Tan, Shtooka/SWAC) recordings](https://github.com/hugolpz/audio-cmn/tree/f759a0f18f27690742957619e1248ed91e9b3f2c) | Hugo Lopez et al. | primary | CC BY-SA | 2026-11-02 | pipeline input (pinned) |
 | [Passport Index dataset, legacy snapshots 2019-11-23 to 2025-01-02 (repository archived; last updated 12 Jan 2025)](https://github.com/ilyankou/passport-index-dataset/tree/master/legacy) | Ilya Ilyankou, passport-index-dataset (GitHub; data compiled from Passport Index) | secondary | MIT | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Passport Index Data (README: 'Last updated: 17 February 2026')](https://github.com/imorte/passport-index-data) | imorte/passport-index-data (GitHub; successor of ilyankou/passport-index-dataset) | secondary | MIT | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [ivankra/hsk30 – cleaned HSK 3.0 (2021 standard) vocabulary, characters and grammar](https://github.com/ivankra/hsk30) | Ivan Krasilnikov (GitHub) | primary | MIT (README notes the underlying list is a PRC government work) | 2026-11-02 | research: hsk-standard-exam |
+| [ivankra/hsk30 (commit 4ff9e39, 2023-11-08): hsk30.csv and hsk30-expanded.csv](https://github.com/ivankra/hsk30) | ivankra, GitHub (cleaned HSK 3.0 list cross-referenced with the HSK website) | secondary | MIT | 2026-11-02 | research: audio; research: hsk-datasets; research: hsk-standard-exam |
 | [ivankra/hsk30 – cleaned HSK 3.0 (2021 standard) vocabulary, characters and grammar](https://github.com/ivankra/hsk30 (commit 4ff9e39, 2023-11-08)) | Ivan Krasilnikov (GitHub) | secondary | MIT (LICENSE: © 2023 Ivan Krasilnikov, © 2021 Shawky, © 2021 Pleco Inc.) | 2026-11-02 | research: hsk-standard-exam |
 | [GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)](https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv) |  |  |  | 2026-11-02 | data/hsk/resolutions.json |
 | [ivankra/hsk30: GF 0025-2021 word list with pinyin and POS](https://github.com/ivankra/hsk30/tree/4ff9e3915ce87baaecd7ebe263085573a4ea3192) | Ivan Krasilnikov | primary | MIT (data derived from an official publication) | 2026-11-02 | pipeline input (pinned) |
 | [M3: read-aloud grading - GitHub pull request #3](https://github.com/johnhodgson140-ai/mandarin-learning/pull/3) | johnhodgson140-ai (third-party hobby project) | practitioner |  | 2026-11-02 | research: speech-tech |
-| [krmanik/HSK-3.0 – word, hanzi, handwriting and grammar lists for "New HSK (2021)" and "New HSK (2025)"](https://github.com/krmanik/HSK-3.0) | krmanik (GitHub) | primary | No explicit licence (License.md lists the source PDFs only) | 2026-11-02 | research: hsk-standard-exam |
+| [krmanik/HSK-3.0 (formerly HSK-3.0-words-list): New HSK (2021), New HSK (2025), Scripts and data](https://github.com/krmanik/HSK-3.0) | Mani (GitHub user krmanik) | primary | License.md: "HSK 3.0 word lists - Mani - CC BY-SA 4.0"; CC-CEDICT parts CC BY-SA 4.0 | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
 | [krmanik/HSK-3.0 – word, hanzi, handwriting and grammar lists for New HSK (2021) and New HSK (2025)](https://github.com/krmanik/HSK-3.0 (commit d30e970, 2026-10-24)) | krmanik (Mani) (GitHub) | secondary | License.md: "HSK 3.0 word lists – Mani – CC BY-SA 4.0"; also lists CC-CEDICT (CC BY-SA 4.0), a Pleco list (MIT) and SUBTLEX-CH (CC BY-SA 4.0); no root LICENSE file | 2026-11-02 | research: hsk-standard-exam |
 | [Copy of SUBTLEX-CH word file 'Scripts and data/SUBTLEX_CH_131210_CE.utf8' in krmanik/HSK-3.0-words-list](https://github.com/krmanik/HSK-3.0-words-list.git) | Cai & Brysbaert (copy redistributed by krmanik) | primary | CC BY-SA 4.0 claimed for its HSK 3.0 word lists (License.md) | 2026-11-02 | research: chars-freq-pinyin |
-| [BCT（A）/（B）词汇 lists (BCTA_cihui.txt 600 words, BCTB_cihui.txt 4000 words)](https://github.com/krmanik/HSK-3.0/tree/d30e97016a7f52af6437805170759031d93bbe6a/BCT) | krmanik/HSK-3.0 on GitHub (original publisher not stated in the repo) | secondary |  | 2026-11-02 | data/situations/work.json |
+| [BCT（A）/（B）词汇 lists (BCTA_cihui.txt 600 words, BCTB_cihui.txt 4000 words)](https://github.com/krmanik/HSK-3.0/tree/d30e97016a7f52af6437805170759031d93bbe6a/BCT) | krmanik/HSK-3.0 on GitHub (original publisher not stated in the repo) | secondary |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 | [Chinese local regulations naming the emergency numbers (Tianjin 2021 and 2024, Jinan 2020, Guangzhou 2023, Zhejiang 2010)](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/DLC/天津地方法规/地方性法规/天津/天津市院前医疗急救服务条例(2021-07-30).md) | Local people's congresses; texts read from the LawRefBook/Laws GitHub mirror | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [中华人民共和国中国人民银行法 (Law on the People's Bank of China, 1995, amended 2003), Article 16](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/经济法/中国人民银行法(2003-12-27).md) | NPC; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [中华人民共和国出境入境管理法 (Exit and Entry Administration Law, adopted 30 Jun 2012, in force 1 Jul 2013), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法/出境入境管理法(2012-06-30).md) | NPC Standing Committee; text read from the LawRefBook/Laws GitHub mirror of the National Laws and Regulations Database (flk.npc.gov.cn) | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [国务院关于出境入境管理的规定 (State Council Provisions on Exit and Entry Administration, dated 2026-07-22, in force 2026-09-15), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法规/国务院关于出境入境管理的规定(2026-07-22).md) | State Council of the PRC; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn (mirror updated 2026-10-19) | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [中华人民共和国计算机信息网络国际联网管理暂行规定 (State Council Order No. 195 of 1 Feb 1996, as amended 20 May 1997), Chinese text](https://github.com/LawRefBook/Laws/blob/5057151c9258a98a35dafc06fecad4867ada81de/行政法规/计算机信息网络国际联网管理暂行规定(1997-05-20).md) | State Council of the PRC; text read from the LawRefBook/Laws GitHub mirror of flk.npc.gov.cn | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [Tatoeba sentence 374679: 阿姨，您别客气，喝杯开水就行。 (https://tatoeba.org/en/sentences/show/374679)](https://github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english/blob/7df8b93466f009310de22273973b34de7a20bf62/data/Sentence%20pairs%20in%20Mandarin%20Chinese-English%20-%202026-05-20.tsv) | Tatoeba (crowd-sourced sentence corpus), read from the 2026-05-20 Mandarin–English pair export in github.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english | primary | CC BY 2.0 FR | 2026-11-02 | research: family-address-kinship; research: travel-basics; research: work-intro-contacts |
 | [Android emergency number database (packages/services/Telephony ecc/input/eccdata.txt), LineageOS mirror of AOSP, branch lineage-24.0](https://github.com/LineageOS/android_packages_services_Telephony/blob/lineage-24.0/ecc/input/eccdata.txt) | Android Open Source Project (Google); LineageOS mirror | secondary |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+| [lingua-libre/RecordWizard (Lingua Libre recording extension; HEAD 3c5a70ac, 2026-10-15)](https://github.com/lingua-libre/RecordWizard) | Lingua Libre (GitHub) | primary |  | 2026-11-02 | research: audio |
+| [matt-tingen/cedict-json source (src/index.ts, src/main.ts, .github/workflows/publish.yml)](https://github.com/matt-tingen/cedict-json/tree/b9d9f9da3bc5e307e43de91b2189c047b2cbce8b) | Matt Tingen | practitioner | CC-BY-SA-4.0 | 2026-11-02 | research: cedict-sentences |
 | [BCD: api.AudioSession / Navigator.audioSession](https://github.com/mdn/browser-compat-data/blob/0efedff8c8b6f131ad029443056bc74e00b1aca2/api/AudioSession.json) | MDN browser-compat-data 8.1.7 | primary | CC0-1.0 | 2026-11-02 | research: hosting-pwa |
 | [BCD: api.BackgroundFetchManager](https://github.com/mdn/browser-compat-data/blob/0efedff8c8b6f131ad029443056bc74e00b1aca2/api/BackgroundFetchManager.json) | MDN browser-compat-data 8.1.7 | primary | CC0-1.0 | 2026-11-02 | research: hosting-pwa |
 | [BCD: api.BeforeInstallPromptEvent](https://github.com/mdn/browser-compat-data/blob/0efedff8c8b6f131ad029443056bc74e00b1aca2/api/BeforeInstallPromptEvent.json) | MDN browser-compat-data 8.1.7 | primary | CC0-1.0 | 2026-11-02 | research: hosting-pwa |
@@ -534,38 +786,76 @@ Total: 620 sources on 115 sites.
 | [MDN: PWA caching guide (source)](https://github.com/mdn/content/blob/a0ba038b5e77c06c820e90dc39133acb70dd476a/files/en-us/web/progressive_web_apps/guides/caching/index.md) | MDN Web Docs (Mozilla / Open Web Docs) | secondary |  | 2026-11-02 | research: hosting-pwa |
 | [MDN: Making PWAs installable (source)](https://github.com/mdn/content/blob/a0ba038b5e77c06c820e90dc39133acb70dd476a/files/en-us/web/progressive_web_apps/guides/making_pwas_installable/index.md) | MDN Web Docs (Mozilla / Open Web Docs) | secondary |  | 2026-11-02 | research: hosting-pwa |
 | [Azure Speech SDK for JavaScript source: src/sdk/PronunciationAssessmentResult.ts, PronunciationAssessmentConfig.ts, SpeechConfig.ts (sparse ](https://github.com/microsoft/cognitive-services-speech-sdk-js.git) | Microsoft, HEAD dd1959e (2026-10-29, package.json 1.54.0-alpha.1) | primary | MIT | 2026-11-02 | research: speech-tech |
-| [phrase-pinyin-data pinyin.txt (merged pinyin data)](https://github.com/mozillazg/phrase-pinyin-data/blob/4afa3226ce53c9138b939e83c3bb294dbe0da511/pinyin.txt) | mozillazg/phrase-pinyin-data (GitHub) | dictionary | MIT | 2026-11-02 | data/reference/kinship.json |
-| [phrase-pinyin-data zdic_cibs.txt (pinyin data from 汉典 zdic.net)](https://github.com/mozillazg/phrase-pinyin-data/blob/4afa3226ce53c9138b939e83c3bb294dbe0da511/zdic_cibs.txt) | mozillazg/phrase-pinyin-data (GitHub) | dictionary | MIT | 2026-11-02 | data/reference/kinship.json |
-| [pypinyin documentation, section 'strict 参数的影响' (quotes the spelling rules of 《汉语拼音方案》, 1958)](https://github.com/mozillazg/python-pinyin/blob/master/docs/usage.rst) | mozillazg/python-pinyin (open-source library) | secondary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [pypinyin ToneSandhiMixin docstrings (quoting Wikipedia, 'Standard Chinese phonology', section Tone sandhi)](https://github.com/mozillazg/python-pinyin/blob/master/pypinyin/contrib/tone_sandhi.py) | mozillazg/python-pinyin (open-source library) | secondary |  | 2026-11-02 | data/reference/pitfalls.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), readme](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/readme.md) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), Guangdong locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/guangdong.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), 北方 locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/north.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator)](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/main.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), prefix.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/prefix.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), sort.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/sort.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), selector.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/selector.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json |
-| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), utils.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/utils.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json |
+| [MicrosoftDocs/azure-ai-docs and azure-docs main (availability probe)](https://github.com/MicrosoftDocs/azure-ai-docs) | Microsoft (GitHub) | vendor-docs |  | 2026-11-02 | research: audio |
+| [mozillazg/phrase-pinyin-data (zdic_cibs.txt and zdic_cybs.txt = pinyin from 汉典 zdic.net; pinyin.txt)](https://github.com/mozillazg/phrase-pinyin-data) | mozillazg (GitHub) | dictionary | MIT (repo LICENSE) | 2026-11-02 | research: hsk-datasets |
+| [phrase-pinyin-data pinyin.txt (merged pinyin data)](https://github.com/mozillazg/phrase-pinyin-data/blob/4afa3226ce53c9138b939e83c3bb294dbe0da511/pinyin.txt) | mozillazg/phrase-pinyin-data (GitHub) | dictionary | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [phrase-pinyin-data zdic_cibs.txt (pinyin data from 汉典 zdic.net)](https://github.com/mozillazg/phrase-pinyin-data/blob/4afa3226ce53c9138b939e83c3bb294dbe0da511/zdic_cibs.txt) | mozillazg/phrase-pinyin-data (GitHub) | dictionary | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [phrase-pinyin-data: zdic_cibs.txt (汉典 zdic.net word list with pinyin)](https://github.com/mozillazg/phrase-pinyin-data/blob/master/zdic_cibs.txt) | mozillazg/phrase-pinyin-data on GitHub | secondary |  | 2026-11-02 | research: work-meetings-writing |
+| [pypinyin documentation, section 'strict 参数的影响' (quotes the spelling rules of 《汉语拼音方案》, 1958)](https://github.com/mozillazg/python-pinyin/blob/master/docs/usage.rst) | mozillazg/python-pinyin (open-source library) | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [pypinyin ToneSandhiMixin docstrings (quoting Wikipedia, 'Standard Chinese phonology', section Tone sandhi)](https://github.com/mozillazg/python-pinyin/blob/master/pypinyin/contrib/tone_sandhi.py) | mozillazg/python-pinyin (open-source library) | secondary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), readme](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/readme.md) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), Guangdong locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/guangdong.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), 北方 locale](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/locale/north.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator)](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/main.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/situations/family.json; data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), prefix.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/prefix.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), sort.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/data/sort.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), selector.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/selector.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
+| [relationship.js — 中国家庭称谓计算器 (Chinese kinship-term calculator), utils.js](https://github.com/mumuy/relationship/blob/35c44427befb6fd59e16f583b5b92a680a7948db/src/module/utils.js) | mumuy (passer-by.com), GitHub mumuy/relationship (npm relationship.js 1.2.9) | practitioner | MIT | 2026-11-02 | data/reference/kinship.json; research: family-address-kinship |
 | [Leveling up our partnership with Vercel (Neon blog source)](https://github.com/neondatabase/website/blob/8bfdafd187bddf2eb4c721ecf368fa6d05895878/content/blog/posts/leveling-up-our-partnership-with-vercel.md) | Neon | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Neon plans (docs source, updatedOn 2026-10-23)](https://github.com/neondatabase/website/blob/8bfdafd187bddf2eb4c721ecf368fa6d05895878/content/docs/introduction/plans.md) | Neon | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Scale to Zero (docs source)](https://github.com/neondatabase/website/blob/8bfdafd187bddf2eb4c721ecf368fa6d05895878/content/docs/introduction/scale-to-zero.md) | Neon | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Project GitHub repository and this session's repository attachment](https://github.com/OOC7117/learn-chinese) | GitHub / Claude Code session context | primary |  | 2026-11-02 | research: hosting-pwa |
-| [PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py)](https://github.com/PaddlePaddle/PaddleSpeech/blob/develop/paddlespeech/t2s/frontend/tone_sandhi.py) | PaddlePaddle (Baidu) | practitioner |  | 2026-11-02 | data/reference/pitfalls.json |
+| [awesome-fsrs wiki: ABC of FSRS (ABC-of-FSRS.md, last edited 2026-03-18)](https://github.com/open-spaced-repetition/awesome-fsrs.wiki.git) | Open Spaced Repetition | vendor-docs |  | 2026-11-02 | research: srs-scheduler |
+| [fsrs-rs main branch at 3be7d2a (2026-10-28): README.md, Cargo.toml, src/model.rs, src/inference_v7.rs](https://github.com/open-spaced-repetition/fsrs-rs.git) | Open Spaced Repetition | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
+| [fsrs4anki wiki: The Optimal Retention (The-Optimal-Retention.md, last edited 2024-12-11)](https://github.com/open-spaced-repetition/fsrs4anki.wiki.git) | Open Spaced Repetition | vendor-docs |  | 2026-11-02 | research: srs-scheduler |
+| [srs-benchmark repository, fresh partial clone at HEAD 4ddb9fd (2026-10-25): git history, README at 45f61b2/b9ee6cc, models/sm2.py, models/an](https://github.com/open-spaced-repetition/srs-benchmark.git) | Open Spaced Repetition | primary |  | 2026-11-02 | research: srs-scheduler |
+| [SSP-MMC-FSRS README, Results section (commit 3c1fbe1, 2026-01-29)](https://github.com/open-spaced-repetition/SSP-MMC-FSRS.git) | Open Spaced Repetition | primary |  | 2026-11-02 | research: srs-scheduler |
+| [ts-fsrs repository, fresh clone at HEAD f582c1d (2026-10-29): docs/src/en-US/guide/*.mdx and api/ts-fsrs/*.mdx, commit log since 2026-10-20,](https://github.com/open-spaced-repetition/ts-fsrs.git) | Open Spaced Repetition | vendor-docs | MIT | 2026-11-02 | research: srs-scheduler |
+| [oxalis-ink/cc-cedict README (HEAD 85f6992, 2026-10-07)](https://github.com/oxalis-ink/cc-cedict/tree/85f699249f63fbf5d89d69a8eba9c6dba7b1fe4b) | oxalis-ink (GitHub) | practitioner | CC BY-SA 4.0 (data) | 2026-11-02 | research: cedict-sentences |
+| [PaddleSpeech text-to-speech front end: ToneSandhi rules (tone_sandhi.py)](https://github.com/PaddlePaddle/PaddleSpeech/blob/develop/paddlespeech/t2s/frontend/tone_sandhi.py) | PaddlePaddle (Baidu) | practitioner |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
 | [parsimonhi/animCJK repository (shallow partial clone) and sample SVGs via raw.githubusercontent.com](https://github.com/parsimonhi/animCJK.git) | FM&SH (parsimonhi) | primary |  | 2026-11-02 | research: chars-freq-pinyin |
+| [plaktos/hsk_csv (hsk1-6.csv, README.md)](https://github.com/plaktos/hsk_csv) | plaktos (GitHub) | primary | none (no LICENSE file in the repository) | 2026-11-02 | research: hsk-datasets |
 | [Praat manual: 'how to choose a pitch analysis method' and 'pitch analysis by raw autocorrelation'](https://github.com/praat/praat.git) | Paul Boersma / Praat, repo commit 56ed24e 2026-11-01 | academic | GPL-3.0-or-later (Praat) | 2026-11-02 | research: speech-tech |
-| [chinese-xinhua 词语数据 (ci.json), entry 叔叔](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/ci.json) | pwxcoo/chinese-xinhua (community-compiled 新华字典/词典 data on GitHub) | dictionary |  | 2026-11-02 | data/situations/family.json; data/situations/work.json; data/reference/kinship.json |
-| [chinese-xinhua data/word.json (新华字典 character entries incl. detailed definitions)](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/word.json) | pwxcoo/chinese-xinhua (scraped dictionary data) | dictionary |  | 2026-11-02 | data/situations/work.json |
-| [新华字典 character entries (chinese-xinhua dataset, data/word.json)](https://github.com/pwxcoo/chinese-xinhua/blob/master/data/word.json) | pwxcoo/chinese-xinhua (data compiled from 新华字典) | dictionary |  | 2026-11-02 | data/reference/pitfalls.json |
+| [chinese-xinhua 词语数据 (ci.json), entry 叔叔](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/ci.json) | pwxcoo/chinese-xinhua (community-compiled 新华字典/词典 data on GitHub) | dictionary | MIT | 2026-11-02 | data/situations/family.json; data/situations/work.json; data/reference/kinship.json; research: family-address-kinship; +3 more |
+| [chinese-xinhua data/word.json (新华字典 character entries incl. detailed definitions)](https://github.com/pwxcoo/chinese-xinhua/blob/fe6d6c2e8baa82187f4c96bbe042e43f96c05666/data/word.json) | pwxcoo/chinese-xinhua (scraped dictionary data) | dictionary |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [新华字典 character entries (chinese-xinhua dataset, data/word.json)](https://github.com/pwxcoo/chinese-xinhua/blob/master/data/word.json) | pwxcoo/chinese-xinhua (data compiled from 新华字典) | dictionary |  | 2026-11-02 | data/reference/pitfalls.json; research: pitfalls |
+| [qundao/backup-cc-cedict (README.md, .github/workflows/sync.yml, git log)](https://github.com/qundao/backup-cc-cedict/tree/b61b6b042228dc24710541f81947a9f93d713be8) | qundao (GitHub) | practitioner | README states CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [feat(data): GF0025-2021 standard as a free HSK referential (PR #59)](https://github.com/R4z4kk/OpenLinguo/pull/59) | R4z4kk/OpenLinguo (GitHub) | practitioner |  | 2026-11-02 | research: hsk-datasets |
+| [rhcarvalho/cedict - 'An always up-to-date copy of the CC-CEDICT' (README.md, .github/workflows/update.yml, meta.csv, .gitattributes, git log](https://github.com/rhcarvalho/cedict/tree/55a0cf1226b044c59579dd8e0a32114ca6a14a11) | Rodolfo Carvalho (GitHub) | practitioner | Apache-2.0 (repository); CC-CEDICT data CC BY-SA 4.0 per README | 2026-11-02 | research: cedict-sentences |
 | [rspeer/wordfreq repository history (partial clone)](https://github.com/rspeer/wordfreq.git) | Robyn Speer | primary | Apache-2.0 (code); CC BY-SA 4.0 (data) | 2026-11-02 | research: chars-freq-pinyin |
-| [科技爱好者周刊（第 112 期）：如何培养领导力 (and issue-111.md)](https://github.com/ruanyf/weekly/blob/bad85274acad89588de7f1a624bf52fcc4516c8a/docs/issue-112.md) | 阮一峰 (ruanyf/weekly) | blog |  | 2026-11-02 | data/situations/work.json |
+| [科技爱好者周刊（第 112 期）：如何培养领导力 (and issue-111.md)](https://github.com/ruanyf/weekly/blob/bad85274acad89588de7f1a624bf52fcc4516c8a/docs/issue-112.md) | 阮一峰 (ruanyf/weekly) | blog |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
+| [s-mberli/hsknest scripts/generate-sentences.ts (HEAD eb70951, 2026-10-13)](https://github.com/s-mberli/hsknest/blob/eb70951cf10cd6f77a09b9d494fb8ded407471a0/scripts/generate-sentences.ts) | s-mberli (GitHub) | practitioner |  | 2026-11-02 | research: cedict-sentences |
+| [shawkynasr/HSK-official-Query-System (词汇 2022.csv, 词汇.csv, standard.json, README.md)](https://github.com/shawkynasr/HSK-official-Query-System) | Shawky (GitHub) | primary | MIT | 2026-11-02 | research: hsk-datasets |
 | [HSK official Query System – copy of the chinesetest.cn query-system data for GF0025-2021](https://github.com/shawkynasr/HSK-official-Query-System (commit 60153c5, 2026-10-09)) | Shawky (GitHub) | secondary | MIT | 2026-11-02 | research: hsk-standard-exam |
-| [HSK 3.0-Yufa with Reference Books.csv, row 16 (一级 介词 在) — notes quoted from 发展汉语 初级上 第16课](https://github.com/shawkynasr/HSK-official-Query-System/blob/60153c5aa1476c33aee9f161792785377d3369e2/HSK%203.0-Yufa%20with%20Reference%20Books.csv) | Shawky Nasr, HSK-official-Query-System (GitHub dataset; compiles textbook references) | secondary |  | 2026-11-02 | data/reference/grammar.json |
+| [HSK 3.0-Yufa with Reference Books.csv, row 16 (一级 介词 在) — notes quoted from 发展汉语 初级上 第16课](https://github.com/shawkynasr/HSK-official-Query-System/blob/60153c5aa1476c33aee9f161792785377d3369e2/HSK%203.0-Yufa%20with%20Reference%20Books.csv) | Shawky Nasr, HSK-official-Query-System (GitHub dataset; compiles textbook references) | secondary |  | 2026-11-02 | data/reference/grammar.json; research: grammar |
 | [skishore/makemeahanzi repository (shallow partial clone)](https://github.com/skishore/makemeahanzi.git) | Shaunak Kishore | primary |  | 2026-11-02 | research: chars-freq-pinyin |
 | [speechace/speechace-api-samples README and 'SpeechAce API details.pdf'](https://github.com/speechace/speechace-api-samples.git) | Speechace (vendor), commit 30f2aee 2023-05-31 | vendor-docs |  | 2026-11-02 | research: speech-tech |
 | [speechsuper/SpeechSuper-API-Samples README](https://github.com/speechsuper/SpeechSuper-API-Samples.git) | SpeechSuper (vendor), commit 0d6bb10 2024-06-06 | vendor-docs |  | 2026-11-02 | research: speech-tech |
+| [Audio source migration (and src/Model/Entity/Audio.php) - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-2](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/config/Migrations/20260313094320_AddAudioSource.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Weekly export script - Tatoeba source code, fresh clone on 2026-11-02 (HEAD still f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/docs/cron/export.sh) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Weekly export SQL - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/docs/database/scripts/weekly_exports.sql) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [2016 data update - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/docs/database/updates/2016-12-22_2-data.sql) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Terms of Use (English) - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/resources/locales/en/terms-of-use.html) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Sentence adopt/let_go actions (and src/View/Helper/ClickableLinksHelper.php) - Tatoeba project source code (repository snapshot, HEAD commit](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Controller/SentencesController.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [API sentences controller (OpenAPI annotations; also ApiController.php, ExposedOnApiBehavior.php, config/routes.php) - Tatoeba project source](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Controller/VHosts/Api/SentencesController.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Licence definitions - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Lib/Licenses.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Pairs exporter (and templates/element/custom_export.php, src/Controller/ExportsController.php) - Tatoeba project source code (repository sna](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Model/Exporter/PairsExporter.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Tags table - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Model/Table/TagsTable.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Transcriptions table (and src/Lib/Autotranscription.php, templates/Pages/downloads.php) - Tatoeba project source code (repository snapshot, ](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Model/Table/TranscriptionsTable.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Search index configuration - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/Shell/SphinxConfShell.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Sentence links helper and src/Controller/SentencesController.php (adopt / let_go) - Tatoeba source code, fresh clone on 2026-11-02 (HEAD sti](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/View/Helper/ClickableLinksHelper.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Downloads helper (and ansible/host_vars/default) - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/src/View/Helper/DownloadsHelper.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
+| [Downloads page template - Tatoeba project source code (repository snapshot, HEAD commit f2c80b8 of 2026-10-29)](https://github.com/Tatoeba/tatoeba2/blob/f2c80b81032630648f7896182174a9f5784ccde2/templates/Pages/downloads.php) | Tatoeba Association / Tatoeba project | official | AGPL-3.0 (code) | 2026-11-02 | research: cedict-sentences |
 | [Tencent Cloud International SDKs: tencentcloud-sdk-nodejs-intl-en and tencentcloud-sdk-python-intl-en (service directory listings)](https://github.com/TencentCloud/tencentcloud-sdk-nodejs-intl-en.git) | Tencent Cloud (official SDKs), HEAD de06872 (2026-11-02) and c1d895e (2026-10-30) | vendor-docs | Apache-2.0 | 2026-11-02 | research: speech-tech |
-| [RiSAWOZ: large-scale multi-domain Chinese Wizard-of-Oz dialogue dataset (EMNLP 2020), source-data/all_(11200)_new.json](https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip) | Quan et al., EMNLP 2020 (GitHub terryqj0107/RiSAWOZ); human-to-human dialogues written by native speakers | academic | CC BY-NC 4.0 | 2026-11-02 | data/situations/travel.json |
-| [CrossWOZ: a large-scale Chinese cross-domain task-oriented dialogue dataset (TACL, arXiv 2002.11893), data/crosswoz/train.json](https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip) | thu-coai (GitHub thu-coai/CrossWOZ); Beijing hotel/taxi/metro dialogues written by native speakers | academic |  | 2026-11-02 | data/situations/travel.json |
+| [RiSAWOZ: large-scale multi-domain Chinese Wizard-of-Oz dialogue dataset (EMNLP 2020), source-data/all_(11200)_new.json](https://github.com/terryqj0107/RiSAWOZ/blob/master/RiSAWOZ-data/source-data.zip) | Quan et al., EMNLP 2020 (GitHub terryqj0107/RiSAWOZ); human-to-human dialogues written by native speakers | academic | CC BY-NC 4.0 | 2026-11-02 | data/situations/travel.json; research: pitfalls; research: travel-basics; research: work-intro-contacts; +1 more |
+| [CrossWOZ: a large-scale Chinese cross-domain task-oriented dialogue dataset (TACL, arXiv 2002.11893), data/crosswoz/train.json](https://github.com/thu-coai/CrossWOZ/blob/master/data/crosswoz/train.json.zip) | thu-coai (GitHub thu-coai/CrossWOZ); Beijing hotel/taxi/metro dialogues written by native speakers | academic | Apache-2.0 (CrossWOZ); CC BY-NC 4.0 (RiSAWOZ) | 2026-11-02 | data/situations/travel.json; research: grammar; research: pitfalls; research: travel-basics; +2 more |
+| [tonghuikang/HSK-3.0-words-list (fork of the krmanik word-list repo)](https://github.com/tonghuikang/HSK-3.0-words-list) | Hui Kang Tong (GitHub) | primary | License.md copied from krmanik (CC BY-SA 4.0 for lists) | 2026-11-02 | research: hsk-datasets |
+| [hsk-vocabulary - GitHub Topics](https://github.com/topics/hsk-vocabulary) | GitHub | secondary |  | 2026-11-02 | research: hsk-datasets |
+| [dragonmapper pinyin–zhuyin–IPA syllable table (transcriptions.csv)](https://github.com/tsroten/dragonmapper/blob/main/src/dragonmapper/data/transcriptions.csv) | Thomas Roten, dragonmapper (open-source Python library; last commit 2024-11-19) | secondary | MIT | 2026-11-02 | research: pitfalls |
+| [UD_Chinese-Beginner LICENSE.txt and README.md (Universal Dependencies; HEAD be33e24 of 2026-05-06)](https://github.com/UniversalDependencies/UD_Chinese-Beginner/tree/be33e2440b9b9a93cc90dcf371cbc63a59e6bd06) | Universal Dependencies; annotators at Paris Nanterre University (Modyco) | academic | CC BY-NC-SA 3.0 | 2026-11-02 | research: cedict-sentences |
+| [UD_Chinese-GSDSimp LICENSE.txt and README.md (HEAD 4231dfd of 2026-05-06)](https://github.com/UniversalDependencies/UD_Chinese-GSDSimp/tree/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59) | Universal Dependencies | academic | CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [UD_Chinese-HK LICENSE.txt and README.md (HEAD 05c37a7)](https://github.com/UniversalDependencies/UD_Chinese-HK/tree/05c37a78e3818e5d311e8b77b13adeccdda1e2cf) | Universal Dependencies (City University of Hong Kong annotators) | academic | CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [UD_Chinese-PUD LICENSE.txt and README.md (HEAD 2849afd of 2026-05-06)](https://github.com/UniversalDependencies/UD_Chinese-PUD/tree/2849afd946a8c01b3e9acdf3e7afa8670cf2777d) | Universal Dependencies | academic | CC BY-SA 3.0 | 2026-11-02 | research: cedict-sentences |
 | [Durable Storage (docs source)](https://github.com/upstash/docs/blob/93c9c79f1fe75192bd104c560658820f3be5ab8e/redis/features/durability.mdx) | Upstash | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Eviction (docs source)](https://github.com/upstash/docs/blob/93c9c79f1fe75192bd104c560658820f3be5ab8e/redis/features/eviction.mdx) | Upstash | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [REST API (docs source)](https://github.com/upstash/docs/blob/93c9c79f1fe75192bd104c560658820f3be5ab8e/redis/features/restapi.mdx) | Upstash | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
@@ -577,6 +867,12 @@ Total: 620 sources on 115 sites.
 | [WebKit MediaSessionManagerCocoa.mm (audio session category selection)](https://github.com/WebKit/WebKit/blob/ee10f6908b65c932143827e6e5dc5992733bfb2c/Source/WebCore/platform/audio/cocoa/MediaSessionManagerCocoa.mm) | WebKit project (Apple) | primary |  | 2026-11-02 | research: hosting-pwa |
 | [WebKit ResourceLoadStatisticsStore.cpp (tracking prevention / website data removal)](https://github.com/WebKit/WebKit/blob/ee10f6908b65c932143827e6e5dc5992733bfb2c/Source/WebKit/NetworkProcess/Classifier/ResourceLoadStatisticsStore.cpp) | WebKit project (Apple) | primary |  | 2026-11-02 | research: hosting-pwa |
 | [HTML Living Standard source: 'activation triggering input event'](https://github.com/whatwg/html/blob/404b3eb14a7a936dddefb2d78e224dbeb01d2358/source) | WHATWG | official |  | 2026-11-02 | research: hosting-pwa |
+
+### globalvoices.org (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Are you scanning me or am I scanning you? The power dynamics of China's WeChat](https://globalvoices.org/2016/01/25/are-you-scanning-me-or-am-i-scanning-you-the-power-dynamics-of-chinas-wechat/) | Global Voices | news |  | 2026-11-02 | research: work-intro-contacts |
 
 ### gov.cn (1)
 
@@ -596,17 +892,30 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Hacking Chinese article on tone colours](https://hackingchinese.com/?p=11523) | Hacking Chinese (Olle Linge) | practitioner |  | 2026-11-02 | research: learning-method |
 
+### hanbridgemandarin.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Making Appointments with Clients in Chinese](https://www.hanbridgemandarin.com/article/business-chinese-learning-tips/making-appointments-with-clients-in-chinese/) | Hanbridge Mandarin | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
+### hanyuguide.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [劳驾 (HanyuGuide dictionary entry); also FluentU “Excuse Me in Chinese: 9 Phrases” (https://www.fluentu.com/blog/chinese/excuse-me-in-chinese/](https://hanyuguide.com/zh/dictionary/%E5%8A%B3%E9%A9%BE?lang=zh) | HanyuGuide; FluentU; That's Mandarin | teaching site |  | 2026-11-02 | research: travel-basics |
+
 ### help.wechat.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Guide to Add and Use International Cards with Weixin Pay](https://help.wechat.com/cgi-bin/micromsg-bin/oshelpcenter?opcode=2&id=2307252mur7f2307257zfyfe&lang=en&plat=ios&Channel=helpcenter) | WeChat Help Center (Tencent) | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### hidden-dragon.app (1)
+### hidden-dragon.app (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [HSK 3.1 (2026) Explained: What Changed and What It Means for Your Chinese](https://hidden-dragon.app/blog/hsk-3-1-2026-changes-explained) | hidden-dragon.app | blog |  | 2026-11-02 | research: hsk-standard-exam |
+| [HSK 2.0 vs 3.0 vs 3.1 (2026): Complete Vocabulary Changes](https://hidden-dragon.app/hsk-comparison) | Hidden Dragon | blog |  | 2026-11-02 | research: hsk-datasets |
 
 ### hilingo.cn (1)
 
@@ -638,11 +947,53 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [HSK test dates for the rest of 2026 and their registration deadlines — HSK Exam Guide](https://hskexam.org/guides/hsk-test-dates-2026/) | HSK Exam Guide (hskexam.org) | blog |  | 2026-11-02 | research: hsk-standard-exam |
 
+### hsklord.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Meeting New People (topic page)](https://hsklord.com/topics/meeting-new-people) | HSK Lord | teaching |  | 2026-11-02 | research: work-intro-contacts |
+
+### hskstory.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Complete HSK 3.0 Vocabulary List: All 9 Levels (2026)](https://hskstory.com/guides/hsk-30-vocabulary-complete) | HSKStory | blog |  | 2026-11-02 | research: hsk-datasets |
+
 ### hub.hku.hk (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Hearing and seeing tone through color: An efficacy study of web-based, multimodal Chinese tone perception training](https://hub.hku.hk/handle/10722/244254) | Language Learning (repository record, HKU Scholars Hub) | academic |  | 2026-11-02 | research: learning-method |
+
+### huichenglawyer.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [huichenglawyer.com 普法库 page on 改口费 (one of several returned; headline not seen)](https://www.huichenglawyer.com/pufaku/83209.html) | 汇诚律师 huichenglawyer.com (law-firm legal-information site) | secondary |  | 2026-11-02 | research: family-address-kinship |
+
+### hutong-school.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Social Media in Chinese Pt.1](https://www.hutong-school.com/essential-phrases-chinese-social-media) | Hutong School | teaching |  | 2026-11-02 | research: work-intro-contacts |
+
+### hznews.hangzhou.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [杭州网 workplace-etiquette article (2010-03-10)](https://hznews.hangzhou.com.cn/shehui/content/2010-03/10/content_3177776_2.htm) | 杭州网 | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### iana.org (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [IANA Time Zone Database 2026e as installed on the verification machine (/usr/share/zoneinfo, read with Python zoneinfo)](https://www.iana.org/time-zones) | IANA | primary |  | 2026-11-02 | research: srs-scheduler |
+
+### iciba.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [iciba (金山词霸) entry 'make yourself at home'](https://www.iciba.com/make+yourself+at+home) | 金山词霸 iciba (bilingual dictionary) | dictionary |  | 2026-11-02 | research: family-address-kinship |
 
 ### idocs.alipay.com (2)
 
@@ -669,17 +1020,49 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Auditory and Visual Training on Mandarin Tones: A Pilot Study on Phrases and Sentences](https://www.igi-global.com/article/auditory-visual-training-mandarin-tones/67123/) | IGI Global, International Journal of Computer-Assisted Language Learning and Teaching | academic |  | 2026-11-02 | research: learning-method |
 
+### index.crates.io (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [crates.io sparse-index entry for the fsrs crate](https://index.crates.io/fs/rs/fsrs) | crates.io | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
+
 ### info.newsgd.com (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [China's 240-hour visa-free transit program covers more ports in Guangdong](https://info.newsgd.com/node_4d035959b6/5610ab6c6e.shtml) | Newsgd.com (Guangdong press) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### italki.com (3)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [The dark meaning of 5 Chinese terms (italki article by a language teacher)](https://www.italki.com/article/92/the-dark-meaning-of-5-chinese-terms) | italki | teaching site |  | 2026-11-02 | research: travel-basics |
+| [How to introduce yourself in Chinese](https://www.italki.com/en/blog/how-to-introduce-yourself-in-chinese) | italki | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [Popular Chinese phrases (italki blog)](https://www.italki.com/en/blog/popular-chinese-phrases) | italki | teaching site |  | 2026-11-02 | research: travel-basics |
+
+### jiemian.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Interview piece on work-group replies (OK / 1 / 收到 / 好的)](https://www.jiemian.com/article/10515163.html) | 界面新闻 jiemian.com | press |  | 2026-11-02 | research: work-meetings-writing |
+
+### jour.hhu.edu.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Article on the changing meaning of the address term 小姐 (河海大学学报（哲学社会科学版）, 2005)](https://jour.hhu.edu.cn/hhdxxbsk/article/pdf/sk20050118) | 河海大学学报（哲学社会科学版） | academic |  | 2026-11-02 | research: work-intro-contacts |
+
 ### journals.plos.org (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [SUBTLEX-CH article page (PLOS ONE)](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0010729) | PLOS | academic |  | 2026-11-02 | research: chars-freq-pinyin |
+
+### k-state.edu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Unit 2: Direct Apology Strategies in Chinese](https://www.k-state.edu/chinesepragmatics/apologies/2directapologystrategies.html) | Kansas State University, Chinese Pragmatics (teaching site) | secondary |  | 2026-11-02 | research: pitfalls |
 
 ### keyt.com (1)
 
@@ -705,6 +1088,19 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [注册时 - 中国铁路12306网站](https://kyfw.12306.cn/otn/gonggao/register.html?no=6) | China Railway 12306 | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### languagelog.ldc.upenn.edu (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Central government control over words for grandmother](https://languagelog.ldc.upenn.edu/nll/?p=39065) | Language Log (group blog of linguists, University of Pennsylvania) | blog |  | 2026-11-02 | research: family-address-kinship |
+| [Chinese terms of address for single ladies](https://languagelog.ldc.upenn.edu/nll/?p=4116) | Language Log (University of Pennsylvania) | academic-blog |  | 2026-11-02 | research: work-intro-contacts |
+
+### lcchineseschool.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Read this before you travel to China: Business Cards – 10 Tips](https://lcchineseschool.com/?p=1556) | LC Chinese School | teaching |  | 2026-11-02 | research: work-intro-contacts |
+
 ### learn.microsoft.com (8)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -724,11 +1120,23 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Learning a tonal language: Chinese](https://learnlab.org/research/wiki/index.php/Learning_a_tonal_language:_Chinese) | Pittsburgh Science of Learning Center (LearnLab) research wiki | academic |  | 2026-11-02 | research: learning-method |
 
+### lingoace.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to respond to a compliment in Chinese](https://www.lingoace.com/blog/how-to-respond-a-compliment-in-chinese) | LingoAce | teaching |  | 2026-11-02 | research: work-intro-contacts |
+
 ### linguistics.umd.edu (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Research (summaries), page 8](https://linguistics.umd.edu/research?page=8) | University of Maryland, Department of Linguistics | academic |  | 2026-11-02 | research: learning-method |
+
+### list.juwai.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Why Business Cards Matter in China](https://list.juwai.com/chinese-buyer-tips/2016/06/tip-06-master-chinese-business-card-etiquette) | Juwai | blog |  | 2026-11-02 | research: work-intro-contacts |
 
 ### lltjournal.org (1)
 
@@ -736,18 +1144,99 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Generalization of Computer-Assisted Prosody Training: Quantitative and Qualitative Findings](https://www.lltjournal.org/item/312/) | Language Learning & Technology 8(1), 34-52 | academic |  | 2026-11-02 | research: learning-method |
 
+### ltl-school.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Learn How to Greet Someone in Chinese — Top 10 Chinese Greetings (LTL Language School); also Hack Chinese “Chinese Greetings: Your Vocabular](https://ltl-school.com/chinese-greetings/) | LTL Language School; Hack Chinese; New Concept Mandarin; Everyday Chinese course (everydaychinese.teachable.com) | teaching site |  | 2026-11-02 | research: travel-basics |
+| [How to Say No in Chinese: Essential Phrases Guide](https://ltl-school.com/no-in-chinese/) | LTL Mandarin School | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
+### m.163.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [网易号 article with model self-introductions for new employees (职场新人的自我介绍)](https://m.163.com/dy/article/HNMKI1MB05560YL3.html) | 网易 163.com (self-media account) | blog |  | 2026-11-02 | research: work-intro-contacts |
+
+### m.bjnews.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [新京报 commentary on '老师' as an all-purpose form of address (headline not shown)](https://m.bjnews.com.cn/detail/156811163315726.html) | 新京报 | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### m.gmw.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Article on how to reply when a leader writes 辛苦了 in a work group chat](https://m.gmw.cn/2024-07/27/content_1303803290.htm) | 光明网 (Guangming Online) | press |  | 2026-11-02 | research: work-meetings-writing |
+
+### m.huxiu.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Article on the WeChat 微笑 emoji across generations](https://m.huxiu.com/article/3627208.html) | 虎嗅 huxiu.com | press |  | 2026-11-02 | research: work-meetings-writing |
+
+### m.jiemian.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [界面新闻 article on workplace WeChat etiquette (headline not shown)](https://m.jiemian.com/article/8748392.html) | 界面新闻 | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### m.maigoo.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [书信的格式是什么 书信的写作技巧与注意事项](https://m.maigoo.com/goomai/217336.html) | maigoo.com (买购网) | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
+### m.thepaper.cn (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [澎湃新闻 (湃客) article on WeChat etiquette (headline not shown)](https://m.thepaper.cn/baijiahao_10113758) | 澎湃新闻 | news |  | 2026-11-02 | research: work-intro-contacts |
+| [Report on a Shanghai labour dispute over a 微笑 emoji](https://m.thepaper.cn/newsDetail_forward_24067404) | 澎湃新闻 The Paper | press |  | 2026-11-02 | research: work-meetings-writing |
+
+### m.voc.com.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [华声在线 article (Sept 2026) in the same result set on workplace forms of address (headline not shown)](https://m.voc.com.cn/xhn/news/202609/33717670.html) | 华声在线 (voc.com.cn) | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### maigoo.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [maigoo.com 'goomai' article on how to address a partner's parents when meeting them (headline not seen)](https://www.maigoo.com/goomai/4zAMODA4.html) | 买购网 maigoo.com (consumer-information site) | secondary |  | 2026-11-02 | research: family-address-kinship |
+
+### mandarinblueprint.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Disagree in Chinese (polite Chinese and expressing disagreement)](https://www.mandarinblueprint.com/blog/polite-chinese-and-expressing-disagreement-without-offense/) | Mandarin Blueprint | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
+### marieclaire.com.tw (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Marie Claire Taiwan, relationship/secret-talk article 83492 (headline not seen)](https://www.marieclaire.com.tw/relationship/secret-talk/83492) | Marie Claire 美麗佳人 (Taiwan edition) | press |  | 2026-11-02 | research: family-address-kinship |
+
 ### mdbg.net (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [CC-CEDICT (release 2026-05-18, 124,933 entries; obtained via npm @leonsilicon/cc-cedict 0.0.0)](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | MDBG | dictionary | CC BY-SA 4.0 | 2026-11-02 | pipeline input (pinned); data/situations/family.json; data/situations/travel.json; data/situations/work.json; +4 more |
+| [CC-CEDICT (release 2026-05-18, 124,933 entries; obtained via npm @leonsilicon/cc-cedict 0.0.0)](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | MDBG | dictionary | CC BY-SA 4.0 | 2026-11-02 | pipeline input (pinned); data/situations/family.json; data/situations/travel.json; data/situations/work.json; +10 more |
+
+### migaku.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Directions: Find Your Way With 东南西北, Position and Location Words (Migaku blog); also GoEast Mandarin “Directions in Chinese” (https:](https://migaku.com/blog/chinese/chinese-directions) | Migaku; GoEast Mandarin | teaching site |  | 2026-11-02 | research: travel-basics |
+| [Mastering Good Morning in Chinese (Migaku blog); also Preply “Good morning in Chinese” (https://preply.com/en/blog/good-morning-in-chinese/)](https://migaku.com/blog/chinese/chinese-language-good-morning) | Migaku; Preply | teaching site |  | 2026-11-02 | research: travel-basics |
 
 ### moe.gov.cn (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [《国际中文教育中文水平等级标准》发布](http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html) | 中华人民共和国教育部 (Ministry of Education of the PRC) | official |  | 2026-11-02 | research: hsk-standard-exam |
-| [教育部中外语言交流合作中心负责人就《国际中文教育中文水平等级标准》答记者问](http://www.moe.gov.cn/jyb_xwfb/s271/202104/t20210402_524194.html) | 中华人民共和国教育部 | official |  | 2026-11-02 | research: hsk-standard-exam |
+| [《国际中文教育中文水平等级标准》发布](http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html) | 中华人民共和国教育部 (Ministry of Education of the PRC) | official |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
+| [教育部中外语言交流合作中心负责人就《国际中文教育中文水平等级标准》答记者问](http://www.moe.gov.cn/jyb_xwfb/s271/202104/t20210402_524194.html) | 中华人民共和国教育部 | official |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
 
 ### mothership.sg (1)
 
@@ -766,6 +1255,18 @@ Total: 620 sources on 115 sites.
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [Reisadvies China](https://www.nederlandwereldwijd.nl/reisadvies/china) | Ministerie van Buitenlandse Zaken (Nederland Wereldwijd) | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
+
+### neerlandistiek.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Literature review on voicing in Dutch stops (voicing.pdf)](https://neerlandistiek.nl/wp-content/uploads/2025/05/voicing.pdf) | Neerlandistiek.nl | academic |  | 2026-11-02 | research: pitfalls |
+
+### news.ifeng.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [凤凰网 article on '老师' as a form of address (headline not shown)](https://news.ifeng.com/c/8ZD9r9qpV8F) | 凤凰网 | news |  | 2026-11-02 | research: work-intro-contacts |
 
 ### news.qq.com (1)
 
@@ -853,6 +1354,24 @@ Total: 620 sources on 115 sites.
 | [Individual aptitude in Mandarin lexical tone perception predicts effectiveness of high-variability training](https://pmc.ncbi.nlm.nih.gov/articles/PMC4243698/) | Frontiers in Psychology 5:1318 (doi:10.3389/fpsyg.2014.01318), via PubMed Central | academic |  | 2026-11-02 | research: learning-method |
 | [The effects of high versus low talker variability and individual aptitude on phonetic training of Mandarin lexical tones](https://pmc.ncbi.nlm.nih.gov/articles/PMC6690337/) | PubMed Central copy of PeerJ 7:e7191 | academic |  | 2026-11-02 | research: learning-method |
 
+### polyu.edu.hk (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Lesson 2 Introduction, Text One (PolyU Putonghua course dialogues)](https://www.polyu.edu.hk/bepth/dialogues/lesson-2-introduction/text-one/) | The Hong Kong Polytechnic University | university course |  | 2026-11-02 | research: travel-basics |
+
+### pricing.us-east-1.amazonaws.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [AWS Price List API - AmazonPolly offer file (publicationDate 2026-10-22T17:14:03Z)](https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonPolly/current/index.json) | Amazon Web Services | primary |  | 2026-11-02 | research: audio |
+
+### proxy.golang.org (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Go module proxy copy of github.com/rhcarvalho/cedict (@latest = v0.0.0-20261101153544-55a0cf1226b0)](https://proxy.golang.org/github.com/rhcarvalho/cedict/@v/v0.0.0-20261101153544-55a0cf1226b0.zip) | Go module proxy (proxy.golang.org) | primary | CC BY-SA 4.0 (data) | 2026-11-02 | research: cedict-sentences |
+
 ### pubs.aip.org (3)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -869,28 +1388,52 @@ Total: 620 sources on 115 sites.
 | [A Meta-Analysis of Second Language Phonetic Training: Exploring Overall Effect and Moderating Factors](https://pubs.asha.org/doi/10.1044/2024_JSLHR-24-00432) | American Speech-Language-Hearing Association, JSLHR | academic |  | 2026-11-02 | research: learning-method |
 | [Determining Optimal Talker Variability for Nonnative Speech Training: A Systematic Review and Bayesian Network Meta-Analysis](https://pubs.asha.org/doi/10.1044/2024_JSLHR-24-00599) | American Speech-Language-Hearing Association, JSLHR | academic |  | 2026-11-02 | research: learning-method |
 
-### pypi.org (6)
+### pypi.org (17)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [jieba 0.42.1 dict.txt (segmentation lexicon with corpus frequencies)](https://pypi.org/project/jieba/0.42.1/) | fxsjy/jieba | secondary |  | 2026-11-02 | data/situations/work.json |
+| [hsk30 on PyPI (JSON API https://pypi.org/pypi/hsk30/json)](https://pypi.org/project/hsk30/) | Alvaro Serrano / PyPI | primary | MIT | 2026-11-02 | research: hsk-datasets |
+| [jieba 0.42.1 dict.txt (segmentation lexicon with corpus frequencies)](https://pypi.org/project/jieba/0.42.1/) | fxsjy/jieba | secondary |  | 2026-11-02 | data/situations/work.json; research: work-intro-contacts |
 | [wordfreq 3.1.1, Chinese "large" list](https://pypi.org/project/wordfreq/3.1.1/) | Robyn Speer | primary | code Apache-2.0, data CC BY-SA 4.0 | 2026-11-02 | pipeline input (pinned) |
+| [cedict-utils 0.0.13 - PyPI metadata and README](https://pypi.org/pypi/cedict-utils/json) | marcanuy (PyPI package) | practitioner | MIT (code) | 2026-11-02 | research: cedict-sentences |
 | [PyPI crepe 0.0.16 (and torchcrepe 0.0.24, penn 1.0.0)](https://pypi.org/pypi/crepe/json) | Jong Wook Kim and Justin Salamon (marl/crepe); Max Morrison (torchcrepe, penn) | primary | MIT | 2026-11-02 | research: speech-tech |
+| [edge-tts 7.3.1 package metadata](https://pypi.org/pypi/edge-tts/json) | PyPI | secondary | LGPL-3.0 | 2026-11-02 | research: audio |
+| [g2pM 0.1.2.5 package description (official repo of Park & Lee, Interspeech 2020)](https://pypi.org/pypi/g2pM/json) | Kakao Brain / PyPI | academic | Apache-2.0 | 2026-11-02 | research: audio |
+| [g2pW 0.1.2 package description (Chen et al., Interspeech 2022)](https://pypi.org/pypi/g2pw/json) | PyPI | academic | Apache-2.0 | 2026-11-02 | research: audio |
+| [hsk30 on PyPI (JSON API)](https://pypi.org/pypi/hsk30/json) | Alvaro Serrano / PyPI | primary | MIT | 2026-11-02 | research: hsk-datasets |
 | [jieba on PyPI (JSON API) and jieba-0.42.1.tar.gz](https://pypi.org/pypi/jieba/json) | PyPI / Sun Junyi | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
+| [kokoro 0.9.4 package metadata/description](https://pypi.org/pypi/kokoro/json) | hexgrad / PyPI | vendor-docs | Apache-2.0 | 2026-11-02 | research: audio |
+| [misaki 0.9.4 (G2P engine for Kokoro) package description](https://pypi.org/pypi/misaki/json) | hexgrad / PyPI | vendor-docs | Apache-2.0 | 2026-11-02 | research: audio |
 | [PyPI JSON: praat-parselmouth 0.4.7, crepe 0.0.16, torchcrepe 0.0.24, penn 1.0.0](https://pypi.org/pypi/praat-parselmouth/json) | PyPI | primary | various | 2026-11-02 | research: speech-tech |
+| [pycccedict 1.2.0 - PyPI metadata and README](https://pypi.org/pypi/pycccedict/json) | patrickpei (PyPI package) | practitioner | CC BY-SA 4.0 (package licence field) | 2026-11-02 | research: cedict-sentences |
+| [supermemo2 3.0.1 (PyPI project description: Python implementation of SM-2)](https://pypi.org/pypi/supermemo2/json) | alankan886 (PyPI package maintainer) | practitioner | MIT | 2026-11-02 | research: srs-scheduler |
+| [tatoebatools 0.2.3 - PyPI metadata and README](https://pypi.org/pypi/tatoebatools/json) | L. Beaudoux (PyPI package) | practitioner | MIT (code) | 2026-11-02 | research: cedict-sentences |
 | [wordfreq on PyPI (JSON API)](https://pypi.org/pypi/wordfreq/json) | PyPI | primary | Apache-2.0 (code); CC BY-SA 4.0 (data) | 2026-11-02 | research: chars-freq-pinyin |
 
-### raw.githubusercontent.com (44)
+### raw.githubusercontent.com (90)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [cmn.txt extract from manythings.org's cmn-eng Anki file, committed to 312527814/python-practice (file last changed 2026-02-13; same blob in ](https://raw.githubusercontent.com/312527814/python-practice/9a3c3cf2dc61442924b7a9ee2b387c9dc961fb06/nlp/04translation-seq2seq/data/raw/cmn.txt) | manythings.org (Tatoeba-derived data); committed by GitHub user 312527814 | primary | Tatoeba data, labelled 'CC-BY 2.0 (France)' on every line | 2026-11-02 | research: cedict-sentences |
+| [Older copy of manythings cmn.txt in 6chaoran/nlp (commit 00b98be, 2020-09-26)](https://raw.githubusercontent.com/6chaoran/nlp/00b98becc53168fe08cd74b22084412c59acd476/nmt/data/cmn.txt) | 6chaoran (GitHub) | practitioner |  | 2026-11-02 | research: cedict-sentences |
+| [Selected Tone Perfect recordings - licence notice (mandarin-grove)](https://raw.githubusercontent.com/anandman/mandarin-grove/main/audio-sources/LICENSE-MSU.txt) | anandman/mandarin-grove, GitHub (hobby learning app) | practitioner |  | 2026-11-02 | research: audio |
+| [mandarin-grove MSU-VERIFICATION.json](https://raw.githubusercontent.com/anandman/mandarin-grove/main/audio-sources/MSU-VERIFICATION.json) | anandman/mandarin-grove, GitHub (hobby learning app) | practitioner |  | 2026-11-02 | research: audio |
+| [Static-audio acceptance / audio research log (mandarin-grove docs/AUDIO.md)](https://raw.githubusercontent.com/anandman/mandarin-grove/main/docs/AUDIO.md) | anandman/mandarin-grove, GitHub (hobby learning app) | practitioner |  | 2026-11-02 | research: audio |
+| [mandarin-grove README](https://raw.githubusercontent.com/anandman/mandarin-grove/main/README.md) | anandman/mandarin-grove, GitHub (hobby learning app) | practitioner |  | 2026-11-02 | research: audio |
+| [Anki Manual: Deck Options (source file; last commit d2484ca 2026-07-07)](https://raw.githubusercontent.com/ankitects/anki-manual/main/src/deck-options.md) | Ankitects Pty Ltd and contributors | vendor-docs | CC BY-SA 4.0 | 2026-11-02 | research: srs-scheduler |
+| [Anki repository at main HEAD 136bd42 (git ls-remote; commit date 2026-10-29): .version, Cargo.lock, Cargo.toml, docs-site/manual/deck-option](https://raw.githubusercontent.com/ankitects/anki/136bd42bfbd356fc756b6d3e28cc77b02da11ea7/) | Ankitects Pty Ltd and contributors | vendor-docs |  | 2026-11-02 | research: srs-scheduler |
 | [Claude SDK for TypeScript - README](https://raw.githubusercontent.com/anthropics/anthropic-sdk-typescript/main/README.md) | Anthropic | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [aubio README, COPYING and src/pitch/pitch.h](https://raw.githubusercontent.com/aubio/aubio/master/README.md) | aubio project (Paul Brossier), HEAD ad5cf97 | primary | GPL-3.0-or-later | 2026-11-02 | research: speech-tech |
+| [botocore Amazon Polly service model (develop) and botocore CHANGELOG.rst](https://raw.githubusercontent.com/boto/botocore/develop/botocore/data/polly/2016-06-10/service-2.json) | Amazon Web Services (boto/botocore) | primary | Apache-2.0 | 2026-11-02 | research: audio |
 | [Chromium source: components/soda/constants.h and constants.cc (on-device speech language packs)](https://raw.githubusercontent.com/chromium/chromium/main/components/soda/constants.h) | Chromium project (GitHub mirror), main commit 1a3079a | primary | BSD-3-Clause | 2026-11-02 | research: speech-tech |
 | [Chromium source: speech_recognition_manager_impl.cc, speech_recognition_dispatcher_host.cc, network_speech_recognition_engine_impl.cc](https://raw.githubusercontent.com/chromium/chromium/main/content/browser/speech/speech_recognition_manager_impl.cc) | Chromium project (GitHub mirror), main (HEAD 9b53a40 when checked) | primary | BSD-3-Clause | 2026-11-02 | research: speech-tech |
+| [Chromium tts_android.cc (main eeb3bf2b)](https://raw.githubusercontent.com/chromium/chromium/main/content/browser/speech/tts_android.cc) | The Chromium Authors | primary | BSD-3-Clause | 2026-11-02 | research: audio |
+| [Chromium tts_controller_impl.cc (main eeb3bf2b)](https://raw.githubusercontent.com/chromium/chromium/main/content/browser/speech/tts_controller_impl.cc) | The Chromium Authors | primary | BSD-3-Clause | 2026-11-02 | research: audio |
 | [Chromium source: SpeechRecognitionImpl.java (Android Web Speech backend)](https://raw.githubusercontent.com/chromium/chromium/main/content/public/android/java/src/org/chromium/content/browser/SpeechRecognitionImpl.java) | Chromium project (GitHub mirror), main commit 1a3079a | primary | BSD-3-Clause | 2026-11-02 | research: speech-tech |
+| [Chromium TtsPlatformImpl.java (Android, main eeb3bf2b)](https://raw.githubusercontent.com/chromium/chromium/main/content/public/android/java/src/org/chromium/content/browser/TtsPlatformImpl.java) | The Chromium Authors | primary | BSD-3-Clause | 2026-11-02 | research: audio |
 | [Chromium Blink source: speech_recognition.idl, speech_recognition.cc and platform/runtime_enabled_features.json5](https://raw.githubusercontent.com/chromium/chromium/main/third_party/blink/renderer/modules/speech/speech_recognition.idl) | Chromium project (GitHub mirror), main (HEAD 9b53a40 when checked) | primary | BSD-3-Clause | 2026-11-02 | research: speech-tech |
 | [openlexicon: SUBTLEX-CH dataset page and repository README (re-fetched by verifier)](https://raw.githubusercontent.com/chrplr/openlexicon/master/datasets-info/SUBTLEX-CH/README-subtlex-ch.md) | Christophe Pallier, Boris New, Jessica Bourgin (openlexicon) | academic | CC BY-SA 4.0 for openlexicon's own repository content 'unless otherwise explained' | 2026-11-02 | research: chars-freq-pinyin |
+| [国际中文教育中文水平等级标准（国家标准·应用解读本）第三分册：语法 - scanned and OCR'd copy (93 pages) mirrored in docrealm/docs-hsk (commit bdff233, 2026-10-18)](https://raw.githubusercontent.com/docrealm/docs-hsk/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%B8%89%E5%88%86%E5%86%8C%20%E8%AF%AD%E6%B3%95%EF%BC%89.pdf) | 教育部中外语言交流合作中心 et al. (eds.); 北京语言大学出版社 (©2021), ISBN 978-7-5619-5742-4 | official | ©2021 北京语言大学出版社 - not openly licensed | 2026-11-02 | research: cedict-sentences |
 | [Half-Life Regression (README)](https://raw.githubusercontent.com/duolingo/halflife-regression/master/README.md) | Duolingo, GitHub repository duolingo/halflife-regression (HEAD 0041df0) | primary | MIT (per README) | 2026-11-02 | research: learning-method |
 | [A Trainable Spaced Repetition Model for Language Learning](https://raw.githubusercontent.com/duolingo/halflife-regression/master/settles.acl16.pdf) | Association for Computational Linguistics, Proceedings of ACL 2016, pp. 1848-1858 (doi:10.18653/v1/P16-1174); PDF in Duolingo's public repository at commit 0041df0 | academic | Paper (c) 2016 ACL; repository code MIT per README | 2026-11-02 | research: learning-method |
 | [jieba Changelog, README.md and LICENSE (GitHub master, re-fetched by verifier)](https://raw.githubusercontent.com/fxsjy/jieba/master/Changelog) | Sun Junyi (fxsjy) | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
@@ -899,9 +1442,20 @@ Total: 620 sources on 115 sites.
 | [Can I use: Speech Recognition API (features-json/speech-recognition.json)](https://raw.githubusercontent.com/Fyrd/caniuse/main/features-json/speech-recognition.json) | caniuse.com data (Fyrd/caniuse), file last updated in commit fe80614 2026-10-28 | primary | CC-BY-4.0 | 2026-11-02 | research: speech-tech |
 | [Can I use: getUserMedia/Stream API (features-json/stream.json)](https://raw.githubusercontent.com/Fyrd/caniuse/main/features-json/stream.json) | caniuse.com data (Fyrd/caniuse), HEAD dfffa8f | primary | CC-BY-4.0 | 2026-11-02 | research: speech-tech |
 | [libphonenumber resources/ShortNumberMetadata.xml (fetched at master HEAD 1ae0d62, commit date 2026-10-26; file's own last-change date not ch](https://raw.githubusercontent.com/google/libphonenumber/master/resources/ShortNumberMetadata.xml) | Google / The Libphonenumber Authors | secondary | Apache-2.0 | 2026-11-02 | data/reference/facts.json; research: travel-facts |
-| [FrequencyWords zh_cn_full.txt (OpenSubtitles 2018 word counts, Simplified Chinese subtitles)](https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/zh_cn/zh_cn_full.txt) | Hermit Dave (data: OPUS OpenSubtitles2018) | secondary | CC BY-SA 4.0 | 2026-11-02 | data/situations/work.json; research: chars-freq-pinyin |
+| [google-cloud-texttospeech (Python client) CHANGELOG.md](https://raw.githubusercontent.com/googleapis/google-cloud-python/main/packages/google-cloud-texttospeech/CHANGELOG.md) | Google (googleapis/google-cloud-python) | primary | Apache-2.0 | 2026-11-02 | research: audio |
+| [cloud_tts.proto - Cloud Text-to-Speech API v1 definition (googleapis master 4c561f4c)](https://raw.githubusercontent.com/googleapis/googleapis/master/google/cloud/texttospeech/v1/cloud_tts.proto) | Google (googleapis repository) | primary | Apache-2.0 | 2026-11-02 | research: audio |
+| [FrequencyWords zh_cn_full.txt (OpenSubtitles 2018 word counts, Simplified Chinese subtitles)](https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/zh_cn/zh_cn_full.txt) | Hermit Dave (data: OPUS OpenSubtitles2018) | secondary | CC BY-SA 4.0 | 2026-11-02 | data/situations/work.json; research: chars-freq-pinyin; research: work-intro-contacts |
 | [FrequencyWords README and LICENSE](https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/README.md) | Hermit Dave | vendor-docs | MIT (code); CC BY-SA 4.0 (content) | 2026-11-02 | research: chars-freq-pinyin |
-| [Audio-cmn (README)](https://raw.githubusercontent.com/hugolpz/audio-cmn/master/README.md) | hugolpz/audio-cmn, GitHub (commit f759a0f) | primary | CC BY-SA (per README) | 2026-11-02 | research: learning-method |
+| ['Openly-licensed Chinese sentence corpora — source & licence report' (research note in the hanzitutor project; live checks dated 2026-09-21)](https://raw.githubusercontent.com/hherb/hanzitutor/fb0fda6949371b02f9579379a32f60a04a0d7f16/docs/research/SENTENCE_CORPORA_LICENCES.md) | hherb (GitHub project hanzitutor) | secondary |  | 2026-11-02 | research: cedict-sentences |
+| [audio-cmn README.md](https://raw.githubusercontent.com/hugolpz/audio-cmn/master/README.md) | Hugo Lopez (hugolpz), GitHub | primary | CC BY-SA (audio, per README) | 2026-11-02 | research: audio; research: learning-method |
+| [ivankra/asg README - copy of AllSet Learning Chinese Grammar Wiki articles crawled in October 2023 (HEAD 1d57315 of 2023-10-20)](https://raw.githubusercontent.com/ivankra/asg/1d5731546972768c6063842f816acf99ce258dfa/README.md) | Ivan Krasilnikov (GitHub dataset) | secondary | CC BY-NC-SA 3.0 (wiki content) | 2026-11-02 | research: cedict-sentences |
+| [ivankra/hsk30 hsk30.csv and README.md (HEAD 4ff9e39 of 2023-11-08)](https://raw.githubusercontent.com/ivankra/hsk30/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30.csv) | Ivan Krasilnikov (GitHub dataset) | secondary | MIT (claimed; README notes the source is a PRC government work) | 2026-11-02 | research: cedict-sentences |
+| [ivankra/hsk30 hsk30.csv (HSK 3.0 vocabulary, cleaned; HEAD commit 4ff9e39 of 2023-11-08)](https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30.csv) | Ivan Krasilnikov (GitHub dataset) | secondary | MIT (claimed; README notes the source is a PRC government work) | 2026-11-02 | research: cedict-sentences |
+| [ivankra/hsk30 README.md (HSK 3.0 vocabulary, cleaned; HEAD commit 4ff9e39 of 2023-11-08)](https://raw.githubusercontent.com/ivankra/hsk30/master/README.md) | Ivan Krasilnikov (GitHub dataset) | secondary | MIT (claimed; README notes the source is a PRC government work) | 2026-11-02 | research: cedict-sentences |
+| [cedict_1_0_ts_utf-8_mdbg.txt - CC-CEDICT release dated 2026-05-18T07:15:15Z (verbatim MDBG export kept in the leonsilicon/cc-cedict repo, co](https://raw.githubusercontent.com/leonsilicon/cc-cedict/f0ff1c9513db0affe634835fd31eb16d7112dc48/data/cedict_1_0_ts_utf-8_mdbg.txt) | MDBG (CC-CEDICT publisher); copy committed by Leon Si | primary | CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| ['Sentence pairs in Mandarin Chinese-English - 2026-05-20.tsv' (Tatoeba custom export committed to leonsilicon/tatoeba-sentence-pairs-in-mand](https://raw.githubusercontent.com/leonsilicon/tatoeba-sentence-pairs-in-mandarin-chinese-english/7df8b93466f009310de22273973b34de7a20bf62/data/Sentence%20pairs%20in%20Mandarin%20Chinese-English%20-%202026-05-20.tsv) | Tatoeba contributors (data); committed by Leon Si | primary | Tatoeba data (CC BY 2.0 FR / CC0 1.0); repo has no licence file | 2026-11-02 | research: cedict-sentences |
+| [m-bonanno/xue-xi-zhong-wen LICENSE.md - Italian adaptation of the Chinese Grammar Wiki (HEAD 1fe012f of 2025-07-31)](https://raw.githubusercontent.com/m-bonanno/xue-xi-zhong-wen/1fe012f48fc4c05c6ced69a8d8da12ad22704804/LICENSE.md) | m-bonanno (GitHub) | practitioner | CC BY-NC-SA 3.0 (adapted content) | 2026-11-02 | research: cedict-sentences |
+| [MDN browser-compat-data api/SpeechSynthesis.json (+ SpeechSynthesisVoice.json, SpeechSynthesisUtterance.json), main 0efedff8](https://raw.githubusercontent.com/mdn/browser-compat-data/main/api/SpeechSynthesis.json) | MDN / Open Web Docs | vendor-docs | CC0-1.0 | 2026-11-02 | research: audio |
 | [MDN browser-compat-data: browsers/chrome.json, chrome_android.json, safari.json, safari_ios.json (release lists)](https://raw.githubusercontent.com/mdn/browser-compat-data/main/browsers/chrome.json) | MDN / Open Web Docs (mdn/browser-compat-data), main branch HEAD 0efedff | primary | CC0-1.0 | 2026-11-02 | research: speech-tech |
 | [MDN browser-compat-data main: browsers/chrome.json and browsers/safari_ios.json (release lists)](https://raw.githubusercontent.com/mdn/browser-compat-data/main/browsers/safari_ios.json) | MDN / Open Web Docs (mdn/browser-compat-data), main HEAD 0efedff | primary | CC0-1.0 | 2026-11-02 | research: speech-tech |
 | [MDN: MediaDevices.getUserMedia()](https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/api/mediadevices/getusermedia/index.md) | MDN Web Docs (mdn/content) | vendor-docs | CC-BY-SA-2.5 | 2026-11-02 | research: speech-tech |
@@ -910,32 +1464,62 @@ Total: 620 sources on 115 sites.
 | [Content-Security-Policy: connect-src directive (MDN source)](https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/http/reference/headers/content-security-policy/connect-src/index.md) | Mozilla (MDN Web Docs) | vendor-docs |  | 2026-11-02 | research: chars-freq-pinyin |
 | [Content-Security-Policy: style-src directive (MDN source)](https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/http/reference/headers/content-security-policy/style-src/index.md) | Mozilla (MDN Web Docs) | vendor-docs |  | 2026-11-02 | research: chars-freq-pinyin |
 | [MDN: Permissions-Policy: microphone directive](https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/http/reference/headers/permissions-policy/microphone/index.md) | MDN Web Docs (mdn/content) | vendor-docs | CC-BY-SA-2.5 | 2026-11-02 | research: speech-tech |
-| [SRS Benchmark (README)](https://raw.githubusercontent.com/open-spaced-repetition/srs-benchmark/main/README.md) | open-spaced-repetition, GitHub repository srs-benchmark (commit 4ddb9fd) | primary |  | 2026-11-02 | research: learning-method |
+| [Web audio codec guide (MDN source, main a0ba038b)](https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/media/guides/formats/audio_codecs/index.md) | MDN Web Docs (Mozilla) | vendor-docs | CC BY-SA 2.5 | 2026-11-02 | research: audio |
+| [Other GitHub users of Tone Perfect: met/chinese-tones-practice (README.md, Credits.md; HEAD 267642bb) and Chuntung-Zhuang/Tone-Perfect-Based](https://raw.githubusercontent.com/met/chinese-tones-practice/main/Credits.md) | GitHub (third-party projects) | practitioner |  | 2026-11-02 | research: audio |
+| [Text to speech FAQ (ms.date 1/18/2024)](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/faq-tts.yml) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530) | vendor-docs |  | 2026-11-02 | research: audio |
+| [Language support - text to speech voices include](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/includes/language-support/tts.md) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530) | vendor-docs |  | 2026-11-02 | research: audio |
+| [zh-CN phone set include (Pinyin-based SAPI phone set)](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/includes/phonetic-sets/text-to-speech/zh-cn.md) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530) | vendor-docs |  | 2026-11-02 | research: audio |
+| [Speech service quotas and limits (ms.date 5/21/2024)](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/speech-services-quotas-and-limits.md) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530) | vendor-docs |  | 2026-11-02 | research: audio |
+| [Speech phonetic alphabets - Azure AI Speech (ms.date 1/22/2024)](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/speech-ssml-phonetic-sets.md) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530) | vendor-docs |  | 2026-11-02 | research: audio |
+| [Pronunciation with Speech Synthesis Markup Language (SSML) - Azure AI Speech (ms.date 8/20/2024)](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/speech-synthesis-markup-pronunciation.md) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530) | vendor-docs |  | 2026-11-02 | research: audio |
+| [What is text to speech? - Azure AI Speech (Microsoft Learn source, ms.date 8/20/2024)](https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/85d04530858a8108d3258c21eea82724f062542e/articles/ai-services/speech-service/text-to-speech.md) | Microsoft (MicrosoftDocs/azure-docs, commit 85d04530 of 2024-08-28) | vendor-docs | CC BY 4.0 (docs) | 2026-11-02 | research: audio |
+| [no7z/hsk-sentences-audio ATTRIBUTION.md (commit 857dfba = HEAD)](https://raw.githubusercontent.com/no7z/hsk-sentences-audio/857dfbab91027ebd97df01260e91b817cb6b4854/ATTRIBUTION.md) | no7z (GitHub) | practitioner | code MIT; dataset CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [no7z/hsk-sentences-audio README.md (commit 857dfba = HEAD)](https://raw.githubusercontent.com/no7z/hsk-sentences-audio/857dfbab91027ebd97df01260e91b817cb6b4854/README.md) | no7z (GitHub) | practitioner | code MIT; dataset CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [no7z/hsk-sentences-audio ATTRIBUTION.md (main branch; HEAD commit 857dfba of 2026-07-15)](https://raw.githubusercontent.com/no7z/hsk-sentences-audio/main/ATTRIBUTION.md) | no7z (GitHub) | practitioner | code MIT; dataset CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [no7z/hsk-sentences-audio README.md (main branch; HEAD commit 857dfba of 2026-07-15)](https://raw.githubusercontent.com/no7z/hsk-sentences-audio/main/README.md) | no7z (GitHub) | practitioner | code MIT; dataset CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [srs-benchmark per-collection result files (22 result/*.jsonl files) and evaluate.py at commit 4ddb9fd, re-downloaded and re-aggregated with ](https://raw.githubusercontent.com/open-spaced-repetition/srs-benchmark/4ddb9fd9d6d7888ea52fc721d5ab0e6dd7a5e877/result/) | Open Spaced Repetition | primary |  | 2026-11-02 | research: srs-scheduler |
+| [SRS Benchmark (README)](https://raw.githubusercontent.com/open-spaced-repetition/srs-benchmark/main/README.md) | open-spaced-repetition, GitHub repository srs-benchmark (commit 4ddb9fd) | primary |  | 2026-11-02 | research: learning-method; research: srs-scheduler |
 | [AnimCJK licenses/COPYING.txt](https://raw.githubusercontent.com/parsimonhi/animCJK/master/licenses/COPYING.txt) | FM&SH (parsimonhi) | primary | Arphic Public License (graphics*.txt, character SVGs); LGPL-3.0-or-later (other files) | 2026-11-02 | research: chars-freq-pinyin |
 | [AnimCJK README](https://raw.githubusercontent.com/parsimonhi/animCJK/master/README.md) | FM&SH (parsimonhi) | vendor-docs |  | 2026-11-02 | research: chars-freq-pinyin |
+| [SpeechSynthesis in browsers and OSes (Readium Speech docs/WebSpeech.md, last changed 2025-12-13)](https://raw.githubusercontent.com/readium/speech/main/docs/WebSpeech.md) | Readium Foundation (readium/speech, Hadrien Gardeur et al.) | practitioner | BSD-3-Clause | 2026-11-02 | research: audio |
+| [Recommended Mandarin voices for the Web Speech API (Readium Speech json/cmn.json, last changed 2026-09-24)](https://raw.githubusercontent.com/readium/speech/main/json/cmn.json) | Readium Foundation (readium/speech) | practitioner | BSD-3-Clause | 2026-11-02 | research: audio |
+| [cedict_1_0_ts_utf-8_mdbg.txt, CC-CEDICT release 2026-10-31T21:06:18Z (daily mirror rhcarvalho/cedict, commit 55a0cf1 of 2026-11-01 = repo HE](https://raw.githubusercontent.com/rhcarvalho/cedict/55a0cf1226b044c59579dd8e0a32114ca6a14a11/cedict_1_0_ts_utf-8_mdbg.txt) | MDBG (data); mirror maintained by Rodolfo Carvalho | primary | CC BY-SA 4.0 (data); repository code Apache-2.0 | 2026-11-02 | research: cedict-sentences |
+| [cedict_1_0_ts_utf-8_mdbg.txt as committed by the daily mirror rhcarvalho/cedict on 2026-05-18 (commit e028238, message 'CC-CEDICT 2026-05-18](https://raw.githubusercontent.com/rhcarvalho/cedict/e0282384bdf4c235c307df672c82a716130f96a1/cedict_1_0_ts_utf-8_mdbg.txt) | MDBG (data); mirror maintained by Rodolfo Carvalho | primary | CC BY-SA 4.0 (data); repository code Apache-2.0 | 2026-11-02 | research: cedict-sentences |
 | [wordfreq README, CHANGELOG.md, SUNSET.md, NOTICE.md and LICENSE.txt at GitHub master (re-fetched by verifier)](https://raw.githubusercontent.com/rspeer/wordfreq/master/README.md) | Robyn Speer | vendor-docs | Apache-2.0 (code); CC BY-SA 4.0 (data) | 2026-11-02 | research: chars-freq-pinyin |
 | [Why wordfreq will not be updated (SUNSET.md)](https://raw.githubusercontent.com/rspeer/wordfreq/master/SUNSET.md) | Robyn Speer | vendor-docs |  | 2026-11-02 | research: chars-freq-pinyin |
 | [ARPHIC PUBLIC LICENSE (English text, as shipped with Make Me a Hanzi; same text as hanzi-writer-data/ARPHICPL.TXT)](https://raw.githubusercontent.com/skishore/makemeahanzi/master/APL/english/ARPHICPL.TXT) | Arphic Technology Co., Ltd. | primary | Arphic Public License | 2026-11-02 | research: chars-freq-pinyin |
 | [Make Me a Hanzi COPYING](https://raw.githubusercontent.com/skishore/makemeahanzi/master/COPYING) | Shaunak Kishore | primary | LGPL-3.0-or-later (dictionary.txt); Arphic Public License (graphics.txt) | 2026-11-02 | research: chars-freq-pinyin |
 | [Make Me a Hanzi dictionary.txt (character -> pinyin), analysed in this session](https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt) | Shaunak Kishore (skishore/makemeahanzi), HEAD bddc96d | primary | LGPL-3.0-or-later (dictionary.txt, per repo COPYING: derived from Unihan and CJKlib) | 2026-11-02 | research: speech-tech |
 | [Make Me a Hanzi README](https://raw.githubusercontent.com/skishore/makemeahanzi/master/README.md) | Shaunak Kishore | vendor-docs |  | 2026-11-02 | research: chars-freq-pinyin |
+| [Creative Commons Attribution-ShareAlike 3.0 Unported - legal code (SPDX license-list-data copy, main 3184648)](https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-SA-3.0.txt) | Creative Commons / SPDX | official | CC BY-SA 3.0 legal code | 2026-11-02 | research: audio |
 | [Tencent Cloud SDK for Node.js: SOE (Smart Oral Evaluation, 智聆口语评测) API v2018-07-24 models and client](https://raw.githubusercontent.com/TencentCloud/tencentcloud-sdk-nodejs/master/src/services/soe/v20180724/soe_models.ts) | Tencent Cloud (official SDK), commit dab1f2e 2026-11-02 | vendor-docs | Apache-2.0 | 2026-11-02 | research: speech-tech |
 | [Content Security Policy Level 3 (spec source index.bs)](https://raw.githubusercontent.com/w3c/webappsec-csp/main/index.bs) | W3C Web Application Security WG; commit 251d288 | official | W3C Software and Document License | 2026-11-02 | research: speech-tech |
-| [Web Speech API, W3C Audio Community Group draft (CG-DRAFT), spec source index.bs](https://raw.githubusercontent.com/WebAudio/web-speech-api/main/index.bs) | W3C Audio Community Group (editor Evan Liu, Google); commit 3c9c3f8 | official | W3C Software and Document License | 2026-11-02 | research: speech-tech |
+| [Web Speech API - Bikeshed source (Status: CG-DRAFT, W3C Audio Community Group), main 3c9c3f88](https://raw.githubusercontent.com/WebAudio/web-speech-api/main/index.bs) | W3C Audio Community Group | official | W3C Software and Document License | 2026-11-02 | research: audio; research: speech-tech |
 | [WebKit source: WebSpeechRecognizerTask.mm (Safari's webkitSpeechRecognition backend)](https://raw.githubusercontent.com/WebKit/WebKit/main/Source/WebCore/Modules/speech/cocoa/WebSpeechRecognizerTask.mm) | WebKit project, main branch commit 66a50f7 | primary | BSD-2-Clause / LGPL (WebKit) | 2026-11-02 | research: speech-tech |
+| [WebKit SpeechSynthesis.cpp (main a8b15b9a)](https://raw.githubusercontent.com/WebKit/WebKit/main/Source/WebCore/Modules/speech/SpeechSynthesis.cpp) | WebKit project (Apple and contributors) | primary | BSD-2-Clause/LGPL (WebKit) | 2026-11-02 | research: audio |
+| [WebKit PlatformSpeechSynthesizerCocoa.mm (main a8b15b9a)](https://raw.githubusercontent.com/WebKit/WebKit/main/Source/WebCore/platform/cocoa/PlatformSpeechSynthesizerCocoa.mm) | WebKit project (Apple and contributors) | primary | BSD-2-Clause/LGPL (WebKit) | 2026-11-02 | research: audio |
 | [WebKit source: SpeechRecognitionPermissionManager.cpp and UIProcess/Cocoa/MediaPermissionUtilities.mm](https://raw.githubusercontent.com/WebKit/WebKit/main/Source/WebKit/UIProcess/SpeechRecognitionPermissionManager.cpp) | WebKit project, main branch commit 66a50f7 | primary | BSD-2-Clause / LGPL (WebKit) | 2026-11-02 | research: speech-tech |
 | [WebKit source: WebSpeechRecognizerTask.mm (Safari's webkitSpeechRecognition backend), main and tag WebKit-7625.2.8](https://raw.githubusercontent.com/WebKit/WebKit/WebKit-7625.2.8/Source/WebCore/Modules/speech/cocoa/WebSpeechRecognizerTask.mm) | WebKit project (tag WebKit-7625.2.8 = Safari/iOS 27.2 engine 625.2.8) | primary | BSD-2-Clause / LGPL (WebKit) | 2026-11-02 | research: speech-tech |
 | [WebKit source: CoreAudioCaptureUnit.cpp, CoreAudioCaptureSource.cpp and MediaConstraintType.h (tag WebKit-7625.2.8)](https://raw.githubusercontent.com/WebKit/WebKit/WebKit-7625.2.8/Source/WebCore/platform/mediastream/cocoa/CoreAudioCaptureUnit.cpp) | WebKit project (tag WebKit-7625.2.8 = Safari/iOS 27.2 engine) | primary | BSD-2-Clause / LGPL (WebKit) | 2026-11-02 | research: speech-tech |
 | [WebKit source: SpeechRecognitionPermissionManager.cpp and UIProcess/Cocoa/MediaPermissionUtilities.mm (main and tag WebKit-7625.2.8)](https://raw.githubusercontent.com/WebKit/WebKit/WebKit-7625.2.8/Source/WebKit/UIProcess/SpeechRecognitionPermissionManager.cpp) | WebKit project (tag WebKit-7625.2.8 matches engine 625.2.8, which BCD lists for Safari/iOS 27.2; main HEAD ee10f690, 2026-11-01) | primary | BSD-2-Clause / LGPL (WebKit) | 2026-11-02 | research: speech-tech |
 | [WHATWG Fetch Standard (source fetch.bs)](https://raw.githubusercontent.com/whatwg/fetch/main/fetch.bs) | WHATWG | official | CC-BY-4.0 | 2026-11-02 | research: speech-tech |
+| [Wozacosta/mandarin-atlas LICENSE.md (HEAD f43f849 of 2026-09-01)](https://raw.githubusercontent.com/Wozacosta/mandarin-atlas/f43f8499cb72e5add2a22925a5f011065979eadf/LICENSE.md) | Wozacosta (GitHub) | practitioner | MIT (code); CC BY-NC-SA 3.0 (AllSet-derived records) | 2026-11-02 | research: cedict-sentences |
 
-### registry.npmjs.org (36)
+### registry.npmjs.org (50)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
+| [npm registry search for 'cedict' and 'cc-cedict' (results filtered to packages mentioning CEDICT)](https://registry.npmjs.org/-/v1/search?text=cedict&size=250) | npm registry | primary |  | 2026-11-02 | research: cedict-sentences |
 | [npm @huggingface/transformers 4.3.2 (metadata)](https://registry.npmjs.org/@huggingface%2ftransformers) | Hugging Face (transformers.js) | primary | Apache-2.0 | 2026-11-02 | research: speech-tech |
-| [CC-CEDICT release 2026-05-18 as repackaged in npm @leonsilicon/cc-cedict 0.0.0 (verifier's own download)](https://registry.npmjs.org/@leonsilicon/cc-cedict/-/cc-cedict-0.0.0.tgz) | MDBG (data); Leon Si (npm package) | dictionary | CC BY-SA 4.0 (data header); package code labelled MIT | 2026-11-02 | research: chars-freq-pinyin |
-| [MDN browser-compat-data 8.1.7, data.json: api.SpeechRecognition (and members)](https://registry.npmjs.org/@mdn/browser-compat-data/-/browser-compat-data-8.1.7.tgz) | MDN / Open Web Docs (mdn/browser-compat-data) | primary | CC0-1.0 | 2026-11-02 | research: speech-tech |
+| [@leonsilicon/cc-cedict 0.0.0 - npm registry metadata and tarball (cc-cedict-0.0.0.tgz)](https://registry.npmjs.org/@leonsilicon/cc-cedict) | Leon Si (npm package) | primary | code MIT; dictionary data CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
+| [CC-CEDICT 2026-05-18 (124,933 entries) in npm package @leonsilicon/cc-cedict 0.0.0 (fresh download)](https://registry.npmjs.org/@leonsilicon/cc-cedict/-/cc-cedict-0.0.0.tgz) | MDBG / CC-CEDICT contributors | dictionary | CC BY-SA 4.0 | 2026-11-02 | research: audio; research: chars-freq-pinyin |
+| [CC-CEDICT release 2026-05-18 (124,933 entries) via npm package @leonsilicon/cc-cedict 0.0.0 (local copy)](https://registry.npmjs.org/@leonsilicon%2fcc-cedict) | MDBG / CC-CEDICT contributors | dictionary | CC BY-SA 4.0 | 2026-11-02 | research: audio; research: hsk-datasets |
+| [MDN browser-compat-data 8.1.7, data.json: api.SpeechRecognition (and members)](https://registry.npmjs.org/@mdn/browser-compat-data/-/browser-compat-data-8.1.7.tgz) | MDN / Open Web Docs (mdn/browser-compat-data) | primary | CC0-1.0 | 2026-11-02 | research: speech-tech; research: srs-scheduler |
+| [npm registry documents for @emnapi/core 2.0.0-beta.2, @emnapi/runtime 2.0.0-beta.2 and @napi-rs/wasm-runtime 1.2.6](https://registry.npmjs.org/@napi-rs%2fwasm-runtime) | npm registry | primary | MIT | 2026-11-02 | research: srs-scheduler |
+| [@open-spaced-repetition/binding package document (npm registry JSON)](https://registry.npmjs.org/@open-spaced-repetition/binding) | npm registry; package by Open Spaced Repetition | primary | MIT | 2026-11-02 | research: srs-scheduler |
+| [@open-spaced-repetition/binding-wasm32-wasi package document (npm registry JSON)](https://registry.npmjs.org/@open-spaced-repetition/binding-wasm32-wasi) | npm registry; package by Open Spaced Repetition | primary | MIT | 2026-11-02 | research: srs-scheduler |
+| [@open-spaced-repetition/srs-kit package document (npm registry JSON)](https://registry.npmjs.org/@open-spaced-repetition/srs-kit) | npm registry; package by Open Spaced Repetition | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
+| [@open-spaced-repetition/srs-kit 1.0.0 published package (LICENSE, README.md, dist/esm)](https://registry.npmjs.org/@open-spaced-repetition/srs-kit/-/srs-kit-1.0.0.tgz) | Open Spaced Repetition contributors | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
 | [@open-spaced-repetition/srs-kit metadata (npm registry)](https://registry.npmjs.org/@open-spaced-repetition%2fsrs-kit) | npm / open-spaced-repetition | primary | BSD-3-Clause | 2026-11-02 | research: hosting-pwa |
 | [@pinyin-pro/data package metadata (npm registry), re-fetched by verifier](https://registry.npmjs.org/@pinyin-pro%2fdata) | npm registry | primary | ISC | 2026-11-02 | research: chars-freq-pinyin |
 | [@pinyin-pro/data package metadata (npm registry)](https://registry.npmjs.org/@pinyin-pro%2Fdata) | npm registry | primary | ISC | 2026-11-02 | research: chars-freq-pinyin |
@@ -946,12 +1530,15 @@ Total: 620 sources on 115 sites.
 | [@vercel/kv 3.0.0 npm deprecation notice](https://registry.npmjs.org/@vercel%2fkv/latest) | Vercel (npm) | primary | Apache-2.0 | 2026-11-02 | research: hosting-pwa |
 | [@vercel/postgres 0.10.0 npm deprecation notice](https://registry.npmjs.org/@vercel%2fpostgres/latest) | Vercel (npm) | primary | Apache-2.0 | 2026-11-02 | research: hosting-pwa |
 | [npm aubiojs 0.2.1 tarball, plus aubio README, COPYING and src/pitch/pitch.h](https://registry.npmjs.org/aubiojs/-/aubiojs-0.2.1.tgz) | qiuxiang / 7c00 (aubiojs); aubio project (Paul Brossier) | primary | wrapper MIT-style; aubio GPL-3.0-or-later | 2026-11-02 | research: speech-tech |
+| [cc-cedict 1.1.1 (npm; package.json, README.md, dist/build.js, data/status.json)](https://registry.npmjs.org/cc-cedict/-/cc-cedict-1.1.1.tgz) | edvardsr (npm package) | practitioner | MIT (package field) | 2026-11-02 | research: cedict-sentences |
+| [cedict-json - npm registry metadata (41 versions) and tarball cedict-json-1.3.20251213.tgz](https://registry.npmjs.org/cedict-json) | Matt Tingen (npm package) | primary | CC-BY-SA-4.0 | 2026-11-02 | research: cedict-sentences; research: hsk-datasets |
 | [cnchar-draw 3.2.6 tarball and cnchar / cnchar-data registry metadata (read by verifier)](https://registry.npmjs.org/cnchar-draw/-/cnchar-draw-3.2.6.tgz) | theajack (npm) | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
 | [npm fft.js 4.0.4](https://registry.npmjs.org/fft.js) | Fedor Indutny (indutny/fft.js) | primary | MIT | 2026-11-02 | research: speech-tech |
 | [hanzi-writer package metadata (npm registry)](https://registry.npmjs.org/hanzi-writer) | npm registry | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
 | [hanzi-writer-data package metadata (npm registry)](https://registry.npmjs.org/hanzi-writer-data) | npm registry | primary | Arphic Public License | 2026-11-02 | research: chars-freq-pinyin |
 | [hanzi-writer-data 2.0.1 tarball (README.md, ARPHICPL.TXT, index.js, per-character JSON)](https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz) | David Chanin (npm) | primary | Arphic Public License | 2026-11-02 | research: chars-freq-pinyin |
 | [hanzi-writer 3.7.3 tarball (LICENSE, COPYING.md, README.md, dist/)](https://registry.npmjs.org/hanzi-writer/-/hanzi-writer-3.7.3.tgz) | David Chanin (npm) | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
+| [hsk-sentences-audio 1.0.0 - npm metadata and tarball (LICENSE, README.md, data/sentences.json)](https://registry.npmjs.org/hsk-sentences-audio) | no7z (npm package) | primary | code MIT; dataset CC BY-SA 4.0 | 2026-11-02 | research: cedict-sentences |
 | [npm microsoft-cognitiveservices-speech-sdk 1.53.0 (package and TypeScript typings)](https://registry.npmjs.org/microsoft-cognitiveservices-speech-sdk/-/microsoft-cognitiveservices-speech-sdk-1.53.0.tgz) | Microsoft | primary | MIT | 2026-11-02 | research: speech-tech |
 | [pinyin (hotoo) package metadata (npm registry) and pinyin-4.0.0.tgz](https://registry.npmjs.org/pinyin) | npm registry / hotoo | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
 | [pinyin-pro package metadata (npm registry)](https://registry.npmjs.org/pinyin-pro) | npm registry | primary | MIT | 2026-11-02 | research: chars-freq-pinyin |
@@ -964,9 +1551,12 @@ Total: 620 sources on 115 sites.
 | [npm pitchy 4.1.0 (package metadata, README, index.d.ts, LICENSE)](https://registry.npmjs.org/pitchy/-/pitchy-4.1.0.tgz) | Ian Johnson (ianprime0509/pitchy) | primary | MIT | 2026-11-02 | research: speech-tech |
 | [npm sherpa-onnx 2.0.1 and @huggingface/transformers 4.3.2 (metadata)](https://registry.npmjs.org/sherpa-onnx) | k2-fsa / csukuangfj (sherpa-onnx); Hugging Face (transformers.js) | primary | Apache-2.0 | 2026-11-02 | research: speech-tech |
 | [npm speechaceapi 1.0.0: TypeScript SDK for the Speechace API generated by liblab (dist/services/v9-latest_/v9-latest_.d.ts)](https://registry.npmjs.org/speechaceapi/-/speechaceapi-1.0.0.tgz) | liblab (publisher liblab_hub) | practitioner | MIT | 2026-11-02 | research: speech-tech |
-| [ts-fsrs package metadata (npm registry)](https://registry.npmjs.org/ts-fsrs) | npm / open-spaced-repetition | primary | MIT | 2026-11-02 | research: hosting-pwa |
-| [ts-fsrs 5.4.2 (FSRS-6), vendored as app/src/vendor/ts-fsrs.mjs](https://registry.npmjs.org/ts-fsrs/-/ts-fsrs-5.4.2.tgz) | Open Spaced Repetition | primary | MIT | 2026-11-02 | pipeline input (pinned); research: hosting-pwa |
-| [ts-fsrs 6.0.0 tarball (dist/ and CHANGELOG.md)](https://registry.npmjs.org/ts-fsrs/-/ts-fsrs-6.0.0.tgz) | npm / open-spaced-repetition | primary | MIT | 2026-11-02 | research: hosting-pwa |
+| [supermemo 2.0.23 (npm package README: JavaScript/TypeScript implementation of SM-2)](https://registry.npmjs.org/supermemo) | supermemo package maintainer (JSR scope @vien) | practitioner | MIT | 2026-11-02 | research: srs-scheduler |
+| [supermemo 2.0.23 (npm; JavaScript/TypeScript SM-2 implementation), package code read, not executed](https://registry.npmjs.org/supermemo/-/supermemo-2.0.23.tgz) | supermemo package maintainer (JSR scope @vien) | practitioner | MIT | 2026-11-02 | research: srs-scheduler |
+| [tatoeba-sentence-pairs-in-mandarin-chinese-english 0.20260520.0 - npm metadata and tarball (sentences.json)](https://registry.npmjs.org/tatoeba-sentence-pairs-in-mandarin-chinese-english) | Leon Si (npm package) | primary | package field says MIT; sentences are Tatoeba data (CC BY 2.0 FR / CC0 1.0) | 2026-11-02 | research: cedict-sentences |
+| [ts-fsrs package metadata (npm registry)](https://registry.npmjs.org/ts-fsrs) | npm / open-spaced-repetition | primary | MIT | 2026-11-02 | research: hosting-pwa; research: srs-scheduler |
+| [ts-fsrs 5.4.2 (FSRS-6), vendored as app/src/vendor/ts-fsrs.mjs](https://registry.npmjs.org/ts-fsrs/-/ts-fsrs-5.4.2.tgz) | Open Spaced Repetition | primary | MIT | 2026-11-02 | pipeline input (pinned); research: hosting-pwa; research: srs-scheduler |
+| [ts-fsrs 6.0.0 tarball (dist/ and CHANGELOG.md)](https://registry.npmjs.org/ts-fsrs/-/ts-fsrs-6.0.0.tgz) | npm / open-spaced-repetition | primary | MIT | 2026-11-02 | research: hosting-pwa; research: srs-scheduler |
 | [vercel CLI package metadata (npm registry)](https://registry.npmjs.org/vercel) | Vercel (npm) | primary | Apache-2.0 | 2026-11-02 | research: hosting-pwa |
 | [vercel CLI 65.9.0 (package code, dist/)](https://registry.npmjs.org/vercel/-/vercel-65.9.0.tgz) | Vercel (npm) | primary | Apache-2.0 | 2026-11-02 | research: hosting-pwa |
 
@@ -985,17 +1575,40 @@ Total: 620 sources on 115 sites.
 | [Can perception training improve the production of second language phonemes? A meta-analytic review of 25 years of perception training resear](https://resolve.cambridge.org/core/journals/applied-psycholinguistics/article/can-perception-training-improve-the-production-of-second-language-phonemes-a-metaanalytic-review-of-25-years-of-perception-training-research/57401D28450902EE96659AD10AA11488) | Cambridge University Press, Applied Psycholinguistics (doi:10.1017/S0142716417000418) | academic |  | 2026-11-02 | research: learning-method |
 | [Advanced second language learners' perception of lexical tone contrasts](https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/BA813543C79288DF6B92E929442CB4BC/S0272263117000444a.pdf/advanced-second-language-learners-perception-of-lexical-tone-contrasts.pdf) | Cambridge University Press, Studies in Second Language Acquisition 41(1), 59-86 | academic |  | 2026-11-02 | research: learning-method |
 
+### resources.allsetlearning.com (12)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese Grammar Wiki — Advanced yes-no questions with 'ma'](https://resources.allsetlearning.com/chinese/grammar/Advanced_yes-no_questions_with_%22ma%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Affirmative-negative question](https://resources.allsetlearning.com/chinese/grammar/Affirmative-negative_question) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Basic comparisons with 'bi'; Basic comparisons with 'meiyou'](https://resources.allsetlearning.com/chinese/grammar/Basic_comparisons_with_%22bi%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Comparing 'bu' and 'mei'](https://resources.allsetlearning.com/chinese/grammar/Comparing_%22bu%22_and_%22mei%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Expressing close possession without 'de'](https://resources.allsetlearning.com/chinese/grammar/Expressing_close_possession_without_%22de%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Negative commands with 'buyao'; Expressing 'would like to' with 'xiang'; Expressing 'don't need to' with 'buyong'](https://resources.allsetlearning.com/chinese/grammar/Negative_commands_with_%22buyao%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Simple 'noun + adjective' sentences](https://resources.allsetlearning.com/chinese/grammar/Simple_%22noun_%2B_adjective%22_sentences) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Structure of dates](https://resources.allsetlearning.com/chinese/grammar/Structure_of_dates) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Structure of times (basic / advanced)](https://resources.allsetlearning.com/chinese/grammar/Structure_of_times_(advanced)) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Grammar Wiki — Yes-no questions with 'ma'](https://resources.allsetlearning.com/chinese/grammar/Yes-no_questions_with_%22ma%22) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [Chinese Pronunciation Wiki — Accent](https://resources.allsetlearning.com/chinese/pronunciation/Accent) | AllSet Learning | native-teacher |  | 2026-11-02 | research: grammar |
+| [The "ü" vowel](https://resources.allsetlearning.com/chinese/pronunciation/ASP00011) | AllSet Learning, Chinese Pronunciation Wiki | secondary |  | 2026-11-02 | research: pitfalls |
+
 ### s.nia.gov.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [国家移民管理局政务服务平台 (policy interpretation, Chinese)](https://s.nia.gov.cn/mps/zcjd/202609/t20260921_1014.html) | National Immigration Administration of the PRC | official |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### saymei.app (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [HSK Vocabulary Lists (HSK 3.0): All HSK 1-6 Words](https://www.saymei.app/tools/hsk-vocabulary-list) | Saymei | secondary |  | 2026-11-02 | research: hsk-datasets |
+
 ### scio.gov.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
-| [教育部就《国际中文教育中文水平等级标准》答问](http://www.scio.gov.cn/xwfb/bwxwfb/gbwfbh/jyb/202207/t20220716_233650.html) | 国务院新闻办公室网站 (State Council Information Office) | official |  | 2026-11-02 | research: hsk-standard-exam |
+| [教育部就《国际中文教育中文水平等级标准》答问](http://www.scio.gov.cn/xwfb/bwxwfb/gbwfbh/jyb/202207/t20220716_233650.html) | 国务院新闻办公室 (State Council Information Office), relaying the Ministry of Education | official |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
 
 ### sg.news.yahoo.com (1)
 
@@ -1009,12 +1622,45 @@ Total: 620 sources on 115 sites.
 | --- | --- | --- | --- | --- | --- |
 | [Announcement on the pilot implementation of online accommodation registration for foreigners residing or staying in domiciles other than hot](http://shandong.chinadaily.com.cn/2026-03/23/c_1170373.htm) | China Daily (Shandong) | press |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
-### studycli.org (2)
+### sina.cn (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [新浪 article on WeChat etiquette (headline not shown)](https://sina.cn/news/detail/5274210512931760.html) | 新浪 | news |  | 2026-11-02 | research: work-intro-contacts |
+
+### sohu.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese letter format (书信格式) explainer](https://www.sohu.com/a/245605761_663183) | sohu.com (搜狐号) | secondary |  | 2026-11-02 | research: work-meetings-writing |
+
+### speakingofchina.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [“Mom” And “Dad” Is What I Call My Chinese In-Laws — and Here’s Why It’s Easier Than I Thought](https://www.speakingofchina.com/china-articles/mom-dad-chinese-inlaws/) | Speaking of China (blog by Jocelyn Eikenburg) | blog |  | 2026-11-02 | research: family-address-kinship |
+| [Guest Post: Learn Mandarin Chinese — what to call Chinese family (for Western women married to Chinese men)](https://www.speakingofchina.com/mandarin-love/learn-mandarin-chinese-what-to-call-chinese-family-for-western-women-married-to-chinese-men/) | Speaking of China (blog by Jocelyn Eikenburg), guest post | blog |  | 2026-11-02 | research: family-address-kinship |
+
+### static.crates.io (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [fsrs 6.6.2 crate as published on crates.io (src/inference.rs, src/simulation.rs)](https://static.crates.io/crates/fsrs/fsrs-6.6.2.crate) | Open Spaced Repetition | primary | BSD-3-Clause | 2026-11-02 | research: srs-scheduler |
+
+### studenttheses.universiteitleiden.nl (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Student thesis on voice onset time of Dutch speakers of English](https://studenttheses.universiteitleiden.nl/access/item%3A3630911/view) | Leiden University (student theses) | academic |  | 2026-11-02 | research: pitfalls |
+
+### studycli.org (4)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [新版HSK 1 词汇：包含300 个单词的完整词汇表及例句](https://studycli.org/chinese-tools/hsk-1-vocabulary/) | StudyCLI | blog |  | 2026-11-02 | research: hsk-standard-exam |
-| [New HSK 3.0: December 13, 2026 Launch, Changes, and Which Exam to Take](https://studycli.org/hsk/the-new-hsk/) | StudyCLI | blog |  | 2026-11-02 | research: hsk-standard-exam |
+| [HSK Vocabulary Lists: HSK 1-9 Word Lists (HSK 3.0)](https://studycli.org/chinese-tools/hsk-vocabulary/) | StudyCLI | secondary |  | 2026-11-02 | research: hsk-datasets |
+| [New HSK 3.0: December 13, 2026 Launch, Changes, and Which Exam to Take](https://studycli.org/hsk/the-new-hsk/) | StudyCLI | secondary |  | 2026-11-02 | research: hsk-datasets; research: hsk-standard-exam |
+| [Thank you in Chinese (CLI — Chinese Language Institute, Guilin)](https://studycli.org/learn-chinese/thank-you-in-chinese/) | Chinese Language Institute (CLI) | teaching site |  | 2026-11-02 | research: travel-basics |
 
 ### tatoeba.org (34)
 
@@ -1068,11 +1714,35 @@ Total: 620 sources on 115 sites.
 | [Tencent Further Enhances Digital Payment Services for Visitors to China, with Process Streamlined and More Overseas Wallets Linked](https://www.tencent.com/en-us/articles/2201831.html) | Tencent | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 | [Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026](https://www.tencent.com/tencent-announces-three-initiatives-to-make-inbound-payments-for-international-visitors-easier-than-ever-during-apec-2026/) | Tencent | vendor-docs |  | 2026-11-02 | data/reference/facts.json; research: travel-facts |
 
+### thechairmansbao.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to Say the Days of the Week in Chinese](https://www.thechairmansbao.com/blog/how-to-say-the-days-of-the-week-in-chinese/) | The Chairman's Bao | blog |  | 2026-11-02 | research: grammar |
+
 ### thepaper.cn (1)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [中文水平考试HSK3.0来了！全球试行启动，今起报名](https://www.thepaper.cn/newsDetail_forward_32209481) | 澎湃新闻 (The Paper) | press |  | 2026-11-02 | research: hsk-standard-exam |
+
+### theworldofchinese.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Talking to Strangers (The World of Chinese, Language / Traditional culture)](https://www.theworldofchinese.com/2018/02/talking-to-strangers/) | The World of Chinese | magazine |  | 2026-11-02 | research: travel-basics |
+
+### tone.lib.msu.edu (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Using and Citing Data - Tone Perfect](https://tone.lib.msu.edu/cite) | Michigan State University Libraries | official |  | 2026-11-02 | research: audio |
+
+### toutiao.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Toutiao 资讯 article on 改口 and 改口费 (top result for two queries; headline not seen)](https://www.toutiao.com/zixun/7550172993985742889/) | 今日头条 (Toutiao, news aggregator) | secondary |  | 2026-11-02 | research: family-address-kinship |
 
 ### travelchinaguide.com (2)
 
@@ -1098,6 +1768,18 @@ Total: 620 sources on 115 sites.
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [HSK 3.0 Exam Dates: 13 December 2026 Launch and Registration](https://tryhskprep.com/blog/hsk-3-0-exam-dates) | tryhskprep.com | blog |  | 2026-11-02 | research: hsk-standard-exam |
+
+### trykaiwa.com (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Chinese phrases foreigners get wrong (2026) (Kaiwa blog)](https://trykaiwa.com/blog/chinese-phrases-foreigners-get-wrong-2026) | Kaiwa (language-learning blog) | teaching site |  | 2026-11-02 | research: travel-basics |
+
+### tuttocina.it (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [NuovoHSK lineamenti (PDF copy of the standard's outline)](https://www.tuttocina.it/HSK/NuovoHSK-lineamenti.pdf) | tuttocina.it | secondary |  | 2026-11-02 | research: hsk-datasets |
 
 ### tv.cctv.com (17)
 
@@ -1204,6 +1886,12 @@ Total: 620 sources on 115 sites.
 | [Meet Declarative Web Push](https://webkit.org/blog/16535/meet-declarative-web-push/) | WebKit | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 | [Tracking Prevention in WebKit](https://webkit.org/tracking-prevention/) | WebKit | vendor-docs |  | 2026-11-02 | research: hosting-pwa |
 
+### wiki.creativecommons.org (1)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [Shtooka Project - free audio collections of words](https://wiki.creativecommons.org/wiki/Shtooka_Project_-_free_audio_collections_of_words) | Creative Commons wiki | secondary |  | 2026-11-02 | research: audio |
+
 ### x.com (2)
 
 | Source | Publisher | Authority | Licence | Accessed | Used for |
@@ -1216,4 +1904,11 @@ Total: 620 sources on 115 sites.
 | Source | Publisher | Authority | Licence | Accessed | Used for |
 | --- | --- | --- | --- | --- | --- |
 | [HSK3.0发布，《新HSK教程》全球首发](https://www.xindb.com/static/content/TGGJ/2025-11-18/1440380853687181312.html) | xindb.com (news) | press |  | 2026-11-02 | research: hsk-standard-exam |
+
+### yoyochinese.com (2)
+
+| Source | Publisher | Authority | Licence | Accessed | Used for |
+| --- | --- | --- | --- | --- | --- |
+| [How to deflect a compliment in Chinese](https://www.yoyochinese.com/blog/learn-mandarin-chinese-how-to-deflect-a-compliment-in-chinese) | Yoyo Chinese | teaching |  | 2026-11-02 | research: work-intro-contacts |
+| [How to Write a Formal Email in Chinese](https://yoyochinese.com/blog/learn-how-to-write-a-formal-email-in-chinese) | Yoyo Chinese | secondary |  | 2026-11-02 | research: work-meetings-writing |
 

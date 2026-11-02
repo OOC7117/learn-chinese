@@ -32,29 +32,34 @@ export function search(entries, rawQuery, { limit = 50 } = {}) {
   if (!q) return [];
   const kind = queryKind(q);
   const scored = [];
+  // Digits without a syllable ("3", "10") give no toned key (it would match everything): they are searched
+  // like Latin words below, where English meanings have them ("three; 3").
+  const toned = kind === 'pinyin-toned' ? tonedKey(q.replace(/v/g, 'ü')) : '';
   if (kind === 'hanzi') {
     for (const e of entries) {
       if (e.hanzi === q) scored.push([0, e]);
       else if (e.hanzi.startsWith(q)) scored.push([1, e]);
       else if (e.hanzi.includes(q)) scored.push([2, e]);
     }
-  } else if (kind === 'pinyin-toned') {
-    const key = tonedKey(q.replace(/v/g, 'ü'));
-    if (!key) return []; // digits without a syllable ("3", "2025"): an empty key would match everything
+  } else if (toned) {
     // A syllable typed without a tone ("ni3hao") matches any tone: compare with a regex.
-    const pattern = new RegExp(`^${key.replace(/5(?=[a-z]|$)/g, '[1-5]')}`);
+    const pattern = new RegExp(`^${toned.replace(/5(?=[a-z]|$)/g, '[1-5]')}`);
     for (const e of entries) {
-      if (e.pyTone === key) scored.push([0, e]);
+      if (e.pyTone === toned) scored.push([0, e]);
       else if (pattern.test(e.pyTone)) scored.push([1, e]);
     }
   } else {
     const key = searchKey(q);
-    const words = q.toLowerCase().split(/\s+/).filter(Boolean);
-    const wordRe = new RegExp(`(^|[^a-z])${words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('.*')}`, 'i');
+    const words = q.toLowerCase().split(/\s+/).filter(Boolean).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const wordRe = new RegExp(`(^|[^a-z])${words.join('.*')}`, 'i');
+    // A meaning (or one of its senses after "; ", or an alternative after "/ ") that starts with the query as
+    // whole words (a plural -s/-es allowed), also after "to " (CC-CEDICT writes verbs "to love"), ranks above
+    // other matches ("lovely", "brother's son", "thank you" for "you").
+    const startRe = new RegExp(`(^|[;/] )(to )?${words.join(' ')}(e?s)?(?![a-z0-9'’])`);
     for (const e of entries) {
       if (key && e.py === key) scored.push([0, e]);
       else if (key && e.py.startsWith(key)) scored.push([2, e]);
-      else if (wordRe.test(e.en)) scored.push([e.en.startsWith(q.toLowerCase()) || e.en.includes(`; ${q.toLowerCase()}`) ? 1 : 3, e]);
+      else if (wordRe.test(e.en)) scored.push([startRe.test(e.en) ? 1 : 3, e]);
     }
   }
   scored.sort((a, b) => a[0] - b[0] || a[1].rank - b[1].rank || a[1].hanzi.length - b[1].hanzi.length);

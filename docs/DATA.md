@@ -75,14 +75,15 @@ Stable, ASCII, dot-separated, matching `^[a-z0-9][a-z0-9._-]{0,159}$` (the same 
   `sp` spoken form when tone sandhi changes it; `r` the resolution decision when pinyin differs from CC-CEDICT.
 - `tones.json`: `{ syllables: ["a1", …], pairs: { "14": [word ids], … }, minimal: [[id, id], …] }` — only
   words pronounced with their citation tones (no 一/不/3-3 sandhi) are used for tone identification.
-- `content.json` (scripts/build-content.mjs; verified items only):
+- `content.json` (`buildContent` in scripts/lib/content.mjs, called by scripts/build-app-data.mjs; verified items only):
 
 ```json
 {
   "situations": [{ "id": "travel", "title": "Travel in China", "intro": "…", "scenes": [{
     "id": "travel.station", "title": "At the station", "description": "…",
     "phrases": [{ "id", "hanzi", "pinyin", "literal", "english", "usage", "register", "speaker": "me|them|either",
-                  "regional_note", "slots": [{ "text", "meaning", "examples": [] }], "sources": [{ "url", "title", "publisher", "accessed" }], "audio": null }],
+                  "regional_note", "slots": [{ "text", "meaning", "examples": [] }], "sources": [{ "url", "title", "publisher", "accessed" }], "audio": null,
+                  "w": ["<HSK word id>"] }],
     "rules": [{ "id", "rule", "why", "regional_note", "sources": [] }],
     "dialogues": [{ "id", "title", "ai_generated": true, "reviewed": false, "lines": [{ "speaker": "me|them", "phrase": "<phrase id>" }] }]
   }] }],
@@ -91,9 +92,18 @@ Stable, ASCII, dot-separated, matching `^[a-z0-9][a-z0-9._-]{0,159}$` (the same 
     "gender": "m|f", "address_form": true, "reference_form": false, "sources": [] }], "rules": [] },
   "grammar": { "items": [{ "id", "title", "rule", "details", "examples": [{ "hanzi", "pinyin", "spoken", "english", "correct": true, "source": { "url", "title" } }], "common_mistake", "sources": [] }] },
   "pitfalls": { "items": [ "same shape as grammar" ] },
-  "facts": { "checked_on": "2026-11-02", "facts": [{ "id", "topic", "question", "answer", "checked_on", "recheck_url", "sources": [] }] }
+  "facts": { "checked_on": "2026-11-02", "facts": [{ "id", "topic", "question", "answer", "checked_on", "recheck_url", "sources": [] }],
+             "open": [{ "id", "topic", "question", "official_url": "…|null" }] }
 }
 ```
+
+`w` lists the HSK words a phrase or kinship term contains, matched by characters **and** reading, longest
+first (`hskWordsIn` in scripts/build-app-data.mjs): 银行 yínháng links to 银行, never to 行 xíng. The app
+shows them as links on the phrase and uses them to find example phrases for a word (cloze cards, word page).
+
+`facts.open` are the travel questions whose answer could not be double-checked: only the question (the
+fact's `open_label` in data/reference/facts.json, else its research question) and its official page reach
+the app, never the unconfirmed answer; the validator fails if an open entry carries an answer.
 
 ## Browser storage (namespaced per app, version 1)
 

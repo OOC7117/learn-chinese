@@ -6,7 +6,7 @@
 // (docs/RESEARCH.md, "Which HSK list"):
 //   levels.exam2025  the official 2025 HSK exam syllabus (CLEC 2025-11; first regular exam 2026-12-13): PRIMARY
 //   levels.std2021   the GF 0025-2021 standard (ivankra/hsk30)
-//   levels.hsk20     HSK 2.0 (2012), "not in 2.0" = null (clem109/hsk-vocabulary)
+//   levels.hsk20     HSK 2.0 (2012 revision), "not in 2.0" = null (glxxyz/hskhsk.com)
 // Every item's pinyin is compared with CC-CEDICT; meanings come from the CC-CEDICT entries of the same
 // reading; frequency from wordfreq; audio from audio-cmn where the file name fixes the reading
 // unambiguously (otherwise the browser's zh-CN voice: kind "tts").
@@ -43,7 +43,7 @@ export const SOURCE_INFO = {
     title: '中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲',
   },
   std2021: { id: 'hsk2021-ivankra', url: 'https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv', title: 'GF 0025-2021 word list, cleaned by ivankra/hsk30' },
-  hsk20: { id: 'hsk20-clem109', url: 'https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json', title: 'HSK 2.0 word lists, clem109/hsk-vocabulary' },
+  hsk20: { id: 'hsk20-glxxyz-2012', url: 'https://github.com/glxxyz/hskhsk.com/tree/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists', title: 'HSK 2.0 word lists (2012 revision), glxxyz/hskhsk.com' },
 };
 
 function loadSyllabus() {
@@ -59,11 +59,20 @@ function loadStd2021() {
   return parseCsv(readFileSync(join(RAW, 'hsk2021', 'hsk30-expanded.csv'), 'utf8'));
 }
 
+/** HSK 2.0, late-2012 revision (glxxyz/hskhsk.com "HSK Official With Definitions 2012 L1-6"): tab-separated
+ * simplified, traditional, numbered pinyin, marked pinyin, definition; BOM and CRLF. Cells with two readings
+ * ("cháng, zhǎng") become two rows. Only the word and its level are used (docs/RESEARCH.md section 1). */
 function loadHsk20() {
   const out = [];
   for (let level = 1; level <= 6; level += 1) {
-    const rows = JSON.parse(readFileSync(join(RAW, 'hsk20', `hsk-level-${level}.json`), 'utf8'));
-    for (const r of rows) out.push({ level, id: r.id, hanzi: r.hanzi.trim(), pinyin: r.pinyin.trim() });
+    const text = readFileSync(join(RAW, 'hsk20', `HSK Official With Definitions 2012 L${level}.txt`), 'utf8').replace(/^\uFEFF/, '');
+    text.split(/\r?\n/).filter(Boolean).forEach((line, i) => {
+      const cols = line.split('\t');
+      const hanzi = (cols[0] ?? '').trim();
+      for (const reading of String(cols[3] ?? '').split(',').map((r) => r.trim()).filter(Boolean)) {
+        out.push({ level, id: `L${level}-${i + 1}`, hanzi, pinyin: reading });
+      }
+    });
   }
   return out;
 }
@@ -98,6 +107,12 @@ function cleanPinyin(p, hanzi = '') {
   return out;
 }
 
+/** Typos in a source list, verified by the research (docs/RESEARCH.md section 1, hsk-datasets): corrected
+ * here so the word merges with the same word of the other lists. Key: list|hanzi|pinyin as printed. */
+export const SOURCE_CORRECTIONS = Object.freeze({
+  'hsk20|哪|nǎa': 'nǎ', // glxxyz "HSK Official 2012" L1 prints nǎa
+});
+
 const VERDICT_RANK = { ok: 0, sandhi: 1, neutral: 1, 'chars-only': 2, mismatch: 3, 'not-in-dictionary': 3 };
 
 /**
@@ -110,7 +125,7 @@ function wordPinyin(hanzi, text, dict) {
   const variants = [];
   // "shǐ jìn ér" may be the erhua 使劲儿 (shǐjìnr) or a real ér (女儿 nǚ'ér): try both, CC-CEDICT decides.
   const texts = [text];
-  if (hanzi.endsWith('儿') && / ?ér$/.test(text)) texts.push(text.replace(/ ?ér$/, 'r'));
+  if (hanzi.endsWith('儿') && /[\s'’]?[eé]r$/.test(text)) texts.push(text.replace(/[\s'’]?[eé]r$/, 'r'));
   for (const [t, lenient] of texts.flatMap((x) => [[x, false], [x, true]])) {
     const tokens = tokenize(t, { lenient });
     if (tokens.some((t) => t.type === 'unknown')) continue;
@@ -225,7 +240,8 @@ export function buildItems({ syllabus, std2021, hsk20, dict, freq, audio }) {
       problems.push({ list: 'std2021', id: row.ID, word: hanzi, why: 'not plain Han characters' });
       continue;
     }
-    const pinyin = wordPinyin(hanzi, cleanPinyin(row.Pinyin, hanzi), dict);
+    const parsed2021 = wordPinyin(hanzi, cleanPinyin(row.Pinyin, hanzi), dict);
+    const pinyin = parsed2021 && citationPinyin(hanzi, parsed2021);
     if (!pinyin) {
       problems.push({ list: 'std2021', id: row.ID, word: hanzi, pinyin: row.Pinyin, why: 'pinyin does not line up with the characters' });
       continue;
@@ -239,17 +255,20 @@ export function buildItems({ syllabus, std2021, hsk20, dict, freq, audio }) {
 
   // 3. HSK 2.0.
   for (const row of hsk20) {
-    const pinyin = [...row.hanzi].every(isHan) ? wordPinyin(row.hanzi, cleanPinyin(row.pinyin, row.hanzi), dict) : null;
+    const printed = SOURCE_CORRECTIONS[`hsk20|${row.hanzi}|${row.pinyin}`] ?? row.pinyin;
+    const parsed20 = [...row.hanzi].every(isHan) ? wordPinyin(row.hanzi, cleanPinyin(printed, row.hanzi), dict) : null;
+    const pinyin = parsed20 && citationPinyin(row.hanzi, parsed20);
     if (!pinyin) {
       problems.push({ list: 'hsk20', id: row.id, word: row.hanzi, pinyin: row.pinyin, why: 'pinyin does not line up with the characters' });
       continue;
     }
     const found = matchExisting(row.hanzi, pinyin);
-    const item = found ? found.item : addItem(row.hanzi, pinyin, 'hsk20-clem109');
+    const item = found ? found.item : addItem(row.hanzi, pinyin, 'hsk20-glxxyz-2012');
     item.hsk20.push({ id: row.id, level: row.level, pinyin: found && !found.exact ? pinyin : undefined });
     item.levels.hsk20 = item.levels.hsk20 === null ? row.level : Math.min(item.levels.hsk20, row.level);
   }
 
+  const sourceIds = new Set(items.keys()); // every id the sources produce, before decisions merge or drop some
   applyDecisions(items, byHanzi, decisionsFile());
   // 4. Dictionary check, meanings, frequency, audio.
   for (const item of items.values()) {
@@ -273,7 +292,7 @@ export function buildItems({ syllabus, std2021, hsk20, dict, freq, audio }) {
     item.source_url = SOURCE_INFO[item.exam2025.length ? 'exam2025' : item.std2021.length ? 'std2021' : 'hsk20'].url;
     item.verified_against = `CC-CEDICT ${releaseDate(dict)}`;
   }
-  return { items, problems };
+  return { items, problems, sourceIds };
 }
 
 /** Decisions already recorded in data/hsk/resolutions.json (reviewed or rule-based). */
@@ -348,7 +367,8 @@ export function applyDecisions(items, byHanzi, decisions) {
  */
 function chooseAudio(item, syl, dict, audio) {
   if (syl.length === 1 && syl[0].tone >= 1 && syl[0].tone <= 4) {
-    const name = `${syl[0].base.replace(/ü/g, 'v')}${syl[0].tone}`;
+    const spelled = `${syl[0].base.replace(/ü/g, 'v')}${syl[0].tone}`;
+    const name = spelled === 'ju4' && !audio.syl.has('ju4') ? 'jv4' : spelled; // audio-cmn has jù only as jv4
     if (audio.syl.has(name)) return { kind: 'syllable', file: `s/${name}.mp3`, speaker: 'Chen Wang', source: 'audio-cmn' };
   }
   if (syl.length > 1 && audio.words.has(item.hanzi)) {
@@ -368,11 +388,14 @@ const AUTO = {
   sandhi: 'The source wrote a tone change (tone sandhi). Stored in citation tones; the spoken form is shown as a hint.',
 };
 
-function syncResolutions(items, path) {
+function syncResolutions(items, path, sourceIds = null) {
   const existing = existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : { resolutions: [] };
   const byId = new Map(existing.resolutions.map((r) => [r.id, r]));
-  // Decisions that removed or changed an item are kept as they are (the item no longer disagrees).
-  const out = existing.resolutions.filter((r) => ['use-cedict', 'alt-of', 'exclude'].includes(r.decision));
+  // Decisions that removed or changed an item are kept as they are (the item no longer disagrees), unless
+  // no source produces that word any more (e.g. after switching a source list): then they are dropped.
+  const dropped = existing.resolutions.filter((r) => ['use-cedict', 'alt-of', 'exclude'].includes(r.decision) && sourceIds && !sourceIds.has(r.id));
+  if (dropped.length) console.log(`dropping ${dropped.length} decision(s) for words no source produces any more: ${dropped.map((r) => `${r.hanzi} ${r.pinyin}`).join(', ')}`);
+  const out = existing.resolutions.filter((r) => ['use-cedict', 'alt-of', 'exclude'].includes(r.decision) && (!sourceIds || sourceIds.has(r.id)));
   const kept = new Set(out.map((r) => r.id));
   for (const item of items.values()) {
     if (item.cedict.match === 'ok' || kept.has(item.id)) continue;
@@ -405,7 +428,7 @@ function main() {
   const hsk20 = loadHsk20();
   const freq = loadWordfreq();
   const audio = loadAudioIndex();
-  const { items, problems } = buildItems({ syllabus, std2021, hsk20, dict, freq, audio });
+  const { items, problems, sourceIds } = buildItems({ syllabus, std2021, hsk20, dict, freq, audio });
 
   // Derived copy of the official 2025 rows (reviewable without the PDF).
   writeJson(join(DATA, 'sources', 'hsk2025-syllabus.json'), {
@@ -416,7 +439,7 @@ function main() {
     rows: syllabus,
   });
 
-  const resolutions = syncResolutions(items, join(DATA, 'hsk', 'resolutions.json'));
+  const resolutions = syncResolutions(items, join(DATA, 'hsk', 'resolutions.json'), sourceIds);
   const decisions = new Map(resolutions.map((r) => [r.id, r]));
   for (const item of items.values()) item.resolution = decisions.get(item.id)?.decision ?? null;
 

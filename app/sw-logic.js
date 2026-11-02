@@ -40,16 +40,19 @@
   }
 
   /**
-   * How the worker answers a request. `req` = { url, method, mode, range } (range: the Range header or null).
+   * How the worker answers a request. `req` = { url, method, mode, range, cache } (range: the Range header
+   * or null; cache: the request's cache mode).
    *   'navigate'  page loads: network first (NAV_TIMEOUT_MS), else the saved index.html
    *   'audio'     audio/*.mp3: cache first, whole file saved on first use, Range answered from the cache
    *   'data'      data/*.json other than the manifest: cache first by full URL (?v=<hash>)
    *   'shell'     everything else of the app: cache first (precached), network for anything missing
    *   null        not handled: non-GET, other origins, api/ (network only, never cached), the worker's own
-   *               files, and partial (Range) requests of anything but audio
+   *               files, partial (Range) requests of anything but audio, and 'only-if-cached' requests that
+   *               fetch() would reject (Chrome's developer tools send them)
    */
   function routeOf(req, scope) {
     if (String(req.method || 'GET').toUpperCase() !== 'GET') return null;
+    if (req.cache === 'only-if-cached' && req.mode !== 'same-origin') return null;
     const path = scopedPath(req.url, scope);
     if (path === null) return null;
     if (path === 'api' || path.startsWith('api/')) return null;

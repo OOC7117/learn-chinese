@@ -149,8 +149,11 @@ p { margin: 0.4em 0 0.8em; }
 .stack > * + * { margin-top: 0.75rem; }
 
 .segmented { display: flex; gap: 0.25rem; padding: 0.25rem; border-radius: 0.9rem; background: var(--surface-2); }
-.segmented .seg { flex: 1; min-height: 40px; border: 0; border-radius: 0.65rem; background: transparent; color: var(--muted); font-weight: 600; }
+.segmented .seg { flex: 1; min-height: 44px; border: 0; border-radius: 0.65rem; background: transparent; color: var(--muted); font-weight: 600; }
 .segmented .seg[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
+/* Segments that are links (e.g. Progress: level system) look like the button segments. */
+a.seg { display: inline-flex; align-items: center; justify-content: center; text-align: center; text-decoration: none; padding: 0.3rem 0.4rem; line-height: 1.2; min-width: 0; }
+a.seg:hover { color: var(--text); }
 
 .chip {
   display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.8rem;

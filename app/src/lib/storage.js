@@ -33,13 +33,16 @@ export function createStore(getBackend = () => globalThis.localStorage) {
   const memory = new Map(); // fallback when the backend refuses a write (quota, blocked)
   const store = {
     get(name) {
+      // A value kept in memory is one that storage refused (full, blocked): it is newer than what storage
+      // still holds, so it wins until a write succeeds again.
+      if (memory.has(name)) return memory.get(name);
       try {
         const value = backend()?.getItem(PREFIX + name);
         if (value !== null && value !== undefined) return value;
       } catch {
-        // fall through to memory
+        // no storage: nothing saved
       }
-      return memory.has(name) ? memory.get(name) : null;
+      return null;
     },
     /** Returns true when the value reached real storage (false: kept in memory for this visit only). */
     set(name, value) {

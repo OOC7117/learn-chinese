@@ -2,8 +2,8 @@
 //   -> 200 { state: { marks, settings, settings_t, stats, updated_at }, srs: { buckets: { "07": { rev, entries } }, more? } }
 // Header Authorization: Bearer <session token from /api/login or /api/register>. The account's email
 // comes from the token (checked with the accounts service, cached briefly; see _lib/accounts.js); an
-// `email` in the body is ignored. Missing, invalid or expired token -> 401 unauthorized. A record (or a
-// card-state bucket) is only ever created after an uncached check, so a deleted account's token cannot
+// `email` in the body is ignored. Missing, invalid or expired token -> 401 unauthorized. A record or a
+// card-state bucket is only ever created after an uncached check, so a deleted account's token cannot
 // bring it back.
 //
 // Marks, settings and statistics: full-state sync, as in the reference project. The browser sends its
@@ -140,17 +140,14 @@ function incomingRevs(raw) {
 }
 
 const sameArray = (a, b) => Array.isArray(a) && Array.isArray(b) && a.length === b.length && a.every((v, i) => v === b[i]);
+/** Same card state: review time, first review and compact card. */
+const sameEntry = (x, y) => isObject(x) && isObject(y) && x.t === y.t && (x.f ?? 0) === (y.f ?? 0) && sameArray(x.s, y.s);
 
 /** True when both srs maps hold exactly the same entries (key order ignored). */
 export function srsEqual(a, b) {
   const keys = Object.keys(a);
   if (keys.length !== Object.keys(b).length) return false;
-  for (const id of keys) {
-    const x = a[id];
-    const y = own(b, id);
-    if (!isObject(x) || !isObject(y) || x.t !== y.t || (x.f ?? 0) !== (y.f ?? 0) || !sameArray(x.s, y.s)) return false;
-  }
-  return true;
+  return keys.every((id) => sameEntry(a[id], own(b, id)));
 }
 
 export const POST = postHandler(async (request) => {
@@ -212,7 +209,9 @@ export const POST = postHandler(async (request) => {
 
   // Card states, per bucket: merge and write the buckets this request brings entries for (in parallel;
   // each is its own compare-and-set). `ackOnly` = buckets this request moved from the rev the browser
-  // had to the next one: the browser already has all of their entries.
+  // had to the next one, with every entry it sent stored as sent: the browser already has all of their
+  // entries. (Not when the merge kept something of the stored entry, e.g. an earlier first review `f`:
+  // then the browser gets the whole bucket.)
   const byBucket = new Map();
   for (const [id, entry] of Object.entries(srs)) {
     const bucket = bucketOf(id);
@@ -220,12 +219,23 @@ export const POST = postHandler(async (request) => {
     byBucket.get(bucket)[id] = entry;
   }
   const ackOnly = new Map();
-  await Promise.all([...byBucket].map(([bucket, entries]) => store.update(srsKey(email, bucket), (raw) => {
+  // A missing bucket is created only after an uncached token check too: delete-user (on another
+  // instance) may have removed the account's data after the record was read above, and its token may
+  // still be cached here. The accounts service deletes the account before it asks the apps to delete
+  // their data, so the fresh check answers 401 and no orphan bucket is left. One check per request.
+  let recheck = null;
+  const freshCheck = () => {
+    recheck ??= authenticate(request, process.env, { fresh: true }).then((result) => Object.assign(auth, result));
+    return recheck;
+  };
+  await Promise.all([...byBucket].map(([bucket, entries]) => store.update(srsKey(email, bucket), async (raw) => {
+    if (raw === null && auth.cached) await freshCheck();
     const before = normalizeBucket(raw);
     const merged = mergeSrs(onlyKnownCards(before.entries, ids), entries);
     ackOnly.delete(bucket);
     if (raw !== null && srsEqual(merged, before.entries)) return null; // nothing new: no write, same rev
-    if (before.rev === (own(revs, bucket) ?? 0)) ackOnly.set(bucket, before.rev + 1);
+    const exact = Object.entries(entries).every(([id, sent]) => sameEntry(merged[id], sent));
+    if (exact && before.rev === (own(revs, bucket) ?? 0)) ackOnly.set(bucket, before.rev + 1);
     return { rev: before.rev + 1, entries: merged };
   })));
 

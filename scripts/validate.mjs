@@ -16,6 +16,7 @@
 
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { pathToFileURL } from 'node:url';
 
 import { pinyinProblems, syllablesOf } from '../app/src/lib/pinyin.js';
 import { checkText, loadCedict, releaseDate, ROOT } from './lib/cedict.mjs';
@@ -97,6 +98,7 @@ export function validate({ root = ROOT, dict = loadCedict() } = {}) {
     if (existsSync(p)) for (const f of readdirSync(p).filter((x) => x.endsWith('.json'))) contentFiles.push(join(dir, f));
   }
   const phraseIds = new Set();
+  const phraseInfo = new Map();
   function checkLanguageItem(id, hanzi, pinyin, where, status) {
     claim(id, where);
     checkChars(id, hanzi);
@@ -134,6 +136,7 @@ export function validate({ root = ROOT, dict = loadCedict() } = {}) {
       for (const p of scene.phrases ?? []) {
         checkLanguageItem(p.id, p.hanzi, p.pinyin, `phrase (${rel})`, p.status);
         phraseIds.add(p.id);
+        phraseInfo.set(p.id, { scene: scene.id, speaker: p.speaker, status: p.status });
         requireSources(p.id, p);
         if (!p.english || !p.hanzi || !p.pinyin) fail('incomplete-phrase', p.id, 'hanzi, pinyin and english are required');
         if (!p.audio && !p.hanzi) fail('no-audio', p.id, 'no recording and no text');
@@ -171,9 +174,19 @@ export function validate({ root = ROOT, dict = loadCedict() } = {}) {
       if (!f.checked_on) fail('missing-date', f.id, 'facts that change need checked_on');
       note('fact', f, f.question ?? f.answer);
     }
+    // Dialogues only arrange phrases of their own scene; a phrase's speaker ("me", "them", "either") limits
+    // who may say it. Lines with unverified phrases hide the dialogue in the app (build), so they are noted.
     for (const d of doc.dialogues ?? []) {
       claim(d.id, rel);
-      for (const line of d.lines ?? []) if (!phraseIds.has(line.phrase_id) && !line.hanzi) fail('dialogue-unknown-phrase', d.id, line.phrase_id);
+      if (d.ai_generated !== true || typeof d.reviewed !== 'boolean') fail('ai-flags-missing', d.id, 'each dialogue needs ai_generated: true and reviewed: true|false');
+      for (const line of d.lines ?? []) {
+        const info = phraseInfo.get(line.phrase);
+        if (!info) fail('dialogue-unknown-phrase', d.id, String(line.phrase));
+        else if (info.scene !== d.scene) fail('dialogue-other-scene', d.id, `${line.phrase} belongs to ${info.scene}, not ${d.scene}`);
+        else if (line.speaker !== 'me' && line.speaker !== 'them') fail('dialogue-speaker', d.id, `${line.phrase}: speaker must be me or them`);
+        else if (info.speaker && info.speaker !== 'either' && info.speaker !== line.speaker) fail('dialogue-speaker', d.id, `${line.phrase} is said by "${info.speaker}", not "${line.speaker}"`);
+      }
+      if ((d.lines ?? []).some((l) => phraseInfo.get(l.phrase)?.status !== 'verified')) unverified.push({ kind: 'dialogue (hidden: uses an unverified phrase)', id: d.id, text: d.title, why: 'a line points at a phrase that is not verified' });
     }
   }
 
@@ -182,8 +195,17 @@ export function validate({ root = ROOT, dict = loadCedict() } = {}) {
   if (!existsSync(manifestPath)) fail('app-data-missing', 'app/data/manifest.json', 'run node scripts/build-app-data.mjs');
   const contentPath = join(app, 'data', 'content.json');
   if (existsSync(contentPath) && readJson(contentPath).dev_unverified) fail('unverified-content-in-app', 'app/data/content.json', 'built with BUILD_INCLUDE_UNVERIFIED=1: rebuild without it');
+  // Open travel questions reach the app without their (unconfirmed) answer.
+  if (existsSync(contentPath)) for (const f of readJson(contentPath).facts?.open ?? []) if ('answer' in f) fail('unverified-content-in-app', f.id, 'an open question must not carry its unconfirmed answer');
 
-  return { errors, warnings, unverified, counts: { hsk: hskCount, ids: ids.size, contentFiles: contentFiles.length }, cedict: releaseDate(dict) };
+  // One entry per item: an item can be unverified for several reasons (status and dictionary check).
+  const merged = new Map();
+  for (const u of unverified) {
+    const seen = merged.get(u.id);
+    if (!seen) merged.set(u.id, { ...u, kind: u.kind.replace(/ \([^)]*\.json\)$/, '') });
+    else if (!seen.why.includes(u.why)) seen.why = `${seen.why}; ${u.why}`;
+  }
+  return { errors, warnings, unverified: [...merged.values()], counts: { hsk: hskCount, ids: ids.size, contentFiles: contentFiles.length }, cedict: releaseDate(dict) };
 }
 
 function writeUnverified(result) {
@@ -267,4 +289,4 @@ function main() {
   process.exit(result.errors.length ? 1 : 0);
 }
 
-if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

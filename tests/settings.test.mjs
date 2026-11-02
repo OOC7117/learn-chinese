@@ -37,8 +37,8 @@ test('cleanSettings: booleans, level system and voice are type-checked', () => {
   assert.equal(s.levelSystem, 'hsk20');
   assert.equal(s.ttsVoice, 'voice-1');
   assert.equal(cleanSettings({ levelSystem: 'hsk3' }).levelSystem, D.levelSystem);
-  assert.equal(cleanSettings({ ttsVoice: 'x'.repeat(201) }).ttsVoice, '');
-  assert.equal(cleanSettings({ ttsVoice: 7 }).ttsVoice, '');
+  assert.equal(cleanSettings({ ttsVoice: 'x'.repeat(201) }).ttsVoice, D.ttsVoice);
+  assert.equal(cleanSettings({ ttsVoice: 7 }).ttsVoice, D.ttsVoice);
 });
 
 test('cleanSettings: deck lists are trimmed, validated, de-duplicated, and limited to known decks', () => {

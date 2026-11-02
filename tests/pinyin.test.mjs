@@ -57,6 +57,8 @@ test('splitChunk uses the standalone interjections (ǹg, ḿ, hm) only as a whol
   assert.deepEqual(splitChunk('ḿ'), [{ text: 'ḿ', base: 'm', tone: 2, marks: 1 }]);
   assert.deepEqual(bt(splitChunk('hm')), [['hm', 5]]);
   assert.equal(splitChunk('nga'), null, 'ng is not used as the first part of a word');
+  assert.equal(splitChunk('hǎong'), null, 'nor as the last part (hǎo + ng)');
+  assert.deepEqual(codes('hǎong'), ['not-pinyin'], 'so the validator rejects it');
   // Without the rule, strict "téngài" would split as té + n + gài.
   assert.equal(splitChunk('téngài'), null);
 });
@@ -124,7 +126,7 @@ test('parseSyllable reads marked, numbered, v and u: spellings', () => {
   assert.deepEqual(parseSyllable('nu:3'), { base: 'nü', tone: 3, marks: 0 });
   assert.deepEqual(parseSyllable('r5'), { base: 'r', tone: 5, marks: 0 });
   assert.deepEqual(parseSyllable('Ǹg'), { base: 'ng', tone: 4, marks: 1 });
-  assert.deepEqual(parseSyllable('ài'), { base: 'ai', tone: 4, marks: 1 }, 'combining marks are composed first');
+  assert.deepEqual(parseSyllable('a\u0300i'), { base: 'ai', tone: 4, marks: 1 }, 'combining marks are composed first');
 });
 
 test('numberedToMarked converts tone numbers (v and u: for ü) and keeps spacing and capitals', () => {
@@ -174,7 +176,7 @@ test('pinyinProblems codes: not-pinyin, multiple-marks, mark-position, tone-numb
   assert.deepEqual(codes('ni3 hao3'), ['tone-number']);
   assert.deepEqual(codes('lv'), ['v-for-u']);
   assert.deepEqual(codes('nu:'), ['v-for-u']);
-  assert.deepEqual(codes('m̄'), ['combining-mark'], 'a first-tone m has no precomposed form');
+  assert.deepEqual(codes('m\u0304'), ['combining-mark'], 'a first-tone m has no precomposed form');
 });
 
 // ---------- Tone sandhi hints ----------
@@ -185,6 +187,7 @@ test('spokenPinyin: 不 becomes bú before a fourth tone only', () => {
   assert.equal(spokenPinyin('不客气', 'bù kèqi'), 'bú kèqi');
   assert.equal(spokenPinyin('不客气。', 'Bù kèqi.'), 'Bú kèqi.', 'capitals and punctuation are kept');
   assert.equal(spokenPinyin('对不起', 'duìbuqǐ'), null, 'neutral-tone 不 is left alone');
+  assert.equal(spokenPinyin('可不是', 'kěbùshi'), null, 'no hint before a neutral tone');
   assert.deepEqual(spokenTones([...'不是'], [4, 4]), [2, 4]);
 });
 
@@ -194,6 +197,7 @@ test('spokenPinyin: 一 becomes yí before a fourth tone and yì before tones 1-
   assert.equal(spokenPinyin('一天', 'yītiān'), 'yìtiān');
   assert.equal(spokenPinyin('一起', 'yīqǐ'), 'yìqǐ');
   assert.equal(spokenPinyin('一天到晚', 'yītiān-dàowǎn'), 'yìtiān-dàowǎn', 'the hyphen is kept');
+  assert.equal(spokenPinyin('一个劲儿', 'yīgejìnr'), null, 'no hint before a neutral tone');
   assert.deepEqual(spokenTones([...'一天'], [1, 1]), [4, 1]);
 });
 
@@ -204,6 +208,7 @@ test('spokenPinyin: 一 keeps yī at the end, after 第 or a numeral, before 月
   assert.equal(spokenPinyin('一月', 'yīyuè'), null, 'dates keep yī');
   assert.equal(spokenPinyin('十一', 'shíyī'), null);
   assert.equal(spokenPinyin('统一', 'tǒngyī'), null);
+  assert.equal(spokenPinyin('一一', 'yīyī'), null, 'before a numeral (the official 2025 list prints 一一 yīyī)');
 });
 
 test('spokenPinyin: exactly two third tones -> second + third; longer runs get no hint', () => {

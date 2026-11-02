@@ -47,15 +47,25 @@ test('encodeCard / decodeCard round trip (minutes, 4 decimals, first review kept
   assert.equal(decodeCard(encodeCard(s.newCard(T))).last_review, undefined);
 });
 
-test('a decoded card schedules exactly like the original', () => {
+test('a decoded card schedules exactly like the original (learning, review and relearning cards, every grade)', () => {
   const s = createScheduler({ fuzz: false });
-  const card = reviewCard(s);
-  const at = card.due.getTime() + 3 * DAY;
-  const direct = s.review(card, 'good', at);
-  const viaStorage = s.review(decodeCard(encodeCard(card)), 'good', at);
-  assert.equal(viaStorage.state, direct.state);
-  assert.equal(viaStorage.reps, direct.reps);
-  assert.ok(Math.abs(viaStorage.due.getTime() - direct.due.getTime()) <= DAY, 'rounding moves the due date by at most a day');
+  const learningCard = s.review(s.newCard(T), 'good', T);
+  const graduated = reviewCard(s);
+  const relearningCard = s.review(graduated, 'again', graduated.due.getTime() + 2 * DAY);
+  assert.deepEqual([learningCard.state, graduated.state, relearningCard.state], [State.Learning, State.Review, State.Relearning]);
+  for (const card of [learningCard, graduated, relearningCard]) {
+    const stored = decodeCard(encodeCard(card));
+    for (const at of [card.due.getTime(), card.due.getTime() + 3 * DAY + 7 * MINUTE]) {
+      for (const grade of GRADES) {
+        const direct = s.review(card, grade, at);
+        const viaStorage = s.review(stored, grade, at);
+        const what = `state ${card.state}, ${grade} at +${(at - card.due.getTime()) / MINUTE}m`;
+        assert.equal(viaStorage.due.getTime(), direct.due.getTime(), what);
+        for (const key of ['state', 'reps', 'lapses', 'learning_steps', 'scheduled_days']) assert.equal(viaStorage[key], direct[key], `${what}: ${key}`);
+        assert.ok(Math.abs(viaStorage.stability - direct.stability) < 1e-3 && Math.abs(viaStorage.difficulty - direct.difficulty) < 1e-3, what);
+      }
+    }
+  }
 });
 
 test('decodeCard rejects arrays that are not a valid state', () => {
@@ -223,6 +233,12 @@ test('mergeSrs ties: more reps win, then the canonical JSON; malformed ids and e
   const two = { s: [...one.s.slice(0, 4), one.s[4] + 1, ...one.s.slice(5)], t: T };
   assert.deepEqual(mergeSrs({ 'w.1.read': one }, { 'w.1.read': two })['w.1.read'].s, two.s);
   assert.deepEqual(mergeSrs({ 'w.1.read': two }, { 'w.1.read': one })['w.1.read'].s, two.s);
+  // 10 reps beat 9 although the JSON of 9 sorts higher ("9" > "1"): reps decide before the JSON.
+  const nine = { s: [...one.s.slice(0, 4), 9, ...one.s.slice(5)], t: T };
+  const ten = { s: [...one.s.slice(0, 4), 10, ...one.s.slice(5)], t: T };
+  assert.ok(JSON.stringify(nine.s) > JSON.stringify(ten.s));
+  assert.equal(mergeSrs({ 'w.1.read': nine }, { 'w.1.read': ten })['w.1.read'].s[4], 10);
+  assert.equal(mergeSrs({ 'w.1.read': ten }, { 'w.1.read': nine })['w.1.read'].s[4], 10);
   const dirty = { 'Bad Id': one, 'w.2.read': { s: [9], t: T }, 'w.3.read': { s: one.s, t: -1 }, 'w.4.read': one, 'w.5.read': null };
   assert.deepEqual(Object.keys(mergeSrs(dirty, null)), ['w.4.read']);
   assert.deepEqual(mergeSrs(null, undefined), {});

@@ -17,12 +17,6 @@
     "sha256": "62c428c1fc9c221b8ae90281b9e1c72484c7ffdf3d0476e58a4e90cfe797446f",
     "verified": "2026-11-02"
   },
-  "hsk20": {
-    "what": "HSK 2.0 (2012) word lists, levels 1-6 (5,000 words), clem109/hsk-vocabulary (MIT).",
-    "pin": "https://raw.githubusercontent.com/clem109/hsk-vocabulary/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json/hsk-level-1.json",
-    "sha256": "e53b1a92d480adc15fd67ee266311809e16ee6c0e4af785b0c1c54f946e0b967",
-    "verified": "2026-11-02"
-  },
   "wordfreq": {
     "what": "wordfreq 3.1.1 Chinese \"large\" frequency list (data CC BY-SA 4.0), from the PyPI wheel.",
     "pin": "https://files.pythonhosted.org/packages/py3/w/wordfreq/wordfreq-3.1.1-py3-none-any.whl",
@@ -33,6 +27,12 @@
     "what": "Native-speaker Mandarin recordings (hugolpz/audio-cmn): 1,707 syllables (Chen Wang) and 8,596 HSK words (Yue Tan, Shtooka/SWAC). CC BY-SA.",
     "pin": "f759a0f18f27690742957619e1248ed91e9b3f2c",
     "sha256": "df17e7d7dfc7f740905e6ed1e71ba2171d092794d865e99cdcfa029273aa4f9e",
+    "verified": "2026-11-02"
+  },
+  "hsk20": {
+    "what": "HSK 2.0 word lists, late-2012 revision (\"HSK Official With Definitions 2012\" L1-L6), glxxyz/hskhsk.com (MIT). Only simplified word + level are used.",
+    "pin": "https://raw.githubusercontent.com/glxxyz/hskhsk.com/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists/HSK%20Official%20With%20Definitions%202012%20L1.txt",
+    "sha256": "ece8599c080487b2e091fc8ac7c24598645082b3e517c455910bd7623ce0e8cf",
     "verified": "2026-11-02"
   }
 }

@@ -26,6 +26,20 @@ export async function render(root, ctx) {
         h('p.small.muted', `Checked ${f.checked_on}`, f.recheck_url ? [' · ', h('a', { href: f.recheck_url, rel: 'noopener noreferrer', target: '_blank' }, 'Re-check here')] : null),
         sourceList(f.sources)))),
     ]) : h('p.muted', 'No checked facts yet.'),
+    openQuestions(doc?.open ?? []),
     h('p', h('a', { href: '#/speak' }, icon('back'), ' Speaking scenes')));
   return null;
+}
+
+/** Questions whose answers could not be double-checked: shown without an answer, with the official page. */
+function openQuestions(list) {
+  if (!list.length) return null;
+  return [
+    h('h2', 'Not double-checked yet'),
+    h('p.small.muted', 'For these questions the answer found could not be confirmed by a second check, so it is not shown. Look them up yourself before you travel.'),
+    h('ul.open-facts', list.map((f) => h('li',
+      h('span', f.question),
+      ' ',
+      f.official_url ? h('a.small', { href: f.official_url, rel: 'noopener noreferrer', target: '_blank' }, 'Official page') : null))),
+  ];
 }

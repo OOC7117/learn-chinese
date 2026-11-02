@@ -122,6 +122,22 @@ test('an item started without its first card type (enabled later in settings) st
   const srs2 = { ...srs, 'a.listen': review(NOW + 5 * DAY, NOW - HOUR, { first: NOW - HOUR }) };
   assert.deepEqual(ids(buildQueue({ items: items('a'), srs: srs2, now: NOW }).queue), []);
   assert.deepEqual(ids(buildQueue({ items: items('a'), srs: srs2, now: TOMORROW_NOON }).queue), ['a.read']);
+  // a is not a new item: its listen card does not use up the new-items allowance.
+  assert.deepEqual([...classify({ items: items('a'), srs: srs2, now: NOW }).introducedToday], []);
+  const withNew = buildQueue({ items: items('a', 'b', 'c'), srs: srs2, now: NOW, settings: { newPerDay: 2 } });
+  assert.equal(withNew.newLeft, 2);
+  assert.deepEqual(ids(withNew.queue), ['b.listen', 'c.listen']);
+});
+
+test('an item introduced today with a later card type (the first one switched off) counts as new today', () => {
+  // Listen was off: a started with speak today. Listen is switched on again the same day.
+  const srs = { 'a.speak': learning(NOW + 10 * MINUTE, NOW - 5 * MINUTE, { first: NOW - 5 * MINUTE }) };
+  const c = classify({ items: items('a', 'b', 'c'), srs, now: NOW });
+  assert.deepEqual([...c.introducedToday], ['a']);
+  assert.deepEqual(ids(c.siblings), [], 'listen waits for tomorrow');
+  const q = buildQueue({ items: items('a', 'b', 'c'), srs, now: NOW, settings: { newPerDay: 2 } });
+  assert.equal(q.newLeft, 1);
+  assert.deepEqual(ids(q.queue), ['b.listen']);
 });
 
 test('siblingPerDay limits the unlocked card types per day', () => {
@@ -277,4 +293,17 @@ test('pick and cardIdsOfItem', () => {
   assert.deepEqual(ids(pick(list, new Set(['c', 'a']))), ['a', 'c']);
   const srs = { 'w.1.listen': {}, 'w.1.speak': {}, 'w.10.listen': {}, 'w.1.x.read': {} };
   assert.deepEqual(cardIdsOfItem(srs, 'w.1'), ['w.1.listen', 'w.1.speak']);
+});
+
+test('a further card type of a started item is marked as a sibling, a never-studied item is not', () => {
+  const srs = { 'a.listen': review(TOMORROW_NOON, at(2026, 11, 1, 9)) }; // a was started yesterday
+  const q = buildQueue({ items: items('a', 'b'), srs, now: NOW });
+  const a = q.queue.find((x) => x.itemId === 'a');
+  const b = q.queue.find((x) => x.itemId === 'b');
+  assert.equal(a.type, 'speak');
+  assert.equal(a.kind, 'new');
+  assert.equal(a.sibling, true, 'the study view does not count it as a new word');
+  assert.equal(b.type, 'listen');
+  assert.equal(b.kind, 'new');
+  assert.equal(b.sibling, undefined);
 });

@@ -9,6 +9,7 @@
 // Deterministic (seeded random). This is a model, not a promise: real recall depends on the learner.
 
 import { createScheduler, State } from '../app/src/lib/srs.js';
+import { pathToFileURL } from 'node:url';
 
 const args = process.argv.slice(2);
 const opt = (name, def) => {
@@ -75,7 +76,7 @@ export function simulate(newPerDay, { retention = RETENTION, days = DAYS, seed =
   return { newPerDay, reached, week1: avg(0, 7), month1: avg(21, 28), month3: avg(84, 91), month6: avg(175, 182), year1: avg(358, 365), peak: Math.max(...load) };
 }
 
-if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   console.log(`FSRS-6 simulation, desired retention ${RETENTION}, ${TYPES} card types per word, 8 s per answer`);
   console.log('new/day | days to HSK1  HSK2  HSK3  HSK4  HSK5  HSK6 | answers/day: week1 month1 month3 month6 year1 (peak)');
   for (const n of [5, 10, 15, 20, 30]) {

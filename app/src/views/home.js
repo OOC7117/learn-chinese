@@ -6,6 +6,27 @@ import { deckProgress } from '../lib/queue.js';
 import { dayKey } from '../lib/queue.js';
 import { dayStats, streak } from '../lib/stats.js';
 import { activeDeckList, cardTypesFor } from '../lib/settings.js';
+import { cleanToneStats, drillAccuracy, suggestNext } from '../lib/tonedrill.js';
+
+const DRILL_NAME = { syllables: 'single syllables', pairs: 'two-syllable words', minimal: 'minimal pairs' };
+
+/** The Tones entry: a first nudge before any tone practice (the method starts with tones), then the
+ * suggested drill and the recent accuracy. */
+function tonesLink(ctx) {
+  let stats = null;
+  try {
+    stats = cleanToneStats(ctx.store.getJSON('tones'));
+  } catch {
+    stats = cleanToneStats(null);
+  }
+  const all = drillAccuracy(stats, null);
+  const next = suggestNext(stats);
+  const sub = all.n
+    ? `Next: ${DRILL_NAME[next]} · ${Math.round(all.rate * 100)} % right in your last ${all.n} answers`
+    : 'Start here: learn to hear the four tones (about 5 minutes a round)';
+  return h('li', h('a.list-link', { href: all.n ? `#/tones/${next}` : '#/tones' }, icon('tones'),
+    h('span.grow', h('span.title', 'Tones'), h('span.sub', sub)), icon('next')));
+}
 
 export async function render(root, ctx) {
   const { state, data } = ctx;
@@ -56,8 +77,8 @@ export async function render(root, ctx) {
       progressRows.length ? h('ul.list', progressRows) : h('p.muted', 'No active decks. ', h('a', { href: '#/decks' }, 'Pick decks')),
       h('div.section-title', h('h2', 'Practise')),
       h('ul.list',
+        tonesLink(ctx),
         h('li', h('a.list-link', { href: '#/speak' }, icon('speak'), h('span.grow', h('span.title', 'Speaking scenes'), h('span.sub', 'Travel, family, work: phrases and dialogues')), icon('next'))),
-        h('li', h('a.list-link', { href: '#/tones' }, icon('tones'), h('span.grow', h('span.title', 'Tones'), h('span.sub', 'Hear and tell the tones apart; pinyin chart')), icon('next'))),
         h('li', h('a.list-link', { href: '#/kinship' }, icon('family'), h('span.grow', h('span.title', 'Family terms'), h('span.sub', 'Who is 舅舅 and who is 叔叔?')), icon('next'))),
         h('li', h('a.list-link', { href: '#/facts' }, icon('plane'), h('span.grow', h('span.title', 'Travel facts'), h('span.sub', 'Visa, payment, trains: dated and sourced')), icon('next'))),
         h('li', h('a.list-link', { href: '#/progress' }, icon('chart'), h('span.grow', h('span.title', 'Progress'), h('span.sub', 'Words known per level, pace, time to next level')), icon('next')))));

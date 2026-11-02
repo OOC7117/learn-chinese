@@ -78,11 +78,11 @@ function cleanPhrase(p, dict, verifiedFile, cedictRelease) {
     pinyin_as_source: p.pinyin_as_source ?? null,
     literal: p.literal ?? null,
     english: p.english,
-    usage: p.usage ?? null,
+    usage: learnerText(p.usage),
     register: p.register ?? null,
     speaker: p.speaker ?? 'either',
     slots: p.slots ?? undefined,
-    regional_note: p.regional_note ?? null,
+    regional_note: learnerText(p.regional_note),
     ...provenance(p, cedictRelease),
     check: check.status,
     status: decideStatus(p, verifiedFile, check),
@@ -98,14 +98,58 @@ function cleanRule(r, verifiedFile, cedictRelease) {
   return {
     id: r.id,
     rule: r.rule,
-    why: r.why ?? null,
-    regional_note: r.regional_note ?? null,
+    why: learnerText(r.why),
+    regional_note: learnerText(r.regional_note),
     ...provenance(r, cedictRelease, { language: false }),
     status: decideStatus(r, verifiedFile, null),
     confidence: r.confidence ?? null,
     verification: r.verification ?? null,
     ai_generated: false,
   };
+}
+
+
+/** Research notes about the session ("was not verified in this session", "The brief's …", "Evidence: …",
+ * "(search-result summary)") belong in docs/RESEARCH.md, not in the app: drop the parentheses and the
+ * sentences (or ;-clauses) that carry them. The claims themselves are untouched. */
+const META_SENTENCE = [
+  /this session|open_questions|search-result|web search|Sources this session|Built only from/i,
+  /could not be verified|\b(?:was|were|is|are) not verified|\bNOT verified/i,
+  /not (?:found|seen) (?:verbatim|in (?:a|any|the) sources?)/i,
+  /The brief's/,
+  /^(?:Evidence|NOTE):/,
+];
+const META_PAREN = /\s*\((?:[^()]*?)(?:search-result|this session|inference|not verified|could not be opened|open_questions)[^()]*\)/gi;
+const ABBREVIATION = /(?:\b(?:e\.g|i\.e|etc|c|ca|cf|vs|pr|lit|approx|incl|esp|No)\.|\b[A-Z]\.)$/;
+
+/** Split English prose into sentences and ;-clauses, outside brackets and not after abbreviations. */
+export function clauses(text) {
+  const out = [];
+  let cur = '';
+  let depth = 0;
+  const chars = [...String(text)];
+  chars.forEach((ch, i) => {
+    cur += ch;
+    if (ch === '(' || ch === '（') depth += 1;
+    else if ((ch === ')' || ch === '）') && depth > 0) depth -= 1;
+    else if ((ch === '.' || ch === ';') && depth === 0 && /\s/.test(chars[i + 1] ?? '') && !(ch === '.' && ABBREVIATION.test(cur))) {
+      out.push(cur.trim());
+      cur = '';
+    }
+  });
+  if (cur.trim()) out.push(cur.trim());
+  return out;
+}
+
+export function learnerText(text) {
+  if (!text) return null;
+  const stripped = String(text).replace(META_PAREN, '');
+  const all = clauses(stripped);
+  const kept = all.filter((c) => !META_SENTENCE.some((re) => re.test(c)));
+  if (kept.length === all.length) return stripped.trim() || null; // nothing (else) to drop: keep the text as written
+  // A clause that ended in ";" now ends the text or a sentence: end it with a full stop.
+  const fixed = kept.map((c, i) => (c.endsWith(';') && (i === kept.length - 1 || /^[A-Z]/.test(kept[i + 1])) ? `${c.slice(0, -1)}.` : c));
+  return fixed.join(' ').replace(/\s+([.,;:])/g, '$1').trim() || null;
 }
 
 export function ingest(dir, { dict = loadCedict() } = {}) {
@@ -129,7 +173,7 @@ export function ingest(dir, { dict = loadCedict() } = {}) {
           kinship.rules.push(...rules);
           continue;
         }
-        scenes.push({ id: scene.id, title: scene.title, description: scene.description ?? null, phrases, rules });
+        scenes.push({ id: scene.id, title: scene.title, description: learnerText(scene.description), phrases, rules });
       }
     }
     const [title, intro] = TITLES[situation];
@@ -148,7 +192,7 @@ export function ingest(dir, { dict = loadCedict() } = {}) {
       id: it.id,
       title: it.title,
       rule: it.rule,
-      details: it.details ?? null,
+      details: learnerText(it.details),
       examples: (it.examples ?? []).map((ex) => ({
         hanzi: ex.hanzi,
         pinyin: citationPinyin(ex.hanzi, normalize(ex.pinyin).trim()),
@@ -158,7 +202,7 @@ export function ingest(dir, { dict = loadCedict() } = {}) {
         correct: ex.correct !== false,
         source: ex.source ?? null,
       })),
-      common_mistake: it.common_mistake ?? null,
+      common_mistake: learnerText(it.common_mistake),
       ...provenance(it, release),
       status: decideStatus(it, loaded.verifiedFile, null),
       confidence: it.confidence ?? null,

@@ -139,19 +139,47 @@ export function checkText(dict, hanzi, pinyin) {
   if (cur.length) runs.push(cur);
   let k = 0;
   for (const run of runs) {
-    for (const word of segment(dict, run)) {
-      const n = [...word].length;
-      const given = syl.slice(k, k + n).map((s) => ({ base: s.base, tone: s.tone }));
-      const next = syl[k + n] ? { tone: syl[k + n].tone } : null;
-      const res = compareWord(dict, word, given, next);
-      report.words.push({ word, given: fmt(given), ...res });
-      k += n;
-    }
+    const given = syl.slice(k, k + run.length).map((s) => ({ base: s.base, tone: s.tone }));
+    const after = syl[k + run.length] ? { tone: syl[k + run.length].tone } : null;
+    for (const w of bestSegmentation(dict, run, given, after)) report.words.push(w);
+    k += run.length;
   }
   const verdicts = report.words.map((w) => w.verdict);
   if (verdicts.some((v) => v === 'mismatch' || v === 'not-in-dictionary')) report.status = 'fail';
   else if (verdicts.some((v) => v !== 'ok')) report.status = 'warn';
   return report;
+}
+
+const VERDICT_COST = Object.freeze({ ok: 0, sandhi: 1, neutral: 1, 'chars-only': 2, mismatch: 10, 'not-in-dictionary': 10 });
+const WORD_COST = 100; // larger than any fit difference: fewer words always win
+
+/**
+ * The segmentation of a run of Han characters into CC-CEDICT words: dynamic programming over all
+ * dictionary words starting at each position. The fewest words win first (a large cost per word), and the
+ * fit with the given syllables only decides between segmentations with the same number of words. So a
+ * word is never split into characters to excuse a wrong reading (银行 "yínxíng" stays 银行 and fails,
+ * 谢谢 "xièxiè" stays 谢谢 and is flagged as a neutral-tone difference), while an ambiguous boundary is
+ * read the way that fits: greedy longest-match would read 我不会说中文 as 说中 (shuōzhòng) + 文 and wrongly
+ * fail a correct sentence; here 说 + 中文 (same number of words) fits best.
+ * Returns [{ word, given, verdict, ... }].
+ */
+export function bestSegmentation(dict, chars, given, after = null) {
+  const n = chars.length;
+  const best = new Array(n + 1).fill(null);
+  best[0] = { cost: 0, words: [] };
+  for (let i = 0; i < n; i += 1) {
+    if (!best[i]) continue;
+    for (let len = 1; len <= Math.min(dict.maxLen, n - i); len += 1) {
+      const word = chars.slice(i, i + len).join('');
+      if (len > 1 && !dict.bySimplified.has(word)) continue;
+      const part = given.slice(i, i + len);
+      const next = i + len < n ? given[i + len] : after;
+      const res = compareWord(dict, word, part, next);
+      const cost = best[i].cost + (VERDICT_COST[res.verdict] ?? 10) + WORD_COST;
+      if (!best[i + len] || cost < best[i + len].cost) best[i + len] = { cost, words: [...best[i].words, { word, given: fmt(part), ...res }] };
+    }
+  }
+  return best[n]?.words ?? [];
 }
 
 /** Display pinyin of a CC-CEDICT reading. */

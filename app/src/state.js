@@ -4,7 +4,7 @@
 
 import { cleanStats, mergeStats, recordAnswer } from './lib/stats.js';
 import { cleanSettings, sameSettings } from './lib/settings.js';
-import { createScheduler, decodeCard, makeEntry, mergeSrs } from './lib/srs.js';
+import { createScheduler, decodeCard, encodeCard, makeEntry, mergeSrs } from './lib/srs.js';
 import { mergeMarks, setMark as setMarkIn } from './lib/marks.js';
 import { dayStartOf } from './lib/queue.js';
 import { loadSettings, saveSettings } from './lib/storage.js';
@@ -96,10 +96,16 @@ export function createState({ store, now = () => Date.now() }) {
       emit({ type: 'srs', id: cardId });
       return next;
     },
-    /** Forget every card of an item (it becomes new again). */
+    /** Forget every card of an item (it becomes new again). The cards are not deleted but overwritten with
+     * a never-reviewed state that is newer than the last review, so the reset syncs to other devices
+     * (the later state wins there) instead of the old states coming back with the next sync. */
     resetItem(itemId) {
-      const next = {};
-      for (const [id, entry] of Object.entries(srs)) if (!id.startsWith(`${itemId}.`)) next[id] = entry;
+      const next = { ...srs };
+      for (const [id, entry] of Object.entries(srs)) {
+        if (!id.startsWith(`${itemId}.`)) continue;
+        const t = Math.max(now(), (entry?.t ?? 0) + 1);
+        next[id] = { s: encodeCard(scheduler.newCard(t)), t };
+      }
       srs = next;
       store.setJSON('srs', srs);
       emit({ type: 'srs', id: itemId });

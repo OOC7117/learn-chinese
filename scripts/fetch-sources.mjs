@@ -48,9 +48,9 @@ export const SOURCES = [
   },
   {
     id: 'hsk20',
-    what: 'HSK 2.0 (2012) word lists, levels 1-6 (5,000 words), clem109/hsk-vocabulary (MIT).',
+    what: 'HSK 2.0 word lists, late-2012 revision ("HSK Official With Definitions 2012" L1-L6), glxxyz/hskhsk.com (MIT). Only simplified word + level are used.',
     kind: 'url-set',
-    urls: [1, 2, 3, 4, 5, 6].map((n) => `https://raw.githubusercontent.com/clem109/hsk-vocabulary/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json/hsk-level-${n}.json`),
+    urls: [1, 2, 3, 4, 5, 6].map((n) => `https://raw.githubusercontent.com/glxxyz/hskhsk.com/8a6f229c699e2fd7ac8708156c55c3afb2be7e1f/data/lists/HSK%20Official%20With%20Definitions%202012%20L${n}.txt`),
     dest: 'hsk20',
     sha256: null,
   },
@@ -87,7 +87,7 @@ function curl(url, dest) {
 function fetchSource(src) {
   const dest = join(RAW, src.dest);
   if (src.kind === 'url') curl(src.url, dest);
-  else if (src.kind === 'url-set') src.urls.forEach((url) => curl(url, join(dest, url.split('/').pop())));
+  else if (src.kind === 'url-set') src.urls.forEach((url) => curl(url, join(dest, decodeURIComponent(url.split('/').pop()))));
   else if (src.kind === 'npm-file' || src.kind === 'wheel-file') {
     const tmp = join(RAW, `.tmp-${src.id}`);
     rmSync(tmp, { recursive: true, force: true });

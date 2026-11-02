@@ -16,9 +16,14 @@ export function audioButtons(item, ctx, { label = true } = {}) {
     play.classList.toggle('is-playing', Boolean(p && p.id === item.id));
   });
   const src = ctx.audio.sourceOf(item);
-  return h('div.audio-row', play, slow, label ? h('span.audio-src', src === 'recording'
-    ? `Recording · ${item.audio.speaker}`
-    : src === 'device' ? 'Device voice (synthetic)' : 'No audio on this device') : null);
+  return h('div.audio-row', play, slow, label ? h('span.audio-src', sourceLabel(src, item)) : null);
+}
+
+/** The label next to a play button: who or what speaks. */
+export function sourceLabel(src, item) {
+  if (src === 'recording') return `Recording · ${item.audio.speaker}`;
+  if (src === 'generated') return 'Generated voice (synthetic)';
+  return src === 'device' ? 'Device voice (synthetic)' : 'No audio on this device';
 }
 
 /** Star (hard) and skip (already known) toggles for an item. */

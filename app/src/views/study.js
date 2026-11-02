@@ -9,7 +9,8 @@ import { h, replace, icon, zh, py, announce } from '../dom.js';
 import { studyQueue } from '../study-items.js';
 import { intervalLabel } from '../lib/srs.js';
 import { syllablesOf, stripTones } from '../lib/pinyin.js';
-import { audioButtons, markButtons, pinyinBlock, meaningList } from './parts.js';
+import { audioButtons, markButtons, pinyinBlock, meaningList, sourceLabel } from './parts.js';
+import { recordingSupport, createRecorder, playBuffer, playBlob, releaseAudio, describeError } from '../recorder.js';
 
 const TYPE_LABEL = { listen: 'Listen', speak: 'Speak', read: 'Characters', cloze: 'In a phrase' };
 const GRADE_KEYS = { 1: 'again', 2: 'hard', 3: 'good', 4: 'easy' };
@@ -53,6 +54,7 @@ export async function render(root, ctx) {
     current = q.queue[0];
     item = q.byId.get(current.itemId);
     revealed = false;
+    take = null;
     clozeExample = null;
     shownAt = Date.now();
     draw();
@@ -74,7 +76,7 @@ export async function render(root, ctx) {
         h('button.btn.small', { type: 'button', onclick: () => audio.play(item, { slow: true }) }, icon('slow'), 'Slowly'),
         h('p.muted', 'What does it mean?'),
         state.settings.toneCheck ? toneCheck() : null,
-        h('p.audio-src', audio.sourceOf(item) === 'recording' ? `Recording · ${item.audio.speaker}` : 'Device voice (synthetic)'));
+        h('p.audio-src', sourceLabel(audio.sourceOf(item), item)));
     }
     if (t === 'speak') {
       // Only the English: usage notes often contain the Chinese answer, so they are shown after revealing.
@@ -82,7 +84,8 @@ export async function render(root, ctx) {
       return h('div.prompt',
         h('p.meaning', en),
         item.kind === 'phrase' && item.register && item.register !== 'neutral' ? h('span.chip', item.register) : null,
-        h('p.muted', 'Say it in Chinese, out loud. Then check.'));
+        h('p.muted', 'Say it in Chinese, out loud. Then check.'),
+        recordControls());
     }
     if (t === 'read') {
       return h('div.prompt',
@@ -93,13 +96,47 @@ export async function render(root, ctx) {
     return h('div.prompt', zh(item.hanzi, 'big-hanzi'));
   }
 
+  // Record and compare (speak cards, optional): record yourself before revealing, then play your take and
+  // the model one after the other. The recording stays in memory on this device (src/recorder.js).
+  let recorder = null;
+  let take = null;
+  const playTake = () => (take?.buffer ? playBuffer(take.buffer) : playBlob(take?.blob));
+  function recordControls() {
+    if (!recordingSupport().ok) return null;
+    recorder ??= createRecorder({ maxMs: 8000 });
+    const wrap = h('div.record-row');
+    const drawRecord = (live = recorder.recording) => {
+      replace(wrap,
+        live
+          ? h('button.btn.small.is-recording', { type: 'button', onclick: () => recorder.stop() }, icon('stop'), 'Stop')
+          : h('button.btn.small', { type: 'button', onclick: startRecording }, icon('mic'), take ? 'Record again' : 'Record yourself'),
+        !live && take && revealed ? [
+          h('button.btn.small', { type: 'button', onclick: () => playTake() }, icon('play'), 'Mine'),
+          h('button.btn.small', { type: 'button', onclick: async () => { if (await playTake()) audio.play(item); } }, icon('play'), 'Mine, then the model'),
+        ] : null,
+        !live && take && !revealed ? h('span.small.muted', 'Recorded. Check to compare.') : null);
+    };
+    function startRecording() {
+      const forCard = current?.id;
+      // record() must start inside the tap (iOS); it resolves when the recording ends.
+      recorder.record({ onStart: () => drawRecord(true) })
+        .then((result) => {
+          if (result && current?.id === forCard) take = result;
+        })
+        .catch((error) => announce(describeError(error).message))
+        .finally(() => drawRecord(false));
+    }
+    drawRecord();
+    return wrap;
+  }
+
   let clozeExample = null;
   function clozePrompt() {
     return h('div.prompt', h('p.muted', 'Which word fits the gap?'), loadCloze());
   }
   function loadCloze() {
     const slot = h('div');
-    ctx.data.examplesFor(item.hanzi, { limit: 10 }).then((examples) => {
+    ctx.data.examplesFor(item.hanzi, { id: item.id, limit: 10 }).then((examples) => {
       if (!examples.length) {
         replace(slot, h('p', item.meanings[0] ?? ''));
         return;
@@ -189,7 +226,8 @@ export async function render(root, ctx) {
   function grade(g) {
     if (!current || !revealed) return;
     const ms = Date.now() - shownAt;
-    const newItem = current.kind === 'new' && firstType.get(item.id) === current.type;
+    // A new word = the first card of an item never studied (not a further card type of a started item).
+    const newItem = current.kind === 'new' && !current.sibling && firstType.get(item.id) === current.type;
     state.answer(current.id, g, { ms, newItem });
     answered += 1;
     if ('storage' in navigator && answered === 1) navigator.storage.persist?.().catch(() => {});
@@ -211,10 +249,11 @@ export async function render(root, ctx) {
   }
 
   function onKey(event) {
-    if (event.target.closest('input, textarea, select, [contenteditable]') || event.metaKey || event.ctrlKey || event.altKey) return;
-    if (!current) return;
+    if (event.target.closest('input, textarea, select, [contenteditable], dialog') || event.metaKey || event.ctrlKey || event.altKey) return;
+    if (!current || document.querySelector('dialog[open]')) return;
     const key = event.key.toLowerCase();
     if ((key === ' ' || key === 'enter') && !revealed) {
+      if (event.target.closest('a, button, summary')) return; // the focused link or button does its own thing
       event.preventDefault();
       reveal();
     } else if (revealed && GRADE_KEYS[key]) {
@@ -231,5 +270,9 @@ export async function render(root, ctx) {
     disposed = true;
     clearTimeout(waitTimer);
     document.removeEventListener('keydown', onKey);
+    if (recorder) {
+      recorder.cancel();
+      releaseAudio();
+    }
   };
 }

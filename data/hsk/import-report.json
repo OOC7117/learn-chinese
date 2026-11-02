@@ -7,18 +7,18 @@
   "5": 1591,
   "6": 1792,
   "7-9": 5583,
-  "other": 1436
+  "other": 1408
  },
  "matchCounts": {
-  "ok": 12204,
-  "neutral": 139,
+  "ok": 12172,
+  "neutral": 141,
   "mismatch": 8,
-  "chars-only": 43
+  "chars-only": 45
  },
  "audioCounts": {
-  "syllable": 1651,
-  "word": 5736,
-  "tts": 5007
+  "syllable": 1672,
+  "word": 5711,
+  "tts": 4983
  },
  "problems": []
 }

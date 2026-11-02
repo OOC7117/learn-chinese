@@ -25,6 +25,11 @@ const WORDS = [
   ['w.7231-4eba.ai4ren5', '爱人', 'àiren', ['spouse (PRC)', 'lover (non-PRC)'], 6130],
   ['w.597d.hao4', '好', 'hào', ['to be fond of; to have a tendency to; to be prone to'], 57],
   ['w.4e0d-5ba2-6c14.bu4ke4qi5', '不客气', 'bù kèqi', ["you're welcome", "don't mention it"], null],
+  ['w.4e09.san1', '三', 'sān', ['three', '3', 'surname San'], 109],
+  ['w.53ef.ke3', '可', 'kě', ['(prefix) can; may; able to; -able', 'to approve; to permit'], 109],
+  ['w.53ef-4ee5.ke3yi3', '可以', 'kěyǐ', ['can', 'may'], 41],
+  ['w.5403.chi1', '吃', 'chī', ['to eat; to consume', 'to eat at (a cafeteria etc)'], 253],
+  ['w.996e-98df.yin3shi2', '饮食', 'yǐnshí', ['eating and drinking', 'food and drink; diet'], 3724],
 ].map(([id, hanzi, pinyin, meanings, freq]) => ({ kind: 'word', id, hanzi, pinyin, meanings, freq }));
 // A phrase (data/situations/travel.json), searched by its English.
 const PHRASE = { kind: 'phrase', id: 'travel.greetings.xiexie', hanzi: '谢谢！', pinyin: 'Xièxie!', english: 'Thank you! / Thanks!' };
@@ -84,10 +89,12 @@ test('pinyin with tones: exact first, a syllable typed without its tone matches 
   assert.deepEqual(find('nv3'), ['女 nǚ', '女儿 nǚ’ér']);
   assert.deepEqual(find('nv3er2'), ['女儿 nǚ’ér'], 'the tone number keeps "er" a syllable of its own');
   assert.deepEqual(find('ke3ai4'), ['可爱 kě’ài']);
+  assert.deepEqual(find('ke3'), ['可 kě', '可以 kěyǐ', '可爱 kě’ài'], 'the exact syllable first, even before a more frequent longer word');
 });
 
-test('a query of tone numbers alone matches nothing (not everything)', () => {
-  assert.deepEqual(find('3'), []);
+test('digits without a syllable search the English meanings, never match everything', () => {
+  assert.deepEqual(find('3'), ['三 sān'], 'three; 3');
+  assert.deepEqual(find('10'), ['十 shí'], 'ten; 10');
   assert.deepEqual(find('2025'), []);
 });
 
@@ -98,9 +105,10 @@ test('English: whole-word prefixes, meanings that start with the query rank firs
   assert.deepEqual(find('daughter'), ['女 nǚ', '女儿 nǚ’ér'], 'a meaning that starts with the query (any meaning), then by frequency');
   assert.deepEqual(find('woman'), ['女 nǚ']);
   assert.deepEqual(find('to be fond of'), ['好 hào', '爱 ài', '爱好 àihào'], 'equal scores: by frequency');
-  assert.deepEqual(find('love').sort(), ['可爱 kě’ài', '爱 ài', '爱人 àiren', '热爱 rè’ài'].sort(), 'love, lovely, lover');
+  assert.deepEqual(find('love'), ['爱 ài', '热爱 rè’ài', '可爱 kě’ài', '爱人 àiren'], '"to love" first; lovely, lover after (by frequency)');
+  assert.deepEqual(find('eat'), ['吃 chī', '饮食 yǐnshí'], '"to eat" beats "eating and drinking"');
   assert.deepEqual(find('ate'), [], 'not inside a word (appropriate)');
-  assert.deepEqual(find('you'), ['你 nǐ', '不客气 bù kèqi', '谢谢 xièxie', '谢谢！ Xièxie!'], 'starting a meaning beats "thank you"');
+  assert.deepEqual(find('you'), ['你 nǐ', '谢谢 xièxie', '不客气 bù kèqi', '谢谢！ Xièxie!'], 'only 你 starts a meaning with the word "you"; then by frequency');
   assert.deepEqual(find('(prc'), ['爱人 àiren'], 'regex characters are matched literally');
   assert.doesNotThrow(() => find('c++ [x'));
 });
