@@ -1,0 +1,14 @@
+# Upstream downloads (scripts/fetch-sources.mjs); large and reproducible from data/sources.lock.json
+raw/
+# Node
+node_modules/
+# Local state of the dev server and Vercel
+.data/
+app/.data/
+.vercel/
+app/.vercel/
+.env*
+!.env.example
+# Generated reports
+build/
+.DS_Store

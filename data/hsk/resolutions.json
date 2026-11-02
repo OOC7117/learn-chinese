@@ -1,0 +1,3732 @@
+{
+ "about": "Every HSK word whose pinyin is not exactly a CC-CEDICT reading, with an explicit decision. decision: keep-hsk | use-cedict | exclude | pending. Rule-based decisions say so in decided_by; reviewed ones name the reviewer and sources.",
+ "resolutions": [
+  {
+   "id": "w.4e00-4e2a-52b2-513f.yi1ge5jin4r5",
+   "hanzi": "一个劲儿",
+   "pinyin": "yīgejìnr",
+   "category": "neutral",
+   "cedict_readings": [
+    "yī gè jìn r"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yīgejìnr",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e00-584c-7cca-6d82.yi1ta1hu2tu2",
+   "hanzi": "一塌糊涂",
+   "pinyin": "yītāhútú",
+   "category": "neutral",
+   "cedict_readings": [
+    "yī tā hú tu"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yītāhútú",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e00-6643.yi1huang4",
+   "hanzi": "一晃",
+   "pinyin": "yīhuàng",
+   "category": "mismatch",
+   "cedict_readings": [
+    "yī huǎng"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yīhuàng",
+   "note": "Both official lists print yíhuàng, the tone-sandhi spelling of citation yīhuàng (2025 no. 10222; GF 0025-2021 L7-4885), while CC-CEDICT has only yī huǎng for both senses ('time passing in an instant', 'a sight flashing past'). The official reading is kept because the official lists outrank CC-CEDICT; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 10222, level 7-9: 一晃 yíhuàng 动. The list also has 晃 huǎng (no. 7171) and 晃 huàng (no. 7175) as separate items."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L7-4885 一晃: Pinyin yīhuàng, WebPinyin yíhuàng (V, level 7-9)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "一晃 [yi1 huang3] (of passing time) in an instant / (of a sight) in a flash; 晃 [huang3] to dazzle / to flash past; 晃 [huang4] to sway / to shake / to wander about."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.4e00-756a.yi1fan1",
+   "hanzi": "一番",
+   "pinyin": "yīfān",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yīfān",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e00-8def-4e0a.yi1lu4shang5",
+   "hanzi": "一路上",
+   "pinyin": "yīlù shang",
+   "category": "neutral",
+   "cedict_readings": [
+    "yī lù shàng"
+   ],
+   "lists": [
+    "std2021:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yīlù shang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0a-4e2a-6708.shang4ge5yue4",
+   "hanzi": "上个月",
+   "pinyin": "shàng ge yuè",
+   "category": "neutral",
+   "cedict_readings": [
+    "shàng gè yuè"
+   ],
+   "lists": [
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shàng ge yuè",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0b-4e2a-6708.xia4ge5yue4",
+   "hanzi": "下个月",
+   "pinyin": "xià ge yuè",
+   "category": "neutral",
+   "cedict_readings": [
+    "xià gè yuè"
+   ],
+   "lists": [
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xià ge yuè",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0b-6765.xia4lai2",
+   "hanzi": "下来",
+   "pinyin": "xiàlái",
+   "category": "neutral",
+   "cedict_readings": [
+    "xià lai"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xiàlái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0b-8f7d.xia4zai4",
+   "hanzi": "下载",
+   "pinyin": "xiàzài",
+   "category": "mismatch",
+   "cedict_readings": [
+    "xià zǎi"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xiàzài",
+   "note": "Both official lists print xiàzài (2025 no. 3230; GF 0025-2021 L4-0788), matching 卸载 xièzài in the 2025 list, and CC-CEDICT's own 下载 entry (xià zǎi) adds 'also pr. [xia4zai4]'. The official reading is kept; xià zǎi (the separate HSK 2.0 item) is the CC-CEDICT variant.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 3230, level 5: 下载 xiàzài 动; no. 9935: 卸载 xièzài 动."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L4-0788 下载: Pinyin xiàzài, WebPinyin xiàzài (V, level 4)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "下载 [xia4 zai3] to download / also pr. [xia4zai4]; 卸载 [xie4 zai4] to unload cargo / to uninstall (software)."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.4e0d-4e00-4f1a-513f.bu4yi1hui4r5",
+   "hanzi": "不一会儿",
+   "pinyin": "bù yīhuìr",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bù yīhuìr",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-4e88.bu4yu3",
+   "hanzi": "不予",
+   "pinyin": "bù yǔ",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bù yǔ",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-5229-4e8e.bu4li4yu2",
+   "hanzi": "不利于",
+   "pinyin": "bùlì yú",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bùlì yú",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-592a.bu4tai4",
+   "hanzi": "不太",
+   "pinyin": "bù tài",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bù tài",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-5982-8bf4.bu4ru2shuo1",
+   "hanzi": "不如说",
+   "pinyin": "bùrú shuō",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bùrú shuō",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-80af.bu4ken3",
+   "hanzi": "不肯",
+   "pinyin": "bù kěn",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bù kěn",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-89c1-5f97.bu4jian4de2",
+   "hanzi": "不见得",
+   "pinyin": "bùjiàndé",
+   "category": "neutral",
+   "cedict_readings": [
+    "bù jiàn de"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bùjiàndé",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0d-96be.bu4nan2",
+   "hanzi": "不难",
+   "pinyin": "bù nán",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bù nán",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e24-7ffc.liang3yi4",
+   "hanzi": "两翼",
+   "pinyin": "liǎngyì",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "liǎngyì",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e66-8bb0.shu1ji4",
+   "hanzi": "书记",
+   "pinyin": "shūjì",
+   "category": "neutral",
+   "cedict_readings": [
+    "shū ji"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shūjì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e8b-5b9e-4e0a.shi4shi2shang5",
+   "hanzi": "事实上",
+   "pinyin": "shìshíshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "shì shí shàng"
+   ],
+   "lists": [
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shìshíshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4ef7-94b1.jia4qian2",
+   "hanzi": "价钱",
+   "pinyin": "jiàqián",
+   "category": "neutral",
+   "cedict_readings": [
+    "jià qian"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jiàqián",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4efb-6027.ren2xing4",
+   "hanzi": "任性",
+   "pinyin": "rénxìng",
+   "category": "mismatch",
+   "cedict_readings": [
+    "rèn xìng"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "use-cedict",
+   "pinyin_used": "rènxìng",
+   "note": "The official 2025 list prints rénxìng (no. 8815), which appears to be a typo in the list itself: it reads 任 as rèn in all 23 of its other 任 words (任何 rènhé, 任意 rènyì, 任 rèn, 责任 zérèn...). CC-CEDICT gives 任性 rèn xìng and uses rén only in names (the surname, place names), and HSK 2.0 also has rèn xìng, so the learner should learn rènxìng.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 8815, level 7-9: 任性 rénxìng 形; elsewhere in the same list: 任何 rènhé (1613), 任 rèn (8822), 任意 rènyì (8826), 责任 zérèn (1920), 信任 xìnrèn (3284)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "任性 [ren4 xing4] willful / headstrong / unruly; 任 [Ren2] surname Ren (the other ren2 entries are names, e.g. 任丘 [Ren2 qiu1]); 任 [ren4] to assign / to appoint / ... / to let / to allow / to give free rein to."
+    },
+    {
+     "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+     "title": "HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Level 6, id 4039: 任性 rèn xìng (willful, headstrong, uninhibited)."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.4f4d-7f6e.wei4zhi4",
+   "hanzi": "位置",
+   "pinyin": "wèizhì",
+   "category": "neutral",
+   "cedict_readings": [
+    "wèi zhi"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:4",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "wèizhì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5012-4e0b.dao3xia5",
+   "hanzi": "倒下",
+   "pinyin": "dǎoxia",
+   "category": "neutral",
+   "cedict_readings": [
+    "dǎo xià"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dǎoxia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5012-662f.dao4shi4",
+   "hanzi": "倒是",
+   "pinyin": "dàoshì",
+   "category": "neutral",
+   "cedict_readings": [
+    "dào shi"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dàoshì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.503c-5f97.zhi2de2",
+   "hanzi": "值得",
+   "pinyin": "zhídé",
+   "category": "neutral",
+   "cedict_readings": [
+    "zhí de"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:3",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhídé",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.505a-751f-610f.zuo4sheng1yi5",
+   "hanzi": "做生意",
+   "pinyin": "zuò shēngyi",
+   "category": "neutral",
+   "cedict_readings": [
+    "zuò shēng yì"
+   ],
+   "lists": [
+    "std2021:7-9",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zuò shēngyi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.505c-4e0b.ting2xia5",
+   "hanzi": "停下",
+   "pinyin": "tíngxia",
+   "category": "neutral",
+   "cedict_readings": [
+    "tíng xià"
+   ],
+   "lists": [
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tíngxia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.514d-4e0d-4e86.mian3bu5liao3",
+   "hanzi": "免不了",
+   "pinyin": "miǎnbuliǎo",
+   "category": "neutral",
+   "cedict_readings": [
+    "miǎn bù liǎo"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "miǎnbuliǎo",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.516c-76ca-6027.gong1yi4xing4",
+   "hanzi": "公益性",
+   "pinyin": "gōngyìxìng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gōngyìxìng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5173-4e0a.guan1shang5",
+   "hanzi": "关上",
+   "pinyin": "guānshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "guān shàng"
+   ],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "guānshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5173-7cfb.guan1xi4",
+   "hanzi": "关系",
+   "pinyin": "guānxì",
+   "category": "neutral",
+   "cedict_readings": [
+    "guān xi"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:3",
+    "hsk20:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "guānxì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5174-9ad8-91c7-70c8.xing1gao1cai3lie4",
+   "hanzi": "兴高采烈",
+   "pinyin": "xīng gāo cǎi liè",
+   "category": "mismatch",
+   "cedict_readings": [
+    "xìng gāo cǎi liè"
+   ],
+   "lists": [
+    "hsk20:6"
+   ],
+   "decision": "use-cedict",
+   "pinyin_used": "xìnggāocǎiliè",
+   "note": "Only the community HSK 2.0 transcription (clem109) has xīng gāo cǎi liè; the official 2025 list (no. 9993), GF 0025-2021 (L7-4650) and CC-CEDICT all give xìnggāo-cǎiliè, with 兴 xìng 'excitement, interest'. The HSK 2.0 source is wrong, so xìnggāocǎiliè is used.",
+   "sources": [
+    {
+     "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+     "title": "HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Level 6, id 4526: 兴高采烈 xīng gāo cǎi liè."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 9993, level 7-9: 兴高采烈 xìnggāo-cǎiliè."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L7-4650 兴高采烈: Pinyin xìnggāo-cǎiliè, WebPinyin xìnggāo-cǎiliè (level 7-9)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "兴高采烈 [xing4 gao1 cai3 lie4] happy and excited (idiom) / in high spirits; 兴 [xing4] feeling or desire to do sth / interest in sth / excitement."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.51fa-8840.chu1xie3",
+   "hanzi": "出血",
+   "pinyin": "chūxiě",
+   "category": "mismatch",
+   "cedict_readings": [
+    "chū xuè"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "chūxiě",
+   "note": "GF 0025-2021 prints chū∥xiě (L7-0552) and chooses the reading of 血 word by word (献血 xiànxiě, but 输血 shū∥xuè, 流血 liúxuè, 止血 zhǐxuè), which suggests xiě is deliberate rather than a typo; CC-CEDICT has chū xuè but records xiě as the colloquial reading of 血. The official-standard reading is kept; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "sources": [
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L7-0552 出血: Pinyin chūxiě, WebPinyin chū∥xiě (level 7-9). Same list: 献血 xiànxiě (L7-4508), 输血 shū∥xuè (L7-3818), 流血 liúxuè (L7-2695), 止血 zhǐxuè (L7-5370)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "出血 [chu1 xue4] to bleed; bleeding / (fig.) to spend money in large amounts; 血 [xue4] blood / colloquial pr. [xie3]; 一针见血 [yi1 zhen1 jian4 xie3]."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "出血 is not in the 2025 list; it reads 血 xiě (no. 1818) and 一针见血 yìzhēn-jiànxiě (no. 10303), but 输血 shūxuè (9172) and 流血 liúxuè (8062)."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.521a-521a.gang1gang1",
+   "hanzi": "刚刚",
+   "pinyin": "gānggāng",
+   "category": "neutral",
+   "cedict_readings": [
+    "gāng gang"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:2",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gānggāng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.522b-4eba.bie2ren2",
+   "hanzi": "别人",
+   "pinyin": "biérén",
+   "category": "neutral",
+   "cedict_readings": [
+    "bié ren"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:1",
+    "hsk20:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "biérén",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5269-4e0b.sheng4xia5",
+   "hanzi": "剩下",
+   "pinyin": "shèngxia",
+   "category": "neutral",
+   "cedict_readings": [
+    "shèng xià"
+   ],
+   "lists": [
+    "std2021:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shèngxia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.529b-91cf.li4liang4",
+   "hanzi": "力量",
+   "pinyin": "lìliàng",
+   "category": "neutral",
+   "cedict_readings": [
+    "lì liang"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:3",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "lìliàng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.52a8-9759.dong4jing5",
+   "hanzi": "动静",
+   "pinyin": "dòngjing",
+   "category": "neutral",
+   "cedict_readings": [
+    "dòng jìng"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dòngjing",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.52bf-529b.shi4li4",
+   "hanzi": "势力",
+   "pinyin": "shìlì",
+   "category": "neutral",
+   "cedict_readings": [
+    "shì li"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:5",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shìlì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.52bf-5934.shi4tou5",
+   "hanzi": "势头",
+   "pinyin": "shìtou",
+   "category": "neutral",
+   "cedict_readings": [
+    "shì tóu"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shìtou",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.52e4-5feb.qin2kuai5",
+   "hanzi": "勤快",
+   "pinyin": "qínkuai",
+   "category": "neutral",
+   "cedict_readings": [
+    "qín kuài"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "qínkuai",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5317-8fb9.bei3bian5",
+   "hanzi": "北边",
+   "pinyin": "běibian",
+   "category": "neutral",
+   "cedict_readings": [
+    "běi biān"
+   ],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "běibian",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.538b-8f74.ya1zhou4",
+   "hanzi": "压轴",
+   "pinyin": "yāzhòu",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yāzhòu",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53cd-8fc7-6765.fan3guo4lai2",
+   "hanzi": "反过来",
+   "pinyin": "fǎn guòlái",
+   "category": "neutral",
+   "cedict_readings": [
+    "fǎn guo lái"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fǎn guòlái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53d1-813e-6c14.fa1pi2qi5",
+   "hanzi": "发脾气",
+   "pinyin": "fā píqi",
+   "category": "neutral",
+   "cedict_readings": [
+    "fā pí qì"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fā píqi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53d7-4e0d-4e86.shou4bu5liao3",
+   "hanzi": "受不了",
+   "pinyin": "shòubuliǎo",
+   "category": "neutral",
+   "cedict_readings": [
+    "shòu bù liǎo"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:4",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shòubuliǎo",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53e3-54e8-513f.kou3shao4r5",
+   "hanzi": "口哨儿",
+   "pinyin": "kǒushàor",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "kǒushàor",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53e3-888b.kou3dai5",
+   "hanzi": "口袋",
+   "pinyin": "kǒudai",
+   "category": "neutral",
+   "cedict_readings": [
+    "kǒu dài"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "kǒudai",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53ea-4e0d-8fc7.zhi3bu4guo4",
+   "hanzi": "只不过",
+   "pinyin": "zhǐbùguò",
+   "category": "neutral",
+   "cedict_readings": [
+    "zhǐ bu guò"
+   ],
+   "lists": [
+    "std2021:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhǐbùguò",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.53ef-4e0d-662f.ke3bu4shi5",
+   "hanzi": "可不是",
+   "pinyin": "kěbùshi",
+   "category": "neutral",
+   "cedict_readings": [
+    "kě bu shì"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "kěbùshi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5408-540c.he2tong2",
+   "hanzi": "合同",
+   "pinyin": "hétóng",
+   "category": "neutral",
+   "cedict_readings": [
+    "hé tong"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:4",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hétóng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.540e-9762.hou4mian4",
+   "hanzi": "后面",
+   "pinyin": "hòumiàn",
+   "category": "neutral",
+   "cedict_readings": [
+    "hòu mian"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:3",
+    "hsk20:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hòumiàn",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5429-5490.fen1fu4",
+   "hanzi": "吩咐",
+   "pinyin": "fēnfù",
+   "category": "neutral",
+   "cedict_readings": [
+    "fēn fu"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fēnfù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5473-9053.wei4dao4",
+   "hanzi": "味道",
+   "pinyin": "wèidào",
+   "category": "neutral",
+   "cedict_readings": [
+    "wèi dao"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "wèidào",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.55ef.ng4",
+   "hanzi": "嗯",
+   "pinyin": "ǹg",
+   "category": "mismatch",
+   "cedict_readings": [
+    "ēn",
+    "èn",
+    "en"
+   ],
+   "lists": [
+    "exam2025:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "ǹg",
+   "note": "The official 2025 list prints the syllabic-nasal reading ǹg (no. 1534, interjection). CC-CEDICT spells 嗯 only as en1/en4/en5 (although it writes syllabic nasals for 呣 m and 哼 hng) and HSK 2.0 has en, so the official citation form ǹg is kept.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 1534, level 4: 嗯 ǹg 叹."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "嗯 [en1] (a groaning sound); 嗯 [en4] (nonverbal grunt as interjection) / OK, yeah / what?; 嗯 [en5] interjection indicating approval, appreciation or agreement. Syllabic nasals elsewhere: 呣 [m2]/[m4], 哼 [hng5]."
+    },
+    {
+     "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+     "title": "HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Level 6, id 3812: 嗯 en (interjection indicating approval)."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.5631-5490.zhu3fu4",
+   "hanzi": "嘱咐",
+   "pinyin": "zhǔfù",
+   "category": "neutral",
+   "cedict_readings": [
+    "zhǔ fu"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhǔfù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.56de-53bb.hui2qu4",
+   "hanzi": "回去",
+   "pinyin": "huíqù",
+   "category": "neutral",
+   "cedict_readings": [
+    "huí qu"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huíqù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.56de-6765.hui2lai2",
+   "hanzi": "回来",
+   "pinyin": "huílái",
+   "category": "neutral",
+   "cedict_readings": [
+    "huí lai"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huílái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.56fa-6267.gu4zhi5",
+   "hanzi": "固执",
+   "pinyin": "gùzhi",
+   "category": "neutral",
+   "cedict_readings": [
+    "gù zhí"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gùzhi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.574f-5904.huai4chu4",
+   "hanzi": "坏处",
+   "pinyin": "huàichù",
+   "category": "neutral",
+   "cedict_readings": [
+    "huài chu"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huàichù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.57ce-91cc.cheng2li3",
+   "hanzi": "城里",
+   "pinyin": "chénglǐ",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "chénglǐ",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.57fa-672c-4e0a.ji1ben3shang4",
+   "hanzi": "基本上",
+   "pinyin": "jīběnshàng",
+   "category": "neutral",
+   "cedict_readings": [
+    "jī běn shang"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jīběnshàng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5916-7525.wai4sheng5",
+   "hanzi": "外甥",
+   "pinyin": "wàisheng",
+   "category": "neutral",
+   "cedict_readings": [
+    "wài shēng"
+   ],
+   "lists": [
+    "exam2025:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "wàisheng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.591c-91cc.ye4li3",
+   "hanzi": "夜里",
+   "pinyin": "yèlǐ",
+   "category": "neutral",
+   "cedict_readings": [
+    "yè li"
+   ],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yèlǐ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5927-4f53-4e0a.da4ti3shang5",
+   "hanzi": "大体上",
+   "pinyin": "dàtǐ shang",
+   "category": "neutral",
+   "cedict_readings": [
+    "dà tǐ shàng"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dàtǐ shang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5927-5927-54a7-54a7.da4da5lie1lie1",
+   "hanzi": "大大咧咧",
+   "pinyin": "dàdaliēliē",
+   "category": "neutral",
+   "cedict_readings": [
+    "dà dà liē liē"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dàdaliēliē",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.592a-9633.tai4yang2",
+   "hanzi": "太阳",
+   "pinyin": "tàiyáng",
+   "category": "neutral",
+   "cedict_readings": [
+    "tài yang"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:2",
+    "hsk20:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tàiyáng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.592b-4eba.fu1ren2",
+   "hanzi": "夫人",
+   "pinyin": "fūrén",
+   "category": "neutral",
+   "cedict_readings": [
+    "fū ren"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:4",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fūrén",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.597d-5904.hao3chu4",
+   "hanzi": "好处",
+   "pinyin": "hǎochù",
+   "category": "neutral",
+   "cedict_readings": [
+    "hǎo chǔ",
+    "hǎo chu"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hǎochù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.59a5-5f53.tuo3dang4",
+   "hanzi": "妥当",
+   "pinyin": "tuǒdàng",
+   "category": "neutral",
+   "cedict_readings": [
+    "tuǒ dang"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tuǒdàng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5b66-751f.xue2sheng1",
+   "hanzi": "学生",
+   "pinyin": "xuéshēng",
+   "category": "neutral",
+   "cedict_readings": [
+    "xué sheng"
+   ],
+   "lists": [
+    "exam2025:1",
+    "std2021:1",
+    "hsk20:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xuéshēng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5b66-95ee.xue2wen5",
+   "hanzi": "学问",
+   "pinyin": "xuéwen",
+   "category": "neutral",
+   "cedict_readings": [
+    "xué wèn"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:4",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xuéwen",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5b9a-4e3a.ding4wei2",
+   "hanzi": "定为",
+   "pinyin": "dìngwéi",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dìngwéi",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5bb6-91cc.jia1li5",
+   "hanzi": "家里",
+   "pinyin": "jiā li",
+   "category": "neutral",
+   "cedict_readings": [
+    "jiā lǐ"
+   ],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jiā li",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5c0f-59d0.xiao3jie3",
+   "hanzi": "小姐",
+   "pinyin": "xiǎojiě",
+   "category": "neutral",
+   "cedict_readings": [
+    "xiǎo jie"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:1",
+    "hsk20:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xiǎojiě",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5c0f-6c14.xiao3qi5",
+   "hanzi": "小气",
+   "pinyin": "xiǎoqi",
+   "category": "neutral",
+   "cedict_readings": [
+    "xiǎo qì"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:7-9",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xiǎoqi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5c0f-738b.xiao3wang2",
+   "hanzi": "小王",
+   "pinyin": "Xiǎo Wáng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [],
+   "decision": "keep-hsk",
+   "pinyin_used": "Xiǎo Wáng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5c3a-5bf8.chi3cun4",
+   "hanzi": "尺寸",
+   "pinyin": "chǐcùn",
+   "category": "neutral",
+   "cedict_readings": [
+    "chǐ cun"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "chǐcùn",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5c45-4e8e.ju1yu2",
+   "hanzi": "居于",
+   "pinyin": "jūyú",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jūyú",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5cb8-4e0a.an4shang5",
+   "hanzi": "岸上",
+   "pinyin": "àn shang",
+   "category": "neutral",
+   "cedict_readings": [
+    "àn shàng"
+   ],
+   "lists": [
+    "std2021:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "àn shang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5df4-4e0d-5f97.ba1bu5de2",
+   "hanzi": "巴不得",
+   "pinyin": "bābudé",
+   "category": "neutral",
+   "cedict_readings": [
+    "bā bu de"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bābudé",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5f88-96be-8bf4.hen3nan2shuo1",
+   "hanzi": "很难说",
+   "pinyin": "hěn nánshuō",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hěn nánshuō",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5fc3-91cc-8bdd.xin1li3hua4",
+   "hanzi": "心里话",
+   "pinyin": "xīnlǐhuà",
+   "category": "neutral",
+   "cedict_readings": [
+    "xīn li huà"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xīnlǐhuà",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.5fc3-91cc.xin1li3",
+   "hanzi": "心里",
+   "pinyin": "xīnlǐ",
+   "category": "neutral",
+   "cedict_readings": [
+    "xīn li"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xīnlǐ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6000-7740.huai2zhe5",
+   "hanzi": "怀着",
+   "pinyin": "huáizhe",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huáizhe",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6000-91cc.huai2li5",
+   "hanzi": "怀里",
+   "pinyin": "huái li",
+   "category": "neutral",
+   "cedict_readings": [
+    "huái lǐ"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huái li",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6001-5ea6.tai4du4",
+   "hanzi": "态度",
+   "pinyin": "tàidù",
+   "category": "neutral",
+   "cedict_readings": [
+    "tài du"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tàidù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.606d-7ef4.gong1wei2",
+   "hanzi": "恭维",
+   "pinyin": "gōngwéi",
+   "category": "neutral",
+   "cedict_readings": [
+    "gōng wei"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gōngwéi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6076-5fc3.e3xin5",
+   "hanzi": "恶心",
+   "pinyin": "ěxin",
+   "category": "neutral",
+   "cedict_readings": [
+    "ě xīn",
+    "è xīn"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "ěxin",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.61a8-539a.han1hou4",
+   "hanzi": "憨厚",
+   "pinyin": "hānhòu",
+   "category": "neutral",
+   "cedict_readings": [
+    "hān hou"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hānhòu",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6210-529f-7387.cheng2gong1lv4",
+   "hanzi": "成功率",
+   "pinyin": "chénggōnglǜ",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [],
+   "decision": "keep-hsk",
+   "pinyin_used": "chénggōnglǜ",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6247-5b50.shan1zi5",
+   "hanzi": "扇子",
+   "pinyin": "shān zi",
+   "category": "mismatch",
+   "cedict_readings": [
+    "shàn zi"
+   ],
+   "lists": [
+    "hsk20:5"
+   ],
+   "decision": "use-cedict",
+   "pinyin_used": "shànzi",
+   "note": "Only the community HSK 2.0 transcription (clem109) has shān zi; the official 2025 list (no. 2955), GF 0025-2021 (L5-0646) and CC-CEDICT all give shànzi, shān being the verb 'to fan' (扇 shān, 2025 no. 2949). The HSK 2.0 source is wrong, so shànzi is used.",
+   "sources": [
+    {
+     "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
+     "title": "HSK 2.0 word lists, clem109/hsk-vocabulary (pinned copy raw/hsk20/)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Level 5, id 2027: 扇子 shān zi (fan)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 2955, level 5: 扇子 shànzi 名; no. 2949: 扇 shān 动; no. 4742: 扇 shàn 量."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L5-0646 扇子: Pinyin shànzi, WebPinyin shànzi (N, level 5)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "扇子 [shan4 zi5] fan; 扇 [shan1] to fan / to slap sb on the face; 扇 [shan4] fan / classifier for doors, windows etc."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.624b-91cc.shou3li5",
+   "hanzi": "手里",
+   "pinyin": "shǒu li",
+   "category": "neutral",
+   "cedict_readings": [
+    "shǒu lǐ"
+   ],
+   "lists": [
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shǒu li",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6253-4ea4-9053.da3jiao1dao5",
+   "hanzi": "打交道",
+   "pinyin": "dǎ jiāodao",
+   "category": "neutral",
+   "cedict_readings": [
+    "dǎ jiāo dào"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:7-9",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dǎ jiāodao",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6253-7bee-7403.da2lan2qiu2",
+   "hanzi": "打篮球",
+   "pinyin": "dá lán qiú",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "hsk20:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dá lán qiú",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.62f3-5934.quan2tou2",
+   "hanzi": "拳头",
+   "pinyin": "quántóu",
+   "category": "neutral",
+   "cedict_readings": [
+    "quán tou"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "quántóu",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6307-7740.zhi3zhe5",
+   "hanzi": "指着",
+   "pinyin": "zhǐzhe",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhǐzhe",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6316-82e6.wa1ku5",
+   "hanzi": "挖苦",
+   "pinyin": "wāku",
+   "category": "neutral",
+   "cedict_readings": [
+    "wā kǔ"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "wāku",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6478-7d22.mo1suo3",
+   "hanzi": "摸索",
+   "pinyin": "mōsuǒ",
+   "category": "neutral",
+   "cedict_readings": [
+    "mō suo"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "mōsuǒ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.653e-4e0b.fang4xia5",
+   "hanzi": "放下",
+   "pinyin": "fàngxia",
+   "category": "neutral",
+   "cedict_readings": [
+    "fàng xià"
+   ],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fàngxia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.653e-5230.fang4dao4",
+   "hanzi": "放到",
+   "pinyin": "fàngdào",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fàngdào",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6559-8bad.jiao4xun4",
+   "hanzi": "教训",
+   "pinyin": "jiàoxùn",
+   "category": "neutral",
+   "cedict_readings": [
+    "jiào xun"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:4",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jiàoxùn",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6587-827a-754c.wen2yi4jie4",
+   "hanzi": "文艺界",
+   "pinyin": "wényìjiè",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [],
+   "decision": "keep-hsk",
+   "pinyin_used": "wényìjiè",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.65b0-5a92-4f53.xin1mei2ti3",
+   "hanzi": "新媒体",
+   "pinyin": "xīnméitǐ",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xīnméitǐ",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.65b0-80fd-6e90.xin1neng2yuan2",
+   "hanzi": "新能源",
+   "pinyin": "xīnnéngyuán",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xīnnéngyuán",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.65e9-6668.zao3chen5",
+   "hanzi": "早晨",
+   "pinyin": "zǎochen",
+   "category": "neutral",
+   "cedict_readings": [
+    "zǎo chén"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zǎochen",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6697-5730-91cc.an4di4li3",
+   "hanzi": "暗地里",
+   "pinyin": "àndìlǐ",
+   "category": "neutral",
+   "cedict_readings": [
+    "àn dì li"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "àndìlǐ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6708-997c.yue4bing5",
+   "hanzi": "月饼",
+   "pinyin": "yuèbing",
+   "category": "neutral",
+   "cedict_readings": [
+    "yuè bǐng"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yuèbing",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6709-52b2-513f.you3jin4r5",
+   "hanzi": "有劲儿",
+   "pinyin": "yǒujìnr",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yǒujìnr",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.670b-53cb-4eec.peng2you5men5",
+   "hanzi": "朋友们",
+   "pinyin": "péngyoumen",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [],
+   "decision": "keep-hsk",
+   "pinyin_used": "péngyoumen",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6807-8bc6.biao1shi2",
+   "hanzi": "标识",
+   "pinyin": "biāoshí",
+   "category": "mismatch",
+   "cedict_readings": [
+    "biāo zhì"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "biāoshí",
+   "note": "The official 2025 list prints biāoshí (no. 5638, verb/noun) as a word separate from 标志 biāozhì (no. 2061) and reads 识 as shí (or neutral shi) in all its other 识 words; CC-CEDICT only has biāo zhì, as a variant of 标志. The official reading is kept because the official list outranks CC-CEDICT; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 5638, level 7-9: 标识 biāoshí 动、名; no. 2061: 标志 biāozhì 名、动; other 识 words: 常识 chángshí, 意识 yìshí, 识别 shíbié, 共识 gòngshí."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "标识 [biao1 zhi4] variant of 標誌|标志[biao1 zhi4]; 识 [shi2] to know / knowledge; 识 [zhi4] to record / to write a footnote."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.683c-5f0f.ge2shi5",
+   "hanzi": "格式",
+   "pinyin": "géshi",
+   "category": "neutral",
+   "cedict_readings": [
+    "gé shì"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "géshi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.68c9-82b1.mian2hua1",
+   "hanzi": "棉花",
+   "pinyin": "miánhuā",
+   "category": "neutral",
+   "cedict_readings": [
+    "mián hua"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "miánhuā",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6b63-7ecf.zheng4jing5",
+   "hanzi": "正经",
+   "pinyin": "zhèngjing",
+   "category": "neutral",
+   "cedict_readings": [
+    "zhèng jīng"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhèngjing",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6bd4-4e0d-4e0a.bi3bu5shang4",
+   "hanzi": "比不上",
+   "pinyin": "bǐ bu shàng",
+   "category": "neutral",
+   "cedict_readings": [
+    "bǐ bù shàng"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bǐ bu shàng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6bd4-8bd5.bi3shi5",
+   "hanzi": "比试",
+   "pinyin": "bǐshi",
+   "category": "neutral",
+   "cedict_readings": [
+    "bǐ shì"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "bǐshi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6cc4-9732.xie4lou4",
+   "hanzi": "泄露",
+   "pinyin": "xièlòu",
+   "category": "mismatch",
+   "cedict_readings": [
+    "xiè lù"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xièlòu",
+   "note": "Both official lists print xièlòu (2025 no. 9931; GF 0025-2021 L7-4592), and CC-CEDICT's 泄露 entry (xiè lù) adds 'also pr. [xie4lou4]' (its 泄漏 entry is xiè lòu). The official reading is kept; xiè lù (the separate HSK 2.0 item) is the CC-CEDICT variant.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 9931, level 7-9: 泄露 xièlòu 动."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L7-4592 泄露: Pinyin xièlòu, WebPinyin xièlòu (V, level 7-9)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "泄露 [xie4 lu4] to leak (information); to divulge / also pr. [xie4lou4]; 泄漏 [xie4 lou4] (of a liquid or gas) to leak / to divulge; to leak (information)."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.6d3b-6cfc.huo2po1",
+   "hanzi": "活泼",
+   "pinyin": "huópō",
+   "category": "neutral",
+   "cedict_readings": [
+    "huó po"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:5",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huópō",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.6e29-5dee.wen1cha4",
+   "hanzi": "温差",
+   "pinyin": "wēnchà",
+   "category": "mismatch",
+   "cedict_readings": [
+    "wēn chā"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "use-cedict",
+   "pinyin_used": "wēnchā",
+   "note": "The official 2025 list prints wēnchà (no. 9667), which appears to be a typo in the list itself: it reads 差 'difference' as chā in every comparable noun (时差 shíchā, 误差 wùchā, 落差 luòchā, 偏差 piānchā, 反差 fǎnchā). CC-CEDICT gives 温差 wēn chā, with 差 chā = 'difference' and chà = 'to fall short, inferior', so the learner should learn wēnchā.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 9667, level 7-9: 温差 wēnchà 名; same list: 时差 shíchā (3010), 误差 wùchā (9751), 落差 luòchā (8114), 偏差 piānchā (8465), 反差 fǎnchā (6476), 差距 chājù (2101)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "温差 [wen1 cha1] difference in temperature; 差 [cha1] difference; discrepancy; 差 [cha4] different / wrong; mistaken / to fall short; to lack / not up to standard; inferior."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.706f-7b3c.deng1long5",
+   "hanzi": "灯笼",
+   "pinyin": "dēnglong",
+   "category": "neutral",
+   "cedict_readings": [
+    "dēng lóng"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dēnglong",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7167-987e.zhao4gu4",
+   "hanzi": "照顾",
+   "pinyin": "zhàogù",
+   "category": "neutral",
+   "cedict_readings": [
+    "zhào gu"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:2",
+    "hsk20:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhàogù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.719f-6089.shu2xi5",
+   "hanzi": "熟悉",
+   "pinyin": "shúxi",
+   "category": "neutral",
+   "cedict_readings": [
+    "shú xī"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:5",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shúxi",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.719f.shou2",
+   "hanzi": "熟",
+   "pinyin": "shóu",
+   "category": "mismatch",
+   "cedict_readings": [
+    "shú"
+   ],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "alt-of",
+   "alt_of": "熟 shú",
+   "pinyin_used": "shóu",
+   "note": "The official 2025 list (no. 1688) prints 熟 shú/shóu and GF 0025-2021 (L2-0500) has shú/shóu, so shóu is an accepted variant of the main reading shú; CC-CEDICT 熟 shú adds 'also pr. [shou2]'. Recorded as a variant of 熟 shú rather than a separate word.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 1688, level 4: 熟 shú/shóu 形."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L2-0500 熟: WebPinyin shú/shóu, split into two rows with Pinyin shú and shóu (Adj, level 2)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "熟 [shu2] ripe; mature / thoroughly cooked; done / familiar; acquainted / ... / also pr. [shou2]."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.72b6-5143.zhuang4yuan5",
+   "hanzi": "状元",
+   "pinyin": "zhuàngyuan",
+   "category": "neutral",
+   "cedict_readings": [
+    "zhuàng yuán"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhuàngyuan",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.732e-8840.xian4xie3",
+   "hanzi": "献血",
+   "pinyin": "xiànxiě",
+   "category": "mismatch",
+   "cedict_readings": [
+    "xiàn xuè"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xiànxiě",
+   "note": "GF 0025-2021 prints xiànxiě (L7-4508) while giving xuè in 输血 shū∥xuè, 流血 liúxuè and 止血 zhǐxuè, which suggests a deliberate word-level reading rather than a typo; CC-CEDICT has xiàn xuè but records xiě as the colloquial reading of 血. The official-standard reading is kept; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "sources": [
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L7-4508 献血: Pinyin xiànxiě, WebPinyin xiànxiě (V, level 7-9). Same list: 出血 chū∥xiě (L7-0552), 输血 shū∥xuè (L7-3818), 流血 liúxuè (L7-2695), 止血 zhǐxuè (L7-5370)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "献血 [xian4 xue4] to donate blood; 血 [xue4] blood / colloquial pr. [xie3]."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.73ab-7470.mei2gui5",
+   "hanzi": "玫瑰",
+   "pinyin": "méigui",
+   "category": "neutral",
+   "cedict_readings": [
+    "méi guī"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "méigui",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7528-5904.yong4chu4",
+   "hanzi": "用处",
+   "pinyin": "yòngchù",
+   "category": "neutral",
+   "cedict_readings": [
+    "yòng chu"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yòngchù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7559-4e0b.liu2xia5",
+   "hanzi": "留下",
+   "pinyin": "liúxia",
+   "category": "neutral",
+   "cedict_readings": [
+    "liú xià"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "liúxia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.76ca-5904.yi4chu4",
+   "hanzi": "益处",
+   "pinyin": "yìchù",
+   "category": "neutral",
+   "cedict_readings": [
+    "yì chu"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yìchù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.76d8-7b97.pan2suan5",
+   "hanzi": "盘算",
+   "pinyin": "pánsuan",
+   "category": "neutral",
+   "cedict_readings": [
+    "pán suàn"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "pánsuan",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.770b-4e0a-53bb.kan4shang4qu4",
+   "hanzi": "看上去",
+   "pinyin": "kàn shàngqù",
+   "category": "neutral",
+   "cedict_readings": [
+    "kàn shang qu"
+   ],
+   "lists": [
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "kàn shàngqù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.770b-6765.kan4lai2",
+   "hanzi": "看来",
+   "pinyin": "kànlái",
+   "category": "neutral",
+   "cedict_readings": [
+    "kàn lai"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:4",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "kànlái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.770b-8d77-6765.kan4qi3lai2",
+   "hanzi": "看起来",
+   "pinyin": "kàn qǐlái",
+   "category": "neutral",
+   "cedict_readings": [
+    "kàn qǐ lai"
+   ],
+   "lists": [
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "kàn qǐlái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.773c-91cc.yan3li5",
+   "hanzi": "眼里",
+   "pinyin": "yǎnli",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yǎnli",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7740-773c-4e8e.zhuo2yan3yu2",
+   "hanzi": "着眼于",
+   "pinyin": "zhuóyǎn yú",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhuóyǎn yú",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.77a7-4e0d-8d77.qiao2bu5qi3",
+   "hanzi": "瞧不起",
+   "pinyin": "qiáobuqǐ",
+   "category": "neutral",
+   "cedict_readings": [
+    "qiáo bù qǐ"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "qiáobuqǐ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7801-5934.ma3tou2",
+   "hanzi": "码头",
+   "pinyin": "mǎtóu",
+   "category": "neutral",
+   "cedict_readings": [
+    "mǎ tou"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:5",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "mǎtóu",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.786c-6717.ying4lang5",
+   "hanzi": "硬朗",
+   "pinyin": "yìnglang",
+   "category": "neutral",
+   "cedict_readings": [
+    "yìng lǎng"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yìnglang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.78b0-4e0a.peng4shang5",
+   "hanzi": "碰上",
+   "pinyin": "pèngshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "pèng shàng"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "pèngshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7956-5b97.zu3zong5",
+   "hanzi": "祖宗",
+   "pinyin": "zǔzong",
+   "category": "neutral",
+   "cedict_readings": [
+    "zǔ zōng"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zǔzong",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7978-5bb3.huo4hai5",
+   "hanzi": "祸害",
+   "pinyin": "huòhai",
+   "category": "neutral",
+   "cedict_readings": [
+    "huò hài"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "huòhai",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7b97-8ba1.suan4ji4",
+   "hanzi": "算计",
+   "pinyin": "suànjì",
+   "category": "neutral",
+   "cedict_readings": [
+    "suàn ji"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "suànjì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7bc7-5e45.pian1fu2",
+   "hanzi": "篇幅",
+   "pinyin": "piānfú",
+   "category": "neutral",
+   "cedict_readings": [
+    "piān fu"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "piānfú",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7cbe-5f69-7eb7-5448.jing1cai3fen1cheng2",
+   "hanzi": "精彩纷呈",
+   "pinyin": "jīngcǎi-fēnchéng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jīngcǎi-fēnchéng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7cfb-9886-5e26.ji4ling3dai4",
+   "hanzi": "系领带",
+   "pinyin": "jì lǐng dài",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jì lǐng dài",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7d2f-8d58.lei2zhui5",
+   "hanzi": "累赘",
+   "pinyin": "léizhui",
+   "category": "neutral",
+   "cedict_readings": [
+    "léi zhuì"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "léizhui",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7ea2-706b.hong2huo5",
+   "hanzi": "红火",
+   "pinyin": "hónghuo",
+   "category": "neutral",
+   "cedict_readings": [
+    "hóng huǒ"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hónghuo",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7ebd-6263-513f.niu3kou4er2",
+   "hanzi": "纽扣儿",
+   "pinyin": "niǔ kòu ér",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "niǔ kòu ér",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.7f51-4e0a.wang3shang5",
+   "hanzi": "网上",
+   "pinyin": "wǎngshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "wǎng shàng"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "wǎngshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8001-4eba-5bb6.lao3ren5jia5",
+   "hanzi": "老人家",
+   "pinyin": "lǎorenjia",
+   "category": "neutral",
+   "cedict_readings": [
+    "lǎo rén jiā"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "lǎorenjia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8001-5a46.lao3po5",
+   "hanzi": "老婆",
+   "pinyin": "lǎopo",
+   "category": "neutral",
+   "cedict_readings": [
+    "lǎo pó"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "lǎopo",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8001-5b57-53f7.lao3zi4hao5",
+   "hanzi": "老字号",
+   "pinyin": "lǎozìhao",
+   "category": "neutral",
+   "cedict_readings": [
+    "lǎo zì hào"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "lǎozìhao",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8001-5b9e-8bf4.lao3shi5shuo1",
+   "hanzi": "老实说",
+   "pinyin": "lǎoshishuō",
+   "category": "neutral",
+   "cedict_readings": [
+    "lǎo shí shuō"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "lǎoshishuō",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8001-662f.lao3shi4",
+   "hanzi": "老是",
+   "pinyin": "lǎoshì",
+   "category": "neutral",
+   "cedict_readings": [
+    "lǎo shi"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "lǎoshì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8001-738b.lao3wang2",
+   "hanzi": "老王",
+   "pinyin": "Lǎo Wáng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [],
+   "decision": "keep-hsk",
+   "pinyin_used": "Lǎo Wáng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.806a-660e.cong1ming2",
+   "hanzi": "聪明",
+   "pinyin": "cōngmíng",
+   "category": "neutral",
+   "cedict_readings": [
+    "cōng ming"
+   ],
+   "lists": [
+    "exam2025:3",
+    "std2021:5",
+    "hsk20:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "cōngmíng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.80fd-4e0d-80fd.neng2bu5neng2",
+   "hanzi": "能不能",
+   "pinyin": "néng bu néng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "néng bu néng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.80fd-8010.neng2nai5",
+   "hanzi": "能耐",
+   "pinyin": "néngnai",
+   "category": "neutral",
+   "cedict_readings": [
+    "néng nài"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "néngnai",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.811a-8e0f-5b9e-5730.jiao3ta1shi2di4",
+   "hanzi": "脚踏实地",
+   "pinyin": "jiǎotāshídì",
+   "category": "mismatch",
+   "cedict_readings": [
+    "jiǎo tà shí dì"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "use-cedict",
+   "pinyin_used": "jiǎotàshídì",
+   "note": "The official 2025 list prints jiǎotāshídì (no. 7454), apparently a typo in the list itself that borrows the tā of 踏实 tāshi, since both official lists read the verb 踏 'to step on' as tà (踏 tà, 践踏 jiàntà, 踏上 tàshang). CC-CEDICT gives jiǎo tà shí dì (踏 tà 'to tread, to step on'), so jiǎotàshídì is used; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 7454, level 7-9: 脚踏实地 jiǎotāshídì; same list: 踏 tà 动 (9327), 践踏 jiàntà 动 (7401), 踏实 tāshi 形 (4855)."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "踏 tà (L6-0781), 踏上 tàshang (L7-3983), 踏实 tāshi (L6-0779); 脚踏实地 is not in this list."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "脚踏实地 [jiao3 ta4 shi2 di4] to have one's feet firmly planted on the ground (idiom); 踏 [ta4] to tread / to stamp / to step on; 踏 [ta1] see 踏實|踏实[ta1 shi5]."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.81f4-529b-4e8e.zhi4li4yu2",
+   "hanzi": "致力于",
+   "pinyin": "zhìlìyú",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhìlìyú",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8282-6c14.jie2qi4",
+   "hanzi": "节气",
+   "pinyin": "jiéqì",
+   "category": "neutral",
+   "cedict_readings": [
+    "jié qi"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jiéqì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.843d-4e0b.luo4xia5",
+   "hanzi": "落下",
+   "pinyin": "luòxia",
+   "category": "neutral",
+   "cedict_readings": [
+    "luò xià"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "luòxia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.85aa-6c34.xin1shui5",
+   "hanzi": "薪水",
+   "pinyin": "xīnshui",
+   "category": "neutral",
+   "cedict_readings": [
+    "xīn shuǐ"
+   ],
+   "lists": [
+    "exam2025:6",
+    "std2021:6",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xīnshui",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.85e4-8513.teng2wan4",
+   "hanzi": "藤蔓",
+   "pinyin": "téngwàn",
+   "category": "mismatch",
+   "cedict_readings": [
+    "téng màn"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "téngwàn",
+   "note": "The official 2025 list prints téngwàn (no. 9384), and CC-CEDICT's 藤蔓 entry (téng màn) adds 'also pr. [teng2 wan4]'. The official reading is kept because the official list outranks CC-CEDICT and CC-CEDICT accepts it.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 9384, level 7-9: 藤蔓 téngwàn 名; no. 8143: 蔓延 mànyán."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "藤蔓 [teng2 man4] vine / also pr. [teng2 wan4]."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.884c-5bb6.hang2jia5",
+   "hanzi": "行家",
+   "pinyin": "hángjia",
+   "category": "neutral",
+   "cedict_readings": [
+    "háng jiā"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "hángjia",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8857-574a.jie1fang5",
+   "hanzi": "街坊",
+   "pinyin": "jiēfang",
+   "category": "neutral",
+   "cedict_readings": [
+    "jiē fāng"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jiēfang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.897f-8fb9.xi1bian5",
+   "hanzi": "西边",
+   "pinyin": "xībian",
+   "category": "neutral",
+   "cedict_readings": [
+    "xī biān"
+   ],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xībian",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8981-4e0d-662f.yao4bu4shi4",
+   "hanzi": "要不是",
+   "pinyin": "yàobùshì",
+   "category": "neutral",
+   "cedict_readings": [
+    "yào bu shì"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yàobùshì",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.89c1-8fc7.jian4guo5",
+   "hanzi": "见过",
+   "pinyin": "jiànguo",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jiànguo",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8bb0-4f4f.ji4zhu4",
+   "hanzi": "记住",
+   "pinyin": "jìzhù",
+   "category": "neutral",
+   "cedict_readings": [
+    "jì zhu"
+   ],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "jìzhù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8bd5-63a2.shi4tan5",
+   "hanzi": "试探",
+   "pinyin": "shìtan",
+   "category": "neutral",
+   "cedict_readings": [
+    "shì tàn"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shìtan",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8bf4-8d77-6765.shuo1qi3lai2",
+   "hanzi": "说起来",
+   "pinyin": "shuō qǐlái",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "shuō qǐlái",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8c01.shui2",
+   "hanzi": "谁",
+   "pinyin": "shuí",
+   "category": "mismatch",
+   "cedict_readings": [
+    "shéi"
+   ],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "alt-of",
+   "alt_of": "谁 shéi",
+   "pinyin_used": "shuí",
+   "note": "The official 2025 list (no. 181) prints 谁 shéi/shuí and GF 0025-2021 (L1-0325) has shéi/shuí, so shuí is an accepted variant of the main reading shéi; CC-CEDICT 谁 shéi adds 'also pr. [shui2]'. Recorded as a variant of 谁 shéi rather than a separate word.",
+   "sources": [
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+     "title": "中文水平考试 HSK考试大纲 (CLEC, 2025-11), 词汇大纲: official 2025 list (pinned copy raw/hsk2025/syllabus.pdf)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No. 181, level 1: 谁 shéi/shuí 代."
+    },
+    {
+     "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
+     "title": "GF 0025-2021 word list, cleaned by ivankra/hsk30 (pinned copy raw/hsk2021/hsk30-expanded.csv)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Row L1-0325 谁: WebPinyin shéi/shuí, split into two rows with Pinyin shéi and shuí (Pr, level 1)."
+    },
+    {
+     "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+     "title": "CC-CEDICT release 2026-05-18 (local copy raw/cedict/cedict.json)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "谁 [shei2] who / also pr. [shui2]."
+    }
+   ],
+   "decided_by": "agent-research 2026-11-02"
+  },
+  {
+   "id": "w.8d39-7528.fei4yong5",
+   "hanzi": "费用",
+   "pinyin": "fèiyong",
+   "category": "neutral",
+   "cedict_readings": [
+    "fèi yòng"
+   ],
+   "lists": [
+    "exam2025:4",
+    "std2021:3",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fèiyong",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8d76-4e0d-4e0a.gan3bu5shang4",
+   "hanzi": "赶不上",
+   "pinyin": "gǎnbushàng",
+   "category": "neutral",
+   "cedict_readings": [
+    "gǎn bù shàng"
+   ],
+   "lists": [
+    "std2021:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gǎnbushàng",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8d77-6765.qi3lai2",
+   "hanzi": "起来",
+   "pinyin": "qǐlái",
+   "category": "neutral",
+   "cedict_readings": [
+    "qǐ lai",
+    "qi lai"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:1",
+    "hsk20:4"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "qǐlái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8d81-7740.chen4zhe5",
+   "hanzi": "趁着",
+   "pinyin": "chènzhe",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "chènzhe",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8ddf-4e0a.gen1shang5",
+   "hanzi": "跟上",
+   "pinyin": "gēnshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "gēn shàng"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gēnshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8e0f-4e0a.ta4shang5",
+   "hanzi": "踏上",
+   "pinyin": "tàshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "tà shàng"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "tàshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8e4a-8df7.qi1qiao5",
+   "hanzi": "蹊跷",
+   "pinyin": "qīqiao",
+   "category": "neutral",
+   "cedict_readings": [
+    "qī qiāo"
+   ],
+   "lists": [
+    "exam2025:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "qīqiao",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8f66-4e0a.che1shang5",
+   "hanzi": "车上",
+   "pinyin": "chē shang",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "chē shang",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8fd9-65f6-5019.zhe4shi2hou5",
+   "hanzi": "这时候",
+   "pinyin": "zhè shíhou",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "zhè shíhou",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.8ff7-60d1.mi2huo4",
+   "hanzi": "迷惑",
+   "pinyin": "míhuò",
+   "category": "neutral",
+   "cedict_readings": [
+    "mí huo"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "míhuò",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.9001-5230.song4dao4",
+   "hanzi": "送到",
+   "pinyin": "sòngdào",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:2"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "sòngdào",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.903b-8f91.luo2ji2",
+   "hanzi": "逻辑",
+   "pinyin": "luójí",
+   "category": "neutral",
+   "cedict_readings": [
+    "luó ji"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:5",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "luójí",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.9047-4e0a.yu4shang5",
+   "hanzi": "遇上",
+   "pinyin": "yùshang",
+   "category": "neutral",
+   "cedict_readings": [
+    "yù shàng"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "yùshang",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.9053-7406.dao4li3",
+   "hanzi": "道理",
+   "pinyin": "dàolǐ",
+   "category": "neutral",
+   "cedict_readings": [
+    "dào li"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:2",
+    "hsk20:5"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "dàolǐ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.90a3-8fb9.na4bian1",
+   "hanzi": "那边",
+   "pinyin": "nàbiān",
+   "category": "neutral",
+   "cedict_readings": [
+    "nà bian"
+   ],
+   "lists": [
+    "exam2025:1",
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "nàbiān",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.90a3-91cc.na4li3",
+   "hanzi": "那里",
+   "pinyin": "nàlǐ",
+   "category": "neutral",
+   "cedict_readings": [
+    "nà li"
+   ],
+   "lists": [
+    "exam2025:1",
+    "std2021:1"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "nàlǐ",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.9192-6765.xing3lai5",
+   "hanzi": "醒来",
+   "pinyin": "xǐnglai",
+   "category": "neutral",
+   "cedict_readings": [
+    "xǐng lái"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xǐnglai",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.95e8-8def.men2lu5",
+   "hanzi": "门路",
+   "pinyin": "ménlu",
+   "category": "neutral",
+   "cedict_readings": [
+    "mén lù"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "ménlu",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.961f-4f0d.dui4wu5",
+   "hanzi": "队伍",
+   "pinyin": "duìwu",
+   "category": "neutral",
+   "cedict_readings": [
+    "duì wǔ"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:6",
+    "hsk20:6"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "duìwu",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.96be-4ee5-60f3-8c61.nan2yi3xiang3xiang4",
+   "hanzi": "难以想象",
+   "pinyin": "nányǐ-xiǎngxiàng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "nányǐ-xiǎngxiàng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.96be-5904.nan2chu4",
+   "hanzi": "难处",
+   "pinyin": "nánchù",
+   "category": "neutral",
+   "cedict_readings": [
+    "nán chu"
+   ],
+   "lists": [
+    "exam2025:7-9",
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "nánchù",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.987e-4e0d-5f97.gu4bu5de2",
+   "hanzi": "顾不得",
+   "pinyin": "gùbu dé",
+   "category": "neutral",
+   "cedict_readings": [
+    "gù bu de"
+   ],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "gùbu dé",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.98de-5f80.fei1wang3",
+   "hanzi": "飞往",
+   "pinyin": "fēiwǎng",
+   "category": "chars-only",
+   "cedict_readings": [],
+   "lists": [
+    "std2021:7-9"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "fēiwǎng",
+   "note": "Not a CC-CEDICT headword (a phrase or compound listed by HSK). Every character's reading exists in CC-CEDICT, so the HSK reading is kept.",
+   "sources": [],
+   "decided_by": "rule"
+  }
+ ]
+}

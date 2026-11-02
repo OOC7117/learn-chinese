@@ -1,0 +1,16 @@
+/* Styles for individual views. Shared tokens and components are in /styles.css. */
+
+.center { text-align: center; }
+.center-row { justify-content: center; }
+.note.center { text-align: center; margin-top: 0.75rem; }
+.deck-row { display: flex; align-items: center; padding-right: 0.75rem; }
+.deck-row .list-link { flex: 1; min-width: 0; }
+.list-link .bar { margin-top: 0.4rem; }
+.forecast { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.3rem; }
+.forecast-day { background: var(--surface); border: 1px solid var(--border); border-radius: 0.7rem; padding: 0.4rem 0.1rem; text-align: center; }
+.forecast-day .value { display: block; font-weight: 700; font-variant-numeric: tabular-nums; }
+.forecast-day .label { display: block; font-size: 0.7rem; color: var(--muted); }
+.pinyin-block { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; }
+.marks { display: inline-flex; }
+.study .flashcard .prompt .btn { min-width: 9rem; }
+.word-row a.meta { color: inherit; text-decoration: none; }
