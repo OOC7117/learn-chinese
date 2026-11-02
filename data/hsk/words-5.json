@@ -17652,7 +17652,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.89c4-5219.gui1ze2",
@@ -98427,7 +98427,7 @@
    "levels": {
     "exam2025": "5",
     "std2021": "5",
-    "hsk20": null
+    "hsk20": 5
    },
    "exam2025": [
     {
@@ -98444,8 +98444,17 @@
      "level": "5"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": 2027,
+     "level": 5,
+     "corrected_from": "shān zi"
+    }
+   ],
    "source": "hsk2025-syllabus",
+   "corrected_duplicate_of": [
+    "w.6247-5b50.shan1zi5"
+   ],
    "meanings": [
     "fan"
    ],

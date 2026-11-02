@@ -40,6 +40,7 @@ export function search(entries, rawQuery, { limit = 50 } = {}) {
     }
   } else if (kind === 'pinyin-toned') {
     const key = tonedKey(q.replace(/v/g, 'ü'));
+    if (!key) return []; // digits without a syllable ("3", "2025"): an empty key would match everything
     // A syllable typed without a tone ("ni3hao") matches any tone: compare with a regex.
     const pattern = new RegExp(`^${key.replace(/5(?=[a-z]|$)/g, '[1-5]')}`);
     for (const e of entries) {

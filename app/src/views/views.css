@@ -14,3 +14,13 @@
 .marks { display: inline-flex; }
 .study .flashcard .prompt .btn { min-width: 9rem; }
 .word-row a.meta { color: inherit; text-decoration: none; }
+/* Keep the grade buttons reachable above the tab bar when a long answer is revealed. */
+.study .grades {
+  position: sticky;
+  bottom: calc(var(--tabbar-h) + max(0.25rem, env(safe-area-inset-bottom)));
+  z-index: 5;
+  padding: 0.5rem 0;
+  background: linear-gradient(to bottom, transparent, var(--bg) 0.6rem);
+}
+.card-usage { max-width: 32rem; text-align: left; }
+.card-usage summary { color: var(--accent); cursor: pointer; min-height: 44px; display: flex; align-items: center; justify-content: center; }

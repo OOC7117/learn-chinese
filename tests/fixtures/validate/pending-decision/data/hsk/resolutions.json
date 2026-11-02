@@ -1,0 +1,41 @@
+{
+ "about": "Test fixture for tests/validate.test.mjs: copies of real items from data/ (phrases and rules trimmed to the fields the validator reads). Deliberately wrong (the decision for 下载 is still pending); never app content.",
+ "resolutions": [
+  {
+   "id": "w.4e0b-6765.xia4lai2",
+   "hanzi": "下来",
+   "pinyin": "xiàlái",
+   "category": "neutral",
+   "cedict_readings": [
+    "xià lai"
+   ],
+   "lists": [
+    "exam2025:2",
+    "std2021:3"
+   ],
+   "decision": "keep-hsk",
+   "pinyin_used": "xiàlái",
+   "note": "The official list and CC-CEDICT differ only in a neutral vs full tone. The exam list is the standard the learner is tested on, so its reading is kept; the CC-CEDICT reading is shown as an alternative.",
+   "sources": [],
+   "decided_by": "rule"
+  },
+  {
+   "id": "w.4e0b-8f7d.xia4zai4",
+   "hanzi": "下载",
+   "pinyin": "xiàzài",
+   "category": "mismatch",
+   "cedict_readings": [
+    "xià zǎi"
+   ],
+   "lists": [
+    "exam2025:5",
+    "std2021:4"
+   ],
+   "decision": "pending",
+   "pinyin_used": "xiàzài",
+   "note": "Needs a decision with a source (validator fails until resolved).",
+   "sources": [],
+   "decided_by": null
+  }
+ ]
+}

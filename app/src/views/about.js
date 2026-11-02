@@ -7,7 +7,8 @@ export async function render(root, ctx) {
   const manifest = await ctx.data.loadManifest();
   replace(root,
     h('h1', 'About and sources'),
-    h('p', 'Every word, phrase, tone and fact in this app comes from a source that was read and recorded; anything that could not be verified is not shown (it is listed in docs/UNVERIFIED.md in the project). AI was used for research and to assemble dialogues from checked phrases; such content is labelled.'),
+    h('p', 'Every word, phrase, tone and fact in this app comes from a source that was read and recorded; anything that could not be verified is not shown (it is listed in docs/UNVERIFIED.md in the project).'),
+    h('p', 'How AI was used: research agents found and quoted the sources and wrote the English notes (literal glosses, usage notes) from them; a second agent re-checked each item. The Chinese text itself is never written by AI: it is quoted from a source and checked word by word against the CC-CEDICT dictionary. Practice dialogues are arranged by AI from checked phrases and say so. The full list is in docs/AI-CONTENT.md.'),
     h('h2', 'Vocabulary'),
     h('ul',
       h('li', h('strong', 'HSK 2025 exam syllabus'), ' — 《中文水平考试 HSK考试大纲》, Center for Language Education and Cooperation (CLEC), published 2025-11; the exam from 13 December 2026. Parsed from the official PDF.'),

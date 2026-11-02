@@ -1,0 +1,19 @@
+{
+  "name": "learn-chinese",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first Mandarin learning PWA (app/) and the data pipeline that builds its content (scripts/). No runtime dependencies.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch-sources.mjs",
+    "import": "node scripts/import-hsk.mjs",
+    "build": "node scripts/build-app-data.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate && npm test",
+    "test": "node --test tests app/tests",
+    "dev": "node app/scripts/dev-server.mjs"
+  }
+}

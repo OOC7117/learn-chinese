@@ -131,16 +131,74 @@ document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') updateBadge();
 });
 
-// ---- Service worker (offline) ----
+// ---- Service worker (offline) and updates ----
+// sw.js keeps the app on this device. A new version installs in the background and waits; a small banner
+// offers "Reload", which tells the waiting worker to take over ('skip-waiting') and reloads once it has.
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-  navigator.serviceWorker.register('sw.js').then((reg) => {
-    reg.addEventListener('updatefound', () => {
-      const worker = reg.installing;
-      worker?.addEventListener('statechange', () => {
-        if (worker.state === 'installed' && navigator.serviceWorker.controller) toast('A new version is ready. It loads the next time you open the app.', 5000);
+  const sw = navigator.serviceWorker;
+  let controlled = Boolean(sw.controller);
+  let reloadAsked = false;
+  let reloading = false;
+  const reloadOnce = () => {
+    if (reloading) return;
+    reloading = true;
+    location.reload();
+  };
+
+  const offerUpdate = (worker, text) => {
+    document.getElementById('update-banner')?.remove();
+    const reload = h('button.btn.small.primary', { type: 'button' }, 'Reload');
+    const later = h('button.btn.small', { type: 'button' }, 'Later');
+    const banner = h('div.callout.row.spread#update-banner', { role: 'region', aria: { label: 'App update' } }, h('span', text), h('span.row', reload, later));
+    banner.style.marginBottom = '0.75rem';
+    reload.addEventListener('click', () => {
+      reload.disabled = true;
+      if (worker && worker.state === 'installed') {
+        reloadAsked = true;
+        worker.postMessage('skip-waiting'); // the page reloads on controllerchange
+        setTimeout(reloadOnce, 4000); // in case the switch never happens
+      } else reloadOnce();
+    });
+    later.addEventListener('click', () => {
+      banner.remove();
+      main.focus({ preventScroll: true });
+    });
+    document.querySelector('.app-header')?.after(banner);
+    announce(`${text} The Reload button is at the top of the page.`);
+  };
+
+  sw.addEventListener('controllerchange', () => {
+    if (reloadAsked) reloadOnce();
+    else if (controlled) offerUpdate(null, 'The app was updated in another window.');
+    // First visit: the worker took control after the page loaded its data; save that data for offline use.
+    else import('./offline.js').then((mod) => mod.warmUp()).catch(() => {});
+    controlled = true;
+  });
+
+  const register = () => sw.register('sw.js', { updateViaCache: 'none' }).then((reg) => {
+    const tracked = new WeakSet();
+    const track = (worker) => {
+      if (!worker || tracked.has(worker)) return;
+      tracked.add(worker);
+      worker.addEventListener('statechange', () => {
+        if (worker.state === 'installed' && sw.controller) offerUpdate(worker, 'A new version of the app is ready.');
       });
+    };
+    if (reg.waiting && sw.controller) offerUpdate(reg.waiting, 'A new version of the app is ready.');
+    track(reg.installing);
+    reg.addEventListener('updatefound', () => track(reg.installing));
+    // Installed apps stay open for days: look for a new version when the app comes back to the screen.
+    let checked = Date.now();
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState !== 'visible' || Date.now() - checked < 30 * 60 * 1000) return;
+      checked = Date.now();
+      reg.update().catch(() => {});
     });
   }).catch((error) => console.warn('[main] service worker not registered', error?.message));
+
+  // After the page has loaded, so saving the app for offline use does not slow down the first visit.
+  if (document.readyState === 'complete') register();
+  else window.addEventListener('load', register, { once: true });
 }
 
 // ---- Account and sync (optional; the app works without it) ----

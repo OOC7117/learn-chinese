@@ -13,6 +13,7 @@ import { join } from 'node:path';
 
 import { spokenPinyin, syllablesOf, SYLLABLE_LIST, cedictToMarked } from '../app/src/lib/pinyin.js';
 import { ROOT } from './lib/cedict.mjs';
+import { buildContent } from './lib/content.mjs';
 
 const DATA = join(ROOT, 'data');
 const APP = join(ROOT, 'app');
@@ -176,9 +177,13 @@ function main() {
   const tones = toneData(items, audio.syllables);
   files.tones = { file: 'data/tones.json', hash: writeCompact(join(OUT, 'tones.json'), tones) };
 
-  // Situations, kinship, grammar, pitfalls, facts and dialogues are built by build-content (if present).
-  const contentPath = join(DATA, 'build-content.json');
-  if (existsSync(contentPath)) Object.assign(files, readJson(contentPath).files ?? {});
+  // Situations, kinship, grammar, pitfalls, facts and dialogues (verified items only).
+  if (existsSync(join(DATA, 'situations')) || existsSync(join(DATA, 'reference'))) {
+    const includeUnverified = process.env.BUILD_INCLUDE_UNVERIFIED === '1';
+    if (includeUnverified) console.warn('WARNING: BUILD_INCLUDE_UNVERIFIED=1: content.json includes unverified items (local UI work only; the validator fails on it).');
+    const { content, counts } = buildContent(ROOT, { includeUnverified });
+    files.content = { file: 'data/content.json', hash: writeCompact(join(OUT, 'content.json'), content), ...counts };
+  }
 
   const lock = readJson(join(DATA, 'sources.lock.json'));
   const manifest = {

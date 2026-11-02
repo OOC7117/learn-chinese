@@ -123,50 +123,6 @@
    "resolution": null
   },
   {
-   "id": "w.8c01.shui2",
-   "hanzi": "谁",
-   "pinyin": "shuí",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": "1",
-    "hsk20": null
-   },
-   "exam2025": [],
-   "std2021": [
-    {
-     "id": "L1-0325",
-     "level": "1"
-    }
-   ],
-   "hsk20": [],
-   "source": "hsk2021-ivankra",
-   "meanings": [],
-   "classifiers": [],
-   "cedict": {
-    "match": "mismatch",
-    "readings": [
-     "shéi"
-    ],
-    "entries": []
-   },
-   "freq": {
-    "zipf": 5.85,
-    "rank": 146
-   },
-   "audio": {
-    "kind": "syllable",
-    "file": "s/shui2.mp3",
-    "speaker": "Chen Wang",
-    "source": "audio-cmn"
-   },
-   "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
-  },
-  {
    "id": "w.771f-7684.zhen1de5",
    "hanzi": "真的",
    "pinyin": "zhēn de",
@@ -9939,50 +9895,6 @@
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": "keep-hsk"
-  },
-  {
-   "id": "w.719f.shou2",
-   "hanzi": "熟",
-   "pinyin": "shóu",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": "2",
-    "hsk20": null
-   },
-   "exam2025": [],
-   "std2021": [
-    {
-     "id": "L2-0500",
-     "level": "2"
-    }
-   ],
-   "hsk20": [],
-   "source": "hsk2021-ivankra",
-   "meanings": [],
-   "classifiers": [],
-   "cedict": {
-    "match": "mismatch",
-    "readings": [
-     "shú"
-    ],
-    "entries": []
-   },
-   "freq": {
-    "zipf": 4.43,
-    "rank": 4014
-   },
-   "audio": {
-    "kind": "syllable",
-    "file": "s/shou2.mp3",
-    "speaker": "Chen Wang",
-    "source": "audio-cmn"
-   },
-   "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
   },
   {
    "id": "w.864e.hu3",
@@ -26702,7 +26614,7 @@
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.5206-7ec4.fen1zu3",
@@ -35455,57 +35367,6 @@
     "reason": "no recording"
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": null
-  },
-  {
-   "id": "w.4efb-6027.ren4xing4",
-   "hanzi": "任性",
-   "pinyin": "rèn xìng",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4039,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [
-    "willful",
-    "headstrong",
-    "unruly"
-   ],
-   "classifiers": [],
-   "cedict": {
-    "match": "ok",
-    "readings": [
-     "rèn xìng"
-    ],
-    "entries": [
-     "任性|任性[ren4 xing4]"
-    ]
-   },
-   "freq": {
-    "zipf": 3.67,
-    "rank": 14441
-   },
-   "audio": {
-    "kind": "word",
-    "file": "w/w.4efb-6027.ren4xing4.mp3",
-    "speaker": "Yue Tan",
-    "source": "audio-cmn",
-    "from": "24k-abr/hsk/cmn-任性.mp3"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
    "verified_against": "CC-CEDICT 2026-05-18",
    "resolution": null
   },
@@ -45593,48 +45454,6 @@
    "resolution": "keep-hsk"
   },
   {
-   "id": "w.6247-5b50.shan1zi5",
-   "hanzi": "扇子",
-   "pinyin": "shān zi",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 5
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 2027,
-     "level": 5
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [],
-   "classifiers": [],
-   "cedict": {
-    "match": "mismatch",
-    "readings": [
-     "shàn zi"
-    ],
-    "entries": []
-   },
-   "freq": {
-    "zipf": 3.41,
-    "rank": 21694
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "recording reading does not match CC-CEDICT"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
-  },
-  {
    "id": "w.6c34-58f6.shui3hu2",
    "hanzi": "水壶",
    "pinyin": "shuǐhú",
@@ -48888,48 +48707,6 @@
    "resolution": null
   },
   {
-   "id": "w.5174-9ad8-91c7-70c8.xing1gao1cai3lie4",
-   "hanzi": "兴高采烈",
-   "pinyin": "xīng gāo cǎi liè",
-   "pinyin_official": null,
-   "pinyin_alt": [],
-   "pos": [],
-   "levels": {
-    "exam2025": null,
-    "std2021": null,
-    "hsk20": 6
-   },
-   "exam2025": [],
-   "std2021": [],
-   "hsk20": [
-    {
-     "id": 4526,
-     "level": 6
-    }
-   ],
-   "source": "hsk20-clem109",
-   "meanings": [],
-   "classifiers": [],
-   "cedict": {
-    "match": "mismatch",
-    "readings": [
-     "xìng gāo cǎi liè"
-    ],
-    "entries": []
-   },
-   "freq": {
-    "zipf": 3.31,
-    "rank": 25230
-   },
-   "audio": {
-    "kind": "tts",
-    "reason": "recording reading does not match CC-CEDICT"
-   },
-   "source_url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
-   "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
-  },
-  {
    "id": "w.63a5-542c.jie1ting1",
    "hanzi": "接听",
    "pinyin": "jiētīng",
@@ -49777,7 +49554,7 @@
    },
    "source_url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.81ea-7531-81ea-5728.zi4you2zi4zai4",

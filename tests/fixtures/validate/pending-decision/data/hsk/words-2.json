@@ -1,0 +1,119 @@
+{
+ "about": "Test fixture for tests/validate.test.mjs: copies of real items from data/ (phrases and rules trimmed to the fields the validator reads). Deliberately wrong (下载 has a pending decision); never app content.",
+ "items": [
+  {
+   "id": "w.4e0b-6765.xia4lai2",
+   "hanzi": "下来",
+   "pinyin": "xiàlái",
+   "pinyin_official": "xiàlái",
+   "pinyin_alt": [],
+   "pos": [
+    "动"
+   ],
+   "levels": {
+    "exam2025": "2",
+    "std2021": "3",
+    "hsk20": null
+   },
+   "exam2025": [
+    {
+     "seq": 458,
+     "level": "2",
+     "extra_levels": [],
+     "sense": null,
+     "pos": "动"
+    }
+   ],
+   "std2021": [
+    {
+     "id": "L3-0773",
+     "level": "3"
+    }
+   ],
+   "hsk20": [],
+   "source": "hsk2025-syllabus",
+   "meanings": [
+    "to come down",
+    "(completed action marker)",
+    "(after verb of motion, indicates motion down and towards us, also fig.)",
+    "(indicates continuation from the past towards us)",
+    "to be harvested (of crops)",
+    "to be over (of a period of time)",
+    "to go among the masses (said of leaders)"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "neutral",
+    "readings": [
+     "xià lai"
+    ],
+    "entries": [
+     "下來|下来[xia4 lai5]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.17,
+    "rank": 861
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "recording reading does not match CC-CEDICT"
+   },
+   "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": "keep-hsk"
+  },
+  {
+   "id": "w.4e0b-8f7d.xia4zai4",
+   "hanzi": "下载",
+   "pinyin": "xiàzài",
+   "pinyin_official": "xiàzài",
+   "pinyin_alt": [],
+   "pos": [
+    "动"
+   ],
+   "levels": {
+    "exam2025": "5",
+    "std2021": "4",
+    "hsk20": null
+   },
+   "exam2025": [
+    {
+     "seq": 3230,
+     "level": "5",
+     "extra_levels": [],
+     "sense": null,
+     "pos": "动"
+    }
+   ],
+   "std2021": [
+    {
+     "id": "L4-0788",
+     "level": "4"
+    }
+   ],
+   "hsk20": [],
+   "source": "hsk2025-syllabus",
+   "meanings": [],
+   "classifiers": [],
+   "cedict": {
+    "match": "mismatch",
+    "readings": [
+     "xià zǎi"
+    ],
+    "entries": []
+   },
+   "freq": {
+    "zipf": 5.04,
+    "rank": 1185
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": "pending"
+  }
+ ]
+}

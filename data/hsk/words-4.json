@@ -26322,7 +26322,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.5f80-5f80.wang3wang3",
@@ -42206,6 +42206,11 @@
     {
      "id": "L2-0500",
      "level": "2"
+    },
+    {
+     "id": "L2-0500",
+     "level": "2",
+     "variant": "shóu"
     }
    ],
    "hsk20": [],

@@ -5,12 +5,14 @@
 export const SETTINGS_DEFAULTS = Object.freeze({
   newPerDay: 10, // new items (words, phrases, terms) per day
   reviewLimit: 300,
-  dailyGoal: 40, // answers per day
+  dailyGoal: 50, // answers per day
   retention: 0.9, // FSRS desired retention
   // Card types, in the order they are introduced for each word (docs/RESEARCH.md: listen, speak, then characters).
+  // Characters is off by default: with Listen + Speak, 10 new words a day settle at about 125-260 answers a
+  // day; adding Characters raises that to about 190-400 (FSRS simulation, docs/RESEARCH.md "Realistic plan").
   typeListen: true,
   typeSpeak: true,
-  typeRead: true,
+  typeRead: false,
   typeCloze: true,
   // What "Study" draws from: deck ids (exam2025-1 ... , std2021-*, hsk20-*, scene ids, kinship).
   activeDecks: 'exam2025-1,exam2025-2,exam2025-3',

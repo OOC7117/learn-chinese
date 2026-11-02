@@ -1,0 +1,543 @@
+{
+ "about": "Test fixture: real CC-CEDICT entries copied unchanged from data/sources/cedict-subset.json (CC-CEDICT 2026-05-18, MDBG, CC BY-SA 4.0), only the words the tests need.",
+ "metadata": {
+  "publisher": "MDBG",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "date": "2026-05-18T07:15:15Z"
+ },
+ "entries": [
+  {
+   "traditional": "你好",
+   "simplified": "你好",
+   "pinyin": "ni3 hao3",
+   "definitions": [
+    "hello; hi"
+   ]
+  },
+  {
+   "traditional": "你",
+   "simplified": "你",
+   "pinyin": "ni3",
+   "definitions": [
+    "you (informal, as opposed to courteous 您[nin2])"
+   ]
+  },
+  {
+   "traditional": "妳",
+   "simplified": "你",
+   "pinyin": "ni3",
+   "definitions": [
+    "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)"
+   ]
+  },
+  {
+   "traditional": "好",
+   "simplified": "好",
+   "pinyin": "hao3",
+   "definitions": [
+    "good",
+    "appropriate; proper",
+    "all right!",
+    "(before a verb) easy to",
+    "(before a verb) good to",
+    "(before an adjective for exclamatory effect) so",
+    "(verb complement indicating completion)",
+    "(of two people) close; on intimate terms",
+    "(after a personal pronoun) hello"
+   ]
+  },
+  {
+   "traditional": "好",
+   "simplified": "好",
+   "pinyin": "hao4",
+   "definitions": [
+    "to be fond of; to have a tendency to; to be prone to"
+   ]
+  },
+  {
+   "traditional": "不",
+   "simplified": "不",
+   "pinyin": "bu4",
+   "definitions": [
+    "no; not so",
+    "(bound form) not; un-"
+   ]
+  },
+  {
+   "traditional": "要",
+   "simplified": "要",
+   "pinyin": "yao1",
+   "definitions": [
+    "(bound form) to demand; to coerce"
+   ]
+  },
+  {
+   "traditional": "要",
+   "simplified": "要",
+   "pinyin": "yao4",
+   "definitions": [
+    "to want; to need; to ask for",
+    "will; shall; about to",
+    "need to; should",
+    "if (same as 要是[yao4 shi5])",
+    "(bound form) important"
+   ]
+  },
+  {
+   "traditional": "不要",
+   "simplified": "不要",
+   "pinyin": "bu4 yao4",
+   "definitions": [
+    "don't!; must not"
+   ]
+  },
+  {
+   "traditional": "一",
+   "simplified": "一",
+   "pinyin": "yi1",
+   "definitions": [
+    "one",
+    "single",
+    "a (article)",
+    "as soon as",
+    "entire; whole; all; throughout",
+    "\"one\" radical in Chinese characters (Kangxi radical 1)",
+    "also pr. [yao1] for greater clarity when spelling out numbers digit by digit"
+   ]
+  },
+  {
+   "traditional": "起",
+   "simplified": "起",
+   "pinyin": "qi3",
+   "definitions": [
+    "to rise",
+    "to raise",
+    "to get up",
+    "to set out",
+    "to start",
+    "to appear",
+    "to launch",
+    "to initiate (action)",
+    "to draft",
+    "to establish",
+    "to get (from a depot or counter)",
+    "verb suffix, to start",
+    "starting from (a time, place, price etc)",
+    "classifier for occurrences or unpredictable events: case, instance",
+    "classifier for groups: batch, group"
+   ]
+  },
+  {
+   "traditional": "一起",
+   "simplified": "一起",
+   "pinyin": "yi1 qi3",
+   "definitions": [
+    "(in) the same place",
+    "together; in company (with)",
+    "altogether; in total",
+    "an instance of; a case of (murder, accident, dispute etc)"
+   ]
+  },
+  {
+   "traditional": "客氣",
+   "simplified": "客气",
+   "pinyin": "ke4 qi5",
+   "definitions": [
+    "polite",
+    "courteous",
+    "formal",
+    "modest"
+   ]
+  },
+  {
+   "traditional": "不客氣",
+   "simplified": "不客气",
+   "pinyin": "bu4 ke4 qi5",
+   "definitions": [
+    "you're welcome",
+    "don't mention it",
+    "impolite",
+    "rude",
+    "blunt"
+   ]
+  },
+  {
+   "traditional": "下",
+   "simplified": "下",
+   "pinyin": "xia4",
+   "definitions": [
+    "down",
+    "downwards",
+    "below",
+    "lower",
+    "later",
+    "next (week etc)",
+    "second (of two parts)",
+    "to decline",
+    "to go down",
+    "to arrive at (a decision, conclusion etc)",
+    "measure word to show the frequency of an action"
+   ]
+  },
+  {
+   "traditional": "來",
+   "simplified": "来",
+   "pinyin": "lai2",
+   "definitions": [
+    "to come",
+    "(used as a substitute for a more specific verb)",
+    "hither (directional complement for motion toward the speaker, as in 回來|回来[hui2 lai5])",
+    "ever since (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])",
+    "for the past (amount of time)",
+    "(prefix) the coming ...; the next ... (as in 來世|来世[lai2 shi4])",
+    "(between two verbs) in order to",
+    "(after a round number) approximately",
+    "(used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1 bu5 lai2])"
+   ]
+  },
+  {
+   "traditional": "下來",
+   "simplified": "下来",
+   "pinyin": "xia4 lai5",
+   "definitions": [
+    "to come down",
+    "(completed action marker)",
+    "(after verb of motion, indicates motion down and towards us, also fig.)",
+    "(indicates continuation from the past towards us)",
+    "to be harvested (of crops)",
+    "to be over (of a period of time)",
+    "to go among the masses (said of leaders)"
+   ]
+  },
+  {
+   "traditional": "載",
+   "simplified": "载",
+   "pinyin": "zai3",
+   "definitions": [
+    "to record in writing",
+    "to carry (i.e. publish in a newspaper etc)",
+    "Taiwan pr. [zai4]",
+    "year"
+   ]
+  },
+  {
+   "traditional": "載",
+   "simplified": "载",
+   "pinyin": "zai4",
+   "definitions": [
+    "to carry",
+    "to convey",
+    "to load",
+    "to hold",
+    "to fill up",
+    "and",
+    "also",
+    "as well as",
+    "simultaneously"
+   ]
+  },
+  {
+   "traditional": "下載",
+   "simplified": "下载",
+   "pinyin": "xia4 zai3",
+   "definitions": [
+    "to download",
+    "also pr. [xia4zai4]"
+   ]
+  },
+  {
+   "traditional": "太",
+   "simplified": "太",
+   "pinyin": "tai4",
+   "definitions": [
+    "highest",
+    "greatest",
+    "too (much)",
+    "very",
+    "extremely"
+   ]
+  },
+  {
+   "traditional": "一點兒",
+   "simplified": "一点儿",
+   "pinyin": "yi1 dian3 r5",
+   "definitions": [
+    "erhua variant of 一點|一点[yi1 dian3]"
+   ]
+  },
+  {
+   "traditional": "點",
+   "simplified": "点",
+   "pinyin": "dian3",
+   "definitions": [
+    "to touch briefly; to tap",
+    "to mark with a dot; to check off (on a list)",
+    "to order (food etc); to select",
+    "to mention; to bring up (a topic or person)",
+    "to hint at; to imply",
+    "to administer (eye medicine etc) in drops",
+    "to light (a fire, a lamp etc); to ignite",
+    "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
+    "point; dot; spot; speck",
+    "dot stroke in Chinese characters",
+    "(math.) decimal point",
+    "point in time or space",
+    "(after a number) o'clock",
+    "a small amount; a bit; (after a verb or adjective) a bit more",
+    "classifier for small amounts"
+   ]
+  },
+  {
+   "traditional": "兒",
+   "simplified": "儿",
+   "pinyin": "er2",
+   "definitions": [
+    "child",
+    "son"
+   ]
+  },
+  {
+   "traditional": "兒",
+   "simplified": "儿",
+   "pinyin": "r5",
+   "definitions": [
+    "non-syllabic diminutive suffix",
+    "retroflex final"
+   ]
+  },
+  {
+   "traditional": "謝謝",
+   "simplified": "谢谢",
+   "pinyin": "xie4 xie5",
+   "definitions": [
+    "to thank",
+    "thanks",
+    "thank you"
+   ]
+  },
+  {
+   "traditional": "謝",
+   "simplified": "谢",
+   "pinyin": "Xie4",
+   "definitions": [
+    "surname Xie"
+   ]
+  },
+  {
+   "traditional": "謝",
+   "simplified": "谢",
+   "pinyin": "xie4",
+   "definitions": [
+    "to thank",
+    "(bound form) to apologize",
+    "(bound form) to decline; to refuse",
+    "(bound form) (of flowers, leaves etc) to wither"
+   ]
+  },
+  {
+   "traditional": "對不起",
+   "simplified": "对不起",
+   "pinyin": "dui4 bu5 qi3",
+   "definitions": [
+    "I'm sorry; excuse me; I beg your pardon",
+    "to let (sb) down; to disappoint"
+   ]
+  },
+  {
+   "traditional": "對",
+   "simplified": "对",
+   "pinyin": "dui4",
+   "definitions": [
+    "right; correct",
+    "towards; at; for",
+    "concerning; regarding",
+    "to treat (sb a certain way)",
+    "to face",
+    "(bound form) opposite; facing; matching",
+    "to match together; to adjust",
+    "to fit; to suit",
+    "to answer; to reply",
+    "to add; to pour in (a fluid)",
+    "to check; to compare",
+    "classifier: couple; pair"
+   ]
+  },
+  {
+   "traditional": "女兒",
+   "simplified": "女儿",
+   "pinyin": "nu:3 er2",
+   "definitions": [
+    "daughter"
+   ]
+  },
+  {
+   "traditional": "女",
+   "simplified": "女",
+   "pinyin": "nu:3",
+   "definitions": [
+    "female",
+    "woman",
+    "daughter"
+   ]
+  },
+  {
+   "traditional": "女",
+   "simplified": "女",
+   "pinyin": "ru3",
+   "definitions": [
+    "old variant of 汝[ru3]"
+   ]
+  },
+  {
+   "traditional": "愛",
+   "simplified": "爱",
+   "pinyin": "ai4",
+   "definitions": [
+    "to love; to be fond of; to like",
+    "affection",
+    "to be inclined (to do sth); to tend to (happen)"
+   ]
+  },
+  {
+   "traditional": "愛好",
+   "simplified": "爱好",
+   "pinyin": "ai4 hao4",
+   "definitions": [
+    "to like; to be fond of; to take pleasure in; to be keen on",
+    "interest; hobby"
+   ]
+  },
+  {
+   "traditional": "是",
+   "simplified": "是",
+   "pinyin": "shi4",
+   "definitions": [
+    "to be (followed by substantives only)",
+    "correct; right; true",
+    "(respectful acknowledgement of a command) very well",
+    "(adverb for emphatic assertion)"
+   ]
+  },
+  {
+   "traditional": "昰",
+   "simplified": "是",
+   "pinyin": "shi4",
+   "definitions": [
+    "variant of 是[shi4]"
+   ]
+  },
+  {
+   "traditional": "書",
+   "simplified": "书",
+   "pinyin": "Shu1",
+   "definitions": [
+    "abbr. for 書經|书经[Shu1 jing1]"
+   ]
+  },
+  {
+   "traditional": "書",
+   "simplified": "书",
+   "pinyin": "shu1",
+   "definitions": [
+    "book",
+    "letter",
+    "document",
+    "CL:本[ben3],冊|册[ce4],部[bu4]",
+    "to write"
+   ]
+  },
+  {
+   "traditional": "車",
+   "simplified": "车",
+   "pinyin": "Che1",
+   "definitions": [
+    "surname Che"
+   ]
+  },
+  {
+   "traditional": "車",
+   "simplified": "车",
+   "pinyin": "che1",
+   "definitions": [
+    "car",
+    "vehicle",
+    "CL:輛|辆[liang4]",
+    "machine",
+    "to shape with a lathe",
+    "Kangxi radical 159"
+   ]
+  },
+  {
+   "traditional": "車",
+   "simplified": "车",
+   "pinyin": "ju1",
+   "definitions": [
+    "war chariot (archaic)",
+    "rook (in Chinese chess)",
+    "rook (in chess)"
+   ]
+  },
+  {
+   "traditional": "杯",
+   "simplified": "杯",
+   "pinyin": "bei1",
+   "definitions": [
+    "cup",
+    "trophy cup",
+    "classifier for certain containers of liquids: glass, cup"
+   ]
+  },
+  {
+   "traditional": "桮",
+   "simplified": "杯",
+   "pinyin": "bei1",
+   "definitions": [
+    "variant of 杯[bei1]"
+   ]
+  },
+  {
+   "traditional": "盃",
+   "simplified": "杯",
+   "pinyin": "bei1",
+   "definitions": [
+    "variant of 杯[bei1]",
+    "trophy cup",
+    "classifier for certain containers of liquids: glass, cup"
+   ]
+  },
+  {
+   "traditional": "個",
+   "simplified": "个",
+   "pinyin": "ge3",
+   "definitions": [
+    "used in 自個兒|自个儿[zi4 ge3 r5]"
+   ]
+  },
+  {
+   "traditional": "個",
+   "simplified": "个",
+   "pinyin": "ge4",
+   "definitions": [
+    "(classifier used before a noun that has no specific classifier)",
+    "(bound form) individual"
+   ]
+  },
+  {
+   "traditional": "箇",
+   "simplified": "个",
+   "pinyin": "ge4",
+   "definitions": [
+    "variant of 個|个[ge4]"
+   ]
+  },
+  {
+   "traditional": "朋友",
+   "simplified": "朋友",
+   "pinyin": "peng2 you5",
+   "definitions": [
+    "friend",
+    "CL:個|个[ge4],位[wei4]"
+   ]
+  }
+ ]
+}

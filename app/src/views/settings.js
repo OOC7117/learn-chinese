@@ -5,11 +5,13 @@ import { SETTINGS_DEFAULTS } from '../lib/settings.js';
 import { mergeMarks, validateMarks } from '../lib/marks.js';
 import { validateSrs } from '../lib/srs.js';
 import { cleanStats } from '../lib/stats.js';
+import { offlineSection } from '../offline.js';
 
 export function render(root, ctx) {
   const { state, audio } = ctx;
   const body = h('div');
-  replace(root, h('h1', 'Settings'), body);
+  const offline = offlineSection(ctx); // outside `body`, so redrawing the settings keeps a running download
+  replace(root, h('h1', 'Settings'), body, offline.el);
 
   const number = (key, label, hint, { min, max, step = 1 }) => {
     const id = `set-${key}`;
@@ -28,7 +30,7 @@ export function render(root, ctx) {
     replace(body,
       h('h2', 'Pace'),
       h('ul.list',
-        number('newPerDay', 'New words per day', 'Each new word adds about 5–10 reviews a day after a few weeks (see Progress).', { min: 0, max: 100 }),
+        number('newPerDay', 'New words per day', '10 a day with Listen + Speak: about 125–260 answers a day after a few months (≈ 17–35 min). HSK 4 (2,000 words) in about 200 days.', { min: 0, max: 100 }),
         number('dailyGoal', 'Daily goal (answers)', null, { min: 5, max: 1000 }),
         number('reviewLimit', 'Maximum reviews per day', 'Overdue cards wait; nothing is lost.', { min: 10, max: 2000 }),
         number('retention', 'Desired retention', 'FSRS default 0.90. Higher = more reviews, fewer lapses (0.80–0.95 is sensible).', { min: 0.7, max: 0.97, step: 0.01 })),
@@ -37,7 +39,7 @@ export function render(root, ctx) {
       h('ul.list',
         toggle('typeListen', 'Listen', 'Hear the word, recall the meaning (with a tone check)'),
         toggle('typeSpeak', 'Speak', 'See the English, say it aloud, then compare'),
-        toggle('typeRead', 'Characters', 'See the characters, recall pinyin and meaning'),
+        toggle('typeRead', 'Characters', 'See the characters, recall pinyin and meaning. Needed for the HSK reading paper; adds about 50% more reviews.'),
         toggle('typeCloze', 'In a phrase', 'Fill the gap in a checked phrase (when the word occurs in one)'),
         toggle('toneCheck', 'Tone check on listen cards', 'Pick the tones you heard before revealing'),
         toggle('showPinyinOnRead', 'Pinyin on the characters card', 'Off is harder but trains reading')),
@@ -100,5 +102,6 @@ export function render(root, ctx) {
   return () => {
     offVoices();
     globalThis.speechSynthesis?.removeEventListener?.('voiceschanged', draw);
+    offline.cleanup();
   };
 }

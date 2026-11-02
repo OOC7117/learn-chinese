@@ -77,11 +77,11 @@ export async function render(root, ctx) {
         h('p.audio-src', audio.sourceOf(item) === 'recording' ? `Recording · ${item.audio.speaker}` : 'Device voice (synthetic)'));
     }
     if (t === 'speak') {
+      // Only the English: usage notes often contain the Chinese answer, so they are shown after revealing.
       const en = item.kind === 'word' ? item.meanings.slice(0, 2).join('; ') : item.english;
       return h('div.prompt',
         h('p.meaning', en),
-        item.kind === 'phrase' && item.usage ? h('p.note', item.usage) : null,
-        item.kind === 'term' && item.usage ? h('p.note', item.usage) : null,
+        item.kind === 'phrase' && item.register && item.register !== 'neutral' ? h('span.chip', item.register) : null,
         h('p.muted', 'Say it in Chinese, out loud. Then check.'));
     }
     if (t === 'read') {
@@ -142,6 +142,7 @@ export async function render(root, ctx) {
     else {
       parts.push(h('p.meaning', item.english));
       if (item.literal) parts.push(h('p.note', `Literally: ${item.literal}`));
+      if (item.usage) parts.push(h('details.card-usage', h('summary', 'When to use it'), h('p.note', item.usage)));
     }
     parts.push(audioButtons(item, ctx));
     if (current.type === 'cloze' && clozeExample) parts.push(h('p', zh(clozeExample.hanzi), ' ', h('span.muted', clozeExample.english)));

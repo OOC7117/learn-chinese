@@ -1,0 +1,119 @@
+{
+ "about": "Test fixture for tests/validate.test.mjs: copies of real items from data/ (phrases and rules trimmed to the fields the validator reads). Clean: the validator reports no errors and no warnings.",
+ "items": [
+  {
+   "id": "w.7231.ai4",
+   "hanzi": "爱",
+   "pinyin": "ài",
+   "pinyin_official": "ài",
+   "pinyin_alt": [],
+   "pos": [
+    "动"
+   ],
+   "levels": {
+    "exam2025": "1",
+    "std2021": "1",
+    "hsk20": 1
+   },
+   "exam2025": [
+    {
+     "seq": 1,
+     "level": "1",
+     "extra_levels": [],
+     "sense": null,
+     "pos": "动"
+    }
+   ],
+   "std2021": [
+    {
+     "id": "L1-0001",
+     "level": "1"
+    }
+   ],
+   "hsk20": [
+    {
+     "id": 1,
+     "level": 1
+    }
+   ],
+   "source": "hsk2025-syllabus",
+   "meanings": [
+    "to love; to be fond of; to like",
+    "affection",
+    "to be inclined (to do sth); to tend to (happen)"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "ài"
+    ],
+    "entries": [
+     "愛|爱[ai4]"
+    ]
+   },
+   "freq": {
+    "zipf": 5.86,
+    "rank": 144
+   },
+   "audio": {
+    "kind": "syllable",
+    "file": "s/ai4.mp3",
+    "speaker": "Chen Wang",
+    "source": "audio-cmn"
+   },
+   "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  },
+  {
+   "id": "w.4f60-597d.ni3hao3",
+   "hanzi": "你好",
+   "pinyin": "nǐ hǎo",
+   "pinyin_official": "nǐ hǎo",
+   "pinyin_alt": [],
+   "pos": [],
+   "levels": {
+    "exam2025": "1",
+    "std2021": null,
+    "hsk20": null
+   },
+   "exam2025": [
+    {
+     "seq": 147,
+     "level": "1",
+     "extra_levels": [],
+     "sense": null,
+     "pos": ""
+    }
+   ],
+   "std2021": [],
+   "hsk20": [],
+   "source": "hsk2025-syllabus",
+   "meanings": [
+    "hello; hi"
+   ],
+   "classifiers": [],
+   "cedict": {
+    "match": "ok",
+    "readings": [
+     "nǐ hǎo"
+    ],
+    "entries": [
+     "你好|你好[ni3 hao3]"
+    ]
+   },
+   "freq": {
+    "zipf": 4.69,
+    "rank": 2459
+   },
+   "audio": {
+    "kind": "tts",
+    "reason": "no recording"
+   },
+   "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
+   "verified_against": "CC-CEDICT 2026-05-18",
+   "resolution": null
+  }
+ ]
+}

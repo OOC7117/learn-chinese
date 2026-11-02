@@ -1,0 +1,6 @@
+# Not uploaded to Vercel (CLI and Git deployments). .data/ holds local account records (emails) from
+# the dev server; tests/ and scripts/ are dev-only, so Vercel serves the same paths as the dev server.
+.data/
+.env*
+tests/
+scripts/

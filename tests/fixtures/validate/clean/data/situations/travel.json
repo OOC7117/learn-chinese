@@ -1,0 +1,125 @@
+{
+ "about": "Test fixture for tests/validate.test.mjs: copies of real items from data/ (phrases and rules trimmed to the fields the validator reads); statuses set to \"verified\" so every check runs.",
+ "situation": "travel",
+ "title": "Travel in China",
+ "intro": "Getting around mainland China: greetings, help, transport, hotels, food, paying and emergencies.",
+ "scenes": [
+  {
+   "id": "travel.greetings",
+   "title": "Greetings and politeness basics",
+   "description": "What a traveller says all day: hello to one person, to a group and politely; thank you and the replies; sorry vs excuse me (对不起 / 不好意思 / 打扰一下 / 请问); goodbye; short yes/no-type answers; declining an offer; plus the formulas shop and restaurant staff say to you.",
+   "phrases": [
+    {
+     "id": "travel.greetings.ni-hao",
+     "hanzi": "你好！",
+     "pinyin": "Nǐ hǎo!",
+     "literal": "you good",
+     "english": "Hello! / Hi!",
+     "register": "neutral",
+     "speaker": "either",
+     "regional_note": null,
+     "sources": [
+      {
+       "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf",
+       "title": "中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+       "publisher": "中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC)",
+       "published": null,
+       "accessed": "2026-11-02",
+       "via": "curl",
+       "authority": "official",
+       "licence": null,
+       "evidence": "“例如：女：你好！” / “男：你好！很高兴认识你。” / “Nǐ hǎo ！ Hěn gāoxìng rènshi nǐ ．” — HSK 3.0 level-1 sample paper, listening part 3 example (hanzi printed with pinyin)."
+      }
+     ],
+     "source": "中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233) (中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC))",
+     "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf",
+     "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK（三级）样卷 H31003 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+     "ai_generated": false,
+     "status": "verified"
+    },
+    {
+     "id": "travel.greetings.xiexie",
+     "hanzi": "谢谢！",
+     "pinyin": "Xièxie!",
+     "literal": "thank-thank",
+     "english": "Thank you! / Thanks!",
+     "register": "neutral",
+     "speaker": "either",
+     "regional_note": null,
+     "sources": [
+      {
+       "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf",
+       "title": "中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+       "publisher": "中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC)",
+       "published": null,
+       "accessed": "2026-11-02",
+       "via": "curl",
+       "authority": "official",
+       "licence": null,
+       "evidence": "“F 好 的， 谢谢 ！” / “Hǎo de ， xièxie ！” — HSK 3.0 level-1 sample paper, reading part 2 (pinyin printed: xièxie)."
+      }
+     ],
+     "source": "中文水平考试 HSK（一级）样卷 (HSK 3.0 sample paper, printed with pinyin; 中外语言交流合作中心 编制) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233) (中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC))",
+     "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK3-%E6%A0%B7%E5%8D%B7/HSK%EF%BC%88%E4%B8%80%E7%BA%A7%EF%BC%89%E6%A0%B7%E5%8D%B7.pdf",
+     "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK（一级）样卷 H10901 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+     "ai_generated": false,
+     "status": "verified"
+    },
+    {
+     "id": "travel.greetings.bu-keqi",
+     "hanzi": "不客气。",
+     "pinyin": "Bù kèqi.",
+     "literal": "not courteous (no need for politeness)",
+     "english": "You're welcome.",
+     "register": "neutral",
+     "speaker": "either",
+     "regional_note": null,
+     "sources": [
+      {
+       "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+       "title": "HSK（四级）样卷 H41001 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+       "publisher": "国家汉办 / 孔子学院总部 (Hanban)",
+       "published": null,
+       "accessed": "2026-11-02",
+       "via": "curl",
+       "authority": "official",
+       "licence": null,
+       "evidence": "“32．女：先生，这是您的房卡，请拿好。” / “男：谢谢！麻烦你们了。” / “女：不客气。” — Listening script (hotel check-in)."
+      }
+     ],
+     "source": "HSK（四级）样卷 H41001 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233) (国家汉办 / 孔子学院总部 (Hanban))",
+     "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%202/%E8%80%83%E7%BA%B2%E5%92%8C%E6%A0%B7%E5%8D%B7/HSK%E6%A0%B7%E5%8D%B7%EF%BC%88%E5%9B%BD%E5%AE%B6%E6%B1%89%E5%8A%9E%EF%BC%89/v1/H41001.pdf",
+     "verified_against": "CC-CEDICT 2026-05-18 (word-by-word pinyin check); HSK（一级）样卷 H10901 (official sample paper incl. listening script) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+     "ai_generated": false,
+     "status": "verified"
+    }
+   ],
+   "rules": [
+    {
+     "id": "travel.greetings.rule-core-set",
+     "rule": "The level-1 politeness core is 你好 / 谢谢 / 对不起 / 再见, with the replies 不客气 (to thanks) and 没关系 (to an apology). Learners are expected to recognise and exchange these in meeting, parting and everyday situations.",
+     "why": "The 2025 HSK task syllabus (in force 2026-07) lists exchanging exactly these as a level-1 communicative task; the HSK 3.0 level-1 sample tests the 对不起 → 没关系 and 谢谢 → 不客气 pairs.",
+     "regional_note": null,
+     "sources": [
+      {
+       "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+       "title": "中文水平考试 HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): task, vocabulary and grammar syllabi — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+       "publisher": "中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC)",
+       "published": "2025-11",
+       "accessed": "2026-11-02",
+       "via": "curl",
+       "authority": "official",
+       "licence": null,
+       "evidence": "“能听懂在聚会、告别、结识新朋友等场景中对方的简单礼貌用语，并与对方互致简单礼貌用语。如你好、谢谢、对不起、再见等。” — HSK level 1, task 六 日常言语交往."
+      }
+     ],
+     "source": "中文水平考试 HSK考试大纲 / Syllabus for the Chinese Proficiency Test (released 2025-11, in force 2026-07): task, vocabulary and grammar syllabi — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233) (中外语言交流合作中心 (Center for Language Education and Cooperation, CLEC))",
+     "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E6%97%A0%E6%B0%B4%E5%8D%B0%E7%89%88%EF%BC%89.pdf",
+     "verified_against": "中文水平考试 HSK（一级）样卷答案 (answer key to the HSK 3.0 level-1 sample paper) — PDF obtained via git clone of github.com/docrealm/docs-hsk (commit bdff233)",
+     "ai_generated": false,
+     "status": "verified"
+    }
+   ]
+  }
+ ]
+}

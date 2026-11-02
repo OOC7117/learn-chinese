@@ -76,12 +76,10 @@ export function classify({ items, srs = {}, marks = {}, now = Date.now(), daySta
       if (c.card.state === State.Learning || c.card.state === State.Relearning) learning.push({ ...c, kind: 'learning', due });
       else if (c.card.state === State.Review && due < dayEnd) review.push({ ...c, kind: 'review', due });
     }
-    // The next unstarted type unlocks once the previous type was first studied before today.
+    // The next unstarted type unlocks once the started types were first studied before today (also when the
+    // unstarted one comes first: a type switched on again in settings after the item was started).
     const nextIndex = cards.findIndex((c) => !c.card || c.card.reps === 0);
-    if (nextIndex > 0) {
-      const prev = cards[nextIndex - 1];
-      if (prev.card && prev.card.reps > 0 && prev.first !== null && prev.first < dayStart) siblings.push({ ...cards[nextIndex], kind: 'new' });
-    }
+    if (nextIndex >= 0 && started.every((c) => c.first !== null && c.first < dayStart)) siblings.push({ ...cards[nextIndex], kind: 'new' });
   }
   learning.sort((a, b) => a.due - b.due);
   review.sort((a, b) => a.due - b.due);
@@ -133,7 +131,7 @@ export function buildQueue({ items, srs = {}, marks = {}, now = Date.now(), sett
   const dueLearning = c.learning.filter((x) => x.due <= now);
   const laterLearning = c.learning.filter((x) => x.due > now);
   // Siblings of items already studied today wait for tomorrow (learning steps of the same card do not).
-  const reviews = c.review.filter((x) => !c.studiedToday.has(x.itemId) || x.card.last_review.getTime() < dayStart)
+  const reviews = c.review.filter((x) => !c.studiedToday.has(x.itemId) || (x.card.last_review?.getTime() ?? 0) >= dayStart)
     .filter((x, i, all) => all.findIndex((y) => y.itemId === x.itemId) === i) // one review per item per session
     .slice(0, cfg.reviewLimit);
   const reviewItems = new Set(reviews.map((x) => x.itemId));

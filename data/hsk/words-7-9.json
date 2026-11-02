@@ -57821,7 +57821,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.524a-5f31.xue1ruo4",
@@ -98555,7 +98555,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.521b-4f24.chuang1shang1",
@@ -185325,9 +185325,9 @@
    "resolution": null
   },
   {
-   "id": "w.4efb-6027.ren2xing4",
+   "id": "w.4efb-6027.ren4xing4",
    "hanzi": "任性",
-   "pinyin": "rénxìng",
+   "pinyin": "rèn xìng",
    "pinyin_official": "rénxìng",
    "pinyin_alt": [],
    "pos": [
@@ -185336,7 +185336,7 @@
    "levels": {
     "exam2025": "7-9",
     "std2021": null,
-    "hsk20": null
+    "hsk20": 6
    },
    "exam2025": [
     {
@@ -185344,32 +185344,50 @@
      "level": "7-9",
      "extra_levels": [],
      "sense": null,
-     "pos": "形"
+     "pos": "形",
+     "corrected_from": "rénxìng"
     }
    ],
    "std2021": [],
-   "hsk20": [],
-   "source": "hsk2025-syllabus",
-   "meanings": [],
+   "hsk20": [
+    {
+     "id": 4039,
+     "level": 6
+    }
+   ],
+   "source": "hsk20-clem109",
+   "corrected_duplicate_of": [
+    "w.4efb-6027.ren2xing4"
+   ],
+   "meanings": [
+    "willful",
+    "headstrong",
+    "unruly"
+   ],
    "classifiers": [],
    "cedict": {
-    "match": "mismatch",
+    "match": "ok",
     "readings": [
      "rèn xìng"
     ],
-    "entries": []
+    "entries": [
+     "任性|任性[ren4 xing4]"
+    ]
    },
    "freq": {
     "zipf": 3.67,
     "rank": 14441
    },
    "audio": {
-    "kind": "tts",
-    "reason": "recording reading does not match CC-CEDICT"
+    "kind": "word",
+    "file": "w/w.4efb-6027.ren4xing4.mp3",
+    "speaker": "Yue Tan",
+    "source": "audio-cmn",
+    "from": "24k-abr/hsk/cmn-任性.mp3"
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": null
   },
   {
    "id": "w.5982-671f.ru2qi1",
@@ -250065,7 +250083,7 @@
   {
    "id": "w.811a-8e0f-5b9e-5730.jiao3ta1shi2di4",
    "hanzi": "脚踏实地",
-   "pinyin": "jiǎotāshídì",
+   "pinyin": "jiǎotàshídì",
    "pinyin_official": "jiǎotāshídì",
    "pinyin_alt": [],
    "pos": [],
@@ -250086,14 +250104,20 @@
    "std2021": [],
    "hsk20": [],
    "source": "hsk2025-syllabus",
-   "meanings": [],
+   "pinyin_source": "jiǎotāshídì",
+   "meanings": [
+    "to have one's feet firmly planted on the ground (idiom); realistic without flights of fancy",
+    "steady and serious character"
+   ],
    "classifiers": [],
    "cedict": {
-    "match": "mismatch",
+    "match": "ok",
     "readings": [
      "jiǎo tà shí dì"
     ],
-    "entries": []
+    "entries": [
+     "腳踏實地|脚踏实地[jiao3 ta4 shi2 di4]"
+    ]
    },
    "freq": {
     "zipf": 3.39,
@@ -250105,7 +250129,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "use-cedict"
   },
   {
    "id": "w.5ba2-6d41.ke4liu2",
@@ -250754,7 +250778,7 @@
   {
    "id": "w.6e29-5dee.wen1cha4",
    "hanzi": "温差",
-   "pinyin": "wēnchà",
+   "pinyin": "wēnchā",
    "pinyin_official": "wēnchà",
    "pinyin_alt": [],
    "pos": [
@@ -250777,14 +250801,19 @@
    "std2021": [],
    "hsk20": [],
    "source": "hsk2025-syllabus",
-   "meanings": [],
+   "pinyin_source": "wēnchà",
+   "meanings": [
+    "difference in temperature"
+   ],
    "classifiers": [],
    "cedict": {
-    "match": "mismatch",
+    "match": "ok",
     "readings": [
      "wēn chā"
     ],
-    "entries": []
+    "entries": [
+     "溫差|温差[wen1 cha1]"
+    ]
    },
    "freq": {
     "zipf": 3.39,
@@ -250796,7 +250825,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "use-cedict"
   },
   {
    "id": "w.6c61-79fd.wu1hui4",
@@ -265688,7 +265717,7 @@
    "levels": {
     "exam2025": "7-9",
     "std2021": "7-9",
-    "hsk20": null
+    "hsk20": 6
    },
    "exam2025": [
     {
@@ -265705,8 +265734,17 @@
      "level": "7-9"
     }
    ],
-   "hsk20": [],
+   "hsk20": [
+    {
+     "id": 4526,
+     "level": 6,
+     "corrected_from": "xīng gāo cǎi liè"
+    }
+   ],
    "source": "hsk2025-syllabus",
+   "corrected_duplicate_of": [
+    "w.5174-9ad8-91c7-70c8.xing1gao1cai3lie4"
+   ],
    "meanings": [
     "happy and excited (idiom)",
     "in high spirits",
@@ -303333,7 +303371,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.4e00-6280-4e4b-957f.yi1ji4zhi1chang2",
@@ -310381,7 +310419,7 @@
    },
    "source_url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
    "verified_against": "CC-CEDICT 2026-05-18",
-   "resolution": "pending"
+   "resolution": "keep-hsk"
   },
   {
    "id": "w.4e00-63fd-5b50.yi1lan3zi5",

@@ -293,8 +293,29 @@ export function applyDecisions(items, byHanzi, decisions) {
     const item = items.get(d.id);
     if (!item) continue;
     if (d.decision === 'use-cedict' && d.pinyin_used) {
-      item.pinyin_source = item.pinyin;
-      item.pinyin = d.pinyin_used;
+      // Another list may already have the word with the corrected reading (e.g. HSK 2.0 任性 rènxìng when
+      // the 2025 list misprints rénxìng): then the two are one word. The item whose own source reading is
+      // right keeps its id; the corrected one's list memberships move into it.
+      const key = toNumbered(d.pinyin_used);
+      const twinId = (byHanzi.get(item.hanzi) ?? []).find((id) => id !== d.id && toNumbered(items.get(id).pinyin) === key);
+      if (twinId) {
+        const twin = items.get(twinId);
+        for (const list of ['exam2025', 'std2021', 'hsk20']) {
+          twin[list].push(...item[list].map((row) => ({ ...row, corrected_from: item.pinyin })));
+          const a = twin.levels[list];
+          const b = item.levels[list];
+          if (b !== null && (a === null || levelRank(b) < levelRank(a))) twin.levels[list] = b;
+        }
+        for (const p of item.pos) if (!twin.pos.includes(p)) twin.pos.push(p);
+        twin.pinyin_official ??= item.pinyin_official;
+        twin.corrected_duplicate_of = twin.corrected_duplicate_of ?? [];
+        twin.corrected_duplicate_of.push(d.id);
+        items.delete(d.id);
+        byHanzi.set(item.hanzi, (byHanzi.get(item.hanzi) ?? []).filter((id) => id !== d.id));
+      } else {
+        item.pinyin_source = item.pinyin;
+        item.pinyin = d.pinyin_used;
+      }
     } else if (d.decision === 'alt-of' && d.alt_of) {
       const [hanzi, ...rest] = d.alt_of.split(' ');
       const key = toNumbered(rest.join(' '));

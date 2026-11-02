@@ -50,7 +50,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "yīhuàng",
-   "note": "Both official lists print yíhuàng, the tone-sandhi spelling of citation yīhuàng (2025 no. 10222; GF 0025-2021 L7-4885), while CC-CEDICT has only yī huǎng for both senses ('time passing in an instant', 'a sight flashing past'). The official reading is kept because the official lists outrank CC-CEDICT; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "note": "Both official lists print yíhuàng, the tone-sandhi spelling of citation yīhuàng (2025 no. 10222; GF 0025-2021 L7-4885), while CC-CEDICT has only yī huǎng for both senses ('time passing in an instant', 'a sight flashing past'). The official reading is kept because the official lists outrank CC-CEDICT; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable. Verifier (2026-11-02): the 现汉 full text (CNMan/XDHYCD7th, y- section in 5th-edition wording) has two entries, 一晃 yīhuǎng 'to flash past' and 一晃 yīhuàng 'time passes quickly without one noticing', so yīhuàng is also the 现汉 reading of the time sense; the verifier's own text extraction of the 2025 PDF (p. 335) shows yíhuàng. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -72,6 +72,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "一晃 [yi1 huang3] (of passing time) in an instant / (of a sight) in a flash; 晃 [huang3] to dazzle / to flash past; 晃 [huang4] to sway / to shake / to wander about."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【一晃】yīhuǎng〈动〉很快地一闪：窗外有个人影，～就不见了。【一晃】yīhuàng〈动〉表示时间很快过去（有不知不觉的意思）：～就是五年，孩子都长这么大了。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -174,7 +181,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "xiàzài",
-   "note": "Both official lists print xiàzài (2025 no. 3230; GF 0025-2021 L4-0788), matching 卸载 xièzài in the 2025 list, and CC-CEDICT's own 下载 entry (xià zǎi) adds 'also pr. [xia4zai4]'. The official reading is kept; xià zǎi (the separate HSK 2.0 item) is the CC-CEDICT variant.",
+   "note": "Both official lists print xiàzài (2025 no. 3230; GF 0025-2021 L4-0788), matching 卸载 xièzài in the 2025 list, and CC-CEDICT's own 下载 entry (xià zǎi) adds 'also pr. [xia4zai4]'. The official reading is kept; xià zǎi (the separate HSK 2.0 item) is the CC-CEDICT variant. Verifier (2026-11-02): not refuted, with one caveat: the only 现汉 text available (CNMan/XDHYCD7th, whose x- section still has 5th-edition wording) gives xiàzǎi and the 7th-edition entry itself could not be seen, but the printed 2021 standard (p. 43: 下载 xiàzài), which says its pinyin was checked against 现汉 7th ed. and 现代汉语规范词典 3rd ed., and the 2025 list (PDF p. 160) both have xiàzài, and CC-CEDICT accepts it. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -196,6 +203,20 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "下载 [xia4 zai3] to download / also pr. [xia4zai4]; 卸载 [xie4 zai4] to unload cargo / to uninstall (software)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇, the printed GF 0025-2021 word list (copy in docrealm/docs-hsk @bdff233; page images checked)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Printed p. 43 (PDF p. 55), level 4: 788 下载 xiàzài 动. Printed p. IV (PDF p. 10), （二）词语拼音: 词汇表中词语拼音的拼写原则主要以《等级划分》为依据，同时参考国家语言文字规范及《现代汉语词典（第7版）》《现代汉语规范词典（第3版）》等。"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【下载】xiàzǎi〈动〉从互联网或其他计算机上获取信息并装入到某台计算机或其他电子装置上（跟“上传”相对）。 (x- section, 5th-edition wording: 7th-edition headwords such as 新常态 appear there without text)"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -407,7 +428,7 @@
    ],
    "decision": "use-cedict",
    "pinyin_used": "rènxìng",
-   "note": "The official 2025 list prints rénxìng (no. 8815), which appears to be a typo in the list itself: it reads 任 as rèn in all 23 of its other 任 words (任何 rènhé, 任意 rènyì, 任 rèn, 责任 zérèn...). CC-CEDICT gives 任性 rèn xìng and uses rén only in names (the surname, place names), and HSK 2.0 also has rèn xìng, so the learner should learn rènxìng.",
+   "note": "The official 2025 list prints rénxìng (no. 8815), which appears to be a typo in the list itself: it reads 任 as rèn in all 23 of its other 任 words (任何 rènhé, 任意 rènyì, 任 rèn, 责任 zérèn...). CC-CEDICT gives 任性 rèn xìng and uses rén only in names (the surname, place names), and HSK 2.0 also has rèn xìng, so the learner should learn rènxìng. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 任性 rènxìng and gives 任 rén only for the place names 任县/任丘 and the surname; the verifier's own text extraction of the 2025 PDF (p. 300) confirms that the list prints rénxìng, so the typo diagnosis stands. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -429,6 +450,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "Level 6, id 4039: 任性 rèn xìng (willful, headstrong, uninhibited)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【任性】rènxìng〈形〉放任自己的性子，不加约束：～胡闹。【任】rén ❶任县（Rén Xiàn）、任丘（Rénqiū），地名，都在河北。❷（Rén）〈名〉姓。【任】² rèn ❶〈动〉任凭；听凭：放～｜～意。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -623,7 +651,7 @@
    ],
    "decision": "use-cedict",
    "pinyin_used": "xìnggāocǎiliè",
-   "note": "Only the community HSK 2.0 transcription (clem109) has xīng gāo cǎi liè; the official 2025 list (no. 9993), GF 0025-2021 (L7-4650) and CC-CEDICT all give xìnggāo-cǎiliè, with 兴 xìng 'excitement, interest'. The HSK 2.0 source is wrong, so xìnggāocǎiliè is used.",
+   "note": "Only the community HSK 2.0 transcription (clem109) has xīng gāo cǎi liè; the official 2025 list (no. 9993), GF 0025-2021 (L7-4650) and CC-CEDICT all give xìnggāo-cǎiliè, with 兴 xìng 'excitement, interest'. The HSK 2.0 source is wrong, so xìnggāocǎiliè is used. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 兴高采烈 xìnggāocǎiliè, with 兴 xìng 'mood, interest'. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
@@ -652,6 +680,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "兴高采烈 [xing4 gao1 cai3 lie4] happy and excited (idiom) / in high spirits; 兴 [xing4] feeling or desire to do sth / interest in sth / excitement."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【兴高采烈】xìnggāocǎiliè 兴致高，情绪热烈。【兴】xìng 兴致；兴趣：豪～｜助～｜败～。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -669,7 +704,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "chūxiě",
-   "note": "GF 0025-2021 prints chū∥xiě (L7-0552) and chooses the reading of 血 word by word (献血 xiànxiě, but 输血 shū∥xuè, 流血 liúxuè, 止血 zhǐxuè), which suggests xiě is deliberate rather than a typo; CC-CEDICT has chū xuè but records xiě as the colloquial reading of 血. The official-standard reading is kept; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "note": "GF 0025-2021 prints chū∥xiě (L7-0552) and chooses the reading of 血 word by word (献血 xiànxiě, but 输血 shū∥xuè, 流血 liúxuè, 止血 zhǐxuè), which suggests xiě is deliberate rather than a typo; CC-CEDICT has chū xuè but records xiě as the colloquial reading of 血. The official-standard reading is kept; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable. Verifier (2026-11-02): the printed 2021 standard (应用解读本 p. 82) has chū∥xiě and says its pinyin was checked against 现汉 7th ed. and 现代汉语规范词典 3rd ed.; 现汉 (CNMan/XDHYCD7th full text) has one 出血 headword, chūxiě, marked 〈方〉 'to pay out money or things for someone', while its medical compounds read xuè (大出血 dàchūxuè, 脑出血 nǎochūxuè, and 埃博拉出血热 āibólāchūxuèrè in the 7th-edition a- section), so learners will also meet chūxuè (CC-CEDICT) in medical terms; the 审音表 was still not consulted. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
@@ -691,6 +726,20 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "出血 is not in the 2025 list; it reads 血 xiě (no. 1818) and 一针见血 yìzhēn-jiànxiě (no. 10303), but 输血 shūxuè (9172) and 流血 liúxuè (8062)."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇, the printed GF 0025-2021 word list (copy in docrealm/docs-hsk @bdff233; page images checked)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Printed p. 82 (PDF p. 94): 552 出血 chū∥xiě (no part of speech given). Printed p. IV (PDF p. 10), （二）词语拼音: 词汇表中词语拼音的拼写原则主要以《等级划分》为依据，同时参考国家语言文字规范及《现代汉语词典（第7版）》《现代汉语规范词典（第3版）》等。"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【出血】chūxiě〈方〉〈动〉比喻为他人拿出钱或拿出东西。 (the only 出血 headword) Medical compounds: 【大出血】dàchūxuè, 【脑出血】nǎochūxuè, 【内出血】nèichūxuè, 【外出血】wàichūxuè, 【埃博拉出血热】āibólāchūxuèrè (a- section, which carries 7th-edition wording). 【血】xiě〈口〉〈名〉义同“血”（xuè）：流了一点～。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -1087,7 +1136,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "ǹg",
-   "note": "The official 2025 list prints the syllabic-nasal reading ǹg (no. 1534, interjection). CC-CEDICT spells 嗯 only as en1/en4/en5 (although it writes syllabic nasals for 呣 m and 哼 hng) and HSK 2.0 has en, so the official citation form ǹg is kept.",
+   "note": "The official 2025 list prints the syllabic-nasal reading ǹg (no. 1534, interjection). CC-CEDICT spells 嗯 only as en1/en4/en5 (although it writes syllabic nasals for 呣 m and 哼 hng) and HSK 2.0 has en, so the official citation form ǹg is kept. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) has three interjection entries, 嗯 ńg 'questioning', ňg 'surprise' and a 4th-tone ǹg 'answering yes' (the letter ǹ appears as a ▲ placeholder in the transcription), and Wiktionary also lists the falling-tone syllabic nasal; this matches the 2025 list's 嗯 ǹg 叹 (PDF p. 118). Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -1109,6 +1158,20 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "Level 6, id 3812: 嗯 en (interjection indicating approval)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【嗯】ńg 又 ń 叹 表示疑问：～？你说什么？【嗯】ňg 又 ň 叹 表示出乎意外或认为不该是这样。【嗯】▲g 又 ▲ 叹 表示答应：他～了一声，就走了｜～，就照你说的办吧。 (▲ is the transcription's placeholder for a letter it could not encode, here the 4th-tone ǹ, since the 2nd- and 3rd-tone forms are spelled out)"
+    },
+    {
+     "url": "https://github.com/CUNY-CL/wikipron/blob/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/cmn_hani_standard_broad.tsv",
+     "title": "WikiPron scrape of English Wiktionary, Mandarin (Han script), broad IPA, CUNY-CL/wikipron @d282e84 (other dictionaries)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "嗯 rows include n̩ ⁵¹ and ŋ̍ ⁵¹ (falling tone, i.e. ǹ / ǹg) beside n̩/ŋ̍ ²¹⁴ and ³⁵ and the ən/ɤŋ forms."
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -1755,7 +1818,7 @@
    ],
    "decision": "use-cedict",
    "pinyin_used": "shànzi",
-   "note": "Only the community HSK 2.0 transcription (clem109) has shān zi; the official 2025 list (no. 2955), GF 0025-2021 (L5-0646) and CC-CEDICT all give shànzi, shān being the verb 'to fan' (扇 shān, 2025 no. 2949). The HSK 2.0 source is wrong, so shànzi is used.",
+   "note": "Only the community HSK 2.0 transcription (clem109) has shān zi; the official 2025 list (no. 2955), GF 0025-2021 (L5-0646) and CC-CEDICT all give shànzi, shān being the verb 'to fan' (扇 shān, 2025 no. 2949). The HSK 2.0 source is wrong, so shànzi is used. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 扇子 shàn·zi and uses shān only for the verb (扇 shān: '～扇（shàn）子'), so the HSK 2.0 transcription shān zi is an error. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/clem109/hsk-vocabulary/tree/f3dc9d12ae00d04fa3676b0bd4c43cd58de2c264/hsk-vocab-json",
@@ -1784,6 +1847,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "扇子 [shan4 zi5] fan; 扇 [shan1] to fan / to slap sb on the face; 扇 [shan4] fan / classifier for doors, windows etc."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【扇子】shàn·zi〈名〉摇动生风的用具：一把～｜扇（shān）～。【扇】shān ❶〈动〉摇动扇子或其他薄片，加速空气流动：～煤炉子｜～扇（shàn）子。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -2099,7 +2169,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "biāoshí",
-   "note": "The official 2025 list prints biāoshí (no. 5638, verb/noun) as a word separate from 标志 biāozhì (no. 2061) and reads 识 as shí (or neutral shi) in all its other 识 words; CC-CEDICT only has biāo zhì, as a variant of 标志. The official reading is kept because the official list outranks CC-CEDICT; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "note": "The official 2025 list prints biāoshí (no. 5638, verb/noun) as a word separate from 标志 biāozhì (no. 2061) and reads 识 as shí (or neutral shi) in all its other 识 words; CC-CEDICT only has biāo zhì, as a variant of 标志. The official reading is kept because the official list outranks CC-CEDICT; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable. Verifier (2026-11-02): the 现汉 full text (CNMan/XDHYCD7th, whose b- section carries 7th-edition wording) has a separate entry 标识 biāoshí ❶〈动〉'标示识别' ❷〈名〉'用来识别的记号' beside 标识 as a variant form of 标志 biāozhì, which matches the 2025 list's 标识 biāoshí 动、名 (PDF p. 220); CC-CEDICT records only the 标志 reading. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -2114,6 +2184,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "标识 [biao1 zhi4] variant of 標誌|标志[biao1 zhi4]; 识 [shi2] to know / knowledge; 识 [zhi4] to record / to write a footnote."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【标识】biāoshí ❶〈动〉标示识别：秘密等级是～公文保密程度的标志。❷〈名〉用来识别的记号：商标～｜发文机关～。另见85页biāozhì【标志】。【标志】（标识）biāozhì ❶〈名〉表明特征的记号或事物 … “标识”另见85页biāoshí。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -2223,7 +2300,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "xièlòu",
-   "note": "Both official lists print xièlòu (2025 no. 9931; GF 0025-2021 L7-4592), and CC-CEDICT's 泄露 entry (xiè lù) adds 'also pr. [xie4lou4]' (its 泄漏 entry is xiè lòu). The official reading is kept; xiè lù (the separate HSK 2.0 item) is the CC-CEDICT variant.",
+   "note": "Both official lists print xièlòu (2025 no. 9931; GF 0025-2021 L7-4592), and CC-CEDICT's 泄露 entry (xiè lù) adds 'also pr. [xie4lou4]' (its 泄漏 entry is xiè lòu). The official reading is kept; xiè lù (the separate HSK 2.0 item) is the CC-CEDICT variant. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads both 泄露 and 泄漏 xièlòu ('泄露 … 也作泄漏'). Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -2245,6 +2322,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "泄露 [xie4 lu4] to leak (information); to divulge / also pr. [xie4lou4]; 泄漏 [xie4 lou4] (of a liquid or gas) to leak / to divulge; to leak (information)."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【泄露】xièlòu〈动〉不应该让人知道的事情让人知道了：～机密｜～风声｜～内幕。也作泄漏。【泄漏】xièlòu ❶〈动〉（液体、气体）漏出 ❷同“泄露”。 (the transcription prints 'xiè1òu', a digit 1 for l)"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -2281,7 +2365,7 @@
    ],
    "decision": "use-cedict",
    "pinyin_used": "wēnchā",
-   "note": "The official 2025 list prints wēnchà (no. 9667), which appears to be a typo in the list itself: it reads 差 'difference' as chā in every comparable noun (时差 shíchā, 误差 wùchā, 落差 luòchā, 偏差 piānchā, 反差 fǎnchā). CC-CEDICT gives 温差 wēn chā, with 差 chā = 'difference' and chà = 'to fall short, inferior', so the learner should learn wēnchā.",
+   "note": "The official 2025 list prints wēnchà (no. 9667), which appears to be a typo in the list itself: it reads 差 'difference' as chā in every comparable noun (时差 shíchā, 误差 wùchā, 落差 luòchā, 偏差 piānchā, 反差 fǎnchā). CC-CEDICT gives 温差 wēn chā, with 差 chā = 'difference' and chà = 'to fall short, inferior', so the learner should learn wēnchā. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 温差 wēnchā '温度的差'; the verifier's own text extraction of the 2025 PDF (p. 321) confirms that the list prints wēnchà, so the typo diagnosis stands. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -2296,6 +2380,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "温差 [wen1 cha1] difference in temperature; 差 [cha1] difference; discrepancy; 差 [cha4] different / wrong; mistaken / to fall short; to lack / not up to standard; inferior."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【温差】wēnchā〈名〉温度的差，通常指一天中最高温度和最低温度的差：新疆地区日照长，～大。【差】chā … 【差】chà ❶〈形〉不相同；不相合 …"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -2371,7 +2462,7 @@
    "decision": "alt-of",
    "alt_of": "熟 shú",
    "pinyin_used": "shóu",
-   "note": "The official 2025 list (no. 1688) prints 熟 shú/shóu and GF 0025-2021 (L2-0500) has shú/shóu, so shóu is an accepted variant of the main reading shú; CC-CEDICT 熟 shú adds 'also pr. [shou2]'. Recorded as a variant of 熟 shú rather than a separate word.",
+   "note": "The official 2025 list (no. 1688) prints 熟 shú/shóu and GF 0025-2021 (L2-0500) has shú/shóu, so shóu is an accepted variant of the main reading shú; CC-CEDICT 熟 shú adds 'also pr. [shou2]'. Recorded as a variant of 熟 shú rather than a separate word. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) lists 熟 shóu as colloquial (〈口〉), '义同“熟”（shú）', which supports recording it as a variant of 熟 shú. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -2393,6 +2484,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "熟 [shu2] ripe; mature / thoroughly cooked; done / familiar; acquainted / ... / also pr. [shou2]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【熟】shóu〈口〉义同“熟”（shú）。另见1266页shú。【熟】shú〈形〉❶植物的果实等完全长成 …"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -2428,7 +2526,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "xiànxiě",
-   "note": "GF 0025-2021 prints xiànxiě (L7-4508) while giving xuè in 输血 shū∥xuè, 流血 liúxuè and 止血 zhǐxuè, which suggests a deliberate word-level reading rather than a typo; CC-CEDICT has xiàn xuè but records xiě as the colloquial reading of 血. The official-standard reading is kept; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "note": "GF 0025-2021 prints xiànxiě (L7-4508) while giving xuè in 输血 shū∥xuè, 流血 liúxuè and 止血 zhǐxuè, which suggests a deliberate word-level reading rather than a typo; CC-CEDICT has xiàn xuè but records xiě as the colloquial reading of 血. The official-standard reading is kept; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable. Verifier (2026-11-02): kept on the official evidence: the printed 2021 standard (应用解读本 p. 132) has 献血 xiànxiě (and 鲜血 xiānxuè on the same page) and says its pinyin was checked against 现汉 7th ed. and 现代汉语规范词典 3rd ed.; 现汉 (CNMan/XDHYCD7th full text, headword list updated to the 7th edition) has no 献血 entry and reads 血 word by word (吐血 tùxiě, 放血 fàngxiě, but 输血 shūxuè), so it neither confirms nor refutes xiě here, and the 审音表 was still not consulted. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-expanded.csv",
@@ -2443,6 +2541,20 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "献血 [xian4 xue4] to donate blood; 血 [xue4] blood / colloquial pr. [xie3]."
+    },
+    {
+     "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2021/2021-%E5%9B%BD%E9%99%85%E4%B8%AD%E6%96%87%E6%95%99%E8%82%B2%E4%B8%AD%E6%96%87%E6%B0%B4%E5%B9%B3%E7%AD%89%E7%BA%A7%E6%A0%87%E5%87%86%EF%BC%88%E7%AC%AC%E4%BA%8C%E5%88%86%E5%86%8C%20%E8%AF%8D%E6%B1%87%EF%BC%89.pdf",
+     "title": "国际中文教育中文水平等级标准（国家标准·应用解读本）第二分册：词汇, the printed GF 0025-2021 word list (copy in docrealm/docs-hsk @bdff233; page images checked)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "Printed p. 132 (PDF p. 144): 4508 献血 xiànxiě 动; same page: 4485 鲜血 xiānxuè 名. Printed p. IV (PDF p. 10), （二）词语拼音: 词汇表中词语拼音的拼写原则主要以《等级划分》为依据，同时参考国家语言文字规范及《现代汉语词典（第7版）》《现代汉语规范词典（第3版）》等。"
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "No 【献血】 headword (not even as a bare 7th-edition headword). 【血】xiě〈口〉〈名〉义同“血”（xuè）：流了一点～｜吐了两口～。 Compounds: 【输血】shūxuè, 【流血】liúxuè, 【失血】shīxuè, 【呕血】ǒuxuè, but 【吐血】tùxiě, 【咯血】kǎxiě, 【便血】biànxiě, 【放血】fàngxiě."
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -3028,7 +3140,7 @@
    ],
    "decision": "use-cedict",
    "pinyin_used": "jiǎotàshídì",
-   "note": "The official 2025 list prints jiǎotāshídì (no. 7454), apparently a typo in the list itself that borrows the tā of 踏实 tāshi, since both official lists read the verb 踏 'to step on' as tà (踏 tà, 践踏 jiàntà, 踏上 tàshang). CC-CEDICT gives jiǎo tà shí dì (踏 tà 'to tread, to step on'), so jiǎotàshídì is used; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable.",
+   "note": "The official 2025 list prints jiǎotāshídì (no. 7454), apparently a typo in the list itself that borrows the tā of 踏实 tāshi, since both official lists read the verb 踏 'to step on' as tà (踏 tà, 践踏 jiàntà, 踏上 tàshang). CC-CEDICT gives jiǎo tà shí dì (踏 tà 'to tread, to step on'), so jiǎotàshídì is used; 现汉7 and the 审音表 could not be consulted in this session (web-search budget exhausted), so a later check against them is advisable. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 脚踏实地 jiǎotàshídì and gives 脚～实地 as an example under 踏 tà 'to step on' (tā only in 踏实 tāshi); the verifier's own text extraction of the 2025 PDF (p. 266) confirms that the list prints jiǎotāshídì, so the typo diagnosis stands. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -3050,6 +3162,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "脚踏实地 [jiao3 ta4 shi2 di4] to have one's feet firmly planted on the ground (idiom); 踏 [ta4] to tread / to stamp / to step on; 踏 [ta1] see 踏實|踏实[ta1 shi5]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【脚踏实地】jiǎotàshídì 形容做事踏实认真。【踏】tà ❶〈动〉踩：践～｜～步｜脚～实地◇～上工作岗位。【踏实】tā·shi〈形〉❶（工作或学习的态度）切实；不浮躁。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -3138,7 +3257,7 @@
    ],
    "decision": "keep-hsk",
    "pinyin_used": "téngwàn",
-   "note": "The official 2025 list prints téngwàn (no. 9384), and CC-CEDICT's 藤蔓 entry (téng màn) adds 'also pr. [teng2 wan4]'. The official reading is kept because the official list outranks CC-CEDICT and CC-CEDICT accepts it.",
+   "note": "The official 2025 list prints téngwàn (no. 9384), and CC-CEDICT's 藤蔓 entry (téng màn) adds 'also pr. [teng2 wan4]'. The official reading is kept because the official list outranks CC-CEDICT and CC-CEDICT accepts it. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) reads 藤蔓 téngwàn and cites 藤～ under 蔓 wàn '细长不能直立的茎' (màn '多用于合成词'), so the official reading is also the 现汉 reading. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -3153,6 +3272,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "藤蔓 [teng2 man4] vine / also pr. [teng2 wan4]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【藤蔓】téngwàn〈名〉藤和蔓：架子上爬满了葡萄、丝瓜、扁豆的～。【蔓】wàn（～儿）〈名〉细长不能直立的茎：藤～｜扁豆爬～儿了｜顺～摸瓜。【蔓】màn 义同“蔓”（wàn），多用于合成词。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"
@@ -3306,7 +3432,7 @@
    "decision": "alt-of",
    "alt_of": "谁 shéi",
    "pinyin_used": "shuí",
-   "note": "The official 2025 list (no. 181) prints 谁 shéi/shuí and GF 0025-2021 (L1-0325) has shéi/shuí, so shuí is an accepted variant of the main reading shéi; CC-CEDICT 谁 shéi adds 'also pr. [shui2]'. Recorded as a variant of 谁 shéi rather than a separate word.",
+   "note": "The official 2025 list (no. 181) prints 谁 shéi/shuí and GF 0025-2021 (L1-0325) has shéi/shuí, so shuí is an accepted variant of the main reading shéi; CC-CEDICT 谁 shéi adds 'also pr. [shui2]'. Recorded as a variant of 谁 shéi rather than a separate word. Verifier (2026-11-02): 现汉 (CNMan/XDHYCD7th full text) gives 谁 shéi 又 shuí and calls shuí the 又音 (alternative reading) of shéi, which supports recording it as a variant of 谁 shéi. Verified independently.",
    "sources": [
     {
      "url": "https://github.com/docrealm/docs-hsk/blob/bdff23362be0ffb4020505b7333a4443bcaa9ec1/HSK%203/HSK%203-2025/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2.pdf",
@@ -3328,6 +3454,13 @@
      "accessed": "2026-11-02",
      "via": "local-copy",
      "evidence": "谁 [shei2] who / also pr. [shui2]."
+    },
+    {
+     "url": "https://github.com/CNMan/XDHYCD7th/blob/1e38ce15528b2fc3fdee0b2934b0951fcac51cb9/XDHYCD7th.txt",
+     "title": "《现代汉语词典》 full text, community transcription CNMan/XDHYCD7th @1e38ce1: a 5th-edition text being revised to the 7th edition (2016); a- and b- entries carry 7th-edition wording, c- to z- keep 5th-edition wording with the 7th-edition headwords added (local copy downloaded in this session)",
+     "accessed": "2026-11-02",
+     "via": "local-copy",
+     "evidence": "【谁】（誰）shéi 又 shuí〈代〉疑问代词。❶问人：你找～？…【谁】（誰）shuí ❶“谁”shéi的又音。❷（Shuí）〈名〉姓。"
     }
    ],
    "decided_by": "agent-research 2026-11-02"

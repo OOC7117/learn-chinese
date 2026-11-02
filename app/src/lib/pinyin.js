@@ -134,9 +134,12 @@ export function parseSyllable(text) {
   return { base: s.toLowerCase().replace(/v/g, 'ü'), tone, marks };
 }
 
-/** "ni3 hao3" / "Ni3hao3" / "lv4" / "nu:3" -> "nǐ hǎo" / "Nǐhǎo" / "lǜ" / "nǚ". */
+/** "ni3 hao3" / "Ni3hao3" / "lv4" / "nu:3" -> "nǐ hǎo" / "Nǐhǎo" / "lǜ" / "nǚ". A tone number ends a syllable,
+ * so an a, o or e right after it starts the next one and gets the apostrophe: "Xi1an1" -> "Xī'ān". */
 export function numberedToMarked(text) {
-  return normalize(text).replace(/([a-zA-ZüÜv]+?)([0-5])/g, (_, syl, t) => markSyllable(syl.replace(/v/g, 'ü').replace(/V/g, 'Ü'), Number(t)));
+  return normalize(text)
+    .replace(/([0-5])(?=[aoeAOE])/g, "$1'")
+    .replace(/([a-zA-ZüÜv]+?)([0-5])/g, (_, syl, t) => markSyllable(syl.replace(/v/g, 'ü').replace(/V/g, 'Ü'), Number(t)));
 }
 
 /** Remove tone marks, keep ü: "Nǚ'ér" -> "Nü'er". */

@@ -1,0 +1,49 @@
+/* Speaking scenes, dialogues, kinship chart, grammar, pitfalls, travel facts. */
+
+.phrase-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.phrase { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 0.75rem 0.9rem; box-shadow: var(--shadow); }
+.phrase-head { display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; }
+.phrase-head .grow { flex: 1; }
+.phrase-hanzi { display: block; font-size: 1.45rem; line-height: 1.4; margin-top: 0.25rem; }
+.phrase-pinyin { font-size: 1rem; }
+.phrase-en { margin: 0.25rem 0 0.4rem; }
+.phrase .audio-row { justify-content: flex-start; }
+.phrase-more summary, .rule details summary, .fact summary, .kin-detail details summary { cursor: pointer; color: var(--accent); min-height: 44px; display: flex; align-items: center; }
+.phrase-more[open] { margin-top: 0.25rem; }
+.rules { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.rule { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.6rem 0.9rem; }
+.rule p { margin: 0.25rem 0; }
+
+.dialogue { list-style: none; padding: 0; margin: 1rem 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.bubble { position: relative; max-width: 88%; padding: 0.6rem 3.4rem 0.6rem 0.8rem; border-radius: 1rem; border: 1px solid var(--border); background: var(--surface); }
+.bubble.me { align-self: flex-end; background: var(--accent-soft); border-color: transparent; }
+.bubble .who { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.bubble-hanzi { display: block; font-size: 1.25rem; line-height: 1.4; }
+.bubble-en { margin: 0.2rem 0 0; font-size: 0.92rem; }
+.bubble .play-btn { position: absolute; right: 0.4rem; top: 50%; transform: translateY(-50%); }
+.dialogue-controls { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.kin-tabs { flex-wrap: wrap; }
+.kin-tabs .seg { flex: 1 1 45%; }
+.kin-gen h3 { font-size: 0.85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin: 1rem 0 0.4rem; }
+.kin-row { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.kin-chip { display: inline-flex; flex-direction: column; align-items: center; min-width: 5.2rem; min-height: 3.6rem; padding: 0.35rem 0.55rem; border-radius: 0.9rem; border: 1px solid var(--border); background: var(--surface); }
+.kin-chip .kin-hanzi { font-size: 1.25rem; }
+.kin-chip .kin-en { font-size: 0.72rem; color: var(--muted); max-width: 8rem; text-align: center; }
+.kin-chip .kin-tag { font-size: 0.65rem; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 0 0.35rem; margin-top: 0.15rem; }
+.kin-chip.formal { background: var(--surface-2); }
+.kin-chip.is-selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.kin-detail { margin-top: 1rem; }
+
+.rule-text { font-weight: 600; font-size: 1.05rem; }
+.examples { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.example { display: flex; gap: 0.6rem; align-items: flex-start; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.6rem 0.75rem; }
+.example .grow { flex: 1; min-width: 0; }
+.example-mark { font-weight: 700; color: var(--good); width: 1.2rem; flex: none; margin-top: 0.2rem; }
+.example.wrong .example-mark { color: var(--bad); }
+.example.wrong .example-hanzi { text-decoration: line-through; text-decoration-color: var(--bad); }
+.example-hanzi { display: block; font-size: 1.2rem; }
+.example-en { margin: 0.15rem 0; font-size: 0.92rem; }
+.fact-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.fact.panel { padding: 0.4rem 0.9rem; }
+.fact summary strong { font-weight: 600; }

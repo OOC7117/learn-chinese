@@ -1,0 +1,5 @@
+# Local account data written by the dev server / API file store (scripts/dev-server.mjs).
+.data/
+# Created by `vercel link` and `vercel env pull` (the latter holds the Redis token).
+.vercel/
+.env*.local
