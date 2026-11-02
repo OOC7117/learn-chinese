@@ -118,7 +118,7 @@ with `checked_on` and a `recheck_url` (the official page). Before a trip:
 2. Edit `answer`, `checked_on` and `sources` (with the new access date) in `data/reference/facts.json`.
 3. `npm run build && npm run validate`, commit.
 
-All 31 facts were confirmed or corrected by two independent checks on 2026-11-02. Many official Chinese
+All 31 facts were confirmed or corrected by independent checks on 2026-11-02 (20 of them by a second check with fresh web searches and a skeptic). Many official Chinese
 and Dutch government pages could not be opened from the research environment and were read through
 search-result summaries (each source says so), so open the `recheck_url` before relying on a fact. A fact
 that fails a later check gets `"status": "unverified"`: the app then lists only its question and official
@@ -169,7 +169,7 @@ The app is a static site plus small Vercel functions; there is no build command.
 
 `app/vercel.json` sets strict security headers (CSP without third-party hosts, no framing,
 `microphone=(self)` for the record-and-compare feature) and the caching of data, audio and the service
-worker. Keep the deployment below 15,000 files and 100 MB (today: about 7,500 files, 45 MB).
+worker. Keep the deployment below 15,000 files and 100 MB (today: 7,441 files, 47.3 MB).
 
 ## Licences
 
