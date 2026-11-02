@@ -11,5 +11,86 @@ AI did:
    the research agents from the cited sources and re-checked by a second agent (see each item's
    `verification`). They are explanations, not quotations.
 
-No dialogues yet.
+## Dialogues (10)
+
+### Business card, WeChat and a price list (`dlg.work.contacts.1`, scene `work.contacts`, reviewed: no)
+
+- **You:** 您好，很高兴见到您，这是我的名片。 Nín hǎo, hěn gāoxìng jiàndào nín, zhè shì wǒ de míngpiàn. — Hello, very nice to meet you. Here is my business card.
+- **Them:** 加个微信吧。 Jiā gè Wēixìn ba. — Let's add each other on WeChat.
+- **You:** 我把产品价格表发给您。 Wǒ bǎ chǎnpǐn jiàgébiǎo fā gěi nín. — I'll send you the product price list.
+- **You:** 请注意查收。 Qǐng zhùyì cháshōu. — Please check that you've received it.
+- **Them:** 收到。 Shōudào. — Got it. / Received. (acknowledging a message or instruction)
+- **You:** 有需要的话，请您和我们联系。 Yǒu xūyào dehuà, qǐng nín hé wǒmen liánxì. — If you need anything, please get in touch with us.
+
+### Asking a colleague for a number to call back (`dlg.work.contacts.2`, scene `work.contacts`, reviewed: no)
+
+- **Them:** 你尽快给他回个电话。 Nǐ jǐnkuài gěi tā huí gè diànhuà. — Call him back as soon as you can.
+- **You:** 收到。 Shōudào. — Got it. / Received. (acknowledging a message or instruction)
+- **You:** 你有李大夫的手机号吗？ Nǐ yǒu Lǐ dàifu de shǒujīhào ma? — Do you have Dr Li's mobile number?
+- **Them:** 好的，请稍等。 Hǎo de, qǐng shāoděng. — OK, one moment please.
+
+### First day: welcome and self-introduction (`dlg.work.introductions.1`, scene `work.introductions`, reviewed: no)
+
+- **Them:** 欢迎你来公司工作。 Huānyíng nǐ lái gōngsī gōngzuò. — Welcome to the company.
+- **You:** 谢谢您给我这个机会，我会努力的。 Xièxie nín gěi wǒ zhège jīhuì, wǒ huì nǔlì de. — Thank you for giving me this opportunity. I'll do my best.
+- **Them:** 你先做个自我介绍吧。 Nǐ xiān zuò gè zìwǒ jièshào ba. — Why don't you introduce yourself first?
+- **You:** 大家好，我叫张明，是北京大学的学生。 Dàjiā hǎo, wǒ jiào Zhāng Míng, shì Běijīng Dàxué de xuésheng. — Hello everyone, I'm Zhang Ming, a student at Peking University.
+- **You:** 请大家多多关照。 Qǐng dàjiā duōduō guānzhào. — I hope you'll all look after me. / I look forward to working with you all.
+
+### Exchanging names with a new business contact (`dlg.work.introductions.2`, scene `work.introductions`, reviewed: no)
+
+- **You:** 您好！ Nín hǎo! — Hello! (polite)
+- **You:** 请问您贵姓？ Qǐngwèn nín guìxìng? — May I ask your surname?
+- **Them:** 我姓王。 Wǒ xìng Wáng. — My surname is Wang.
+- **You:** 幸会。 Xìnghuì. — It's a pleasure to meet you. (formal)
+- **Them:** 您怎么称呼？ Nín zěnme chēnghu? — How should I address you? / What's your name?
+- **You:** 我叫李明。 Wǒ jiào Lǐ Míng. — My name is Li Ming.
+- **Them:** 久仰。 Jiǔyǎng. — I've long looked forward to meeting you. (very formal)
+- **You:** 不敢当。 Bùgǎndāng. — I don't deserve that. / You're too kind.
+
+### Presenting a plan and getting approval (`dlg.work.meetings.1`, scene `work.meetings`, reviewed: no)
+
+- **You:** 以上是这次活动的计划，看看大家还有什么意见。 Yǐshàng shì zhè cì huódòng de jìhuà, kànkan dàjiā hái yǒu shénme yìjiàn. — That's the plan for this event. Let's see if anyone has any comments.
+- **You:** 有不对的地方请大家指正。 Yǒu bù duì de dìfang qǐng dàjiā zhǐzhèng. — If anything I've said is wrong, please do correct me.
+- **Them:** 我觉得安排得很好，由你来组织我们都很放心。 Wǒ juéde ānpái de hěn hǎo, yóu nǐ lái zǔzhī wǒmen dōu hěn fàngxīn. — I think it's very well arranged. With you organising it, we're all reassured.
+- **Them:** 行，咱们就照这样办吧。 Xíng, zánmen jiù zhào zhèyàng bàn ba. — OK, let's do it this way.
+- **You:** 谢谢大家！ Xièxie dàjiā! — Thank you, everyone!
+- **Them:** 今天就到这里吧。 Jīntiān jiù dào zhèlǐ ba. — Let's stop here for today.
+
+### Adding a point when time is short (`dlg.work.meetings.2`, scene `work.meetings`, reviewed: no)
+
+- **Them:** 时间有限，请拣要紧的说。 Shíjiān yǒuxiàn, qǐng jiǎn yàojǐn de shuō. — Time is limited, so please stick to the important points.
+- **You:** 我补充一点。 Wǒ bǔchōng yī diǎn. — Let me add one point.
+- **Them:** 有道理。 Yǒu dàoli. — That makes sense. / Good point.
+- **You:** 我还有个问题想问一下。 Wǒ hái yǒu gè wèntí xiǎng wèn yīxià. — I have one more question I'd like to ask.
+- **Them:** 由于时间关系，暂时谈到这里为止。 Yóuyú shíjiān guānxi, zànshí tán dào zhèlǐ wéizhǐ. — Because of time, we'll stop here for now.
+
+### Asking a supplier for a better price (`dlg.work.requests.1`, scene `work.requests`, reviewed: no)
+
+- **You:** 你们的产品确实挺好的，只是价钱上能不能再便宜些？ Nǐmen de chǎnpǐn quèshí tǐng hǎo de, zhǐshì jiàqian shàng néng bù néng zài piányi xiē? — Your products really are good. It's just, could the price be a bit lower?
+- **Them:** 恐怕不行。 Kǒngpà bù xíng. — I'm afraid that won't work.
+- **Them:** 你们想要多少？如果数量多的话，价格当然可以再商量。 Nǐmen xiǎng yào duōshao? Rúguǒ shùliàng duō de huà, jiàgé dāngrán kěyǐ zài shāngliang. — How many do you want? If it's a large quantity, the price is of course open to discussion.
+- **You:** 我再考虑一下。 Wǒ zài kǎolǜ yīxià. — Let me think it over.
+
+### Proposing an approach and meeting resistance (`dlg.work.requests.2`, scene `work.requests`, reviewed: no)
+
+- **You:** 你看这个办法好不好？ Nǐ kàn zhège bànfǎ hǎo bu hǎo? — What do you think of this approach?
+- **Them:** 这个有点难。 Zhège yǒudiǎn nán. — That's a bit difficult.
+- **You:** 我理解你的想法，但我有不同的看法。 Wǒ lǐjiě nǐ de xiǎngfǎ, dàn wǒ yǒu bùtóng de kànfǎ. — I understand your thinking, but I see it differently.
+- **Them:** 这个问题让我考虑一下再答复你。 Zhège wèntí ràng wǒ kǎolǜ yīxià zài dáfù nǐ. — Let me think this over and get back to you.
+- **You:** 方便的时候，你给我回个电话。 Fāngbiàn de shíhou, nǐ gěi wǒ huí gè diànhuà. — Give me a call back when it's convenient.
+
+### Arranging a visit with a client (`dlg.work.scheduling.1`, scene `work.scheduling`, reviewed: no)
+
+- **You:** 您明天方便吗？ Nín míngtiān fāngbiàn ma? — Would tomorrow suit you?
+- **Them:** 非常欢迎！我明天没有什么安排。 Fēicháng huānyíng! Wǒ míngtiān méiyǒu shénme ānpái. — You'd be very welcome! I have nothing planned tomorrow.
+- **You:** 那就下午三点吧。 Nà jiù xiàwǔ sān diǎn ba. — Let's say 3 pm, then.
+- **Them:** 好的，到时候见。 Hǎo de, dàoshíhou jiàn. — OK, see you then.
+
+### A moved meeting that clashes (`dlg.work.scheduling.2`, scene `work.scheduling`, reviewed: no)
+
+- **Them:** 对不起，今天的会议改到明天上午了。 Duìbuqǐ, jīntiān de huìyì gǎi dào míngtiān shàngwǔ le. — Sorry, today's meeting has been moved to tomorrow morning.
+- **You:** 我明天早上也有个会。 Wǒ míngtiān zǎoshang yě yǒu gè huì. — I've got a meeting tomorrow morning too.
+- **You:** 我们能把会议改到下周星期四上午十点吗？ Wǒmen néng bǎ huìyì gǎi dào xiàzhōu xīngqīsì shàngwǔ shí diǎn ma? — Could we move the meeting to 10 am next Thursday?
+- **Them:** 好的，到时候见。 Hǎo de, dàoshíhou jiàn. — OK, see you then.
 

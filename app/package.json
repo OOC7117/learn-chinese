@@ -5,7 +5,7 @@
   "description": "Learn Chinese: the mobile-first Mandarin PWA (static site, native ES modules) and its optional sign-in / sync API (Vercel functions). No dependencies, no build step.",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "node scripts/dev-server.mjs",

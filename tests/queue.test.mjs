@@ -196,7 +196,9 @@ test('learning cards that are due come first (by due time), then reviews by due 
     'r3.listen': review(TODAY + 20 * HOUR, NOW - 9 * DAY), // due later in this study day: still today's review
     'r4.listen': review(TODAY + DAY + HOUR, NOW - 9 * DAY), // due tomorrow
   };
-  const q = buildQueue({ items: single('n1', 'r1', 'l1', 'r2', 'l2', 'r3', 'r4', 'n2'), srs, now: NOW, settings: { newPerDay: 1 } });
+  // r2 is overdue (due 3 days ago): with the default pause, new cards would wait (tested below); here the
+  // order of a mixed queue is tested, so the pause is off.
+  const q = buildQueue({ items: single('n1', 'r1', 'l1', 'r2', 'l2', 'r3', 'r4', 'n2'), srs, now: NOW, settings: { newPerDay: 1, pauseNewWhenOverdue: false } });
   assert.deepEqual(ids(q.queue), ['l2.listen', 'l1.listen', 'r2.listen', 'n1.listen', 'r1.listen', 'r3.listen']);
   assert.deepEqual(q.queue.map((x) => x.kind), ['learning', 'learning', 'review', 'new', 'review', 'review']);
   assert.deepEqual(q.counts, { learning: 2, review: 3, new: 1 });
@@ -306,4 +308,41 @@ test('a further card type of a started item is marked as a sibling, a never-stud
   assert.equal(b.type, 'listen');
   assert.equal(b.kind, 'new');
   assert.equal(b.sibling, undefined);
+});
+
+test('new words pause while reviews from earlier days are in the queue, and return once they are done', () => {
+  const yesterday = at(2026, 11, 1, 9);
+  const overdue = review(at(2026, 11, 1, 10), at(2026, 10, 20, 9)); // due yesterday, not done
+  const srs = { 'a.listen': overdue };
+  let q = buildQueue({ items: single('a', 'b', 'c'), srs, now: NOW });
+  assert.equal(q.paused, true);
+  assert.equal(q.overdue, 1);
+  assert.deepEqual(ids(q.queue), ['a.listen'], 'only the overdue review');
+  assert.equal(q.counts.new, 0);
+  // Answered today: no longer overdue, new words come back the same day.
+  const done = { 'a.listen': review(at(2026, 11, 9, 10), NOW - HOUR) };
+  q = buildQueue({ items: single('a', 'b', 'c'), srs: done, now: NOW });
+  assert.equal(q.paused, false);
+  assert.deepEqual(ids(q.queue), ['b.listen', 'c.listen']);
+  // Switched off in settings: new words are mixed in as before.
+  q = buildQueue({ items: single('a', 'b', 'c'), srs, now: NOW, settings: { pauseNewWhenOverdue: false } });
+  assert.equal(q.paused, false);
+  assert.equal(q.counts.new, 2);
+  // "Learn 5 more new" (bonusNew) still gives new words while paused.
+  q = buildQueue({ items: single('a', 'b', 'c'), srs, now: NOW, settings: { bonusNew: 1 } });
+  assert.equal(q.paused, true);
+  assert.equal(q.counts.new, 1);
+  assert.ok(yesterday < TODAY);
+});
+
+test('reviews due today are not overdue; a backlog larger than the daily limit keeps new words paused all day', () => {
+  const dueToday = { 'a.listen': review(at(2026, 11, 2, 8), at(2026, 10, 25, 9)) };
+  assert.equal(buildQueue({ items: single('a', 'b'), srs: dueToday, now: NOW }).paused, false);
+  const many = {};
+  for (let i = 0; i < 5; i += 1) many[`o${i}.listen`] = review(at(2026, 10, 30, 10), at(2026, 10, 20, 9));
+  const items = [...single('o0', 'o1', 'o2', 'o3', 'o4'), ...single('n1')];
+  const q = buildQueue({ items, srs: many, now: NOW, settings: { reviewLimit: 2 } });
+  assert.equal(q.counts.review, 2);
+  assert.equal(q.paused, true);
+  assert.equal(q.overdue, 5);
 });

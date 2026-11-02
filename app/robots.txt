@@ -1,0 +1,5 @@
+# Learn Chinese is a personal study app. Crawlers have no use for the recordings, data files or API.
+User-agent: *
+Disallow: /audio/
+Disallow: /data/
+Disallow: /api/

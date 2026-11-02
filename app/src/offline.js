@@ -286,7 +286,7 @@ export function offlineSection(ctx) {
     h('div.callout',
       h('strong', 'iPhone and iPad'),
       h('p.small', 'For offline use, add the app to your Home Screen: in Safari tap Share, then Add to Home Screen, and open it from there.'),
-      h('p.small', 'The Home Screen app keeps its own storage, separate from Safari: progress and recordings saved in Safari are not there. Sign in to sync, or use Export and Import backup, and save the audio again inside the app.'),
+      h('p.small', 'The Home Screen app may not see what you saved in Safari (progress and recordings). If it starts empty, sign in to sync, or use Export and Import backup, and save the audio again inside the app.'),
       h('p.small', 'Safari may delete the data of websites you have not used for a while. Sign in or export a backup now and then, so your progress is never only on this device.')));
   el.lastElementChild.style.marginTop = '1rem';
   for (const p of el.lastElementChild.querySelectorAll('p')) p.style.margin = '0.4rem 0 0';

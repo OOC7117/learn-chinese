@@ -19,6 +19,9 @@ export const DEFAULT_QUEUE = Object.freeze({
   learnAheadMin: 20, // learning cards due within this many minutes may be shown early when nothing else is left
   siblingPerDay: 20, // extra card types of already-started items unlocked per day
   dayStartHour: 4, // a study day runs from 04:00 to 04:00 local time
+  // docs/RESEARCH.md 4: pause new words while reviews are overdue, so a missed day does not snowball.
+  pauseNewWhenOverdue: true,
+  bonusNew: 0, // extra new items the learner asked for now ("Learn 5 more new"); not paused
 });
 
 /** Start of the study day containing `now` (local time, `hour` o'clock). */
@@ -121,7 +124,8 @@ export function interleave(a, b) {
  * @param {number} [p.now]
  * @param {object} [p.settings] see DEFAULT_QUEUE
  * @returns {{ queue: object[], waiting: object[], counts: { learning: number, review: number, new: number },
- *            newLeft: number, nextDue: number | null }}
+ *            newLeft: number, paused: boolean, overdue: number, nextDue: number | null }}
+ *   paused: new cards wait because reviews are overdue (cfg.pauseNewWhenOverdue); overdue: reviews due before today.
  *   queue: cards to show now, in order; waiting: learning cards due later today (shown when due).
  */
 export function buildQueue({ items, srs = {}, marks = {}, now = Date.now(), settings = {} }) {
@@ -137,9 +141,14 @@ export function buildQueue({ items, srs = {}, marks = {}, now = Date.now(), sett
     .filter((x, i, all) => all.findIndex((y) => y.itemId === x.itemId) === i) // one review per item per session
     .slice(0, cfg.reviewLimit);
   const reviewItems = new Set(reviews.map((x) => x.itemId));
-  const newLeft = Math.max(0, cfg.newPerDay - c.introducedToday.size);
+  // Overdue = due on an earlier study day. New cards wait while today's queue still holds overdue reviews,
+  // or while the overdue backlog is larger than a day's review limit.
+  const overdueAll = c.review.filter((x) => x.due < dayStart).length;
+  const overdueNow = reviews.filter((x) => x.due < dayStart).length;
+  const paused = Boolean(cfg.pauseNewWhenOverdue) && (overdueNow > 0 || overdueAll > cfg.reviewLimit);
+  const newLeft = paused ? cfg.bonusNew : Math.max(0, cfg.newPerDay + cfg.bonusNew - c.introducedToday.size);
   const fresh = c.newItems.slice(0, newLeft);
-  const siblings = c.siblings
+  const siblings = paused ? [] : c.siblings
     .filter((x) => !c.studiedToday.has(x.itemId) && !reviewItems.has(x.itemId))
     .slice(0, cfg.siblingPerDay);
   const newCards = interleave(fresh, siblings);
@@ -154,6 +163,8 @@ export function buildQueue({ items, srs = {}, marks = {}, now = Date.now(), sett
     waiting,
     counts: { learning: c.learning.length, review: reviews.length, new: newCards.length },
     newLeft,
+    paused,
+    overdue: overdueAll,
     nextDue: waiting.length ? waiting[0].due : null,
   };
 }

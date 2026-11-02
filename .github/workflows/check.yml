@@ -1,0 +1,20 @@
+# Runs on every push and pull request: the unit tests, the data validator (with the committed CC-CEDICT
+# subset, no downloads) and a check that the service worker's precache list is current. Vercel deploys
+# regardless; a red check here means the deployed version may be inconsistent.
+name: check
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
+      - run: npm run validate
+      - run: node scripts/build-sw.mjs --check

@@ -25,6 +25,7 @@ export async function render(root, ctx) {
   let shownAt = 0;
   let firstType = new Map();
   let counts = { learning: 0, review: 0, new: 0 };
+  let pausedNote = null;
   let answered = 0;
   let waitTimer = null;
   let disposed = false;
@@ -44,6 +45,7 @@ export async function render(root, ctx) {
     if (disposed) return;
     counts = q.counts;
     firstType = q.firstType;
+    pausedNote = q.paused && q.overdue ? h('p.small.muted.paused-note', 'New words wait until the overdue reviews are done.') : null;
     if (!q.queue.length) {
       current = null;
       item = null;
@@ -62,10 +64,10 @@ export async function render(root, ctx) {
   }
 
   function header() {
-    return h('div.study-top',
+    return [h('div.study-top',
       h('div.counts', { aria: { label: `${counts.new} new, ${counts.learning} learning, ${counts.review} to review` } },
         h('span.count-new', `${counts.new} new`), h('span.count-learn', `${counts.learning} learning`), h('span.count-review', `${counts.review} review`)),
-      h('a.btn.small', { href: '#/settings' }, 'Settings'));
+      h('a.btn.small', { href: '#/settings' }, 'Settings')), pausedNote];
   }
 
   function prompt() {
@@ -241,6 +243,7 @@ export async function render(root, ctx) {
         h('h2', answered ? 'Done for now' : 'Nothing due right now'),
         h('p', answered ? `You answered ${answered} card${answered === 1 ? '' : 's'}.` : 'All cards of your active decks are up to date.'),
         nextIn ? h('p.muted', `Next learning card in about ${nextIn}. This page shows it when it is due.`) : null,
+        q.paused ? h('p.note', `New words are paused: ${q.overdue} overdue ${q.overdue === 1 ? 'review waits' : 'reviews wait'} beyond today's limit. Catch up first (or raise the limit in Settings); “Learn 5 more new” still works.`) : null,
         q.total === 0 ? h('p', 'No active decks yet. ', h('a', { href: '#/decks' }, 'Choose decks to study')) : null,
         h('div.row.center-row',
           h('button.btn.primary', { type: 'button', onclick: () => { bonusNew += 5; next(); } }, 'Learn 5 more new'),

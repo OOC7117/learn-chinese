@@ -65,7 +65,7 @@ export async function studyQueue(ctx, { deckId = null, bonusNew = 0, now = Date.
     srs: ctx.state.srs,
     marks: ctx.state.marks,
     now,
-    settings: { newPerDay: settings.newPerDay + bonusNew, reviewLimit: settings.reviewLimit, dayStartHour: settings.dayStartHour },
+    settings: { newPerDay: settings.newPerDay, bonusNew, reviewLimit: settings.reviewLimit, dayStartHour: settings.dayStartHour, pauseNewWhenOverdue: settings.pauseNewWhenOverdue },
   });
   const firstType = new Map(queueItems.map((x) => [x.id, x.types[0]]));
   return { ...result, byId, firstType, total: items.length };

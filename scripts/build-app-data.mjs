@@ -12,8 +12,10 @@ import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 
 import { spokenPinyin, syllablesOf, SYLLABLE_LIST, cedictToMarked, tokenize } from '../app/src/lib/pinyin.js';
-import { ROOT } from './lib/cedict.mjs';
+import { ROOT, FULL_PATH, loadCedict } from './lib/cedict.mjs';
+import { writeCedictSubset } from './lib/cedict-subset.mjs';
 import { buildContent } from './lib/content.mjs';
+import { tonesInDoubt } from '../app/src/lib/tonedrill.js';
 
 const DATA = join(ROOT, 'data');
 const APP = join(ROOT, 'app');
@@ -139,7 +141,10 @@ function copyAudio(items) {
 function toneData(items, syllables) {
   // Only words pronounced exactly with their citation tones: in 一下 (yíxià) or 你好 (níhǎo) the learner
   // hears a changed tone, which would make "which tones did you hear?" ambiguous.
-  const recorded = items.filter((it) => it.audio.kind === 'word' && usable(it) && spokenPinyin(it.hanzi, it.pinyin) === null);
+  // Also left out: words for which CC-CEDICT notes another Mainland pronunciation ("also pr.", "Beijing pr.",
+  // "colloquial pr."), whose recording may use the other tones (the drill filters them too: tonedrill.js).
+  const recorded = items.filter((it) => it.audio.kind === 'word' && usable(it) && spokenPinyin(it.hanzi, it.pinyin) === null
+    && !tonesInDoubt(syllablesOf(it.pinyin, { strict: false }).map((s) => s.tone), it.meanings));
   const pairs = {};
   for (const it of recorded) {
     const syl = syllablesOf(it.pinyin, { strict: false });
@@ -285,6 +290,9 @@ function main() {
     counts.wordLinks = linkWords(content, items);
     files.content = { file: 'data/content.json', hash: writeCompact(join(OUT, 'content.json'), content), ...counts };
   }
+
+  // Keep the committed CC-CEDICT subset complete for the content as it is now (offline validation, CI).
+  if (existsSync(FULL_PATH)) console.log(`cedict-subset: ${writeCedictSubset(loadCedict(FULL_PATH), ROOT)} entries`);
 
   const lock = readJson(join(DATA, 'sources.lock.json'));
   const manifest = {

@@ -21,7 +21,9 @@ test('cleanSettings: numbers within range are kept (rounded), others fall back t
     ['newPerDay', 'many', D.newPerDay], ['newPerDay', Number.NaN, D.newPerDay], ['newPerDay', Infinity, D.newPerDay],
     ['reviewLimit', 10, 10], ['reviewLimit', 2000, 2000], ['reviewLimit', 9, D.reviewLimit], ['reviewLimit', 2001, D.reviewLimit],
     ['dailyGoal', 5, 5], ['dailyGoal', 4, D.dailyGoal], ['dailyGoal', 1000, 1000], ['dailyGoal', 1001, D.dailyGoal],
-    ['retention', 0.7, 0.7], ['retention', 0.97, 0.97], ['retention', 0.854, 0.85], ['retention', 0.69, D.retention], ['retention', 0.98, D.retention],
+    // Retention: the research's 0.80-0.95 (docs/RESEARCH.md 4.3); 0.70 and 0.97 are no longer accepted.
+    ['retention', 0.8, 0.8], ['retention', 0.95, 0.95], ['retention', 0.854, 0.85], ['retention', 0.79, D.retention], ['retention', 0.96, D.retention],
+    ['retention', 0.7, D.retention], ['retention', 0.97, D.retention],
     ['slowRate', 0.5, 0.5], ['slowRate', 1, 1], ['slowRate', 0.755, 0.76], ['slowRate', 0.4, D.slowRate], ['slowRate', 1.5, D.slowRate],
     ['dayStartHour', 0, 0], ['dayStartHour', 12, 12], ['dayStartHour', 4.6, 5], ['dayStartHour', 13, D.dayStartHour], ['dayStartHour', -1, D.dayStartHour],
   ];
@@ -77,4 +79,10 @@ test('cardTypesFor: introduction order listen, speak, read, cloze; switched-off 
 test('sameSettings', () => {
   assert.ok(sameSettings(cleanSettings({}), cleanSettings(null)));
   assert.ok(!sameSettings(cleanSettings({}), cleanSettings({ newPerDay: D.newPerDay + 1 })));
+});
+
+test('cleanSettings: pausing new words while reviews are overdue is on by default and can be switched off', () => {
+  assert.equal(cleanSettings({}).pauseNewWhenOverdue, true);
+  assert.equal(cleanSettings({ pauseNewWhenOverdue: false }).pauseNewWhenOverdue, false);
+  assert.equal(cleanSettings({ pauseNewWhenOverdue: 'no' }).pauseNewWhenOverdue, true);
 });

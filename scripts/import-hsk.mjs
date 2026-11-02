@@ -24,6 +24,7 @@ import { compareWord, loadCedict, readings, lookup, fmt, releaseDate, ROOT } fro
 import { parseCsv } from './lib/csv.mjs';
 import { parseSyllabusText } from './lib/syllabus2025.mjs';
 import { decodeMsgpack, wordfreqTable } from './lib/msgpack.mjs';
+import { writeCedictSubset } from './lib/cedict-subset.mjs';
 
 const RAW = join(ROOT, 'raw');
 const DATA = join(ROOT, 'data');
@@ -465,18 +466,8 @@ function main() {
     });
   }
 
-  // The CC-CEDICT entries this project uses (offline validation; also every single character).
-  const needed = new Set();
-  for (const item of items.values()) {
-    needed.add(item.hanzi);
-    for (const ch of item.hanzi) needed.add(ch);
-  }
-  const extra = existsSync(join(DATA, 'sources', 'cedict-needed.txt')) ? readFileSync(join(DATA, 'sources', 'cedict-needed.txt'), 'utf8').split('\n').filter(Boolean) : [];
-  for (const w of extra) needed.add(w);
-  writeJson(join(DATA, 'sources', 'cedict-subset.json'), {
-    metadata: { ...dict.metadata, subset: 'entries whose simplified form is an HSK word, a character of one, or listed in data/sources/cedict-needed.txt' },
-    entries: dict.entries.filter((e) => needed.has(e.simplified)),
-  });
+  // The CC-CEDICT entries this project uses (offline validation and CI): scripts/lib/cedict-subset.mjs.
+  writeCedictSubset(dict, ROOT);
 
   // Character sets for the validator: characters of CC-CEDICT simplified headwords, and characters that
   // occur only in traditional headwords (a phrase containing one mixes in traditional characters).

@@ -124,3 +124,18 @@ test('cleanStats keeps only valid day keys and non-negative integer counters', (
   assert.deepEqual(cleanStats([]), emptyStats());
   assert.deepEqual(cleanStats({ days: [] }), emptyStats());
 });
+
+test('recentActivity sums time and answers of the last days (today included); minutesLabel', async () => {
+  const { recentActivity, minutesLabel } = await import('../app/src/lib/stats.js');
+  const stats = { days: {
+    '2026-11-02': { r: 20, n: 5, a: 2, ms: 300_000 },
+    '2026-10-30': { r: 10, n: 0, a: 1, ms: 120_000 },
+    '2026-10-26': { r: 99, n: 9, a: 9, ms: 999_000 }, // 8 days back: outside a 7-day window
+  } };
+  assert.deepEqual(recentActivity(stats, '2026-11-02', 7), { ms: 420_000, answers: 30, days: 2 });
+  assert.deepEqual(recentActivity({ days: {} }, '2026-11-02'), { ms: 0, answers: 0, days: 0 });
+  assert.equal(minutesLabel(420_000), '7 min');
+  assert.equal(minutesLabel(20_000), 'under a minute');
+  assert.equal(minutesLabel(0), '0 min');
+  assert.equal(minutesLabel(9_000_000), '2.5 h');
+});

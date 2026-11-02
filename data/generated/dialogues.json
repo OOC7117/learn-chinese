@@ -1,0 +1,322 @@
+{
+  "kind": "dialogues",
+  "ai_generated": true,
+  "reviewed": false,
+  "method": "Each dialogue was arranged by an AI agent from verified phrases of one scene (no Chinese text was written by the AI), then checked line by line by a second, independent AI agent. Set reviewed: true on a dialogue after a human has checked that it flows naturally.",
+  "dialogues": [
+    {
+      "id": "dlg.work.contacts.1",
+      "scene": "work.contacts",
+      "title": "Business card, WeChat and a price list",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "work.contacts.my-card"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.contacts.add-wechat"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.contacts.send-you"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.contacts.please-check-receipt"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.contacts.shoudao"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.contacts.please-contact-us"
+        }
+      ],
+      "review_note": "No change. (The adding on WeChat happens between lines 2 and 3; the 'who scans whom' line was not inserted because it uses the plain 'you' in a casual register, while you address the client with the polite 'you' throughout.)\n1. At a first meeting with a client, you greet them and hand over your business card.\n2. The client suggests the everyday alternative of adding each other on WeChat.\n3. Once you are connected, you send your price list through the new contact.\n4. When you send a file, you add the standard request to check that it arrived.\n5. The client confirms receipt with the usual short acknowledgement.\n6. You close with the standard offer to get in touch if they need anything."
+    },
+    {
+      "id": "dlg.work.contacts.2",
+      "scene": "work.contacts",
+      "title": "Asking a colleague for a number to call back",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "work.contacts.them-call-back"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.contacts.shoudao"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.contacts.have-their-number"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.contacts.please-wait"
+        }
+      ],
+      "review_note": "No change.\n1. A colleague of your own level (you both use the plain 'you') tells you to call someone back, here Dr Li, as soon as possible.\n2. You acknowledge the instruction right away, as work-chat etiquette expects.\n3. To act on it, you ask the colleague for Dr Li's mobile number.\n4. The colleague asks you to wait a moment while they look it up, as in the official sample where someone is asked to find a phone number."
+    },
+    {
+      "id": "dlg.work.introductions.1",
+      "scene": "work.introductions",
+      "title": "First day: welcome and self-introduction",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "work.introductions.them-welcome"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.thanks-opportunity"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.introductions.them-self-intro"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.self-intro-group"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.qing-dajia-guanzhao"
+        }
+      ],
+      "review_note": "No change.\n1. The boss opens by welcoming you as a new employee, using the plain 'you' as superiors do.\n2. This is the reply the usage notes give to that welcome, thanks plus a commitment, with the polite 'you' to the boss.\n3. The boss then asks the newcomer to introduce themselves, as at a first team meeting.\n4. You answer with the model self-introduction to a group (swap in your own name, company and role).\n5. You end with the usual closing line of a self-introduction to a group."
+    },
+    {
+      "id": "dlg.work.introductions.2",
+      "scene": "work.introductions",
+      "title": "Exchanging names with a new business contact",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.nin-hao"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.guixing"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.introductions.wo-xing"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.xinghui"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.introductions.zenme-chenghu"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.wo-jiao"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.introductions.jiuyang"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.introductions.bu-gandang"
+        }
+      ],
+      "review_note": "Changed: line 1 (the polite 'hello', work.introductions.nin-hao) is now said by you instead of by them, so you greet and ask the surname in one turn; in the draft you answered their greeting with a question and never greeted back. All other lines are unchanged.\n1. You greet the new business contact politely, as at any first meeting.\n2. In the same turn you ask for their surname in the polite way.\n3. 'My surname is ...' is the standard answer to that question.\n4. Now that you know their name, you add a formal 'pleasure to meet you'.\n5. They return the courtesy and ask how they should address you.\n6. 'My name is ...' is the answer the dictionary gives to this question.\n7. On hearing your name they reply with the very formal first-meeting courtesy 'I've long looked forward to meeting you'.\n8. You decline the compliment modestly, the formal reply to praise that the scene's rule recommends."
+    },
+    {
+      "id": "dlg.work.meetings.1",
+      "scene": "work.meetings",
+      "title": "Presenting a plan and getting approval",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "work.meetings.any-comments"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.meetings.correct-me"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.meetings.well-arranged"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.meetings.lets-do-it"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.meetings.thank-you-all"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.meetings.thats-all-for-today"
+        }
+      ],
+      "review_note": "Changed: 'If anything I've said is wrong, please do correct me' (work.meetings.correct-me) moved from line 3 to line 2. Its usage note and the scene's rule make it the humble closing line of your own presentation, not a reply to praise. The other lines keep their order.\n1. You finish presenting your event plan and invite comments.\n2. You round off the presentation with the set humble formula asking people to correct you.\n3. A colleague gives the positive reply from the same official dialogue.\n4. The person in charge closes the discussion by deciding to go ahead with the plan.\n5. You thank everyone for their support.\n6. The person in charge then ends the meeting."
+    },
+    {
+      "id": "dlg.work.meetings.2",
+      "scene": "work.meetings",
+      "title": "Adding a point when time is short",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "work.meetings.time-is-short"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.meetings.add-a-point"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.meetings.makes-sense"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.meetings.one-more-question"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.meetings.stop-here"
+        }
+      ],
+      "review_note": "No change.\n1. Because time is limited, the chair asks everyone to stick to the important points.\n2. You keep it short and add just one point.\n3. After hearing your point, the chair agrees with it.\n4. You say you have one more question.\n5. Still short of time, the chair stops the discussion for now, which leaves your question for later."
+    },
+    {
+      "id": "dlg.work.requests.1",
+      "scene": "work.requests",
+      "title": "Asking a supplier for a better price",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "work.requests.good-product-price"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.requests.afraid-not"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.requests.price-negotiable"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.requests.think-it-over"
+        }
+      ],
+      "review_note": "Changed: dropped the last line 'Nothing is final yet. We can discuss it again tomorrow' (work.requests.not-final-yet), a deferral about a pending decision that does not fit a supplier answering a buyer who wants time to think. Added 'I'm afraid that won't work' (work.requests.afraid-not) before the supplier's official reply, so the supplier softly refuses and then offers an alternative, as the scene's rule on declining describes.\n1. You praise the supplier's products first, then gently ask for a lower price.\n2. The supplier softens the refusal with 'I'm afraid that won't work'.\n3. The supplier then offers an alternative, the official reply that a large order makes the price negotiable.\n4. You are not ready to commit to a quantity, so you give the non-committal 'let me think it over'."
+    },
+    {
+      "id": "dlg.work.requests.2",
+      "scene": "work.requests",
+      "title": "Proposing an approach and meeting resistance",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "work.requests.what-do-you-think"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.requests.bit-difficult"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.requests.different-view"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.requests.let-me-think"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.requests.call-back-when-convenient"
+        }
+      ],
+      "review_note": "No change.\n1. You propose an approach and ask a colleague of your own level what they think.\n2. The colleague says no softly: it is a bit difficult.\n3. You acknowledge their view first, then say you see it differently.\n4. Rather than refuse outright, the colleague puts off the decision and promises to get back to you.\n5. You let them choose the time and ask them to call you back when it suits them."
+    },
+    {
+      "id": "dlg.work.scheduling.1",
+      "scene": "work.scheduling",
+      "title": "Arranging a visit with a client",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "me",
+          "phrase": "work.scheduling.free-tomorrow"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.scheduling.nothing-scheduled"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.scheduling.settle-time"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.scheduling.see-you-then"
+        }
+      ],
+      "review_note": "No change.\n1. You politely ask a client whether tomorrow would suit them for a visit.\n2. The client gives the official reply: you are welcome, and they have nothing planned.\n3. Their day is free, so you settle on a time.\n4. The client agrees and closes the arrangement."
+    },
+    {
+      "id": "dlg.work.scheduling.2",
+      "scene": "work.scheduling",
+      "title": "A moved meeting that clashes",
+      "ai_generated": true,
+      "reviewed": false,
+      "generated_on": "2026-11-02",
+      "lines": [
+        {
+          "speaker": "them",
+          "phrase": "work.scheduling.meeting-moved"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.scheduling.have-a-meeting-too"
+        },
+        {
+          "speaker": "me",
+          "phrase": "work.scheduling.move-the-meeting"
+        },
+        {
+          "speaker": "them",
+          "phrase": "work.scheduling.see-you-then"
+        }
+      ],
+      "review_note": "No change.\n1. You hear that today's meeting has been moved to tomorrow morning.\n2. You explain that you already have another meeting tomorrow morning, so the new time does not work.\n3. You propose moving the meeting to a different time instead.\n4. They agree and close with 'see you then'."
+    }
+  ]
+}

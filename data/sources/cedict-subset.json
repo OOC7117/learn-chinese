@@ -9,7 +9,7 @@
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "date": "2026-05-18T07:15:15Z",
   "time": "1779088515",
-  "subset": "entries whose simplified form is an HSK word, a character of one, or listed in data/sources/cedict-needed.txt"
+  "subset": "entries whose simplified form is an HSK word, a character of one, a substring of a Chinese text of the content (data/situations, data/reference, data/generated), or listed in data/sources/cedict-needed.txt"
  },
  "entries": [
   {
@@ -451,6 +451,15 @@
    ]
   },
   {
+   "traditional": "一個",
+   "simplified": "一个",
+   "pinyin": "yi1 ge5",
+   "definitions": [
+    "a; an; one",
+    "the whole (afternoon, summer vacation etc)"
+   ]
+  },
+  {
    "traditional": "一個勁兒",
    "simplified": "一个劲儿",
    "pinyin": "yi1 ge4 jin4 r5",
@@ -526,6 +535,15 @@
     "one breath",
     "in one breath",
     "at a stretch"
+   ]
+  },
+  {
+   "traditional": "一句",
+   "simplified": "一句",
+   "pinyin": "yi1 ju4",
+   "definitions": [
+    "a line of verse",
+    "a sentence"
    ]
   },
   {
@@ -816,6 +834,17 @@
    ]
   },
   {
+   "traditional": "一會",
+   "simplified": "一会",
+   "pinyin": "yi1 hui4",
+   "definitions": [
+    "a moment",
+    "a while",
+    "in a moment",
+    "also pr. [yi1 hui3]"
+   ]
+  },
+  {
    "traditional": "一會兒",
    "simplified": "一会儿",
    "pinyin": "yi1 hui4 r5",
@@ -825,6 +854,15 @@
     "in a moment",
     "now...now...",
     "also pr. [yi1 hui3 r5]"
+   ]
+  },
+  {
+   "traditional": "一月",
+   "simplified": "一月",
+   "pinyin": "Yi1 yue4",
+   "definitions": [
+    "January",
+    "first month (of the lunar year)"
    ]
   },
   {
@@ -864,6 +902,17 @@
     "equal to",
     "the same as",
     "just like"
+   ]
+  },
+  {
+   "traditional": "一次",
+   "simplified": "一次",
+   "pinyin": "yi1 ci4",
+   "definitions": [
+    "first",
+    "first time",
+    "once",
+    "(math.) linear (of degree one)"
    ]
   },
   {
@@ -961,6 +1010,15 @@
    "pinyin": "yi1 shun4 jian1",
    "definitions": [
     "split second"
+   ]
+  },
+  {
+   "traditional": "一等",
+   "simplified": "一等",
+   "pinyin": "yi1 deng3",
+   "definitions": [
+    "first class",
+    "grade A"
    ]
   },
   {
@@ -1202,6 +1260,15 @@
    ]
   },
   {
+   "traditional": "一遍",
+   "simplified": "一遍",
+   "pinyin": "yi1 bian4",
+   "definitions": [
+    "one time (all the way through)",
+    "once through"
+   ]
+  },
+  {
    "traditional": "一道",
    "simplified": "一道",
    "pinyin": "yi1 dao4",
@@ -1305,6 +1372,19 @@
    ]
   },
   {
+   "traditional": "一點",
+   "simplified": "一点",
+   "pinyin": "yi1 dian3",
+   "definitions": [
+    "a bit; a little bit",
+    "(used in negative expressions) (not) the least bit",
+    "(after an adjective, used to form the comparative) a bit more, -er",
+    "a point (in a discussion etc)",
+    "(calligraphy) dot stroke (、)",
+    "one o'clock (abbr. for 一點鍾|一点钟[yi1 dian3 zhong1])"
+   ]
+  },
+  {
    "traditional": "一點兒",
    "simplified": "一点儿",
    "pinyin": "yi1 dian3 r5",
@@ -1385,6 +1465,15 @@
    ]
   },
   {
+   "traditional": "七月",
+   "simplified": "七月",
+   "pinyin": "Qi1 yue4",
+   "definitions": [
+    "July",
+    "seventh month (of the lunar year)"
+   ]
+  },
+  {
    "traditional": "万",
    "simplified": "万",
    "pinyin": "mo4",
@@ -1404,11 +1493,36 @@
    ]
   },
   {
+   "traditional": "丈人",
+   "simplified": "丈人",
+   "pinyin": "zhang4 ren2",
+   "definitions": [
+    "wife's father (father-in-law)",
+    "old man"
+   ]
+  },
+  {
    "traditional": "丈夫",
    "simplified": "丈夫",
    "pinyin": "zhang4 fu5",
    "definitions": [
     "husband"
+   ]
+  },
+  {
+   "traditional": "丈母",
+   "simplified": "丈母",
+   "pinyin": "zhang4 mu3",
+   "definitions": [
+    "wife's mother; mother-in-law"
+   ]
+  },
+  {
+   "traditional": "丈母娘",
+   "simplified": "丈母娘",
+   "pinyin": "zhang4 mu3 niang2",
+   "definitions": [
+    "wife's mother; mother-in-law"
    ]
   },
   {
@@ -1614,6 +1728,15 @@
    ]
   },
   {
+   "traditional": "上好",
+   "simplified": "上好",
+   "pinyin": "shang4 hao3",
+   "definitions": [
+    "first-rate",
+    "top-notch"
+   ]
+  },
+  {
    "traditional": "上學",
    "simplified": "上学",
    "pinyin": "shang4 xue2",
@@ -1711,6 +1834,14 @@
    "pinyin": "shang4 liu2",
    "definitions": [
     "upper class"
+   ]
+  },
+  {
+   "traditional": "上海",
+   "simplified": "上海",
+   "pinyin": "Shang4 hai3",
+   "definitions": [
+    "Shanghai municipality (short name 滬|沪[Hu4])"
    ]
   },
   {
@@ -1986,6 +2117,14 @@
    ]
   },
   {
+   "traditional": "下一站",
+   "simplified": "下一站",
+   "pinyin": "xia4 yi1 zhan4",
+   "definitions": [
+    "the next stop (of a bus etc)"
+   ]
+  },
+  {
    "traditional": "下令",
    "simplified": "下令",
    "pinyin": "xia4 ling4",
@@ -2031,6 +2170,14 @@
     "afternoon",
     "CL:個|个[ge4]",
     "p.m."
+   ]
+  },
+  {
+   "traditional": "下午好",
+   "simplified": "下午好",
+   "pinyin": "xia4 wu3 hao3",
+   "definitions": [
+    "(greeting) good afternoon"
    ]
   },
   {
@@ -2143,6 +2290,14 @@
    "pinyin": "xia4 xun2",
    "definitions": [
     "last third of the month"
+   ]
+  },
+  {
+   "traditional": "下星期",
+   "simplified": "下星期",
+   "pinyin": "xia4 xing1 qi1",
+   "definitions": [
+    "next week"
    ]
   },
   {
@@ -2462,6 +2617,23 @@
    ]
   },
   {
+   "traditional": "不了",
+   "simplified": "不了",
+   "pinyin": "bu4 le5",
+   "definitions": [
+    "no thanks (used to politely but informally decline)"
+   ]
+  },
+  {
+   "traditional": "不了",
+   "simplified": "不了",
+   "pinyin": "bu4 liao3",
+   "definitions": [
+    "(as a resultative verb suffix) unable to (do sth)",
+    "(pattern: {verb} + 個|个[ge5] + ~) without end; incessantly"
+   ]
+  },
+  {
    "traditional": "不了了之",
    "simplified": "不了了之",
    "pinyin": "bu4 liao3 liao3 zhi1",
@@ -2654,6 +2826,22 @@
    ]
   },
   {
+   "traditional": "不可",
+   "simplified": "不可",
+   "pinyin": "bu4 ke3",
+   "definitions": [
+    "cannot; should not; must not"
+   ]
+  },
+  {
+   "traditional": "不可以",
+   "simplified": "不可以",
+   "pinyin": "bu4 ke3 yi3",
+   "definitions": [
+    "may not"
+   ]
+  },
+  {
    "traditional": "不可思議",
    "simplified": "不可思议",
    "pinyin": "bu4 ke3 si1 yi4",
@@ -2699,6 +2887,17 @@
    ]
   },
   {
+   "traditional": "不在",
+   "simplified": "不在",
+   "pinyin": "bu4 zai4",
+   "definitions": [
+    "not to be present",
+    "to be out",
+    "(euphemism) to pass away",
+    "to be deceased"
+   ]
+  },
+  {
    "traditional": "不在乎",
    "simplified": "不在乎",
    "pinyin": "bu4 zai4 hu5",
@@ -2734,6 +2933,14 @@
    "definitions": [
     "not very (clear, far away etc); not too",
     "not often; infrequently"
+   ]
+  },
+  {
+   "traditional": "不好",
+   "simplified": "不好",
+   "pinyin": "bu4 hao3",
+   "definitions": [
+    "no good"
    ]
   },
   {
@@ -3007,6 +3214,14 @@
    ]
   },
   {
+   "traditional": "不想",
+   "simplified": "不想",
+   "pinyin": "bu4 xiang3",
+   "definitions": [
+    "unexpectedly; to one's surprise"
+   ]
+  },
+  {
    "traditional": "不愧",
    "simplified": "不愧",
    "pinyin": "bu4 kui4",
@@ -3095,6 +3310,25 @@
    ]
   },
   {
+   "traditional": "不方便",
+   "simplified": "不方便",
+   "pinyin": "bu4 fang1 bian4",
+   "definitions": [
+    "inconvenience",
+    "inconvenient"
+   ]
+  },
+  {
+   "traditional": "不明",
+   "simplified": "不明",
+   "pinyin": "bu4 ming2",
+   "definitions": [
+    "not clear",
+    "unknown",
+    "to fail to understand"
+   ]
+  },
+  {
    "traditional": "不易",
    "simplified": "不易",
    "pinyin": "bu4 yi4",
@@ -3102,6 +3336,24 @@
     "not easy to do sth",
     "difficult",
     "unchanging"
+   ]
+  },
+  {
+   "traditional": "不是",
+   "simplified": "不是",
+   "pinyin": "bu4 shi4",
+   "definitions": [
+    "no",
+    "is not",
+    "not"
+   ]
+  },
+  {
+   "traditional": "不是",
+   "simplified": "不是",
+   "pinyin": "bu4 shi5",
+   "definitions": [
+    "fault; blame"
    ]
   },
   {
@@ -3130,6 +3382,20 @@
    "pinyin": "bu4 ceng2",
    "definitions": [
     "hasn't yet; hasn't ever"
+   ]
+  },
+  {
+   "traditional": "不會",
+   "simplified": "不会",
+   "pinyin": "bu4 hui4",
+   "definitions": [
+    "improbable",
+    "unlikely",
+    "will not (act, happen etc)",
+    "not able",
+    "not having learned to do sth",
+    "(coll.) (Tw) don't mention it",
+    "not at all"
    ]
   },
   {
@@ -3237,11 +3503,30 @@
    ]
   },
   {
+   "traditional": "不用客氣",
+   "simplified": "不用客气",
+   "pinyin": "bu4 yong4 ke4 qi5",
+   "definitions": [
+    "you're welcome",
+    "don't mention it",
+    "no need to stand on ceremony"
+   ]
+  },
+  {
    "traditional": "不用說",
    "simplified": "不用说",
    "pinyin": "bu4 yong4 shuo1",
    "definitions": [
     "needless to say; it goes without saying"
+   ]
+  },
+  {
+   "traditional": "不用謝",
+   "simplified": "不用谢",
+   "pinyin": "bu4 yong4 xie4",
+   "definitions": [
+    "You're welcome",
+    "Don't mention it"
    ]
   },
   {
@@ -3391,6 +3676,16 @@
     "(literary) unlike one's parents",
     "degenerate",
     "unworthy"
+   ]
+  },
+  {
+   "traditional": "不能",
+   "simplified": "不能",
+   "pinyin": "bu4 neng2",
+   "definitions": [
+    "cannot",
+    "must not",
+    "should not"
    ]
   },
   {
@@ -3999,6 +4294,14 @@
    "pinyin": "Zhong1 guo2 hua4",
    "definitions": [
     "Chinese painting"
+   ]
+  },
+  {
+   "traditional": "中國銀行",
+   "simplified": "中国银行",
+   "pinyin": "Zhong1 guo2 Yin2 hang2",
+   "definitions": [
+    "Bank of China (BoC)"
    ]
   },
   {
@@ -4720,6 +5023,14 @@
    ]
   },
   {
+   "traditional": "久等",
+   "simplified": "久等",
+   "pinyin": "jiu3 deng3",
+   "definitions": [
+    "to wait for a long time"
+   ]
+  },
+  {
    "traditional": "久違",
    "simplified": "久违",
    "pinyin": "jiu3 wei2",
@@ -5044,6 +5355,15 @@
    "definitions": [
     "nine",
     "9"
+   ]
+  },
+  {
+   "traditional": "九月",
+   "simplified": "九月",
+   "pinyin": "Jiu3 yue4",
+   "definitions": [
+    "September",
+    "ninth month (of the lunar year)"
    ]
   },
   {
@@ -5526,6 +5846,14 @@
    ]
   },
   {
+   "traditional": "二十",
+   "simplified": "二十",
+   "pinyin": "er4 shi2",
+   "definitions": [
+    "twenty; 20"
+   ]
+  },
+  {
    "traditional": "二手",
    "simplified": "二手",
    "pinyin": "er4 shou3",
@@ -5544,11 +5872,37 @@
    ]
   },
   {
+   "traditional": "二月",
+   "simplified": "二月",
+   "pinyin": "Er4 yue4",
+   "definitions": [
+    "February",
+    "second month (of the lunar year)"
+   ]
+  },
+  {
    "traditional": "二氧化碳",
    "simplified": "二氧化碳",
    "pinyin": "er4 yang3 hua4 tan4",
    "definitions": [
     "carbon dioxide CO2"
+   ]
+  },
+  {
+   "traditional": "二等",
+   "simplified": "二等",
+   "pinyin": "er4 deng3",
+   "definitions": [
+    "second class",
+    "second-rate"
+   ]
+  },
+  {
+   "traditional": "二維",
+   "simplified": "二维",
+   "pinyin": "er4 wei2",
+   "definitions": [
+    "two-dimensional"
    ]
   },
   {
@@ -5705,6 +6059,15 @@
     "myriad",
     "all kinds of",
     "all sorts of"
+   ]
+  },
+  {
+   "traditional": "五號",
+   "simplified": "五号",
+   "pinyin": "wu3 hao4",
+   "definitions": [
+    "the fifth",
+    "fifth day of a month"
    ]
   },
   {
@@ -6665,6 +7028,14 @@
    "definitions": [
     "what?",
     "something; anything"
+   ]
+  },
+  {
+   "traditional": "什麼時候",
+   "simplified": "什么时候",
+   "pinyin": "shen2 me5 shi2 hou5",
+   "definitions": [
+    "when?; at what time?"
    ]
   },
   {
@@ -8389,6 +8760,16 @@
    ]
   },
   {
+   "traditional": "住手",
+   "simplified": "住手",
+   "pinyin": "zhu4 shou3",
+   "definitions": [
+    "to desist",
+    "to stop",
+    "to stay one's hand"
+   ]
+  },
+  {
    "traditional": "住處",
    "simplified": "住处",
    "pinyin": "zhu4 chu4",
@@ -8511,6 +8892,15 @@
     "why",
     "which",
     "carry"
+   ]
+  },
+  {
+   "traditional": "何不",
+   "simplified": "何不",
+   "pinyin": "he2 bu4",
+   "definitions": [
+    "why not?",
+    "why not do (sth)?"
    ]
   },
   {
@@ -8846,6 +9236,14 @@
    "pinyin": "ni3 hao3",
    "definitions": [
     "hello; hi"
+   ]
+  },
+  {
+   "traditional": "你等",
+   "simplified": "你等",
+   "pinyin": "ni3 deng3",
+   "definitions": [
+    "(archaic) you all"
    ]
   },
   {
@@ -10972,6 +11370,22 @@
    ]
   },
   {
+   "traditional": "候車",
+   "simplified": "候车",
+   "pinyin": "hou4 che1",
+   "definitions": [
+    "to wait for a train or bus"
+   ]
+  },
+  {
+   "traditional": "候車室",
+   "simplified": "候车室",
+   "pinyin": "hou4 che1 shi4",
+   "definitions": [
+    "waiting room (for train, bus etc)"
+   ]
+  },
+  {
    "traditional": "候選",
    "simplified": "候选",
    "pinyin": "hou4 xuan3",
@@ -12859,6 +13273,14 @@
    ]
   },
   {
+   "traditional": "價格表",
+   "simplified": "价格表",
+   "pinyin": "jia4 ge2 biao3",
+   "definitions": [
+    "price list; pricing table"
+   ]
+  },
+  {
    "traditional": "價錢",
    "simplified": "价钱",
    "pinyin": "jia4 qian5",
@@ -14058,11 +14480,35 @@
    ]
   },
   {
+   "traditional": "兒媳",
+   "simplified": "儿媳",
+   "pinyin": "er2 xi2",
+   "definitions": [
+    "daughter-in-law"
+   ]
+  },
+  {
+   "traditional": "兒媳婦",
+   "simplified": "儿媳妇",
+   "pinyin": "er2 xi2 fu4",
+   "definitions": [
+    "daughter-in-law"
+   ]
+  },
+  {
    "traditional": "兒子",
    "simplified": "儿子",
    "pinyin": "er2 zi5",
    "definitions": [
     "son"
+   ]
+  },
+  {
+   "traditional": "兒時",
+   "simplified": "儿时",
+   "pinyin": "er2 shi2",
+   "definitions": [
+    "childhood"
    ]
   },
   {
@@ -14859,6 +15305,16 @@
    ]
   },
   {
+   "traditional": "公公",
+   "simplified": "公公",
+   "pinyin": "gong1 gong5",
+   "definitions": [
+    "husband's father; father-in-law",
+    "grandpa; grandad",
+    "(old) form of address for a eunuch"
+   ]
+  },
+  {
    "traditional": "公共",
    "simplified": "公共",
    "pinyin": "gong1 gong4",
@@ -14966,6 +15422,15 @@
    "pinyin": "gong1 an1 ju2",
    "definitions": [
     "public security bureau (government office similar in function to a police station)"
+   ]
+  },
+  {
+   "traditional": "公室",
+   "simplified": "公室",
+   "pinyin": "gong1 shi4",
+   "definitions": [
+    "office (room)",
+    "ruling families during Spring and Autumn period"
    ]
   },
   {
@@ -15668,6 +16133,16 @@
     "to be a second so-and-so (famous dead person)",
     "recycling",
     "regeneration"
+   ]
+  },
+  {
+   "traditional": "再發",
+   "simplified": "再发",
+   "pinyin": "zai4 fa1",
+   "definitions": [
+    "to reissue",
+    "(of a disease) to recur",
+    "(of a patient) to suffer a relapse"
    ]
   },
   {
@@ -18000,6 +18475,15 @@
    ]
   },
   {
+   "traditional": "別客氣",
+   "simplified": "别客气",
+   "pinyin": "bie2 ke4 qi5",
+   "definitions": [
+    "don't mention it",
+    "no formalities, please"
+   ]
+  },
+  {
    "traditional": "別提了",
    "simplified": "别提了",
    "pinyin": "bie2 ti2 le5",
@@ -18247,6 +18731,16 @@
    ]
   },
   {
+   "traditional": "到了",
+   "simplified": "到了",
+   "pinyin": "dao4 liao3",
+   "definitions": [
+    "at last",
+    "finally",
+    "in the end"
+   ]
+  },
+  {
    "traditional": "到位",
    "simplified": "到位",
    "pinyin": "dao4 wei4",
@@ -18281,6 +18775,23 @@
    ]
   },
   {
+   "traditional": "到時",
+   "simplified": "到时",
+   "pinyin": "dao4 shi2",
+   "definitions": [
+    "at that (future) time"
+   ]
+  },
+  {
+   "traditional": "到時候",
+   "simplified": "到时候",
+   "pinyin": "dao4 shi2 hou4",
+   "definitions": [
+    "when the moment comes",
+    "at that time"
+   ]
+  },
+  {
    "traditional": "到期",
    "simplified": "到期",
    "pinyin": "dao4 qi1",
@@ -18288,6 +18799,15 @@
     "to fall due (loan etc)",
     "to expire (visa etc)",
     "to mature (investment bond etc)"
+   ]
+  },
+  {
+   "traditional": "到此",
+   "simplified": "到此",
+   "pinyin": "dao4 ci3",
+   "definitions": [
+    "hereto",
+    "hereunto"
    ]
   },
   {
@@ -18304,6 +18824,17 @@
    "pinyin": "dao4 da2",
    "definitions": [
     "to reach; to arrive"
+   ]
+  },
+  {
+   "traditional": "到頭",
+   "simplified": "到头",
+   "pinyin": "dao4 tou2",
+   "definitions": [
+    "to the end (of)",
+    "at the end of",
+    "in the end",
+    "to come to an end"
    ]
   },
   {
@@ -21319,6 +21850,14 @@
    ]
   },
   {
+   "traditional": "北京大學",
+   "simplified": "北京大学",
+   "pinyin": "Bei3 jing1 Da4 xue2",
+   "definitions": [
+    "Peking University"
+   ]
+  },
+  {
    "traditional": "北方",
    "simplified": "北方",
    "pinyin": "bei3 fang1",
@@ -21589,6 +22128,59 @@
    ]
   },
   {
+   "traditional": "十一",
+   "simplified": "十一",
+   "pinyin": "Shi2 Yi1",
+   "definitions": [
+    "PRC National Day (October 1st)"
+   ]
+  },
+  {
+   "traditional": "十一",
+   "simplified": "十一",
+   "pinyin": "shi2 yi1",
+   "definitions": [
+    "eleven",
+    "11"
+   ]
+  },
+  {
+   "traditional": "十七",
+   "simplified": "十七",
+   "pinyin": "shi2 qi1",
+   "definitions": [
+    "seventeen",
+    "17"
+   ]
+  },
+  {
+   "traditional": "十二",
+   "simplified": "十二",
+   "pinyin": "shi2 er4",
+   "definitions": [
+    "twelve",
+    "12"
+   ]
+  },
+  {
+   "traditional": "十二月",
+   "simplified": "十二月",
+   "pinyin": "Shi2 er4 yue4",
+   "definitions": [
+    "December",
+    "twelfth month (of the lunar year)"
+   ]
+  },
+  {
+   "traditional": "十五",
+   "simplified": "十五",
+   "pinyin": "shi2 wu3",
+   "definitions": [
+    "fifteen",
+    "15"
+   ]
+  },
+  {
    "traditional": "十分",
    "simplified": "十分",
    "pinyin": "shi2 fen1",
@@ -21600,6 +22192,14 @@
     "absolutely",
     "hundred percent",
     "to divide into ten equal parts"
+   ]
+  },
+  {
+   "traditional": "十四",
+   "simplified": "十四",
+   "pinyin": "shi2 si4",
+   "definitions": [
+    "fourteen; 14"
    ]
   },
   {
@@ -21836,6 +22436,14 @@
    ]
   },
   {
+   "traditional": "半個",
+   "simplified": "半个",
+   "pinyin": "ban4 ge5",
+   "definitions": [
+    "half of sth"
+   ]
+  },
+  {
    "traditional": "半場",
    "simplified": "半场",
    "pinyin": "ban4 chang3",
@@ -21871,6 +22479,14 @@
    "pinyin": "ban4 dao3 ti3",
    "definitions": [
     "semiconductor"
+   ]
+  },
+  {
+   "traditional": "半小時",
+   "simplified": "半小时",
+   "pinyin": "ban4 xiao3 shi2",
+   "definitions": [
+    "half an hour; 30 minutes"
    ]
   },
   {
@@ -22957,6 +23573,15 @@
    ]
   },
   {
+   "traditional": "原定",
+   "simplified": "原定",
+   "pinyin": "yuan2 ding4",
+   "definitions": [
+    "originally planned",
+    "originally determined"
+   ]
+  },
+  {
    "traditional": "原料",
    "simplified": "原料",
    "pinyin": "yuan2 liao4",
@@ -23166,6 +23791,14 @@
     "to delete",
     "to strip out",
     "to extract"
+   ]
+  },
+  {
+   "traditional": "去火",
+   "simplified": "去火",
+   "pinyin": "qu4 huo3",
+   "definitions": [
+    "to reduce internal heat (TCM)"
    ]
   },
   {
@@ -23791,6 +24424,24 @@
    ]
   },
   {
+   "traditional": "叔子",
+   "simplified": "叔子",
+   "pinyin": "shu1 zi5",
+   "definitions": [
+    "brother-in-law",
+    "husband's younger brother"
+   ]
+  },
+  {
+   "traditional": "叔父",
+   "simplified": "叔父",
+   "pinyin": "shu1 fu4",
+   "definitions": [
+    "father's younger brother",
+    "uncle"
+   ]
+  },
+  {
    "traditional": "取",
    "simplified": "取",
    "pinyin": "qu3",
@@ -24261,6 +24912,14 @@
    ]
   },
   {
+   "traditional": "口渴",
+   "simplified": "口渴",
+   "pinyin": "kou3 ke3",
+   "definitions": [
+    "thirsty"
+   ]
+  },
+  {
    "traditional": "口碑",
    "simplified": "口碑",
    "pinyin": "kou3 bei1",
@@ -24708,6 +25367,32 @@
    ]
   },
   {
+   "traditional": "叫車",
+   "simplified": "叫车",
+   "pinyin": "jiao4 che1",
+   "definitions": [
+    "to call a cab (by phone)",
+    "to request a ride (via an app)"
+   ]
+  },
+  {
+   "traditional": "叫醒",
+   "simplified": "叫醒",
+   "pinyin": "jiao4 xing3",
+   "definitions": [
+    "to awaken; to wake sb up; to rouse"
+   ]
+  },
+  {
+   "traditional": "叫醒服務",
+   "simplified": "叫醒服务",
+   "pinyin": "jiao4 xing3 fu2 wu4",
+   "definitions": [
+    "morning call",
+    "wake-up call (hotel service)"
+   ]
+  },
+  {
    "traditional": "召",
    "simplified": "召",
    "pinyin": "Shao4",
@@ -24794,6 +25479,14 @@
    "pinyin": "ke4",
    "definitions": [
     "used in 可汗[ke4 han2]"
+   ]
+  },
+  {
+   "traditional": "可不",
+   "simplified": "可不",
+   "pinyin": "ke3 bu5",
+   "definitions": [
+    "see 可不是[ke3 bu5 shi4]"
    ]
   },
   {
@@ -25234,6 +25927,15 @@
    ]
   },
   {
+   "traditional": "吃不下",
+   "simplified": "吃不下",
+   "pinyin": "chi1 bu5 xia4",
+   "definitions": [
+    "not feel like eating",
+    "be unable to eat any more"
+   ]
+  },
+  {
    "traditional": "吃力",
    "simplified": "吃力",
    "pinyin": "chi1 li4",
@@ -25283,6 +25985,14 @@
     "to have a meal",
     "to eat",
     "to make a living"
+   ]
+  },
+  {
+   "traditional": "吃飽",
+   "simplified": "吃饱",
+   "pinyin": "chi1 bao3",
+   "definitions": [
+    "to eat one's fill"
    ]
   },
   {
@@ -25557,6 +26267,15 @@
    "definitions": [
     "contract; agreement",
     "CL:份[fen4]"
+   ]
+  },
+  {
+   "traditional": "合著",
+   "simplified": "合着",
+   "pinyin": "he2 zhe5",
+   "definitions": [
+    "(dialect) (implying sudden realization) so",
+    "after all"
    ]
   },
   {
@@ -26611,6 +27330,14 @@
    "pinyin": "xi1 yan1",
    "definitions": [
     "to smoke"
+   ]
+  },
+  {
+   "traditional": "吸煙室",
+   "simplified": "吸烟室",
+   "pinyin": "xi1 yan1 shi4",
+   "definitions": [
+    "smoking room"
    ]
   },
   {
@@ -28051,6 +28778,14 @@
    ]
   },
   {
+   "traditional": "哪裡哪裡",
+   "simplified": "哪里哪里",
+   "pinyin": "na3 li3 na3 li3",
+   "definitions": [
+    "you're too kind; you flatter me"
+   ]
+  },
+  {
    "traditional": "哭",
    "simplified": "哭",
    "pinyin": "ku1",
@@ -28543,6 +29278,14 @@
    "pinyin": "shang1 yong4",
    "definitions": [
     "(attributive) commercial"
+   ]
+  },
+  {
+   "traditional": "商祺",
+   "simplified": "商祺",
+   "pinyin": "shang1 qi2",
+   "definitions": [
+    "May your business prosper! (formal letter-ending phrase)"
    ]
   },
   {
@@ -29249,6 +29992,25 @@
    "definitions": [
     "to acclaim",
     "to cheer"
+   ]
+  },
+  {
+   "traditional": "喝茶",
+   "simplified": "喝茶",
+   "pinyin": "he1 cha2",
+   "definitions": [
+    "to drink tea",
+    "to get engaged",
+    "to have a serious conversation",
+    "(fig.) to have a meeting with state security agents (to be warned to behave \"responsibly\")"
+   ]
+  },
+  {
+   "traditional": "喝酒",
+   "simplified": "喝酒",
+   "pinyin": "he1 jiu3",
+   "definitions": [
+    "to drink (alcohol)"
    ]
   },
   {
@@ -30550,6 +31312,15 @@
    ]
   },
   {
+   "traditional": "四十",
+   "simplified": "四十",
+   "pinyin": "si4 shi2",
+   "definitions": [
+    "forty",
+    "40"
+   ]
+  },
+  {
    "traditional": "四合院",
    "simplified": "四合院",
    "pinyin": "si4 he2 yuan4",
@@ -30571,6 +31342,14 @@
    "pinyin": "si4 ji4",
    "definitions": [
     "four seasons, namely: spring 春[chun1], summer 夏[xia4], autumn 秋[qiu1] and winter 冬[dong1]"
+   ]
+  },
+  {
+   "traditional": "四川",
+   "simplified": "四川",
+   "pinyin": "Si4 chuan1",
+   "definitions": [
+    "see 四川省[Si4 chuan1 Sheng3]"
    ]
   },
   {
@@ -31154,6 +31933,15 @@
    "definitions": [
     "country; nation; state",
     "(bound form) national"
+   ]
+  },
+  {
+   "traditional": "國人",
+   "simplified": "国人",
+   "pinyin": "guo2 ren2",
+   "definitions": [
+    "compatriots (literary)",
+    "fellow countrymen"
    ]
   },
   {
@@ -31806,6 +32594,15 @@
    ]
   },
   {
+   "traditional": "在下",
+   "simplified": "在下",
+   "pinyin": "zai4 xia4",
+   "definitions": [
+    "under",
+    "myself (humble)"
+   ]
+  },
+  {
    "traditional": "在乎",
    "simplified": "在乎",
    "pinyin": "zai4 hu5",
@@ -31821,6 +32618,16 @@
    "definitions": [
     "(included) in it",
     "among them"
+   ]
+  },
+  {
+   "traditional": "在前",
+   "simplified": "在前",
+   "pinyin": "zai4 qian2",
+   "definitions": [
+    "ahead",
+    "formerly",
+    "in the past"
    ]
   },
   {
@@ -31884,6 +32691,15 @@
     "to be employed",
     "to be in post",
     "on-the-job"
+   ]
+  },
+  {
+   "traditional": "在那兒",
+   "simplified": "在那儿",
+   "pinyin": "zai4 na5 r5",
+   "definitions": [
+    "(adverbial expression indicating that the attention of the subject of the verb is focused on what they are doing, not distracted by anything else)",
+    "just ...ing (and nothing else)"
    ]
   },
   {
@@ -32304,6 +33120,15 @@
    "pinyin": "zuo4 xia5",
    "definitions": [
     "to sit down"
+   ]
+  },
+  {
+   "traditional": "坐好",
+   "simplified": "坐好",
+   "pinyin": "zuo4 hao3",
+   "definitions": [
+    "to sit properly",
+    "to sit up straight"
    ]
   },
   {
@@ -32986,6 +33811,38 @@
     "of the same clan",
     "classifier for classes, lectures etc",
     "classifier for sets of furniture"
+   ]
+  },
+  {
+   "traditional": "堂哥",
+   "simplified": "堂哥",
+   "pinyin": "tang2 ge1",
+   "definitions": [
+    "older male patrilineal cousin"
+   ]
+  },
+  {
+   "traditional": "堂妹",
+   "simplified": "堂妹",
+   "pinyin": "tang2 mei4",
+   "definitions": [
+    "younger female patrilineal cousin"
+   ]
+  },
+  {
+   "traditional": "堂姐",
+   "simplified": "堂姐",
+   "pinyin": "tang2 jie3",
+   "definitions": [
+    "older female patrilineal cousin"
+   ]
+  },
+  {
+   "traditional": "堂弟",
+   "simplified": "堂弟",
+   "pinyin": "tang2 di4",
+   "definitions": [
+    "younger male patrilineal cousin"
    ]
   },
   {
@@ -34272,6 +35129,17 @@
    ]
   },
   {
+   "traditional": "壞了",
+   "simplified": "坏了",
+   "pinyin": "huai4 le5",
+   "definitions": [
+    "shoot!",
+    "gosh!",
+    "oh, no!",
+    "(suffix) to the utmost"
+   ]
+  },
+  {
    "traditional": "壞事",
    "simplified": "坏事",
    "pinyin": "huai4 shi4",
@@ -34696,6 +35564,25 @@
    ]
   },
   {
+   "traditional": "外孫",
+   "simplified": "外孙",
+   "pinyin": "wai4 sun1",
+   "definitions": [
+    "daughter's son",
+    "grandson",
+    "descendant via the female line"
+   ]
+  },
+  {
+   "traditional": "外孫女",
+   "simplified": "外孙女",
+   "pinyin": "wai4 sun1 nu:3",
+   "definitions": [
+    "daughter's daughter",
+    "granddaughter"
+   ]
+  },
+  {
    "traditional": "外幣",
    "simplified": "外币",
    "pinyin": "wai4 bi4",
@@ -34751,12 +35638,38 @@
    ]
   },
   {
+   "traditional": "外甥女",
+   "simplified": "外甥女",
+   "pinyin": "wai4 sheng5 nu:3",
+   "definitions": [
+    "sister's daughter",
+    "wife's sibling's daughter"
+   ]
+  },
+  {
    "traditional": "外界",
    "simplified": "外界",
    "pinyin": "wai4 jie4",
    "definitions": [
     "the outside world",
     "external"
+   ]
+  },
+  {
+   "traditional": "外祖母",
+   "simplified": "外祖母",
+   "pinyin": "wai4 zu3 mu3",
+   "definitions": [
+    "mother's mother",
+    "maternal grandmother"
+   ]
+  },
+  {
+   "traditional": "外祖父",
+   "simplified": "外祖父",
+   "pinyin": "wai4 zu3 fu4",
+   "definitions": [
+    "maternal grandfather (i.e. mother's father)"
    ]
   },
   {
@@ -34971,6 +35884,31 @@
     "most",
     "mostly",
     "most likely"
+   ]
+  },
+  {
+   "traditional": "多多",
+   "simplified": "多多",
+   "pinyin": "duo1 duo1",
+   "definitions": [
+    "many",
+    "much",
+    "a lot",
+    "lots and lots",
+    "more",
+    "even more"
+   ]
+  },
+  {
+   "traditional": "多大",
+   "simplified": "多大",
+   "pinyin": "duo1 da4",
+   "definitions": [
+    "how old?",
+    "how big?",
+    "how much?",
+    "so big",
+    "that much"
    ]
   },
   {
@@ -35352,6 +36290,23 @@
    ]
   },
   {
+   "traditional": "大伯",
+   "simplified": "大伯",
+   "pinyin": "da4 bo2",
+   "definitions": [
+    "husband's older brother",
+    "father's older brother (esp. his oldest brother)"
+   ]
+  },
+  {
+   "traditional": "大伯子",
+   "simplified": "大伯子",
+   "pinyin": "da4 bai3 zi5",
+   "definitions": [
+    "(coll.) husband's elder brother"
+   ]
+  },
+  {
    "traditional": "大使",
    "simplified": "大使",
    "pinyin": "da4 shi3",
@@ -35516,6 +36471,52 @@
    ]
   },
   {
+   "traditional": "大姑",
+   "simplified": "大姑",
+   "pinyin": "da4 gu1",
+   "definitions": [
+    "father's oldest sister",
+    "husband's older sister",
+    "sister-in-law"
+   ]
+  },
+  {
+   "traditional": "大姨",
+   "simplified": "大姨",
+   "pinyin": "da4 yi2",
+   "definitions": [
+    "aunt (mother's eldest sister)",
+    "(respectful term of address for a woman who is about the age of one's mother)"
+   ]
+  },
+  {
+   "traditional": "大姨媽",
+   "simplified": "大姨妈",
+   "pinyin": "da4 yi2 ma1",
+   "definitions": [
+    "mother's eldest sister (older than one's mother)",
+    "(coll.) (euphemism) Aunt Flo (i.e. menstrual period)"
+   ]
+  },
+  {
+   "traditional": "大姨子",
+   "simplified": "大姨子",
+   "pinyin": "da4 yi2 zi5",
+   "definitions": [
+    "sister-in-law",
+    "wife's older sister"
+   ]
+  },
+  {
+   "traditional": "大娘",
+   "simplified": "大娘",
+   "pinyin": "da4 niang2",
+   "definitions": [
+    "(coll.) father's older brother's wife",
+    "aunt (polite address)"
+   ]
+  },
+  {
    "traditional": "大媽",
    "simplified": "大妈",
    "pinyin": "da4 ma1",
@@ -35635,6 +36636,14 @@
    "pinyin": "da4 fu2 du4",
    "definitions": [
     "substantially; by a wide margin"
+   ]
+  },
+  {
+   "traditional": "大床房",
+   "simplified": "大床房",
+   "pinyin": "da4 chuang2 fang2",
+   "definitions": [
+    "hotel room with one double (or queen or king) bed"
    ]
   },
   {
@@ -36008,6 +37017,14 @@
    ]
   },
   {
+   "traditional": "大舅子",
+   "simplified": "大舅子",
+   "pinyin": "da4 jiu4 zi5",
+   "definitions": [
+    "(coll.) wife's older brother"
+   ]
+  },
+  {
    "traditional": "大街",
    "simplified": "大街",
    "pinyin": "da4 jie1",
@@ -36308,6 +37325,24 @@
    ]
   },
   {
+   "traditional": "天大",
+   "simplified": "天大",
+   "pinyin": "tian1 da4",
+   "definitions": [
+    "gargantuan",
+    "as big as the sky",
+    "enormous"
+   ]
+  },
+  {
+   "traditional": "天天",
+   "simplified": "天天",
+   "pinyin": "tian1 tian1",
+   "definitions": [
+    "every day"
+   ]
+  },
+  {
    "traditional": "天平",
    "simplified": "天平",
    "pinyin": "tian1 ping2",
@@ -36350,6 +37385,15 @@
    "pinyin": "tian1 wen2",
    "definitions": [
     "astronomy"
+   ]
+  },
+  {
+   "traditional": "天方",
+   "simplified": "天方",
+   "pinyin": "Tian1 fang1",
+   "definitions": [
+    "(old) Arabia",
+    "Arabian"
    ]
   },
   {
@@ -36833,6 +37877,14 @@
     "to be missing",
     "to disappear",
     "unaccounted for"
+   ]
+  },
+  {
+   "traditional": "失陪",
+   "simplified": "失陪",
+   "pinyin": "shi1 pei2",
+   "definitions": [
+    "Excuse me, I must be leaving now."
    ]
   },
   {
@@ -37649,6 +38701,15 @@
    ]
   },
   {
+   "traditional": "好不好",
+   "simplified": "好不好",
+   "pinyin": "hao3 bu5 hao3",
+   "definitions": [
+    "(coll.) all right?",
+    "OK?"
+   ]
+  },
+  {
    "traditional": "好不容易",
    "simplified": "好不容易",
    "pinyin": "hao3 bu4 rong2 yi4",
@@ -37892,6 +38953,18 @@
    "definitions": [
     "good intention",
     "kindness"
+   ]
+  },
+  {
+   "traditional": "好意思",
+   "simplified": "好意思",
+   "pinyin": "hao3 yi4 si5",
+   "definitions": [
+    "to have the nerve",
+    "what a cheek!",
+    "to feel no shame",
+    "to overcome the shame",
+    "(is it) proper? (rhetorical question)"
    ]
   },
   {
@@ -38340,6 +39413,14 @@
    ]
   },
   {
+   "traditional": "妹夫",
+   "simplified": "妹夫",
+   "pinyin": "mei4 fu5",
+   "definitions": [
+    "younger sister's husband"
+   ]
+  },
+  {
    "traditional": "妹妹",
    "simplified": "妹妹",
    "pinyin": "mei4 mei5",
@@ -38427,6 +39508,14 @@
    ]
   },
   {
+   "traditional": "姐夫",
+   "simplified": "姐夫",
+   "pinyin": "jie3 fu5",
+   "definitions": [
+    "(coll.) older sister's husband"
+   ]
+  },
+  {
    "traditional": "姐妹",
    "simplified": "姐妹",
    "pinyin": "jie3 mei4",
@@ -38458,6 +39547,14 @@
    ]
   },
   {
+   "traditional": "姑丈",
+   "simplified": "姑丈",
+   "pinyin": "gu1 zhang4",
+   "definitions": [
+    "husband of paternal aunt"
+   ]
+  },
+  {
    "traditional": "姑且",
    "simplified": "姑且",
    "pinyin": "gu1 qie3",
@@ -38485,6 +39582,41 @@
     "daughter",
     "paternal aunt (old)",
     "CL:個|个[ge4]"
+   ]
+  },
+  {
+   "traditional": "姑媽",
+   "simplified": "姑妈",
+   "pinyin": "gu1 ma1",
+   "definitions": [
+    "(coll.) father's married sister",
+    "paternal aunt"
+   ]
+  },
+  {
+   "traditional": "姑子",
+   "simplified": "姑子",
+   "pinyin": "gu1 zi5",
+   "definitions": [
+    "husband's sister",
+    "(coll.) Buddhist nun"
+   ]
+  },
+  {
+   "traditional": "姑母",
+   "simplified": "姑母",
+   "pinyin": "gu1 mu3",
+   "definitions": [
+    "father's sister",
+    "paternal aunt"
+   ]
+  },
+  {
+   "traditional": "姑父",
+   "simplified": "姑父",
+   "pinyin": "gu1 fu5",
+   "definitions": [
+    "father's sister's husband; husband of paternal aunt; uncle"
    ]
   },
   {
@@ -38665,11 +39797,55 @@
    ]
   },
   {
+   "traditional": "姨丈",
+   "simplified": "姨丈",
+   "pinyin": "yi2 zhang4",
+   "definitions": [
+    "mother's sister's husband",
+    "husband of mother's sister"
+   ]
+  },
+  {
+   "traditional": "姨媽",
+   "simplified": "姨妈",
+   "pinyin": "yi2 ma1",
+   "definitions": [
+    "(coll.) mother's sister",
+    "maternal aunt"
+   ]
+  },
+  {
+   "traditional": "姨母",
+   "simplified": "姨母",
+   "pinyin": "yi2 mu3",
+   "definitions": [
+    "mother's sister",
+    "maternal aunt"
+   ]
+  },
+  {
+   "traditional": "姨父",
+   "simplified": "姨父",
+   "pinyin": "yi2 fu5",
+   "definitions": [
+    "husband of mother's sister",
+    "uncle"
+   ]
+  },
+  {
    "traditional": "姪",
    "simplified": "侄",
    "pinyin": "zhi2",
    "definitions": [
     "brother's son; nephew"
+   ]
+  },
+  {
+   "traditional": "姪女",
+   "simplified": "侄女",
+   "pinyin": "zhi2 nu:3",
+   "definitions": [
+    "brother's daughter; niece"
    ]
   },
   {
@@ -38868,6 +40044,16 @@
     "(bound form) matron",
     "(bound form) mother-in-law",
     "(slang) femme (in a lesbian relationship)"
+   ]
+  },
+  {
+   "traditional": "婆婆",
+   "simplified": "婆婆",
+   "pinyin": "po2 po5",
+   "definitions": [
+    "husband's mother",
+    "mother-in-law",
+    "grandma"
    ]
   },
   {
@@ -39271,6 +40457,41 @@
     "baby",
     "CL:個|个[ge4]",
     "lead (Pb)"
+   ]
+  },
+  {
+   "traditional": "嬸",
+   "simplified": "婶",
+   "pinyin": "shen3",
+   "definitions": [
+    "wife of father's younger brother"
+   ]
+  },
+  {
+   "traditional": "嬸嬸",
+   "simplified": "婶婶",
+   "pinyin": "shen3 shen5",
+   "definitions": [
+    "wife of father's younger brother",
+    "aunt"
+   ]
+  },
+  {
+   "traditional": "嬸子",
+   "simplified": "婶子",
+   "pinyin": "shen3 zi5",
+   "definitions": [
+    "(coll.) father's younger brother's wife",
+    "aunt"
+   ]
+  },
+  {
+   "traditional": "嬸母",
+   "simplified": "婶母",
+   "pinyin": "shen3 mu3",
+   "definitions": [
+    "wife of father's younger brother",
+    "aunt"
    ]
   },
   {
@@ -40670,6 +41891,15 @@
    ]
   },
   {
+   "traditional": "定局",
+   "simplified": "定局",
+   "pinyin": "ding4 ju2",
+   "definitions": [
+    "foregone conclusion",
+    "to be settled conclusively"
+   ]
+  },
+  {
    "traditional": "定居",
    "simplified": "定居",
    "pinyin": "ding4 ju1",
@@ -41197,6 +42427,17 @@
    ]
   },
   {
+   "traditional": "家公",
+   "simplified": "家公",
+   "pinyin": "jia1 gong1",
+   "definitions": [
+    "head of a family",
+    "(polite) my father",
+    "(polite) my grandfather",
+    "your esteemed father"
+   ]
+  },
+  {
    "traditional": "家具",
    "simplified": "家具",
    "pinyin": "jia1 ju4",
@@ -41314,6 +42555,14 @@
    ]
   },
   {
+   "traditional": "家母",
+   "simplified": "家母",
+   "pinyin": "jia1 mu3",
+   "definitions": [
+    "(polite) my mother"
+   ]
+  },
+  {
    "traditional": "家用",
    "simplified": "家用",
    "pinyin": "jia1 yong4",
@@ -41322,6 +42571,14 @@
     "domestic",
     "family expenses",
     "housekeeping money"
+   ]
+  },
+  {
+   "traditional": "家的",
+   "simplified": "家的",
+   "pinyin": "jia1 de5",
+   "definitions": [
+    "(old) wife"
    ]
   },
   {
@@ -41573,6 +42830,16 @@
     "(bound form) to depend on; to attach oneself to; to reside temporarily",
     "(bound form) foster (as in 寄女[ji4 nu : 3] foster daughter)",
     "to send by post; to mail"
+   ]
+  },
+  {
+   "traditional": "寄存",
+   "simplified": "寄存",
+   "pinyin": "ji4 cun2",
+   "definitions": [
+    "to deposit",
+    "to store",
+    "to leave sth with sb"
    ]
   },
   {
@@ -43651,6 +44918,15 @@
    ]
   },
   {
+   "traditional": "小叔",
+   "simplified": "小叔",
+   "pinyin": "xiao3 shu1",
+   "definitions": [
+    "husband's younger brother",
+    "brother-in-law"
+   ]
+  },
+  {
    "traditional": "小吃",
    "simplified": "小吃",
    "pinyin": "xiao3 chi1",
@@ -43686,6 +44962,40 @@
     "miss",
     "(slang) prostitute",
     "CL:個|个[ge4],位[wei4]"
+   ]
+  },
+  {
+   "traditional": "小姑",
+   "simplified": "小姑",
+   "pinyin": "xiao3 gu1",
+   "definitions": [
+    "father's youngest sister",
+    "husband's younger sister; sister-in-law"
+   ]
+  },
+  {
+   "traditional": "小姑子",
+   "simplified": "小姑子",
+   "pinyin": "xiao3 gu1 zi5",
+   "definitions": [
+    "(coll.) husband's younger sister; sister-in-law"
+   ]
+  },
+  {
+   "traditional": "小姨",
+   "simplified": "小姨",
+   "pinyin": "xiao3 yi2",
+   "definitions": [
+    "mother's youngest sister",
+    "wife's younger sister; sister-in-law"
+   ]
+  },
+  {
+   "traditional": "小姨子",
+   "simplified": "小姨子",
+   "pinyin": "xiao3 yi2 zi5",
+   "definitions": [
+    "(coll.) wife's younger sister; sister-in-law (term not used to directly address her)"
    ]
   },
   {
@@ -43748,6 +45058,15 @@
    "pinyin": "xiao3 xin1 yi4 yi4",
    "definitions": [
     "(idiom) cautious; careful; prudent"
+   ]
+  },
+  {
+   "traditional": "小意思",
+   "simplified": "小意思",
+   "pinyin": "xiao3 yi4 si5",
+   "definitions": [
+    "small token",
+    "mere trifle (used of one's gifts)"
    ]
   },
   {
@@ -43846,6 +45165,14 @@
    "definitions": [
     "in a low voice",
     "(speak) in whispers"
+   ]
+  },
+  {
+   "traditional": "小舅子",
+   "simplified": "小舅子",
+   "pinyin": "xiao3 jiu4 zi5",
+   "definitions": [
+    "(coll.) wife's younger brother"
    ]
   },
   {
@@ -44450,6 +45777,14 @@
    ]
   },
   {
+   "traditional": "尾號",
+   "simplified": "尾号",
+   "pinyin": "wei3 hao4",
+   "definitions": [
+    "last digit (or last few digits) of a phone number, license plate number etc"
+   ]
+  },
+  {
    "traditional": "尿",
    "simplified": "尿",
    "pinyin": "niao4",
@@ -44899,6 +46234,14 @@
    "pinyin": "zhan3 lan3 hui4",
    "definitions": [
     "exhibition; show"
+   ]
+  },
+  {
+   "traditional": "展覽館",
+   "simplified": "展览馆",
+   "pinyin": "zhan3 lan3 guan3",
+   "definitions": [
+    "exhibition hall"
    ]
   },
   {
@@ -45798,6 +47141,14 @@
    ]
   },
   {
+   "traditional": "川菜",
+   "simplified": "川菜",
+   "pinyin": "Chuan1 cai4",
+   "definitions": [
+    "Sichuan or Szechuan cuisine"
+   ]
+  },
+  {
    "traditional": "州",
    "simplified": "州",
    "pinyin": "zhou1",
@@ -46125,6 +47476,14 @@
     "attendant",
     "to control",
     "to influence"
+   ]
+  },
+  {
+   "traditional": "左轉",
+   "simplified": "左转",
+   "pinyin": "zuo3 zhuan3",
+   "definitions": [
+    "to turn left"
    ]
   },
   {
@@ -47861,6 +49220,14 @@
    ]
   },
   {
+   "traditional": "幸會",
+   "simplified": "幸会",
+   "pinyin": "xing4 hui4",
+   "definitions": [
+    "nice to meet you"
+   ]
+  },
+  {
    "traditional": "幸福",
    "simplified": "幸福",
    "pinyin": "xing4 fu2",
@@ -48074,12 +49441,40 @@
    ]
   },
   {
+   "traditional": "幾個",
+   "simplified": "几个",
+   "pinyin": "ji3 ge5",
+   "definitions": [
+    "a few",
+    "several",
+    "how many"
+   ]
+  },
+  {
+   "traditional": "幾分",
+   "simplified": "几分",
+   "pinyin": "ji3 fen1",
+   "definitions": [
+    "somewhat",
+    "a bit"
+   ]
+  },
+  {
    "traditional": "幾率",
    "simplified": "几率",
    "pinyin": "ji1 lu:4",
    "definitions": [
     "probability",
     "odds"
+   ]
+  },
+  {
+   "traditional": "幾點",
+   "simplified": "几点",
+   "pinyin": "ji3 dian3",
+   "definitions": [
+    "what time?",
+    "when?"
    ]
   },
   {
@@ -49382,6 +50777,15 @@
    ]
   },
   {
+   "traditional": "弟妹",
+   "simplified": "弟妹",
+   "pinyin": "di4 mei4",
+   "definitions": [
+    "younger sibling",
+    "younger brother's wife"
+   ]
+  },
+  {
    "traditional": "弟子",
    "simplified": "弟子",
    "pinyin": "di4 zi3",
@@ -50264,6 +51668,15 @@
    ]
   },
   {
+   "traditional": "往前",
+   "simplified": "往前",
+   "pinyin": "wang3 qian2",
+   "definitions": [
+    "(in) the past",
+    "ahead; forward; in the future"
+   ]
+  },
+  {
    "traditional": "往常",
    "simplified": "往常",
    "pinyin": "wang3 chang2",
@@ -50893,6 +52306,14 @@
     "gains and losses",
     "success and failure",
     "merits and demerits"
+   ]
+  },
+  {
+   "traditional": "得很",
+   "simplified": "得很",
+   "pinyin": "de5 hen3",
+   "definitions": [
+    "(after an adjective) very"
    ]
   },
   {
@@ -52397,6 +53818,16 @@
    ]
   },
   {
+   "traditional": "快點",
+   "simplified": "快点",
+   "pinyin": "kuai4 dian3",
+   "definitions": [
+    "to do sth more quickly",
+    "Hurry up!",
+    "Get a move on!"
+   ]
+  },
+  {
    "traditional": "快點兒",
    "simplified": "快点儿",
    "pinyin": "kuai4 dian3 r5",
@@ -53713,6 +55144,14 @@
    ]
   },
   {
+   "traditional": "您好",
+   "simplified": "您好",
+   "pinyin": "nin2 hao3",
+   "definitions": [
+    "hello (polite)"
+   ]
+  },
+  {
    "traditional": "悲",
    "simplified": "悲",
    "pinyin": "bei1",
@@ -54348,6 +55787,18 @@
    "definitions": [
     "way of thinking; opinion; notion",
     "to think of a way (to do sth)"
+   ]
+  },
+  {
+   "traditional": "想要",
+   "simplified": "想要",
+   "pinyin": "xiang3 yao4",
+   "definitions": [
+    "to want to",
+    "to feel like",
+    "to fancy",
+    "to care for sb",
+    "desirous of"
    ]
   },
   {
@@ -55304,6 +56755,16 @@
    "definitions": [
     "take your time",
     "take it easy"
+   ]
+  },
+  {
+   "traditional": "慢走",
+   "simplified": "慢走",
+   "pinyin": "man4 zou3",
+   "definitions": [
+    "Stay a bit!",
+    "Wait a minute!",
+    "(to a departing guest) Take care!"
    ]
   },
   {
@@ -56570,6 +58031,22 @@
    ]
   },
   {
+   "traditional": "我去",
+   "simplified": "我去",
+   "pinyin": "wo3 qu4",
+   "definitions": [
+    "(slang) what the ...!; oh my god!; that's insane!"
+   ]
+  },
+  {
+   "traditional": "我司",
+   "simplified": "我司",
+   "pinyin": "wo3 si1",
+   "definitions": [
+    "our company (used in business correspondence, contracts etc) (abbr. for 我方公司[wo3 fang1 gong1 si1])"
+   ]
+  },
+  {
    "traditional": "戒",
    "simplified": "戒",
    "pinyin": "jie4",
@@ -56932,6 +58409,14 @@
    "definitions": [
     "house price",
     "cost of housing"
+   ]
+  },
+  {
+   "traditional": "房卡",
+   "simplified": "房卡",
+   "pinyin": "fang2 ka3",
+   "definitions": [
+    "room card (in a hotel)"
    ]
   },
   {
@@ -57683,6 +59168,17 @@
    ]
   },
   {
+   "traditional": "打擾了",
+   "simplified": "打扰了",
+   "pinyin": "da3 rao3 le5",
+   "definitions": [
+    "sorry to interrupt you, but ...",
+    "sorry to have bothered you",
+    "sorry, I have to go",
+    "(slang) (coined c. 2017) used facetiously to terminate a conversation (esp. online) when the other person is being insufferable"
+   ]
+  },
+  {
    "traditional": "打攪",
    "simplified": "打搅",
    "pinyin": "da3 jiao3",
@@ -57873,6 +59369,14 @@
    "pinyin": "da3 zhen1",
    "definitions": [
     "to give or get an injection"
+   ]
+  },
+  {
+   "traditional": "打錶",
+   "simplified": "打表",
+   "pinyin": "da3 biao3",
+   "definitions": [
+    "to run the meter (in a taxi)"
    ]
   },
   {
@@ -59885,6 +61389,26 @@
    ]
   },
   {
+   "traditional": "拜拜",
+   "simplified": "拜拜",
+   "pinyin": "bai2 bai2",
+   "definitions": [
+    "(loanword) bye-bye",
+    "also pr. [bai1 bai1] etc",
+    "(coll.) to part ways (with sb)",
+    "(fig.) to have nothing further to do (with sb or sth)"
+   ]
+  },
+  {
+   "traditional": "拜拜",
+   "simplified": "拜拜",
+   "pinyin": "bai4 bai5",
+   "definitions": [
+    "to pay one's respects by bowing with hands in front of one's chest clasping joss sticks, or with palms pressed together",
+    "(Tw) religious ceremony in which offerings are made to a deity"
+   ]
+  },
+  {
    "traditional": "拜會",
    "simplified": "拜会",
    "pinyin": "bai4 hui4",
@@ -60121,6 +61645,16 @@
     "to apprehend",
     "to take",
     "(used in the same way as 把[ba3]: to mark the following noun as a direct object)"
+   ]
+  },
+  {
+   "traditional": "拿來",
+   "simplified": "拿来",
+   "pinyin": "na2 lai2",
+   "definitions": [
+    "to bring",
+    "to fetch",
+    "to get"
    ]
   },
   {
@@ -60390,6 +61924,16 @@
     "index; indicator",
     "sign; signpost",
     "(computing) pointer"
+   ]
+  },
+  {
+   "traditional": "指正",
+   "simplified": "指正",
+   "pinyin": "zhi3 zheng4",
+   "definitions": [
+    "to point out mistakes or weak points for correction",
+    "to comment",
+    "criticism"
    ]
   },
   {
@@ -65348,6 +66892,15 @@
    ]
   },
   {
+   "traditional": "收下",
+   "simplified": "收下",
+   "pinyin": "shou1 xia4",
+   "definitions": [
+    "to accept",
+    "to receive"
+   ]
+  },
+  {
    "traditional": "收入",
    "simplified": "收入",
    "pinyin": "shou1 ru4",
@@ -65623,6 +67176,24 @@
    ]
   },
   {
+   "traditional": "改口",
+   "simplified": "改口",
+   "pinyin": "gai3 kou3",
+   "definitions": [
+    "to change one's tune",
+    "to modify one's previous remark",
+    "to change the way one addresses sb (as when one marries and starts to call one's husband's parents 爸爸[ba4 ba5] and 媽媽|妈妈[ma1 ma5])"
+   ]
+  },
+  {
+   "traditional": "改口費",
+   "simplified": "改口费",
+   "pinyin": "gai3 kou3 fei4",
+   "definitions": [
+    "a gift of money given by parents on both sides after a wedding, to their new daughter-in-law or son-in-law"
+   ]
+  },
+  {
    "traditional": "改名",
    "simplified": "改名",
    "pinyin": "gai3 ming2",
@@ -65685,6 +67256,15 @@
    "definitions": [
     "to revise the current edition",
     "revised edition"
+   ]
+  },
+  {
+   "traditional": "改簽",
+   "simplified": "改签",
+   "pinyin": "gai3 qian1",
+   "definitions": [
+    "to change one's reservation",
+    "to transfer to a different flight, airline, bus or train"
    ]
   },
   {
@@ -66715,6 +68295,15 @@
    ]
   },
   {
+   "traditional": "敬上",
+   "simplified": "敬上",
+   "pinyin": "jing4 shang4",
+   "definitions": [
+    "yours truly",
+    "yours sincerely (at the end of a letter)"
+   ]
+  },
+  {
    "traditional": "敬佩",
    "simplified": "敬佩",
    "pinyin": "jing4 pei4",
@@ -67306,6 +68895,17 @@
     "civilization",
     "culture",
     "CL:個|个[ge4]"
+   ]
+  },
+  {
+   "traditional": "文書",
+   "simplified": "文书",
+   "pinyin": "wen2 shu1",
+   "definitions": [
+    "document",
+    "official correspondence",
+    "secretary",
+    "secretariat"
    ]
   },
   {
@@ -68581,6 +70181,14 @@
    ]
   },
   {
+   "traditional": "早上好",
+   "simplified": "早上好",
+   "pinyin": "zao3 shang5 hao3",
+   "definitions": [
+    "Good morning!"
+   ]
+  },
+  {
    "traditional": "早就",
    "simplified": "早就",
    "pinyin": "zao3 jiu4",
@@ -68869,6 +70477,15 @@
    ]
   },
   {
+   "traditional": "明天見",
+   "simplified": "明天见",
+   "pinyin": "ming2 tian1 jian4",
+   "definitions": [
+    "see you tomorrow",
+    "(coll., jocular) food that passes through the digestive system more or less intact (esp. enoki mushrooms)"
+   ]
+  },
+  {
    "traditional": "明媚",
    "simplified": "明媚",
    "pinyin": "ming2 mei4",
@@ -69102,6 +70719,30 @@
    ]
   },
   {
+   "traditional": "星期一",
+   "simplified": "星期一",
+   "pinyin": "Xing1 qi1 yi1",
+   "definitions": [
+    "Monday"
+   ]
+  },
+  {
+   "traditional": "星期五",
+   "simplified": "星期五",
+   "pinyin": "Xing1 qi1 wu3",
+   "definitions": [
+    "Friday"
+   ]
+  },
+  {
+   "traditional": "星期四",
+   "simplified": "星期四",
+   "pinyin": "Xing1 qi1 si4",
+   "definitions": [
+    "Thursday"
+   ]
+  },
+  {
    "traditional": "星期天",
    "simplified": "星期天",
    "pinyin": "Xing1 qi1 tian1",
@@ -69258,6 +70899,15 @@
     "whether (or not)",
     "if",
     "is or isn't"
+   ]
+  },
+  {
+   "traditional": "是的",
+   "simplified": "是的",
+   "pinyin": "shi4 de5",
+   "definitions": [
+    "yes, that's right",
+    "variant of 似的[shi4 de5]"
    ]
   },
   {
@@ -71024,6 +72674,23 @@
    ]
   },
   {
+   "traditional": "會不會",
+   "simplified": "会不会",
+   "pinyin": "hui4 bu4 hui4",
+   "definitions": [
+    "(posing a question: whether sb, something) can or cannot?",
+    "is able to or not"
+   ]
+  },
+  {
+   "traditional": "會兒",
+   "simplified": "会儿",
+   "pinyin": "hui4 r5",
+   "definitions": [
+    "(coll.) a short while; a moment"
+   ]
+  },
+  {
    "traditional": "會員",
    "simplified": "会员",
    "pinyin": "hui4 yuan2",
@@ -71272,6 +72939,17 @@
    "definitions": [
     "to have real skill",
     "to know one's stuff"
+   ]
+  },
+  {
+   "traditional": "有別",
+   "simplified": "有别",
+   "pinyin": "you3 bie2",
+   "definitions": [
+    "different",
+    "distinct",
+    "unequal",
+    "variable"
    ]
   },
   {
@@ -71545,6 +73223,14 @@
    ]
   },
   {
+   "traditional": "有空",
+   "simplified": "有空",
+   "pinyin": "you3 kong4",
+   "definitions": [
+    "to have time (to do sth)"
+   ]
+  },
+  {
    "traditional": "有空兒",
    "simplified": "有空儿",
    "pinyin": "you3 kong4 r5",
@@ -71579,6 +73265,24 @@
    ]
   },
   {
+   "traditional": "有道",
+   "simplified": "有道",
+   "pinyin": "you3 dao4",
+   "definitions": [
+    "to have attained the Way",
+    "(of a government or a ruler) enlightened",
+    "wise and just"
+   ]
+  },
+  {
+   "traditional": "有道理",
+   "simplified": "有道理",
+   "pinyin": "you3 dao4 li5",
+   "definitions": [
+    "to make sense; reasonable"
+   ]
+  },
+  {
    "traditional": "有關",
    "simplified": "有关",
    "pinyin": "you3 guan1",
@@ -71596,6 +73300,14 @@
    "pinyin": "you3 xian4",
    "definitions": [
     "limited; finite"
+   ]
+  },
+  {
+   "traditional": "有點",
+   "simplified": "有点",
+   "pinyin": "you3 dian3",
+   "definitions": [
+    "a little"
    ]
   },
   {
@@ -73285,6 +74997,14 @@
    ]
   },
   {
+   "traditional": "查收",
+   "simplified": "查收",
+   "pinyin": "cha2 shou1",
+   "definitions": [
+    "to check for receipt of (an email, an enclosed item in a letter etc) (typically used in the polite imperative, e.g. after 請|请[qing3])"
+   ]
+  },
+  {
    "traditional": "查明",
    "simplified": "查明",
    "pinyin": "cha2 ming2",
@@ -74862,6 +76582,14 @@
    ]
   },
   {
+   "traditional": "概要",
+   "simplified": "概要",
+   "pinyin": "gai4 yao4",
+   "definitions": [
+    "outline"
+   ]
+  },
+  {
    "traditional": "概論",
    "simplified": "概论",
    "pinyin": "gai4 lun4",
@@ -75451,6 +77179,16 @@
     "standard; norm; criterion",
     "(adjective) standard",
     "good; correct; conforming to a standard"
+   ]
+  },
+  {
+   "traditional": "標準間",
+   "simplified": "标准间",
+   "pinyin": "biao1 zhun3 jian1",
+   "definitions": [
+    "standard (hotel) room",
+    "two-person room of standard size and amenities",
+    "abbr. to 標間|标间[biao1 jian1]"
    ]
   },
   {
@@ -76063,6 +77801,14 @@
    "pinyin": "ji1 zhi4",
    "definitions": [
     "machine-processed; machine-made"
+   ]
+  },
+  {
+   "traditional": "機要",
+   "simplified": "机要",
+   "pinyin": "ji1 yao4",
+   "definitions": [
+    "(attributive) (of a person) involved in sensitive, confidential work; (of information) secret; classified"
    ]
   },
   {
@@ -77040,6 +78786,14 @@
    "definitions": [
     "to welcome",
     "welcome"
+   ]
+  },
+  {
+   "traditional": "歡迎光臨",
+   "simplified": "欢迎光临",
+   "pinyin": "huan1 ying2 guang1 lin2",
+   "definitions": [
+    "Welcome! (used by staff to greet customers when they enter a shop or restaurant)"
    ]
   },
   {
@@ -78343,6 +80097,14 @@
    "definitions": [
     "each",
     "every"
+   ]
+  },
+  {
+   "traditional": "每天",
+   "simplified": "每天",
+   "pinyin": "mei3 tian1",
+   "definitions": [
+    "every day"
    ]
   },
   {
@@ -80221,6 +81983,14 @@
    ]
   },
   {
+   "traditional": "沒問題",
+   "simplified": "没问题",
+   "pinyin": "mei2 wen4 ti2",
+   "definitions": [
+    "no problem"
+   ]
+  },
+  {
    "traditional": "沒完沒了",
    "simplified": "没完没了",
    "pinyin": "mei2 wan2 mei2 liao3",
@@ -80265,6 +82035,15 @@
     "doesn't exist",
     "to not have",
     "to not be"
+   ]
+  },
+  {
+   "traditional": "沒有什麼",
+   "simplified": "没有什么",
+   "pinyin": "mei2 you3 shen2 me5",
+   "definitions": [
+    "it is nothing",
+    "there's nothing ... about it"
    ]
   },
   {
@@ -80864,6 +82643,15 @@
    ]
   },
   {
+   "traditional": "泉水",
+   "simplified": "泉水",
+   "pinyin": "quan2 shui3",
+   "definitions": [
+    "spring water",
+    "CL:股[gu3]"
+   ]
+  },
+  {
    "traditional": "泊",
    "simplified": "泊",
    "pinyin": "bo2",
@@ -81349,6 +83137,15 @@
    "pinyin": "xian3",
    "definitions": [
     "used in 洗馬|洗马[xian3 ma3]"
+   ]
+  },
+  {
+   "traditional": "洗手",
+   "simplified": "洗手",
+   "pinyin": "xi3 shou3",
+   "definitions": [
+    "to wash one's hands",
+    "to go to the toilet"
    ]
   },
   {
@@ -83381,6 +85178,15 @@
    "definitions": [
     "additive",
     "food additive"
+   ]
+  },
+  {
+   "traditional": "添麻煩",
+   "simplified": "添麻烦",
+   "pinyin": "tian1 ma2 fan5",
+   "definitions": [
+    "to cause trouble for sb",
+    "to inconvenience"
    ]
   },
   {
@@ -89660,6 +91466,14 @@
    ]
   },
   {
+   "traditional": "牌號",
+   "simplified": "牌号",
+   "pinyin": "pai2 hao4",
+   "definitions": [
+    "trademark"
+   ]
+  },
+  {
    "traditional": "牎",
    "simplified": "窗",
    "pinyin": "chuang1",
@@ -89930,6 +91744,14 @@
     "property",
     "real estate",
     "abbr. for 物業管理|物业管理[wu4 ye4 guan3 li3], property management"
+   ]
+  },
+  {
+   "traditional": "物業管理",
+   "simplified": "物业管理",
+   "pinyin": "wu4 ye4 guan3 li3",
+   "definitions": [
+    "property management"
    ]
   },
   {
@@ -92889,6 +94711,14 @@
    ]
   },
   {
+   "traditional": "甥女",
+   "simplified": "甥女",
+   "pinyin": "sheng1 nu:3",
+   "definitions": [
+    "sister's daughter; niece"
+   ]
+  },
+  {
    "traditional": "甦",
    "simplified": "苏",
    "pinyin": "su1",
@@ -95516,6 +97346,16 @@
    ]
   },
   {
+   "traditional": "發給",
+   "simplified": "发给",
+   "pinyin": "fa1 gei3",
+   "definitions": [
+    "to issue",
+    "to grant",
+    "to distribute"
+   ]
+  },
+  {
    "traditional": "發育",
    "simplified": "发育",
    "pinyin": "fa1 yu4",
@@ -95844,6 +97684,14 @@
    "definitions": [
     "encyclopedia",
     "CL:本[ben3],集[ji2]"
+   ]
+  },
+  {
+   "traditional": "百米",
+   "simplified": "百米",
+   "pinyin": "bai3 mi3",
+   "definitions": [
+    "hectometer"
    ]
   },
   {
@@ -97451,12 +99299,38 @@
    ]
   },
   {
+   "traditional": "看一看",
+   "simplified": "看一看",
+   "pinyin": "kan4 yi1 kan4",
+   "definitions": [
+    "to have a look"
+   ]
+  },
+  {
+   "traditional": "看上",
+   "simplified": "看上",
+   "pinyin": "kan4 shang4",
+   "definitions": [
+    "to look upon",
+    "to take a fancy to",
+    "to fall for"
+   ]
+  },
+  {
    "traditional": "看上去",
    "simplified": "看上去",
    "pinyin": "kan4 shang5 qu5",
    "definitions": [
     "it would appear",
     "it seems (that)"
+   ]
+  },
+  {
+   "traditional": "看不懂",
+   "simplified": "看不懂",
+   "pinyin": "kan4 bu5 dong3",
+   "definitions": [
+    "unable to make sense of what one is looking at"
    ]
   },
   {
@@ -97600,6 +99474,15 @@
    ]
   },
   {
+   "traditional": "看書",
+   "simplified": "看书",
+   "pinyin": "kan4 shu1",
+   "definitions": [
+    "to read",
+    "to study"
+   ]
+  },
+  {
    "traditional": "看望",
    "simplified": "看望",
    "pinyin": "kan4 wang4",
@@ -97643,6 +99526,17 @@
    "definitions": [
     "to visit a doctor",
     "to see a patient"
+   ]
+  },
+  {
+   "traditional": "看看",
+   "simplified": "看看",
+   "pinyin": "kan4 kan5",
+   "definitions": [
+    "to take a look at",
+    "to examine",
+    "to survey",
+    "(coll.) pretty soon"
    ]
   },
   {
@@ -99705,6 +101599,14 @@
    ]
   },
   {
+   "traditional": "礦泉",
+   "simplified": "矿泉",
+   "pinyin": "kuang4 quan2",
+   "definitions": [
+    "mineral spring"
+   ]
+  },
+  {
    "traditional": "礦泉水",
    "simplified": "矿泉水",
    "pinyin": "kuang4 quan2 shui3",
@@ -99990,6 +101892,14 @@
    ]
   },
   {
+   "traditional": "祝好",
+   "simplified": "祝好",
+   "pinyin": "zhu4 hao3",
+   "definitions": [
+    "wish you all the best! (when signing off on a correspondence)"
+   ]
+  },
+  {
    "traditional": "祝福",
    "simplified": "祝福",
    "pinyin": "zhu4 fu2",
@@ -100219,6 +102129,15 @@
    ]
   },
   {
+   "traditional": "祺",
+   "simplified": "祺",
+   "pinyin": "qi2",
+   "definitions": [
+    "(literary) good luck; good fortune",
+    "(used in formal letter-ending phrases and in personal names)"
+   ]
+  },
+  {
    "traditional": "禁",
    "simplified": "禁",
    "pinyin": "jin1",
@@ -100270,6 +102189,14 @@
     "to prohibit",
     "to forbid",
     "to ban"
+   ]
+  },
+  {
+   "traditional": "禁止吸煙",
+   "simplified": "禁止吸烟",
+   "pinyin": "jin4 zhi3 xi1 yan1",
+   "definitions": [
+    "No smoking!"
    ]
   },
   {
@@ -100443,6 +102370,14 @@
     "to attend a religious service",
     "(coll.) week",
     "(coll.) Sunday"
+   ]
+  },
+  {
+   "traditional": "禮拜三",
+   "simplified": "礼拜三",
+   "pinyin": "Li3 bai4 san1",
+   "definitions": [
+    "Wednesday"
    ]
   },
   {
@@ -100932,6 +102867,15 @@
    ]
   },
   {
+   "traditional": "租車",
+   "simplified": "租车",
+   "pinyin": "zu1 che1",
+   "definitions": [
+    "to rent a car",
+    "rental car"
+   ]
+  },
+  {
    "traditional": "租金",
    "simplified": "租金",
    "pinyin": "zu1 jin1",
@@ -101211,6 +103155,14 @@
     "somewhat",
     "a little",
     "slightly"
+   ]
+  },
+  {
+   "traditional": "稍等",
+   "simplified": "稍等",
+   "pinyin": "shao1 deng3",
+   "definitions": [
+    "to wait a moment"
    ]
   },
   {
@@ -103176,6 +105128,24 @@
     "(bound form) equal to; same as",
     "(used to end an enumeration)",
     "(literary) (plural suffix attached to a personal pronoun or noun)"
+   ]
+  },
+  {
+   "traditional": "等一下",
+   "simplified": "等一下",
+   "pinyin": "deng3 yi1 xia4",
+   "definitions": [
+    "to wait a moment",
+    "later",
+    "in awhile"
+   ]
+  },
+  {
+   "traditional": "等一下兒",
+   "simplified": "等一下儿",
+   "pinyin": "deng3 yi1 xia4 r5",
+   "definitions": [
+    "erhua variant of 等一下[deng3 yi1 xia4]"
    ]
   },
   {
@@ -109334,6 +111304,17 @@
    ]
   },
   {
+   "traditional": "美編",
+   "simplified": "美编",
+   "pinyin": "mei3 bian1",
+   "definitions": [
+    "(publishing) (abbr. for 美術編輯|美术编辑[mei3 shu4 bian1 ji2]) layout and graphics",
+    "graphic design",
+    "art editor",
+    "graphic designer"
+   ]
+  },
+  {
    "traditional": "美術",
    "simplified": "美术",
    "pinyin": "mei3 shu4",
@@ -111123,6 +113104,14 @@
    ]
   },
   {
+   "traditional": "聽不懂",
+   "simplified": "听不懂",
+   "pinyin": "ting1 bu5 dong3",
+   "definitions": [
+    "unable to make sense of what one is hearing"
+   ]
+  },
+  {
    "traditional": "聽到",
    "simplified": "听到",
    "pinyin": "ting1 dao4",
@@ -111165,6 +113154,15 @@
     "to comply with",
     "to heed",
     "to hearken"
+   ]
+  },
+  {
+   "traditional": "聽懂",
+   "simplified": "听懂",
+   "pinyin": "ting1 dong3",
+   "definitions": [
+    "to understand (on hearing)",
+    "to catch (what is spoken)"
    ]
   },
   {
@@ -113411,6 +115409,15 @@
    ]
   },
   {
+   "traditional": "自我介紹",
+   "simplified": "自我介绍",
+   "pinyin": "zi4 wo3 jie4 shao4",
+   "definitions": [
+    "self-introduction",
+    "to introduce oneself"
+   ]
+  },
+  {
    "traditional": "自殺",
    "simplified": "自杀",
    "pinyin": "zi4 sha1",
@@ -113823,6 +115830,15 @@
    ]
   },
   {
+   "traditional": "致電",
+   "simplified": "致电",
+   "pinyin": "zhi4 dian4",
+   "definitions": [
+    "to phone",
+    "to telegram"
+   ]
+  },
+  {
    "traditional": "臺",
    "simplified": "台",
    "pinyin": "Tai2",
@@ -113878,6 +115894,42 @@
    "simplified": "舅",
    "pinyin": "jiu4",
    "definitions": [
+    "maternal uncle"
+   ]
+  },
+  {
+   "traditional": "舅媽",
+   "simplified": "舅妈",
+   "pinyin": "jiu4 ma1",
+   "definitions": [
+    "(coll.) aunt",
+    "maternal uncle's wife"
+   ]
+  },
+  {
+   "traditional": "舅子",
+   "simplified": "舅子",
+   "pinyin": "jiu4 zi5",
+   "definitions": [
+    "(coll.) wife's brother"
+   ]
+  },
+  {
+   "traditional": "舅母",
+   "simplified": "舅母",
+   "pinyin": "jiu4 mu3",
+   "definitions": [
+    "wife of mother's brother",
+    "aunt",
+    "maternal uncle's wife"
+   ]
+  },
+  {
+   "traditional": "舅父",
+   "simplified": "舅父",
+   "pinyin": "jiu4 fu4",
+   "definitions": [
+    "mother's brother",
     "maternal uncle"
    ]
   },
@@ -115117,6 +117169,14 @@
    ]
   },
   {
+   "traditional": "花錢",
+   "simplified": "花钱",
+   "pinyin": "hua1 qian2",
+   "definitions": [
+    "to spend money"
+   ]
+  },
+  {
    "traditional": "芲",
    "simplified": "花",
    "pinyin": "hua1",
@@ -115867,6 +117927,14 @@
    "pinyin": "he2 hua1",
    "definitions": [
     "lotus"
+   ]
+  },
+  {
+   "traditional": "荷蘭",
+   "simplified": "荷兰",
+   "pinyin": "He2 lan2",
+   "definitions": [
+    "Holland; the Netherlands"
    ]
   },
   {
@@ -119471,6 +121539,16 @@
    ]
   },
   {
+   "traditional": "衣櫃",
+   "simplified": "衣柜",
+   "pinyin": "yi1 gui4",
+   "definitions": [
+    "wardrobe",
+    "armoire",
+    "CL:個|个[ge4]"
+   ]
+  },
+  {
    "traditional": "衣裳",
    "simplified": "衣裳",
    "pinyin": "yi1 shang5",
@@ -119499,6 +121577,38 @@
     "a table (listing information)",
     "a form",
     "a meter (measuring sth)"
+   ]
+  },
+  {
+   "traditional": "表哥",
+   "simplified": "表哥",
+   "pinyin": "biao3 ge1",
+   "definitions": [
+    "older male cousin through a female relative"
+   ]
+  },
+  {
+   "traditional": "表妹",
+   "simplified": "表妹",
+   "pinyin": "biao3 mei4",
+   "definitions": [
+    "younger female cousin through a female relative"
+   ]
+  },
+  {
+   "traditional": "表姐",
+   "simplified": "表姐",
+   "pinyin": "biao3 jie3",
+   "definitions": [
+    "older female cousin through a female relative"
+   ]
+  },
+  {
+   "traditional": "表弟",
+   "simplified": "表弟",
+   "pinyin": "biao3 di4",
+   "definitions": [
+    "younger male cousin through a female relative"
    ]
   },
   {
@@ -120745,6 +122855,14 @@
    ]
   },
   {
+   "traditional": "西門",
+   "simplified": "西门",
+   "pinyin": "Xi1 men2",
+   "definitions": [
+    "two-character surname Ximen"
+   ]
+  },
+  {
    "traditional": "西餐",
    "simplified": "西餐",
    "pinyin": "xi1 can1",
@@ -121095,6 +123213,14 @@
    ]
   },
   {
+   "traditional": "見面禮",
+   "simplified": "见面礼",
+   "pinyin": "jian4 mian4 li3",
+   "definitions": [
+    "gift given to sb when meeting them for the first time"
+   ]
+  },
+  {
    "traditional": "規",
    "simplified": "规",
    "pinyin": "gui1",
@@ -121303,6 +123429,15 @@
    ]
   },
   {
+   "traditional": "視頻會議",
+   "simplified": "视频会议",
+   "pinyin": "shi4 pin2 hui4 yi4",
+   "definitions": [
+    "videoconferencing",
+    "videoconference"
+   ]
+  },
+  {
    "traditional": "覩",
    "simplified": "睹",
    "pinyin": "du3",
@@ -121376,6 +123511,31 @@
     "accessibility",
     "(in a product) user friendliness",
     "(chemistry) affinity"
+   ]
+  },
+  {
+   "traditional": "親家",
+   "simplified": "亲家",
+   "pinyin": "qing4 jia5",
+   "definitions": [
+    "parents of one's daughter-in-law or son-in-law",
+    "relatives by marriage"
+   ]
+  },
+  {
+   "traditional": "親家公",
+   "simplified": "亲家公",
+   "pinyin": "qing4 jia5 gong1",
+   "definitions": [
+    "father of one's child's spouse"
+   ]
+  },
+  {
+   "traditional": "親家母",
+   "simplified": "亲家母",
+   "pinyin": "qing4 jia5 mu3",
+   "definitions": [
+    "mother of one's child's spouse"
    ]
   },
   {
@@ -123325,6 +125485,15 @@
    ]
   },
   {
+   "traditional": "話說",
+   "simplified": "话说",
+   "pinyin": "hua4 shuo1",
+   "definitions": [
+    "It is said that ... (at the start of a narrative)",
+    "to discuss; to recount"
+   ]
+  },
+  {
    "traditional": "話費",
    "simplified": "话费",
    "pinyin": "hua4 fei4",
@@ -124496,6 +126665,14 @@
    ]
   },
   {
+   "traditional": "談談",
+   "simplified": "谈谈",
+   "pinyin": "tan2 tan2",
+   "definitions": [
+    "to discuss; to have a chat"
+   ]
+  },
+  {
    "traditional": "談論",
    "simplified": "谈论",
    "pinyin": "tan2 lun4",
@@ -124547,6 +126724,14 @@
    "pinyin": "qing3 zuo4",
    "definitions": [
     "please, have a seat"
+   ]
+  },
+  {
+   "traditional": "請多關照",
+   "simplified": "请多关照",
+   "pinyin": "qing3 duo1 guan1 zhao4",
+   "definitions": [
+    "please treat me kindly (conventional greeting on first meeting)"
    ]
   },
   {
@@ -126952,12 +129137,29 @@
    ]
   },
   {
+   "traditional": "貴公司",
+   "simplified": "贵公司",
+   "pinyin": "gui4 gong1 si1",
+   "definitions": [
+    "your company"
+   ]
+  },
+  {
    "traditional": "貴姓",
    "simplified": "贵姓",
    "pinyin": "gui4 xing4",
    "definitions": [
     "what is your surname?",
     "(May I ask) your surname?"
+   ]
+  },
+  {
+   "traditional": "貴方",
+   "simplified": "贵方",
+   "pinyin": "gui4 fang1",
+   "definitions": [
+    "(in business etc) your side",
+    "you"
    ]
   },
   {
@@ -127055,6 +129257,15 @@
    ]
   },
   {
+   "traditional": "買票",
+   "simplified": "买票",
+   "pinyin": "mai3 piao4",
+   "definitions": [
+    "to buy tickets",
+    "(Tw) to buy votes (in an election)"
+   ]
+  },
+  {
    "traditional": "買賣",
    "simplified": "买卖",
    "pinyin": "mai3 mai4",
@@ -127142,6 +129353,17 @@
     "expenditure",
     "expense",
     "CL:筆|笔[bi3],個|个[ge4]"
+   ]
+  },
+  {
+   "traditional": "費神",
+   "simplified": "费神",
+   "pinyin": "fei4 shen2",
+   "definitions": [
+    "to spend effort",
+    "to take trouble",
+    "May I trouble you to...? (as part of polite request)",
+    "Please would you mind...?"
    ]
   },
   {
@@ -127563,6 +129785,14 @@
     "to betray",
     "to spare no effort",
     "to show off or flaunt"
+   ]
+  },
+  {
+   "traditional": "賣完",
+   "simplified": "卖完",
+   "pinyin": "mai4 wan2",
+   "definitions": [
+    "to be sold out"
    ]
   },
   {
@@ -132185,6 +134415,14 @@
    ]
   },
   {
+   "traditional": "退房",
+   "simplified": "退房",
+   "pinyin": "tui4 fang2",
+   "definitions": [
+    "to check out of a hotel room"
+   ]
+  },
+  {
    "traditional": "退步",
    "simplified": "退步",
    "pinyin": "tui4 bu4",
@@ -132574,6 +134812,14 @@
    "pinyin": "zhe4 xie1",
    "definitions": [
     "these"
+   ]
+  },
+  {
+   "traditional": "這位",
+   "simplified": "这位",
+   "pinyin": "zhe4 wei4",
+   "definitions": [
+    "this (person)"
    ]
   },
   {
@@ -133307,6 +135553,22 @@
     "week",
     "weekly",
     "variant of 周[zhou1]"
+   ]
+  },
+  {
+   "traditional": "週一",
+   "simplified": "周一",
+   "pinyin": "Zhou1 yi1",
+   "definitions": [
+    "Monday"
+   ]
+  },
+  {
+   "traditional": "週二",
+   "simplified": "周二",
+   "pinyin": "Zhou1 er4",
+   "definitions": [
+    "Tuesday"
    ]
   },
   {
@@ -134963,6 +137225,14 @@
    ]
   },
   {
+   "traditional": "遲了",
+   "simplified": "迟了",
+   "pinyin": "chi2 le5",
+   "definitions": [
+    "late"
+   ]
+  },
+  {
    "traditional": "遲到",
    "simplified": "迟到",
    "pinyin": "chi2 dao4",
@@ -135483,6 +137753,15 @@
     "to restore to the original state",
     "to reconstruct (an event)",
     "reduction (chemistry)"
+   ]
+  },
+  {
+   "traditional": "還好",
+   "simplified": "还好",
+   "pinyin": "hai2 hao3",
+   "definitions": [
+    "not bad; pretty good",
+    "fortunately; luckily"
    ]
   },
   {
@@ -143880,6 +146159,14 @@
    ]
   },
   {
+   "traditional": "靠窗",
+   "simplified": "靠窗",
+   "pinyin": "kao4 chuang1",
+   "definitions": [
+    "by the window (referring to seats on a plane etc)"
+   ]
+  },
+  {
    "traditional": "靠近",
    "simplified": "靠近",
    "pinyin": "kao4 jin4",
@@ -147486,6 +149773,22 @@
    ]
   },
   {
+   "traditional": "馬克",
+   "simplified": "马克",
+   "pinyin": "Ma3 ke4",
+   "definitions": [
+    "Mark (name)"
+   ]
+  },
+  {
+   "traditional": "馬克",
+   "simplified": "马克",
+   "pinyin": "ma3 ke4",
+   "definitions": [
+    "mark (monetary unit)"
+   ]
+  },
+  {
    "traditional": "馬力",
    "simplified": "马力",
    "pinyin": "ma3 li4",
@@ -149980,6 +152283,15 @@
    ]
   },
   {
+   "traditional": "麵的",
+   "simplified": "面的",
+   "pinyin": "mian4 di1",
+   "definitions": [
+    "abbr. of 麵包車的士|面包车的士[mian4 bao1 che1 di1 shi4]",
+    "minivan taxi"
+   ]
+  },
+  {
    "traditional": "麵粉",
    "simplified": "面粉",
    "pinyin": "mian4 fen3",
@@ -150390,6 +152702,23 @@
    ]
   },
   {
+   "traditional": "點兒",
+   "simplified": "点儿",
+   "pinyin": "dian3 r5",
+   "definitions": [
+    "erhua variant of 點|点[dian3]"
+   ]
+  },
+  {
+   "traditional": "點出",
+   "simplified": "点出",
+   "pinyin": "dian3 chu1",
+   "definitions": [
+    "to point out",
+    "to indicate"
+   ]
+  },
+  {
    "traditional": "點名",
    "simplified": "点名",
    "pinyin": "dian3 ming2",
@@ -150480,6 +152809,15 @@
     "sprinkled",
     "studded",
     "only for show"
+   ]
+  },
+  {
+   "traditional": "點補",
+   "simplified": "点补",
+   "pinyin": "dian3 bu3",
+   "definitions": [
+    "to have a snack",
+    "to have a bite"
    ]
   },
   {

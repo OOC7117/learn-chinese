@@ -69,6 +69,7 @@ export async function render(root, ctx) {
           h('div.stat', h('span.value', `${num(done.r)}/${num(goal)}`), h('span.label', 'daily goal')),
           h('div.stat', h('span.value', num(days)), h('span.label', days === 1 ? 'day streak' : 'days streak'))),
         h('p.muted.small', `${q.counts.new} new · ${q.counts.learning} learning · ${q.counts.review} to review`),
+        q.paused ? h('p.small', 'New words are paused until the overdue reviews are done (Settings → Pace).') : null,
         h('a.btn.primary.block', { href: '#/study' }, icon('study'), due ? 'Study now' : 'Open study')),
       neverStudied ? h('section.callout', h('strong', 'Already know some words? '),
         'You said you are around HSK 1–2. Open HSK 1 and mark the words you know (they will be skipped), then study the rest. ',

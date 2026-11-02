@@ -85,13 +85,22 @@ async function render() {
     const mod = await import(`./views/${view}.js`);
     if (token !== renderToken) return; // a newer navigation won
     replace(main);
-    cleanup = await mod.render(main, { ...ctx, params: route.params, query: route.query, route });
-    if (token === renderToken) {
-      main.focus({ preventScroll: true });
-      window.scrollTo(0, 0);
-      const title = main.querySelector('h1')?.textContent;
-      document.title = title ? `${title} · Learn Chinese` : 'Learn Chinese';
+    const next = await mod.render(main, { ...ctx, params: route.params, query: route.query, route });
+    if (token !== renderToken) {
+      // A newer navigation started while this view was still rendering: its cleanup runs now, and it must
+      // not overwrite the newer view's cleanup (its key handlers would outlive the page).
+      try {
+        if (typeof next === 'function') next();
+      } catch (error) {
+        console.error('[main] cleanup failed', error);
+      }
+      return;
     }
+    cleanup = next;
+    main.focus({ preventScroll: true });
+    window.scrollTo(0, 0);
+    const title = main.querySelector('h1')?.textContent;
+    document.title = title ? `${title} · Learn Chinese` : 'Learn Chinese';
   } catch (error) {
     console.error('[main] view failed', error);
     if (token !== renderToken) return;

@@ -25,6 +25,18 @@ export function render(root, ctx) {
       h('input.switch', { type: 'checkbox', id, checked: state.settings[key], onchange: (e) => state.updateSettings({ [key]: e.target.checked }) }));
   };
 
+  // docs/RESEARCH.md 4.3: three named choices within 0.80-0.95 (SSP-MMC-FSRS simulation: 0.85 needs about 24%
+  // fewer reviews than 0.90 for about 3% fewer words remembered; 0.95 about 52% more reviews).
+  const RETENTION = [[0.85, 'Lighter (0.85)'], [0.9, 'Balanced (0.90)'], [0.95, 'Intensive (0.95)']];
+  const retentionSetting = () => {
+    const current = state.settings.retention;
+    const options = RETENTION.some(([v]) => v === current) ? RETENTION : [...RETENTION, [current, `Custom (${current.toFixed(2)})`]];
+    return h('li.setting', h('label', { for: 'set-retention' }, 'Desired retention',
+      h('span.hint', 'Your chance of remembering a word when it comes back. Lighter: about a quarter fewer reviews, about 3% fewer words remembered. Intensive: about half again as many reviews, for example before an exam.')),
+    h('select', { id: 'set-retention', onchange: (e) => state.updateSettings({ retention: Number(e.target.value) }) },
+      options.map(([v, label]) => h('option', { value: String(v), selected: v === current }, label))));
+  };
+
   const draw = () => {
     const voices = audio.voices();
     replace(body,
@@ -33,7 +45,8 @@ export function render(root, ctx) {
         number('newPerDay', 'New words per day', '10 a day with Listen + Speak: about 125–260 answers a day after a few months (≈ 17–35 min). HSK 4 (2,000 words) in about 200 days.', { min: 0, max: 100 }),
         number('dailyGoal', 'Daily goal (answers)', null, { min: 5, max: 1000 }),
         number('reviewLimit', 'Maximum reviews per day', 'Overdue cards wait; nothing is lost.', { min: 10, max: 2000 }),
-        number('retention', 'Desired retention', 'FSRS default 0.90. Higher = more reviews, fewer lapses (0.80–0.95 is sensible).', { min: 0.7, max: 0.97, step: 0.01 })),
+        retentionSetting(),
+        toggle('pauseNewWhenOverdue', 'Pause new words while reviews are overdue', 'After a missed day you catch up first, so the daily load does not snowball. “Learn 5 more new” still works.')),
       h('h2', 'Card types'),
       h('p.small.muted', 'Introduced one at a time per word, in this order, on different days.'),
       h('ul.list',

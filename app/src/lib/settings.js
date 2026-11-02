@@ -6,7 +6,8 @@ export const SETTINGS_DEFAULTS = Object.freeze({
   newPerDay: 10, // new items (words, phrases, terms) per day
   reviewLimit: 300,
   dailyGoal: 50, // answers per day
-  retention: 0.9, // FSRS desired retention
+  retention: 0.9, // FSRS desired retention: 0.85 lighter, 0.90 balanced, 0.95 intensive (docs/RESEARCH.md 4.3)
+  pauseNewWhenOverdue: true, // no new words while reviews from earlier days wait
   // Card types, in the order they are introduced for each word (docs/RESEARCH.md: listen, speak, then characters).
   // Characters is off by default: with Listen + Speak, 10 new words a day settle at about 125-260 answers a
   // day; adding Characters raises that to about 190-400 (FSRS simulation, docs/RESEARCH.md "Realistic plan").
@@ -29,11 +30,11 @@ const NUMBER_RANGES = Object.freeze({
   newPerDay: [0, 100],
   reviewLimit: [10, 2000],
   dailyGoal: [5, 1000],
-  retention: [0.7, 0.97],
+  retention: [0.8, 0.95], // the research's limit for the UI (inside FSRS's 0.70-0.97 'reasonable' range)
   slowRate: [0.5, 1],
   dayStartHour: [0, 12],
 });
-const BOOLEANS = ['typeListen', 'typeSpeak', 'typeRead', 'typeCloze', 'autoplay', 'showPinyinOnRead', 'toneCheck'];
+const BOOLEANS = ['typeListen', 'typeSpeak', 'typeRead', 'typeCloze', 'autoplay', 'showPinyinOnRead', 'toneCheck', 'pauseNewWhenOverdue'];
 const SYSTEMS = ['exam2025', 'std2021', 'hsk20'];
 const DECK_ID = /^[a-z0-9][a-z0-9._-]{0,80}$/;
 

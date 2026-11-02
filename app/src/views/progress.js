@@ -3,7 +3,7 @@
 
 import { h, replace, num, bar } from '../dom.js';
 import { deckProgress, dayKey } from '../lib/queue.js';
-import { streak, dayStats, newPerDayPace, daysToFinish } from '../lib/stats.js';
+import { streak, dayStats, newPerDayPace, daysToFinish, recentActivity, minutesLabel } from '../lib/stats.js';
 import { cardTypesFor } from '../lib/settings.js';
 import { decodeCard, DAY } from '../lib/srs.js';
 import { SYSTEM_LABEL } from '../data.js';
@@ -51,10 +51,19 @@ export async function render(root, ctx) {
         h('div.stat', h('span.value', `${num(t.r)}/${num(state.settings.dailyGoal)}`), h('span.label', 'goal today')),
         h('div.stat', h('span.value', pace ? pace.toFixed(1) : '–'), h('span.label', 'new words/day (14 days)'))),
       nextLevel ? h('p', `Next: ${nextLevel.deck.title}, ${num(nextLevel.remaining)} words to go. At ${pace ? `your pace (${pace.toFixed(1)}/day)` : `${state.settings.newPerDay} new words a day (your setting)`} that is about `, h('strong', `${num(eta)} days`), '.') : h('p', 'Every level of this list is known. 太棒了!'),
-      h('p.small.muted', 'Known = learned with spaced repetition, or skipped as already known. Skipped words are not tested.')),
+      h('p.small.muted', 'Known = learned with spaced repetition, or skipped as already known. Skipped words are not tested.'),
+      studyTime(state.stats, today)),
     h('h2', 'Levels'),
     h('ul.list', rows),
     h('h2', 'Reviews in the next 7 days'),
     h('div.forecast', forecast.map((n, i) => h('div.forecast-day', h('span.value', num(n)), h('span.label', i === 0 ? 'today' : i === 1 ? 'tmrw' : `+${i}d`)))));
   return null;
+}
+
+/** Time spent answering cards: today and over the last 7 days (time per answer is capped at 10 minutes). */
+function studyTime(stats, today) {
+  const t = dayStats(stats, today);
+  const week = recentActivity(stats, today, 7);
+  if (!week.answers) return null;
+  return h('p.small', `Study time: ${minutesLabel(t.ms)} today · ${minutesLabel(week.ms)} in the last 7 days (${week.days} ${week.days === 1 ? 'day' : 'days'}, ${week.answers.toLocaleString('en-GB')} answers).`);
 }

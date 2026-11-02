@@ -93,6 +93,28 @@ export function newPerDayPace(stats, todayKey, window = 14) {
   return total / window;
 }
 
+/** Study time and answers over the `window` days ending today (today included): { ms, answers, days }
+ * where days = days with at least one answer. */
+export function recentActivity(stats, todayKey, window = 7) {
+  const days = cleanStats(stats).days;
+  const out = { ms: 0, answers: 0, days: 0 };
+  for (let i = 0; i < window; i += 1) {
+    const day = days[shiftKey(todayKey, i)];
+    if (!day) continue;
+    out.ms += day.ms;
+    out.answers += day.r;
+    if (day.r > 0) out.days += 1;
+  }
+  return out;
+}
+
+/** "about 25 min" / "under a minute" for a duration in ms. */
+export function minutesLabel(ms) {
+  const min = Math.round(ms / 60_000);
+  if (ms > 0 && min === 0) return 'under a minute';
+  return min >= 120 ? `${Math.round(min / 6) / 10} h` : `${min} min`;
+}
+
 /** Days needed to learn `remaining` items at `perDay` new items per day (Infinity if perDay <= 0). */
 export function daysToFinish(remaining, perDay) {
   if (remaining <= 0) return 0;

@@ -59,7 +59,8 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html { background: var(--bg); }
+/* Focused controls scroll clear of the fixed tab bar (keyboard users on every view). */
+html { background: var(--bg); scroll-padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 0.75rem); }
 body {
   margin: 0 auto;
   max-width: 40rem;
