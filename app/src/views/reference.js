@@ -2,7 +2,7 @@
 // examples (correct and, for pitfalls, the typical mistake), audio and sources.
 
 import { h, replace, icon, zh, py } from '../dom.js';
-import { sourceList } from './parts.js';
+import { sourceList, sourceLabel, richText } from './parts.js';
 
 export async function renderReference(root, ctx, { key, title, intro, base }) {
   const content = await ctx.data.loadContent();
@@ -23,18 +23,19 @@ export async function renderReference(root, ctx, { key, title, intro, base }) {
   replace(root,
     h('a.btn.small', { href: `#/${base}` }, icon('back'), title),
     h('h1', it.title),
-    h('p.rule-text', it.rule),
-    it.details ? h('p', it.details) : null,
+    h('p.rule-text', richText(it.rule)),
+    it.details ? h('p', richText(it.details)) : null,
     it.examples.length ? h('h2', 'Examples') : null,
-    h('ul.examples', it.examples.map((ex) => h(`li.example${ex.correct ? '' : '.wrong'}`,
+    h('ul.examples', it.examples.map((ex) => { const item = { hanzi: ex.hanzi, id: ex.hanzi, audio: ex.audio ?? null }; return h(`li.example${ex.correct ? '' : '.wrong'}`,
       h('span.example-mark', { aria: { label: ex.correct ? 'correct' : 'incorrect' } }, ex.correct ? '✓' : '✗'),
       h('div.grow',
         zh(ex.hanzi, 'example-hanzi'),
         h('div', py(ex.pinyin), ex.spoken && ex.spoken !== ex.pinyin ? h('span.spoken', ' · spoken ', py(ex.spoken)) : null),
         h('p.example-en', ex.english),
+        ex.correct ? h('p.audio-src', sourceLabel(ctx.audio.sourceOf(item), item)) : null,
         ex.source?.url ? h('a.small', { href: ex.source.url, rel: 'noopener noreferrer', target: '_blank' }, 'Source') : null),
-      ex.correct ? h('button.play-btn', { type: 'button', aria: { label: `Play ${ex.hanzi}` }, onclick: () => ctx.audio.play({ hanzi: ex.hanzi, id: ex.hanzi }) }, icon('play')) : null))),
-    it.common_mistake ? [h('h2', 'Common mistake'), h('p', it.common_mistake)] : null,
+      ex.correct ? h('button.play-btn', { type: 'button', aria: { label: `Play ${ex.hanzi}` }, onclick: () => ctx.audio.play(item) }, icon('play')) : null); })),
+    it.common_mistake ? [h('h2', 'Common mistake'), h('p', richText(it.common_mistake))] : null,
     h('h2', 'Sources'), sourceList(it.sources));
   return null;
 }

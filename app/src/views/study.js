@@ -9,7 +9,7 @@ import { h, replace, icon, zh, py, announce } from '../dom.js';
 import { studyQueue } from '../study-items.js';
 import { intervalLabel } from '../lib/srs.js';
 import { syllablesOf, stripTones } from '../lib/pinyin.js';
-import { audioButtons, markButtons, pinyinBlock, meaningList, sourceLabel } from './parts.js';
+import { audioButtons, markButtons, pinyinBlock, meaningList, sourceLabel, richText } from './parts.js';
 import { recordingSupport, createRecorder, playBuffer, playBlob, releaseAudio, describeError } from '../recorder.js';
 
 const TYPE_LABEL = { listen: 'Listen', speak: 'Speak', read: 'Characters', cloze: 'In a phrase' };
@@ -181,7 +181,7 @@ export async function render(root, ctx) {
     else {
       parts.push(h('p.meaning', item.english));
       if (item.literal) parts.push(h('p.note', `Literally: ${item.literal}`));
-      if (item.usage) parts.push(h('details.card-usage', h('summary', 'When to use it'), h('p.note', item.usage)));
+      if (item.usage) parts.push(h('details.card-usage', h('summary', 'When to use it'), h('p.note', richText(item.usage))));
     }
     parts.push(audioButtons(item, ctx));
     if (current.type === 'cloze' && clozeExample) parts.push(h('p', zh(clozeExample.hanzi), ' ', h('span.muted', clozeExample.english)));

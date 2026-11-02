@@ -2,7 +2,7 @@
 // meanings, level chips, source lists.
 
 import { h, icon, zh, py, announce } from '../dom.js';
-import { SYSTEM_LABEL } from '../data.js';
+import { SYSTEM_LABEL, refOf } from '../data.js';
 
 /** Play + slow-play buttons for an item, with the audio source named (recording or device voice). */
 export function audioButtons(item, ctx, { label = true } = {}) {
@@ -89,3 +89,21 @@ export function backLink(href, text = 'Back') {
 }
 
 export { zh, py };
+
+const REF = /\b(?:travel|family|work|grammar|pitfalls|facts|kinship)\.[a-z0-9.-]*[a-z0-9]/g;
+/** Text with references to other content ids ("see travel.taxi.rule.receipt") turned into readable links. */
+export function richText(text) {
+  if (!text) return text;
+  const out = [];
+  let last = 0;
+  for (const m of String(text).matchAll(REF)) {
+    const ref = refOf(m[0]);
+    if (!ref) continue;
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push(h('a', { href: ref.href }, ref.label));
+    last = m.index + m[0].length;
+  }
+  if (!out.length) return text;
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}

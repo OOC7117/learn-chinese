@@ -3,7 +3,7 @@
 
 import { h, replace, icon, zh, py } from '../dom.js';
 import { activeDeckList, withDeck } from '../lib/settings.js';
-import { audioButtons, markButtons, sourceList } from './parts.js';
+import { audioButtons, markButtons, sourceList, richText } from './parts.js';
 
 const SPEAKER = { me: 'You say', them: 'You hear', either: 'Either' };
 
@@ -22,8 +22,8 @@ export function phraseCard(p, ctx, { open = false } = {}) {
       h('summary', p.w?.length ? 'Words, usage, sources' : 'Usage, literal meaning, sources'),
       p.w?.length ? h('p.note.word-links', h('strong', 'HSK words: '), p.w.map((id, i) => [i ? ' · ' : '', h('a', { href: `#/word/${id}`, lang: 'zh-Hans' }, ctx.data.hanziOfId(id))])) : null,
       p.literal ? h('p.note', h('strong', 'Literally: '), p.literal) : null,
-      p.usage ? h('p', p.usage) : null,
-      p.regional_note ? h('p.note', h('strong', 'Regional: '), p.regional_note) : null,
+      p.usage ? h('p', richText(p.usage)) : null,
+      p.regional_note ? h('p.note', h('strong', 'Regional: '), richText(p.regional_note)) : null,
       p.slots?.length ? h('p.note', h('strong', 'Swap in: '), p.slots.map((s, i) => [i ? '; ' : '', zh(s.text), ` (${s.meaning})`, s.examples?.length ? [': ', s.examples.map((e, k) => [k ? ', ' : '', zh(e)])] : null])) : null,
       sourceList(p.sources)));
 }
@@ -54,12 +54,18 @@ export async function render(root, ctx) {
     head,
     h('h2', `Phrases (${scene.items.length})`),
     h('div.phrase-list', scene.items.map((p) => phraseCard(p, ctx))),
-    scene.rules?.length ? [h('h2', 'Etiquette and tips'), h('ul.rules', scene.rules.map((r) => h('li.rule',
-      h('p', h('strong', r.rule)),
-      r.why ? h('p.note', r.why) : null,
-      r.regional_note ? h('p.note', h('strong', 'Regional: '), r.regional_note) : null,
+    scene.rules?.length ? [h('h2', 'Etiquette and tips'), h('ul.rules', scene.rules.map((r) => h('li.rule', { id: `tip-${r.id}` },
+      h('p', h('strong', richText(r.rule))),
+      r.why ? h('p.note', richText(r.why)) : null,
+      r.regional_note ? h('p.note', h('strong', 'Regional: '), richText(r.regional_note)) : null,
       h('details', h('summary', 'Sources'), sourceList(r.sources)))))] : null);
-  if (location.hash.includes('#p-')) document.getElementById(location.hash.split('#p-')[1])?.scrollIntoView();
+  // A link to one phrase (?p=<id>) or tip (?tip=<id>) of this scene: show it and open its details.
+  const target = ctx.query?.p ? document.getElementById(`p-${ctx.query.p}`) : ctx.query?.tip ? document.getElementById(`tip-${ctx.query.tip}`) : null;
+  if (target) {
+    target.querySelector('details')?.setAttribute('open', '');
+    target.classList.add('is-target');
+    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  }
   return state.subscribe((e) => {
     if (e.type === 'settings') drawHead();
   });

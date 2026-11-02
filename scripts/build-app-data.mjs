@@ -251,6 +251,16 @@ function linkWords(content, items) {
   };
   for (const s of content.situations ?? []) for (const scene of s.scenes) scene.phrases.forEach(link);
   (content.kinship?.terms ?? []).forEach(link);
+  // Grammar and pitfall examples: generated clips only (ids as in scripts/generate-tts.mjs: <item>.ex<n>,
+  // counting the correct examples).
+  for (const key of ['grammar', 'pitfalls']) {
+    for (const it of content[key]?.items ?? []) {
+      it.examples.filter((ex) => ex.correct).forEach((ex, k) => {
+        const clip = ttsClip(TTS, `${it.id}.ex${k + 1}`, ex.pinyin);
+        if (clip) ex.audio = { file: `audio/${clip.file}`, speaker: `Generated voice (${clip.voice})`, source: 'Google Cloud Text-to-Speech', synthetic: true };
+      });
+    }
+  }
   return links;
 }
 

@@ -97,6 +97,10 @@ export const loadedWordCount = () => wordsById.size;
 
 let contentPromise = null;
 const contentById = new Map();
+const refs = new Map(); // content id -> { href, label }: for "see travel.taxi.rule.receipt" in texts
+const clip = (text, n = 48) => (text.length > n ? `${text.slice(0, n - 1).trimEnd()}…` : text);
+/** Where a content id (phrase, tip, term, grammar point, pitfall, fact) lives in the app, or null. */
+export const refOf = (id) => refs.get(id) ?? null;
 
 /** { situations: [{ id, title, scenes: [...] }], kinship, grammar, pitfalls, facts, dialogues } (empty parts
  * when not built yet). Phrases and kinship terms become items. */
@@ -111,17 +115,23 @@ export function loadContent() {
         scene.items = scene.phrases.map((p) => {
           const item = { kind: 'phrase', ...p, scene: scene.id, spoken: spokenPinyin(p.hanzi, p.pinyin), audio: p.audio ?? null };
           contentById.set(item.id, item);
+          refs.set(item.id, { href: `#/scene/${scene.id}?p=${encodeURIComponent(item.id)}`, label: item.hanzi });
           return item;
         });
+        for (const r of scene.rules ?? []) refs.set(r.id, { href: `#/scene/${scene.id}?tip=${encodeURIComponent(r.id)}`, label: `tip “${clip(r.rule)}”` });
       }
     }
     if (doc.kinship) {
       doc.kinship.items = doc.kinship.terms.map((t) => {
         const item = { kind: 'term', ...t, spoken: spokenPinyin(t.hanzi, t.pinyin), audio: t.audio ?? null };
         contentById.set(item.id, item);
+        refs.set(item.id, { href: '#/kinship', label: item.hanzi });
         return item;
       });
+      for (const r of doc.kinship.rules ?? []) refs.set(r.id, { href: '#/kinship', label: `tip “${clip(r.rule)}”` });
     }
+    for (const key of ['grammar', 'pitfalls']) for (const it of doc[key]?.items ?? []) refs.set(it.id, { href: `#/${key}/${encodeURIComponent(it.id)}`, label: it.title });
+    for (const f of doc.facts?.facts ?? []) refs.set(f.id, { href: '#/facts', label: clip(f.question) });
     return doc;
   })().catch((error) => {
     contentPromise = null;

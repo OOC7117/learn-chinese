@@ -49,3 +49,6 @@
 .fact summary strong { font-weight: 600; }
 .open-facts { padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.45rem; }
 .open-facts li { overflow-wrap: anywhere; }
+/* A phrase or tip opened from a link elsewhere (?p= / ?tip=) */
+.phrase.is-target, .rule.is-target { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: var(--radius); }
+.phrase, .rule { scroll-margin-top: 1rem; }

@@ -6,9 +6,9 @@
 // and pitch analysis. Without MediaRecorder (Safari before 14.1) a ScriptProcessorNode collects the raw
 // samples instead.
 //
-// Playback goes through Web Audio (an AudioBufferSourceNode), so it needs no blob: URL: the app's CSP
-// allows media from 'self' only. Only when a browser cannot decode its own recording does it fall back to
-// an <audio> element with a Blob URL, which works only if the CSP has media-src blob:.
+// Playback goes through Web Audio (an AudioBufferSourceNode), so it needs no blob: URL. Only when a browser
+// cannot decode its own recording does it fall back to an <audio> element with a Blob URL; the app's CSP
+// (app/vercel.json) allows that with media-src 'self' blob:.
 //
 // iOS Safari: the AudioContext must be created and resumed inside the tap handler, so unlockAudio() is
 // called synchronously at the start of record() and of every play; navigator.audioSession (Safari 17+)
