@@ -17,7 +17,7 @@ every source with licence and access date: [docs/SOURCES.md](docs/SOURCES.md); d
 | Dictionary check | every HSK word's pinyin compared with CC-CEDICT; 199 differences resolved one by one in [data/hsk/resolutions.json](data/hsk/resolutions.json) (incl. three typos in the official 2025 list) |
 | Audio | 7,359 native-speaker recordings (audio-cmn), used only where the file name fixes the reading; otherwise the device's Chinese voice, labelled as synthetic ([pre-generated neural audio](#audio) is one command away) |
 | Speaking | scenes for travel, family and work with sourced phrases (each linked to the HSK words in it), usage notes, etiquette tips and practice dialogues; kinship chart; record yourself and compare with the model on speak cards; tone trainer with pinyin chart, drills and an experimental pitch contour |
-| Learning | FSRS-6 spaced repetition (ts-fsrs) with retention Lighter 0.85 / Balanced 0.90 / Intensive 0.95, card types listen → speak → characters → phrase, new words paused while reviews are overdue, star (hard) and skip (known), progress per level, streak, daily goal, study time, time to the next level |
+| Learning | FSRS-6 spaced repetition (ts-fsrs) with retention Lighter 0.85 / Balanced 0.90 / Intensive 0.95, card types Chinese → English (characters, pinyin optional) → English → Chinese → phrase, with Listen as an optional extra, new words paused while reviews are overdue, star (hard) and skip (known), progress per level, streak, daily goal, study time, time to the next level |
 
 ## Layout
 
