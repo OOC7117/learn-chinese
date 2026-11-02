@@ -1,5 +1,5 @@
 // Learn Chinese service worker: after the first visit the app opens and works without a network.
-// Precache version: 0f11d6681cdd (stamped by scripts/build-sw.mjs, so every browser sees a changed worker)
+// Precache version: 18f3dfbc23ea (stamped by scripts/build-sw.mjs, so every browser sees a changed worker)
 //
 // A classic worker without libraries. Decisions (routes, cache keys, byte ranges) are in sw-logic.js and
 // tested in tests/sw.test.mjs; the list of app-shell files and their hash is generated into sw-precache.js

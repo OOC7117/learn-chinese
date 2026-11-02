@@ -10,7 +10,7 @@ export const SETTINGS_DEFAULTS = Object.freeze({
   pauseNewWhenOverdue: true, // no new words while reviews from earlier days wait
   // Card types, in the order they are introduced for each word (docs/RESEARCH.md: listen, speak, then characters).
   // Characters is off by default: with Listen + Speak, 10 new words a day settle at about 125-260 answers a
-  // day; adding Characters raises that to about 190-400 (FSRS simulation, docs/RESEARCH.md "Realistic plan").
+  // day; adding Characters raises that to about 190-400 (FSRS simulation, docs/RESEARCH.md 4.6).
   typeListen: true,
   typeSpeak: true,
   typeRead: false,

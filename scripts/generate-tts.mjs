@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Pre-generate neural audio with Google Cloud Text-to-Speech for every word and phrase that has no
-// native recording, with the reading forced where it matters (docs/RESEARCH.md "Audio"):
+// native recording, with the reading forced where it matters (docs/RESEARCH.md 2.3):
 //   - single characters and words whose characters have more than one CC-CEDICT reading are sent as
 //     SSML <phoneme alphabet="pinyin" ph="hang2">行</phoneme> built from the app's own pinyin, so the voice
 //     cannot pick the wrong reading;

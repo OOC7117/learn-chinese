@@ -4,7 +4,7 @@
 //
 // The device voice cannot be told which reading of a polyphonic character to use, so the UI labels it
 // ("device voice") and the build never uses it where the data knows a recording is ambiguous; see
-// docs/RESEARCH.md "Audio". scripts/generate-tts.mjs can replace it with pre-generated audio.
+// docs/RESEARCH.md 2.3. scripts/generate-tts.mjs can replace it with pre-generated audio.
 
 export function createAudio({ getSettings = () => ({}) } = {}) {
   const el = typeof Audio === 'function' ? new Audio() : null;

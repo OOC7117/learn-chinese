@@ -3,7 +3,7 @@
 // scripts/fetch-sources.mjs). Run: node scripts/import-hsk.mjs
 //
 // One item per (simplified characters, citation pinyin), tagged with three independent levels
-// (docs/RESEARCH.md, "Which HSK list"):
+// (docs/RESEARCH.md 1):
 //   levels.exam2025  the official 2025 HSK exam syllabus (CLEC 2025-11; first regular exam 2026-12-13): PRIMARY
 //   levels.std2021   the GF 0025-2021 standard (ivankra/hsk30)
 //   levels.hsk20     HSK 2.0 (2012 revision), "not in 2.0" = null (glxxyz/hskhsk.com)
