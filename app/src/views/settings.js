@@ -57,7 +57,7 @@ export function render(root, ctx) {
         toggle('typeCloze', 'In a phrase', 'Fill the gap in a checked phrase (when the word occurs in one)')),
       h('h2', 'Pinyin'),
       h('ul.list',
-        toggle('showPinyinOnRead', 'Show pinyin with the characters', 'On Chinese → English cards, before you reveal. Off is harder but trains reading. The answer always shows pinyin.')),
+        toggle('showPinyinOnRead', 'Show pinyin with the characters', 'On the front of Chinese → English cards. Off is harder but trains reading. The back of every card shows pinyin.')),
       h('h2', 'Audio'),
       h('ul.list',
         toggle('autoplay', 'Play audio automatically', 'On listen cards and when an answer is revealed'),

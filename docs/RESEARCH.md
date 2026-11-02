@@ -1034,7 +1034,7 @@ The best-supported practice in this research is high-variability phonetic traini
 
 Supported only indirectly: pinyin shown with tone information helps beginners learn tones ([Liu et al. 2011](https://eric.ed.gov/?id=EJ945913), [LearnLab summary](https://learnlab.org/research/wiki/index.php/Learning_a_tonal_language:_Chinese)). When to start characters was not researched with sources (**UNVERIFIED**): the research knows of a small literature on delaying characters but did not read it, and the verifier's impression is that experienced teachers disagree, some teaching speech through pinyin with characters as a separate course, others bringing characters in early (**UNVERIFIED**). Whether pinyin printed next to a character distracts from its shape is also **UNVERIFIED**.
 
-**Decision: sound first** (original design, changed in November 2026, see 4.5). Every card shows pinyin with tone marks once revealed. Characters were a separate card type, off by default; they are now the first card of every word. On that card pinyin stays hidden unless you switch it on in Settings → Pinyin or with the card's Show pinyin button ([settings.js](../app/src/lib/settings.js)). This is a design choice for the learner, not a research result.
+**Decision: sound first** (original design, changed in November 2026, see 4.5). Every card shows pinyin with tone marks once revealed. Characters were a separate card type, off by default; they are now the first card of every word. On that card pinyin shows under the characters by default and can be hidden in Settings → Pinyin, which is harder but trains reading ([settings.js](../app/src/lib/settings.js)). This is a design choice for the learner, not a research result.
 
 #### Words alone or in sentences (**UNVERIFIED**)
 

@@ -1,9 +1,11 @@
 // Study: today's spaced-repetition queue (FSRS). One card at a time:
-//   read    Chinese -> English: characters (pinyin too when the setting is on) -> meaning
-//   speak   English -> Chinese: recall the word (say it aloud if you like) -> reveal and hear the model
+//   read    Chinese -> English: characters (with pinyin unless Settings -> Pinyin hides it) -> meaning
+//   speak   English -> Chinese: recall the word (say it aloud if you like) -> turn over and hear the model
 //   listen  audio -> meaning (with an optional tone check before revealing; off by default)
 //   cloze   a verified phrase with the word blanked -> the word
-// Keyboard: Space/Enter reveal; 1-4 grade (Again, Hard, Good, Easy); R replay; S star; X skip.
+// Like a paper flashcard: tap the card (or press Space/Enter) to turn it over, and again to turn it back. The
+// grade buttons appear once the back has been seen and stay while the card is turned back and forth.
+// Keyboard: Space/Enter flip; 1-4 grade (Again, Hard, Good, Easy); R replay; S star; X skip.
 
 import { h, replace, icon, zh, py, announce } from '../dom.js';
 import { studyQueue } from '../study-items.js';
@@ -21,7 +23,10 @@ export async function render(root, ctx) {
   let bonusNew = 0;
   let current = null; // queue entry { id, itemId, type, kind, card }
   let item = null;
-  let revealed = false;
+  let revealed = false; // the back has been seen (grading is allowed from then on)
+  let flipped = false; // the back is showing now
+  let front = null; // the faces of the current card, built once so a tone check or a loaded phrase survives a flip
+  let back = null;
   let shownAt = 0;
   let firstType = new Map();
   let counts = { learning: 0, review: 0, new: 0 };
@@ -56,7 +61,11 @@ export async function render(root, ctx) {
     current = q.queue[0];
     item = q.byId.get(current.itemId);
     revealed = false;
+    flipped = false;
+    front = null;
+    back = null;
     take = null;
+    recordRow = null;
     clozeExample = null;
     shownAt = Date.now();
     draw();
@@ -86,27 +95,25 @@ export async function render(root, ctx) {
       return h('div.prompt',
         h('p.meaning', en),
         item.kind === 'phrase' && item.register && item.register !== 'neutral' ? h('span.chip', item.register) : null,
-        h('p.muted', 'What is it in Chinese? Say it out loud, then check.'),
-        recordControls());
+        h('p.muted', 'What is it in Chinese? Say it out loud, then turn the card over.'));
     }
     if (t === 'read') {
       const showPinyin = state.settings.showPinyinOnRead;
       return h('div.prompt',
         zh(item.hanzi, item.kind === 'word' ? 'big-hanzi' : 'mid-hanzi'),
         showPinyin ? py(item.pinyin, 'pinyin big-pinyin') : null,
-        h('p.muted', showPinyin ? 'What does it mean?' : 'What does it mean, and how is it read?'),
-        h('button.btn.small.pinyin-toggle', { type: 'button', aria: { pressed: String(showPinyin) },
-          onclick: () => { state.updateSettings({ showPinyinOnRead: !showPinyin }); draw(); } },
-        showPinyin ? 'Hide pinyin' : 'Show pinyin'));
+        h('p.muted', showPinyin ? 'What does it mean?' : 'What does it mean, and how is it read?'));
     }
     if (t === 'cloze') return clozePrompt();
     return h('div.prompt', zh(item.hanzi, 'big-hanzi'));
   }
 
-  // Record and compare (speak cards, optional): record yourself before revealing, then play your take and
-  // the model one after the other. The recording stays in memory on this device (src/recorder.js).
+  // Record and compare (speak cards, optional): record yourself before turning the card over, then play your
+  // take and the model one after the other. The row sits below both faces of the card, so a recording survives
+  // a flip. The recording stays in memory on this device (src/recorder.js).
   let recorder = null;
   let take = null;
+  let recordRow = null; // { wrap, draw }
   const playTake = () => (take?.buffer ? playBuffer(take.buffer) : playBlob(take?.blob));
   function recordControls() {
     if (!recordingSupport().ok) return null;
@@ -121,7 +128,7 @@ export async function render(root, ctx) {
           h('button.btn.small', { type: 'button', onclick: () => playTake() }, icon('play'), 'Mine'),
           h('button.btn.small', { type: 'button', onclick: async () => { if (await playTake()) audio.play(item); } }, icon('play'), 'Mine, then the model'),
         ] : null,
-        !live && take && !revealed ? h('span.small.muted', 'Recorded. Check to compare.') : null);
+        !live && take && !revealed ? h('span.small.muted', 'Recorded. Turn the card over to compare.') : null);
     };
     function startRecording() {
       const forCard = current?.id;
@@ -133,8 +140,7 @@ export async function render(root, ctx) {
         .catch((error) => announce(describeError(error).message))
         .finally(() => drawRecord(false));
     }
-    drawRecord();
-    return wrap;
+    return { wrap, draw: drawRecord };
   }
 
   let clozeExample = null;
@@ -191,7 +197,7 @@ export async function render(root, ctx) {
     parts.push(audioButtons(item, ctx));
     if (current.type === 'cloze' && clozeExample) parts.push(h('p', zh(clozeExample.hanzi), ' ', h('span.muted', clozeExample.english)));
     parts.push(h('a.small', { href: item.kind === 'word' ? `#/word/${item.id}` : item.kind === 'phrase' ? `#/scene/${item.scene}` : '#/kinship' }, 'Details'));
-    return h('div.answer', parts);
+    return h('div.answer.card-back', parts);
   }
 
   function gradeButtons() {
@@ -205,29 +211,53 @@ export async function render(root, ctx) {
   }
 
   function draw() {
-    const card = h('section.flashcard', { aria: { label: `${TYPE_LABEL[current.type]} card` } },
-      h('span.card-kind', `${TYPE_LABEL[current.type]}${current.kind === 'new' ? ' · new' : ''}`),
-      h('div.card-marks', markButtons(item, ctx, { onChange: () => {
-        if (state.markOf(item.id) === 'skip') {
-          announce('Skipped. Next card.');
-          next();
-        }
-      } })),
-      revealed && current.type === 'read' ? null : prompt(), // the answer repeats the characters and pinyin
-      revealed ? answerBlock() : null);
-    const actions = revealed
-      ? gradeButtons()
-      : h('button.btn.primary.reveal-btn', { type: 'button', onclick: reveal, aria: { keyshortcuts: 'Space' } }, current.type === 'speak' ? 'Show answer' : 'Reveal');
-    replace(container, header(), card, actions, h('p.note.center', 'Keys: Space reveal · 1–4 grade · R replay · S star · X skip'));
+    front ??= prompt();
+    if (flipped) back ??= answerBlock();
+    if (current.type === 'speak') {
+      recordRow ??= recordControls() ?? { wrap: null, draw: () => {} };
+      recordRow.draw();
+    }
+    const side = flipped ? 'back' : 'front';
+    const card = h(`section.flashcard.is-${side}`, {
+      tabindex: '-1',
+      aria: { label: `${TYPE_LABEL[current.type]} card, ${side}. Tap the card or press Space to turn it over.` },
+      onclick: onCardClick,
+    },
+    h('span.card-kind', `${TYPE_LABEL[current.type]}${current.kind === 'new' ? ' · new' : ''}`),
+    h('div.card-marks', markButtons(item, ctx, { onChange: () => {
+      if (state.markOf(item.id) === 'skip') {
+        announce('Skipped. Next card.');
+        next();
+      }
+    } })),
+    flipped ? back : front,
+    recordRow?.wrap ?? null,
+    h('p.flip-hint', { aria: { hidden: 'true' } }, flipped ? 'Tap to turn back' : 'Tap to turn over'));
+    replace(container, header(), card, revealed ? gradeButtons() : null,
+      h('p.note.center', 'Keys: Space flip · 1–4 grade · R replay · S star · X skip'));
+    return card;
   }
 
-  function reveal() {
-    if (revealed || !current) return;
-    revealed = true;
-    draw();
-    container.querySelector('.grades button.good')?.focus();
-    if (state.settings.autoplay && current.type !== 'listen') audio.play(item);
-    announce(`${item.hanzi}, ${stripTones(item.pinyin)}`);
+  // A tap anywhere on the card turns it over, except on its own controls (play, record, star, tone buttons,
+  // links, the usage note) and when the tap ended a text selection.
+  function onCardClick(event) {
+    if (event.target.closest('button, a, summary, details, input, select, textarea, label, .record-row, .tone-check, .card-marks, .audio-row')) return;
+    if (String(globalThis.getSelection?.() ?? '')) return;
+    flip();
+  }
+
+  function flip() {
+    if (!current) return;
+    flipped = !flipped;
+    const first = flipped && !revealed;
+    revealed ||= flipped;
+    const card = draw();
+    card.classList.add('turning');
+    card.focus({ preventScroll: true }); // keep the focus on the card, so Space turns it again
+    if (first) {
+      if (state.settings.autoplay && current.type !== 'listen') audio.play(item);
+      announce(`${item.hanzi}, ${stripTones(item.pinyin)}`);
+    } else announce(flipped ? 'Back of the card' : 'Front of the card');
   }
 
   function grade(g) {
@@ -260,10 +290,10 @@ export async function render(root, ctx) {
     if (event.target.closest('input, textarea, select, [contenteditable], dialog') || event.metaKey || event.ctrlKey || event.altKey) return;
     if (!current || document.querySelector('dialog[open]')) return;
     const key = event.key.toLowerCase();
-    if ((key === ' ' || key === 'enter') && !revealed) {
+    if (key === ' ' || key === 'enter') {
       if (event.target.closest('a, button, summary')) return; // the focused link or button does its own thing
       event.preventDefault();
-      reveal();
+      if (!event.repeat) flip();
     } else if (revealed && GRADE_KEYS[key]) {
       event.preventDefault();
       grade(GRADE_KEYS[key]);
