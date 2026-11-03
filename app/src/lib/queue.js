@@ -21,7 +21,7 @@ export const DEFAULT_QUEUE = Object.freeze({
   dayStartHour: 4, // a study day runs from 04:00 to 04:00 local time
   // docs/RESEARCH.md 4: pause new words while reviews are overdue, so a missed day does not snowball.
   pauseNewWhenOverdue: true,
-  bonusNew: 0, // extra new items the learner asked for now ("Learn 5 more new"); not paused
+  bonusNew: 0, // extra new items the learner asked for now ("Keep learning new words", in batches); not paused
 });
 
 /** Start of the study day containing `now` (local time, `hour` o'clock). */

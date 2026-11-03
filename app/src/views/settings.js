@@ -46,7 +46,7 @@ export function render(root, ctx) {
         number('dailyGoal', 'Daily goal (answers)', null, { min: 5, max: 1000 }),
         number('reviewLimit', 'Maximum reviews per day', 'Overdue cards wait; nothing is lost.', { min: 10, max: 2000 }),
         retentionSetting(),
-        toggle('pauseNewWhenOverdue', 'Pause new words while reviews are overdue', 'After a missed day you catch up first, so the daily load does not snowball. “Learn 5 more new” still works.')),
+        toggle('pauseNewWhenOverdue', 'Pause new words while reviews are overdue', 'After a missed day you catch up first, so the daily load does not snowball. “Keep learning new words” still works.')),
       h('h2', 'Card types'),
       h('p.small.muted', 'Introduced one at a time per word, in this order, on different days.'),
       h('ul.list',

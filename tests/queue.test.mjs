@@ -328,7 +328,7 @@ test('new words pause while reviews from earlier days are in the queue, and retu
   q = buildQueue({ items: single('a', 'b', 'c'), srs, now: NOW, settings: { pauseNewWhenOverdue: false } });
   assert.equal(q.paused, false);
   assert.equal(q.counts.new, 2);
-  // "Learn 5 more new" (bonusNew) still gives new words while paused.
+  // "Keep learning new words" (bonusNew) still gives new words while paused.
   q = buildQueue({ items: single('a', 'b', 'c'), srs, now: NOW, settings: { bonusNew: 1 } });
   assert.equal(q.paused, true);
   assert.equal(q.counts.new, 1);

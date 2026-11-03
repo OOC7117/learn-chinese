@@ -1106,11 +1106,11 @@ Not yet: the app does not lay out the first two weeks as a tone course or remind
 
 | Setting | Default | Why, and what you can change |
 | --- | --- | --- |
-| New words a day | 10 | The scheduler research suggested 5 for a beginner in short phone sessions (about 50 to 65 reviews and roughly 15 minutes a day after a year). The app uses 10: in the model, 10 with Listen + Speak means about 17 minutes a day after a month and 35 after a year, and all HSK 4 words met in 200 days instead of 400 (4.6). If that is too much time, set 5. FSRS works as well with 5 as with 50 new cards a day ([Anki documentation](https://github.com/ankitects/anki.git)), so this is a workload choice only. "Learn 5 more new" adds extra words on a given day. |
+| New words a day | 10 | The scheduler research suggested 5 for a beginner in short phone sessions (about 50 to 65 reviews and roughly 15 minutes a day after a year). The app uses 10: in the model, 10 with Listen + Speak means about 17 minutes a day after a month and 35 after a year, and all HSK 4 words met in 200 days instead of 400 (4.6). If that is too much time, set 5. FSRS works as well with 5 as with 50 new cards a day ([Anki documentation](https://github.com/ankitects/anki.git)), so this is a workload choice only. "Keep learning new words" adds extra words on a given day, five at a time, until you leave the study page. |
 | Card types | Listen, Speak and In a phrase on; Characters off but available | speaking and listening first; Characters adds about half again as many answers |
 | Desired retention | 0.90 | 4.3 |
 | Maximum reviews a day | 300 | overdue cards wait for the next day; nothing is lost |
-| Pause new words while reviews are overdue | on | after a missed day you catch up first, so the load does not snowball; "Learn 5 more new" still works |
+| Pause new words while reviews are overdue | on | after a missed day you catch up first, so the load does not snowball; "Keep learning new words" still works |
 | Daily goal | 50 answers | shown as today's answers against the goal on Home and Progress; the streak counts every day with at least one answer ([stats.js](../app/src/lib/stats.js), [home.js](../app/src/views/home.js)) |
 | Active decks | HSK 1, 2 and 3 of the 2025 syllabus | change them under Decks |
 | Study day | 04:00 to 04:00 | study after midnight, until 04:00, still counts for the day before |
