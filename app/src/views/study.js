@@ -6,7 +6,10 @@
 // The English side shows the dictionary glosses without the Chinese cross-references inside them
 // (lib/english.js); the characters, pinyin, usage notes and literal glosses are on the word's Details page.
 // Like a paper flashcard: tap the card (or press Space/Enter) to turn it over, and again to turn it back. The
-// grade buttons appear once the back has been seen and stay while the card is turned back and forth.
+// grade buttons appear once the back has been seen and stay while the card is turned back and forth. Turning
+// is drawn first and the sound starts just after it, so quick taps back and forth are never held up by audio.
+// After the day's new words, "Keep learning new words" keeps adding new words in batches of NEW_BATCH, without
+// asking again, for as long as the page stays open.
 // Keyboard: Space/Enter flip; 1-4 grade (Again, Hard, Good, Easy); R replay; S star; X skip.
 
 import { h, replace, icon, zh, py, announce } from '../dom.js';
@@ -19,17 +22,20 @@ import { recordingSupport, createRecorder, playBuffer, playBlob, releaseAudio, d
 
 const TYPE_LABEL = { read: 'Chinese → English', speak: 'English → Chinese', listen: 'Listen', cloze: 'In a phrase' };
 const GRADE_KEYS = { 1: 'again', 2: 'hard', 3: 'good', 4: 'easy' };
+const NEW_BATCH = 5;
 
 export async function render(root, ctx) {
   const { state, audio, query } = ctx;
   const deckId = query.deck || null;
   let bonusNew = 0;
+  let keepLearning = false; // the learner asked for more new words today: top up without asking again
   let current = null; // queue entry { id, itemId, type, kind, card }
   let item = null;
   let revealed = false; // the back has been seen (grading is allowed from then on)
   let flipped = false; // the back is showing now
   let front = null; // the faces of the current card, built once so a tone check or a loaded phrase survives a flip
   let back = null;
+  let grades = null; // the grade buttons of the current card (their intervals are computed once)
   let shownAt = 0;
   let firstType = new Map();
   let counts = { learning: 0, review: 0, new: 0 };
@@ -46,6 +52,12 @@ export async function render(root, ctx) {
     let q;
     try {
       q = await studyQueue(ctx, { deckId, bonusNew });
+      // Keep learning: when the extra new words are used up, add the next batch straight away. If the decks
+      // have no unseen words left, the queue stays as it is.
+      if (keepLearning && q.counts.new === 0 && !disposed) {
+        bonusNew += NEW_BATCH;
+        q = await studyQueue(ctx, { deckId, bonusNew });
+      }
     } catch (error) {
       replace(container, h('div.panel', h('h2', 'Could not load your decks'), h('p', String(error.message ?? error)), h('a.btn', { href: '#/' }, 'Home')));
       return;
@@ -67,12 +79,16 @@ export async function render(root, ctx) {
     flipped = false;
     front = null;
     back = null;
+    grades = null;
     take = null;
     recordRow = null;
     clozeExample = null;
     shownAt = Date.now();
     draw();
-    if (state.settings.autoplay && current.type === 'listen') audio.play(item);
+    if (state.settings.autoplay) {
+      if (current.type === 'listen') audio.play(item);
+      else audio.prefetch(item); // ready when the card is turned over
+    }
   }
 
   function header() {
@@ -251,7 +267,8 @@ export async function render(root, ctx) {
     flipped ? back : front,
     recordRow?.wrap ?? null,
     h('p.flip-hint', { aria: { hidden: 'true' } }, flipped ? 'Tap to turn back' : 'Tap to turn over'));
-    replace(container, header(), card, revealed ? gradeButtons() : null,
+    if (revealed) grades ??= gradeButtons();
+    replace(container, header(), card, revealed ? grades : null,
       h('p.note.center', 'Keys: Space flip · 1–4 grade · R replay · S star · X skip'));
     return card;
   }
@@ -273,7 +290,16 @@ export async function render(root, ctx) {
     card.classList.add('turning');
     card.focus({ preventScroll: true }); // keep the focus on the card, so Space turns it again
     if (first) {
-      if (state.settings.autoplay && current.type !== 'listen') audio.play(item);
+      // The sound starts after this tap has been handled, so the turned card shows at once; it keeps playing
+      // while the card is turned back and forth. (A timer started inside the tap still counts as part of the
+      // tap for the browsers' autoplay rules.)
+      if (state.settings.autoplay && current.type !== 'listen') {
+        const forCard = current;
+        const said = item;
+        setTimeout(() => {
+          if (current === forCard && !disposed) audio.play(said);
+        }, 0);
+      }
       announce(chineseBack() ? `${item.hanzi}, ${stripTones(item.pinyin)}` : englishText(2));
     } else announce(flipped ? 'Back of the card' : 'Front of the card');
   }
@@ -296,10 +322,10 @@ export async function render(root, ctx) {
         h('h2', answered ? 'Done for now' : 'Nothing due right now'),
         h('p', answered ? `You answered ${answered} card${answered === 1 ? '' : 's'}.` : 'All cards of your active decks are up to date.'),
         nextIn ? h('p.muted', `Next learning card in about ${nextIn}. This page shows it when it is due.`) : null,
-        q.paused ? h('p.note', `New words are paused: ${q.overdue} overdue ${q.overdue === 1 ? 'review waits' : 'reviews wait'} beyond today's limit. Catch up first (or raise the limit in Settings); “Learn 5 more new” still works.`) : null,
+        q.paused ? h('p.note', `New words are paused: ${q.overdue} overdue ${q.overdue === 1 ? 'review waits' : 'reviews wait'} beyond today's limit. Catch up first (or raise the limit in Settings); “Keep learning new words” still works.`) : null,
         q.total === 0 ? h('p', 'No active decks yet. ', h('a', { href: '#/decks' }, 'Choose decks to study')) : null,
         h('div.row.center-row',
-          h('button.btn.primary', { type: 'button', onclick: () => { bonusNew += 5; next(); } }, 'Learn 5 more new'),
+          h('button.btn.primary', { type: 'button', onclick: () => { keepLearning = true; bonusNew += NEW_BATCH; next(); } }, 'Keep learning new words'),
           h('a.btn', { href: '#/tones' }, 'Tone practice'),
           h('a.btn', { href: '#/speak' }, 'Speaking scenes'))));
   }

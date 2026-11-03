@@ -14,6 +14,13 @@ export function createAudio({ getSettings = () => ({}) } = {}) {
   let voicesCache = [];
   const listeners = new Set();
   let playing = null; // { id, kind: 'file' | 'tts' }
+  const warmed = new Set(); // recordings already fetched ahead (prefetch)
+
+  // speechSynthesis calls are a synchronous round trip to the speech service on some devices (iOS): only
+  // cancel when something is queued or speaking, so a tap that starts a recording stays cheap.
+  const quietSynth = () => {
+    if (synth && (synth.speaking || synth.pending)) synth.cancel();
+  };
 
   const notify = () => {
     for (const fn of listeners) fn(playing);
@@ -45,7 +52,7 @@ export function createAudio({ getSettings = () => ({}) } = {}) {
       el.pause();
       el.removeAttribute('src');
     }
-    if (synth) synth.cancel();
+    quietSynth();
     if (playing) {
       playing = null;
       notify();
@@ -54,7 +61,7 @@ export function createAudio({ getSettings = () => ({}) } = {}) {
 
   function speak(text, { slow = false, id = null } = {}) {
     if (!synth || !Utterance) return Promise.resolve(false);
-    synth.cancel();
+    quietSynth();
     const u = new Utterance(text);
     u.lang = 'zh-CN';
     const voice = pickVoice();
@@ -78,7 +85,7 @@ export function createAudio({ getSettings = () => ({}) } = {}) {
 
   async function playFile(file, { slow = false, id = null } = {}) {
     if (!el) return false;
-    if (synth) synth.cancel();
+    quietSynth();
     el.pause();
     el.src = file;
     el.playbackRate = slow ? getSettings().slowRate ?? 0.7 : 1;
@@ -118,6 +125,14 @@ export function createAudio({ getSettings = () => ({}) } = {}) {
         // Offline and not cached: fall back to the device voice.
       }
       return speak(item.hanzi ?? item.text ?? '', { slow, id: item.id ?? null });
+    },
+    /** Fetch an item's recording ahead of time (through the service worker, which saves it), so playing it
+     * when the card is turned over starts without waiting for the network. Once per file; errors ignored. */
+    prefetch(item) {
+      const file = item?.audio?.file;
+      if (!file || warmed.has(file) || typeof fetch !== 'function') return;
+      warmed.add(file);
+      fetch(file).then((r) => r.arrayBuffer()).catch(() => warmed.delete(file));
     },
     playFile,
     speak,
